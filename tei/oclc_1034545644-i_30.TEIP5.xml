@@ -1,14 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?>
-<tei:TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
-   <teiHeader xmlns="http://www.tei-c.org/ns/1.0"
-              xmlns:dc="http://purl.org/dc/elements/1.1/"
-              xmlns:html="http://www.w3.org/1999/xhtml"
-              xmlns:opf="http://www.idpf.org/2007/opf"
-              xmlns:xd="http://www.pnp-software.com/XSLTdoc">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><tei:TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:xd="http://www.pnp-software.com/XSLTdoc">
       <fileDesc>
          <titleStmt>
             <title>مجلة «الزهور» المصرية</title>
@@ -51,9 +42,7 @@
                                 </publisher>
                                 <pubPlace>
                                     <placeName change="#d5e42" ref="oape:place:226 geon:360630" xml:lang="ar">القاهرة</placeName>
-                                    <placeName change="#d5e42"
-                                   ref="oape:place:226 geon:360630"
-                                   xml:lang="ar-Latn-x-ijmes">al-Qāhira</placeName>
+                                    <placeName change="#d5e42" ref="oape:place:226 geon:360630" xml:lang="ar-Latn-x-ijmes">al-Qāhira</placeName>
                                     <placeName change="#d5e42" ref="oape:place:226 geon:360630" xml:lang="en">Cairo</placeName>
                                 </pubPlace>
                                 <!-- this is seems to be the first issue -->
@@ -65,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
@@ -74,18 +63,15 @@
       </revisionDesc>
    </teiHeader>
    <tei:text xml:lang="ar">
-      <pb xmlns="http://www.tei-c.org/ns/1.0"
-          n="n3-p457"
-          ed="shamela"
-          corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1566.xhtml"/>
+      <pb n="n3-p457" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1566.xhtml"/>
       <tei:body>
          <tei:div change="#d2e64" type="item">
-            <head xmlns="http://www.tei-c.org/ns/1.0">العدد 30</head>
+            <head>العدد  <tei:num type="auto-markup" change="#d2e181" value="30" xml:lang="ar">٣٠</tei:num> </head>
             <tei:p change="#d2e73"> - بتاريخ: <date when="1913-01-01">1913-01-01</date> </tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">
-            <head xmlns="http://www.tei-c.org/ns/1.0">العام الجديد</head>
-            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+            <head>العام الجديد</head>
+            <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>صدَّ عني ولا عجَبْ</tei:seg> 
                   <tei:seg>كلُّ شيءٍ لهُ سببْ</tei:seg>
@@ -141,11 +127,8 @@
                   <tei:seg>أم خلافاً بهِ العطَبْ</tei:seg>
                </tei:l>
             </lg>
-            <pb xmlns="http://www.tei-c.org/ns/1.0"
-                n="n3-p458"
-                ed="shamela"
-                corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1567.xhtml"/>
-            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+            <pb n="n3-p458" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1567.xhtml"/>
+            <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>أترى الترك أم عُدا</tei:seg> 
                   <tei:seg>تهمُ تكسبُ الغلّبْ</tei:seg>
@@ -237,97 +220,70 @@
                </tei:l>
             </lg>
             <tei:p change="#d2e73">الياس فياض
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p459"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1568.xhtml"/>
+<pb n="n3-p459" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1568.xhtml"/>
 
 
             </tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">
-            <head xmlns="http://www.tei-c.org/ns/1.0">المرأة المترجلة</head>
+            <head>المرأة المترجلة</head>
             <tei:p change="#d2e73">الرجل المتأنث كالمرأة المترجّلة: كلاهما متصنع لا يطاق! وددت احتقار زيد فقلت زيد امرأة , وشئت تكريم هند فقلت هندٌ رجل. أنا أحتقر الرجل إذا تأنث وإكراهه جهدي , وأعتبر قليلاً المرأة إذا ترجَّلت ولكنني أكرهها كثيراً. للرجولية أخلاق , وللأنوثة أخلاق وكل خلُق حسن في صاحبه. القوة تستَحب في الرجل , والضعف يستملح في المرأة. فإن تعدّت القوة إلى النساء فسدت , وإن تخطَّى الضعف إلى الرجال كان ذلاً! المرأة إذا ترجلت خير من الرجل إذا تأنث. هي تطمع بأن يكون لها شرف الرجولية. وأما هو فليكون له ماذا؟ ولكنه لأيسر في نظري أن يتأنث الرجل من أن تترجل المرأة. الويل كل الويل من الضعيف إذا قدر , والمظلوم إذا احتكم. ليس الشرَ في أن يتحول الذئب إلى حمل , ولكن الشرّ كل الشرّ في أن تصير النعجة ذئباً. وليس الرجل ذئباً من طبعهِ ولكن المرأة إذا ترجلت تحوَّل ضعفها إلى شراسة فكانت شرّ الذئاب! هي مخلوقة ضعيفة لا تفهم معنى القوة فإذا وجدَت القوة اتخذَتها سلاحاً ذا حدَّين! قبيح في الرجل الضعف , وأقبحُ منه القوة في المرأة. التصنّع في
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p460"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1569.xhtml"/>
+<pb n="n3-p460" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1569.xhtml"/>
 
 
 الأخلاق كالترقيع في الأثواب. تالله أن التصنّع والتكلّف لا يحتملان ولو كانا من المشخصين أنفسهم وهم على المسرح! كرهتُ الرجل يدّعي لنفسهِ ما لغيره لأنني لا أحب الرياء. ولكنني إذا أدهشني الرياء في الرجل لأنهُ حادثٌ فيهِ , فليس يدهشني الرياء في المرأة لأنهُ خلُقٌ فيها. ذلك أن الصدق من طبائع القوة والكذب مع القوة , ويجيء الصدق مع الضعف فيكون مجال للدهشة حينئذٍ. وإن شرّ ما ولَّده الضعف الفطري في المرأة الكبرياء والدعوى! ألا ترى أن الضعيف تسهتويه القوة فيريدها لنفسه فلا يستطيعها , فيتطلبها بالوهم لباطل؟ أوَ ليست الكبرياء والدعوى مجرد توهم في الإنسان للقوة والفضل؟ الكبرياء في المرأة الرذائل فيها , والإدعاء أقبح خلالها. والكبرياء في الرجل رذيلة ولكنه ليس شرّ الرذائل فيه , والإدعاء ضعف وخلل فيهِ ولكنهُ ليس بالضعف والخلل الأعظمين. قد يتكبر الرجل ويكثر من الإدعاء ولكن قوته تجيز له هاتين الخليتين وتستر عليهِ قبحهما بعض الستر. أما المرأة فلست أرى فيها ما يجيز لها الكبرياء ويسامحها على الدعوى إلاَّ إذا استجزنا ضعفها واستسمحناه وحينئذٍ تظهر فيها بشاعة هاتين الرذيلتين بكل مظاهرها المستقبحة!
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p461"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1570.xhtml"/>
+<pb n="n3-p461" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1570.xhtml"/>
 
 
 خيرٌ لك أن تعادي امرأة تحب منك التملق وتتطلبه لنفسها من أن تتملَّقها. شرّ خطأ يرتكبه الإنسان أن يتملق المرأة؛ لأن المرأة على ضعفها ورغبتها في</tei:p>
             <tei:p change="#d2e73">القوة تتناسى التملق وتحسبه حقيقةً واقعية وثناءً صحيحاً فتكون حينئذٍ كالمهرة الجموح لا تردّها شكيمة , ولا يُمسك بها رسن! أحسنتِ يا سيدتي! ولكنه لأهون عليك لو قطعت لسانك وكسرت قلمك فلم تقل لها هاتين الكلمتين. إن البرهان في التجربة لو شئت! هذّب المرأة على معرفة نفسها فذلك خير مؤدب لها , أولاً فكن أصمّ فلا تسمع , وأحمق فلا تفهم. المرأة كالقلعة أعدى أعدائها في داخلها. إذا هي قويت على المؤثرات الخارجية فلن تقوى على عواطفها الداخلية. وأنهُ لأيسر على قلعة يحاصرها العدو أن تتجيَّش عليها الجيوش حواليها , من أن يخونها جنديٌّ واحد في داخلها. المرأة لا تستطيع أن تكون قاضياً لأن عواطفها تتغلب دائماً على عقلها. لا تسألها العدل فإنها لا تستطيعه. قلبها الذي يحكم , وعقلها الذي يطيع! عبثاَ تحاول منها أن تكون غير ذلك!
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p462"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1571.xhtml"/>
+<pb n="n3-p462" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1571.xhtml"/>
 
 
             </tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">
-            <head xmlns="http://www.tei-c.org/ns/1.0">تاريخ الجندية العثمانية</head>
+            <head>تاريخ الجندية العثمانية</head>
             <tei:p change="#d2e73">كانت نظارة المعارف العمومية في الآستانة قد أدخلت في برنامج المدرسة الملكية العليا - قبل تسعة عشر عاماً - درس قانون التجنيد واختارت لتفسيره وتدريسه المرحوم رفيق بك مانياسي زاده الذي صار في زمن الدستور وزيراً للعدلية والمذاهب ثم توفاه الله إليه. وهذا الفصل مقدمة لتلك الدروس وهو يتناول تاريخ الجندية العثمانية نقله إلى العربية صديقنا الكاتب الفاضل محب الدين أفندي الخطيب:</tei:p>
             <tei:p change="#d2e73">لم تكن أمور الجندية في أوائل سلطنة آل عثمان مؤسسة على أساس متين , وإنما كان أفراد الأمة القادرون على معاناة الحرب والنضال يتقلدون أسلحتهم يوم الزحف ويتقدمون للدفاع عن الدين والوطن. وكانت الجنود في عهد السلطان عثمان مؤسس السلطنة وفي عهد أرطغرل والده تسمى فرساناً لأنهم كانوا يؤدون وظيفة الجندية يومئذٍ ركباناً. وكان السلطان عثمان ينشر المنادين في المدن والقرى عندما تصحُّ عزيمته على الحرب , فينادي هؤلاء بالناس إلى دارة الإِمارة. ومع ذلك فقد كان ثمة - غير هؤلاء المتطوعين - عساكر خاصة وأتباع ورؤساء يوجدون دائماً حيث يوجد مركز الحكومة. وبعد سنة من استيلاء مجاهدي الإسلام على مدينة بروسه أصبحت هذه المدينة عاصمةً , وصار للحكومة العثمانية مكانة خاصة بين ملوك الطوائف. وهذا ما حمل العمانيين على العناية بوضع للإدارة وسن القوانين التي لا بد منها للسير في مضمار الحضارة والارتقاء. وكان في جملة ذلك أن نالت الجندية ونظاماتها حظّاً من هذه العناية , فتولى الوزير المدبر علاء الدين باشا أخو السلطان أورخان اختيار الأقوياء من أبناء الترك وخصهم بمقدار كاف من العلف وعهد إلى قره خليل الشندرلي وهو قاضي بلاجك إن يزيد في عدد الجند وتنظيمه. أما مولانا القاضي خليل فقد بذل همةً فائقة في هذا السبيل , حتى كثر عدد هؤلاء الأبطال , فرتب لكل واحد منهم مرتباً يومياً بقيمة أقجة ربع درهم شرعي تعطى لهم إبان الحرب حتى إذا انقضت قطع العلف اليومي عنهم وإذن لهم
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p463"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1572.xhtml"/>
+<pb n="n3-p463" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1572.xhtml"/>
 
 
 بالعودة إلى أشغالهم الخاصة. ومن هذا يستدلّ على أن الجنود كانوا مكلفين بوظيفة الجندية لمدة غير محددة. أخذ يزداد عدد هؤلاء الجنود وهم فريق المشاة ثم كثرت وظائفهم فدفعهم الطمع المركوز في فطرة البشر إلى ما أفسد نظامهم , فخطر للسلطان حينئذٍ أن يؤسس جنده على طراز آخر , لا سيما وقد تبين أن خروج هؤلاء الجنود المشاة عن طاعة السلطان نتيجة طبيعة لنظامهم القاضي بأن لا</tei:p>
-            <tei:p change="#d2e73">يكونوا جنوداً موظفين تماماً , بل هم نوع من الجند المأجور للخدمة في زمن الحرب ليس إلاّ. ولما تداول رجال الدولة في هذا الأمر وضع قرة خليل الشندرلي لائحةً قال فيها أن استقلال العثمانيين يظلُّ مهدداً بالخطر ما دام الجيش مؤلفاً من التركمن الرومانيين ومن هؤلاء المشاة. وهو يرى أن خير دواء لهذا الداء أن يؤخذ من الفتيان المسيحيين الذين دخلوا في الرعاية العثمانية مقدار ألف شاب في بضع سنوات وتصرف لهم علف وتعينات كافية باسم وظائف الحضر والسفر. فوقع اقتراح قرة خليل من رجال الدولة أسن وقع. وعلى هذا سنوا نظام دويشرمهْ للوصول إلى هذه الغاية. قضى نظام الدويشرمهْ بأن تأخذ الدولة في كل سنة ما استطاعت من الأطفال المسيحيين وأن تعني بتربيتهم وتهذيبهم إلى أن يبلغوا سنّ التجنيد , وعندئذٍ يرسلون إلى الثكنة العسكرية في العاصمة , ويُصرف لكل واحد منهم في كل يوم أقجة واحدة ربع درهم شرعي. وقد اقترح الحاج بكتاش ولي أجد رجال الصوفية على السلطان أورخان أن يطلق على هؤلاء اسم يني شري بمعنى الجندي الجديد فأجاب السلطان مقترحة. ذلك هو أصل الجنود الانكشارية وهذا سبب تسميتهم بهذا الاسم. ولم تكن أوروبا يومئذ قد ابتدأت بتأسيس الجندية النظامية , إذ أن فرنسا نظمت جيش لمشاة في زمن شارل السابع سنة 1447م وأطلقت عليهم اسم فرنك أرتير في حين أن العثمانيين نظموا جيش الانكشارية سنة 1326م. وعلى هذا
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p464"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1573.xhtml"/>
+            <tei:p change="#d2e73">يكونوا جنوداً موظفين تماماً , بل هم نوع من الجند المأجور للخدمة في زمن الحرب ليس إلاّ. ولما تداول رجال الدولة في هذا الأمر وضع قرة خليل الشندرلي لائحةً قال فيها أن استقلال العثمانيين يظلُّ مهدداً بالخطر ما دام الجيش مؤلفاً من التركمن الرومانيين ومن هؤلاء المشاة. وهو يرى أن خير دواء لهذا الداء أن يؤخذ من الفتيان المسيحيين الذين دخلوا في الرعاية العثمانية مقدار ألف شاب في بضع سنوات وتصرف لهم علف وتعينات كافية باسم وظائف الحضر والسفر. فوقع اقتراح قرة خليل من رجال الدولة أسن وقع. وعلى هذا سنوا نظام دويشرمهْ للوصول إلى هذه الغاية. قضى نظام الدويشرمهْ بأن تأخذ الدولة في كل سنة ما استطاعت من الأطفال المسيحيين وأن تعني بتربيتهم وتهذيبهم إلى أن يبلغوا سنّ التجنيد , وعندئذٍ يرسلون إلى الثكنة العسكرية في العاصمة , ويُصرف لكل واحد منهم في كل يوم أقجة واحدة ربع درهم شرعي. وقد اقترح الحاج بكتاش ولي أجد رجال الصوفية على السلطان أورخان أن يطلق على هؤلاء اسم يني شري بمعنى الجندي الجديد فأجاب السلطان مقترحة. ذلك هو أصل الجنود الانكشارية وهذا سبب تسميتهم بهذا الاسم. ولم تكن أوروبا يومئذ قد ابتدأت بتأسيس الجندية النظامية , إذ أن فرنسا نظمت جيش لمشاة في زمن شارل السابع سنة  <tei:num type="auto-markup" change="#d2e181" value="1447" xml:lang="ar">١٤٤٧</tei:num> م وأطلقت عليهم اسم فرنك أرتير في حين أن العثمانيين نظموا جيش الانكشارية سنة  <tei:num type="auto-markup" change="#d2e181" value="1326" xml:lang="ar">١٣٢٦</tei:num> م. وعلى هذا
+<pb n="n3-p464" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1573.xhtml"/>
 
 
 فالعثمانيون سبقوا أوروبا إلى تأسيس الجيش النظامي بأكثر من مائة سنة. ونحن نرى مؤرخي أوروبا يعزون شرف تأسيس الجنود النظامية الدائمة إلى شارل السابع مع أن العثمانيين أجدر بأن يعزى إليهم هذا الشرف , ولا ندري كيف نوفق بين ذلك وبين أنصاف هؤلاء المؤلفين. كان عدد الجنود الجديدة قليلاً فاضطرَّ رجال الدولة إلى تجنيد الأسراء ومع ذلك فقد ظلَّ الجيش ناقصاً فأكل عددُه بالتبعة المسلمين. أما الأسراء والأطفال المسيحيون فكانوا يسمون الغلمان الجهلة. وقد اعترض هذا المشروع في بدايته بعض عوارض وذلك أن القسس جعلوا يبثون في النفوس ما أحدث الضغينة بين المسيحيين المتجندين ولكن هذا لم يلبث أن زال أثره بارتقائهم في درجات الوظائف العالية وبالإنصاف الذي كانوا يعاملون بهِ حتى دعي ذلك إلى إقبال الجميع على التجند وأصبحت الحكومة في غنى عن متابعة سيرها في مشروع الدويشرمه وأحدثت في جنديتها صفاً جديداً سمتهُ صف المتطوعين.</tei:p>
             <tei:p change="#d2e73">سار الانكشاريون بنظام من مبتدأِ أمرهم إلى يوم جلوس السلطان محمد الفاتح للمرة الأولى. ولما عاد السلطان من وقعة وارنه الكبرى وارتقى عرش السلطنة للمرة الثانية أخذ الرعب من خليل باشا مأخذه لأنهُ كان سبب استقالة السلطان من الملك. فأخذ خليل باشا يدس الدسائس في صفوف الانكشاريين , ويحثهم على التمرد والعصيان , فكان ذلك مدعاةً لشرور ومفاسد كثيرة. وأول شيء توسلوا به للمجاهرة بالتمرد والعصيان مطالبتهم السلطان محمد الفاتح بالإحسان بقشيش على أثر وفاة السلطان مراد الثاني وجلوس لسلطان الفاتح وذلك بعد حرب القرمان. حاول السلطان الفاتح والسلطان سليم والسلطان وغيرهم من المصلحين الذين قلما تظفر الأمم في كل زمان بأمثالهم أن يعيدوا روح النظام إلى هذا الجيش الذي ما حارب إلاّ ظفر , ولكن ذهبت عبثاً كل مساعيهم وظلَّ الشر والفساد ممزوجاً بتلك الشجاعة والهمم. وكذا ظلّ الانكشاريون يجنون ثمار النصر في
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p465"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1574.xhtml"/>
+<pb n="n3-p465" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1574.xhtml"/>
 
 
-الحروب فيزيدون في شرف دولتهم ومجدها. ويحدثون القلائل والفتن الداخلية في زمن السلم فيضعون بنين البلاد. ولما كان عهد السلطان محمود الثاني بلغت الروح التراق وجاوز الحزام الطيبين فأدرك السلطان إن لم يبقَ لوجود هذا الجيش فائدة تذكر وكان قد أحس منذ كان وليَّ العهد بمسيس الحاجة إلى جيش معلّم فشرع سنة 1241 بتأليف جيش دعه اشكنجي وأبلى في هذا السبيل بلاءً حسناً ثم نجح في محو اسم الانكشارية من الجود , أولئك هم الانكشاريون الذين رفعوا مجد الدولة إلى هام العلى وأسمى الذرى ثم دخل بينهم خليط من السفلة والأدنياء فأفسدوا تربيتهم وبدلوهم من النظام اضطراباً ومن الطاعة والامتثال تمرداً وعصياناً فتجاوزوا حدودهم وطوحوا بالبلاد إلى مهاوي الهلكة ومدارج الانحلال حتى أدركهم السلطان محمود لثاني فدمرهم وأنقذ البلاد من شرورهم. وسنّ قانوناً جديداً كان مقتضاه إن جمعت جنود جديدة باسم العساكر المحمدية المنصورة وكان السلطان جديراً إن يدعى باسم مجدد القوانين العثمانية.</tei:p>
-            <tei:p change="#d2e73">ولما جلس السلطان عبد المجيد على سرير الملك أيد مشروع أبيه بنصّ الخط. السلطاني الذي قريء في الكلخانة وكان فيما جاء عن الجندية في الخط السلطاني 00غن طريقة الجندية حتى الآن لم يكن يلاحظ فيها عدد نفوس كل بلدة بل يطلب للجندية من بعض البلاد ما يزيد عن درجة احتماله ومن البعض الآخر أقلّ مما يجب , وهذا أمر ينافي العدل من</tei:p>
+الحروب فيزيدون في شرف دولتهم ومجدها. ويحدثون القلائل والفتن الداخلية في زمن السلم فيضعون بنين البلاد. ولما كان عهد السلطان محمود الثاني بلغت الروح التراق وجاوز الحزام الطيبين فأدرك السلطان إن لم يبقَ لوجود هذا الجيش فائدة تذكر وكان قد أحس منذ كان وليَّ العهد بمسيس الحاجة إلى جيش معلّم فشرع سنة  <tei:num type="auto-markup" change="#d2e181" value="1241" xml:lang="ar">١٢٤١</tei:num>  بتأليف جيش دعه اشكنجي وأبلى في هذا السبيل بلاءً حسناً ثم نجح في محو اسم الانكشارية من الجود , أولئك هم الانكشاريون الذين رفعوا مجد الدولة إلى هام العلى وأسمى الذرى ثم دخل بينهم خليط من السفلة والأدنياء فأفسدوا تربيتهم وبدلوهم من النظام اضطراباً ومن الطاعة والامتثال تمرداً وعصياناً فتجاوزوا حدودهم وطوحوا بالبلاد إلى مهاوي الهلكة ومدارج الانحلال حتى أدركهم السلطان محمود لثاني فدمرهم وأنقذ البلاد من شرورهم. وسنّ قانوناً جديداً كان مقتضاه إن جمعت جنود جديدة باسم العساكر المحمدية المنصورة وكان السلطان جديراً إن يدعى باسم مجدد القوانين العثمانية.</tei:p>
+            <tei:p change="#d2e73">ولما جلس السلطان عبد المجيد على سرير الملك أيد مشروع أبيه بنصّ الخط. السلطاني الذي قريء في الكلخانة وكان فيما جاء عن الجندية في الخط السلطاني  <tei:num type="auto-markup" change="#d2e181" value="0" xml:lang="ar">٠</tei:num> غن طريقة الجندية حتى الآن لم يكن يلاحظ فيها عدد نفوس كل بلدة بل يطلب للجندية من بعض البلاد ما يزيد عن درجة احتماله ومن البعض الآخر أقلّ مما يجب , وهذا أمر ينافي العدل من</tei:p>
             <tei:p change="#d2e73">جهة ويضرَّ في شؤون الزراعة والتجارة من جهة ثانية , وفوق ذلك فإن استخدام فريق من الناس في الجندية طول العمر يبعث في نفوسهم الملل واليأس وينتج قلة النسل - من أجل ذلك تفضلنا بإبطال هذه الطريقة العميقة والجري بعد الآن على طريقة خير منها يكون من شأنها أن يطلب للجندية من كل بلدة مقدار معين لزمن معين. ولهذا تفضلن في هذا الخط السلطاني بوضع طريقة القرعة العسكرية وسننا لذلك نظامات خاصة
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p466"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1575.xhtml"/>
+<pb n="n3-p466" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1575.xhtml"/>
 
 
-ولما كان الدفاع عن الدين والذبّ عن حياض الدولة فريضة على كل مسلم صحيح الجسم فقد أصبح من المحتم على كل من أصابتهُ لقرعة من المسلمين المقيمين في البلاد العثمانية أن يطيع أمر لنظام ويدخل في سلك الجندية , إلاّ من كانت لهم موانع شرعية أو امتيازات خاصة. يتبين من هذا أن فريضة الدفاع عن الدين والوطن خاصة بالأفراد المسلمين وأما المسيحيون المتوطنون في بلاد السلطنة والمتجنسون بجنسيتها فقد أسقطت عنهم فريضة الجندية في مقابل ضريبة خاصة معينة يدفعونها باسم البدل العسكري وأكثر الدول المتمدنة اتخذت طريقة القرعة في جنديتها بعد تاريخ قراءة ذلك الحين في مدارج الإصلاح والتعديل وأهم هذه الإصلاحات النظام الذي أعلن يوم 27 صفر سنة 1304 فإن بذلك بلغت جنديتنا ارتقاءها الحاضر.</tei:p>
+ولما كان الدفاع عن الدين والذبّ عن حياض الدولة فريضة على كل مسلم صحيح الجسم فقد أصبح من المحتم على كل من أصابتهُ لقرعة من المسلمين المقيمين في البلاد العثمانية أن يطيع أمر لنظام ويدخل في سلك الجندية , إلاّ من كانت لهم موانع شرعية أو امتيازات خاصة. يتبين من هذا أن فريضة الدفاع عن الدين والوطن خاصة بالأفراد المسلمين وأما المسيحيون المتوطنون في بلاد السلطنة والمتجنسون بجنسيتها فقد أسقطت عنهم فريضة الجندية في مقابل ضريبة خاصة معينة يدفعونها باسم البدل العسكري وأكثر الدول المتمدنة اتخذت طريقة القرعة في جنديتها بعد تاريخ قراءة ذلك الحين في مدارج الإصلاح والتعديل وأهم هذه الإصلاحات النظام الذي أعلن يوم  <tei:num type="auto-markup" change="#d2e181" value="27" xml:lang="ar">٢٧</tei:num>  صفر سنة  <tei:num type="auto-markup" change="#d2e181" value="1304" xml:lang="ar">١٣٠٤</tei:num>  فإن بذلك بلغت جنديتنا ارتقاءها الحاضر.</tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">
-            <head xmlns="http://www.tei-c.org/ns/1.0">خطرات</head>
+            <head>خطرات</head>
             <tei:p change="#d2e73">لكار من سيلفا - ملكة رومانيا الحالية</tei:p>
             <tei:p change="#d2e73">المرأة الساقطة تنتظر إلى المرأة الشريفة كما تنظر إلى المرأة التي تربطها شناعة خَلقها فهي لو حطّمتها.</tei:p>
             <tei:p change="#d2e73">كثرة الكلام تذهب بجوهر الأفكار وما تبرح تحوّل ذهبها إلى دراهم زائفة حتى يظهر صاحبها فقيراً ويقرب من مغزاه في العربية المثلث السائر: إذا كان الكلام من فضة فالسكوت من ذهب)</tei:p>
             <tei:p change="#d2e73">العقل كالملِك يسكن كوخاً , فإن مجرَّد وجوده يحوّل ذلك الكوخ إلى قصر</tei:p>
             <tei:p change="#d2e73">الديانات أوحت الفن ولكنه قلما كان أصحاب الفنون قديسين!
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p467"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1576.xhtml"/>
+<pb n="n3-p467" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1576.xhtml"/>
 
 
             </tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">
-            <head xmlns="http://www.tei-c.org/ns/1.0">في رياض الشعر</head>
+            <head>في رياض الشعر</head>
             <tei:p change="#d2e73">الملك المظلوم</tei:p>
             <tei:p change="#d2e73">هدية إلى الفاضلة البرنسيس الكسندر أفيرينوه فيزنيومكا</tei:p>
-            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+            <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>مكانك الأفقُ فما أنزَلكْ</tei:seg> 
                   <tei:seg>بُدلِتَ عنهُ الأرض أمْ بَدَّلتْ</tei:seg>
@@ -393,11 +349,8 @@
                   <tei:seg>كمْ تشتكي أنتَ وأبكي أنا!!</tei:seg>
                </tei:l>
             </lg>
-            <pb xmlns="http://www.tei-c.org/ns/1.0"
-                n="n3-p468"
-                ed="shamela"
-                corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1577.xhtml"/>
-            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+            <pb n="n3-p468" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1577.xhtml"/>
+            <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>قدْ نفدَ الدَّمعُ فهلْ للغمامْ</tei:seg> 
                   <tei:seg>كدمعي إن زاد فيهِ الهيامْ</tei:seg>
@@ -451,7 +404,7 @@
             <tei:p change="#d2e73">ولي الدين يكن</tei:p>
             <tei:p change="#d2e73">صدى نشيد نهر الصفا</tei:p>
             <tei:p change="#d2e73">نشرنا في الجزء الماضي من الزهور شعراً منثوراً للكاتبة الفاضلة مي عنوانه نشيد نهر الصفا وفي الأبيات التالية صدى لذلك النشيد لشاعر ليس أنين الصفا بأحن من أنينه:</tei:p>
-            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+            <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>هلْ دَرَتْ ميُّ واللآليءُ تجري</tei:seg> 
                   <tei:seg>بحفيفِ النسيمِ بين الغصونِ</tei:seg>
@@ -477,11 +430,8 @@
                   <tei:seg>لبلادٍ حتى انتهت في الصين</tei:seg>
                </tei:l>
             </lg>
-            <pb xmlns="http://www.tei-c.org/ns/1.0"
-                n="n3-p469"
-                ed="shamela"
-                corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1578.xhtml"/>
-            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+            <pb n="n3-p469" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1578.xhtml"/>
+            <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>هاجها شجوُ أُخته وهي تُصغي</tei:seg> 
                   <tei:seg>لأنينِ الأرواحِ ريّاً الجفونِ</tei:seg>
@@ -509,7 +459,7 @@
             </lg>
             <tei:p change="#d2e73">غَيلان</tei:p>
             <tei:p change="#d2e73">هدية رأس سنة</tei:p>
-            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+            <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>جذبتني يومَ الخميسِ وقالتْ</tei:seg> 
                   <tei:seg>بعد يومين. . . قلتُ إنيَ أدري</tei:seg>
@@ -571,15 +521,12 @@
                </tei:l>
             </lg>
             <tei:p change="#d2e73">بشارة الخوري
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p470"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1579.xhtml"/>
+<pb n="n3-p470" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1579.xhtml"/>
 
 
 السيف والقلم والمحراث</tei:p>
             <tei:p change="#d2e73">كان محمد توفيق أفندي علي ضابطاً في الجيش المصري وهو شاعر من أكابر الشعراء فكان إذا خلا لنفسه من مهام الجندية استيقظ الشاعر الرقيق في صدر الجندي الباسل , وحلّ القلم في يمينه محل السيف فنظم تلك الدرر التي كان يهديها إلى الزهور ففي السودان آثر جنديته وفي الزهور آثار شاعريته. ولقد جاءنا منه أنه استعفي من الجيش وانقطع إلى مزرعة له مؤثراً صحبة المحراث على صحبة السيف والقلم فكتبنا إليه نستطلع أمره فكان جوابه أبيات الآتية:</tei:p>
-            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+            <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>لا السيفُ في مصر يرضيني ولا القلمُ</tei:seg> 
                   <tei:seg>كلاهما في يمين الحرِّ منثلمُ</tei:seg>
@@ -661,14 +608,11 @@
                </tei:l>
             </lg>
             <tei:p change="#d2e73">محمد توفيق علي
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p471"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1580.xhtml"/>
+<pb n="n3-p471" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1580.xhtml"/>
 
 
 أُولاه وأُخراه</tei:p>
-            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+            <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>ويَلي لحالة صبٍّ شطّ مغناهُ</tei:seg> 
                   <tei:seg>عن الأحبة لا بل ألف ويلاهُ</tei:seg>
@@ -756,69 +700,51 @@
             </lg>
             <tei:p change="#d2e73">بغداد</tei:p>
             <tei:p change="#d2e73">كاظم الدجيلي
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p472"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1581.xhtml"/>
+<pb n="n3-p472" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1581.xhtml"/>
 
 
             </tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">
-            <head xmlns="http://www.tei-c.org/ns/1.0">في جنائن الغرب</head>
+            <head>في جنائن الغرب</head>
             <tei:p change="#d2e73">الحرب</tei:p>
             <tei:p change="#d2e73">عن الفيلسوف جوزيف دي مستر</tei:p>
             <tei:p change="#d2e73">نرى في ميدان الطبيعة قوةً غريبة كأنها غضبٌ محتوم يُسلط جميع المخلوقات على بعضها بعض , حتى حكم الموت مكتوباً على حدود الحياة كلها. فإذا أغفلنا الجماد رأيناه يبتدئ بالنبات , ويتناول أصغر عشبة تنبت إلى أكبر شجرةً تنمو. كم غصن ذوى وكم زهرة ذبلت. . . . غير أنه يتجلى هذا الحكم في الحيوان في أفظع حقائقه كأنَّ هناك دافعاً خفيّاً ظهرت نتيجته مشيرة إلى أصل الحياة بوسائط قاسية. فهي كل طائفة من طوائف الحيوان عددٌ يفترس قويّها ضعيفها. ففي بين حشرات تقتنص , وزخَّافات تبتلع , وطيور جارحة , وذوات أربع كاسرة , بحيث لا تمرّ برهةٌ إلاَّ قتَل حيوانٌ حيواناً.
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p473"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1582.xhtml"/>
+<pb n="n3-p473" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1582.xhtml"/>
 
 
 فالحيوان أرقى من النبات , والإنسان أرقى الحيوان. وهو لا يغفل واحدة منها. لأنه يقتل ليأكل , ويقتل ليلبس , ويقتل ليتزّين , ويقتل مهاجماً , ويقتل مدافعاً , ويقتل متعلماً , ويقتل لاعباً , ويقتل قاتلاً. . . . ملكٌ عظيم غاشم لا شيء يسدّ عوزه , ولا شيء يقف أمامه. تراه قد أحصى مقدار الزيت الذي يستخرج من رأس الحوت , ثم تراه قد شكّ بإبرته هذه الفراشة الجميلة الذي اقتنصها بإصبعه وهي طائرة , يحنّط التمساح ويسجن الطير , ويحزن الحية ذات الأجراس في ماءٍ يحفظها لأعين المفرّجين , وإذا ركب جواده ليصيد النمر كان سرج جواده من جلد ذلك النمر؛ يأخذ أمعاءَ الخرفان ليشدّها أوتاراً على قيثارة طربه؛ وينتزع أضالع الحوت فيصنع منها مشداً لخصر الفتاة العذراء. ويستعمل عظام الذئب آلاتٍ تتقاضاها صناعاته , ويجعل نيوب الفيل ألعوبةً لولده الصغير. أن مكاتبه لحافلة بأشلاء قتلاه. غير أن الفيلسوف الذي يتتبع هذه الحوادث لابد له من التطلع إلى حيث تنتهي في هذا الكون العظيم. إذ لم يبقَ فوق الحيوان إلاَّ الإنسان وليس غير الإنسان من ينفّذ هذا الناموس عليهِ. نعم إن الإنسان موكَّل بقتل الإنسان , ولكن كيف يتم ذلك وهو مخلوق ملؤه الحب والشفقة , يبكي مصائب قريبه كما يبكي مصائبه , ويخترع خرافاتٍ لنفسهِ لكي يبكي. . . كيف يتم ذلك وقد قيل له أنهُ يُسأل عن آخر قطرة من الدم المهزوق ظلماً الحرب كافلة هذا الحكم الرهيب. ألا تسمعون الأرض تهدر ظامئةً طالبةً شرب الدماء؟. .</tei:p>
             <tei:p change="#d2e73">لا تشفي أوارها دماء الحيوان ولا دماء
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p474"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1583.xhtml"/>
+<pb n="n3-p474" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1583.xhtml"/>
 
 
 المجرمين الذين ماتوا بسيف الأحكام. ولو أن عدل البشر قضى على الكل لما بقي مجالٌ للحرب ولكنها لا تطول إلاَّ عدداً نزراً لعلّها تهمله في أكثر الأحايين وهي لا تدري أن إنسانيتها الفظيعة تدعو إلى لزومية الحرب. الأرض لا تصرخ عبثاً. هذه الحرب قد أنقذت نارها وتطاير شرارها فإذا بالإنسان قد تناوله غضبٌ إلهي بعيدٌ عن الحقد والغضب البشري فمشى إلى ساحة القتال لا يدري ماذا يفعل ولا ماذا يريد. وهنا اللغزُ المعقَّد. إذ أن الذي يفعله الآن مباين لطبيعته ولكنهُ يفعله مستلذاً مطيعاً. ألا ترون أن الإنسان في ساحة الوغى لا يعصى لكبيره أمراً. هل حدَّثنا التاريخ أن جنوداً شقوا على قائدهم عصا الطاعة ولو كان ذلك القائد من أكبر شرَّاب الدماء والقوم الظالمين. لا شيء يقف في سبيل تلك القوة التي تدفع الإنسان إلى الحرب فيصبح قائلاً وهو بريء لأنهُ آلة تسيّرُها يدٌ رهيبة فيقع في المهواة التي احتفرها لنفسه قائلاً مقتولا وهو لا يشكّ أنه هو الذي صنع الموت. . . وهكذا تنفذ تلك الشريعة الهائلة في الحشرات وفي الإنسان وتبقى الأرض هيكلاً عظيماً لا تفتر إراقة الدماء على مذبحهِ بلا رحمة ولا شفقة منذ البدء إلى انقضاء العالم وموت الموت. . .</tei:p>
             <tei:p change="#d2e73">خليل شيبوب</tei:p>
             <tei:p change="#d2e73">المغفرة دليلُ عدم الاهتمام والاكتراث. إذا وُجد الحب الحقيقي يجب أن لا توجد المغفرة.</tei:p>
             <tei:p change="#d2e73">كارمن سيلفا
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p475"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1584.xhtml"/>
+<pb n="n3-p475" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1584.xhtml"/>
 
 
             </tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">
-            <head xmlns="http://www.tei-c.org/ns/1.0">عيد الميلاد</head>
+            <head>عيد الميلاد</head>
             <tei:p change="#d2e73">للكاتب الأميركي الشهير وشنطون أرفنغ</tei:p>
             <tei:p change="#d2e73">لست أشعر بيقظة العواطف الشجية في فؤادي , وثورة الذكرى بين جوانحي عندما نحتفلُ بالأعياد مثلما أشعر بها حينما تبدو طوالع عيد الميلاد. إخال أن في هذا العيد جاذباً علويّاً يجتذب الايئدة إلى هياكل الشعور والتأمل , ويطير بالنفوس إلى فراديس المسرّات حيث تحلّق في أجواء الملذات الروحية وتتمتع باستكانتها إلى العقائد الدينية. أي شيء أعظم تأثيراً ووقعاً في النفوس , وأسرع نفوذاً إلى أوتار القلوب , واستيلاءَ على الأفكار من ترنيم تلك الأنشودة الملكية المنبعثة من أرجاء الهيكل يتوهم الكثيرون مجرد تمتيع الجثمان بلذيذ الأطعمة وجديد الثياب ونفيس الحلي. إن للعيد غاية أسمى من هذه. للعيد معنى نبيل رمى به واضعوه إلى تجديد المودة وربط قلوب الشعوب بأسباب المحبة وتوثيق عرى الفرابة بين الأسر , والصداقة بين الأصحاب التي فصمتها يد المصائب وعبثت بها عواصف الحياة , فيجتمع البنون حول موقد والديهم , ويلتئم شمل الأصحاب حول موائد بعضهم بعض ويصطبغ الجميع بصبغة العيد. ومما جعل لعيد الميلاد مزيةً وميزةً خصوصيةً على غيره هو أن
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p476"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1585.xhtml"/>
+<pb n="n3-p476" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1585.xhtml"/>
 
 
 الفصل الذي يقع فيهِ فصل شتاء , فنحن في ما سوى ذلك من الفصول الثلاثة نستعد أغلب مسراتنا من محاسن الطبيعة - من نضارة الربيع وجمال الصيف وجلال الخريف حيث كلٌّ من اخضرار المروج وتغريد الطيور وسكينة الطبيعة تستفزُّ منا كوامن السرور , وتفتح في قلوبنا ينابيع منهُ , أما فصل الشتاء حيث الطبية ملتحفة بأكفانها البيضاء , مستسلمة إلى سبات الموت إلى يوم تبعث في الربيع , حيث قد تقلصت الأيام وتمددت الليالي , وأكمدَّت أنوار الغزالة ونضبت عيون السرور منا نشعر بحاجتنا إلى الاجتماعات ونميل إلى المعاشرة لنولّد من نفوسنا سروراً لنفوسنا , فتصبوا القلوب إلى القلوب وتشترك العواطف مع العواطف لمباثَّة الإحساسات الرقيقة وتمتزج الأرواح بالأرواح ويتعهدها سيّال الحب فتتمّ الألفة وتتركب عناصر السعادة المشتركة , كما تتألف العناصر الطبيعية وتساعد حرارة نار الشتاء مع تمديد الصدور المنقبضة وإضاءة الثغور ببرق الابتسام وصقل غضون الجباه بمكواة الانشراح , ثم يستهوي الكرم الجميع فيفتح كلٌّ منزله للضيوف , وصدره للأحباب. بين هتاف الجذلين , وضوضاء</tei:p>
             <tei:p change="#d2e73">المغتبطين , وحفيف أرواح الحب , أيُّ فؤادٍ لا يجب جموداً , وأي صدرِ لا تنفتح أريحيته؟ أجل ليس فصل الشتاء الوقت الملائم لإيقاظ العواطف السامية وإضرام نار القرى في البيوت فقط , بل لإِشغال جذوة الإحسان في القلوب أيضاً. أنا وإن كنت نائياً عن موطن آبائي , غريباً في هذه الأصقاع , لا يضمني منزل والد آوي فيهِ إلى ناره. ولا تصافحني كفُّ قريب , أو
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p477"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1586.xhtml"/>
+<pb n="n3-p477" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1586.xhtml"/>
 
 
 يرحّب بي صديق فحسبي بهجة العيد التي تنفذ إلى أعماق نفسي وطلعات الذين حولي السعيدة التي تُدخل فيَّ مجرى السعادة وتجعلني أشعر كأني بين أهلي وخلاَّني , لأنه حقيقةً كما يقال أن السعادة عاطفة قابلة الانعكاس كأشعة السماء , فكل محيا يطفح ابتساماً وكل طلعةٍ تفيض حباً وابتهاجاً هي كمرآةٍ تعكس إلى وجوه الآخرين أشعة السعادة وأضواء الهناء , ومن يحوّل وجهه عن الاشتراك بفرح المعيدين وينزوِ كالحاً في عزلته تستولِ عليهِ السوداء فيضطّر أن يطيب نفساً ويفرح مع المحتفلين ليتمَّ مهرجان العيد. كان أسلافنا في خالي الأحقاب يحتفلون بالعيد احتفالاً شائقاً , ويرصدون من معدات الطرب وصنوف الملاهي ما يضاعف دواعي السرور أما اليوم أعظم أبهة وفخامة , ولكنها أقلُّ مجلبة للسرور وأنقص مورداً للطرب لأن قانون الاجتماع يذهب برونقها وأصفاد العادات تغلُّ القلوب فلا تستطيع وثوباً من الفرح , ومع ذلك فعيد الميلاد في كل زمان ومكان لا يخلو من جاذبيةٍ وبهجة وحبور.</tei:p>
             <tei:p change="#d2e73">بدرى فركوح</tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">
-            <head xmlns="http://www.tei-c.org/ns/1.0">في حسناء اسمها وردة</head>
-            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+            <head>في حسناء اسمها وردة</head>
+            <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>وردة الروضِ قد تعيشُ قليلاً</tei:seg> 
                   <tei:seg>ثمَّ تُبلى أوراقُها بالذُّبولِ</tei:seg>
@@ -830,31 +756,22 @@
                </tei:l>
             </lg>
             <tei:p change="#d2e73">شبلي ملاط
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p478"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1587.xhtml"/>
+<pb n="n3-p478" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1587.xhtml"/>
 
 
             </tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">
-            <head xmlns="http://www.tei-c.org/ns/1.0">طربوشي بنتوفلي</head>
+            <head>طربوشي بنتوفلي</head>
             <tei:p change="#d2e73">لاحظت منذ أيام أن صبيَّ مزيّني يُطيل النظر في طربوشي أثناء تنظيفه. فتأكدتُ أن هذا الطربوش أصبح غير لائق لأن تتوَّج بهِ هامتي فأبدلتهُ بآخر فصار لديَّ طربوشان. فلبستُ الجديد ووضعتُ القديم ناحية للانتفاع بهِ في يوم ماطر , أو سفر شاق , أو مظاهرة حادة. ولكن لم تمض أيام ثلاثة حتى تقلَّص ظلُّ أملي في الطربوش القديم إذ قدّم لي من قماشهِ الصفيق العتيق بنتوفلي من أفخر ما صنع عمال الأحذية.</tei:p>
             <tei:p change="#d2e73">إذاً أصبح طربوشي حذائي!!</tei:p>
             <tei:p change="#d2e73">فوقفتُ أمامه نحو نصف ساعة وكلما مددت قدماً للبسه أحسست بانكماش في أصابعي. لأنني مع اشتراكيتي التامة لم أرض لأول وها إن تتساوى قدماي برأسي. ولبثتُ طول النهار ولا شاغل لي غير الطربوش وتحوّله الفجائي إلى بنتوفلي وحدَّثت نفسي في أمره غيرَ مرّة فرأيت أنه لا بأس في أن أنتعله لأنه ربما كانت قدماي أنفع وأشرف من رأسي , بل أن رأسي يملّي عليَّ ما يؤذيني ويضرّ غيري. أما قدماي فبالعكس لا ضرر منهما ولا نفع لأحد. وإذا كنت أظن أن قدميَّ لا تستحقان العناية فإنني وأهم لأن الناس على اختلاف طبقاتهم ينفقون على جزمهم سواء في أثمانهم أو في تنظيفها
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p479"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1588.xhtml"/>
+<pb n="n3-p479" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1588.xhtml"/>
 
 
 أضعاف أضعاف ما يصرفونه على طرابيشهم. بل منهم من يضع في جيبه قطعةً من الصوف وأحياناً علبة ورنيش ينظف بها من حين إلى ولو بين آخر - إخوانه وأصدقائه - حذاءه الضيّق اللماع. ثم إن الرأس ولقدم في درجة من الأهمية واحدة سواء في ما ورد عنهما في الكتب المنزلة أو أقوال أساطين الحكمة والشعر والفلسفة. وكما يبدي المرء استحسانه أو استقباحه لشيء ما برأسه فإنهِ يبديهما أيضاً بقدميه. وربما كانت حركات القدمين أفعل في النفوس والعيون. وقد ذكَّرتني المسألة بأمر ذي شأن خطير. فقد كنت قبلاً تمتلئ عيناي بهجة وحبوراً بمشاهدة الحسان وقد كللنَ رؤوسهنَّ بأفخر صنوف البرانيط. أما الآن فإنني أفضل النظر إلى أقدامهنَّ وحركاتها وسكناتها على التطلع إلى رؤوسهنَّ سواء كانت عارية أو مغطاة لتأكدي أن شعور أغلبهنَّ عيرة. فتلك الجدائل والضفائر والحلقات المصقولة والمنحنيات المجعدة بل كل ما تراه من الشبكات والعقصات مشترًى من السوق وتختفي تحته قطع من اللبَّاد يغمض الكثيرون عيونهم عند ما يلمحونها على طاولة التوالَيتْ. ومهما اجتهد امرؤ في تزيين قدميه والعناية بحذائه فإن عمله لا يؤثر في غيره تأثير قلنسوات الشعور وشعور</tei:p>
             <tei:p change="#d2e73">قضاة الانكليز في بلادهم بعقول السذّج وعامة الشعب. وأضفت إلى هذا كله أنهُ لولا الأقدام ومساعيها الخيرية لما كانت الرؤوس وفائدتها الأدبية. فالعناية بالإقدام طيبّاً وذوقيّاً وأبيا أسٌّ لحماية
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p480"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1589.xhtml"/>
+<pb n="n3-p480" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1589.xhtml"/>
 
 
 الرؤوس. حتى أن الأميريكيّ مهما كان فقيراً معدماً يلبس برنيطة على قدر الحال ويصرف آخر سنت في جيبه على تنظيف جزمتهِ بالورنيش والبويه والبنزين والشمع. وهكذا أخذت أتدَّبر كل هذه النظريات وأقارنها بعضها ببعض وأخيراً قررت ما يأتي:</tei:p>
@@ -866,29 +783,23 @@
             <tei:p change="#d2e73">توفيق حبيب</tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">
-            <head xmlns="http://www.tei-c.org/ns/1.0">الحقد</head>
+            <head>الحقد</head>
             <tei:p change="#d2e73">مقل الحقد في القلب إذا لم يجد محركاً مثل الجمر المكنون إذا لم يجد حطباً. فليس ينفكُّ الحقد متطلعاً إلى العلل كما تبتغي النار الحطب. فإذا وجد علة استعرَ فلا يطفئه حسنُ كلامٍ ولا لينٌ ولا رفقٌ ولا خضوع ولا تصرعٌ ولا مصانعة ولا شيء دون تلف الأنفس وذهاب الأرواح.</tei:p>
             <tei:p change="#d2e73">ابن المقفع
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p481"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1590.xhtml"/>
+<pb n="n3-p481" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1590.xhtml"/>
 
 
             </tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">
-            <head xmlns="http://www.tei-c.org/ns/1.0">مستقبلنا</head>
+            <head>مستقبلنا</head>
             <tei:p change="#d2e73">إذا كان قد ذهب عصر الأنبياء الذين كانوا يعرفون المستقبل بقوة الوحي , فإن في عصرنا رجالاً ينظرون إلى مصير الإنسانية بعين بصيرتهم النيرة , فيقولون ما نحن صائرون إليهِ على قاعدة سنن العمران. وقد جمعنا لقراء الزهور في مطلع العام الجديد شيئاً من أقوال هؤلاء المفكرين يتم عن رأيهم في مستقبل المجتمع الإنساني: إذا نظرنا إلى أطوار التاريخ يظهر لنا جليّاً أن تأثير الجهل والرذيلة يضعف على التمادي كلما تقدمنا في تاريخ الإنسانية. فالهيئات الاجتماعية تزداد نظاماً بل فضيلة , ومجموع الخير يكثر ومجموع الشرّ ينقص كلما ازددنا معرفة بالحقائق.</tei:p>
             <tei:p change="#d2e73">العالم برتلو</tei:p>
             <tei:p change="#d2e73">عندما يقال أن الترقي سنَّة من سنن التاريخ لا يقصد من ذلك أن هناك قوة لازمة تولّد الإصلاح من مرور الأزمان. إن الإنسان في كل زمانٍ ومكان قد أراد إصلاح أرمه فترَّقى من الإصلاح الذاتي إلى فكرة الإصلاح العام. فالترقي متوقف على الإِرادة وحدها. على أنه إذا رسخ في الأذهان يوماً ما مبدأ فلسفي قائل بتلاشي قوة الإرادة فالمدنية حينئذ تتباطأ في سيرها وتتثافل ثم تقفز</tei:p>
             <tei:p change="#d2e73">الكاتب جورج بيكوت</tei:p>
             <tei:p change="#d2e73">قصيرة هي حياة بلادٍ لا يُشيَّد بناؤها على أساس التقدّم المادي الذي هو ثمرة الاقتصاد , ونتيجة النشاط والإِقدام في الأشغال , والاجتهاد المتواصل في ميدان الحركة الصناعية. على أنهُ لم تبلغ أمةٌ من الأمم إلى اليوم العظمةَ الحقيقية باعتمادها فقط على تقدّمها المادّي؛ ولذلك فإنه يجب الاعتراف بفضل الذين كوّنوا ترقي الأمة سواءً كانوا من الذين اشتغلوا بعقولهم أو بأيديهم في هذا السبيل</tei:p>
             <tei:p change="#d2e73">روزفلت
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p482"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1591.xhtml"/>
+<pb n="n3-p482" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1591.xhtml"/>
 
 
 هو ذا قد وُلدت في هذا الجيل دولة جديدة تضطرُّ أوروبا آجلاً أو عاجلاً أن تحسب لها حسابها حتى في الشؤون أوروبية نفسها. مَن تراه يقول لنا أنه لا يأتي يوم نكون فيه مجتمعين للمداولة في مسئلة من نوع المسئلة الكريتية مثلاً فيفاجئنا من أقصى البحر أميرال ياباني محتماً علينا إشراكه معنا في المداولة؟؟</tei:p>
@@ -900,10 +811,7 @@
             <tei:p change="#d2e73">عيب الهيئة الاجتماعية في حالتها الحاضرة مغالاتها في مبدأ المركزية. ومهمَّة اليوم مهمة استعداد لا مهمة قتال. أن نظام الديمقراطية الحقيقية لا يتأتي عن تسلط رجلٍ أو ملك أو مجلس نيابي أو زعيم أو حزب , ولكنهُ يتأتى عن تقدم طبيعي في طوائف الاجتماع بعد أن تتمتع بكامل استقلالها. فالمركزية اليوم تضغط على هذا الاستقلال وتقيد هذا الترقي فيجب نسخها بتاتاً</tei:p>
             <tei:p change="#d2e73">بول بونكور</tei:p>
             <tei:p change="#d2e73">إذا كان الإنسان يقضي شيخوخته في التحسُّر على الماضي بعد أن أفنى شبابه في الأمل بالمستقبل , فلا شك في أن خير أيامه ليس ذلك
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p483"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1592.xhtml"/>
+<pb n="n3-p483" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1592.xhtml"/>
 
 
 اليوم الغابر الذي لا يُرَدّ , ولا ذلك اليوم الآتي الذي لا يُعرف , بل هو هذا اليوم الحاضر سواء كان جوّه صافياً أو متلبداً بالغيوم</tei:p>
@@ -913,69 +821,51 @@
             <tei:p change="#d2e73">ملكيو ردي فوكيه</tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">
-            <head xmlns="http://www.tei-c.org/ns/1.0">فؤادي والذكرى</head>
+            <head>فؤادي والذكرى</head>
             <tei:p change="#d2e73">أيها القلب الشجي! يا لها طرفة من الأغاني قد أثارت كامن وجدك فما هو إلاّ سجع البلابل ونوح الحمائم هاجا ذكرى لوعتك. أيها القلب الشجي! ما هو إلاّ مغرب الشمس ومطلع البدر , بل ما هي إلاّ الزهرة الساطعة تذكرك ماضياً زاهراً , بل كوكباً تألق في صفحة حياتك , ثم توارى بحُجُب المغرب تحدوه نظراتُ الأسى القاتل. أيها القلب الشجي! ما هي إلاَّ زهرة جافة في كتابٍ حرَّكتْ
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p484"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1593.xhtml"/>
+<pb n="n3-p484" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1593.xhtml"/>
 
 
 ساكن ذكراك , وجعلتك تتنزي تنزي الأطيار وقد رابها شبحا الصياد. أيها القلب الشجي! ما هي إلاَّ دمعة الألم تعقبها ابتسامة الأمل , وما هي إلاَّ ذكرى الماضي يشوبها رجاءٌ ضعيف في المستقبل , بل ما هو إلاَّ الحال وكأنه فردوس من حلو الأماني وسط سياج من مرّ الواقع , بل ما هو إلاَّ اليأس المميت قد كاد يرديك. فأخفق أيها القلب واضرب ضربات الحياة , ولكن حياة الإِباء حياة الأمل , أو فاسكن سكون الموت سكون العدم سكون الفناء , بل اسكن الرمس وعليك في الحالتين سلام. أيتها الذكرى! أنتِ يا بنت الم , وشقيقة الأمل. تسكنين مسارح الخيال , وتعشقين حفيف الأشجار , وتغريد الأطيار؛ تتخللين النغمات وتلازمين النفحات؛ يحتويك خرير الماء ويحملك نسيم الخلاء , فكأنكِ الشعر في صوره وجمال الطبيعة في أبهى مظاهرهِ. أمرجعةٌ أنتِ عهداً سجلتهُ أيدي الوفاء , ومحتهُ أكفُّ الجفاء؟ عهداً تذكره الأطيار في أوكارها والكواكب في بروجها؟ تتحدث بهِ الظباء في مسارحها والآساد في آجامها؟ عهداً أشهد عليهِ الغدير والماء السلسبيل , والأطيار والأقمار , والمغرب والمشرق , والشمال والجنوب , والزهور والرياحين , ونهر المجرة وتباشير الصباح؟ كلا أيتها الذكرى فما أنتِ بمرجعة الماضي , ولا مكررة صورَ الحياة:</tei:p>
             <tei:p change="#d2e73">أقصر فؤادي فما الذكرى بنافعة=ولا بمرجعة بعضَ الذي كانا</tei:p>
             <tei:p change="#d2e73">شبين الكوم</tei:p>
             <tei:p change="#d2e73">أمين حمدي
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p485"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1594.xhtml"/>
+<pb n="n3-p485" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1594.xhtml"/>
 
 
             </tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">
-            <head xmlns="http://www.tei-c.org/ns/1.0">رواية</head>
+            <head>رواية</head>
             <tei:p change="#d2e73">يوليوس قيصر</tei:p>
             <tei:p change="#d2e73">لشكسبير</tei:p>
             <tei:p change="#d2e73">تعريب سامي أفندي الجريديني</tei:p>
-            <tei:p change="#d2e73">أضفنا إلى هذا الجزء من الزهور 16 صفحة زيادة عن الصفحات المقررة لكل جزء , حتى نتمكن من الاتيان على تتمة رواية يوليوس قيصر؛ وذلك إجابة إلى رغبة جمهور كبيرٍ من قرَّائنا - ولا سيما طلبة البكالوريا منهم - لأن الترجمة التي نشرها الزهور جاءت أكبر معوانٍ لهم على تفهُّم الأصل الانكليزي المقرَّر لامتحان هذا العام , فلم نشأ أن نؤخرها عنهم , وقصدنا الأول خدمة ناشئنا الراقية المتعلمة. وقد لاقت هذه الرواية رضى القرَّاء التام؛ ولا عجب فهي من تأليف نابغة واضعي الروايات التمثيلية. أما ترجمتها العربي فهي من خير ما أخرجتهُ الأقلام من حيث الانطباق التام على الأصل مع متانة في التركيب , وانسجام في الأسلوب؛ وبلاغة في التعبير. ولقد جاء الثناء العام على هذه الترجمة وتقدير الأدباء لها خير تقريظ لحضرة الكاتب المجيد سامي أفندي الجريديني المحامي. وبهذه المناسبة نعلن أننا قد جمعنا هذه الرواية على حدة وهي تطلب من إدارة (0الزهور أو من مترجمها الفاضل في مصر وثمن النسخة خمسة غروش صاغ.
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p486"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1595.xhtml"/>
+            <tei:p change="#d2e73">أضفنا إلى هذا الجزء من الزهور  <tei:num type="auto-markup" change="#d2e181" value="16" xml:lang="ar">١٦</tei:num>  صفحة زيادة عن الصفحات المقررة لكل جزء , حتى نتمكن من الاتيان على تتمة رواية يوليوس قيصر؛ وذلك إجابة إلى رغبة جمهور كبيرٍ من قرَّائنا - ولا سيما طلبة البكالوريا منهم - لأن الترجمة التي نشرها الزهور جاءت أكبر معوانٍ لهم على تفهُّم الأصل الانكليزي المقرَّر لامتحان هذا العام , فلم نشأ أن نؤخرها عنهم , وقصدنا الأول خدمة ناشئنا الراقية المتعلمة. وقد لاقت هذه الرواية رضى القرَّاء التام؛ ولا عجب فهي من تأليف نابغة واضعي الروايات التمثيلية. أما ترجمتها العربي فهي من خير ما أخرجتهُ الأقلام من حيث الانطباق التام على الأصل مع متانة في التركيب , وانسجام في الأسلوب؛ وبلاغة في التعبير. ولقد جاء الثناء العام على هذه الترجمة وتقدير الأدباء لها خير تقريظ لحضرة الكاتب المجيد سامي أفندي الجريديني المحامي. وبهذه المناسبة نعلن أننا قد جمعنا هذه الرواية على حدة وهي تطلب من إدارة ( <tei:num type="auto-markup" change="#d2e181" value="0" xml:lang="ar">٠</tei:num> الزهور أو من مترجمها الفاضل في مصر وثمن النسخة خمسة غروش صاغ.
+<pb n="n3-p486" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1595.xhtml"/>
 
 
             </tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">
-            <head xmlns="http://www.tei-c.org/ns/1.0">ثمرات المطابع</head>
+            <head>ثمرات المطابع</head>
             <tei:p change="#d2e73">كتاب الأمير - إذا ذُكر اسم نيقولا ماكيافيلي في حلقةٍ من الأدباء تبادر على الأذهان معهُ ذكر كتاب الأمير لقد ترادف هذان الاسمان حتى بات كلٌّ منهما عَلَماً لصاحبه , وحتى ما تسأل أديباً
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p487"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1596.xhtml"/>
+<pb n="n3-p487" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1596.xhtml"/>
 
 
 عن أحدهما إلاَّ ذكرَ الاثنين معاً كما عَلقا بذهنه لأول مرةٍ سمعهما وهو لا يزال فتىً على مقعد التلمذة. وليس أدلّ على شهرة المؤلف من اشتقاق الكتَّاب من اسمهِ لفظه ماكيافيلزم أو السياسة الميخائيلية كما اصطلح عليها كتَّاب العربية ولا أدلَّ على قيمة مؤلَّفهِ من قولنا أن هذا المؤلَّف نفسهُ هو سبب ذلك الاشتقاق. فقول الفرنج ماكيافيلزم أو قولنا السياسة الميخائيلية لا يُقصد بهِ سوى التعبير
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p488"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1597.xhtml"/>
+<pb n="n3-p488" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1597.xhtml"/>
 
 
 عن سياسة الأثرة والغدر أو سياسة الغاية تبرّر الواسطة ما زالت اللغة العربية خلواً من كتاب الأمير حتى اكتشفت خبره صديقنا الكاتب الفاضل محمد لطفي أفندي جمعه المحامي , وأتاحت له محاسن الاتفاق أن يهتدي إلى الآنسة مريم البرتيني فأخذ عنها قواعد اللغة الايطالية وأصولها , وعني حينئذٍ بنقل ذلك الكتاب إلى العربية نقلاً جمع بين الأمانة للأصل , والسهولة في التعبير.</tei:p>
-            <tei:p change="#d2e73">كتاب الأمير مستهلٌّ - بعد البسملة - بترجمة حياة مؤلفه نيقولا ماكيافيلي , ويليها بحث أدبيٌّ في تآليفهِ ثمَّ يتلو ذلك حديث طويل ولكنهُ مفيد جداً عن تاريخ المعرّب منذ أوَّل عهده بهذا الكتاب حتى صباح الثلاثاء في 27 يونيو سنة 1911 تاريخ الفراغ من تعريبه , ويعقب ذلك فصلٌ عنوانهُ الليلة الأخيرة وفيهِ قصة خيالية عن حياة ماكيافيلي وموتهِ , ثم يجيءحينئذٍ كتاب الأمير الحقيقي. وقد استغرقت المقدَّمات المذكورة خمسين صفحة كاملة , ووقع سائر الكتاب في مئة وخمسين أخرى. أما المباحث التي احتواها فنصائح أهداها ماكيافيلي إلى أميرة فيزنزه وجعلها قواعد لابدَّ منها للحكم , وأصولاً زعم أنها مرقاة إلى نيل الحالكم أرفع مقام وأسمى مكانة. غير أنَّ علماء الاجتماع , وكبار الفلاسفة والكتَّاب لم يعتبروها كذلك قط ففنَّدها بعضهم , وانتقدها آخرون انتقاداً مرّاً , وحملوا على صاحبها حملات شديدة. وكيف كان الأمر فكتاب الأمير خلَّد اسم ماكيافيلي وأبقاه قدوةً لمن اقتدى ,
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p489"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1598.xhtml"/>
+            <tei:p change="#d2e73">كتاب الأمير مستهلٌّ - بعد البسملة - بترجمة حياة مؤلفه نيقولا ماكيافيلي , ويليها بحث أدبيٌّ في تآليفهِ ثمَّ يتلو ذلك حديث طويل ولكنهُ مفيد جداً عن تاريخ المعرّب منذ أوَّل عهده بهذا الكتاب حتى صباح الثلاثاء في  <tei:num type="auto-markup" change="#d2e181" value="27" xml:lang="ar">٢٧</tei:num>  يونيو سنة  <tei:num type="auto-markup" change="#d2e181" value="1911" xml:lang="ar">١٩١١</tei:num>  تاريخ الفراغ من تعريبه , ويعقب ذلك فصلٌ عنوانهُ الليلة الأخيرة وفيهِ قصة خيالية عن حياة ماكيافيلي وموتهِ , ثم يجيءحينئذٍ كتاب الأمير الحقيقي. وقد استغرقت المقدَّمات المذكورة خمسين صفحة كاملة , ووقع سائر الكتاب في مئة وخمسين أخرى. أما المباحث التي احتواها فنصائح أهداها ماكيافيلي إلى أميرة فيزنزه وجعلها قواعد لابدَّ منها للحكم , وأصولاً زعم أنها مرقاة إلى نيل الحالكم أرفع مقام وأسمى مكانة. غير أنَّ علماء الاجتماع , وكبار الفلاسفة والكتَّاب لم يعتبروها كذلك قط ففنَّدها بعضهم , وانتقدها آخرون انتقاداً مرّاً , وحملوا على صاحبها حملات شديدة. وكيف كان الأمر فكتاب الأمير خلَّد اسم ماكيافيلي وأبقاه قدوةً لمن اقتدى ,
+<pb n="n3-p489" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1598.xhtml"/>
 
 
 أو عبرةً وذكرى لمن اعتبر وذكر. ولقد طبعت مطبعة المعارف الشهيرة هذا الكتاب على نفقتها طبعاً جميلاً متقناً والتزمت نشره وتعميمهُ عملاً بخطتها في نشر الكتب العلمية والأدبية فاستحقَّ صاحبها الفاضل جميل الثناء. فنلفت الأنظار إلى كتاب الأمير متمنين له الرواج الذي يستحقهُ.</tei:p>
             <tei:p change="#d2e73">العلاج الجراحي -. . . وهذا أيضاً للدكتور محمد عبد الحميد. .</tei:p>
             <tei:p change="#d2e73">التشريح الجراحي -. . . وهذا أيضاً للدكتور محمد عبد الحميد. . .</tei:p>
             <tei:p change="#d2e73">وكم لهذا الطبيب العلاَّمة قبل هذين المؤلفين من الأسفار النفسية , التي تؤلف وحدها مكتبة عربية في العلوم الطبية. ولقد سبق لهذه المجلة تقريظ هذه الآثار الجليلة كل أثرٍ في حين صدوره , كما سبق لهه أيضاً نشر صورة صاحبها المفضال تكريماً له واعترافاً بجميله على العلم واللغة. أما الكتابان اللذان بين أيدينا الآن فإن اسميها يصفانهما خير وصف وهما مترجمان عن أشهر أساتذة الانكليز في علم الجراحة الحديث. وقد ميّزهما الدكتور عبد الحميد عن كتبه الأولى بما بذله لهما من العناية المعنوية والمادية ولاسيما هذه حيث زانهما بالصوَر الكثيرة الملوَّنة. وصدَّر أحدهما - التشريح الجراحي - ببيتين من الشعر هم:</tei:p>
-            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+            <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>أرى نفسي تتوق إلى أمورٍ</tei:seg> 
                   <tei:seg>يقصر دون مبلغهنَّ حالي</tei:seg>
@@ -987,48 +877,36 @@
                </tei:l>
             </lg>
             <tei:p change="#d2e73">ومن عرف قلة إقبال قراء العربية لسوء الحظ على الكتب العلمية
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p490"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1599.xhtml"/>
+<pb n="n3-p490" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1599.xhtml"/>
 
 
 يفهم ما في تضاعيف هذين السطرين من المعاني. على أن همة عالمنا النطاسي لم تعرف الكلل والفتور فهو لا يزال عاملاً مجدّاً ودائباً - برغم ما في التأليف في هذا الباب من المصاعب والعقبات - على تعميم علم الطب في اللغة العربية. فهو يقوم وحده , وعلى نفقته الخاصة , بعمل يحتج إلى جمعية علمية تقوم بنفقاتها خزانة حكومة عامرة. فإذا وجّهنا نظر نظارة المعارف المصرية إلى أعمال الدكتور عبد الحميد فإنما نوجّه نظرها إلى عمل جدير بعنايتها , وإذا هي فعلت - وهي فاعلة إن شاء الله - فإنما تكون قد أضافت حلقة جديدة إلى سلسلة آثارها المجيدة في سبيل التعليم باللغة العربية.</tei:p>
-            <tei:p change="#d2e73">تقويم البشير - جاءنا هذا التقويم لسنة 1913 وهي السنة السادسة والثلاثون لظهوره. وهو أتم تقويم معروف باللغة العربية يتضمن حساب السنة الغربية والشرقية والهجرية والقبطية والإسرائيلية والمالية مع مقابلة الواحدة بالثانية , والحسابين الشمسي والقمري , والأعياد الدينية والمدنية وكل ما يتعلق بالطوائف الشرقية ورؤسائها , وأسماء قناصل الدول في الشرق , وأسماء موظفي حكومة لبنان وولايات سوريا , ونص القانون الأساسي في تركيا والنظام الأساسي لجبل لبنان , والتقسيمات الإدارية في الدولة العثمانية مع كل ما يتعلق</tei:p>
+            <tei:p change="#d2e73">تقويم البشير - جاءنا هذا التقويم لسنة  <tei:num type="auto-markup" change="#d2e181" value="1913" xml:lang="ar">١٩١٣</tei:num>  وهي السنة السادسة والثلاثون لظهوره. وهو أتم تقويم معروف باللغة العربية يتضمن حساب السنة الغربية والشرقية والهجرية والقبطية والإسرائيلية والمالية مع مقابلة الواحدة بالثانية , والحسابين الشمسي والقمري , والأعياد الدينية والمدنية وكل ما يتعلق بالطوائف الشرقية ورؤسائها , وأسماء قناصل الدول في الشرق , وأسماء موظفي حكومة لبنان وولايات سوريا , ونص القانون الأساسي في تركيا والنظام الأساسي لجبل لبنان , والتقسيمات الإدارية في الدولة العثمانية مع كل ما يتعلق</tei:p>
             <tei:p change="#d2e73">بالولايات ومدنها وسكانها. هناك جداول عن النقود والموازين والمكاييل في جميع البلاد وفوائد شتى في التاريخ والجغرافية وسائر العلوم. فنشكر لحضرة العالم الفاضل الأب لويس معلوف عنايته بهذا التقويم الذي أصبح بفضل ما يدخله عليه من التحسن
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p491"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1600.xhtml"/>
+<pb n="n3-p491" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1600.xhtml"/>
 
 
 المتواصل أشبه شيء بدائره معارف خفيفة الحمل حافلة بالفوائد والمُلَح.</tei:p>
             <tei:p change="#d2e73">الأمازون - جريد جامعة حرَّة أنشأها حضرة الكاتب الفاضل فارس أفندي دبغي من أدباء الجالية السورية في سان باولو من أعمال البرازيل في أمريكا. وقد أهدي إلينا الأجزاء التي صدرت منها إلى اليوم فطالعنا فيها المقالات الأدبية والسياسية التي تنمُّ عن مقدرة منشئها وعلمه.</tei:p>
             <tei:p change="#d2e73">جراب الحاوي - تصدر هذه الجريدة في تونس ايرس , مديرها يوسف أفندي ملحم شعيا ومحرّرها سمعان أفندي بقالبٍ هزلي لتقربها من إفهام العامة. فنمتني لهاتين الجريدتين كل نجاح وتقدُّم , كما أننا نثني على صحافتنا العربية في أميريكا قاطبةً لما تبذله من العناية في حفظ رابطة اللغة والوطنية.</tei:p>
             <tei:p change="#d2e73">جمعية الاتحاد والإحسان السورية في طنطا - أهدت إلينا هذه الجمعية الراقية كتيّباً جمعت فيه خلاصة أعمالها لسنتها الخامسة فتبينَّا فيه آثاراً شريفة , ومآثر غراء لا يكبرها أحد على مؤسسيها الأفاضل , وأعضائها الكرام. فنتمنى لها ما تمناه لها من قبلنا حضرة العالم المحترم الدكتور شميل إذ قال فيها عفي الله عنه: عسى أن تكون هذه الجمعيى قدوة لإنشاء جمعيات كثيرة من أمثالها.
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p492"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1601.xhtml"/>
+<pb n="n3-p492" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1601.xhtml"/>
 
 
             </tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">
-            <head xmlns="http://www.tei-c.org/ns/1.0">أزهار وأشواك</head>
-            <tei:p change="#d2e73">سنة 1913</tei:p>
+            <head>أزهار وأشواك</head>
+            <tei:p change="#d2e73">سنة  <tei:num type="auto-markup" change="#d2e181" value="1913" xml:lang="ar">١٩١٣</tei:num> </tei:p>
             <tei:p change="#d2e73">معايدتي السنوية أقدّمها لقراء الزهور سائلاً أن يكون عامهم الجديد حافلاً بالخير , تزينه أزهار اليمن خالية من الأشواك.</tei:p>
-            <tei:p change="#d2e73">قيل - ولا أدري من قال ولا لماذا قال ولا أي عهد قال - أن رقم 13 أسوأ الأرقام وأشأمها. وللناس في هذا المعنى تخرُّصٌ وأحاديث ملفقة وخرافات منمقة. تحضرني منها الساعة الحكاية الآتية: زعموا أن منجّماً وقف بحضرة فردريك ملك بروسيا , ففاجأه الملك بقوله: تنبأ لي عن الزمن الذي أُنوَّج فيه إمبراطوراً. . . فقال المنجم: نحن مجموعة إلى السنة التي نحن فيها وجدنا ذلك التاريخ 9 + 4 + 8 + 1=22 + 1849=1871 وسنة 1871 هي في الواقع سنة تتويج فردريك إمبراطوراً على ألمانيا. قال الملك: ومتى أموت؟ فقال المنجم: أعد العملية نفسها بأرقام سنة تتويجك 1 + 7 + 8 + 1=17 + 1871=1888 وهي سنة وفاة الإمبراطور الألماني الكبير. ثم سأله ثالثةً: ومتى تنحلُّ تلك الإمبراطورية؟ فقال المنجم: دونك والعملية أيضاً بأرقام سنة وفاتك: 8 + 8 + 8 + 1=25 + 1888=1913 هذه حكاية المنجم والإمبراطور. لذلك ترى الشعب الألماني
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p493"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1602.xhtml"/>
+            <tei:p change="#d2e73">قيل - ولا أدري من قال ولا لماذا قال ولا أي عهد قال - أن رقم  <tei:num type="auto-markup" change="#d2e181" value="13" xml:lang="ar">١٣</tei:num>  أسوأ الأرقام وأشأمها. وللناس في هذا المعنى تخرُّصٌ وأحاديث ملفقة وخرافات منمقة. تحضرني منها الساعة الحكاية الآتية: زعموا أن منجّماً وقف بحضرة فردريك ملك بروسيا , ففاجأه الملك بقوله: تنبأ لي عن الزمن الذي أُنوَّج فيه إمبراطوراً. . . فقال المنجم: نحن مجموعة إلى السنة التي نحن فيها وجدنا ذلك التاريخ  <tei:num type="auto-markup" change="#d2e181" value="9" xml:lang="ar">٩</tei:num>  +  <tei:num type="auto-markup" change="#d2e181" value="4" xml:lang="ar">٤</tei:num>  +  <tei:num type="auto-markup" change="#d2e181" value="8" xml:lang="ar">٨</tei:num>  +  <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num> = <tei:num type="auto-markup" change="#d2e181" value="22" xml:lang="ar">٢٢</tei:num>  +  <tei:num type="auto-markup" change="#d2e181" value="1849" xml:lang="ar">١٨٤٩</tei:num> = <tei:num type="auto-markup" change="#d2e181" value="1871" xml:lang="ar">١٨٧١</tei:num>  وسنة  <tei:num type="auto-markup" change="#d2e181" value="1871" xml:lang="ar">١٨٧١</tei:num>  هي في الواقع سنة تتويج فردريك إمبراطوراً على ألمانيا. قال الملك: ومتى أموت؟ فقال المنجم: أعد العملية نفسها بأرقام سنة تتويجك  <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num>  +  <tei:num type="auto-markup" change="#d2e181" value="7" xml:lang="ar">٧</tei:num>  +  <tei:num type="auto-markup" change="#d2e181" value="8" xml:lang="ar">٨</tei:num>  +  <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num> = <tei:num type="auto-markup" change="#d2e181" value="17" xml:lang="ar">١٧</tei:num>  +  <tei:num type="auto-markup" change="#d2e181" value="1871" xml:lang="ar">١٨٧١</tei:num> = <tei:num type="auto-markup" change="#d2e181" value="1888" xml:lang="ar">١٨٨٨</tei:num>  وهي سنة وفاة الإمبراطور الألماني الكبير. ثم سأله ثالثةً: ومتى تنحلُّ تلك الإمبراطورية؟ فقال المنجم: دونك والعملية أيضاً بأرقام سنة وفاتك:  <tei:num type="auto-markup" change="#d2e181" value="8" xml:lang="ar">٨</tei:num>  +  <tei:num type="auto-markup" change="#d2e181" value="8" xml:lang="ar">٨</tei:num>  +  <tei:num type="auto-markup" change="#d2e181" value="8" xml:lang="ar">٨</tei:num>  +  <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num> = <tei:num type="auto-markup" change="#d2e181" value="25" xml:lang="ar">٢٥</tei:num>  +  <tei:num type="auto-markup" change="#d2e181" value="1888" xml:lang="ar">١٨٨٨</tei:num> = <tei:num type="auto-markup" change="#d2e181" value="1913" xml:lang="ar">١٩١٣</tei:num>  هذه حكاية المنجم والإمبراطور. لذلك ترى الشعب الألماني
+<pb n="n3-p493" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1602.xhtml"/>
 
 
-يقابل سنة 1913 ببعض القلق والتشاؤم.</tei:p>
+يقابل سنة  <tei:num type="auto-markup" change="#d2e181" value="1913" xml:lang="ar">١٩١٣</tei:num>  ببعض القلق والتشاؤم.</tei:p>
             <tei:p change="#d2e73">جوابٌ على سؤال</tei:p>
             <tei:p change="#d2e73">نشرتُ في الجزء الماضي بيتين , وسألتُ القرَّاء اسم ناظمها , وأنا اليوم ناشرٌ أحسن جوابٍ جاءني من صاحب التوقيع , وها هو بحرفه: قرأتُ سؤال البستاني الذي أورده عليك أيها الحاصد في نسبة ما رواه الكريم الشيخ أحمد آل إبراهيم. وذلك قول القائل:</tei:p>
-            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+            <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>لقي نبلنا العوارض فانثنوا</tei:seg> 
                   <tei:seg>لأوجههم منها لحىً وشواربُ</tei:seg>
@@ -1039,9 +917,9 @@
                   <tei:seg>عيوناً لها وقع السهام حواجبُ</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">أما الجواب , فالبيتان لعبد العزيز بن نباتة السعدي المتوفي سنة 405 للهجرة وهو من شعراء سيف الدولة , وعليهِ تخرَّج الشريف الرضي شاعر قريش المشهور. وقد وقع في البيتين تقديم وتأخير لأنهما من قصيدة يأتي فيها سياق البيت الأول بعد الثاني بأبيات غير قابة , وفوق ذلك فإن روية البستاني على غير وجهها: قال ابن نُباتة في مطلع القصيدة</tei:p>
+            <tei:p change="#d2e73">أما الجواب , فالبيتان لعبد العزيز بن نباتة السعدي المتوفي سنة  <tei:num type="auto-markup" change="#d2e181" value="405" xml:lang="ar">٤٠٥</tei:num>  للهجرة وهو من شعراء سيف الدولة , وعليهِ تخرَّج الشريف الرضي شاعر قريش المشهور. وقد وقع في البيتين تقديم وتأخير لأنهما من قصيدة يأتي فيها سياق البيت الأول بعد الثاني بأبيات غير قابة , وفوق ذلك فإن روية البستاني على غير وجهها: قال ابن نُباتة في مطلع القصيدة</tei:p>
             <tei:p change="#d2e73">وهي من قلائده:</tei:p>
-            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+            <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>رضينا وما ترضي السيوفُ القواضبُ</tei:seg> 
                   <tei:seg>نجاذبها عن هامكم وتجاذبُ</tei:seg>
@@ -1053,7 +931,7 @@
                </tei:l>
             </lg>
             <tei:p change="#d2e73">إلى أن يقول بعد أبيات:</tei:p>
-            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+            <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>خلقنا بأطراف القنا لظهورهم</tei:seg> 
                   <tei:seg>عيوناً لها وقع السيوف حواجبُ</tei:seg>
@@ -1075,17 +953,14 @@
                </tei:l>
             </lg>
             <tei:p change="#d2e73">ثم يقول منها:</tei:p>
-            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+            <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>بيوم العُظالى والسيوفُ صواعقٌ</tei:seg> 
                   <tei:seg>ألا هكذا عليهم والقسيُّ حواصب</tei:seg>
                </tei:l>
             </lg>
-            <pb xmlns="http://www.tei-c.org/ns/1.0"
-                n="n3-p494"
-                ed="shamela"
-                corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1603.xhtml"/>
-            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+            <pb n="n3-p494" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1603.xhtml"/>
+            <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>لقوا نَبلها مُردَ العوارض وانثنوا</tei:seg> 
                   <tei:seg>لا وجههم منها لحىً وشواربُ</tei:seg>
@@ -1095,8 +970,8 @@
             <tei:p change="#d2e73">مصطفى صادق الرافعي</tei:p>
             <tei:p change="#d2e73">أما كون هذا الجواب الشافي قد ورد من الرافعي فلا عجب وهو الأديب المشهور صاحب الكتاب النفيس في تاريخ آداب للحصول عليها.</tei:p>
             <tei:p change="#d2e73">عتاب</tei:p>
-            <tei:p change="#d2e73">نشرت الزهور ص76 من هذه السنة أبياتاً جميلة لشاعر الفيحاء السيد عبد الحميد بك الرافعي , عنوانها إلى شاعر الأمير وقد وجه فيها الكلام إلى شاعر الأمير أحمد شوقي بك , وسأله مطارحة الشعر على صفحات هذه المجلة ملتقى أقلام أدباء القطرين. فمرَّت بضعة أشهر دون أن تمكّن الفرصة شاعرَ النيل من الجواب , فعتب الشاعر الطرابلسي - ويحقُّ له أن يعتب - ورأيتُ بعض آثار عتبة على ورقةٍ في إدارة الزهور فقرأتُ فيها:</tei:p>
-            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+            <tei:p change="#d2e73">نشرت الزهور ص <tei:num type="auto-markup" change="#d2e181" value="76" xml:lang="ar">٧٦</tei:num>  من هذه السنة أبياتاً جميلة لشاعر الفيحاء السيد عبد الحميد بك الرافعي , عنوانها إلى شاعر الأمير وقد وجه فيها الكلام إلى شاعر الأمير أحمد شوقي بك , وسأله مطارحة الشعر على صفحات هذه المجلة ملتقى أقلام أدباء القطرين. فمرَّت بضعة أشهر دون أن تمكّن الفرصة شاعرَ النيل من الجواب , فعتب الشاعر الطرابلسي - ويحقُّ له أن يعتب - ورأيتُ بعض آثار عتبة على ورقةٍ في إدارة الزهور فقرأتُ فيها:</tei:p>
+            <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>يقولون أغضى عن جوابك أحمدٌ</tei:seg> 
                   <tei:seg>ومرَّ زمانٌ للعتاب مجيزُ</tei:seg>
@@ -1114,70 +989,61 @@
             </lg>
             <tei:p change="#d2e73">فأحببتُ نشرَ هذه الأبيات لأن في نفسي - ونفس القراء أيضاً - عطشاً إلى عذوبة شيء من الشوقيات</tei:p>
             <tei:p change="#d2e73">حاصد
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p495"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1604.xhtml"/>
+<pb n="n3-p495" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1604.xhtml"/>
 
 
             </tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">
-            <head xmlns="http://www.tei-c.org/ns/1.0">مواليد شهر يناير ك2</head>
+            <head>مواليد شهر يناير ك <tei:num type="auto-markup" change="#d2e181" value="2" xml:lang="ar">٢</tei:num> </head>
             <tei:p change="#d2e73">يزعم الكثيرون أن لليوم والشهر الذين يولد فيهما الإنسان تأثيراً في إخلافه وحياته. وها نحن ناشرون على سبيل ال</tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">
-            <head xmlns="http://www.tei-c.org/ns/1.0">فكاهة</head>
+            <head>فكاهة</head>
             <tei:p change="#d2e73"> شيئاً من ذلك مبتدئين بالشهر الأول من السنة. فالذين يولدون في:</tei:p>
-            <tei:p change="#d2e73">1 منه أصحاب نشاط وجدّ ينالون الرتب العالية</tei:p>
-            <tei:p change="#d2e73">2 منه أغنياء وذوو نشاط</tei:p>
-            <tei:p change="#d2e73">3 منه أقوياء الإرادة متصلّبو الرأي</tei:p>
-            <tei:p change="#d2e73">4 منه ذوو مزاج عصبي سريعو الغضب</tei:p>
-            <tei:p change="#d2e73">5 منه متطفّلون يدعون معرفة كل شيء</tei:p>
-            <tei:p change="#d2e73">6 منه سريعو الخاطر متوقدو يصلحون لكل عمل</tei:p>
-            <tei:p change="#d2e73">7 منه طليقو اللسان فصيحو اللهجة ذوو عذوبة في الحديث</tei:p>
-            <tei:p change="#d2e73">8 منه ضعفاء القلوب</tei:p>
-            <tei:p change="#d2e73">9 منه سريعو الانقياد يصدقون كلما يسمعون</tei:p>
-            <tei:p change="#d2e73">10 منه ميَّالون إلى العلوم محبون للآداب</tei:p>
-            <tei:p change="#d2e73">11 منه يثرون ولكن بالعناء الجم وشقّ النفس</tei:p>
-            <tei:p change="#d2e73">12 منه تعساء في شهواتهم وأمانيّهم وأهوائهم</tei:p>
-            <tei:p change="#d2e73">13 منه ميالون إلى التجارة يحبون الإثراء</tei:p>
-            <tei:p change="#d2e73">14 منه ثابتو المبدأ دقيقو المعاملة</tei:p>
-            <tei:p change="#d2e73">15 منه ذوو حظوظ وتوفيق مستمرّ</tei:p>
-            <tei:p change="#d2e73">16 منه سعداء بالحب</tei:p>
-            <tei:p change="#d2e73">17 منه يميلون إلى الاشتغال بالزراعة</tei:p>
-            <tei:p change="#d2e73">18 منه يحبون الحركة. أسفارهم خطرة</tei:p>
-            <tei:p change="#d2e73">19 منه يحبون الخلوة والانفراد
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p496"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1605.xhtml"/>
+            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num>  منه أصحاب نشاط وجدّ ينالون الرتب العالية</tei:p>
+            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="2" xml:lang="ar">٢</tei:num>  منه أغنياء وذوو نشاط</tei:p>
+            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="3" xml:lang="ar">٣</tei:num>  منه أقوياء الإرادة متصلّبو الرأي</tei:p>
+            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="4" xml:lang="ar">٤</tei:num>  منه ذوو مزاج عصبي سريعو الغضب</tei:p>
+            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="5" xml:lang="ar">٥</tei:num>  منه متطفّلون يدعون معرفة كل شيء</tei:p>
+            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="6" xml:lang="ar">٦</tei:num>  منه سريعو الخاطر متوقدو يصلحون لكل عمل</tei:p>
+            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="7" xml:lang="ar">٧</tei:num>  منه طليقو اللسان فصيحو اللهجة ذوو عذوبة في الحديث</tei:p>
+            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="8" xml:lang="ar">٨</tei:num>  منه ضعفاء القلوب</tei:p>
+            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="9" xml:lang="ar">٩</tei:num>  منه سريعو الانقياد يصدقون كلما يسمعون</tei:p>
+            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="10" xml:lang="ar">١٠</tei:num>  منه ميَّالون إلى العلوم محبون للآداب</tei:p>
+            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="11" xml:lang="ar">١١</tei:num>  منه يثرون ولكن بالعناء الجم وشقّ النفس</tei:p>
+            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="12" xml:lang="ar">١٢</tei:num>  منه تعساء في شهواتهم وأمانيّهم وأهوائهم</tei:p>
+            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="13" xml:lang="ar">١٣</tei:num>  منه ميالون إلى التجارة يحبون الإثراء</tei:p>
+            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="14" xml:lang="ar">١٤</tei:num>  منه ثابتو المبدأ دقيقو المعاملة</tei:p>
+            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="15" xml:lang="ar">١٥</tei:num>  منه ذوو حظوظ وتوفيق مستمرّ</tei:p>
+            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="16" xml:lang="ar">١٦</tei:num>  منه سعداء بالحب</tei:p>
+            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="17" xml:lang="ar">١٧</tei:num>  منه يميلون إلى الاشتغال بالزراعة</tei:p>
+            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="18" xml:lang="ar">١٨</tei:num>  منه يحبون الحركة. أسفارهم خطرة</tei:p>
+            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="19" xml:lang="ar">١٩</tei:num>  منه يحبون الخلوة والانفراد
+<pb n="n3-p496" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1605.xhtml"/>
 
 
-20 منه قليلو الثقة بالنجاح</tei:p>
-            <tei:p change="#d2e73">21 منه ضعيفو الإرادة , عديمو الثبات</tei:p>
-            <tei:p change="#d2e73">22 منه ذوو عقول نقّادة يدققون في كل شيء</tei:p>
-            <tei:p change="#d2e73">23 منه كبراء النفوس</tei:p>
-            <tei:p change="#d2e73">24 منه يرتقون مناصب الحكومة العالية</tei:p>
-            <tei:p change="#d2e73">25 منه ظريفو الحديث , كثيرو الكلام</tei:p>
-            <tei:p change="#d2e73">26 منه ميالون إلى الاشغال اليدوية</tei:p>
-            <tei:p change="#d2e73">27 منه يحبون الحروب ويقتحمون أخطارها</tei:p>
-            <tei:p change="#d2e73">28 منه متعجرفون يحبون الحرية</tei:p>
-            <tei:p change="#d2e73">29 منه ذوو سموّ في الأفكار وأصالة في الرأي</tei:p>
-            <tei:p change="#d2e73">30 منه أقوياء القلوب</tei:p>
-            <tei:p change="#d2e73">31 منه شديدو الحرص يضيعون الفرص لشدة حرصهم</tei:p>
+ <tei:num type="auto-markup" change="#d2e181" value="20" xml:lang="ar">٢٠</tei:num>  منه قليلو الثقة بالنجاح</tei:p>
+            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="21" xml:lang="ar">٢١</tei:num>  منه ضعيفو الإرادة , عديمو الثبات</tei:p>
+            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="22" xml:lang="ar">٢٢</tei:num>  منه ذوو عقول نقّادة يدققون في كل شيء</tei:p>
+            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="23" xml:lang="ar">٢٣</tei:num>  منه كبراء النفوس</tei:p>
+            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="24" xml:lang="ar">٢٤</tei:num>  منه يرتقون مناصب الحكومة العالية</tei:p>
+            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="25" xml:lang="ar">٢٥</tei:num>  منه ظريفو الحديث , كثيرو الكلام</tei:p>
+            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="26" xml:lang="ar">٢٦</tei:num>  منه ميالون إلى الاشغال اليدوية</tei:p>
+            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="27" xml:lang="ar">٢٧</tei:num>  منه يحبون الحروب ويقتحمون أخطارها</tei:p>
+            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="28" xml:lang="ar">٢٨</tei:num>  منه متعجرفون يحبون الحرية</tei:p>
+            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="29" xml:lang="ar">٢٩</tei:num>  منه ذوو سموّ في الأفكار وأصالة في الرأي</tei:p>
+            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="30" xml:lang="ar">٣٠</tei:num>  منه أقوياء القلوب</tei:p>
+            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="31" xml:lang="ar">٣١</tei:num>  منه شديدو الحرص يضيعون الفرص لشدة حرصهم</tei:p>
             <tei:p change="#d2e73">ا. غ</tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">
-            <head xmlns="http://www.tei-c.org/ns/1.0">فكاهة</head>
+            <head>فكاهة</head>
             <tei:p change="#d2e73">إلى مدارس البنات</tei:p>
             <tei:p change="#d2e73">الشاب - إني أحب أن أتزوج بابنتك ولكن هل يمكنكِ أن تخبريني عن معارفها؟</tei:p>
             <tei:p change="#d2e73">الوالدة - قد حازت شهادات الامتيازات في الفوسيولوجيا والبكتريولوجيا والبداغوجيا وال. . .</tei:p>
             <tei:p change="#d2e73">الشاب - كفى كفى يا سيدتي. إنها لا توافقني. لأني أريد فتاة تعرف الطبخولوجيا والكنسولوجيا وكافة أشغال البيوتولوجيا
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p497"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1606.xhtml"/>
+<pb n="n3-p497" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1606.xhtml"/>
 
 
 وبما تعرفونه أنت جميعاً. إني أريكم جراح قيصر وهي تقوم مقامي فتخطب فيكم. أما لو كنت بروتوس. وكان بروتوس أنطونيوس , إذن لرأيتم أمامكم رجلاً يُغلي الدم في عروقكم ويضع لساناً في كل جرح من جراح قيصر وينفخ في حجارة رومه روحاً تحرّضها على الثورة.</tei:p>
@@ -1195,10 +1061,7 @@
             <tei:p change="#d2e73">الجميع - اسكتوا يا قوم</tei:p>
             <tei:p change="#d2e73">أنطونيوس - وقد أوصى لكم بجميع حدائقه وجنائنه القائمة على هذا الجانب من نهر التيبير. كلها لكم. متعة لكم ولأولادكم من بعدكم تتنزهون وترتاضون بها ما شئتم. . . ذلكم قيصر. فمتى تجدون له نظيراً؟</tei:p>
             <tei:p change="#d2e73">الجميع - لا نظير لهز لا نظير له. هلموا بنا. هلموا نحرق جثته في بيت الآلهة
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p498"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1607.xhtml"/>
+<pb n="n3-p498" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1607.xhtml"/>
 
 
 ونشعل منها مشاعل نضرم بيوت القتلة من نارها. احملوا الجثة.</tei:p>
@@ -1215,10 +1078,7 @@
             <tei:p change="#d2e73">المشهد الثالث</tei:p>
             <tei:p change="#d2e73">شارع يدخل سنّا الشاعر</tei:p>
             <tei:p change="#d2e73">سنا - لنفسه لا يحلو لي الخروج جائلاً في الأسواق. ولكنَّ دافعاً يدفعني إليه. تخيلاتُ لشؤم تجول في خاطري فقد حلمتُ الليلةَ إني تعشيتُ مع قيصر يدخل الشعب
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p499"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1608.xhtml"/>
+<pb n="n3-p499" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1608.xhtml"/>
 
 
 العامي الأول - ما اسمُك؟</tei:p>
@@ -1239,10 +1099,7 @@
             <tei:p change="#d2e73">سنا - بالاختصار؟ قرب الكابيتول</tei:p>
             <tei:p change="#d2e73">العامي الثالث - اسمك؟ بالصدق</tei:p>
             <tei:p change="#d2e73">سنا - بالصدق؟ اسمي سنا
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p500"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1609.xhtml"/>
+<pb n="n3-p500" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1609.xhtml"/>
 
 
 العامي الأول - مزّقوه إرباً إرباً. إنهُ أحد المتآمرين</tei:p>
@@ -1262,10 +1119,7 @@
             <tei:p change="#d2e73">لبيدوس - مخاطباً أنطونيوس بشرط أن لا تُبقي على ابن أختك بوبليوس</tei:p>
             <tei:p change="#d2e73">أنطونيوس - إنهُ لن يعيش. وها قد علمت اسمه. فاذهب الآن يا لبيدوس إلى بيت قيصر وائتنا بوصية لنقرّ على ما سنبدّل فيها ونغيّر</tei:p>
             <tei:p change="#d2e73">لبيدوس - أتلبثون هنا ريثما أعود؟
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p501"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1610.xhtml"/>
+<pb n="n3-p501" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1610.xhtml"/>
 
 
 اوكتافيوس - هنا أو في الكابيتول يخرج لبيدوس</tei:p>
@@ -1276,10 +1130,7 @@
             <tei:p change="#d2e73">أنطونيوس - نعم وهكذا حصاني. ولذا تراني أكيلُ له العلف كيلاً وأعلمه الكرَّ والفرَّ والهجوم والوقوف فأُخضع قوته البدنية لإرادتي. وكذا شأن لبيدوس معنا. إنهُ فارغ العقل يقتات على الحثالة والنفاية والتقليد فيبدأ حيث انتهى الآخرون شيئه ونحفظ شيئنا. اسمع الآن لمهامٍ عظمى أنقلها إليك: إن برتوس</tei:p>
             <tei:p change="#d2e73">وكاسيوس يجمعان جموعها الآن فعلينا أن نسرع ونشدّد محالفتنا وننتقى أصدقاءَنا ونجهد قواتنا ونتشاور في خير السبل لملاقاة أخطار وكشف مخبآت الأقدار</tei:p>
             <tei:p change="#d2e73">اوكتافيوس - لنفعل ما تقول. فإن الأعداء تحيط بنا وتكاد تردينا وكثيرون يبذلون لنا الابتسام وقلوبهم ملآى بضغائن لا تحصى. يخرجان
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p502"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1611.xhtml"/>
+<pb n="n3-p502" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1611.xhtml"/>
 
 
 المشهد الثاني</tei:p>
@@ -1293,10 +1144,7 @@
             <tei:p change="#d2e73">لوسيلوس - جلملني وأكرمني ولكنهُ احتاط لنفسه في الحديث وتكتم على خاف عادتهِ</tei:p>
             <tei:p change="#d2e73">بروتوس - لقد وصفتَ صديقاً أخذت حرازةُ مودّته بالبرود. فإذا مرض الودُّ وسرى في عروقهِ الفساد لبس لباس الكلفة والمجاملة المفتعلة أما الحب الصحيح الفطريّ فخلوٌ من هذه الحيل. مَثل الفارغ من الرجال مَثلُ جود يجمح قبل إطلاق العنان فتتخيلُ القوة وراء طغيانهِ وزهوهِ فإذا ما أدميتَ جنينهِ ضرباً بالركاب ذَبل عرفُهُ وتبين لك عند التجربة برذوناً خدَّاعاً. أقادمٌ جيشهُ معه؟</tei:p>
             <tei:p change="#d2e73">لوسيليوس - الفرسان قادمون معهُ وهم معظم الجيش أما البقية فيبيتون الليلة في سارديس صوت مشي جيش عن بعد
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p503"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1612.xhtml"/>
+<pb n="n3-p503" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1612.xhtml"/>
 
 
 بروتوس - اسمعوا. إنهُ لقادم. هلموا لملاقاته يدخل كاسيوس بقوَّاته</tei:p>
@@ -1314,10 +1162,7 @@
             <tei:p change="#d2e73">المشهد الثالث</tei:p>
             <tei:p change="#d2e73">خيمة بروتوس. يدخل بروتوس وكاسيوس</tei:p>
             <tei:p change="#d2e73">كاسيوس - هاك ما أسأتَ إليَّ بهِ: إنك حقرتَ لوسيوس بيلاّ وعاقبتهُ على رشوةٍ أخذها من أهل سارديس فكتبتُ أشفع فيهِ إليك لأني أعرفهُ قازدريتَ الكتبَ وطرحتها جانباً
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p504"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1613.xhtml"/>
+<pb n="n3-p504" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1613.xhtml"/>
 
 
 بروتوس - أنتَ المسيء إلى نفسك إذ دافعتَ عن مثل هذه القضية</tei:p>
@@ -1332,10 +1177,7 @@
             <tei:p change="#d2e73">كاسيوس - بل أنا هو</tei:p>
             <tei:p change="#d2e73">بروتوس - قلت لك لا</tei:p>
             <tei:p change="#d2e73">كاسيوس - لا تستفزَّ غضبي أو أنسى نفسي. احترس لنفسك ولا تبالغ في تحريضي
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p505"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1614.xhtml"/>
+<pb n="n3-p505" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1614.xhtml"/>
 
 
 بروتوس - عني أيها الرجل الخفيف</tei:p>
@@ -1354,10 +1196,7 @@
             <tei:p change="#d2e73">كاسيوس - لا أجسر على إغرائه؟</tei:p>
             <tei:p change="#d2e73">بروتوس - لا. لم تجسر خوفاً على حياتك</tei:p>
             <tei:p change="#d2e73">كاسيوس - لا تحمّل صداقتي فوق وسعها فقد أفعل ما أندم عليهِ
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p506"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1615.xhtml"/>
+<pb n="n3-p506" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1615.xhtml"/>
 
 
 بروتوس - إنك قد فعلت ما يستوجب الندم. أي كاسيوس , تهديدك لا يخفيني فإني لا بس من أمانتي درعاً قويّة تردّه عني فيمرُّ بي الريح لا اعبأ بهِ. لقد أرسلت أطلب منك ذهباً فمنعته وأنا أعجز من جمع المال بطرقٍ سافلة. فو السماء! لأوثر أن أصكَّ فؤادي نقوداً وأسبك من دمي دراهم على أن أنزع من أيدي الفلاحين الخشنة أموالهم الزرية بغي حق. أرسلت أطلب منك مالاً أوزعه على جنودي فمنعت ذلك عني. أيليق هذا بكاسيوس: هل كنت أجيبه بهذا الجواب أنا؟ ايهٍ أيتها الآلهة. أرسلي زوابعك ومزّقيني إرباً إرباً إن كنت طمّاعاً أجلس عن أصدقائي مالاً حقيراً</tei:p>
@@ -1371,10 +1210,7 @@
             <tei:p change="#d2e73">بروتوس - بل عين للمداهن كليلة لا ترى الذنوب ولو علت علوّ الأولمب</tei:p>
             <tei:p change="#d2e73">كاسيوس - ايهٍ أنطونيوس. ايه أوكتافيوس. هلما انتقما من كاسيوس وحده الآن فقد ملَّ</tei:p>
             <tei:p change="#d2e73">الدنيا وعافتها نفسه. ها صديقهُ يكرههُ وأخوه لا يعبأ بهِ بل يسترقّهُ كالأسير يعدُّ هفواتهِ يسجلها عليهِ ويعيد ذكرها ويكررها فترسخ في ذهنهِ فيرمي بها وجه صديقه. ليتني أستطيع أن أذرف حياتي دمعاً. هاك خنجري. هاك صدري
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p507"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1616.xhtml"/>
+<pb n="n3-p507" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1616.xhtml"/>
 
 
 العاري صدراً يضمُّ قلباً أعزَّ من مناجم بلوتوس وأثمن من الذهب فانزعهُ مني إن كنتَ رومانياً فإن الذي أبى عليك الذهب يجود لكَ بقلبهِ. اطعّني كما طعنتَ قيصر فلقد كان في أشدّ ساعاتِ كرهك إياه أحبّ مني</tei:p>
@@ -1389,10 +1225,7 @@
             <tei:p change="#d2e73">بروتوس - نعم. فإذا ما أسأتَ إليَّ بعد اليوم حسبتُ السببَ توبيخ أمك لك فأتركك حتى تهمد</tei:p>
             <tei:p change="#d2e73">الشاعر - ينادي من الخارج دعني أدخل لأرى القائدين. يلوح لي أن شقاقاً وقع بينهما فلا يجدر أن نبقيهما معاً</tei:p>
             <tei:p change="#d2e73">لوسيليوس - من الخارج لستَ بداخل عليهما
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p508"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1617.xhtml"/>
+<pb n="n3-p508" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1617.xhtml"/>
 
 
 الشاعر - من الخارج لا يمنعني إلاّ الموت. يدخل الشاعر يتبعهُ لوسيليوس وتيتينيوس ولوسيوس</tei:p>
@@ -1414,10 +1247,7 @@
             <tei:p change="#d2e73">كاسيوس - بورسيا؟ آخ</tei:p>
             <tei:p change="#d2e73">بروتوس - ماتت</tei:p>
             <tei:p change="#d2e73">كاسيوس - وكيف نجوت أنا من القتل عندما أغضبتك. يا لفقد جارح غير محمول! كيف ماتت؟
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p509"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1618.xhtml"/>
+<pb n="n3-p509" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1618.xhtml"/>
 
 
 بروتوس - ماتت قلقاً لطول غيابي وحزناً على انتصارات أوكتافيوس وأنطونيوس. عندما علمت بالنصر أحرزاه أضاعت رشدها قم اغتنمت فرصة غياب خادماتها فذهبت إلى نار موقدة وابتلعتها</tei:p>
@@ -1434,10 +1264,7 @@
             <tei:p change="#d2e73">مسلاّ - إن أوكتافيوس وأنطونيوس ولبدوس قتلوا مايةً من أعضاء مجلس الشيوخ واحد منهم</tei:p>
             <tei:p change="#d2e73">بروتوس - هنا اختلفت الرسائل. فعندي إنهم حكموا على سبعين بالقتل وشيشرون واحد منهم</tei:p>
             <tei:p change="#d2e73">كاسيوس - أشيشرون منهم؟
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p510"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1619.xhtml"/>
+<pb n="n3-p510" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1619.xhtml"/>
 
 
 مسلاّ - نعم قثتل شيشرون بأمرهم. هل أرسلتْ لك امرأتك كتاباً يا مولاي؟</tei:p>
@@ -1456,10 +1283,7 @@
             <tei:p change="#d2e73">كاسيوس - لا أظنهُ صواباً</tei:p>
             <tei:p change="#d2e73">بروتوس - والسبب؟</tei:p>
             <tei:p change="#d2e73">كاسيوس - هاكهُ: خيرٌ لنا أن يتولى العدوُّ خطة الهجوم فتهك قوى جنده
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p511"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1620.xhtml"/>
+<pb n="n3-p511" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1620.xhtml"/>
 
 
 وتُبدَّد ذخيرتهُ ويصيبهُ الضرّ. أما نحن فنتربص مكاننا متوفرة لنا أسباب الراحة والدفاع وسهولة الحركة</tei:p>
@@ -1472,10 +1296,7 @@
             <tei:p change="#d2e73">بروتوس - (منادياً الخادم لوسيوس! يدخل الخادم أعطيني جلبابيّ. يخرج الخادم وداعاً مسلاّ. طاب ليلك يا تيتينيوس. وأنتَ أيها النبيل كاسيوس أتمنى لك نوماً هنيئاً</tei:p>
             <tei:p change="#d2e73">كاسيوس - لقد بدأنا ليلتنا بالخصام أيها العزيز بروتوس فإياك أن تدع مثل ذاك الشقاق</tei:p>
             <tei:p change="#d2e73">يحول بيني وبينك بعد الآن
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p512"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1621.xhtml"/>
+<pb n="n3-p512" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1621.xhtml"/>
 
 
 بروتوس - عادت الأمور إلى مجاريها</tei:p>
@@ -1495,10 +1316,7 @@
             <tei:p change="#d2e73">بروتوس - لا تؤاخذني يا غلام فإني كثير النسيان. هلاّ فتحتَ عينيك المتثاقلين قليلاً وعزفتَ على الآلة أو دقتين</tei:p>
             <tei:p change="#d2e73">لوسيوس - أمرك مطاع يا مولاي</tei:p>
             <tei:p change="#d2e73">بروتوس - إني أتعبك فوق طاقتك ولكنك مطواع
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p513"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1622.xhtml"/>
+<pb n="n3-p513" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1622.xhtml"/>
 
 
 لوسيوس - ذلك واجب عليّ</tei:p>
@@ -1514,10 +1332,7 @@
             <tei:p change="#d2e73">لوسيوس! يا غلام! فارو! كلوديس! انهضوا جميعاً</tei:p>
             <tei:p change="#d2e73">لوسيوس - الأوتار رديئة يا مولاي</tei:p>
             <tei:p change="#d2e73">بروتوس - يظن أنهُ لا يزال يضرب على الأوتار. أفق يا لوسيوس
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p514"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1623.xhtml"/>
+<pb n="n3-p514" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1623.xhtml"/>
 
 
 لوسيوس - مولاي</tei:p>
@@ -1535,10 +1350,7 @@
             <tei:p change="#d2e73">كلوديس - ولا أنا يا مولاي</tei:p>
             <tei:p change="#d2e73">بروتوس - اذهبا لكاسيوس بلّغاه سلامي وقولا له يُعدّ جيوشه ويتقدمنا فسنلحق بهِ</tei:p>
             <tei:p change="#d2e73">الاثنان - سنفعل يا مولاي
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p515"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1624.xhtml"/>
+<pb n="n3-p515" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1624.xhtml"/>
 
 
 الفصل الخامس</tei:p>
@@ -1556,10 +1368,7 @@
             <tei:p change="#d2e73">كاسيوس - ألبث مكانك يا تيتينيوس فسنخرج إليهم ونكلمهم</tei:p>
             <tei:p change="#d2e73">اوكتافيوس - هل نبدأ القتال يا أنطونيوس؟</tei:p>
             <tei:p change="#d2e73">أنطونيوس - لا بل نلزم خطة الدفاع. تقدّم فإن قوادهم يرغبون في المداولة
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p516"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1625.xhtml"/>
+<pb n="n3-p516" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1625.xhtml"/>
 
 
 اوكتافيوس - لا تتحركوا وانتظروا إشارة القتال</tei:p>
@@ -1573,10 +1382,7 @@
             <tei:p change="#d2e73">أنطونيوس - أنا أنتم أيها الأنذال فلم تتهدوا قيصر قبل أن تكسّرت نصالكم بعضها على بعض في جسده. بل كشرتم عن أسنانكم كالقردة وتذللتم كالكلاب وانحنيتم تقبلون أقدامه كالعبيد بينا كاسكا اللعين كالكلب من الوراء يضربه في عنقه. يا لكم من مداهنين!</tei:p>
             <tei:p change="#d2e73">كاسيوس - مداهنون؟ أحمد نفسك يا بروتوس الآن فلم يكن هذا اللسان ليسيء بمثل سللت سيفي على المتآمرين فمتى تظنونه يرجع إلى غمده؟ ليس براجع قبل أن يثأر جراح قيصر الثلاثة والثلاثين أو يسقط قيصر آخر بسيوف الخائنين</tei:p>
             <tei:p change="#d2e73">بروتوس - أي قيصر إنك لن تموت بيد الخائنين إلاّ إذا كنت قد أتيت بهم في صحبتك
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p517"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1626.xhtml"/>
+<pb n="n3-p517" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1626.xhtml"/>
 
 
 اوكتافيوس - صحيح فإني لم أخلق لأموت بسيف بروتوس</tei:p>
@@ -1592,10 +1398,7 @@
             <tei:p change="#d2e73">مسلاّ - أمرك أيها القائد</tei:p>
             <tei:p change="#d2e73">كاسيوس - اسمع يا مسلاَّ هذا يوم ميلادي. في مثل هذا اليوم وُلد كاسيوس هات يدك واشهد أني مثل بومباي قد أُرغمتُ على خوض غمار معركةٍ فاصلةٍ يتوقفُ عليها كياننا</tei:p>
             <tei:p change="#d2e73">إنك تعرفيني تلميذاً لا بيقورس ولمذهبه. أما الآن فقد تغيّرتُ وصرت اعتقد بنبؤات الأشياء فأنّا عندما رحلنا عن سارديس في طريقنا إلى هنا تبعنا نَسرانِ قويّان وسقطا على قوائم راياتنا الأمامية وظلاّ يرافقاننا ويتناولان طعامهما من أيدي
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p518"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1627.xhtml"/>
+<pb n="n3-p518" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1627.xhtml"/>
 
 
 عساكرنا حتى بلغنا فيليبي فطارا واختفيا عن الأبصار وجاءتنا بدلاً منهما العقبان والغربان والأصقر تحوم على رؤوسنا كأنها ترقب فينا فريسة هالكة وتمدُّ لنا من ظلال أجنحتها كنفاً مخيفاً يبيت جيشنا تحته متأهباً للموت</tei:p>
@@ -1606,10 +1409,7 @@
             <tei:p change="#d2e73">بروتوس - أتمسك بالمبدأ الحكيم الذي لمتُ كاتو على مخالفته إذا انتحر , وأتدرّع بالصبر مترقباً أحكام القوى العليا في شؤوننا الدنيا لأني أرى من الجبن والدناءة تعجيل امرئ في القضاء على نفسه فراراً من وقوع ما يخشاه</tei:p>
             <tei:p change="#d2e73">كاسيوس - فإذا دارت علينا الدائرة رضيت لنفسك أن يقودك المنتصرون في شوارع رومه؟</tei:p>
             <tei:p change="#d2e73">بروتوس - لا يا كاسيوس. لا يا ابن رومه. إن بروتوس لن يساق إلى رومه أسيراً. إنهُ أأبى من ذلك نفساً. اليوم خاتمة أعمال بدأنا بها في خامس عشر مارس ولست أدري إن كان يُتاح لنا لاجتماع بعد. لذلك أودعك الوداع الأخير. الوداع , الوداع يا كاسيوس. إن قُدّر واجتمعنا فسيكون اجتماعنا محظوظاً وإلاّ فأكون قد ودعتك وداعاً جميلاً
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p519"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1628.xhtml"/>
+<pb n="n3-p519" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1628.xhtml"/>
 
 
 كاسيوس - الوداع. الوداع يا بروتوس إن قدّر واجتمعنا فسيكون اجتماعنا محظوظاً وإلاّ فأكون قد ودعتك وداعاً جميلاً</tei:p>
@@ -1621,10 +1421,7 @@
             <tei:p change="#d2e73">ناحية أخرى من ساحة القتال. صوت بوق. يدخل كاسيوس وتيتينيوس</tei:p>
             <tei:p change="#d2e73">كاسيوس - ويل لهم يا تيتينيوس. ويل لهؤلاء اللئام كيف ولّوا الأدبار , هاك حامل رايتي رأيتهُ يتأهب للفرار فانقلبت عدوّاً له فقتلتهُ وخلصتُ الراية</tei:p>
             <tei:p change="#d2e73">تيتينيوس - لقد تسرَّع بروتوس بالهجوم وعندما رجحت كفّتهُ كفّة اوكتافيوس توغل جيشه في السلب وتخلّفوا عن نجدتنا تاركين أنطونيوس يحيق بنا. يدخل بنداروس
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p520"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1629.xhtml"/>
+<pb n="n3-p520" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1629.xhtml"/>
 
 
 بنداروس - فراراً مولاي. ابتعد عن هذا المكانز أنطونيوس في خيامك أسرع أيها النبيل كاسيوس وابتعد</tei:p>
@@ -1637,10 +1434,7 @@
             <tei:p change="#d2e73">كاسيوس - ما الخبر؟</tei:p>
             <tei:p change="#d2e73">بنداروس - أرى فرساناً تسرع لتحيط تيتنيوس ولكنهُ لا يزال جادّاً نحوهم كادوا يأخذونهُ. لقد ترجل بعض منهم. ترجل هو أيضاً. لقد أسروه. اسمع. إنهم يهتفون فرحاً هتاف في الخارج</tei:p>
             <tei:p change="#d2e73">كاسيوس - انزل وكفَّ عن النظر. ما أجبنَ قلبي. أأعيش لأرى أعزَّ أصدقائي يؤخذ أمامي؟ ينزل بنداروس اقترب يا غلام. إني أخذتك أسيراً في بارثيا ولكي أبقي على حياتك جعلتك تغلط لي الإيمان أن لا تخالف لي أمراً. تعال
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p521"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1630.xhtml"/>
+<pb n="n3-p521" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1630.xhtml"/>
 
 
 واوفِ بقسمك الآن وكنّ حرّاً. اطعن صدري بهذا السيف الذي مزَّقتُ بهِ أحشاء قيصر. لا تتردَّد. خذْ مقبضهُ في يدك فإذا ما غطّيتُ وجهي سدّدْ ساعدك واطعن. (يطعنه العبد ها قد تُئرتَ يا قيصر الآن بنفس السيف الذي أرداك يموت</tei:p>
@@ -1655,10 +1449,7 @@
             <tei:p change="#d2e73">مسلاّ - أهذا هو؟</tei:p>
             <tei:p change="#d2e73">تيتينيوس - بل ما كان هو. لم يعد كاسيوس بموجود. ايهٍ أيتها الشمس الغاربة لقد غاب كاسيوس في دمه القاني كما تغيبين أنتِ وسط أشعتك الحمراء. غربت شمس رومه وتبدّل نهارنا بغيوم وأمطار وأخطار. قضي الأمر. إن تيقّنه اندحاري دفعه إلى هذا العمل</tei:p>
             <tei:p change="#d2e73">مسلاّ - بل شكُّهُ في الانتصار قد دفعه إلى هذا العمل! ويحك أيها الخطأ المبغوض يا ابن اليأس؟ لِما تضع تصورات مكذوبة في عقول الناس السليمة؟
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p522"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1631.xhtml"/>
+<pb n="n3-p522" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1631.xhtml"/>
 
 
 ويحك ما أسهل مجيئك! إنك لا تغشى السرير مبشراً بميلاد مبخوت حتى تنذر بموت الوالدة!</tei:p>
@@ -1672,10 +1463,7 @@
             <tei:p change="#d2e73">كاتو - ميت!</tei:p>
             <tei:p change="#d2e73">بروتوس - أي يوليوس قيصر! ألا تزال قديراً. أيطوف بنا خيالك فيحدّد سيوفنا لنمزّق بها أحشاءنا؟ صوت بوق ضعيف</tei:p>
             <tei:p change="#d2e73">كاتو - لله درُّك يا تيتينيوس الشجاع! انظر كيف كلّل رأس كاسيوس
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p523"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1632.xhtml"/>
+<pb n="n3-p523" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1632.xhtml"/>
 
 
 بروتوس - أبلقٍ في الرومان اثنان كهذين؟ وداعاً يا آخر أبناء رومه! إن رومه لضنينة بمثلك! أي أخواني. إني مدين لهذا الراقد بأكثر مما تروني أذرف من الدمع. سأفيك حقك يا كاسيوس سأفيكه. هلموا الآن وأرسلوا جثته تدفن في ثاسوس فإني أخشى انحلال عزيمتنا إن نحن أقمنا مأتمه بيننا. تعال يا لوسيليوس وأنت يا كاتو هلمَّ إلى ساحة القتال. أعدَّا كتائب الجيش يا لابيو وفلافيوس فإنما الساعة الثالثة الآن ولا بد من خوض غمار معركة ثانية قبل حلول الظلام يخرج الجميع</tei:p>
@@ -1686,10 +1474,7 @@
             <tei:p change="#d2e73">بروتوس - وأنا بروتوس! ماركوس برتوس أنا! بروتوس صديق رومه الحميم! اعلموا أني بروتوس! يهاجم قسماًَ من جنود الأعداء فيفرّون ويتبعهم. ويتكاثر الجمع على كاتو. يطعنهُ أحدهم فيقع ميتاً</tei:p>
             <tei:p change="#d2e73">لوسيليوس - أسقطتَ يا كاتو الشابّ النبيل؟ ما أشبهَ موتك بموت تيتينيوس الشجاع! إننا سنكرمك يا ابن كاتو</tei:p>
             <tei:p change="#d2e73">جندي - يهجم على لوسيليوس سلّم وإلاَّ متَّ!
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p524"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1633.xhtml"/>
+<pb n="n3-p524" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1633.xhtml"/>
 
 
 لوسيليوس - إني أسلّم كي أموت. يعطينه نقوداً هذا كلهُ لك إن أنتَ عجَّلت في قتلي! اقتل بروتوس فتنال شرفَ قتله!</tei:p>
@@ -1705,10 +1490,7 @@
             <tei:p change="#d2e73">بروتوس - تعالوا يا بقيةَ إخواني نجلس إلى هذه الصخرة</tei:p>
             <tei:p change="#d2e73">كليتوس - لاح لنا ستاتيليوس بمشاله ولكنهُ لم يرجع بعد فقد يكون أُسر أو مات</tei:p>
             <tei:p change="#d2e73">بروتوس - لقد راج الموتِ اليوم وأصبح لفظهُ مألوفاً. اقعد يا كليتوس
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p525"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1634.xhtml"/>
+<pb n="n3-p525" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1634.xhtml"/>
 
 
 وأصغ لي قليلاً يكلمهُ همساً</tei:p>
@@ -1729,10 +1511,7 @@
             <tei:p change="#d2e73">بروتوس - بل أنا واثق من قربها. قد انقلب الزمانُ علينا ودحَرَنا الأعداء حتى حافةِ الهوَّة فصار الأليقُ بنا أن نثبَ نحن إليها من أن نتربص حتى نُقذفَ قذفاً. أنتَ رفيقي يا فولمنيوس وقد كنا معاً في المدرسة. فبحقِّ الوداد القديم هلاّ أمسكتَ سيفي فأرتمي عليهِ</tei:p>
             <tei:p change="#d2e73">فولمنيوس - ما تلك بمهمة صديق يا مولاي صوت بوق</tei:p>
             <tei:p change="#d2e73">كليتوس - الفرار الفرار يا مولاي! لا مقام هنا بعد
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p526"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1635.xhtml"/>
+<pb n="n3-p526" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1635.xhtml"/>
 
 
 بروتوس - الوداع يا كليتوس. الودع يا داردانيوس. الوداع يا فولمنيوس. ستراتو! أكنت مستغرقاً في النوم كل هذه المدة؟ وداعاً لك. أي أبناء وطني! إن قلبي ليطرب عندما أراجع كل تاريخ حياتي فلا أرى رجلاً لم يكن يخلص لي ولذلك حقَّ لي الفخر هذا اليوم مع الانكسار أكثر من اوكتافيوس وأنطونيوس بالانتصار. الوداع الوداع فقد نطق لساني بكل ماضي حياتي. إن الظلام يغشى عينيَّ وعظامي تتنطلب الراحة التي كانت تسعى لنيلها</tei:p>
@@ -1749,10 +1528,7 @@
             <tei:p change="#d2e73">ستراتو - حرٌّ من مثل العبودية التي أنت فيها مسلاّ. فلن يستطيع المنتصرون إلاّ إحراقهُ الآن فقد انتصر على نفسه ولم يدع لغيره شرف القضاء عليه</tei:p>
             <tei:p change="#d2e73">لوسيليوس - وكذا كان رجاؤنا فيهِ. شكراً لك يا بروتوس فقد حققت قولي فيك</tei:p>
             <tei:p change="#d2e73">اوكتافيوس - سأُلحق بي كلَّ من كان في خدمة بروتوس. أتبذلُ سعيك لي يا غلام؟
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p527"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1636.xhtml"/>
+<pb n="n3-p527" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1636.xhtml"/>
 
 
 ستراتو - أقبل إذا شفع مسلاّ بي لديك</tei:p>
@@ -1761,10 +1537,7 @@
             <tei:p change="#d2e73">ستراتو - مسكتُ له السيف فوقع عليهِ</tei:p>
             <tei:p change="#d2e73">مسلاّ - خذه إليك يا اوكتافيوس خذ إليك من قام بآخر خدمة لمولاي علته بقيصر العظيم لحسدٍ وغيرة. أما هو فانضمَّ إليهم ابتغاء مصلحة الأمة وإرضاءَ لمعتقده الشريف. ما أكرم حياته وما أشرف عنصره. إن الطبيعة نفسها تنادي بأعلى صوتها وتقول ذلكم رجل كامل</tei:p>
             <tei:p change="#d2e73">أنطونيوس - فليكن إكرامنا له على قدر فضيلته وندفنهُ باحترام عظيم. أما الليلة فستبيتُ جثتهُ في خيمتي موضوع الإكرام العسكريَ نادوا بالجيوش تسترحْ وهلموا بنا نتقاسم مفاخر هذا اليوم السعيد يخرجون
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n3-p529"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1637.xhtml"/>
+<pb n="n3-p529" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1637.xhtml"/>
 
 
             </tei:p>

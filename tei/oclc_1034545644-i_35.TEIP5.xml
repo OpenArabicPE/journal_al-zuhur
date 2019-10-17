@@ -1,14 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?>
-<tei:TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
-   <teiHeader xmlns="http://www.tei-c.org/ns/1.0"
-              xmlns:dc="http://purl.org/dc/elements/1.1/"
-              xmlns:html="http://www.w3.org/1999/xhtml"
-              xmlns:opf="http://www.idpf.org/2007/opf"
-              xmlns:xd="http://www.pnp-software.com/XSLTdoc">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><tei:TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:xd="http://www.pnp-software.com/XSLTdoc">
       <fileDesc>
          <titleStmt>
             <title>مجلة «الزهور» المصرية</title>
@@ -51,9 +42,7 @@
                                 </publisher>
                                 <pubPlace>
                                     <placeName change="#d5e42" ref="oape:place:226 geon:360630" xml:lang="ar">القاهرة</placeName>
-                                    <placeName change="#d5e42"
-                                   ref="oape:place:226 geon:360630"
-                                   xml:lang="ar-Latn-x-ijmes">al-Qāhira</placeName>
+                                    <placeName change="#d5e42" ref="oape:place:226 geon:360630" xml:lang="ar-Latn-x-ijmes">al-Qāhira</placeName>
                                     <placeName change="#d5e42" ref="oape:place:226 geon:360630" xml:lang="en">Cairo</placeName>
                                 </pubPlace>
                                 <!-- this is seems to be the first issue -->
@@ -65,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
@@ -74,118 +63,85 @@
       </revisionDesc>
    </teiHeader>
    <tei:text xml:lang="ar">
-      <pb xmlns="http://www.tei-c.org/ns/1.0"
-          n="n4-p169"
-          ed="shamela"
-          corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1851.xhtml"/>
+      <pb n="n4-p169" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1851.xhtml"/>
       <tei:body>
          <tei:div change="#d2e64" type="item">
-            <head xmlns="http://www.tei-c.org/ns/1.0">العدد 35</head>
+            <head>العدد  <tei:num type="auto-markup" change="#d2e181" value="35" xml:lang="ar">٣٥</tei:num> </head>
             <tei:p change="#d2e73"> - بتاريخ: <date when="1913-06-01">1913-06-01</date> </tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">
-            <head xmlns="http://www.tei-c.org/ns/1.0">معاهد التعليم</head>
+            <head>معاهد التعليم</head>
             <tei:p change="#d2e73">في مصر</tei:p>
             <tei:p change="#d2e73">وقعت إلينا نسخةٌ من كتاب الإحصاء السنوي العام للقطر المصري وهو الكتابُ الذي أخذتْ تنشرهُ منذ أربع سنوات إدارة الإحصاءِ الأميرية. فوقفنا فيهِ عند الفصل الذي يبحث في المدارس وما يتعلَّقُ بها , لأنَّ الأذهان منصرفة في الآونةِ الحاضرة إلى معاهد التعليم؛ وأفكار التلاميذ ووالديهم حائمةٌ حولَ الامتحانات التي جرت أخيراً لنيل الشهادتين الابتدائية والثانوي؛ والجميع يتسقَّطون أخبار النتيجة النهائية , إذ أن مستقبل الفريق الكبير من الناشئة متوقفٌ على تلك النتيجة. طالعنا الفصل المذكور مرتاحين إلى ما أظهرتهُ لنا الأرقام الموجودة فيهِ من دلائل التقدُّم والتحسين المستمرّ في معاهدنا العلمية , من حيث ترقيها وازدياد عددها , وتكاثر الطلاَّب المقبلين عليها. وقد طالما سمعنا في المدَّة الأخيرة إطناباً جماً في ارتقاءِ المعارف في ربوعنا , وثناءً وافراً على
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p170"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1852.xhtml"/>
+<pb n="n4-p170" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1852.xhtml"/>
 
 
 النهضة الأدبية في مصر , على أننا لم نرَ , للدلالة على هذه النهضة وذلك الارتقاء , أبلغ برهاناً وأنصع بياناً من الأرقام التي جمعناها عن مدارسنا وعددها وعدد أساتذتها وتلاميذها؛ وها نحن نعرض على القراء نتيجة بحثنا على الصورة الآتية:</tei:p>
             <tei:p change="#d2e73">نوع المدارس عددها عدد أساتذتها تلاميذها مجموع التلاميذ</tei:p>
-            <tei:p change="#d2e73">مدارس الحكومة 70 1014 14222 751 14973</tei:p>
-            <tei:p change="#d2e73">مدارس الأوقاف 19 977 17877 182 18059</tei:p>
-            <tei:p change="#d2e73">مدارس مجالس المديريات ومدارس تساعدها الحكومة 74 646 7501 1741 9242</tei:p>
-            <tei:p change="#d2e73">مدارس حرّة 428 2510 45996 10527 56523</tei:p>
-            <tei:p change="#d2e73">كتاتيب الحكومة 146 507 9901 5268 15169</tei:p>
-            <tei:p change="#d2e73">كتاتيب حرّة 3556 7414 191687 18758 210445</tei:p>
-            <tei:p change="#d2e73">مدارس أجنبية 479 2769 33591 21074 54665</tei:p>
-            <tei:p change="#d2e73">المجموع 4772 15837 320775 58301 379076</tei:p>
-            <tei:p change="#d2e73">فيؤخذ من هذا الجدول أن عدد المدارس في القطر المصري بين أميرية وحرّة , وأهلية وأجنبية , يبلغ 4772. وفيها الكتَّابُ والمدرسة الثانوية والابتدائية , والمدارس الصناعية ,</tei:p>
-            <tei:p change="#d2e73">والمدارس العالية للطب والحقوق والزراعة والتجارة الخ. ويبلغ عدد المختلفين إليها 379. 076 تلميذاً وشاباً يردون فيها موارد العلم الصافية , ويستقون منها مناهل الآداب العذبة , حتى تنمو في صدورهم ثمار المعارف والفضيلة , فيكونوا لبلادهم وأمتهم فخراً ومجداً.
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p171"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1853.xhtml"/>
+            <tei:p change="#d2e73">مدارس الحكومة  <tei:num type="auto-markup" change="#d2e181" value="70" xml:lang="ar">٧٠</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="1014" xml:lang="ar">١٠١٤</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="14222" xml:lang="ar">١٤٢٢٢</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="751" xml:lang="ar">٧٥١</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="14973" xml:lang="ar">١٤٩٧٣</tei:num> </tei:p>
+            <tei:p change="#d2e73">مدارس الأوقاف  <tei:num type="auto-markup" change="#d2e181" value="19" xml:lang="ar">١٩</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="977" xml:lang="ar">٩٧٧</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="17877" xml:lang="ar">١٧٨٧٧</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="182" xml:lang="ar">١٨٢</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="18059" xml:lang="ar">١٨٠٥٩</tei:num> </tei:p>
+            <tei:p change="#d2e73">مدارس مجالس المديريات ومدارس تساعدها الحكومة  <tei:num type="auto-markup" change="#d2e181" value="74" xml:lang="ar">٧٤</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="646" xml:lang="ar">٦٤٦</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="7501" xml:lang="ar">٧٥٠١</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="1741" xml:lang="ar">١٧٤١</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="9242" xml:lang="ar">٩٢٤٢</tei:num> </tei:p>
+            <tei:p change="#d2e73">مدارس حرّة  <tei:num type="auto-markup" change="#d2e181" value="428" xml:lang="ar">٤٢٨</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="2510" xml:lang="ar">٢٥١٠</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="45996" xml:lang="ar">٤٥٩٩٦</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="10527" xml:lang="ar">١٠٥٢٧</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="56523" xml:lang="ar">٥٦٥٢٣</tei:num> </tei:p>
+            <tei:p change="#d2e73">كتاتيب الحكومة  <tei:num type="auto-markup" change="#d2e181" value="146" xml:lang="ar">١٤٦</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="507" xml:lang="ar">٥٠٧</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="9901" xml:lang="ar">٩٩٠١</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="5268" xml:lang="ar">٥٢٦٨</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="15169" xml:lang="ar">١٥١٦٩</tei:num> </tei:p>
+            <tei:p change="#d2e73">كتاتيب حرّة  <tei:num type="auto-markup" change="#d2e181" value="3556" xml:lang="ar">٣٥٥٦</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="7414" xml:lang="ar">٧٤١٤</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="191687" xml:lang="ar">١٩١٦٨٧</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="18758" xml:lang="ar">١٨٧٥٨</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="210445" xml:lang="ar">٢١٠٤٤٥</tei:num> </tei:p>
+            <tei:p change="#d2e73">مدارس أجنبية  <tei:num type="auto-markup" change="#d2e181" value="479" xml:lang="ar">٤٧٩</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="2769" xml:lang="ar">٢٧٦٩</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="33591" xml:lang="ar">٣٣٥٩١</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="21074" xml:lang="ar">٢١٠٧٤</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="54665" xml:lang="ar">٥٤٦٦٥</tei:num> </tei:p>
+            <tei:p change="#d2e73">المجموع  <tei:num type="auto-markup" change="#d2e181" value="4772" xml:lang="ar">٤٧٧٢</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="15837" xml:lang="ar">١٥٨٣٧</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="320775" xml:lang="ar">٣٢٠٧٧٥</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="58301" xml:lang="ar">٥٨٣٠١</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="379076" xml:lang="ar">٣٧٩٠٧٦</tei:num> </tei:p>
+            <tei:p change="#d2e73">فيؤخذ من هذا الجدول أن عدد المدارس في القطر المصري بين أميرية وحرّة , وأهلية وأجنبية , يبلغ  <tei:num type="auto-markup" change="#d2e181" value="4772" xml:lang="ar">٤٧٧٢</tei:num> . وفيها الكتَّابُ والمدرسة الثانوية والابتدائية , والمدارس الصناعية ,</tei:p>
+            <tei:p change="#d2e73">والمدارس العالية للطب والحقوق والزراعة والتجارة الخ. ويبلغ عدد المختلفين إليها  <tei:num type="auto-markup" change="#d2e181" value="379" xml:lang="ar">٣٧٩</tei:num> .  <tei:num type="auto-markup" change="#d2e181" value="76" xml:lang="ar">٧٦</tei:num>  تلميذاً وشاباً يردون فيها موارد العلم الصافية , ويستقون منها مناهل الآداب العذبة , حتى تنمو في صدورهم ثمار المعارف والفضيلة , فيكونوا لبلادهم وأمتهم فخراً ومجداً.
+<pb n="n4-p171" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1853.xhtml"/>
 
 
-هذا عدا الذين يتلقون العلم في جامعات أوربا وكلياتها الكبرى سواء كان في أرساليات الحكومة , أو على نفقتهم الخاصة , وليس هؤلاء بالعدد القليل. وبمثل هذا الجيش من الطلبة والشبيبة المتعلمة يتعزّز مقام الأمم , وترفع رايتها , ويزداد عمرانها وفلاحها. أما عدد الأساتذة فقد بلغ 15. 837. وكفانا لبيان خطورة المهمة الملقاة على عاتقهم أبراد ما قالهُ بسمرك داهية الألمان أثر انتصارهِ على فرنسا في حرب السبعين: أننا غلبنا جارتنا بمعلم المدرسة. فعلى الحكومة والحالة هذه أن تمهد لبلادها سبل الانتصار في معترك هذه الحياة بانتقاء أساتذة المدارس الأميرية من نخبة الرجال أدباً وفضلاً وعلماً , وأن تعني بوضع قانونٍ يضمن توفر هذه الشروط في أساتذة المدارس الحرَّة. ومما يراهُ القارئ أيضاً في الجدول الذي قدّمناهُ أن للأجانب 479 مدرسة في القطر المصري يدرس فيها 54. 665 طالباً وطالبة. وهذا العدد هو تقريباً سُبْعُ مجموع التلاميذ في مصر , وهي مأثرةٌ تذكر للأجانب مع الشكر الوافر. أما إحصاءُ هذه المدارس الأجنبية من حيث عددها , فأن للأميريكان منها 188 مدرسة , وللفرنسويين 152 , وللإيطاليين 49 , ولليونان 42 , وللانكليز 30 , وللنمسويين 8 , وللهولنديين 2 , و3 لأمم مختلفة. وأما من حيث عدد التلاميذ فإن المدارس الفرنسوية تأتي في مقدَّمة المدارس
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p172"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1854.xhtml"/>
+هذا عدا الذين يتلقون العلم في جامعات أوربا وكلياتها الكبرى سواء كان في أرساليات الحكومة , أو على نفقتهم الخاصة , وليس هؤلاء بالعدد القليل. وبمثل هذا الجيش من الطلبة والشبيبة المتعلمة يتعزّز مقام الأمم , وترفع رايتها , ويزداد عمرانها وفلاحها. أما عدد الأساتذة فقد بلغ  <tei:num type="auto-markup" change="#d2e181" value="15" xml:lang="ar">١٥</tei:num> .  <tei:num type="auto-markup" change="#d2e181" value="837" xml:lang="ar">٨٣٧</tei:num> . وكفانا لبيان خطورة المهمة الملقاة على عاتقهم أبراد ما قالهُ بسمرك داهية الألمان أثر انتصارهِ على فرنسا في حرب السبعين: أننا غلبنا جارتنا بمعلم المدرسة. فعلى الحكومة والحالة هذه أن تمهد لبلادها سبل الانتصار في معترك هذه الحياة بانتقاء أساتذة المدارس الأميرية من نخبة الرجال أدباً وفضلاً وعلماً , وأن تعني بوضع قانونٍ يضمن توفر هذه الشروط في أساتذة المدارس الحرَّة. ومما يراهُ القارئ أيضاً في الجدول الذي قدّمناهُ أن للأجانب  <tei:num type="auto-markup" change="#d2e181" value="479" xml:lang="ar">٤٧٩</tei:num>  مدرسة في القطر المصري يدرس فيها  <tei:num type="auto-markup" change="#d2e181" value="54" xml:lang="ar">٥٤</tei:num> .  <tei:num type="auto-markup" change="#d2e181" value="665" xml:lang="ar">٦٦٥</tei:num>  طالباً وطالبة. وهذا العدد هو تقريباً سُبْعُ مجموع التلاميذ في مصر , وهي مأثرةٌ تذكر للأجانب مع الشكر الوافر. أما إحصاءُ هذه المدارس الأجنبية من حيث عددها , فأن للأميريكان منها  <tei:num type="auto-markup" change="#d2e181" value="188" xml:lang="ar">١٨٨</tei:num>  مدرسة , وللفرنسويين  <tei:num type="auto-markup" change="#d2e181" value="152" xml:lang="ar">١٥٢</tei:num>  , وللإيطاليين  <tei:num type="auto-markup" change="#d2e181" value="49" xml:lang="ar">٤٩</tei:num>  , ولليونان  <tei:num type="auto-markup" change="#d2e181" value="42" xml:lang="ar">٤٢</tei:num>  , وللانكليز  <tei:num type="auto-markup" change="#d2e181" value="30" xml:lang="ar">٣٠</tei:num>  , وللنمسويين  <tei:num type="auto-markup" change="#d2e181" value="8" xml:lang="ar">٨</tei:num>  , وللهولنديين  <tei:num type="auto-markup" change="#d2e181" value="2" xml:lang="ar">٢</tei:num>  , و <tei:num type="auto-markup" change="#d2e181" value="3" xml:lang="ar">٣</tei:num>  لأمم مختلفة. وأما من حيث عدد التلاميذ فإن المدارس الفرنسوية تأتي في مقدَّمة المدارس
+<pb n="n4-p172" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1854.xhtml"/>
 
 
-الأجنبية , إذ أن عدد تلاميذها 21. 019 , وتليها مدارس الأميريكان وعدد تلاميذها 14. 749.</tei:p>
+الأجنبية , إذ أن عدد تلاميذها  <tei:num type="auto-markup" change="#d2e181" value="21" xml:lang="ar">٢١</tei:num> .  <tei:num type="auto-markup" change="#d2e181" value="19" xml:lang="ar">١٩</tei:num>  , وتليها مدارس الأميريكان وعدد تلاميذها  <tei:num type="auto-markup" change="#d2e181" value="14" xml:lang="ar">١٤</tei:num> .  <tei:num type="auto-markup" change="#d2e181" value="749" xml:lang="ar">٧٤٩</tei:num> .</tei:p>
             <tei:p change="#d2e73">هذه حالة معاهدنا العلمية مثبتة بالأرقام المأخوذة من أوثق المصادر. وقد رأينا تكلمةً للفائدة أن نقارن بينها وبين ما جمعنا من الأرقام عن حالة تلك المدارس منذ أربع سنوات ليتبين القارئ درجةَ الترقي والتقدُّم التي بلغتها في هذه المدّة من الزمن. وإليك المقابلة بينَ الحالتين:</tei:p>
             <tei:p change="#d2e73">السنة المدرسية عدد المدارس عدد التلاميذ ذكور أُناث</tei:p>
             <tei:p change="#d2e73">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" style="color:red;">1907 - 19084094294</hi>. 937 253. 923 41. 014</tei:p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e181" value="1907" xml:lang="ar">١٩٠٧</tei:num>  -  <tei:num type="auto-markup" change="#d2e181" value="1.9084094294E10" xml:lang="ar">١.٩٠٨٤٠٩٤٢٩٤E١٠</tei:num> </hi>.  <tei:num type="auto-markup" change="#d2e181" value="937" xml:lang="ar">٩٣٧</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="253" xml:lang="ar">٢٥٣</tei:num> .  <tei:num type="auto-markup" change="#d2e181" value="923" xml:lang="ar">٩٢٣</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="41" xml:lang="ar">٤١</tei:num> .  <tei:num type="auto-markup" change="#d2e181" value="14" xml:lang="ar">١٤</tei:num> </tei:p>
             <tei:p change="#d2e73">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" style="color:red;">1911 - 1912 4772 379</hi>. 076 329. 076 320. 775 85. 301</tei:p>
-            <tei:p change="#d2e73">ومن هذا الجدول يُستدلُّ أنَّ عدد المدارس زاد في أربع سنوات 678 مدرسة , بمعدَّل 169 أو 170 مدرسة جديدة في السنة. وهذه نتيجة تبهج وتسرّ. ومن المعلوم أن من يفتح مدرسة يقفل سجناً. أما مجموع عدد التلاميذ , فقد زاد في المدة نفسها 84. 139 أي بمعدَّل 21. 035 تلميذاً في السنة وهو عددٌ لا يستهانُ بهِ ترك جيوش الجهل لينضمّ إلى جيش النور والعرفان. وإذا أخذنا عدد التلاميذ منذ أربع سنوات نجد أن نسبة الطالبين إلى المجموع هي نسبة 13. 91 إلى 100. أما في السنة المدرسية 1911 - 1912 فإن نسبة الطالبين هي 84. 62 إلى 100 ونسبة الطالبات هي 15. 38 إلى 100. فيظهر من هذه المقابلة أن
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p173"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1855.xhtml"/>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e181" value="1911" xml:lang="ar">١٩١١</tei:num>  -  <tei:num type="auto-markup" change="#d2e181" value="1912" xml:lang="ar">١٩١٢</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="4772" xml:lang="ar">٤٧٧٢</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="379" xml:lang="ar">٣٧٩</tei:num> </hi>.  <tei:num type="auto-markup" change="#d2e181" value="76" xml:lang="ar">٧٦</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="329" xml:lang="ar">٣٢٩</tei:num> .  <tei:num type="auto-markup" change="#d2e181" value="76" xml:lang="ar">٧٦</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="320" xml:lang="ar">٣٢٠</tei:num> .  <tei:num type="auto-markup" change="#d2e181" value="775" xml:lang="ar">٧٧٥</tei:num>   <tei:num type="auto-markup" change="#d2e181" value="85" xml:lang="ar">٨٥</tei:num> .  <tei:num type="auto-markup" change="#d2e181" value="301" xml:lang="ar">٣٠١</tei:num> </tei:p>
+            <tei:p change="#d2e73">ومن هذا الجدول يُستدلُّ أنَّ عدد المدارس زاد في أربع سنوات  <tei:num type="auto-markup" change="#d2e181" value="678" xml:lang="ar">٦٧٨</tei:num>  مدرسة , بمعدَّل  <tei:num type="auto-markup" change="#d2e181" value="169" xml:lang="ar">١٦٩</tei:num>  أو  <tei:num type="auto-markup" change="#d2e181" value="170" xml:lang="ar">١٧٠</tei:num>  مدرسة جديدة في السنة. وهذه نتيجة تبهج وتسرّ. ومن المعلوم أن من يفتح مدرسة يقفل سجناً. أما مجموع عدد التلاميذ , فقد زاد في المدة نفسها  <tei:num type="auto-markup" change="#d2e181" value="84" xml:lang="ar">٨٤</tei:num> .  <tei:num type="auto-markup" change="#d2e181" value="139" xml:lang="ar">١٣٩</tei:num>  أي بمعدَّل  <tei:num type="auto-markup" change="#d2e181" value="21" xml:lang="ar">٢١</tei:num> .  <tei:num type="auto-markup" change="#d2e181" value="35" xml:lang="ar">٣٥</tei:num>  تلميذاً في السنة وهو عددٌ لا يستهانُ بهِ ترك جيوش الجهل لينضمّ إلى جيش النور والعرفان. وإذا أخذنا عدد التلاميذ منذ أربع سنوات نجد أن نسبة الطالبين إلى المجموع هي نسبة  <tei:num type="auto-markup" change="#d2e181" value="13" xml:lang="ar">١٣</tei:num> .  <tei:num type="auto-markup" change="#d2e181" value="91" xml:lang="ar">٩١</tei:num>  إلى  <tei:num type="auto-markup" change="#d2e181" value="100" xml:lang="ar">١٠٠</tei:num> . أما في السنة المدرسية  <tei:num type="auto-markup" change="#d2e181" value="1911" xml:lang="ar">١٩١١</tei:num>  -  <tei:num type="auto-markup" change="#d2e181" value="1912" xml:lang="ar">١٩١٢</tei:num>  فإن نسبة الطالبين هي  <tei:num type="auto-markup" change="#d2e181" value="84" xml:lang="ar">٨٤</tei:num> .  <tei:num type="auto-markup" change="#d2e181" value="62" xml:lang="ar">٦٢</tei:num>  إلى  <tei:num type="auto-markup" change="#d2e181" value="100" xml:lang="ar">١٠٠</tei:num>  ونسبة الطالبات هي  <tei:num type="auto-markup" change="#d2e181" value="15" xml:lang="ar">١٥</tei:num> .  <tei:num type="auto-markup" change="#d2e181" value="38" xml:lang="ar">٣٨</tei:num>  إلى  <tei:num type="auto-markup" change="#d2e181" value="100" xml:lang="ar">١٠٠</tei:num> . فيظهر من هذه المقابلة أن
+<pb n="n4-p173" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1855.xhtml"/>
 
 
-نسبة التلميذات إلى مجموع التلاميذ قد زادت بعض الزيادة. على أنها لا تزال قليلة جدّاً؛ فكأنهُ ليس عندنا مقابل كل 85 تلميذاً على وجه التقريب إلاَّ 15 تلميذة. وهذا نقصٌ في إدارة التعليم عندنا يجب التذرّع بأنجع الوسائل لملافاتهِ , لأنه لا يخفي ما يترتب على هذا الفرق البّين من الأضرار. فإننا إذا أعددنا فتياناً متعلمين , يجب أن نهيئَ لهم فتياتٍ متعلمات يفهمنَ أفكارَهم , ويُدركنَ عواطفهم , فيشاركنهم في الحياةِ مشاركة حقيقية. وشأن المرأة في تدبير المنزل وتربية العائلة معروف لا حاجة بنا إلى تفصيله في هذا المقام. ولا شكَّ في أن هذا لتقصير في تعليم البنات هو السبب الأكبر لإعراض شباننا عن الزواج أو للبحث عن شريكة حياتهم بين الأجنبيات. والنساءُ نصف الأمة. فهل تُعَدُّ الأمة متعلمةً راقيةً إذا علّمنا نصفها , وأهملنا - أو كدنا - النصف الآخر. هذا , وإذا ظلَّ التقدّم في معهدنا مطّرداً على هذه النسبة , أي بزيادة 170 مدرسة و 21. 035 تلميذاً في السنة , فأنَّهُ لا يمضي على مصر زمنٌ طويل حتى تصبحَ في مصاف البلاد الراقية في آدابها ومعارفها وعلومها , ولاسيما إذا لاحظنا العناية بتنقيح برنامج الدروس شيئاً فشيئاً وتطبيقهِ على حاجات الزمان والمكان. وقد رأينا من وزير معارفنا المفضال أحمد للوصول إل هذه الغاية الجليلة في هذا العصر , عصر المنافسة في مضمار العلوم والآداب.
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p174"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1856.xhtml"/>
+نسبة التلميذات إلى مجموع التلاميذ قد زادت بعض الزيادة. على أنها لا تزال قليلة جدّاً؛ فكأنهُ ليس عندنا مقابل كل  <tei:num type="auto-markup" change="#d2e181" value="85" xml:lang="ar">٨٥</tei:num>  تلميذاً على وجه التقريب إلاَّ  <tei:num type="auto-markup" change="#d2e181" value="15" xml:lang="ar">١٥</tei:num>  تلميذة. وهذا نقصٌ في إدارة التعليم عندنا يجب التذرّع بأنجع الوسائل لملافاتهِ , لأنه لا يخفي ما يترتب على هذا الفرق البّين من الأضرار. فإننا إذا أعددنا فتياناً متعلمين , يجب أن نهيئَ لهم فتياتٍ متعلمات يفهمنَ أفكارَهم , ويُدركنَ عواطفهم , فيشاركنهم في الحياةِ مشاركة حقيقية. وشأن المرأة في تدبير المنزل وتربية العائلة معروف لا حاجة بنا إلى تفصيله في هذا المقام. ولا شكَّ في أن هذا لتقصير في تعليم البنات هو السبب الأكبر لإعراض شباننا عن الزواج أو للبحث عن شريكة حياتهم بين الأجنبيات. والنساءُ نصف الأمة. فهل تُعَدُّ الأمة متعلمةً راقيةً إذا علّمنا نصفها , وأهملنا - أو كدنا - النصف الآخر. هذا , وإذا ظلَّ التقدّم في معهدنا مطّرداً على هذه النسبة , أي بزيادة  <tei:num type="auto-markup" change="#d2e181" value="170" xml:lang="ar">١٧٠</tei:num>  مدرسة و  <tei:num type="auto-markup" change="#d2e181" value="21" xml:lang="ar">٢١</tei:num> .  <tei:num type="auto-markup" change="#d2e181" value="35" xml:lang="ar">٣٥</tei:num>  تلميذاً في السنة , فأنَّهُ لا يمضي على مصر زمنٌ طويل حتى تصبحَ في مصاف البلاد الراقية في آدابها ومعارفها وعلومها , ولاسيما إذا لاحظنا العناية بتنقيح برنامج الدروس شيئاً فشيئاً وتطبيقهِ على حاجات الزمان والمكان. وقد رأينا من وزير معارفنا المفضال أحمد للوصول إل هذه الغاية الجليلة في هذا العصر , عصر المنافسة في مضمار العلوم والآداب.
+<pb n="n4-p174" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1856.xhtml"/>
 
 
             </tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">
-            <head xmlns="http://www.tei-c.org/ns/1.0">أمام مهدها</head>
+            <head>أمام مهدها</head>
             <tei:p change="#d2e73">كتبها ولي الدين في طفلة له رآها تحتضر وهي في الشهر الثالث من عمرها</tei:p>
             <tei:p change="#d2e73">أَقصرتْ عنكِ وسائلُ العناية , وخابت في استبقائكِ آمال القلبين المشفقين اللذين طال خفوقها عليكِ في الليالي الطويلة. وها أنتِ اليوم على وشك التوديع. لم تتعلمي ما يقولُ المودّعون , لأنكِ لم تبلغي سنَّ القول. ولستِ تفهمين ما يُقال فيكِ , لأنكِ لم تصلي إلى زمن الفهم. أشفقتُ عليكِ من أُوجاع تُحسّين بها ولا تُدركينها. ثلاثةُ أشهرٍ , كثلاثِ طرفاتٍ بالجفن , مضت وكأنها لم تكن. ليت الشفاهَ التي لامست قبلاتها تينك الوجنتين الذابلتين جفّت قبلَ أن تكونَ ممرّاً للتأوُّهِ. . .! وليت تلك الأنفاس التي سرتْ على وجهكِ الغضّ التهبت في أحشائنا قبل أن تنقلب زفرات. . .!</tei:p>
             <tei:p change="#d2e73">أعددتك ذخراً , وإذا بكِ مسلوبة. ظننتكِ لي , فإذا بكِ للثرى. لهفي عليكِ إذ تذهبين , ولم تري من سطوري ما يكون لكِ عظةً من بعدي! بل لهفي علىَّ إذْ أَستندي عيونَ النيّرات بمصراعٍ ارتجلهُ , وأنا أطلبُ اليومَ فيكِ كلامَ الرثاءِ , فلا تساعفني المعاني. إن يخطئكِ الحمام , وهيهات ما أظنهُ فاعلاً! فقد أبقى لي الدهرُ أملاً كاد يزمع الرحيل. وإنْ يأخذكِ كما أخذ أجدادَكِ وجدَّاتكِ من قبل , فقد أسرعتِ في قطع طريق يتظالع في قطعها الخلائق.
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p175"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1857.xhtml"/>
+<pb n="n4-p175" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1857.xhtml"/>
 
 
 أتيتِ نقيةً , وتذهبين نقية , كتقطرة الطَلّ على ورقةٍ من الورد , تلمعُ بكرةً , ولا تلبث أن تُستطار بخارأً. بين نوحات الثاكلات , وترجيع الحمائم بالأسحار , وبكاءِ السماءِ , وابتسام الأرض تضادٌّ يغيظ الموجَع. لا أشكو بثي فيكِ؛ ولكني استبقيه لأعتصرَ منهُ ذوبَ الشجون , ولأخاطبَ بهِ نفسي ناصحاً كلما غلبت عليها غفلات هذه الدار , وكادت تكون لها فتنة. لا أستطيع دفعاً لشيء يسوقهُ المقدور , ولكني وفيٌّ أضمن لكِ ألاَّ يلتام جرح يومك هذا. تزولين أنتِ وتبقى ذكراكِ. كذاك الحياة , تزول الهيولى وتبقى الصوَر. . .</tei:p>
             <tei:p change="#d2e73">ولي الدين يكن</tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">
-            <head xmlns="http://www.tei-c.org/ns/1.0">الأغاني في الحروب</head>
-            <tei:p change="#d2e73">ذهب فريق من العلماءِ على أنَّ منشأ اللغات الغناءُ. لأن الغناءَ في عرفهم هو صورة الخيال الواقعة تحت الحس , أو استفاضة مما في النفس عند امتلائها. وفي تاريخ الأقدمين أن امفيون باني أسوار طيبة كان يدفع العمال إلى العمل بجد ونشاط بالغناءِ والأناشيد , ألا تراهم في مصر يفعلون ذلك حتى الآن؟ وفي أساطير اليونان أن الشعب انتصر في معركة سلامين بأغاني سولون , فنجي البلاد بعد سقوطها. وفي التوراة أن الإسرائيليين كانوا إذا خرجوا لحربٍ يسير مغنوهم أمامهم. وفي التاريخ لحديث أن الفرنساويين لما سمعوا أنشودة المرسيلييز سنة 1792 , وقد
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p176"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1858.xhtml"/>
+            <head>الأغاني في الحروب</head>
+            <tei:p change="#d2e73">ذهب فريق من العلماءِ على أنَّ منشأ اللغات الغناءُ. لأن الغناءَ في عرفهم هو صورة الخيال الواقعة تحت الحس , أو استفاضة مما في النفس عند امتلائها. وفي تاريخ الأقدمين أن امفيون باني أسوار طيبة كان يدفع العمال إلى العمل بجد ونشاط بالغناءِ والأناشيد , ألا تراهم في مصر يفعلون ذلك حتى الآن؟ وفي أساطير اليونان أن الشعب انتصر في معركة سلامين بأغاني سولون , فنجي البلاد بعد سقوطها. وفي التوراة أن الإسرائيليين كانوا إذا خرجوا لحربٍ يسير مغنوهم أمامهم. وفي التاريخ لحديث أن الفرنساويين لما سمعوا أنشودة المرسيلييز سنة  <tei:num type="auto-markup" change="#d2e181" value="1792" xml:lang="ar">١٧٩٢</tei:num>  , وقد
+<pb n="n4-p176" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1858.xhtml"/>
 
 
 اجتاح العدوُّ بلادهم , وقبض على ناصية أرضهم , تولتهم الحماسة , وهزَّتهم النخوة , فألفوا صفوفهم الممزَّقة , وقوَّتهم الضائعة؛ فبرز ضعافهم أشداء , وجبناؤهم شجعاناً , ومتطوعتهم منتظمة , فانتصروا. وفي وصايا بولس رسول النصرانية رتلوا وغنوا الصلاة. وفي الآيات القرآنية: {ورتلِ القرىن ترتيلاً} وفي التوراة نشيد الأناشيد , وفي أخبار داود أنه ما كان يزيل كربته إذا ذكر أمرُ شاوول إلاّ الغناء. وفي أخبار السحرة والعرّافين أنه ما استأثروا الألباب ولعبوا بالعقول إلا بعد ترويضها بالغناء. ويؤكد هوارس أنّ مصر تقدَّمت غيرها من أُمم الأرض بالمدينة والحضارة , لأنها تقدَّمت غيرها بالغناءِ. وفي أقوال أحد شعراء الفرنساويين: إذا تآخت الأَصوات , دنت القلوب من الوئام وإذا اجتمع الناس لأمرٍ , لا تنفق عواطفهم ولا تتحد أميالهم إلاّ إذا اتحدت أصواتهم بأنشودةٍ واحدة. وكان الأطباء يداوون المرضى بالأغاني. وروى هوميروس وبلوتارك أن القدماءَ كانوا إذا جلسوا بعد الأكل والقصف يغنون فيفثأون من ثمولهم. ومن أقوال لوبز في الغناء أنهُ في الكلام كاللون في الصور. ومن الأغاني ما يبكي ويرقق , وهو لما كان من الشعر في الغزل والشوق إلى الوطن والبكاء على الشباب والمرائي والزهد. ومنها ما يطرب , وهو لما كان في نعت الشراب , وذكر الندماء والمجالس والصبوح والدساكر. ومنها ما يشوقُ وترتاح إليهِ النفس كصفة الأزهار والأشجار
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p177"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1859.xhtml"/>
+<pb n="n4-p177" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1859.xhtml"/>
 
 
 والمنتزهات والصيد؛ ومنها ما يسرُّ ويُفرح ويحث على الكرم والجود , وهو لما كان في المديح والفخر وصفة الملوك. ومنها ما يشجّع وهو لما كان في الحرب وذكر الوقائع والغارات والأسرى والنصر والفوز والفخر. ولكل أمة أغانيها وأناشيدها , ومن هذه الأناشيد والأغاني تعرف عاداتها وأخلاقها وتاريخها وأطوارها. وتتوارث السلالات ذلك جيلاً بعد جيل , وقرناً بعد قرن , حتى أن</tei:p>
             <tei:p change="#d2e73">نوتية المراكب في نيل مصر يغنون اليوم رعمسيس توارثاً وتقليداً بقولهم وهم يجذّفون يا رمسو يا رمسو وفي سوريا يلقبون أغاني الحرب والقتال بالحوربة , ويشقون منها فعل حورب كما أنهم يلقبون أغاني الفرح بالهوربة ويشقون منها فعل هوبر ولربما ورثوا هذه اللفظة من هورا الرومانية والإغريقية , فضلاً عن الحدو الذي ينشدونهُ عند السير والمشي لا وراءَ القوافل والظعن فقط , بل في كل سير سريع يتطلّب الحماسة والنشاط. وكان غزاة العرب الذين دوّخوا المشارق والمغارب إذا خرجوا لغزوةٍ أو لقتالٍ أو لحرب , تغنوا بأشعارهم الحماسية , فيفور الدم في عروقهم وتهيج أعصابهم وتحمى نفوسهم , ويدفعهم الفخر إلى إتيان العجائب. وكانوا إذا اشتبك الأبطال بالقتال , وكفوا عن التغني بالأشعار يوقفون نساءهم يغنينهم , وفي يد الواحدة منهن مقرعة تضرب بها الفارين , وفي يدها الأخرى قارورة ماء تسقي منها الجرحى. وهذه العادة لا تزال عادتهم في حروبهم وهي أيضاً من عادات الأرناؤوط وشعوب البلقان , حتى قال
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p178"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1860.xhtml"/>
+<pb n="n4-p178" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1860.xhtml"/>
 
 
 أحد الضباط الأوروبيين الذين شهدوا المعارك البلقانية أن الأناشيد والتغني بحكايات الأبطال كانت من أقوى العوامل في فوز البلقانيين. والشعوب السلافية تلقت هذهِ العادة عن الشعوب الشرقية الحربية كالعرب منذ أربعة قرون. والأغاني والأناشيد هي التي صانت قومية البلقانيين من الضياع وصانت لغاتهم من النسيان؛ فهم منها حفظوا تاريخ أسلافهم ومجد أجدادهم وأسماءَ أبطالهم. وقد تفرَّد في نظمها العميان إذ كانوا يطوفون القرى والدساكر , وينشدون هذهِ الأناشيد على توقيع الرباب والقزلة. وإذا ذكرنا نحن أشعار عنترة والمهلهل , عرفنا كيف يكون تأثير هذه الأناشيد في نفوس الأمم وعصابات الشبان وطوائف الجند. وتاريخ الإفرنج طافح بمثل ذلك بما رووهُ عن غيليوم تل والسيد ورولان. وفي حكايات الصربيين والبلغاريين حكاية بطلٍ من أبطالهم في القرن الخامس عشر يسمونهُ ماركو قره لجيفيتش , كان يلبس جلد الذئب , ويتسلَّح بخنجرٍ مرصع بالذهب والفضة , ويركب جواداً يسمّى شاراتز , ولهم فيهِ القصائد والأناشيد التي يحفظها كبارهم وصغارهم , ويتغنون بها في البيوت والمنازل والأفراح والمآتم والحقول والمتنزهات , حتى أنهُ لا يوجد طفلٌ واحدٌ بلقاني لا يتمنى أن يكون ماركو. وإليك ما يقولون عنه:</tei:p>
             <tei:p change="#d2e73">إذا ضرب ماركو بسيفهِ ترك خصمهُ شفعاً بعد أن كان وتراً</tei:p>
             <tei:p change="#d2e73">إذا طعن ماركو برمحهِ أطار خصمهُ إلى ما فوق رأسهِ
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p179"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1861.xhtml"/>
+<pb n="n4-p179" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1861.xhtml"/>
 
 
 وإذا دار ماركو دورتين فلَّ الجيش بدورانه</tei:p>
@@ -204,10 +160,7 @@
             <tei:p change="#d2e73">وفي قصيدة أُخرى تخاطب ماركو جدَّته بهجر القتال إلى الحرث والزرع , فيصغي إلى نصيحتها ويأخذ بزرع الحقل على جانب الطريق , إلى أن يهبط محصلو الأعشار على الفلاحين فيسلبوهم أموالهم ومزارعهم فيترك ماركو المحراث إلى السيف ويخلّص المال من سالبيه , ثم يحمله إلى أصحابهِ وهو يخاطب جدتهُ بقولهِ:</tei:p>
             <tei:p change="#d2e73">انظري أني لحارث ,</tei:p>
             <tei:p change="#d2e73">لا الحقول ولا المزارع ,
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p180"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1862.xhtml"/>
+<pb n="n4-p180" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1862.xhtml"/>
 
 
 بل طريق الملك والسلطان</tei:p>
@@ -225,10 +178,7 @@
             <tei:p change="#d2e73">لم يبقَ إلاَّكِ يا كريمة</tei:p>
             <tei:p change="#d2e73">في المركبة المذهبة</tei:p>
             <tei:p change="#d2e73">فاخرجي رأسك الأبيض
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p181"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1863.xhtml"/>
+<pb n="n4-p181" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1863.xhtml"/>
 
 
 لأقطعه بحد الحسام</tei:p>
@@ -239,85 +189,61 @@
             <tei:p change="#d2e73">وقس على ما نذكر ما لم نذكر من قصائدهم وأشعارهم وأناشيدهم التي أثارت الحمية في رؤوسهم أثناءَ القتال , وحفظت تاريخهم وجنسيتهم وأملهم وشجاعتهم قبل الحرب , بل أعدَّت نفوسهم لثورات كما أعدَّتها للنصر. ونحن العرب الشرقيين عندنا كثير من هذه الأناشيد والأشعار الملأى بها الأسفار. ولكنَّ الأغاني في مجالسنا تُثبّط اليوم هممنا , وتضعف نفوسنا. فهي عبارة عن ندبٍ وبكاءٍ ونواح للوصال , وذلٍّ في الليل وصَغار في</tei:p>
             <tei:p change="#d2e73">النهار. فهل يريد المغنون والمنشدون والناظمون والسامعون أن يخرجوا من الذلة وضعف النفس على الفخر والحماسة والمجد؟ لقد آن لنا أن نعرف أنَّا شعبٌ حيٌّ ذو تاريخ وأبطال وأقوال بل أفعال.</tei:p>
             <tei:p change="#d2e73">وهذه الأغاني التي درج عليها المغنون العرب نُقِلت عن مغنيي الخلفاءِ في بغداد , بعد أن أخذهم الترف وتولاَّهم النعيم , وانصرفت نفوسهم
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p182"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1864.xhtml"/>
+<pb n="n4-p182" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1864.xhtml"/>
 
 
 إلى اللهو والزهو والخلاعة , كالرومان في آخر عهدهم. فنقلها عنهم الحضر وسكان المدن. ولكنَّ أَهلَ البادية والجبال ظلُّوا على ما كان عليهِ آباؤهم , ولا يزالون على ذلك حتى الآن في غنائهم وعيشتهم وتقاليدهم وفخارهم وشجاعتهم. فإذا أردنا العود إلى مجدنا فلنعد إلى صلب الشعب في بواريهِ وقفاره , حيث نجد الكرّم والجود والشجاعة والحماسة والنبل والشرف والعزّة والآنفة.</tei:p>
             <tei:p change="#d2e73">داود بركات</tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">
-            <head xmlns="http://www.tei-c.org/ns/1.0">الجامعة المصرية</head>
+            <head>الجامعة المصرية</head>
             <tei:p change="#d2e73">في خمس سنوات</tei:p>
-            <tei:p change="#d2e73">في اليوم الأخير من شهر سبتمبر سنة 1906 نشر مصطفى بك كامل الغمراوي , أحد أعيان مديرية بني سويف , دعوة على صفات الجرائد المصرية سأل فيها سراة المصريين وأفاضلهم التعاون على إنشاء مدرسة جامعة. وختم دعوته بقوله أنني اكتتب لهذا العمل الخطير بمبلغ 500 جنيه ثم حضر إلى العاصمة وخاطب بعض الأفاضل وذوي الرأي في المسئلة فلقي منهم كل رعاية وانعطاف. وكان في طليعة منشطيه سعادة سعد باشا زغلول - وكان يومذك مستشاراً في محكمة الاستئناف - فدعا إلى منزله في حي المنيرة الراغبين في إتمام أمنية الغمراوي بك فاجتمعوا لأول مرة في الأسبوع الأول من شهر أكتوبر سنة 1906.
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p183"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1865.xhtml"/>
+            <tei:p change="#d2e73">في اليوم الأخير من شهر سبتمبر سنة  <tei:num type="auto-markup" change="#d2e181" value="1906" xml:lang="ar">١٩٠٦</tei:num>  نشر مصطفى بك كامل الغمراوي , أحد أعيان مديرية بني سويف , دعوة على صفات الجرائد المصرية سأل فيها سراة المصريين وأفاضلهم التعاون على إنشاء مدرسة جامعة. وختم دعوته بقوله أنني اكتتب لهذا العمل الخطير بمبلغ  <tei:num type="auto-markup" change="#d2e181" value="500" xml:lang="ar">٥٠٠</tei:num>  جنيه ثم حضر إلى العاصمة وخاطب بعض الأفاضل وذوي الرأي في المسئلة فلقي منهم كل رعاية وانعطاف. وكان في طليعة منشطيه سعادة سعد باشا زغلول - وكان يومذك مستشاراً في محكمة الاستئناف - فدعا إلى منزله في حي المنيرة الراغبين في إتمام أمنية الغمراوي بك فاجتمعوا لأول مرة في الأسبوع الأول من شهر أكتوبر سنة  <tei:num type="auto-markup" change="#d2e181" value="1906" xml:lang="ar">١٩٠٦</tei:num> .
+<pb n="n4-p183" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1865.xhtml"/>
 
 
 وكان أول عمل فكروا فيهِ هو إبعاد المشتغلين بالصحافة عن المشروع وانتخبوا سعادة سعد باشا زغلول وكيلا للرئيس - الذي يكونون قد اتفقوا عليه فيما بعد - وقاسم بك أمين سكرتيراً , وأصدروا أول منشور باسم الجامعة جاء فيهِ: إن المقصود هو إنشاء مدرسة علوم وآداب لك طالب مهما كان جنسه ودينه بدون مداخلة في السياسة. ويقتصر فيها على إلقاء دروس أدبية وعلمية وفلسفية تنوّر عقول الطالبين وتربي ملكاتهم وتهذب عواطفهم وتبلغ بهم الكمال في أنواع ما يتلقونه بها من العلوم.</tei:p>
             <tei:p change="#d2e73">مضى على هذه الجلسة شهران ولا شاغل للأقلام إلاَّ الجامعة وتنشيطها؛ ونهض لمعاكستهم نفر قالوا أنه لا يجب الإقدام على العمل ولا التشجيع عليهِ إلاَّ إذا صبغت الجامعة بالصبغة الدينية. ولكن هذا الرأي لم يصادف هوى من قلوب المشتغلين بالمسئلة. ثم عقدت الجلسة الثانية وأعلن فيها سعادة باشا زغلول تخليه عن المشاركة العملية في لجنة الجامعة لتعيينه ناظراً للمعارف وأكد أنه لا يفتر عن تعضيد المشروع. وألقى المرحوم قاسم بك أمين خطبة ضمنها خلاصة ما تم للمشروع في شهرين وهو:</tei:p>
             <tei:p change="#d2e73">أولاً - اهتم كثيراً في البحث يرئس اللجنة من الأمراء فلم يفلح ولذلك وقفت حركة الاكتتاب.</tei:p>
             <tei:p change="#d2e73">ثانياً - خاطب أحد أمراء البيت الخديوي في ن يكون رئيساً للجامعة فلم يقبل ولم يرفض
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p184"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1866.xhtml"/>
+<pb n="n4-p184" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1866.xhtml"/>
 
 
 ثالثاً - طلب مساعدة الحكومة فلم تقبل لأنها تعتقد أن مشروعاً كبيراً كمشروع الجامعة لم</tei:p>
             <tei:p change="#d2e73">يأتِ الوقت المناسب لأن تقوم بهِ الأمة.</tei:p>
-            <tei:p change="#d2e73">رابعاً - إن سمو الخديوي أظهر ارتياحاً إلى المشروع والقائمين بهِ وانتخب قاسم بك أمين رئيساً , وانتدب حضرة محمد بك فهمي. وسارت اللجنة في أعمالها بهمة ونشاط ولم يعترها كلل ولا ملل مع وفرة ما صادفتهُ من العقبات وتثبيط العزائم , فاكتتب له الكثيرون - وفي مقدمتهم سمو الخديوي - بمبالغ طائلة من المال. ووقف له بعضهم مساحات واسعة من الأراضي. وكان في مقدمة الواقفين المرحوم حسن باشا زايد أحد أعيان مديرية المنوفية حيث وقف مئة فدان , ثم عوض بك عريان المهدي من أعيان بني سويف وقد وقف لها 83 فداناً. ويقدر ثمن أطيان الجامعة كلها بمبلغ 170 ألف جنيه وبلغ ريعها في السنة الماضية 861 جنيهاً و615 مليماً. وقبل صاحب الدولة البرنس أحمد فؤاد باشا أن يكون رئيساً للجامعة. وكان أول عمل أتاهُ إرسال عشرة من الشبان المصريين الحاصلين على الشهادة الثانوية وبعض ديبلوات المدارس العالية إلى أوربا لدرس العلوم العالية حتى إذا أتموا دروسهم عادوا إلى مصر للتدريس في الجامعة المصرية. وفي أول مايو سنة 1908 سمي سعادة أحمد باشا زكي مدّرساً لتاريخ التمدن الإسلامي وأحمد بك كمال لتدريس تاريخ الشرق القديم. وتقرر أن
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p185"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1867.xhtml"/>
+            <tei:p change="#d2e73">رابعاً - إن سمو الخديوي أظهر ارتياحاً إلى المشروع والقائمين بهِ وانتخب قاسم بك أمين رئيساً , وانتدب حضرة محمد بك فهمي. وسارت اللجنة في أعمالها بهمة ونشاط ولم يعترها كلل ولا ملل مع وفرة ما صادفتهُ من العقبات وتثبيط العزائم , فاكتتب له الكثيرون - وفي مقدمتهم سمو الخديوي - بمبالغ طائلة من المال. ووقف له بعضهم مساحات واسعة من الأراضي. وكان في مقدمة الواقفين المرحوم حسن باشا زايد أحد أعيان مديرية المنوفية حيث وقف مئة فدان , ثم عوض بك عريان المهدي من أعيان بني سويف وقد وقف لها  <tei:num type="auto-markup" change="#d2e181" value="83" xml:lang="ar">٨٣</tei:num>  فداناً. ويقدر ثمن أطيان الجامعة كلها بمبلغ  <tei:num type="auto-markup" change="#d2e181" value="170" xml:lang="ar">١٧٠</tei:num>  ألف جنيه وبلغ ريعها في السنة الماضية  <tei:num type="auto-markup" change="#d2e181" value="861" xml:lang="ar">٨٦١</tei:num>  جنيهاً و <tei:num type="auto-markup" change="#d2e181" value="615" xml:lang="ar">٦١٥</tei:num>  مليماً. وقبل صاحب الدولة البرنس أحمد فؤاد باشا أن يكون رئيساً للجامعة. وكان أول عمل أتاهُ إرسال عشرة من الشبان المصريين الحاصلين على الشهادة الثانوية وبعض ديبلوات المدارس العالية إلى أوربا لدرس العلوم العالية حتى إذا أتموا دروسهم عادوا إلى مصر للتدريس في الجامعة المصرية. وفي أول مايو سنة  <tei:num type="auto-markup" change="#d2e181" value="1908" xml:lang="ar">١٩٠٨</tei:num>  سمي سعادة أحمد باشا زكي مدّرساً لتاريخ التمدن الإسلامي وأحمد بك كمال لتدريس تاريخ الشرق القديم. وتقرر أن
+<pb n="n4-p185" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1867.xhtml"/>
 
 
-يلقي أساتذة ثلاثة: فرنساوي وانكليزي وإيطالي محاضرات في آداب لغاتهم ثم تترجم إلى العربية بعد إلقائها. واستؤجر معمل سجائر جناكليس بائع الدخان اليوناني الشهير , في قصر النيل فمحي اسمه من على واجهتها المبنية على الطراز العربي الأنيق , وأُبدل باسم الجامعة المصرية وتاريخ إنشائها مكتوباً باللغتين العربية والفرنسوية. وفتحت أبوابها لإلقاء المحاضرات في أول أكتوبر سنة 1908 ثم أُعلن افتتاحها رسميّاً بعد ذلك بشهر واحد تحت رئاسة سمو الخديوي المعظم.</tei:p>
-            <tei:p change="#d2e73">وانعقدت الجمعية العمومية للجامعة يوم 29 ابريل الماضي وقدَّم مجلس الإدارة تقريراً للأعضاء عن حالة الجامعة جاء فيهِ أنهُ لم يمضِ سوى أربع سنوات منذ حظيت الجامعة برعاية سمو الأمير مولانا الخديوي المعظم عباس حلمي الثاني وهي فترة لا تعد شيئاً في عمر الجامعات إذ لو راجعنا تاريخها وم لزم لتكوينها من الوقت الطويل لوجدنا أن الجامعة المصرية خطت خطوات واسعة في هذا الزمن القصير ولا جدال في أن القائمين بأمر الجامعة وفي مقدمتهم دولة الرئيس لم يفتروا ساعة واحدة عن ترقية هذا المعهد الكبير.</tei:p>
+يلقي أساتذة ثلاثة: فرنساوي وانكليزي وإيطالي محاضرات في آداب لغاتهم ثم تترجم إلى العربية بعد إلقائها. واستؤجر معمل سجائر جناكليس بائع الدخان اليوناني الشهير , في قصر النيل فمحي اسمه من على واجهتها المبنية على الطراز العربي الأنيق , وأُبدل باسم الجامعة المصرية وتاريخ إنشائها مكتوباً باللغتين العربية والفرنسوية. وفتحت أبوابها لإلقاء المحاضرات في أول أكتوبر سنة  <tei:num type="auto-markup" change="#d2e181" value="1908" xml:lang="ar">١٩٠٨</tei:num>  ثم أُعلن افتتاحها رسميّاً بعد ذلك بشهر واحد تحت رئاسة سمو الخديوي المعظم.</tei:p>
+            <tei:p change="#d2e73">وانعقدت الجمعية العمومية للجامعة يوم  <tei:num type="auto-markup" change="#d2e181" value="29" xml:lang="ar">٢٩</tei:num>  ابريل الماضي وقدَّم مجلس الإدارة تقريراً للأعضاء عن حالة الجامعة جاء فيهِ أنهُ لم يمضِ سوى أربع سنوات منذ حظيت الجامعة برعاية سمو الأمير مولانا الخديوي المعظم عباس حلمي الثاني وهي فترة لا تعد شيئاً في عمر الجامعات إذ لو راجعنا تاريخها وم لزم لتكوينها من الوقت الطويل لوجدنا أن الجامعة المصرية خطت خطوات واسعة في هذا الزمن القصير ولا جدال في أن القائمين بأمر الجامعة وفي مقدمتهم دولة الرئيس لم يفتروا ساعة واحدة عن ترقية هذا المعهد الكبير.</tei:p>
             <tei:p change="#d2e73">وفي خلال السنوات الأربع الماضية كان دولة الرئيس يقضي فصل الشتاء في مشاركة الأعضاء في الإِشراف على جميع أعمال الإدارة , فإذا حل الصيف يمضي معظم أوقاتهِ وهو بعواصم أوربا في مفاوضة بعض العلماء في الحضور إلى مصر
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p186"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1868.xhtml"/>
+<pb n="n4-p186" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1868.xhtml"/>
 
 
-للتدريس في الجامعة , ويخاطب وزراء المعارف ورؤساء الجامعات بفرنسا وانكلترا وألمانيا في مساعدة تلاميذ الجامعة المصرية بأوربا على تلقّي العلوم في المعاهد العلمية الكبرى , ويحث هؤلاء التلاميذ على الجدّ والاجتهاد في التحصيل حتى يشرّفوا أمتهم بعلمهم. ولكن هذه المجهودات لم تثمر الثمرة المنتظرة منها فإن المتأخّر من الاكتتابات لم يُدفع منهُ شيء للجامعة. ولم يكتتب لها أحد بشيء في السنة الماضية , وامتنع أحمد بك الشريف عن أن يدفع للجامعة دخل المئة الفدان التي حبسها عليها فاضطر مجلس الإدارة إلى النظر في أمر مقاضاتهِ ورأت الإدارة أن الإِقبال على حضور محاضرات التاريخ القديم والاقتصاد الزراعي فألغتهما. وكذلك ألغت الفرع النسائي ريثما توفَّق لوضع برنامج الخطة التي تتبعها فيهِ بحيث يكون موافقاً لحاجات السيدات المصريات وكان عدد اللائي يحضرن هذه الدروس 41 سيدة. وأصبحت العلوم التي تلقى في الجامعة قاصرة على الآداب وتاريخها والفلسفة وتقويم البلدان والتاريخ الإسلامي. ويدرّس آداب اللغة العربية الأستاذ الشيخ محمد الخضري. ويدرس آداب تاريخ هذه اللغة المسيو جاستون فيت. ويدرّس تاريخ الأمم الإسلامية الأستاذ الشيخ محمد الخضري. ويدرس الفلسفة العربية وعلم الأخلاق الأستاذ الشيخ طنطاوي جوهري. ويدرّس تاريخ المذاهب الفلسفية الأستاذ لويز ماسنيون.
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p187"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1869.xhtml"/>
+للتدريس في الجامعة , ويخاطب وزراء المعارف ورؤساء الجامعات بفرنسا وانكلترا وألمانيا في مساعدة تلاميذ الجامعة المصرية بأوربا على تلقّي العلوم في المعاهد العلمية الكبرى , ويحث هؤلاء التلاميذ على الجدّ والاجتهاد في التحصيل حتى يشرّفوا أمتهم بعلمهم. ولكن هذه المجهودات لم تثمر الثمرة المنتظرة منها فإن المتأخّر من الاكتتابات لم يُدفع منهُ شيء للجامعة. ولم يكتتب لها أحد بشيء في السنة الماضية , وامتنع أحمد بك الشريف عن أن يدفع للجامعة دخل المئة الفدان التي حبسها عليها فاضطر مجلس الإدارة إلى النظر في أمر مقاضاتهِ ورأت الإدارة أن الإِقبال على حضور محاضرات التاريخ القديم والاقتصاد الزراعي فألغتهما. وكذلك ألغت الفرع النسائي ريثما توفَّق لوضع برنامج الخطة التي تتبعها فيهِ بحيث يكون موافقاً لحاجات السيدات المصريات وكان عدد اللائي يحضرن هذه الدروس  <tei:num type="auto-markup" change="#d2e181" value="41" xml:lang="ar">٤١</tei:num>  سيدة. وأصبحت العلوم التي تلقى في الجامعة قاصرة على الآداب وتاريخها والفلسفة وتقويم البلدان والتاريخ الإسلامي. ويدرّس آداب اللغة العربية الأستاذ الشيخ محمد الخضري. ويدرس آداب تاريخ هذه اللغة المسيو جاستون فيت. ويدرّس تاريخ الأمم الإسلامية الأستاذ الشيخ محمد الخضري. ويدرس الفلسفة العربية وعلم الأخلاق الأستاذ الشيخ طنطاوي جوهري. ويدرّس تاريخ المذاهب الفلسفية الأستاذ لويز ماسنيون.
+<pb n="n4-p187" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1869.xhtml"/>
 
 
-ويدرّس تاريخ آداب اللغة الانكليزية الأستاذ برسي وايت. ويدرّس تاريخ آداب للغة الفرنسوية الأستاذ لويس كليمان. وقد عني اثنان من طلبة الجامعة منذ أربع سنوات بجمع المحاضرات وطبعها في مجلة خاصة. ولكنهما لم يجد شيئاً من الإقبال عليها فعطلاها. وأخذ مجلس الإدارة على عاتقه طبع هذه المحاضرات في كتب مستقلة فبلغ ما أنفقه على طبعها في السنة الماضية 336 جنيهاً و961 مليماً. وكان عدد الطلبة الذين قيدوا أسماءهم في السنة الأولى نحو 300 طالب منهم عدد كبير من طلبة المدارس العالية والأزهر , ثم أخذ عددهم يتناقص شيئاً فشيئاً , فكان في السنة الماضية 123 طالباً , وفي هذه السنة 75 طالباً فقط. وتدل الأنباء الواردة من أوربا عن حالة إرسالية الجامعة أن أعضاءها قد</tei:p>
+ويدرّس تاريخ آداب اللغة الانكليزية الأستاذ برسي وايت. ويدرّس تاريخ آداب للغة الفرنسوية الأستاذ لويس كليمان. وقد عني اثنان من طلبة الجامعة منذ أربع سنوات بجمع المحاضرات وطبعها في مجلة خاصة. ولكنهما لم يجد شيئاً من الإقبال عليها فعطلاها. وأخذ مجلس الإدارة على عاتقه طبع هذه المحاضرات في كتب مستقلة فبلغ ما أنفقه على طبعها في السنة الماضية  <tei:num type="auto-markup" change="#d2e181" value="336" xml:lang="ar">٣٣٦</tei:num>  جنيهاً و <tei:num type="auto-markup" change="#d2e181" value="961" xml:lang="ar">٩٦١</tei:num>  مليماً. وكان عدد الطلبة الذين قيدوا أسماءهم في السنة الأولى نحو  <tei:num type="auto-markup" change="#d2e181" value="300" xml:lang="ar">٣٠٠</tei:num>  طالب منهم عدد كبير من طلبة المدارس العالية والأزهر , ثم أخذ عددهم يتناقص شيئاً فشيئاً , فكان في السنة الماضية  <tei:num type="auto-markup" change="#d2e181" value="123" xml:lang="ar">١٢٣</tei:num>  طالباً , وفي هذه السنة  <tei:num type="auto-markup" change="#d2e181" value="75" xml:lang="ar">٧٥</tei:num>  طالباً فقط. وتدل الأنباء الواردة من أوربا عن حالة إرسالية الجامعة أن أعضاءها قد</tei:p>
             <tei:p change="#d2e73">برهنوا بما أبدوه من مثابرتهم جدّهم في تحصيل المعارف على أنهم أهل لأن تعتمد عليهم الجامعة في خدمتها خدمة خالصة. وعهد مجلس الإدارة إلى سكرتير الجامعة في ترتيب المكتبة على النسق المتبع في مكاتب أوربا العمومية , وينتظر إتمام هذا الترتيب بعد سنة , ثم تُفتح أبواب المكتبة للجمهور.</tei:p>
             <tei:p change="#d2e73">وفي جلسة الجمعية العمومية الأخيرة طلب دولة الأمير فؤاد باشا إقالته من رئاسة الجامعة. فقبلها الأعضاء آسفين وقرروا إسناد رئاسة الشرف إليه , ودوَّنوا هذا القرار في خطاب حمله إليه وفد مؤلف من أصحاب
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p188"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1870.xhtml"/>
+<pb n="n4-p188" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1870.xhtml"/>
 
 
-السعادة حسين رشدي باشا وأحمد شفيق باشا وعبد الخالق ثروت باشا. ثم قرروا باتفاق الآراء أن يعهدوا في الرئاسة إلى البرنس يوسف كمال باشا والرئيس الجديد خير خلف لخير سلف. فهو منشئ مدرسة الفنون الجميلة , وصاحب الأيادي البيضاء على الجامعة ونادي المدارس العالية. فقد وهب الجامعة مئة فدان , وأعطى النادي قطعة أرض مساحتها 1200 متر في الجيزة , وتبرع بمبلغ ألفي جنيه لبناء دار للنادي في هذه الأرض , وتعهد بإنشاء مكتبة للنادي عهد في ترتيبها لحضرة حيدر بك فاضل شناسي. وقد أعلن خبر هذه المنحة السنية سعادة أحمد باشا زكي على ملأِ من الأدباء والأفاضل في جلسة عقدت بنزل الكونتيننتال , وختم خطبته بقوله أن الأمير يوسف كمال أصبح بعطيته خليقاً بأن يلقب بحامي المعارف والآداب , ونصير الأساتذة والطلاَّب ولا تزال الحكومة ثابتة على رأيها الذي أبدته منذ سبع سنوات , وصرّح بهِ فخامة اللورد كرومر في أحد تقاريره وهو أنه لم يحن الوقت الذي يكون فيهِ للمصريين مدرسة جامعة وقد تناقلت الألسنة إشاعة فحواها أن فخامة اللورد كتشنر خاطب دولة البرنس فؤاد في ضم الجامعة إلى الحكومة أو جعلها تحت إشراف نظارة المعارف. فلم يوافقهُ الأمير على هذا الطلب. ولكن الكثيرين يؤكدون أنه لابد من ضم هذا المعهد العلمي الكبير إلى الحكومة آجلاً أو عاجلاً , فيصبح على جانب مدارس الطب والحقوق والهندسة والزراعة مدرسة للعلوم الأدبية يتخرَّج منها أدباء بديبلومات!!</tei:p>
+السعادة حسين رشدي باشا وأحمد شفيق باشا وعبد الخالق ثروت باشا. ثم قرروا باتفاق الآراء أن يعهدوا في الرئاسة إلى البرنس يوسف كمال باشا والرئيس الجديد خير خلف لخير سلف. فهو منشئ مدرسة الفنون الجميلة , وصاحب الأيادي البيضاء على الجامعة ونادي المدارس العالية. فقد وهب الجامعة مئة فدان , وأعطى النادي قطعة أرض مساحتها  <tei:num type="auto-markup" change="#d2e181" value="1200" xml:lang="ar">١٢٠٠</tei:num>  متر في الجيزة , وتبرع بمبلغ ألفي جنيه لبناء دار للنادي في هذه الأرض , وتعهد بإنشاء مكتبة للنادي عهد في ترتيبها لحضرة حيدر بك فاضل شناسي. وقد أعلن خبر هذه المنحة السنية سعادة أحمد باشا زكي على ملأِ من الأدباء والأفاضل في جلسة عقدت بنزل الكونتيننتال , وختم خطبته بقوله أن الأمير يوسف كمال أصبح بعطيته خليقاً بأن يلقب بحامي المعارف والآداب , ونصير الأساتذة والطلاَّب ولا تزال الحكومة ثابتة على رأيها الذي أبدته منذ سبع سنوات , وصرّح بهِ فخامة اللورد كرومر في أحد تقاريره وهو أنه لم يحن الوقت الذي يكون فيهِ للمصريين مدرسة جامعة وقد تناقلت الألسنة إشاعة فحواها أن فخامة اللورد كتشنر خاطب دولة البرنس فؤاد في ضم الجامعة إلى الحكومة أو جعلها تحت إشراف نظارة المعارف. فلم يوافقهُ الأمير على هذا الطلب. ولكن الكثيرين يؤكدون أنه لابد من ضم هذا المعهد العلمي الكبير إلى الحكومة آجلاً أو عاجلاً , فيصبح على جانب مدارس الطب والحقوق والهندسة والزراعة مدرسة للعلوم الأدبية يتخرَّج منها أدباء بديبلومات!!</tei:p>
             <tei:p change="#d2e73">توفيق حبيب
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p189"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1871.xhtml"/>
+<pb n="n4-p189" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1871.xhtml"/>
 
 
             </tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">
-            <head xmlns="http://www.tei-c.org/ns/1.0">في رياض الشعر</head>
+            <head>في رياض الشعر</head>
             <tei:p change="#d2e73">بين شاعرين</tei:p>
-            <tei:p change="#d2e73">في الشهر الماضي انتخب أهالي دير القمر حضرة الفاضل داود بك عمون مندوباً عنهم في مجلس إدارة جبل لبنان , وقد برح مصر لهذا الغرض , فاذكرتنا هذه المناسبة مراسلة شعرية كانت قد جرت بينه وبين صديقه حافظ بك إبراهيم في سنة 1902 , وكان داود بك مصطافا في لبنان , فرأينا أن ننشرها لقراء الزهور وهي من خير ما قاله شعراء العصر:</tei:p>
+            <tei:p change="#d2e73">في الشهر الماضي انتخب أهالي دير القمر حضرة الفاضل داود بك عمون مندوباً عنهم في مجلس إدارة جبل لبنان , وقد برح مصر لهذا الغرض , فاذكرتنا هذه المناسبة مراسلة شعرية كانت قد جرت بينه وبين صديقه حافظ بك إبراهيم في سنة  <tei:num type="auto-markup" change="#d2e181" value="1902" xml:lang="ar">١٩٠٢</tei:num>  , وكان داود بك مصطافا في لبنان , فرأينا أن ننشرها لقراء الزهور وهي من خير ما قاله شعراء العصر:</tei:p>
             <tei:p change="#d2e73">كتب حافظ إلى عمون:</tei:p>
-            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+            <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>شَجَتنا مطالعُ أقمارِها</tei:seg> 
                   <tei:seg>فسالت نفوسٌ لتذكارِها</tei:seg>
@@ -383,11 +309,8 @@
                   <tei:seg>وخلِّ الشامَ لأٌدارها</tei:seg>
                </tei:l>
             </lg>
-            <pb xmlns="http://www.tei-c.org/ns/1.0"
-                n="n4-p190"
-                ed="shamela"
-                corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1872.xhtml"/>
-            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+            <pb n="n4-p190" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1872.xhtml"/>
+            <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>فكيف لعمري أطقتَ المقامَ</tei:seg> 
                   <tei:seg>بأرضِ تضيق بأحرارِها</tei:seg>
@@ -440,7 +363,7 @@
             </lg>
             <tei:p change="#d2e73">حافظ إبراهيم</tei:p>
             <tei:p change="#d2e73">فكتب إليهِ عمَّون:</tei:p>
-            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+            <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>أمِنْ ذكرِ سلمى وتذكارِها</tei:seg> 
                   <tei:seg>نثرتَ الدموعَ على دارِها</tei:seg>
@@ -486,11 +409,8 @@
                   <tei:seg>وقد جاء إبَّانُ إمرارِها</tei:seg>
                </tei:l>
             </lg>
-            <pb xmlns="http://www.tei-c.org/ns/1.0"
-                n="n4-p191"
-                ed="shamela"
-                corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1873.xhtml"/>
-            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+            <pb n="n4-p191" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1873.xhtml"/>
+            <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>أطوّفُ في الشرقِ علّي أرى</tei:seg> 
                   <tei:seg>بلاداً تطيبُ لأحرارِها</tei:seg>
@@ -582,15 +502,12 @@
                </tei:l>
             </lg>
             <tei:p change="#d2e73">داود عمون
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p192"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1874.xhtml"/>
+<pb n="n4-p192" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1874.xhtml"/>
 
 
 الأنفة في الحب</tei:p>
-            <tei:p change="#d2e73">من حيد الشعر وأطيبه القصيدة التي ننشرها هنا وقد رأيناها في بعض الجرائد على أشكال مختلفة: فالبعض أغفل اسم شاعرها جهلاً به , والبعض اقتضب أبياتاً منها , وغيره أبدل الأربلي أصلاً ومنشأ , البحراني أني مولداً , المتوفي في سنة 585 للهجرة وقد مدح بها بعض الأمراء فانتصرنا منها على النسيب لرقته , قال:</tei:p>
-            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+            <tei:p change="#d2e73">من حيد الشعر وأطيبه القصيدة التي ننشرها هنا وقد رأيناها في بعض الجرائد على أشكال مختلفة: فالبعض أغفل اسم شاعرها جهلاً به , والبعض اقتضب أبياتاً منها , وغيره أبدل الأربلي أصلاً ومنشأ , البحراني أني مولداً , المتوفي في سنة  <tei:num type="auto-markup" change="#d2e181" value="585" xml:lang="ar">٥٨٥</tei:num>  للهجرة وقد مدح بها بعض الأمراء فانتصرنا منها على النسيب لرقته , قال:</tei:p>
+            <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>رُبَّ دارٍ بالغضى طالَ بَلاَها</tei:seg> 
                   <tei:seg>عكف الرَّكبُ عليها فبكاها</tei:seg>
@@ -666,15 +583,12 @@
                   <tei:seg>كشفَ التجريب عن عيني عماها</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">إن زين الدين أولاني يداً <gap xmlns="http://www.tei-c.org/ns/1.0" resp="#org_MS"/> لم تدع لي رغبةً فيما سواها
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p193"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1875.xhtml"/>
+            <tei:p change="#d2e73">إن زين الدين أولاني يداً <gap resp="#org_MS"/> لم تدع لي رغبةً فيما سواها
+<pb n="n4-p193" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1875.xhtml"/>
 
 
 ذكرى الشباب</tei:p>
-            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+            <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>تُمسي تذكّرنا الشبابَ وعهدَهُ</tei:seg> 
                   <tei:seg>حسناءُ مرهَفةُ القَوام فنذكرُ</tei:seg>
@@ -702,7 +616,7 @@
             </lg>
             <tei:p change="#d2e73">إسماعيل صبري</tei:p>
             <tei:p change="#d2e73">سكر صبابة</tei:p>
-            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+            <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>أبتَ الصَّبابة مورداً</tei:seg> 
                   <tei:seg>إلاّ شؤونك وهي شكري</tei:seg>
@@ -720,7 +634,7 @@
             </lg>
             <tei:p change="#d2e73">خليل مطران</tei:p>
             <tei:p change="#d2e73">دمعة على الشباب</tei:p>
-            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+            <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>ضحكاتُ الشيبِ في الشَعَرِ</tei:seg> 
                   <tei:seg>لم تدع في العيش من وطرِ</tei:seg>
@@ -752,26 +666,20 @@
                </tei:l>
             </lg>
             <tei:p change="#d2e73">مصطفى لطفي المنفلوطي
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p194"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1876.xhtml"/>
+<pb n="n4-p194" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1876.xhtml"/>
 
 
             </tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">
-            <head xmlns="http://www.tei-c.org/ns/1.0">مجدلية أخرى</head>
+            <head>مجدلية أخرى</head>
             <tei:p change="#d2e73">لم تكن أوَّلَ من أساءَ إليها الرجلُ فإنَّ أمثالها كثيراتٌ ممن دفعهنَّ الجهلُ إلى ارتكاب ما ارتكبنهُ , وإلقاء تحيَّة الوداع على الفضيلة والعفاف. أليست أزقّتنا مزدحمة بأقدام هؤلاء البائسات؟ أليست المدن الكبرى قائمة على أطلال بابل , والرذيلة تمثّلُ أفظعَ أدوارها في زواياها المظلمة؟ أَليس السين والتاميز وارثَين لماء للتيبر الذي شربته رومية الفاجرة , وماء الفرات الذي ارتوت بهِ نينوى الزانية؟ أليست شوارعنا مسارح لتمثيل تلك الأدوار التي تقشعرُّ لها الأبدان , وتتململ لها العظام التي في القبور؟ أَهذهِ مدنيَّتك أيها العالم , وهذهِ فضيلتك أيها الإنسان؟</tei:p>
             <tei:p change="#d2e73">مستبدٌّ أنت؟</tei:p>
             <tei:p change="#d2e73">إن كنت ملكاً فكن عادلاً؛ وإن كنت بشراً فكن عاطفاً؛ وإن كنت غنيّاً فأنفق ثروتك في غيرِ الزوايا المظلمة. لماذا تحفر هاويةً لسقوط المرأة؟ كفى ما أوصلتها إليهِ من البؤس والشقاء</tei:p>
             <tei:p change="#d2e73">تائهة في باريس!</tei:p>
             <tei:p change="#d2e73">في تلك المدينة العظيمة؛ في ذلك الأوقيانوس المتلاطم؛ وحيدة لأبيتَ لها فتأوي إليه , ولا سقف تحته. للطيور أوكار , وللبهائم زرائب. وأما هي فليس لها أين تسند رأٍسها.</tei:p>
             <tei:p change="#d2e73">الرواية القديمة! باعت نفسها لرجل سامها في عرضها. أعطتهُ قلباً
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p195"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1877.xhtml"/>
+<pb n="n4-p195" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1877.xhtml"/>
 
 
 مملوءاً إخلاصاً. فنقدَها ثمنهُ خزياً وعاراً. فتحت لهُ صدراً رحيباً , فحفر لها مهواةً أرحب. تركت العالم من أجله فترك لها كل مذلة وهوان.</tei:p>
@@ -783,10 +691,7 @@
             <tei:p change="#d2e73">الدير!. . . .</tei:p>
             <tei:p change="#d2e73">وهل تمادى بكِ الغرورُ حتى زعمتِ أن الدير مأوى الساقطات؟</tei:p>
             <tei:p change="#d2e73">هل توهّمتِ أن السقف الذي يظلل بنات الله الطاهرات يظلل أمثالكِ من الفتيات اللواتي لسنَ عذارى ولا أُمهات؟
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p196"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1878.xhtml"/>
+<pb n="n4-p196" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1878.xhtml"/>
 
 
 أيكون الدير مأوًى لراحاب وهيروديار ومرغريت وفرناند؟</tei:p>
@@ -802,17 +707,14 @@
             <tei:p change="#d2e73">هو ذا قوارع السبل!</tei:p>
             <tei:p change="#d2e73">هو ذا مهاوي الشقاء!</tei:p>
             <tei:p change="#d2e73">هو ذا القبر!
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p197"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1879.xhtml"/>
+<pb n="n4-p197" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1879.xhtml"/>
 
 
 ووراء ذلك القبر وحشة الأبدية اللاَّنهاية لها , وحجاب الظلمة يكتنف النفس فيزيد في عذابها , كلّ لحظة قرون وأحقاب مملة.</tei:p>
             <tei:p change="#d2e73">رحماك اللهم! إن عرشك ليس عرشَ العدل فقط بل عرش الرحمة أيضاً. فانظر إليَّ من فوق عرشك هذا دون عرشك ذاك. واذكر إنك جبلت المرأة على الضعف , وقذفت بها بين برائن الرجل المستبد.</tei:p>
             <tei:p change="#d2e73">رحماك اللهم! إنك تؤدَّب ولكنك أنزه من أن تنتقم. فقاصصْ ولكن أجمل مع القصاص متَّسعاً من الرحمة. عاقبو ولكن اجعل مع الشدة منفذاً. إنك ارحم من أن تبخل على شقية مثلي بنظرة شفقة وإحسان.</tei:p>
             <tei:p change="#d2e73">إلى أين اذهب يا الله؟ ألم تجعل للطيور أعشاشاً , وللثعالب أوكاراً , وللبهائم زرائب؟ فأين أسند رأسي في هذا الليل الحالك - في هذه المدينة المظلمة - في هذا الأوقيانوس المتلاطم؟ ألم تعفُ عن راحاب وتغفر للمجدلية؟ ألم تقل لتلك البائسة التي شكوها إليك: ولا أنا أدينك. اذهبي ولا تخطئي بعد؟ ألم تقل أن الإعلاّء هم الذين يتاجون إلى طبيب؟</tei:p>
-            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+            <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>يا لك من عصرٍ شديد النحسِ</tei:seg> 
                   <tei:seg>ضاعت بهِ الرحمة تحتَ الشمسِ</tei:seg>
@@ -825,129 +727,87 @@
             </lg>
             <tei:p change="#d2e73">في عالم أحلامُهُ غرورٌ</tei:p>
             <tei:p change="#d2e73">سليم عبد الأحد
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p198"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1880.xhtml"/>
+<pb n="n4-p198" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1880.xhtml"/>
 
 
             </tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">
-            <head xmlns="http://www.tei-c.org/ns/1.0">أسباب الحرب البلقانية</head>
+            <head>أسباب الحرب البلقانية</head>
             <tei:p change="#d2e73">من الكتب المائلة للطبع في الآونة الحاضرة كتاب الحرب في البلقان لحضرة الكاتب البليغ يوسف أفندي البستاني وهو جامع لجميع أسباب الحرب وحوادثها ونتائجها , ولنحو أربعين رسماً من رسوم رجالها , ولأُهم آراء الكتاب الحربيين والمؤلفين في هذا الموضوع. وقد اقتطفنا من كلامه عن أسباب الحرب الفصل التالي. قال:</tei:p>
             <tei:p change="#d2e73">من رام أن يقف على حقيقة تلك الحرب الهائلة ويدرك أثرها العظيم في الشرق والغرب يلزمه أن يعرف أسبابها وحوادثها ونتائجها. وأنّا بادئون بذكر تلك الأسباب واحداً فواحداً مع الإيجاز , ومعتمدون على نخبة من أقطاب لسياسة إلاّ مشهداً كبيراً فاجعاً من رواية تلك المسألة التي تعددت فيها الفصول وأدمت مشاهدها العيون يخلق بنا أن نحسب رأس الأسباب ما انطوت عليه الضلوع , وغلت به الصدور من الحقد القديم والضغينة الكامنة بين الأتراك والأمم الأربع المتحالفة فإن كل أمّة منها جعلت تربية الحقد في صدور أبنائها على دولة آل عثمان فرضاً مقدَّساً وآيةً من آيات الوطنية. فإذا ورد ذكر التركي على أحد أساتذتها جعلهُ عنواناً للظلم , ومثلاً للقسوة , وعدواً أبدياً يجب على كل فرد أن يرضع بغضه مع حليب أمِه. انظر إلى اليونان تجد الأساتذة والوالدين والوالدات وكلّ عجوز بالية يردّ دون ذكر مجدهم القديم , ويعدّون التركي مغتصباً لأرضهم هدَّاماً لدولتهم , هضّاماً لحقوقهم , ويمزجون ما يحويهِ تاريخهم من الحقائق الجارحة بخرافات وحكايات نظمها لهم أساتذتهم وشعراؤهم ليربّوا فيهم كراهة التركي , ويحملوهم على التفكير المستمرّ في استرجاع ما وقع في قبضته من ملكهم القديم , ويجعلوا طلب الثأر نصب
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p199"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1881.xhtml"/>
+<pb n="n4-p199" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1881.xhtml"/>
 
 
 أعينهم على أن يأتي وقته. ثم تراهم يهتمون اهتماماًَ خاصاً بأخبار أبطالهم والمنظومات الحماسية لشعرائهم القدماء وفي طليعتهم هوميروس صاحب الإلياذة الخالدة , ويردّدون على الأخصّ , من الحوادث الغابرة , قصة يسمونها حكاية علي باشا في يانيا فيعزون إليهِ من الفظائع والأهوال ما يشيب الطفل في مهده , ويزعج الميت في لحده. وهم يجعلون فيها القطرة بحراً والصفر سفراً ويرتبونها كما يشاء الخيال , إذ لا يهمم منها إلاّ أن تجيء في شكل يُبكي النساء والأطفال , ويُثير قلوب الرجال. قال كاتب فرنساوي كبير يمكننا أن نقول ولا نخشى الخطأ أنَّ حكاية يانيا حضَّت الأمة اليونانية على الجهد الذي بذلتهُ في الحرب الأخيرة حضّاً كبيراً وأثرت فيها تأثيراً شديداً. فإنك تجد كل قرية وكل دسكرة في الجزر</tei:p>
-            <tei:p change="#d2e73">اليونانية تأخذها الرعدة من تذكار يانيا. وترى النساء ينقلنَ تلك الحكاية إلى أولادهنَّ ويذكرنَ ما أتته بعض اليونانيات من الأعمال في مجال القتال. وما من أثر أبقى في النفوس وأقوى في القلوب من حكايات وطنية تعيدها الأم وهي جاثية أمام سرير ولدها وأضفْ إلى حوادث التاريخ القديم والمتوسط حادث لفشل الكبير الذي حلَّ بهم في حرب سنة 1897. فإنهم لبثوا بعدها يتطلعون إلى الثأر واستقدموا جماعةً من الضباط الفرنساويين فنظَّموا لهم جيشهم , وجددوا مدافعهم. وكان يزيدهم حقداً على حقد أنَّ الحكومة العثمانية ظلّت واقفة لدى الحكومة اليونانية ويدُها على مقبض السيف لتوقع الرُعب في قلبها وتمنعها من ضمّ جزيرة كريت إلى أملاكها. وكانت جرائد الأستانة تنذر اليونان في كل يوم بالزحف على أثينا إذا قبلوا المندوبين الكريتيين في البرلمان اليوناني كما طلب أهل تلك الجزيرة.</tei:p>
-            <tei:p change="#d2e73">وإذا رجعنا إلى تاريخ البلغاريين وجدنا أنَّ الحقدَ ينمو في قلوبهم منذ سنة 1393 أي السنة التي سقطت فيها الدولة البلغارية في قبضة تركيا. وإذا أراد
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p200"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1882.xhtml"/>
+            <tei:p change="#d2e73">اليونانية تأخذها الرعدة من تذكار يانيا. وترى النساء ينقلنَ تلك الحكاية إلى أولادهنَّ ويذكرنَ ما أتته بعض اليونانيات من الأعمال في مجال القتال. وما من أثر أبقى في النفوس وأقوى في القلوب من حكايات وطنية تعيدها الأم وهي جاثية أمام سرير ولدها وأضفْ إلى حوادث التاريخ القديم والمتوسط حادث لفشل الكبير الذي حلَّ بهم في حرب سنة  <tei:num type="auto-markup" change="#d2e181" value="1897" xml:lang="ar">١٨٩٧</tei:num> . فإنهم لبثوا بعدها يتطلعون إلى الثأر واستقدموا جماعةً من الضباط الفرنساويين فنظَّموا لهم جيشهم , وجددوا مدافعهم. وكان يزيدهم حقداً على حقد أنَّ الحكومة العثمانية ظلّت واقفة لدى الحكومة اليونانية ويدُها على مقبض السيف لتوقع الرُعب في قلبها وتمنعها من ضمّ جزيرة كريت إلى أملاكها. وكانت جرائد الأستانة تنذر اليونان في كل يوم بالزحف على أثينا إذا قبلوا المندوبين الكريتيين في البرلمان اليوناني كما طلب أهل تلك الجزيرة.</tei:p>
+            <tei:p change="#d2e73">وإذا رجعنا إلى تاريخ البلغاريين وجدنا أنَّ الحقدَ ينمو في قلوبهم منذ سنة  <tei:num type="auto-markup" change="#d2e181" value="1393" xml:lang="ar">١٣٩٣</tei:num>  أي السنة التي سقطت فيها الدولة البلغارية في قبضة تركيا. وإذا أراد
+<pb n="n4-p200" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1882.xhtml"/>
 
 
-القارئ أن يعرف مبلغ بغضهم للتركي - وكلّ موظفٍ عثماني هو تركي عندهم - فحسبُهُ أن يقرأ شيئاً مما يلقونهُ على أولادهم أو يسمع ما يقوله الشيوخ والعجائز منهم. ذكر لي صديقي حقي بك العظم أنهُ زار صوفيا , عاصمة البلغار , منذ بضعة أعوام , وذهب يوماً مع نسيبٍ له كان معتمداً عثمانياً سامياً في مركبة الوكالة العثمانية إلى بعض أحياء لمدينة؛ وبينما كانا مارّين أمام بيت إحدى العجائز , خرجت هذه وبيدها قدرٌ من الأقذار المختلفة وقذفت بهِ على طربوشيهما وملابسهما العثمانية. وليس يدلنا على اعتنائهم الشديد بتربية الحقد على الأتراك وزيادة النفور منهم مثل أمر مأثور. وهو أنهم تركوا مجلةً صغيرة في عاصمتهم على أسوأ حال لتكون عبرةً لكل بلغاري فيتذكر على الدوام ما كانت عليهِ بلادهم في عهد الحكم التركي. والواقع أن تاريخ البلغار منذ سقوط دولتهم سنة 1393 إلى سنة 1877 كان تاريخ ذُلٍّ وهوانٍ فإنهم كانوا أرّقاء تلعب الأكفُّ التركية في رقابهم , وإذا شكوا حكمتِ السيوف في هاماتهم. ولبثوا سنواتٍ عديدة على أثر سقوط ملكهم يحسبون الأتراك من محقدٍ أشرف من محتدهم حتى صَّحت فيهم حكمة القائل أن الاستعباد يُفقدَ الشعوبَ فضيلة الرجولية على أنهم كانوا مثل كل شعب مغلوبٍ على أمره وله تاريخ قديم , يذكرون استقلالهم الذي تغلغل في طياتِ الزمان ويحنّون إليهِ وهم في روايا بيوتهم , ويشكون بصوتٍ خافت من حكامهم. ولبثوا على تلك الحال من الجبن والمسكنةِ حتى سنحت الفرصة لانفجار حقدهم الكامل قُبيلَ معاهدة برلين. وكانت عوامل إيقاظهم ثلاثة: أولها أنَّ ولاة أمورهم غلوا أشدَّ غلوٍّ في الضغط عليهم فكانت نتيجة هذا الضغط انفجار ذاك الحقد؛ والثاني أن روسيا العدوَّة القديمة لتركيا كانت تحضهم وتعدهم بالعون والمدد؛ والثالث أن تحريرهم من قيد الكنيسة اليونانية أنشأ فيهم روح الاستقلال.
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p201"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1883.xhtml"/>
+القارئ أن يعرف مبلغ بغضهم للتركي - وكلّ موظفٍ عثماني هو تركي عندهم - فحسبُهُ أن يقرأ شيئاً مما يلقونهُ على أولادهم أو يسمع ما يقوله الشيوخ والعجائز منهم. ذكر لي صديقي حقي بك العظم أنهُ زار صوفيا , عاصمة البلغار , منذ بضعة أعوام , وذهب يوماً مع نسيبٍ له كان معتمداً عثمانياً سامياً في مركبة الوكالة العثمانية إلى بعض أحياء لمدينة؛ وبينما كانا مارّين أمام بيت إحدى العجائز , خرجت هذه وبيدها قدرٌ من الأقذار المختلفة وقذفت بهِ على طربوشيهما وملابسهما العثمانية. وليس يدلنا على اعتنائهم الشديد بتربية الحقد على الأتراك وزيادة النفور منهم مثل أمر مأثور. وهو أنهم تركوا مجلةً صغيرة في عاصمتهم على أسوأ حال لتكون عبرةً لكل بلغاري فيتذكر على الدوام ما كانت عليهِ بلادهم في عهد الحكم التركي. والواقع أن تاريخ البلغار منذ سقوط دولتهم سنة  <tei:num type="auto-markup" change="#d2e181" value="1393" xml:lang="ar">١٣٩٣</tei:num>  إلى سنة  <tei:num type="auto-markup" change="#d2e181" value="1877" xml:lang="ar">١٨٧٧</tei:num>  كان تاريخ ذُلٍّ وهوانٍ فإنهم كانوا أرّقاء تلعب الأكفُّ التركية في رقابهم , وإذا شكوا حكمتِ السيوف في هاماتهم. ولبثوا سنواتٍ عديدة على أثر سقوط ملكهم يحسبون الأتراك من محقدٍ أشرف من محتدهم حتى صَّحت فيهم حكمة القائل أن الاستعباد يُفقدَ الشعوبَ فضيلة الرجولية على أنهم كانوا مثل كل شعب مغلوبٍ على أمره وله تاريخ قديم , يذكرون استقلالهم الذي تغلغل في طياتِ الزمان ويحنّون إليهِ وهم في روايا بيوتهم , ويشكون بصوتٍ خافت من حكامهم. ولبثوا على تلك الحال من الجبن والمسكنةِ حتى سنحت الفرصة لانفجار حقدهم الكامل قُبيلَ معاهدة برلين. وكانت عوامل إيقاظهم ثلاثة: أولها أنَّ ولاة أمورهم غلوا أشدَّ غلوٍّ في الضغط عليهم فكانت نتيجة هذا الضغط انفجار ذاك الحقد؛ والثاني أن روسيا العدوَّة القديمة لتركيا كانت تحضهم وتعدهم بالعون والمدد؛ والثالث أن تحريرهم من قيد الكنيسة اليونانية أنشأ فيهم روح الاستقلال.
+<pb n="n4-p201" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1883.xhtml"/>
 
 
-بقيت تلك العوامل الثلاثة تعدّ نفوسهم للثورة ونزيد حقدهم المتأجج حتى هبوا ينفضون عنهم غبار الذُلّ العتيق. ولما ثارت البوسنة والهرسك سنة 1875 رأى ذوو الإِقدام منهم أنَّ الفرصة كانت موافقة للثورة وشفاء النفوس من الضغينة. على أنهم لم يكنفوا بالخروج على الحكومة بل ارتكبوا جناية ذبح المسلمين في بعض القرى. ولم تكن ثورتهم وقتئذ عامة لأن قسماً كبيراً منهم كان لا يزال خائفاً من سادته الأتراك. وما ترامى خبر فتنتهم على الباب العالي حتى عقد العزيمة على تأديبهم وكان التأديب واجباً. إلاَّ أنهُ أخطأ الطريقة المثلى فأطلق عليهم ألوفاً من الجنود غير المنظمة بدلاً من أن يسير إليهم جنوداً نظامية تحت امرأة قائد عاقل يضع اللينَ في محلهِ والشدة في موضعها. وروى قنصلاً فرنسا وانكلترا في تقاريرها الرسمية إن عدد ذبحتهم تلك الجنود من رجال ونساء وأطفال يبلغ ما بين 15 و20 ألف نفس فكان لذاك الحادث صدى عظيم في أوربا , وهبّ غلادستون فألقى خطبهُ الشهيرة عن تركيا والأتراك وأنسى الأوروبيين أن البلغاريين فتكوا هم أيضاً بالمسلمين الآمنين. ولا غرو فإن الحادث الأكبر ينسي الحادث الأصغر؛ وهناك سبب آخر وهو أن شعور كل فئة بنكبات أهل دينها أشد من شعورها بأرزاء الآخرين , وهذا طبيعي تجده عند جميع الأمم والملل ولا يتغير ما دام الإنسان إنساناً. وقليل هم لسوء طالع الإنسانية أولئك الذين يضعون الحق فوق كل شيء. على أن هذا كلهُ بعضُ ما جرى بين العدوّين وهو يكفي للدلالة على أن الجيش البلغاري لم يزحف وحدهُ من صوفيا بل زحف هو وحِقدُ خمسماية سنة!. . .</tei:p>
+بقيت تلك العوامل الثلاثة تعدّ نفوسهم للثورة ونزيد حقدهم المتأجج حتى هبوا ينفضون عنهم غبار الذُلّ العتيق. ولما ثارت البوسنة والهرسك سنة  <tei:num type="auto-markup" change="#d2e181" value="1875" xml:lang="ar">١٨٧٥</tei:num>  رأى ذوو الإِقدام منهم أنَّ الفرصة كانت موافقة للثورة وشفاء النفوس من الضغينة. على أنهم لم يكنفوا بالخروج على الحكومة بل ارتكبوا جناية ذبح المسلمين في بعض القرى. ولم تكن ثورتهم وقتئذ عامة لأن قسماً كبيراً منهم كان لا يزال خائفاً من سادته الأتراك. وما ترامى خبر فتنتهم على الباب العالي حتى عقد العزيمة على تأديبهم وكان التأديب واجباً. إلاَّ أنهُ أخطأ الطريقة المثلى فأطلق عليهم ألوفاً من الجنود غير المنظمة بدلاً من أن يسير إليهم جنوداً نظامية تحت امرأة قائد عاقل يضع اللينَ في محلهِ والشدة في موضعها. وروى قنصلاً فرنسا وانكلترا في تقاريرها الرسمية إن عدد ذبحتهم تلك الجنود من رجال ونساء وأطفال يبلغ ما بين  <tei:num type="auto-markup" change="#d2e181" value="15" xml:lang="ar">١٥</tei:num>  و <tei:num type="auto-markup" change="#d2e181" value="20" xml:lang="ar">٢٠</tei:num>  ألف نفس فكان لذاك الحادث صدى عظيم في أوربا , وهبّ غلادستون فألقى خطبهُ الشهيرة عن تركيا والأتراك وأنسى الأوروبيين أن البلغاريين فتكوا هم أيضاً بالمسلمين الآمنين. ولا غرو فإن الحادث الأكبر ينسي الحادث الأصغر؛ وهناك سبب آخر وهو أن شعور كل فئة بنكبات أهل دينها أشد من شعورها بأرزاء الآخرين , وهذا طبيعي تجده عند جميع الأمم والملل ولا يتغير ما دام الإنسان إنساناً. وقليل هم لسوء طالع الإنسانية أولئك الذين يضعون الحق فوق كل شيء. على أن هذا كلهُ بعضُ ما جرى بين العدوّين وهو يكفي للدلالة على أن الجيش البلغاري لم يزحف وحدهُ من صوفيا بل زحف هو وحِقدُ خمسماية سنة!. . .</tei:p>
             <tei:p change="#d2e73">وليس حقدُ الصربيين وأهل الجبل الأسود على الأتراك بأخفّ من حقد اليونانيين والبلغاريين. فإنهم مثل حلفائهم يربّون في أبنائهم محبة الثأر من تركيا ,
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p202"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1884.xhtml"/>
+<pb n="n4-p202" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1884.xhtml"/>
 
 
 ولا ينسون انتصار الأتراك عليهم وفتكهم الذريع بهمز ذكر البير مالي الأستاذ الكبير في التاريخ</tei:p>
             <tei:p change="#d2e73">السياسي أن المؤرخ الصربي ليوبا كواتشفيتش وقف يرثي ابنه الذي قتل في إحدى معارك الحرب البقانية فقال:</tei:p>
-            <tei:p change="#d2e73">يا بنيَّ ننم بسلام فقد أوفيتَ دينك للوطن. وقل لدوشان ولا زار بل قد لجميع شهداء قوصوه أن أمتهم ثأرت لقوصوه. . . ولقد دلت الحرب على أن الثأر الذي أشار إليهِ هذا المؤرخ الصربي هو أمنية كل فرد من أمته , وأنَّ الحقد على الأتراك شامل لطبقاتها. قال أيضاً الموسيو البير مالي أن معارك قوصوه - التي حدثت من نحو 500 سنة - ما زالت تذكر عندهم كما تذكر حوادث رب السبعين عند الفرنساويين , وما برحوا يرددون تذكار القيصر دوشان والقيصر لأزار حتى الآن. ثم روى الأستاذ نفسه دليلاً على احتفاظ الصربيين بما يُضرم الضغينة في قلوبهم على الأتراك قال: أن ألفاً من الصربيين كانوا سنة 1809 محصورين في أحد المعاقل على مقربة من مدينة نيش , فرأوا أن الأتراك أوشكوا أن يستولوا على م وقعهم عنوةً؛ فاختاروا أن ينسفوا معقلهم بما كان عندهم من البارود على أن يقعوا أحياء في أيدي أعدائهم؛ ثم جاء الأتراك بعد نسفه وفصلوا رؤوسهم عن ذاك البرج محفوظاً على شكله؛ فرفعوا الجماجم ودفنوها في مقبرةٍ وابقوا البرج ليراه الأبناءُ والأحفاد , ولقبوهُ ببرج الجماجم , وأصبح أمره موضع قصص العجائز والوالدات في البيوت والأساتذة في المدارس. وليس من غرض هذا الكتاب أن نفيض في شرح الوقائع التاريخية التي أشعلت نار ذاك الحقد. فأنا تختم الكلام عن هذا السبب الأول من أسباب الحرب بما تضمنهُ قانون أصدرتهُ حكومة الجبل الأسود سنة 1484 ليكون دليلاً آخر على
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p203"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1885.xhtml"/>
+            <tei:p change="#d2e73">يا بنيَّ ننم بسلام فقد أوفيتَ دينك للوطن. وقل لدوشان ولا زار بل قد لجميع شهداء قوصوه أن أمتهم ثأرت لقوصوه. . . ولقد دلت الحرب على أن الثأر الذي أشار إليهِ هذا المؤرخ الصربي هو أمنية كل فرد من أمته , وأنَّ الحقد على الأتراك شامل لطبقاتها. قال أيضاً الموسيو البير مالي أن معارك قوصوه - التي حدثت من نحو  <tei:num type="auto-markup" change="#d2e181" value="500" xml:lang="ar">٥٠٠</tei:num>  سنة - ما زالت تذكر عندهم كما تذكر حوادث رب السبعين عند الفرنساويين , وما برحوا يرددون تذكار القيصر دوشان والقيصر لأزار حتى الآن. ثم روى الأستاذ نفسه دليلاً على احتفاظ الصربيين بما يُضرم الضغينة في قلوبهم على الأتراك قال: أن ألفاً من الصربيين كانوا سنة  <tei:num type="auto-markup" change="#d2e181" value="1809" xml:lang="ar">١٨٠٩</tei:num>  محصورين في أحد المعاقل على مقربة من مدينة نيش , فرأوا أن الأتراك أوشكوا أن يستولوا على م وقعهم عنوةً؛ فاختاروا أن ينسفوا معقلهم بما كان عندهم من البارود على أن يقعوا أحياء في أيدي أعدائهم؛ ثم جاء الأتراك بعد نسفه وفصلوا رؤوسهم عن ذاك البرج محفوظاً على شكله؛ فرفعوا الجماجم ودفنوها في مقبرةٍ وابقوا البرج ليراه الأبناءُ والأحفاد , ولقبوهُ ببرج الجماجم , وأصبح أمره موضع قصص العجائز والوالدات في البيوت والأساتذة في المدارس. وليس من غرض هذا الكتاب أن نفيض في شرح الوقائع التاريخية التي أشعلت نار ذاك الحقد. فأنا تختم الكلام عن هذا السبب الأول من أسباب الحرب بما تضمنهُ قانون أصدرتهُ حكومة الجبل الأسود سنة  <tei:num type="auto-markup" change="#d2e181" value="1484" xml:lang="ar">١٤٨٤</tei:num>  ليكون دليلاً آخر على
+<pb n="n4-p203" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1885.xhtml"/>
 
 
 الحقد القديم في صدور أهل ذاك الجبل أيضاً وهو: إذا نشبت الحرب بيننا وبين الأتراك فلا يجوز لأحد من أل الجبل أن يترك ساحة القتال إلا بأمر رئيسه. وكلّ من يفرّ أمام الترك يفقد شرفه إلى الأبد ويُصبح محتقراً منبوذاً من آلهِ , ثمَّ يُلبس ثوب امرأة ويُعطى مغزلاً ليشتغل بهِ مع النساء , وتعمد النسوة أنفسهنَّ إلى طرده كما يطرد الجبان الذي يخون وطنه وهنا ندع القارئ يفكر في الحالة النفسية التي كان فيها أعداء تركيا يوم ساروا إلى الحرب وهم يؤملون النصر.</tei:p>
             <tei:p change="#d2e73">يوسف البستاني</tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">
-            <head xmlns="http://www.tei-c.org/ns/1.0">سفراء الدول</head>
+            <head>سفراء الدول</head>
             <tei:p change="#d2e73">يلعب السفراء في الآونة الحاضرة دوراً خطيراً في الحوادث التي تشغل الآن العالم قاطبة. وبهذه المناسبة ننشر للقراء المقالة الآتية التي كتبها خصيصاً للزهور حضرة الكاتب المجيد اسكندر أفندي شاهين صاحب الرأي العام ورئيس تحرير الوطن قال: إذا كان لك على الزمان قضية وفي صدرك الكريم من أهل الزمان غلة لأنهم لم ينصفوك أو لأن عامتهم نسبت فضلك إلى سواك فاعلم أن لك في هذا الظلم شركاءَ يقومون بكبير الأعمال ويُمدح غيرهم من سراة الرجال. هم السفراءُ ينوبون عن ملوك الأرض وشعوبها وينجزون المهام العسيرة على نعهلٍ , ويحلّون المعضلات من وراءِ الحجاب فلا يدري الجمهور بما فعلوا ويزعم الأفراد أن الفضل في الحل لمعاشر الملوك والوزراءِ. ولطالما تغنَّت الأقوام بمدح ملك وردّدت ذكر ذكائهِ الشديد ورأيهِ السديد مع أن الملك لم يكن إلاَّ عاملاً برأي سفيرهِ , ولو ترك الأمر لهُ لبقيت الحالة كما كانت أو ساءَت وتغيَّر تاريخ بني الإنسان. وربما وقع الوزير في
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p204"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1886.xhtml"/>
+<pb n="n4-p204" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1886.xhtml"/>
 
 
-خطأِ يحمله على الخروج من منصبهِ وتحمُّل مرارة وسخط المواطنين , أو رأي الناس يكتبون التاريخ مقلوباً على عادتهم من قدم , وينسبون إليهِ الغلط في السياسة والتدبير وهو مع ذلك بلا ذنب يوجب الملام غير أنهُ وثق بأحد السفراءِ , وعمل برأيهِ أو تحمَّل تبعة غلطهِ الكبير. فالسفير في هذه الممالك هو القوَّة الكامنة وراءَ العرش وهو المحرّك خفيَ عن الأبصار يدير المسائل , ويقضي في الأُمور بالنيابة عن الملوك والوزراء ولكن عامة الخلق لا تفطن إلى وجودهِ في كثير من الأَحوال ولا تنصفه حين توزّع مدائحها على جليل الأَعمال. ما سمعت بسفير نال حقّه ثناءِ الجمهور إلاَّ حين عُقد مؤتمر السفراءِ في لندن وعهدت الدول إلى أعضائهِ الحاليين تسوية المشاكل والبتّ في معظم ما يتعلق بحرب البلقان ومستقبل الشرق القريب. قلت أن السفير نائب للملك أو للدولة في البلد التي يندب لأنتيابها فهو أكبر من الوزير مقاماً يتقدَّمهُ في المحافل الرسمية وقد يتقدَّم بعضَ الأُمراءِ أيضاً فما يعلوهُ في موضع عمله غير ملك البلاد أو الرئيس. وراتب الوزير على الجملة أقل من راتب السفير لأَن وزراءَ الغرب يقتضون حوالي خمسة آلاف جنيه في السنة وأما السفراءُ فرواتبهم من ستة آلاف إلى عشرة في العام. وربما كان سفير الجمهورية الفرنسية في لندن أعظم الأقران راتباً لأنهُ ينال من مال بلادهِ 260 ألف فرنك أو أكثر من عشرة آلاف جنيه؛ ولهُ في عاصمة الانكليز قصر منيف ومقام عظيم.</tei:p>
+خطأِ يحمله على الخروج من منصبهِ وتحمُّل مرارة وسخط المواطنين , أو رأي الناس يكتبون التاريخ مقلوباً على عادتهم من قدم , وينسبون إليهِ الغلط في السياسة والتدبير وهو مع ذلك بلا ذنب يوجب الملام غير أنهُ وثق بأحد السفراءِ , وعمل برأيهِ أو تحمَّل تبعة غلطهِ الكبير. فالسفير في هذه الممالك هو القوَّة الكامنة وراءَ العرش وهو المحرّك خفيَ عن الأبصار يدير المسائل , ويقضي في الأُمور بالنيابة عن الملوك والوزراء ولكن عامة الخلق لا تفطن إلى وجودهِ في كثير من الأَحوال ولا تنصفه حين توزّع مدائحها على جليل الأَعمال. ما سمعت بسفير نال حقّه ثناءِ الجمهور إلاَّ حين عُقد مؤتمر السفراءِ في لندن وعهدت الدول إلى أعضائهِ الحاليين تسوية المشاكل والبتّ في معظم ما يتعلق بحرب البلقان ومستقبل الشرق القريب. قلت أن السفير نائب للملك أو للدولة في البلد التي يندب لأنتيابها فهو أكبر من الوزير مقاماً يتقدَّمهُ في المحافل الرسمية وقد يتقدَّم بعضَ الأُمراءِ أيضاً فما يعلوهُ في موضع عمله غير ملك البلاد أو الرئيس. وراتب الوزير على الجملة أقل من راتب السفير لأَن وزراءَ الغرب يقتضون حوالي خمسة آلاف جنيه في السنة وأما السفراءُ فرواتبهم من ستة آلاف إلى عشرة في العام. وربما كان سفير الجمهورية الفرنسية في لندن أعظم الأقران راتباً لأنهُ ينال من مال بلادهِ  <tei:num type="auto-markup" change="#d2e181" value="260" xml:lang="ar">٢٦٠</tei:num>  ألف فرنك أو أكثر من عشرة آلاف جنيه؛ ولهُ في عاصمة الانكليز قصر منيف ومقام عظيم.</tei:p>
             <tei:p change="#d2e73">ولا يقلّ السفراءُ في العواصم الكبرى مقاماً عمن ذكرت ولو أن الراتب
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p205"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1887.xhtml"/>
+<pb n="n4-p205" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1887.xhtml"/>
 
 
 أقل ألفاً أو ألفين فإن السفير واحد في الكرامة سواء كان في لندن أو في غيرها من العواصم التي يُعرف فيها وكلاءُ الدول العظمى باسم السفراءِ وهي باريز وبطرسبرج وبرلين وفينا ورومية والأستانة وواشنطون وتوكيو وبكين. وأما الدول الثانية مثل اسبانيا والبلجيك وبقية هذه الممالك والجمهوريات فإن مندوبي الدول فيها يعدّون وكلاءَ سياسيين ورواتبهم تختلف ما بين ألف جنيه في السنة وسبعة آلاف وهو راتب وكيل الدولة الانكليزية في مصر ودريد وريودي جانيرو عاصمة جمهورية البرازيل. وليس يعدّ هذا الراتب كبيراً على السفير أو وكيل الدولة لأنهُ ينبغي لهُ أن يعيش عيشة الملوك وأن يحيي الليالي الراقصة ويؤلم الولائم ويكون في مقدمة أهل البذل والعطاء. وقد كان السفراء قبل هذه الأيام يأخذون معهم من بلادهم جيشاً جرَّاراً من العمَّال والصنَّاع والخدَمة والأطباء وسواهم حتى يكون كل ذي علاقة بقصر السفير من أهل بلادهِ وتعد سفارتهُ مملكة ثانية لملكهِ في عاصمة الدولة الأخرى ولكنهم قللوا من هذا الإسراف في الزمان الأخير. وما زالت السفارة في كل بلاد تعدّ جزءاً من أرض المملكة التي جاء منها السفير: فسفارة الروس في باريز قطعة من أرض روسيا تسري فيها الأحكام الروسية ولا سلطة لفرنسا وقانونها على من دخل أرض هذه السفارة وقس على هذا ما جرى مجراه. يذكرني ذلك بما كان من أمر ملك الانكليز وإمبراطور النمسا في إحدى السنين الماضية فإن الإمبراطور كان قد وعد بزيارة الملك في لندن قم رأى أنَّ الكبر أقعد همتهُ وصيَّر
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p206"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1888.xhtml"/>
+<pb n="n4-p206" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1888.xhtml"/>
 
 
 السفر خطراً عليهِ فعدل عن تلك الزيارة ولما ذهب ملك الانكليز بعد ذلك إلى فينا قام الإمبراطور لاستقباله للسلام عليهِ في السفارة الانكليزية وتعشى فيها ليقال أنهُ زار قرينهُ في أرض انكليزية وهي سفارة انكلترا في عاصمة النمسا. ويذكر من هذا القبيل أيضاً أن رئيس جمهورية الولايات المتحدة لا يدخل سفارة أجنبية لأن قانون الجمهورية يحظر عليهِ السياحة في الأقطار الخارجية مدة الرئاسة , والسفارة عندهم أرض أجنبية كما تقدم البيان فمقام السفير مقام ملك ولهذا تراهم يهتمون غاية الاهتمام لانتقاء السفراء وقد يتنازل رئيس الوزارة عن كرسيه حتى يذهب سفيراً إلى عاصمة من العواصم الكبيرة وتعرض الوزارة من حين إلى حين على بعض السفراء فيأبونها مثل المسيو وادنتون سفير فرنسا السابق في لندن كان رئيس الوزارة الفرنسية ومثل اللورد</tei:p>
             <tei:p change="#d2e73">دفرن سفير انكلترا السابق في باريز عرضت عليهِ الوزارة مراراً فلم يقبلها ولقد قال اللورد بامرستون يوماً وهو أحد وزراء الانكليز المشهورين أنه ليس في كل عشرة ملايين رجل أكثر من واحد يصلح للسفارة. وقوله صحيح لما أن السفير يدير سياسة الدولة التي ترسله والدولة التي تقبله على السواء فهو في يده السلم والحرب إذا كان قليل الميل إلى السلام كان إضرام الحرب على يده من أسهل الأمور. ولما كان هذا المقام السفير وهذا شأنه فهم قد خصُّوه بامتيازات شتى حتى جعلوه مساوياً لملك البلاد التي يقيم فيها وإذا شاء السفير أن يخاطب القيصر أو الملك رأساً في كل أمر فلا سبيل إلى إرجاعهِ عما يريد. ولكن
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p207"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1889.xhtml"/>
+<pb n="n4-p207" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1889.xhtml"/>
 
 
-السفراء وهم دهاة الأمم وجبابرة العقول يؤثرون الوصول إلى غايتهم بطرق اللطف والمجاملة فلا يصرّون على حق لهم يولد الجفاء أو يدعو إلى النفور. وقد بدأوا بإعطاء لسفير حقوق الملك من نحو 185سنة. وكان منشأ هذا الامتياز في لندن إذ حدث فيها أن بعض المتآمرين وأصحاب الدسائس قبضوا على سفير روسيا في لندن وخطفوهُ من وسط المدينة , وأودوا به لأسباب تتعلق بسياسته في داخلية روسيا. فكبر الأمر على حكومة الانكليز وأصدرت أمراً باعتبار سفراء الدول الكبيرة مثل ملك انكلترا في الامتيازات والحقوق حتى لا يبقى سبيل إلى الاعتداء عليهم كما حدث لسفير الروس. واجتمع بعد ذلك مؤتمر للدول في باريز رأى أعضاؤه أن انكلترا أصابت في منح هذه الامتيازات للسفراء , فأجمعوا على تعميم هذا المبدأ في جميع العواصم على السواء. وعلى هذا فإن السفير مثل الملك فوق القانون يمكنهُ أن يأتي ما شاءَ من المنكرات ولا حرج عليهِ ولا سلطة تقوى على رده؛ فكل ما يمكن فعله في هذه الحالة أن الدولة ترجو دولة السفير المذكور إقالته أو نقله من بلادها. ولكن هذا لا يحدث من السفراء وهم رجال الأدب الباهر واللطف المشهور والعقول الكبرى في كل زمان. كذلك عمَّال السفارات وأقاربهم يعدون من أصحاب الامتيازات لا سلطة للحكومة المحلية عليهم بقوة هذا الامتياز وقد تجري محاكمته داخل السفارة حسب قانون بلاده الأصلية. ولكن هذا لا يحدث أيضاً إلا فيما قلّ. وأكثر السفراء يتنازلون عن حق
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p208"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1890.xhtml"/>
+السفراء وهم دهاة الأمم وجبابرة العقول يؤثرون الوصول إلى غايتهم بطرق اللطف والمجاملة فلا يصرّون على حق لهم يولد الجفاء أو يدعو إلى النفور. وقد بدأوا بإعطاء لسفير حقوق الملك من نحو  <tei:num type="auto-markup" change="#d2e181" value="185" xml:lang="ar">١٨٥</tei:num> سنة. وكان منشأ هذا الامتياز في لندن إذ حدث فيها أن بعض المتآمرين وأصحاب الدسائس قبضوا على سفير روسيا في لندن وخطفوهُ من وسط المدينة , وأودوا به لأسباب تتعلق بسياسته في داخلية روسيا. فكبر الأمر على حكومة الانكليز وأصدرت أمراً باعتبار سفراء الدول الكبيرة مثل ملك انكلترا في الامتيازات والحقوق حتى لا يبقى سبيل إلى الاعتداء عليهم كما حدث لسفير الروس. واجتمع بعد ذلك مؤتمر للدول في باريز رأى أعضاؤه أن انكلترا أصابت في منح هذه الامتيازات للسفراء , فأجمعوا على تعميم هذا المبدأ في جميع العواصم على السواء. وعلى هذا فإن السفير مثل الملك فوق القانون يمكنهُ أن يأتي ما شاءَ من المنكرات ولا حرج عليهِ ولا سلطة تقوى على رده؛ فكل ما يمكن فعله في هذه الحالة أن الدولة ترجو دولة السفير المذكور إقالته أو نقله من بلادها. ولكن هذا لا يحدث من السفراء وهم رجال الأدب الباهر واللطف المشهور والعقول الكبرى في كل زمان. كذلك عمَّال السفارات وأقاربهم يعدون من أصحاب الامتيازات لا سلطة للحكومة المحلية عليهم بقوة هذا الامتياز وقد تجري محاكمته داخل السفارة حسب قانون بلاده الأصلية. ولكن هذا لا يحدث أيضاً إلا فيما قلّ. وأكثر السفراء يتنازلون عن حق
+<pb n="n4-p208" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1890.xhtml"/>
 
 
 سفارتهم فيما لو حدث أمر يخالف قانون لبلاد من أحد عمَّالهم ويسلمون ذلك العامل للحكومة المحلية احتراماً لها ولقانونها. حدث مثل هذا من عهدٍ غير بعيد في لندن إذ اعتدى روسي على أحد الأهالي وصفعه على وجهه في قارعة الطريق فلما علم السفير الروسي بما جرى أمر</tei:p>
             <tei:p change="#d2e73">عامله في خدمة السفارة فأثر الرجل عدل انكلترا على ضياع المركز وحكم عليهِ بغرامة مع أنه كان يمكن إنقاذه من العقاب. ومن هذا القبيل أن سفير الأمير كان في باريز صدمت عربته عاجلة صغيرة لأحد الأهالي فحطمتها ولما رأى السفير ذلك عرض على الرجل أن يعوض عليهِ ما فقد في الحال ولكن الرجل كان ذا نزق فلم يكلم السفير وأقام عليهِ قضية وكان كاتب المحكمة جاهاً مثل صاحب القضية فقبلها وأرسل إنذاراً إلى السفير كأنما السفير تحت سلطة القانون. فأعرض السفير الأميركي عن الإنذار وأرسله إلى وزارة الخارجية وكانت النتيجة أن الإنذار الغي في الحال والكاتب عزل وحقوق الرجل ضاعت بقوة الامتياز الذي خصَّ بمعاشر السفراء ويحق لنساء السفراء ما يحق للملكات لأن السفير يتقدم وزراء الأمة التي يقيم في أرضها ولزوجته حق التقدم أيضاً على كل نساء المملكة ما خلا الأميرات. وقد حدث أشكال بسبب امتياز النساء هذا في روميه من بضعة أعوام لأن إحدى الأميرات دعت عليَّة القوم إلى ليلة راقصة فلما انتهى الرقص دعت الأميرة بعض صاحباتها وقريباتها للطعام ولم تدعُ زوجة السفير الفرنسي ولا زوجة السفير الانكليزي إلى المائدة فخرجت
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p209"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1891.xhtml"/>
+<pb n="n4-p209" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1891.xhtml"/>
 
 
 السيدتان من قصر الأميرة مغتصبتين. وأنكر السفيران فعل الأميرة وطلبا من حكومة إيطاليا أن تحملها على الاعتذار وكانت حكومة الطليان في أو الأمر مستخفة بالحكاية فلما كثرت عليها المسائل والرسائل من لندن وباريز اضطرت على العدول عن رأيها وأرضت السفيرين. ويعفي السفراء من الضرائب المحلية والعوائد ورسوم الجمارك حتى أن الأشياء الواردة باسم السفير أو أحد عماله من الخارج ترسل بلا تفتيش ولا تنقيب. وربما ذكر القراء ما حدث في الإسكندرية من زمان قريب بشأن هذا الامتياز فإن قنصل روسيا وقع في مشكلة ورأى عمال الجمرك أن الصناديق التي ترد باسمهِ أو بأسماء مختلفة لترسل على يده إلى من يشاء كثرت فيها المهربات فأفضى الأمر إلى أن الحكومة الروسية عزلت قنصلها أو نقلتهُ من الإسكندرية ولكن حكومة مصر لم يكن لها سلطة عليه مع أنهُ أهانها وهرَّب الممنوع إلى بلادها على طريقة كان لها دوي كبير. على أن السفير لا يجوز له شيء واحد لقاء كل هذه الامتيازات هو التدخل في السياسة الداخلية المتعلقة بالبلاد التي يقيم فيها فإذا عرف عنبهُ تداخل من هذا القبيل ولو كان صغيراً سقط من مقامهِ العالي واضطرّ إلى الرحيل. وقد يحدث من هذا القبيل ما يوقع السفير في حيرة وعقدة لا حلَّ لها</tei:p>
             <tei:p change="#d2e73">مثل أن يكون حزب الأحرار في انكلترا مخالفاً لحزب المحافظين في عقد المخالفة مع روسيا فإذا سئل سفير الروس رأيهُ يوماً وهو يعلم أن عقد المحالفة يفيد بلاده لم يجز له أن يمدح حزباً ويذم حزباً
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p210"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1892.xhtml"/>
+<pb n="n4-p210" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1892.xhtml"/>
 
 
 في البلاد ولا أن يعضد فريقاً بقول له أو رأي لأن أقل إشارة بهذا المعنى تعدّ تدخلاً في السياسية الداخلية لا يجوز. وهذا أيضاً قليل حدوثه. اعلمُ من قبيله حادثة واحدة قديمة جرت في لندن حين تدخل سفير النمسا في سياسة الأحزاب الداخلية تدخلاً لو تمَّ المراد منهُ لأدى إلى سقوط وزارة الانكليز. وقد كان صنيع هذا السفير يومئذٍ شاذاً إلى الغاية القصوى وموجباً للغضب حتى أن حكومة الانكليز أعرضت عن المجاملة وامتياز السفراء وقبضت على هذا السفير وأمرت بمحاكمته فحكم عليهِ القاضي بالحبس. ولما علمت النمسا ببيان ما فعل سفيرها في لندن تبرأت منهُ ورضيت بمحاكمتهِ ومعاقبته فلم ينشأ أشكال ولا حرب. واذكر حادثة أخرى قريبة العهد من هذا النوع هي أن رجلاً من الأميركيين أرسل إلى سفير انكلترا في واشنطون كتباً يسأله فيهِ رأيه عن أي الرجال أصلحهم لرئاسة الجمهورية الأميركية وكان الرئيس يومئذٍ المستر كليفلاند وهم يسعون في إعادة انتخابه فكتب السفير - واسمه اللورد ساكفيل - رداً إلى صاحبه الأميركي يقول أن كل أميركي يحب الخير لبلاده يجب أن يسعى في بقاء المستر كليفلاند رئيساً لجمهوريتها. ونشرت بعض الصحف الأميركية هذا الكتاب فهاج الجمهور ولاسيما الحزب المخالف لكليفلاند وعدوا تدخل السفير الانكليزي في أمورهم الداخلية إثماً لا يغتفر حتى أن المستر كليفلاند اضطر إلى طلب إقالته وأعاد إليهِ أوراق تعيينه فكان لتلك الحادثة صدى ودوي من نحو عشرين سنة وكادت تؤدي إلى وقوع الحرب بين الانكليز والاميركان
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p211"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1893.xhtml"/>
+<pb n="n4-p211" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1893.xhtml"/>
 
 
 لأن اللورد سولسبري وهو يومئذٍ وزير الانكليز عدَّ فعل الرئيس إهانة لسفيره فلم يعيّن سفيراً بدله حتى انتهت الانتخابات الأميركية وخرج كليفلاند من منصب الرئاسة. هذا الذي لا يجوز للسفراء وأما الذي يجوز فأكثر منهُ كما رأيت وليس في الأرض فئة أخرى تتنعم بكل هذه النعمة وهذا الامتياز في ديار المتدنين.</tei:p>
             <tei:p change="#d2e73">اسكندر شاهين</tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">
-            <head xmlns="http://www.tei-c.org/ns/1.0">الأندلس الجديدة</head>
+            <head>الأندلس الجديدة</head>
             <tei:p change="#d2e73">ننشر لقراء الزهور في الصفحات التالية قصيدة عصماء في رثاء مقدونيا وخروجها من يد الدولة العثمانية بعد عقد الصلح في مؤتمر لندرا. وهذه القصيدة من أبدع ما جاءت به قريحة شاعر عربي , فقد جمعت من جزالة اللفظ ومتانة السبك وسمو الخيال وبلاغة الإرشاد ما يستغفر القارئ طرباً عند كل بيت من أبياتها , ويستوقفه معجباً بكل معنى من نعانيها. أما ناظم دررها الغوالي فيحق له أن يجلس على عرش دولة البيان ويلقب بأمير الشعر في هذا العصر , كما يسلم بذلك كل من يطالع هذه القصيدة النفسية , وإن كان يؤاخذ شاعرها بأنه مزج الدين بالسياسة ولا دين للسياسة. فها هي الدول التي كانت معادية لتركيا بالأمس تكاد اليوم تشهر بعضها على بعض حرباً طاحنة وهي على دين واحد ومعتقد واحد:</tei:p>
-            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+            <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>يا أختَ أندَلسُ عليكِ سلامُ</tei:seg> 
                   <tei:seg>هوَتِ الخلافةُ عنكِ والإِسلامُ</tei:seg>
@@ -983,11 +843,8 @@
                   <tei:seg>فيما نحبُّ ونكرهُ الأيَّامُ</tei:seg>
                </tei:l>
             </lg>
-            <pb xmlns="http://www.tei-c.org/ns/1.0"
-                n="n4-p212"
-                ed="shamela"
-                corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1894.xhtml"/>
-            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+            <pb n="n4-p212" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1894.xhtml"/>
+            <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>خلَت لقرونُ كلَيلةٍ وتصرَّمت</tei:seg> 
                   <tei:seg>دولُ الفتوحِ كأنها أحلامُ</tei:seg>
@@ -1088,11 +945,8 @@
                   <tei:seg>مُلكٌ على جيد الخضّمِ جسامُ</tei:seg>
                </tei:l>
             </lg>
-            <pb xmlns="http://www.tei-c.org/ns/1.0"
-                n="n4-p213"
-                ed="shamela"
-                corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1895.xhtml"/>
-            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+            <pb n="n4-p213" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1895.xhtml"/>
+            <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>نظم الهلالُ بهِ ممالكَ أربعاً</tei:seg> 
                   <tei:seg>أصبحنَ ليس لِعقدهنَّ نظامُ</tei:seg>
@@ -1188,11 +1042,8 @@
                   <tei:seg>همُ للإله وروحهِ ظُلاَّمُ</tei:seg>
                </tei:l>
             </lg>
-            <pb xmlns="http://www.tei-c.org/ns/1.0"
-                n="n4-p214"
-                ed="shamela"
-                corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1896.xhtml"/>
-            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+            <pb n="n4-p214" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1896.xhtml"/>
+            <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>خلطوا صليَبك والخناجرَ والمُدى</tei:seg> 
                   <tei:seg>كلٌّ أداةٌ للأذى وحِمامُ</tei:seg>
@@ -1293,11 +1144,8 @@
                   <tei:seg>صبراً وصفحاً فالجناة كرامُ</tei:seg>
                </tei:l>
             </lg>
-            <pb xmlns="http://www.tei-c.org/ns/1.0"
-                n="n4-p215"
-                ed="shamela"
-                corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1897.xhtml"/>
-            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+            <pb n="n4-p215" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1897.xhtml"/>
+            <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>رفعوا على السيف البناء فلم يَدُمْ</tei:seg> 
                   <tei:seg>ما للبناءِ على السيوف دوامُ</tei:seg>
@@ -1403,11 +1251,8 @@
                   <tei:seg>في الله غازٍ في الرسول همامُ</tei:seg>
                </tei:l>
             </lg>
-            <pb xmlns="http://www.tei-c.org/ns/1.0"
-                n="n4-p216"
-                ed="shamela"
-                corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1898.xhtml"/>
-            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+            <pb n="n4-p216" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1898.xhtml"/>
+            <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>نستعِصمُ الأوطانُ خلف ظباتهِ</tei:seg> 
                   <tei:seg>وتعزُّ حول قناتهِ الأعلامُ</tei:seg>
@@ -1493,19 +1338,16 @@
                   <tei:seg>شمُّ الحصون ومثلهنَّ عظامُ</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">حتى حواكِ مقابراً وحويتهِ <gap xmlns="http://www.tei-c.org/ns/1.0" resp="#org_MS"/> جثثاً فلا غبنٌ ولا استذمامُ
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p217"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1899.xhtml"/>
+            <tei:p change="#d2e73">حتى حواكِ مقابراً وحويتهِ <gap resp="#org_MS"/> جثثاً فلا غبنٌ ولا استذمامُ
+<pb n="n4-p217" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1899.xhtml"/>
 
 
             </tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">
-            <head xmlns="http://www.tei-c.org/ns/1.0">أزهار وأشواك</head>
+            <head>أزهار وأشواك</head>
             <tei:p change="#d2e73">نقل رفات اليازجي</tei:p>
-            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+            <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>أمضي وتبقى صورتي فتعجَّبوا</tei:seg> 
                   <tei:seg>تمضي الحقائقُ والرسومُ تقيمُ</tei:seg>
@@ -1518,14 +1360,11 @@
             </lg>
             <tei:p change="#d2e73">الشيخ ناصيف اليازجي</tei:p>
             <tei:p change="#d2e73">لا يحقُّ لنا بعد الآن أن نقولَ أن الشرق لا يزال يجهل قدر أُدبائهِ ونوابغهِ. فإن الحركة التي رأيناها في هذه السنة لإكرام الإحياءِ من أدبائنا وكتَّابنا , وتخليد ذكر الدارجين منهم تدلُّ على نهضةٍ مباركةٍ في
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p218"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1900.xhtml"/>
+<pb n="n4-p218" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1900.xhtml"/>
 
 
 النفوس وترقٍّ محمود في الأخلاق. أقول ذلك بمناسبة الحفلة المؤثرة التي أُقيمت على أحد أرصفه.</tei:p>
-            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+            <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>أنت في الدنيا كضيف نازلٍ</tei:seg> 
                   <tei:seg>حلَّ في الأحياءِ حيناً وانصرَفْ</tei:seg>
@@ -1538,14 +1377,11 @@
             </lg>
             <tei:p change="#d2e73">الشيخ إبراهيم اليازجي</tei:p>
             <tei:p change="#d2e73">محطة مصر في الرابع من الشهر الجاري وداعاً لعظامٍ بالية كانت تحييها بالأمس روح نابغة من نوابغ كتَّابنا , وقد أتى جمهورٌ من الأدباءِ والوجهاء
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p219"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1901.xhtml"/>
+<pb n="n4-p219" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1901.xhtml"/>
 
 
 والفضلاء في مصر يشيعون تلك العظام بتجلة وإكرام كما يُشيَّع الأمراءِ والملوك , واحتشدوا يبكون سليل الأسرة اليازجية ويعدون فضلهُ ومناقبهُ. افتتح التآبين والمرائي سعادة أحمد باشا زكي سكرتير مجلس النظار فأطنب في مدح الفقيد وغيرتهِ على لسان العرب ورثاهُ باسم مصر بكلام فصيح بليغ , ونحا نحوهُ حضرة رفيق بك العظم , فأتى في خطاب جامعٍ على لمحةٍ من تاريخ اللغة العربية ونهضتها منذ نصف قرن على يد أمثال البستاني والنقاش واليازحي والأسير والشدياق. وتكلم على الأثر الدكتور خليل بك سعادة موجّهاً الخطاب إلى الفقيد الكريم وقد أخذ التأثر منهُ ومن الحاضرين مبلغه. ثمَّ ألقى خليل مطران قصيدةً من شعرهِ المعروف بسموّ الأفكار وابتكار المعاني , قال في مطلعها:</tei:p>
-            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+            <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>أحننتَ من شوقٍ إلى لبنانِ</tei:seg> 
                   <tei:seg>وارحمتا لكَ من رميمِ عانِ</tei:seg>
@@ -1567,7 +1403,7 @@
                </tei:l>
             </lg>
             <tei:p change="#d2e73">وقال في ختامها مخاطباً نعش الفقيد:</tei:p>
-            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+            <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>أبلغْ وديعتَنا إلى أحبابنا</tei:seg> 
                   <tei:seg>واحمل تحيّتنا إلى الأوطانِ</tei:seg>
@@ -1584,14 +1420,11 @@
                </tei:l>
             </lg>
             <tei:p change="#d2e73">وأنشد أسعد أفندي داغر أبياتاً جميلة استنهض بها سوريا لتستقبل الوديعة الثمينة التي تردّها إليها مصر اليوم.
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p220"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1902.xhtml"/>
+<pb n="n4-p220" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1902.xhtml"/>
 
 
 ثمَّ صفر البخار مؤذناً في الرحيل وقطر العجلة الخصوصية التي تقلُّ رفات فقيد اللغة وقد كُسيت بأكاليل الزهر والريحان. وسارت وراءَها الأبصار والقلوب تشيعها من القطار إلى الباخرة ومن الباخرة على ثغر بيروت حيث يستقبلها أدباءُ سوريا كما ودَّعها أدباءُ مصر لتُضمّ هناك عظام إبراهيم إلى عظام أبيهِ ناصيف , وشقيقهِ , خليل في مدفنٍ واحد وقد كتبت عليهِ تلك الأبيات التي تصدق في الوالد والولد وهي من نظم الفقيد:</tei:p>
-            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+            <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>هذا مقامُ اليازجيِّ فقف بهِ</tei:seg> 
                   <tei:seg>وقُل السلامُ عليكَ يا علَمَ الهدى</tei:seg>
@@ -1645,45 +1478,30 @@
             <tei:p change="#d2e73">هذا بعض ما يسمح لي المقام وقاراً بذكرهِ عن حفلة مساء يوم الأربعاء على محطة مصر. وقد زاد الموقف وقاراً وخشوعاً وجود أخت الفقيد السيدة وردة اليازجي الشاعرة المجيدة وهي متشحة بالسواد , مكسورة الفؤاد. نظرتُ إليها عن بعد محترماً حزنها , وراثياً</tei:p>
             <tei:p change="#d2e73">لمصائبها , ولم أتمالك من سكب دمعة عند منظر هذه الخنساء الجديدة.</tei:p>
             <tei:p change="#d2e73">حاصد
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p221"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1903.xhtml"/>
+<pb n="n4-p221" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1903.xhtml"/>
 
 
             </tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">
-            <head xmlns="http://www.tei-c.org/ns/1.0">ثمرات المطابع</head>
+            <head>ثمرات المطابع</head>
             <tei:p change="#d2e73">شرح القانون المدني - هذا كتاب لم يوجد في مصر باللغة العربية من قبل اليوم؛ وربَّ كتابٍ واحدٍ يعدل جملة كتب. وضعهُ سعادة المفضال أحمد فتحي باشا زغلول وكيل نظارة الحقَّانية؛ وكفى بذكر اسم
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p222"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1904.xhtml"/>
+<pb n="n4-p222" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1904.xhtml"/>
 
 
 ذلك الرجل دليلاً على فضله. وقد رمى سعادته بنشر هذا المؤلَّف النفيس إلى ثلاثة أغراض: أولها تقريب قواعد القانون المدني من أذهان الكافة تسهيلاً لمعرفة أحكام المعاملات؛ وثانيهما إفادة طلية الحقوق في درسهم بما يجدونه فيهِ من المرشد إلى المعلومات التي يحتاجون لمراجعتها فيكون لهم منهُ متنٌ يذكرّهم بما تلقّوه؛ وثالثهما استنهاض همة القانونيين إلى الاشتغال بالقانون المدني ووضع ما يحتاجه من الشروح باللغة العربية ليكون لنا من وراءِ عملهم مؤلفات تغنينا عن ألتماس علم القانون من غيرنا على الدوام. فالكتاب سوى المشتغلين بعلم الحقوق من طلَبةٍ ومحامين وقضاة. فإن القانون المدني المصري إنما أُخذ في معظمهِ عن وجوه شتى , فلا جرَم أن يكون قد مشقَّات جلَّى , حتى تسنّى له أن يُخرج للناس هذا المؤلَف المفيد. وغلى هذا أشار سعادتهُ بقوله: أتعبني النصُّ الفرنساوي بإيجازه المخلّ وتشويش ترتيبه الذي يشتت الذهن ويضيع الوقت؛ ولكنَّ النصَّ العربي أعياني أعياءَ. وقد قسم الكتاب إلى أربعة أقسام هي: قسم الأشخاص والأموال وما يترتب عليها من الحقوق؛ وقسم التعهدات والالتزامات؛ وقسم العقود المعينة والتأمينات؛ وقسم الأدلة. واعتمد في ذلك جميعه الرجوع إلى أشهر المؤلفين باللغتين العربية
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p223"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1905.xhtml"/>
+<pb n="n4-p223" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1905.xhtml"/>
 
 
 والفرنساوية فجاءَ الكتاب الذي بصدده مرجعاً يُرجع إليه , ومورداً سائغاً يُستقى منه. فشرحُ القانون المدني حلقة جديدة أُضيفت إلى سلسلة ذهبية مما ألَّفهُ وترجمهُ أحمد فتحي زغلول تلك السلسلة التي تعلّق اسم هذا الرجل المفضال إلى جانب أسماء الرجال الذين عملوا حقيقةً على إفادة الأمة المصرية , وخدموها أجلَّ الخدمات , فحفظ لهم التاريخ الذكر الطيّب والجميل العظيم.</tei:p>
             <tei:p change="#d2e73">محاسن الطبيعة - للمرحوم الللورد افبري شهرة واسعة بين أهل العلم والأدب لا يجهلها أحد ممن وقف على مؤلفاتهِ الكثيرة وآرائهِ الشهيرة. وقد نُقلت مؤلفاته إلى معظم اللغات الأوروبية وغيرها وكان للغة العربية حظ بأربعة منها عني بنقلها غليها حضرة الكاتب الأديب وديع أفندي البستاني وهي: معنى الحياة ومسرات الحياة والسعادة والسلام ومحاسن الطبيعة. وقد ظهر الكتاب الأخير حديثاً فإذا بهِ كسائر مؤلفات ذلك الرجل العظيم</tei:p>
             <tei:p change="#d2e73">آية من آيات السحر الحلال إذ بحث فيهِ المؤلف في عالَمي الحيوان والنبات ثمَّ تناول وصف المناظر التي يتألف منها عالم الشهادة كالبحور والأنهار والبراكين والجبال والأودية والأفلاك على اختلاف أنواعها. فوصف محاسن كل منها بما لم يبقَ معهُ مطمع لمستزيد , ونسَّق كلامهُ أحسن تنسيق بحيث يأخذ بمجامع الفؤاد فلا يكاد القارئ يفرغ من قراءَة وصف حتى يتشوّق إلى
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p224"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1906.xhtml"/>
+<pb n="n4-p224" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1906.xhtml"/>
 
 
 غيره , وهذه إحدى مميزات هذا الكتاب. ولا شك أن اللغة العربية في افتقار شديد إلى أمثال هذه المؤلفات الأدبية مع أنها غنية بالكتب التي كان يجب أن تكون غنيةً عنها. ويسرنا أن نرى اليوم للّغة من ورائها حياة جديدة. ولا يخفي أن مقياس ارتقاء كل أمة هو مؤلفاتها الأدبية فبقدر انتشار هذهِ المؤلفات تكون رفعة شأنها ومبلغ عظمتها. والمجال أضيق من أن يتناول إسهاباً في وصف كتاب محاسن الطبيعة المشار إليهِ فهو حافل بفوائد تضيق هذه السطور عن تعدادها ويكفي القول بأنهُ من الكتب التي قد اهتمت مطبعة المعارف المعارف بنقلها ونشرها مع ما هو معروف عن هذه المطبعة من الحرص في نشر الكتب الجزيلة النفع بين أبناء اللغة العربية. ومما يزيد في قدر الكتاب الذي نحن بصدده أنهُ صدر بيننا على أثر وفاة مؤلفهِ اللورد افبري؛ فقد نعه إلينا البرق منذ أسبوع بعد أن ناهز الثمانين من عمره. فذهب مبكيّاً عليهِ وترك وراءهُ ذكراً يبقى ما بقي العلم والأدب.</tei:p>
             <tei:p change="#d2e73">لسان العرب - مجلة تاريخية اجتماعية عليمة أدبية يصدرها في الأستانة مرَّة في كلّ شهر حضرة الفاضل أحمد عزت أفندي الاعظمي. وقد تصفحنا ما ورد علينا منها فراقنا ما احتوائهُ من المواضيع ورجونا لها سعة الانتشار.
-<pb xmlns="http://www.tei-c.org/ns/1.0"
-                   n="n4-p225"
-                   ed="shamela"
-                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1907.xhtml"/>
+<pb n="n4-p225" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1907.xhtml"/>
 
 
             </tei:p>
