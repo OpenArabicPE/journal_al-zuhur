@@ -81,7 +81,7 @@
       <tei:body>
          <tei:div change="#d2e64" type="item">
             <head xmlns="http://www.tei-c.org/ns/1.0">العدد 25</head>
-            <tei:p change="#d2e73"> - بتاريخ: 1912-06-01 </tei:p>
+            <tei:p change="#d2e73"> - بتاريخ: <date when="1912-06-01>1912-06-01</date> </tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head xmlns="http://www.tei-c.org/ns/1.0">النذل</head>
