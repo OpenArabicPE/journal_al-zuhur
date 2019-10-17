@@ -1,0 +1,1350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader xmlns="http://www.tei-c.org/ns/1.0"
+              xmlns:dc="http://purl.org/dc/elements/1.1/"
+              xmlns:html="http://www.w3.org/1999/xhtml"
+              xmlns:opf="http://www.idpf.org/2007/opf"
+              xmlns:xd="http://www.pnp-software.com/XSLTdoc">
+      <fileDesc>
+         <titleStmt>
+            <title>مجلة «الزهور» المصرية</title>
+            <title type="sub">TEI edition</title>
+            <author>أنطون الجميل</author>
+            <tei:respStmt xml:lang="en">
+               <tei:resp>TEI edition</tei:resp>
+               <tei:persName xml:id="pers_TG">
+                  <tei:forename>Till</tei:forename>
+                  <tei:surname>Grallert</tei:surname>
+               </tei:persName>
+            </tei:respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpulished TEI edition</p>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:lang="ar">
+                        <monogr xml:lang="ar">
+                            <title level="j" xml:lang="ar">الزهور</title>
+                            <title level="j" xml:lang="ar">مجلة أدبية فنية علمية</title>
+                            <title level="j" xml:lang="ar-Latn-x-ijmes">al-Zuhūr</title>
+                            <title level="j" xml:lang="ar-Latn-x-ijmes">Majalla adabiyya fanniyya ʿilmiyya</title>
+                            <idno type="oape">3</idno>
+                            <idno type="jid" xml:lang="ar">40</idno>
+                            <idno type="OCLC">1034545644</idno>
+                            <idno type="URI">http://waqfeya.com/book.php?bid=6507</idno>
+                            <idno type="URI">http://shamela.ws/index.php/book/36534</idno>
+                            <textLang mainLang="ar"/>
+                            <editor xml:lang="ar">
+                                <persName ref="oape:pers:2804 viaf:305214858" xml:lang="ar">
+                                    <forename xml:lang="ar">أنطوان</forename>
+                                    <surname xml:lang="ar">الجميل</surname>
+                                </persName>
+                            </editor>
+                            <imprint xml:lang="ar">
+                                <publisher>
+                                    <orgName xml:lang="ar">مطبعة المعارف</orgName>
+                                    <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</orgName>
+                                </publisher>
+                                <pubPlace>
+                                    <placeName change="#d5e42" ref="oape:place:226 geon:360630" xml:lang="ar">القاهرة</placeName>
+                                    <placeName change="#d5e42"
+                                   ref="oape:place:226 geon:360630"
+                                   xml:lang="ar-Latn-x-ijmes">al-Qāhira</placeName>
+                                    <placeName change="#d5e42" ref="oape:place:226 geon:360630" xml:lang="en">Cairo</placeName>
+                                </pubPlace>
+                                <!-- this is seems to be the first issue -->
+                                <date when="1910-03-01" xml:lang="ar">1 مارس 1910</date>
+                            </imprint>
+                            <biblScope from="1" to="1" unit="volume" xml:lang="ar"/>
+                            <biblScope from="1" to="1" unit="issue" xml:lang="ar"/>
+                        </monogr>
+                    </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
+         <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
+         <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
+         <change when="2019-10-17" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <tei:gi xml:lang="en">tei:head</tei:gi> into <tei:gi xml:lang="en">xml:div</tei:gi>s.</change>
+         <change when="2019-10-17" who="#pers_TG" xml:id="" xml:lang="en">Created this TEI P5 file by automatic conversion from ePub.</change>
+      </revisionDesc>
+   </teiHeader>
+   <tei:text xml:lang="ar">
+      <pb xmlns="http://www.tei-c.org/ns/1.0"
+          n="n1-p417"
+          ed="shamela"
+          corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P428.xhtml"/>
+      <tei:body>
+         <tei:div change="#d2e64" type="item">
+            <head xmlns="http://www.tei-c.org/ns/1.0">العدد 9</head>
+            <tei:p change="#d2e73"> - بتاريخ: 1 - 12 - 1910</tei:p>
+         </tei:div>
+         <tei:div change="#d2e64" type="item">
+            <head xmlns="http://www.tei-c.org/ns/1.0">هنري دونان</head>
+            <tei:p change="#d2e73">مؤسس جمعية الصليب الأحمر</tei:p>
+            <tei:p change="#d2e73">نعت أنباء البرق في الشهر الفائت شيخاً جليلاً ورجلاً عظيماً كادت الأيام تنسج حوله عناكب النسيان، مع أنه جدير بأن يبقى حياً في القلوب والأذهان. وافاه أجله في إحدى قرى سويسرا في شيوخة صالحة بعيداً عن ضوضاء هذه الحياة بعد أن جاهد فيها جهاد الأبطال.</tei:p>
+            <tei:p change="#d2e73">هنري دونان هو اسم رجل تجهله عامة الناس، مع أنه أهل لأن يكتب بماء الذهب في سجل المحسنين إلى الإنسانية. هو اسم رجل كبير النفس والقلب، سامي المرمى رفيع المبدأ. له على أبناء جنسه الأيادي البيضاء، فقد بذل في سبيلهم كل غالي ونفيس ليخفف عنهم وطأة البلاء والشقاء. كيف لا وهو مؤسس جمعية الصليب الأحمر ذات المواقف المعروفة في ساحات القتال ومساعدة المجروح على تضميد جرحه وتعزية نفسه.</tei:p>
+            <tei:p change="#d2e73">ولد هنري دونان سنة 1828 في جنفا من عائلة عرفت بالوجاهة
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p418"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P429.xhtml"/>
+
+
+والثروة، ومال منذ نعومة أظفاره إلى أعمال البر والعطف على الإنسان. وكانت له يد تذكر في مقاومة الرقيق. ولم تلبث قصص الحروب والمرويات عن المعارك وأهوالها أن وجهت منه النظر إلى حالة الجرحى وما يقاسون في ميدان الكفاح. وفي سنة 1859 لما استعرت نار الحرب بين النمساويين والفرنسويين ذهب بنفسه إلى ساحات القتال ليدرس كيفية إمكان مساعدة الجرحى، وحضر معركة سولفرينو التي اشتبكت بين المتقاتلين في الرابع والعشرين من شهر يونيو (حزيران) من تلك السنة. وعند المساء أخذ يطوف ساحة الحرب. فنظر هناك عدداً كبيراً من الجرحى مخضبين بدمائهم يئنون وينوحون ويستغيثون ويستنجدون، ولكن لا مغيث ولا منجد. فأثر هذا المشهد في فؤاده أي تأثير، وخفق قلبه لهول ما رأت عيناه، وقال ما قاله غيره قوتل الإنسان ما أعظم شره. كيف قدم على الفتك بأخيه الإنسان؟ فجمع حوله بعض المتطوعين وباشر للحال مساعدة الجرحى المتروكين.</tei:p>
+            <tei:p change="#d2e73">ومن ذاك الحين أخذ يدرس ويبحث ويطالع، فدخل في أعماق النفس البشرية، فوجد أن الحرب مرض الإنسانية وعلتها الكبرى. فوقف وقفة المداوي الخبير. فرأى أن هذه العلة صعبة الاستئصال، وإن شفاء هذا المرض العضال ضرب من المحال. فقال في نفسه: إذا</tei:p>
+            <tei:p change="#d2e73">كان ليس في الإمكان إيجاد داء لحسم هذا الداء فلنخترع له مسكناً يخفف آلامه.</tei:p>
+            <tei:p change="#d2e73">وآلى على نفسه أن يفرغ جهده ويكرس حياته في سبيل هذا المشروع العظيم، فكتب مقالة عنوانها ذكرى سولفرينو يدعو بها
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p419"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P430.xhtml"/>
+
+
+الشعوب المتمدنة إلى الاتفاق على تأليف جمعية دولية تجمع الإحسان لمساعدة الإنسان المجروح من يد الإنسان. فكان لمقالته تأثير عظيم في النفوس، ووقعت من الجميع موقع الاستحسان. ولكن صداها ما لبث أن خفت، كما أن تأثيرها ما عتم أن زال من القلوب. ففهم دونان أن مثل هذا المشروع يقتضي جداً طويً وسعياً مستمراً، فأخذ يزور العواصم الكبرى، ويخطب في المجالس والأندية حتى وضع أساساً لعمله وقاعدة لمشروعه.</tei:p>
+            <tei:p change="#d2e73">وكان الوقع الأكبر لصوته، والنهضة العظمى وراء دعوته في عاصمة فرنسا حيث لاقى دونان كل مساعدة ومؤازرة. وأول من مد إليه يد المعاونة جريدة الديبا حيث أخذ الكاتب الشهير سان مارك جيراردان ينشر المقالات الشائقة في هذا الموضوع. وحذا حذوه غيره من الكتاب في سائر البلاد، فانتشرت الفكرة انتشاراً بعيداً، ولم يمض إلا القليل حتى تم تأسيس جمعية الصليب الأحمر وأصبحت مطمح أنظار الجميع. فانتظم في سلكها كل عظيم وشريف، منهم: غيزو ورنان وروايه كولار وده لسبس ومدام ستايل وغيرهم. وفي 26 أكتوبر من سنة 1863 اجتمع الأعضاء لأول مرة في مدينة جنفا، وفي السنة التي بعدها عقد في المدينة نفسها مؤتمر عام أرسلت إليه جميع الدول معتمدين يمثلونها لتقرير قانون الجمعية الدولية العامة لمؤاساة جرحى الحروب.</tei:p>
+            <tei:p change="#d2e73">وعلى هذه الكيفية كان تأسيس جمعية الصليب الأحمر التي وقفت نفسها من ذلك الحين على خدمة الجرحى ومساعدتهم على اختلاف
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p420"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P431.xhtml"/>
+
+
+المذاهب والجنسيات، فخففت شيئاً من أهوال الحروب وقللت من بلاياها ونشرت راية السلام فوق نيران المدافع وبريق البواتر.</tei:p>
+            <tei:p change="#d2e73">ولا تسل عن فرح دونان وغبطته عندما رأى مشروعه مكللاً بالنجاح، فعد نفسه سعيداً ورأى أن مهمته قد انتهت فاعتزل العالم وعاش منفرداً في إحدى القرى حتى كاد يصبح نسياً منسياً مع أن اسم جمعيته طبق الآفاق، وذكر مآثرها ملأ الأسماع. فلا يذكرها أحد إلا بالثناء والاحترام. وأمام شارتها المعروفة يسكت المدفع، ويغمد السيف، ويبسط ملاك الرحمة جناحيه على ضحايا البشرية.</tei:p>
+            <tei:p change="#d2e73">ولكن صاحب الفضل ينال ثوابه. ففي سنة 1901 نال هنري دونان الجائزة التي وضعها العالم الأسوجي الفرد نوبل للذين يمتازون بخدمة الإنسانية إن بعلمهم أو كتاباتهم أو مشروعاتهم الخيرية. فكان له فيها مسد لحاجته.</tei:p>
+            <tei:p change="#d2e73">هذا هو الرجل الذي نعاه البرق في الشهر الماضي فلم تدجج القصائد في رثائه، ولم تفض الصحف في تعداد مآثره، مع أنه في طليعة من خدموا الإنسانية جمعاء.</tei:p>
+            <tei:p change="#d2e73">فأكرم بمثل هؤلاء الرجال الذين تجب كتابة أسمائهم على صفحات القلوب إقراراً بفضلهم واعترافاً بجميلهم. ولينم هنري دونان سعيداً في ضريحه فإن قلوب الألوف من الذين تؤاسيهم جمعيته يباركون اسمه ويستمطرون الغيث على ثراه.
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p421"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P432.xhtml"/>
+
+
+            </tei:p>
+         </tei:div>
+         <tei:div change="#d2e64" type="item">
+            <head xmlns="http://www.tei-c.org/ns/1.0">نفثة مصدور</head>
+            <tei:p change="#d2e73">الجهل أبو الشقاء والجهالة أمه</tei:p>
+            <tei:p change="#d2e73">مونتاين الفرنساوي</tei:p>
+            <tei:p change="#d2e73">ما خلوت إلى نفسي أناجيها، إلا وأدعم بالأصابع رأساً أثقله الغم، وألفه الهم،</tei:p>
+            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>ولو كان هم واحد لاحتملته</tei:seg> 
+                  <tei:seg>ولكنه هم وثانٍ وثالث</tei:seg>
+               </tei:l>
+            </lg>
+            <tei:p change="#d2e73">وما قبضت على اليراع إلا وأحنيت على القرطاس ظهر من عجمت عوده الطوائح، فغادرته بين صبية يتضورون جوعاً، وبنيات يقضين فجوعا</tei:p>
+            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>فذا حظي من الدنيا</tei:seg> 
+                  <tei:seg>فدعني لا تزد غما</tei:seg>
+               </tei:l>
+            </lg>
+            <tei:p change="#d2e73">في الغرب قوم إذا ضل أهلوه شرعوهم، وإن ظلمت حكامهم صرموهم، ينهضونه إذا قعد، ويقعدونه إذا نهض، لا خيل عندهم ولا سلاح إلا أقلام مذلقة إذا امتطوا صهواتها ومروا بها على القراطيس كان لها صرير ردد صداه المغربان، وضج لدويه المشرقان، وهي إذا غمزت الدواة، وأصابت منها المداد، حقنت دماء، وهدرت دماء، فهي جامعة الضدين، وموفقة النقيضين، هي الحرب والسلام، والخوف والأمان، واللين والقسوة، والحق والقوة، لا تخاف في الحق لومة لائم، ولا تلبس الحق بالباطل، جالت الجولة إثر الجولة، فرأيناها في كل عصر ودولة، تتمخض لتلد الحرية والاستقلال، وهما التوأمان العزيزان.</tei:p>
+            <tei:p change="#d2e73">أما الآن فقد أينعت أزهارها، ونضجت أثمارها، وغدا ترابها تبراً،
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p422"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P433.xhtml"/>
+
+
+وماؤها نميراً، وأرضها تدر من طيبات الرزق لبناً وعسلاً.</tei:p>
+            <tei:p change="#d2e73">ما هوغو وفولتير، وغوركي وتولستوي، ودانتي وشكسبير، ونيوتن وواشنطون، والميكادو وميلتون، إلا من نوادر القرون، وعجائب البطون، رأوا بلادهم تتراوح بين الإغماء والموات، وتتضاءل تحت أغشية الوهم والتقاليد، فبرزوا إلى ميدان التحرير وأثاروا حرباً عقدت الأقلام عجاجها، وأدارت الأفهام ثقالها، وما هي إلا لحظة حتى أجرت في مرهفات الصوارم رونقاً انعكس وميضه، وأضاء ما حوله، فالتقى السيف بالقلم، والشجاعة بالشمم، وإن هي إلا حملة من حملات الإصلاح حتى نكست أعلام الجهل وعاد أعوانه يتسكعون في ديجور الظلمات، وما دروا أنهم يجعلون أصابعهم في آذانهم من الصواعق حذرا لموت فكان ما كان من ذلك الانقلاب الكبير الذي أجهز على حياة الاستبداديين، نقى الدين والسياسة من غطارفة المستبدين، وغطارسة المستأثرين، بعد أن لاقى الغرب الأمرين، إن</tei:p>
+            <tei:p change="#d2e73">هؤلاء العظماء هم عقل بلادهم، وروحها، وسيفها.</tei:p>
+            <tei:p change="#d2e73">أطلقوها من أسرها، وفكوا عنها قيودها، وعضدوها بعد سقوطها وأحيوها بعد مواتها، وسلكوا بها في مهيع النور والهدى.</tei:p>
+            <tei:p change="#d2e73">ليس المرء بأصغريه فقط، إنما هو بأكبريه أيضاً؛ القلب واللسان، والهمة والحسام. فالأولان يتعززان بالآخرين، ولا غنى للآخرين عن الوين. وما أشد يا شرق ما يتحدث الغرب بفضل رجاله، وما أشد يا غرب ما يغمط الشرق أيادي أدبائه، هؤلاء في شرقهم يشقون، وأولئك في غربهم يسعدون.
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p423"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P434.xhtml"/>
+
+
+أي رباه! قبسة من أضوائك، ونظرة من سمائك، تشمل هذا الشرق فتدرأ عنه سوء الشبهات، وتكفيه شر النكبات، وتصد عنه زلقات فوضى الأقلام، وزلات خفاف الأحلام، أيسام سوء العذاب ويحطه الخسف من أعلى عليين، وهو مهبط الوحي، ومهد الأنبياء؟. . . أيكون مسرح الترهات وملعب الخزعبلات ومنه نشأ العلماء وفيه أول ما تغنى الشعراء؟. . . أين الرشيد والمنصور ينظران ما صارت إليه بغداد وما أنتجته لها مثقلات الليالي. إن الرازي وأبا العلاء يتألمان في مراقدهما عندما يسمعان الرصافي ينوح هتوفاً على نضارة بغداد ويحرق الأرم على مجدها الطارف، وسؤددها التالد، ولاسيما حينما يقول:</tei:p>
+            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>أيا سائلاً عنا ببغداد إننا</tei:seg> 
+                  <tei:seg>بهائم في بغداد أعوزها النبت</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>علت أمة الغرب السماء وأشرفت</tei:seg> 
+                  <tei:seg>علينا فظلنا ننظر القوم من تحت</tei:seg>
+               </tei:l>
+            </lg>
+            <tei:p change="#d2e73">ما عهدنا القوم والله يبيتون على الطوى، ويغمضون على الجوى، وهم أباة الضيم القائلون النار ولا العار، والحتف ولا الإقامة على الخسف، والحرة تجوع ولا تأكل بثدييها.</tei:p>
+            <tei:p change="#d2e73">أيخف أبناء الشرق اليوم إلى شرب الكأس التي شرب بها عظماء أجدادهم، فيعيدون إليه سابق اخضلاله في عهد الحضارة الأندلسية ويحيون رسماً لم يعف دارسه من قنطرة الوادي، ومكتبة الإسكندرية!. . .</tei:p>
+            <tei:p change="#d2e73">نحن يا قوم أحوج إلى النهضات منا إلى التفنن في أساليب التفرق والشتات، فانهضوا نهوض الغرب، وقفوا في الربوع وقفة خبير بمواقع الخلل، وتعاونوا ولا تفرقوا فكم من فئة قليلة غلبت فئة كثيرة. . .
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p424"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P435.xhtml"/>
+
+
+في البلاد العربية نهضة شريفة ستكون مقدمة من مقدمات الإصلاح في الشرق، وخطوة</tei:p>
+            <tei:p change="#d2e73">واسعة في ميدان الارتقاء، بل هي إحدى طوالع الحركة الفكرية. وسوف تلعب دوراً يخلد لها حسن الذكر على صفحات الإنسانية البيضاء. ولكن لم يشترك في هذه النهضة إلا أفراد قليلون وهناك الكثيرون ذهب الجهل الذميم بعقولهم، وختم على قلوبهم، وأضلهم عن النهج السوي، وما هم إلا ليعيثوا فساداً والذين ينقضون عهد الله من بعد ميثاقه ويقطعون ما أمر الله به أن يوصل ويفسدون في الأرض أولئك هم الخاسرون.</tei:p>
+            <tei:p change="#d2e73">. . . كأني برحالة الفرنجة إذا أم بلادنا، ورأى الخمول نافضاً غباره على أحيائنا، يقول متمثلاً بحليم مصر وهو ذاهب إلى السودان ليشغل إحدى وظائف الجيش فيه:</tei:p>
+            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>تيممت أرضا تدب الجهالة</tei:seg> 
+                  <tei:seg>فيها دبيب الصبا في الروابي</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>إذا حدّث القوم فيها أديب</tei:seg> 
+                  <tei:seg>يخالونه أعجمي الخطاب</tei:seg>
+               </tei:l>
+            </lg>
+            <tei:p change="#d2e73">أي عاقل لا يسمع هذه المجازفة - وهي الحقيقة - ولا يرثي لحالة قطر يضيق بأهليه، وينفّر زائريه؟</tei:p>
+            <tei:p change="#d2e73">* * *</tei:p>
+            <tei:p change="#d2e73">قيل للفيلسوف: ممن تعلمت الأدب؟ قال من قليل الأدب، وهو قول مأثور سبقنا إلى إدراكه الغرب يوم كبا فرسنا في ميدان السعي والعهد ليس ببعيد، فما أحرانا باليقظة اليوم، بعد عميق رقودنا، فنمحو إهانة لحقت بنا، ووصمة وسمنا بها، ولا غضاضة علينا إذا اعترفنا بقول
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p425"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P436.xhtml"/>
+
+
+الفيلسوف، فإن من لم تعظه نفسه كلت فيه المواعظ.</tei:p>
+            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>والنفس لا ترجع عن غيها</tei:seg> 
+                  <tei:seg>ما لم يكن منها لها زاجر</tei:seg>
+               </tei:l>
+            </lg>
+            <tei:p change="#d2e73">. . . نساء القرن العشرين في الغرب يتمتعن بحقوق لم يخولها القرن العشرون لرجال الشرق. قال نابليون: إذا أردت أن تعرف رقي كل أمة فانظر إلى نسائها. فماذا عسى أن يبلغ هذا القلم من وصف حالة النساء في الشرق وقد:</tei:p>
+            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>حجبناهن عن طلب المعالي</tei:seg> 
+                  <tei:seg>فعشن بجهلهن مهتّكات</tei:seg>
+               </tei:l>
+            </lg>
+            <tei:p change="#d2e73">فيا شرقيون كفانا ما فات، وحسبنا ما تمضنا هذه النكبات، فكأين من أوانس كاتبات، وغيد شاعرات، وخود ممرضات، وأديبات مبرزات، نشأن منكن يا شرقيات!. . .</tei:p>
+            <tei:p change="#d2e73">* * *</tei:p>
+            <tei:p change="#d2e73">هذا يم خاضت فيه من قبل أقلام وسبحت عقول، وما أنا بالجاني علي نفسي بالخوض في</tei:p>
+            <tei:p change="#d2e73">خضمه، والإحاطة بأطرافه، والأمر ظاهر للعيان غني عن البيان، فانحطاط الشرق لانحطاط بناته، وجمود فتاته، وعلى تهذيبها يتوقف ارتقاؤه، فهي داؤه ودواؤه.</tei:p>
+            <tei:p change="#d2e73">وتلك نفثة مصدور لو لم يضق الخناق، وتبلغ الروح التراق لكسرت القلم قبل أن أبوح بها، والسلام.</tei:p>
+            <tei:p change="#d2e73">- بيت جالا، إسكندر الخوري
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p426"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P437.xhtml"/>
+
+
+            </tei:p>
+         </tei:div>
+         <tei:div change="#d2e64" type="item">
+            <head xmlns="http://www.tei-c.org/ns/1.0">العمال في الهيئة الاجتماعية</head>
+            <tei:p change="#d2e73">كتبنا في صدر الجزء التاسع الماضي مقالة عن العمال والحكومات بمناسبة الاعتصابات التي توالت في أوروبا وسرت عدواها إلى مصر، وقد ألقى السر إدوارد غراي ناظر خارجية إنكلترا خطاباً في تأبين أحد أصحاب المصانع الكبرى بحث فيه عن مركز العمال في الهيئة الاجتماعية نقتطف منه ما يلي إتماماً للفائدة:</tei:p>
+            <tei:p change="#d2e73">إن الاستياء البادية دلائله بين طبقات العمال، والذي يظهر حيناً بمظاهر الاعتصاب، وحيناً بالتذمر من النقابات وزعمائها، لا يرجع كما يتوهم البعض إلى تحرّج مركز العمال، أو سوء مصيرهم، فإن حالتهم وإن كانت لا تزال موضوعاً للتحسين، فإنها أرقى بكثير مما كانت عليه منذ خمسين سنة. وعليه فإن سبب هذا الاستياء الشرود في عالم الأحلام والآمال والمطامع التي لم يكن يحلم بها عمال الزمان الماضي.</tei:p>
+            <tei:p change="#d2e73">فإنه كان من المحتم أن ينتج عن مبدأ المساواة السياسية التي سلمنا بها، مبدأ المساواة الاقتصادية. زادت رواتب العمال وتحسنت طرق تشغيلهم ولكنهم باتوا يتساءلون إذا كانت تلك الزيادة وهذا التحسن بنسبة نقص نفقات الصناعة الحديثة. ثم إن الطبقة العاملة باتت في قلق دائم من حيث استمرار العمل، لأن وقوف الأشغال مدة من السنة أصبح قاعدة مطردة في كل البلدان.</tei:p>
+            <tei:p change="#d2e73">وقد ولد نشر التعليم بين الشعب عاطفة نفور في صدور فتيان العمال من حياة العامل وما فيها من شظف العيش والعناء الجزيل والنصب الدائم وهذه الأمور تدلك على أسبابا لتذمر والاستياء بين العمال بالرغم عن
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p427"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P438.xhtml"/>
+
+
+تحسن مركزهم في الهيئة الاجتماعية. وإن جماعة هذه عواطفهم واستعداداتهم يكونون في كل حين على أهبة التمرد، بسبب أو بلا سبب، تارة على رؤسائهم أصحاب العمل، وتارة على زعمائهم أنفسهم.</tei:p>
+            <tei:p change="#d2e73">وعليه فيجب أن نحذر من إضعاف النقابات. وإذا تركنا الفوضى تتشرب إليها، فإننا نكون رفعنا راية اليأس وسرنا وراءها، لأن كل جماعة لا قائد لها لا يسعها إلا التخريب والتدمير.</tei:p>
+            <tei:p change="#d2e73">فنحن نريد أن نرى نقابات العمال أقوى مما هي، لا أن نراها ضعيفة مضطربة كما يرغب البعض في ذلك. لأن قوتها أصبحت اليوم أكثر لزوماً من كل حين. وهي التي تجعل موازنة في المجتمع الإنساني، إذ تقف أمام قوة رأس المال التي باتت أكثر مقدرة وأقل</tei:p>
+            <tei:p change="#d2e73">شفقة من الماضي.</tei:p>
+            <tei:p change="#d2e73">وقد اتسعت الهوة الفاصلة بين مساهم الشركة الذي ينتظر بفروغ صبر توزيع حصص الأرباح، وبين العالم الذي يشتغل في هذه الشركة، فإن الاثنين يعيشان متباعدين وليس ما يقربهما. وهذا التباعد مضر بالطرفين. فيجب أن تعود العواطف الإنسانية صلة بين كليهما. فلا الدستور السياسي يحرر الشعب، ولا الامتيازات تساعده، ولا الأملاك تغنيه، إذا لم ترسخ في قلبه أخلاق الرجولة والثبات والاستقامة.</tei:p>
+            <tei:p change="#d2e73">فلنسع إذن كلنا أغنياؤنا وفقراؤنا، أفرادنا وجماعاتنا لننشئ هيئة صناعية كبرى يمكننا أن نطالبها كلنا بحقوقنا ولكن نقوم أيضاً كلنا بواجباتنا نحوها. فتكون جمعية لا يعد العامل فيها حيواناً مأجوراً حتى ولا يداً عاملة بل عقلاً مفكراً وقلباً شاعراً.</tei:p>
+            <tei:p change="#d2e73">- إدوار غراي
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p428"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P439.xhtml"/>
+
+
+            </tei:p>
+         </tei:div>
+         <tei:div change="#d2e64" type="item">
+            <head xmlns="http://www.tei-c.org/ns/1.0">في رياض الشعر</head>
+            <tei:p change="#d2e73">نفس مكرمة ونفس تُزدرى</tei:p>
+            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>غيرت عهدك في الهوى فتغيرا</tei:seg> 
+                  <tei:seg>ملك الهوى قلبي وقلبك ما درى</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>كوني كما أنا في الغرام وفية</tei:seg> 
+                  <tei:seg>لا تهجريني ما خلقت لأهجرا</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>أصبحت فيك من الولوع بغاية</tei:seg> 
+                  <tei:seg>إن زدت حسناً لا أزيد تحيرا</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>بلغ المدى بي كل شيء في الهوى</tei:seg> 
+                  <tei:seg>فإذا أردت زيادةً لن تقدرا</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>يسمو بك الحسن المدل إلى السما</tei:seg> 
+                  <tei:seg>ويمت بي الجد المذل إلى الثرى</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>ماذا التخالف في المحبة بيننا</tei:seg> 
+                  <tei:seg>نفس مكرمة ونفس تزدرى</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>ينفك عمري في الهوى متقدماً</tei:seg> 
+                  <tei:seg>ويظل سبقي في الهوى متأخرا</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>وأكاد أحسب في غرامك شقوتي</tei:seg> 
+                  <tei:seg>لو كان يسعد عاشق بين الورى</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>عندي حديث إ أردت ذكرته</tei:seg> 
+                  <tei:seg>من لي بأن تصغي إلي وأذكرا</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>عصفت به ريح الملامة موهناً</tei:seg> 
+                  <tei:seg>فجرى على وجه العذول وغيرا</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>لا تنكري نظرات عيني خلسة</tei:seg> 
+                  <tei:seg>الله قد خلق العيون لتنظرا</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>وقفت عليك فما انثنت عن منظر</tei:seg> 
+                  <tei:seg>فتنت به إلا لتطلب منظرا</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>أرسلت طيفك في المنام يزورني</tei:seg> 
+                  <tei:seg>فدنا وولى وهو يعثر بالكرى</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>لم يبق من أثر سوى تبسامة</tei:seg> 
+                  <tei:seg>خطرت على نفس الهوى فتأثرا</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>أتبعته أملي فأقصر دونه</tei:seg> 
+                  <tei:seg>ولو استمد بلفتة ما أقصرا</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>لا يعذلوني في غرامك ضلة</tei:seg> 
+                  <tei:seg>من هام فيك فحقه أن يعذرا</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>رقت حواشي الروع فيك صبابة</tei:seg> 
+                  <tei:seg>ونهى النهى عنك الفؤاد فأعذرا</tei:seg>
+               </tei:l>
+            </lg>
+            <pb xmlns="http://www.tei-c.org/ns/1.0"
+                n="n1-p429"
+                ed="shamela"
+                corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P440.xhtml"/>
+            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>قلبي يحس وهذه عيني ترى</tei:seg> 
+                  <tei:seg>ما حيلتي فيما يحس وما يرى</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>إن تصبري عني فقلبك هكذا</tei:seg> 
+                  <tei:seg>أما أنا فأخاف أن لا أصبرا</tei:seg>
+               </tei:l>
+            </lg>
+            <tei:p change="#d2e73">ولي الدين يكن</tei:p>
+            <tei:p change="#d2e73">الحنين إلى مصر</tei:p>
+            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>لخير بلادي لا لنفسي اكتب</tei:seg> 
+                  <tei:seg>وفي الله لا في المال والجاه أرغب</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>ولست مبيحاً للدنايا طويتي</tei:seg> 
+                  <tei:seg>فلا ينثني عزمي ولا أتقلب</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>أحب بلادي والعدا يعذلونني</tei:seg> 
+                  <tei:seg>وكل محب بالعواذل متعب</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>بلاد يروق الخلد خضر مروجها</tei:seg> 
+                  <tei:seg>وترنو لها حور الجنان وتعجب</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>ويحسد نهر الكوثر العذب نيلها</tei:seg> 
+                  <tei:seg>وقد راح في أعطافها يتصبب</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>وما فارقتها النفس كارهة لها</tei:seg> 
+                  <tei:seg>بلى كل شيء في بلادي محبب</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>فها أنا للسودان من مصر عائد</tei:seg> 
+                  <tei:seg>وروحي لمصر من دمي تتسرب</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>فيا عجباً للنيل يجري بجانبي</tei:seg> 
+                  <tei:seg>ونفسي على أيامه تتلهب</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>فيا نيل بلغها سلامي وقل لها</tei:seg> 
+                  <tei:seg>على العهد ذاك النازح المتغيب</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>فلو أن ماء النيل مازج أدمعي</tei:seg> 
+                  <tei:seg>لما كان يحلو في الشفاه ويعذب</tei:seg>
+               </tei:l>
+            </lg>
+            <tei:p change="#d2e73">* * *</tei:p>
+            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>فكم مجلس لي بالجزيرة شائق</tei:seg> 
+                  <tei:seg>هو الخلد أو خلد على الأرض يطلب</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>تظلله الأدواح والطير فوقها</tei:seg> 
+                  <tei:seg>تبوح بأسرار الغرام وتعرب</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>تحف به الأزهار من كل جانب</tei:seg> 
+                  <tei:seg>وألوانها تملي علي وأكتب</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>فأخضر فينان وأبيض ناصع</tei:seg> 
+                  <tei:seg>وأحمر مرجان وأصفر مذهب</tei:seg>
+               </tei:l>
+            </lg>
+            <pb xmlns="http://www.tei-c.org/ns/1.0"
+                n="n1-p430"
+                ed="shamela"
+                corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P441.xhtml"/>
+            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>إذا الريح هبت عطر الأفق نشرها</tei:seg> 
+                  <tei:seg>وأنوارها أوحت إلى الشمس تغرب</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>إذا الأرض طرف دمعه النيل جارياً</tei:seg> 
+                  <tei:seg>على أنه بالعشب طرف مهدب</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>وللروح معنى في النسيم مخبأ</tei:seg> 
+                  <tei:seg>إذا مس ميتاً قام يسعى ويدأب</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>مقاعد ترتد العيون حسيرة</tei:seg> 
+                  <tei:seg>لديها ويسبى الرشد فيها ويسلب</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>ويوم لدى الأهرام قصرت ظله</tei:seg> 
+                  <tei:seg>يرئم له ملهى بقلبي وملعب</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>تكاد حمياً لفظه ودلاله</tei:seg> 
+                  <tei:seg>لرقته بالأذن والعين تشرب</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>لدى عجب من صنعة الجن شاهق</tei:seg> 
+                  <tei:seg>تتبعه ألحا عيني فتتعب</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>معاهد فرعون وآثاره التي</tei:seg> 
+                  <tei:seg>تروق على مر الزمان وتعجب</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>فيا قوم للأوطان زاد تشوقي</tei:seg> 
+                  <tei:seg>فجفني قريح والفؤاد معذب</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>فلولا هواها ما حملت بعادها</tei:seg> 
+                  <tei:seg>فما كنت لولا حبها أتغرب</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>أذود العدا عنها وأقتحم الردى</tei:seg> 
+                  <tei:seg>واطفوا على موج المنايا وأرسب</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>إذا ذكرتها النفس في الروع أقدمت</tei:seg> 
+                  <tei:seg>على الموت لا تخشى ولا تتهيب</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>فيا ليت شعري والزمان معاند</tei:seg> 
+                  <tei:seg>هل الدهر يصفو أم هل الدهر يعتب</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>وهل ركب مصر للحياة طريقه</tei:seg> 
+                  <tei:seg>فيشدى له أم للمنايا فيندب</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>فيا مصر للعلياء والمجد أقدمي</tei:seg> 
+                  <tei:seg>وما المجد إلا قوة وتغلب</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>ويا مصر للعرفان والعلم شمري</tei:seg> 
+                  <tei:seg>فهذا دواء للبلاد مجرب</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>وإن نحن أرضينا الإله أعاننا</tei:seg> 
+                  <tei:seg>وإن نحن أغضبناه يا قوم يغضب</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>وكل بناء في يد الله ركنه</tei:seg> 
+                  <tei:seg>فليس له في العالمين مخرب</tei:seg>
+               </tei:l>
+            </lg>
+            <tei:p change="#d2e73">محمد توفيق علي ضابط بالجيش المصري
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p431"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P442.xhtml"/>
+
+
+يوم الفراق</tei:p>
+            <tei:p change="#d2e73">(مطلع قصيدة لسعاد صاحب الإمضاء)</tei:p>
+            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>هل عند ذاك السرب أنا بعده</tei:seg> 
+                  <tei:seg>في الحي من آماقنا نتدفق</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>أو أن أضلعنا على ما استودعت</tei:seg> 
+                  <tei:seg>يوم الفراق من الجوى تتحرق</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>أمنازل الأقمار أهلك أسرفوا</tei:seg> 
+                  <tei:seg>في النأي إسراف الغني وأغرقوا</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>لو أنهم قد أنصفوك منازلاً</tei:seg> 
+                  <tei:seg>ما راقهم في الكون بعدك مشرق</tei:seg>
+               </tei:l>
+            </lg>
+            <tei:p change="#d2e73">(مصر) إسماعيل صبري</tei:p>
+            <tei:p change="#d2e73">الرجاء واليأس</tei:p>
+            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>رجونا وكان اليأس لولاك راحة</tei:seg> 
+                  <tei:seg>فرد لنا بالله ما أنت سالبه</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>فأنت امرؤ أطمعتنا وحملتنا</tei:seg> 
+                  <tei:seg>على مركب لا يهدأ الدهر راكبه</tei:seg>
+               </tei:l>
+            </lg>
+            <tei:p change="#d2e73">حافظ إبراهيم</tei:p>
+            <tei:p change="#d2e73">المشد</tei:p>
+            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>سألت فتاةً لم أرى منك معطفاً</tei:seg> 
+                  <tei:seg>يحيط به هذا المشد ويكنف</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>فقالت أرى غصن القوام مكلفاً</tei:seg> 
+                  <tei:seg>بحمل ثقيل منه قد كاد يقصف</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>فمنطقت خصري بالمشد كما ترى</tei:seg> 
+                  <tei:seg>ليحمل جور النهد قدي المهفهف</tei:seg>
+               </tei:l>
+            </lg>
+            <tei:p change="#d2e73">(مصر) فيليب مخلوف
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p432"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P443.xhtml"/>
+
+
+            </tei:p>
+         </tei:div>
+         <tei:div change="#d2e64" type="item">
+            <head xmlns="http://www.tei-c.org/ns/1.0">في جنائن الغرب</head>
+            <tei:p change="#d2e73">اتجهت الأفكار في الشهر الماضي إلى تولستوي فيلسوف الروس الأكبر وهربه إلى الدير ليجتاز في العزلة التامة المرحلة الأخيرة من حياته التي قضاها في البحث عن الحقيقة. فرأينا أن نخصص هذا الباب بشيء من حياته ومبادئه الفلسفية.</tei:p>
+            <tei:p change="#d2e73">في 9 سبتمبر الماضي أنجز تولستوي السنة الثانية والثمانين من عمره. وكان في سنة 1862 قد تزوج بابنة الدكتور برس صوفيا أندرفنا فوجد فيها أكبر تعزية في حياته وأحسن مساعد في أعماله فكانت تعاونه في جميع مذكراته وترتيبها وتنسخ مسودات تآليفه. وفي المدة الأخيرة كان يملي عليها أفكاره فتدونها. وقد رزق منها ثلاثة عشر ولداً منهم الآن تسعة أحياء. وقد رباهم على مبادئ روسو وتضلعوا كلهم في العلوم واللغات.</tei:p>
+            <tei:p change="#d2e73">والذي زاد في شهرة هذا الرجل الكبير تطبيق أعماله على أقواله فقد زهد في هذه الدنيا وتنازل عن جميع ممتلكاته مكتفياً ببقعة أرض يستثمرها بنفسه. وكان يرى أن إصلاح العالم لا يتم إلا بالعمل فكان يخيط ثيابه وحذاءه ويقضي أيامه في الإرشاد ومساعد المعوزين وقد أنشأ في مزرعته ياسنيا بوليانا مدرسة كان يعلم فيها كل يوم بضع ساعات. وله حوادث وحكايات شهيرة تتناقلها الصحف وكلها تدل على شرف عواطفه وأمياله وسمو حكمته وفلسفته. وقد اكتسب احترام الجميع ونال أرفع منزلة بين المفكرين المصلحين في حياته ومماته. ولبست روسيا جمعاء عليه ثوب الحداد. وأخذ الناس يحجون إلى قبره.</tei:p>
+            <tei:p change="#d2e73">أما تآليفه فأشهرها الحرب والسلم وحنة كرنين والبعث إلخ. وقد نقلت إلى كل لغات أوروبا وعرب منها الشيء الكثير حضرة الفاضل سليم أفندي قبعين. ونحن نقتطف من تعريبه نتفاً تطلع القارئ على مبادئ الفيلسوف الروسي:
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p433"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P444.xhtml"/>
+
+
+مبادئ تولستوي</tei:p>
+            <tei:p change="#d2e73">تنحصر مبادئ تولستوي الدينية والاجتماعية في الوصايا الخمس الآتية:</tei:p>
+            <tei:p change="#d2e73">أولاً - أحب الله من كل نفسك وأحب قريبك كذلك. لا تهن أحداً، واجتهد بان لا تحرض أحداً على فعل الشر، لأن الشر يتولد من الشر.</tei:p>
+            <tei:p change="#d2e73">ثانياً - لا تغازل النساء، ولا تهجر المرأة التي اتحدت بها، لأن هجر النساء وتغييرهن يحدثان الفساد في العالم.</tei:p>
+            <tei:p change="#d2e73">ثالثاً - لا تحلف بشيء ولا تعد بشيء، لأن الإنسان بكليته تحت سلطة الله، والناس لا يجنحون إلى الأقسام إلا مدفوعين إليها بالأعمال والنيات الشريرة.</tei:p>
+            <tei:p change="#d2e73">رابعاً - لا تقاوم الشر بالشر، واحتمل الإهانة واعمل أكثر مما يطلب منك الناس. لا تحاكم أحداً ولا تدفع نفسك للمحاكمة. والإنسان إذا مال إلى الانتقام فإنه ليعلم الناس أن يحذوا حذوه وينسجوا على منواله.</tei:p>
+            <tei:p change="#d2e73">خامساً - لا تفرق بين موانيك والغرباء، لأن جميع الناس من مصدر واحد.</tei:p>
+            <tei:p change="#d2e73">وقد شحن الكونت تولستوي مؤلفاته بالنصائح والحكم الفلسفية وكلها على منتهى السذاجة، وله الفضل على سائر الفلاسفة - كما قدمنا - بأنه يعمل بما يعلم وإليك شيئاً من أقواله:</tei:p>
+            <tei:p change="#d2e73">لا تعم المساواة في العالم، ولا ينقطع الحسد من بين الناس، ولا
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p434"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P445.xhtml"/>
+
+
+تزول المنافسة وتفقد البغضاء، إلا إذا سعى كل بنفسه لتحصيل ما يقوم باوده. فيجب على كل واحد أن يقبل على الشغل وإعداد جميع لوازمه المعيشية بنفسه، دون أن يعتمد فيها على غيره. فإننا لو نظرنا إلى المصائب العديدة التي تحدث بين الناس، لوجدنا أن أصلحا الحاجة، ومصدرها الفاقة. وأما الشرور والآثام والفجور والفساد فإن مصدرها البطالة والراحة المتناهية وإملاء البطون بالمآكل التي تقود الإنسان إلى الشهوات وارتكاب الموبقات.</tei:p>
+            <tei:p change="#d2e73">إن أقدس واجب على الإنسان تفرضه عليه الإنسانية الحقيقية هو سعيه إلى إزالة عدم المساواة الموجودة بين الناس، وبإزالتها تزول المصائب والويلات وتتلاشى الشرور والشهوات، وأن آمن طريق يوصله إلى ذلك هو العمل.</tei:p>
+            <tei:p change="#d2e73">قال تولستوي مخاطباً ابن المدن المتنعم في رخاء العيش المتناهي في بذخ الحياة: قم واخرج من خدرك وطف في المدينة، وقف إلى جانب أولئك الذين يطعمون الجياع ويكسون العراة، ولا تخف. وانتظم في سلكهم وسر معهم كتفاً إلى كتف، واعمل بيديك الرخيصتين الضعيفتين أول عمل تصادفه. ولا تأنف من فقير بائس، بل أرفق به وألبسه وأطعمه، ثم اشتغل في الزراعة والأعمال الأخرى، فلا شد في أنك ترى نفسك أسعد حالاً مما كنت عليه، وتجد انقلاباً في عواطفك يساعدك على السير في طريق العمل والطهارة.
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p435"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P446.xhtml"/>
+
+
+            </tei:p>
+         </tei:div>
+         <tei:div change="#d2e64" type="item">
+            <head xmlns="http://www.tei-c.org/ns/1.0">المرأة العصرية</head>
+            <tei:p change="#d2e73">. . . منشئ الزهور</tei:p>
+            <tei:p change="#d2e73">. . . . قرأت المقالة التي دبجتها حضرة الآنسة هدى كيورك ص 330 من زهوركم. فرأيتها قد أصابت في معظم أقوالها كبد الحقيقة ولكنها أصابت في كل سطر من سطورها أخواتها وبنات جنسها بسهام حادة. أجادت في وصف السيدة أو الفتاة التي تقتل الوقت بالزينة والتفنن بالأزياء وأهملت ذكر الفتيات الكثيرات اللواتي يعملن بكل جد ونشاط للتحلي بحلى الفضائل. وليس هنا مقام إيراد ذكر من نبغ من بنات جنسنا بالرغم عما يحدق بنا من المصاعب والتقاليد المقيدة لنا. بل أقول لمن يرموننا بكل فرية: كم امرأة منا تضحي صحتها وتحرم نفسها من كل ملاهي هذه الحياة لتسهر على بيتها وتدبر منزلها وتهذب أولادها وتبالغ في إرضاء زوجها. بل كم من فتاة تحيي ليلها بعد نهارها للعمل على سد عوز ذويها وإعانة أبويها الشيخين. وإذا هي تمكنت فوق ذلك من اتباع المودة فلمهارتها وتفننها. وما أدرى الناس بمهارة يدي المرأة؟ فهي تلبس ثوبها وتغالي في النظافة عليه، ولا تلبث أن تغير زيه ومودته حسب الدارج حولها، وتتفنن بذوقها المعروف بزركشته وتخريجه حتى يخالها الناظر جديداً في كل الفصول. وما قلته عن الثوب أقوله عن أثاث البيت. وليست هذه الفتاة التي وصفتها بالشيء النادر أو القليل الوجود. فكم في البيوت المتوسطة من هذه النساء.</tei:p>
+            <tei:p change="#d2e73">أما اتهامنا بالنزوع عن تقاليدنا الشرقية ولغتنا العربية إلى التقاليد
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p436"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P447.xhtml"/>
+
+
+الغربية واللغات الإفرنجية، فالذنب في ذلك على الرجال كما هو علينا. نظرة بسيطة إلى الصالونات والمجتمعات تؤيد قولي هذا. فلابسة البرنيطة، الناطقة بلغة أبناء السين أو التاميز. المقلدة للغربية في مشيتها وحركاتها هذه هي المكرمة، أما سواها فأمرها معلوم. ولما كانت المرأة - كالرجل - تحب أن تكرم، أصبح لها بعض العذر على ظهورها بهذه المظاهر.</tei:p>
+            <tei:p change="#d2e73">أما ما ذكرته حضرة الكاتبة الأديبة عن وجوب اقتدائنا بالرجال من حيث الترقي والتقدم. فأقول - ولا أخشى أن أجرح أبناء الجنس القوي، فلكم حملوا علينا الحملات الشديدة - أن نهضتهم في ربوعنا الشرقية هي بنت أمسها. فليمهلونا قدر ما أمهلتهم الأيام فيروا منا رقياً لا ينقص عن رقيهم. وإذا هم لقبوا أنفسهم بالجنس النشيط، إلا يجب عليهم أن يقطعوا مئات الخطوات قبل أن نقطع العشرات نحن بنات الجنس الضعيف؟ فضلاً عما أثقلتنا به</tei:p>
+            <tei:p change="#d2e73">الاصطلاحات من العادات القديمة التي تكاد تسد سبل التقدم في وجهنا. فعلى الرجال إذا كانوا يرغبون حقيقة في إصلاحنا أن يمدوا لنا يد المساعدة لنرافقهم في طريق الفلاح ولا نكون عبثاً ثقيلاً يؤخرهم في مسيرهم. وإلا فلا تتعبن هدى نفسها بالنصح فإننا كما قال الشاعر رحمه الله:</tei:p>
+            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>نحن صم عن الملام وعمي</tei:seg> 
+                  <tei:seg>عن سبيل الهدى فلا ترشدونا</tei:seg>
+               </tei:l>
+            </lg>
+            <tei:p change="#d2e73">وعلى كل فأنا أبسط يدي من وراء البحار لمصافحة حضرة الآنسة التي فتحت هذه الباب على صفحات هذه المجلة عسى أن نستخرج من الزهور الدواء الشافي لأمراضنا الاجتماعية.</tei:p>
+            <tei:p change="#d2e73">بيروت ادماكيرلس
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p437"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P448.xhtml"/>
+
+
+في 14 من الشهر الماضي افتتح مجلس المبعوثان العثماني فصل جلساته الثالث، فرأينا أن نذكر شيئاً عن أحد المبعوثين عن ولاية سورية في المجلس الأول الذي التأم سنة 1878. وهو المرحوم نقولا نقاش زميل المرحوم خليل غانم، وسليل أسرة نقاش التي خدمت الآداب العربية أجل الخدم. فإن في ذكر أعمال السف تنشيطاً للخلف:
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p438"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P449.xhtml"/>
+
+
+هو نقولا بن إلياس بن ميخائيل نقاش ولد في بيروت في أوائل سنة 1825. ولما بلغ الرابعة من عمره انكب على تعلم مبادئ اللغتين العربية والسريانية حتى أتقنهما قراءة وخطاً مع العلوم الحسابية. ثم درس اللغة الإيطالية حتى أصبح ينشئ بها كأربابها. وتخرج بعد ذلك على شقيقه المرحوم مارون نقاش الشهير وأخذ عنه مبادئ اللغة التركية وخلفه في باشكتابة بيروت وملحقاتها. وظل في هذه الوظيفة بضع سنوات كان أثناءها يزاول العربية والتركية حتى برع فيهما فنظم القصائد الرنانة وكتب المقالات الشائقة.</tei:p>
+            <tei:p change="#d2e73">وفي غضون ذلك أنشأ شقيقه مارون الملاعب العربية بتأليف أول روايات تمثيلية ظهرت في لغتنا وجاراه نقولا الشاب في هذا الفن فوضع روايات كثيرة أودعها الحكم والفوائد (وسنعود إلى كل ذلك في أعداد الزهور الآتية).</tei:p>
+            <tei:p change="#d2e73">ثم تقلب في مناصب شتى لا محل لتفصيلها الآن فأظهر في جميعها من الاستقامة والبراعة ما أكسبه ثقة العموم كما أظهر ذلك في أعمال التجارة التي تعاطاها حتى كانت سنة 1878 فانتخبه مواطنوه لينوب عنهم في مجلس المبعوثان الأول فقام بواجب النيابة حق القيام. إلى</tei:p>
+            <tei:p change="#d2e73">أن فض هذا المجلس على ما هو معلوم فعاد إلى مقسط رأسه وعين عضواً دائماً في محكمة التجارة ولم يلبث أن استقال منها وكان قد أحرز شهادة الحقوق من الطبقة الأولى وفتح مكتباً للمحاماة ظل يشتغل فيه حتى انطفأ نور حياته في 4 ديسمبر سنة 1894 وهو في السبعين من عمره.
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p439"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P450.xhtml"/>
+
+
+ولا يزال من أولاده حضرة النطاسي البارع الدكتور أنطون نقاش وعزتلو القانوني الشهير جان بك نقاش الذي استأنف الاشتغال بالمحاماة بمكتب والده، وحضرات الأفاضل الأفندية بطرس وأيوب ونقولا.</tei:p>
+            <tei:p change="#d2e73">وقد ترك آثاراً أدبية وعلمية جليلة منها روايات وأشهرها الشيخ الجاهل، وربيعة، والوصي. وديوان شعر منسجم بليغ. وقد ترجم كتباً قانونية كثيرة وعلق شرحها وملاحظاته عليها منها قانون الأراضي، وقانون الجزاء، وقانون المحاكمات الحقوقية، وقانون التجارة وذيله، وقانون الأبنية، وقانون تشكيل المحاكم إلخ. وله مقالات وخطب شائقة نشر معظمها في جريدة المصباح التي أنشأها سنة 1889 فكانت في مقدمة الصحف العربية.</tei:p>
+            <tei:p change="#d2e73">وقد نال الرتبة الثانية والوسام المجيدي الثالث من الدولة العثمانية ووسام سان غرعوار من طبقة شفاليه. وفي سنة 1869 زار سورية سمو الغرندوق فردريك (الذي صار فيما بعد إمبراطوراً لألمانيا وهو ولد الإمبراطور غليوم الحالي) فامتدحه صاحب الترجمة بقصيدة عصماء فأهدى إليه دبوساً ثميناً مرصعاً بحجر كريم. وأهدى إليه سمو الغرندوق نقولا شقيق قصير روسيا خاتماً جميلاً في مثل هذه المناسبة.</tei:p>
+            <tei:p change="#d2e73">هذه هي بعض مآثر ذلك النائب الكريم أحببنا أن نوردها اليوم بمناسبة التئام مجلس المبعوثان، قياماً بواجب الذكر نحو الذين خدموا البلاد والعلم والأدب بأمانة وإخلاص.
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p440"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P451.xhtml"/>
+
+
+            </tei:p>
+         </tei:div>
+         <tei:div change="#d2e64" type="item">
+            <head xmlns="http://www.tei-c.org/ns/1.0">في حدائق العرب</head>
+            <tei:p change="#d2e73">الوفاء والحب</tei:p>
+            <tei:p change="#d2e73">جلس معاوية بن أبي سفيان يوماً في مجلس له بدمشق وكان الموضع مفتح الجوانب الأربعة، وكان اليوم شديد الحر لا نسيم فيه. فإذا برجل يمشي وهو يتلظى من حر التراب، ويحجل في مشيته حافياً. فتأمله معاوية وقال لجلسائه: هل خلق الله سبحانه وتعالى أشقى ممن يحتاج إلى الحركة في هذا الوقت؟ - فقال بعضهم: لعله يقصد أمير المؤمنين - فقال والله لئن كان قاصدي لأجل شيء، لأعطينه واستجلب الأجر به، أو مظلوماً لأنصرنه. يا غلام، قف بالباب، فإن طلبني هذا الأعرابي فلا تمنعه من الدخول علي. فخرج فوافاه. فقال: ما تريد؟ - قال: أمير المؤمنين - قال: ادخل. فدخل فسلم. فقال له معاوية: ممن الرجل؟ - قال من تميم. قال: فما الذي جاء بك في هذا الوقت؟ - قال: جئتك مشتكياً، وبك مستجيراً - قال: ممن؟ - قال: مروان بن الحكم عاملك - قال: اذكر لي قصتك وأبن عن أمرك. فقال:</tei:p>
+            <tei:p change="#d2e73">يا أمير المؤمنين، كانت لي زوجة وكنت لها محباً وبها كلفاً، وكنت بها قرير العين طيب النفس. وكانت لي جذعة من الإبل أستعين بها على قوام حالي وكفاية أودي. فأصابتنا سنة أذهبت الخف والحافر. فبقيت لا أملك شيئاً. فلما قل ما بيدي وذهب مالي وفسد حالي، بقيت مهاناً ثقيلاً على الذي يألفني، وأبعدني من كان يشتهي قربي، وأزور من لا
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p441"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P452.xhtml"/>
+
+
+يرغب في زيارته. فلما علم أبوها ما بي من سوء الحال وشر المآل، أخذها مني وجحدني وطردني وأغلظ علي. فأتيت إلى عاملك مروان بن الحكم راجياً لنصرتي. فلما أحضر أباها وسأله عن حالي، قال: ما اعرفه قط - فقلت: أصلح الله الأمير، إن رأى أن يحضرها ويسألها عن قول أبيها. ففعل، وبث خلفها، فلما حضرت بين يديه، وقعت منه موقع الإعجاب، فصار لي خصماً، وعلي منكراً، وأظهر لي الغضب وبعث بي إلى السجن، فبقيت كأنما خررت من السماء أو استهوت بي الريح في مكان سحيق، ثم قال لأبيها: هل لك أن تزوجنيها على ألف دينار وعشرة آلاف درهم، وأنا ضامن إخلاصها من هذا الأعرابي؟ فرغب أبوها في البذل، وأجابه إلى ذلك. فلما كان من الغد بعث إلي وأحضرني، ونظر إلي كالأسد الغضبان وقال: طلق سعاد - فقلت: لا. فسلط علي جماعة من غلمانه، فأخذوني</tei:p>
+            <tei:p change="#d2e73">يعذبونني بأنواع العذاب، فلم أجد بداً من طلاقها، ففعلت فأعادني إلى السجن ومكثت فيه إلى أن انقضت عدتها فتزوجها وأطلقني. وقد أتيتك راجياً، وبك مستجيراً، وإليك ملتجئاً، وأنشد يقول:</tei:p>
+            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>في القلب مني غرام</tei:seg> 
+                  <tei:seg>للنار فيه استعار</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>والجسم مرمي بسهم</tei:seg> 
+                  <tei:seg>فيه الطبيب يحار</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>وفي فؤادي جمر</tei:seg> 
+                  <tei:seg>والجمر فيه شرار</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>والعين تهطل دمعاً</tei:seg> 
+                  <tei:seg>فدمعها مدرار</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>فليس إلا بربي</tei:seg> 
+                  <tei:seg>وبالأمير انتصار</tei:seg>
+               </tei:l>
+            </lg>
+            <tei:p change="#d2e73">ثم اضطرب واصطكت لهاته، وصار مغشياً عليه وأخذ يتلوى كالحية
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p442"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P453.xhtml"/>
+
+
+فلما سمع معاوية كلامه وإنشاده، قال: تعدى ابن الحكم في حدود الدين، وظلم واجترأ على حرم المسلمين. ثم دعا بدواة وقرطاس، وكتب إلى مروان بن الحكم كتاباً يقول فيه: إنه قد بلغني أنك تعديت على رعيتك في حدود الدين، وينبغي لمن كان والياً أن يكف بصره عن شهواته، ويزجر نفسه عن لذاته. ثم كتب كلاماً طويلاً منه:</tei:p>
+            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>وليت أمراً عظيماً لست تدركه</tei:seg> 
+                  <tei:seg>فاستغفر الله من فعل امرئ زان</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>إن أنت خالفتني فيما كتبت به</tei:seg> 
+                  <tei:seg>لأجعلنك لحماً بين عقبان</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>طلق سعاداً وعجلها مجهزة</tei:seg> 
+                  <tei:seg>مع الكميت ومع نصر بن ذبيان</tei:seg>
+               </tei:l>
+            </lg>
+            <tei:p change="#d2e73">ثم طوى الكتاب وطبعه، واستدعى بالكميت ونصر بن ذبيان، وكان يستنهضهما في المهمات لأمانتهما، فأخذا الكتاب وسارا حتى قدما المدينة، فدخلا على مروان بن الحكم وسلما عليه وسلما الكتاب إليه. فصار يقرأ ويبكي. ثم قام إلى سعاد وأعلمها بالأمر. ولم يسعه مخالفة معاوية، فطلقها بمحضر الكميت ونصر بن ذبيان، وجهزهما وصحبتهما سعاد. ثم كتب إلى معاوية كتاباً يقول فيه هذه الأبيات:</tei:p>
+            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>لا تعجلن أمير المؤمنين فقد</tei:seg> 
+                  <tei:seg>أوفى بنذرك في سر وإعلان</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>وما أتيت حراماً حين أعجبني</tei:seg> 
+                  <tei:seg>فكيف أدعى باسم الخائن الزاني</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>اعذر فإنك لو أبصرتها لجرت</tei:seg> 
+                  <tei:seg>فيك الأماني على تمثال إنسان</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>فسوف تأتيك شمس ليس يدركها</tei:seg> 
+                  <tei:seg>عند الخليفة من أنس ومن جان</tei:seg>
+               </tei:l>
+            </lg>
+            <tei:p change="#d2e73">ثم ختم الكتاب ودفعه إلى الرسولين، فسارا حتى وصلا إلى معاوية وسلما إليه الكتاب فقرأه وقال: لقد أحسن في الطاعة وأطنب في ذكر الجارية
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p443"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P454.xhtml"/>
+
+
+ثم أمر بإحضارها، فلما رآها رأى صورة حسناء لم ير أحسن منها، ولا مثلها في الظرف والجمال والقد والاعتدال. فخاطبها فوجدها فصيحة اللسان حسنة البيان فقال: علي بالأعرابي فجيء به وهو في غاية من تغير الحال. فقال: يا أعرابي، هل لك عنها من سلوة، وأعوضك عنها ثلاث جوارٍ نهد أبكار، كأنهن الأقمار، مع كل جارية ألف دينار، وأقسم لك من بيت المال كل سنة ما يكفيك وما يغنيك؟</tei:p>
+            <tei:p change="#d2e73">قال فلما سمع الأعرابي معاوية، شهق شهقةً ظن معاوية أنه مات بها فقال له: ما بالك بشر بال وسوء حال؟</tei:p>
+            <tei:p change="#d2e73">فقال الأعرابي: استجرت بعدلك من جور ابن الحكم، فبمن أستجير من جورك، وأنشد يقول:</tei:p>
+            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>لا تجعلني فداك الله من ملك</tei:seg> 
+                  <tei:seg>كالمستجير من الرمضاء بالنار</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>أردد سعاداً على حيران مكتئب</tei:seg> 
+                  <tei:seg>يمسي ويصبح في هم وتذكار</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>أطلق وثاقي ولا تبخل علي بها</tei:seg> 
+                  <tei:seg>فإن فعلت فإني غير كفار</tei:seg>
+               </tei:l>
+            </lg>
+            <tei:p change="#d2e73">ثم قال: والله يا أمير المؤمنين، لو أعطيتني الخلافة ما أخذتها دون سعاد. ثم أنشد:</tei:p>
+            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>أبى القلب إلا حب سعدى وبغضت</tei:seg> 
+                  <tei:seg>علي نساء ما لهن ذنوب</tei:seg>
+               </tei:l>
+            </lg>
+            <tei:p change="#d2e73">فقال معاوية: إنك مقر بأنك طلقتها، ومروان مقر بأنه طلقها، ونحن نخيرها. فإن اختارت سواك تزوجناها، وإن اختارتك حولناها إليك.</tei:p>
+            <tei:p change="#d2e73">قال: افعل - فقال: ما قولين يا سعاد؛ أيهم أحب إليك: أمير المؤمنين في عزه وشرفه وقصوره وسلطانه وأمواله وما أبصرته عنده؟ أو
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p444"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P455.xhtml"/>
+
+
+مروان بن الحكم في تعسفه وجوره أو هذا الأعرابي في جوعه وفقره. .؟ فأنشدت تقول:</tei:p>
+            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>هذا وإن كان في جوع وأضرار</tei:seg> 
+                  <tei:seg>أعز عندي من قومي ومن جاري</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>وصاحب التاج أو مروان عامله</tei:seg> 
+                  <tei:seg>وكل ذي درهم عندي ودينار</tei:seg>
+               </tei:l>
+            </lg>
+            <tei:p change="#d2e73">ثم قالت: والله يا أمير المؤمنين، ما أنا بخازنته لحادثات الزمان، ولا لغدرات الأيام؛ ولكن له صحبة قديمة لا تنسى، ومحبة لا تبلى؛ وأنا أحق من يصبر معه في الضراء، كما</tei:p>
+            <tei:p change="#d2e73">تنعمت في السراء.</tei:p>
+            <tei:p change="#d2e73">فتعجب معاوية من عقلها ومودتها ووفائها، فدفع لها عشرة آلاف درهم، ودفه مثلها للأعرابي، فأخذها وانصرف.</tei:p>
+            <tei:p change="#d2e73">الاتليدي</tei:p>
+         </tei:div>
+         <tei:div change="#d2e64" type="item">
+            <head xmlns="http://www.tei-c.org/ns/1.0">تاريخ المهاجرة وأسبابها</head>
+            <tei:p change="#d2e73">كثر ذكر المهاجرة في هذه الأيام وأفاض الكتاب الكلام فيما يتهدد سورية من الخراب من سفر أبنائها. فرأينا أن نورد هنا تاريخ هذه المهاجرة إلى أمريكا مستندين في أقوالنا وتعليماتنا إلى كتاب جميل أفندي حلوه الذي تكلمنا عنه في الجزء الفائت ص 408 ووعدنا بالرجوع إليه:</tei:p>
+            <tei:p change="#d2e73">كان ذكر العالم الجديد، ولا يزال، مقروناً بالخيرات والبركات، ولكم صور في أدمغة الأوروبيين والشرقيين جبالاً من الذهب تناطح السحائب، وآباراً تفيض من التبر سكائب، حتى كادوا يظنون أن لا شيء يعوزهم هناك إلا المجارف لتجميع ما فيها من مال تليد وطارف. مع أن
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p445"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P456.xhtml"/>
+
+
+الأحوال قد تغيرت في أيامنا. وأمريكا اليوم هي غير أمريكا بالمس. ولكن تيار المهاجرة لا يزال يقذف إليها في كل سنة مئات الألوف من المهاجرين.</tei:p>
+            <tei:p change="#d2e73">وعهد مهاجرة السوريين قديم، يرتقي إلى أجدادهم الفينيقيين الذي رادوا البحار، وحملوا تجارتهم إلى أقصى الديار. أما مهاجرتهم إلى أمريكا فلم تبدأ إلا منذ نصف قرن تقريباً. وكان الباعث الأكبر عليها اختلال المجاري الاقتصادية في السلطنة العثمانية بفساد الحكومة الاستبدادية التي جرت على مذهب فرق تسد فتأصلت روح التعصب بين الجماعات والتشيع والطوائف حتى كادت توقع البلاد في حرب أهلية دائمة، وتضعضع الأمن، وسادت الفوضى، ودرس العلم، وثقلت المعيشة. وما بشر الناس بخيرات أمريكا حتى هرع الكثيرون إلى البواخر تحملهم إلى شواطئ العالم الجديد حيث أفلتوا من عقل التقاليد وانفكوا من قيود الفقر والمظالم، وتنفسوا الصعداء لأن حالة الفلاح العثماني كانت من أتعس الحالات.</tei:p>
+            <tei:p change="#d2e73">وكان القرويون أول من شد الرحال إلى أصقاع أمريكا. وكان إثراؤهم السريع وحشدهم المال الكثير في الوقت القليل محرضاً كبيراً على إقبال إخوانهم على اللحاق بهم إلى أرض الحرية والإخاء والمساواة والغنى. وقد فتحت حكومات أمريكا باب المهاجرة لدخول المهاجرين لأنها كانت في حاجة إلى تعمير البلاد واستثمار الأراضي. وفتحت أيضاً الحكومة العثمانية الباب وسيعاً لخروجهم لأن معظمهم كان من النصارى، واهمة أنها بنزوحهم تخلص من مشاكلها مع الدول الأوروبية: على أن المسلم العثماني كان ومواطنه المسيحي سببين في احتمال المظالم وتكبد المغارم. فلحق به إلى
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p446"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P457.xhtml"/>
+
+
+المهجر وهكذا لم تلبث</tei:p>
+            <tei:p change="#d2e73">المهاجرة التي بدأ بها النصارى أن شملت سائر الطوائف والملل من المسلمين والدروز والمتاولة فاقتعدوا غارب الرحيل إلى العالم الجديد وكان تيارها في بداية الأمر موجهاً إلى البرازيل وما قاربها قبل أن اتجه إلى الولايات المتحدة.</tei:p>
+            <tei:p change="#d2e73">وصل المهاجرون إلى بلاد سادت فيها الحرية، واستتب الأمن، وتوفرت مصادر الارتزاق، والكل فيها سواء، برعاية النظام والقانون، والاشتراك في إدارة شؤون البلاد. فنزلوا في ميدان الجهاد وأقبلوا على العمل بنشاط واجتهاد. فأثروا شيئاً فشيئاً وتخلقوا بأخلاق القوم الذين نزلوا بينهم وفتح الكثيرون منهم البيوت التجارية الكبيرة بعد أن كانت تجارتهم دائرة على الكشة والجزدان ومدوا يدهم إلى الصناعة والزراعة فأحرزوا نجاحاً يذكر.</tei:p>
+            <tei:p change="#d2e73">ويقدر عددهم الآن بثلاثمائة ألف في الولايات المتحدة وحدها وقد أسسوا أيضاً جوالي كثيرة في الجمهورية الفضية والبير والبرازيل والمكسيك وهايتي وسائر أنحاء أمريكا وأصبحت لهم بين القوم منزلة سامية، وقد أجاد حافظ إبراهيم وأبدع في وصف المهاجر السوري إذ قال:</tei:p>
+            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>يمضي ولا حلية إلا عزيمته</tei:seg> 
+                  <tei:seg>وينثني وحلاه المجد والذهب</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>ير صرف الليالي عنه منقلباً</tei:seg> 
+                  <tei:seg>وعزمه ليس يدري كيف ينقلب</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>بأرض كولب أبطال غطارفة</tei:seg> 
+                  <tei:seg>أسد جياع إذا ما ووثبوا وثبوا</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>أسطولهم أمل في البحر مرتحل</tei:seg> 
+                  <tei:seg>وجيشهم عمل في البر مغترب</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>ما عابهم أنهم في الأرض قد نثروا</tei:seg> 
+                  <tei:seg>فالشهب منثورة مذ كانت الشهب</tei:seg>
+               </tei:l>
+            </lg>
+            <pb xmlns="http://www.tei-c.org/ns/1.0"
+                n="n1-p447"
+                ed="shamela"
+                corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P458.xhtml"/>
+            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>رادوا المناهل في الدنيا ولو وجدوا</tei:seg> 
+                  <tei:seg>إلى المجرة ركباً صاعداً ركبوا</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>سعوا إلى الكسب محموداً وما فتئت</tei:seg> 
+                  <tei:seg>أم اللغات بذاك السعي تكتسب</tei:seg>
+               </tei:l>
+            </lg>
+            <tei:p change="#d2e73">وبالحقيقة فقد نشر المهاجرون لواء اللغة العربية في أقصى أنحاء المعمور وأصبحت جرائدهم ومجلاتهم في أمريكا تعد بالعشرات. وصحافتهم من أرقى الصحف العربية منها جرائد يومية تصدر بحجم أكبر جرائدنا اليومية وهي مشحونة بغرر المقالات ودرر الأشعار (وسنعود إلى كل ذلك في أبحاث آتية عن النهضة الأدبية في أمريكا).</tei:p>
+            <tei:p change="#d2e73">* * *</tei:p>
+            <tei:p change="#d2e73">هذا جل ما يقال عن تاريخ المهاجرة وأسبابها وحالة المهاجرين. وأمامنا الآن نقطتان: أولاً،</tei:p>
+            <tei:p change="#d2e73">إيقاف تيار المهاجرة الذي كاد يفرغ البلاد من سكانها. وثانياً، الاهتمام بالذين هاجروا وحفظ روابطهم بوطنهم. وكلا المرين جدير بالبحث وإمعان النظر.</tei:p>
+            <tei:p change="#d2e73">كتب الكثيرون من الأدباء عن الطريق الواجب اتخاذها لإقفال باب المهاجرة. ولكن النقطة الجوهرية راجعة إلى أمرين، مادي وأدبي. أي تسهيل الحكومة للأهالي تأسيس المشروعات الاقتصادية والأعمال العمومية بل مباشرتها بنفسها، وإنشاء سبل المواصلات واستثمارها ثروة البلاد حتى يجد الناس مرتزقاً. وضبط الأمن وإقامة العدل ونشر المساواة التامة دون محاباة. فإن ذلك لا يمنع الناس فقط عن المهاجرة بل يعيد إلى الأوطان العدد الأكبر من الذين نزحوا عنها. فينفعون بلادهم بما اكتسبوا في الخارج من الخبرة والمعارف والثروة.
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p448"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P459.xhtml"/>
+
+
+وقد أحسن صاحب الكتاب الذي أشرنا إليه في صدر الكلام إذ قال: المهاجرة هي أمتن ذريعة تتذرع بها الأمة لدى أولي الأحكام، تنفيذاً لبغيتها من الإصلاح والنظام وهي كمقاطعة البضائع بين الدول حرب سياسية اقتصادية لابد لها أخيراً من الفوز والغلبة</tei:p>
+            <tei:p change="#d2e73">أما النقطة الثانية فهي الاهتمام بالمهاجرين في مهجرهم وهم يبلغون مئات الألوف كما قدمنا وفيهم التاجر والمالي والطبيب والمحامي والصانع والمزارع والمؤلف والمخترع. فهم إذن قوة استعمارية عظيمة بالمعارف والعلوم والفنون والمال ونشر النفوذ ويحق لدولتهم أن تفاخر بهم ويجب عليها أن تحتفظ بهم فتحكم علائقها بهم ولو بعدت الديار وشط المزار، وذلك بالالتفات إليهم وتعيين قناصل ووكلاء سياسيين ينظرون في أحوالهم ويوثقون رابطتهم القومية وجامعتهم الوطنية، ويذودون عن حقوقهم ومرافقهم فلا يكونون عرضة للإهانة وطعمة لكل من تحدثه النفس بالتهجم عليهم وليس كل ما قدمنا بالأمر العسير على الحكومة الراقية التي تفهم واجباتها نحو أمتها.</tei:p>
+         </tei:div>
+         <tei:div change="#d2e64" type="item">
+            <head xmlns="http://www.tei-c.org/ns/1.0">بين جدران السجون</head>
+            <tei:p change="#d2e73">وكادت الغزالة تتوارى وراء حجاب الأفق فقفلنا معها عائدين من سراي الحكومة إذ استوقفنا عند الباب الغربي طرق مطرفة رددت صدى ضرباتها المتتابعة جدران ذلك المكان.</tei:p>
+            <tei:p change="#d2e73">في الشبيبة، مهما تكاملت صفاتها، روح دفعتنا إلى سؤال أحد
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p449"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P460.xhtml"/>
+
+
+الجنود الخفراء عن مصدر هذا الصوت، فأجاب: من سجن المغاور. وكان هنالك قوة دافعة أيقظت فينا الميل إلى الاطلاع على ما يجري في تلك القصور السفلية! فسرنا إلى حيث انبعث الصوت. وزادنا ميلاً اعتراض أحد أنفار الخفارة لنا بقوله بلهجة عسكرية مألوفة يا سق، فانتظرنا.</tei:p>
+            <tei:p change="#d2e73">ولم يطل انتظارنا، حتى فتح باب قصير، خرج منه أحد ضباط الجندومة، يصحبه كهل حامل على منكبه مطرقة ثقيلة. وفي يده بعض الأدوات الحديدية، وتلاهما عدد من أنفار الجندومة لا يتجاوز العشرة.</tei:p>
+            <tei:p change="#d2e73">اقتربنا من الضابط وسألناه زيارة السجن فأجاب بنصح:</tei:p>
+            <tei:p change="#d2e73">- سرحوا أبصاركم في الأماكن المبهجة، وابتعدوا عن هذه الديار فهي مفعمة شقاء.</tei:p>
+            <tei:p change="#d2e73">ولكن لما أظهرت له ميلي إلى درس أحوال سكانه. أطرق هنيهة، وأشار إلى أحد أنفاره باستئذان المدير الأعلى.</tei:p>
+            <tei:p change="#d2e73">وكان النهار قد مال إلى الزوال، فعاد الرسول معلناً غياب المدير ففكر صاحبنا برهة وقال: هيوا بنا!</tei:p>
+            <tei:p change="#d2e73">ولجنا الباب الذي كان لم يزل مفتوحاً ودخلنا إلى نفق مظلم يبلغ طوله العشرة أمتار تفصله عن مدخله شبكة خشبية ضخمة يشرف على فناء دار عالية وإلى جانبيه وحول جدران الدار أبواب صغيرة ملاصقة الحضيض ينزل منها إلى المغاور التي يقطنها المسجونون والتي اتخذ منها هذا المدفن اسمه الشريف.
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p450"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P461.xhtml"/>
+
+
+إلى أحد جدران النفق كان فتى في ريعان الشباب مطرق الرأس كأنه في واد عميق من التفكر. وإلى يمينه قيد كبل يده برجله.</tei:p>
+            <tei:p change="#d2e73">انتبه الفتى من غفلته عند دخولنا فحول نظره إلينا ثم إلى الأرض وخطا خطوة ليتوارى عن أبصارنا. ولكن خطوته هذه حركت السلسلة الرابطة رجلة بيده. فأحدثت حركته صليلاً اهتزت له أبداننا. وذكر صاحبنا بحالته المحزنة. فاستند مرة ثانية إلى الجدار وأطرق</tei:p>
+            <tei:p change="#d2e73">مفكراً.</tei:p>
+            <tei:p change="#d2e73">لو أتيح لنظرنا أن يخترق ستر الظلام. لرأى حمرة صبغت وجنتيه. ودمعتين تجولان في عينيه. هاتان العينان اللتان لم تخشيا الأهوال نكصتا أمام أعيننا. تانك الوجنتان اللتان شاهدتا الموت صافعاً بكفه محيا فريسته احمرتا خجلاً منا. تلك اليد التي هزت الخنجر بجرأة لارتكاب الجريمة ارتجفت عند موقفنا.</tei:p>
+            <tei:p change="#d2e73">للمرء مهما تقلب على بساط الجرائم وتمرغ في حمأة الفحشاء. ساعة نور وضياء. ساعة تختلي فيها الروح بمناجاة المادة في معزل عن الكائنات. ساعة ينظر بها الإنسان إلى أعماله فيلعنها. ويحكم بنفسه على نفسه.</tei:p>
+            <tei:p change="#d2e73">هاتوا لي طبيباً ماهراً، دعوه يعالج هذه النفس الشقية، لينزع عنها جراثيم الوباء! ليضمد جراحها ويصب عليها بلسماً يبرد النار التي تأكلها، وأن الضمين لكم بأن تعود إلى النفس حياتها. نعم. في الفتى نفس حية. أنت تصلح لأن تكون من أكبر النفوس. لو سعى أحد لتقويم أميالها. ولكن مسكينة هي. خانها حظها. فسقطت على معبر الطريق. وداستها الأرجل فدنستها. دون أن تلقي من يلتقطها ويعتني بشأنها. ولادتها
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p451"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P462.xhtml"/>
+
+
+كانت سبب تعاستها. فعاشت حقيرة. وقد دفعتها الحاجة إلى الرذيلة فهوت لضعفها. وما سقطتها إلا نتيجة نظام سن لحياتها. فشبت بين الجرائم. وستموت أثيمة. دون أن يكون الذنب كل الذنب عليها.</tei:p>
+            <tei:p change="#d2e73">هذه النفس خلقت لتكون عضواً عاملاً في المجتمع الإنساني فرذلها حتى أصبحت عبئاً عليه. ثم بترها بدل معالجتها فانسلخت عنه وفي قلبها نار. وفي جوفها علقم مما حل بها.</tei:p>
+            <tei:p change="#d2e73">أمام هذا المنظر الرهيب. تحركت فيّ عاطفة الشفقة على هذا المسكين عدت إلى نفسي. فوجدتها قاصرة عن إعانته. فقلت لمن معي: كفانا ما شاهدنا فعودوا بنا.</tei:p>
+            <tei:p change="#d2e73">ولما تحولنا عنه تقدم منا الضابط الذي كان دليلنا في رحلتنا وقال: - عندي من يستحق التفاتكم. وهو اللبناني قاتل ابن الخياط. وجارح الإيطالي في السجن منذ أسبوعين. فإن أحببتم فسأدعوه إليكم. ثم نادى: يا أبا فارس! هو ذا من يريد أن يراك. فاصعد من سجنك.</tei:p>
+            <tei:p change="#d2e73">فأجابه صوت كأنه آت من وراء القبر قائلاً: ها أنا ذا وتلاه صليل سلاسل رددته أعماق تلك الحفرة. ثم وقع أقدام ثقيلة وظهر أمامنا رجل في الأربعين من عمره طويل القامة عريض الكتفين أسود اللحية كثيفها. وعيناه تقدحان في ظلام ذلك المكان شرراً وهو لابس</tei:p>
+            <tei:p change="#d2e73">سروالاً ورداءً من الجوخ الأسود وعلى رأسه طربوش لف حوله منديل جيبه. نظر الرجل إلينا ثم حيانا وقال: ما تطلبون مني؟</tei:p>
+            <tei:p change="#d2e73">زرنا هذا المكان ولما علمنا بوجودك قصدنا مشاهدتك في وحدتك
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p452"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P463.xhtml"/>
+
+
+- أشكركم على هذه المنة. . . هي المرة الأولى التي زارني بها أحد مدة التسع السنين التي صرفتها في سجني.</tei:p>
+            <tei:p change="#d2e73">وسألناه عن حاله فقال متنهداً: في التعاسة والشقاء. بين القتلة والمجرمين كما ترون. لقد قاسيت الأهوال وذقت أمر الشدائد. وإلى جنبي سلسلتي الثقيلة. لم يكن لي مؤنس في وحشتي سوى كتاب أرسله لي حضرة قنصل أمريكا منذ شهور لما بلغه أمري. وعلم أني صرفت ثلاث سنين في أمريكا.</tei:p>
+            <tei:p change="#d2e73">- ولماذا تركت أمريكا وأتيت إلى هنا.</tei:p>
+            <tei:p change="#d2e73">- أنا لبناني الأصل، ولدت من إحدى الأسر المعروفة في قرية. . . وقد قضيت سني حداثتي في المنزل الوالدي ثم أرسلني أبي إلى المدرسة حيث تلقيت العربية والإفرنسية والإنكليزية. ولما شببت سرت إلى أمريكا قصد المتجر. ولكن لم يكتب لي فيها التوفيق فعدت منها - ويا ليتي لم أعد - بعد ثلاث سنين إلى مسقط رأسي. ومنها إلى هذه المدينة حيث لاقيت ما لاقيت.</tei:p>
+            <tei:p change="#d2e73">- ما هي قرابتك بالكاتب اللبناني المعروف. . .؟</tei:p>
+            <tei:p change="#d2e73">- هو ابن عم أبي.</tei:p>
+            <tei:p change="#d2e73">- أنت كريم الأصل. حسن التربية. فما الذي دفعك إلى ارتكاب الجريمة؟</tei:p>
+            <tei:p change="#d2e73">- فتش عن المرأة. قال ذلك بالإفرنسية وسكت. فنظرت إليه وإشارات الأسف تلوح على وجهه وسكت أيضاً. خواطر مظلمة مرت
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p453"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P464.xhtml"/>
+
+
+على مخيلتي. وأمور شتى تواردت على بالي. الكلمات التي قالها بطل أوسترليتز وفاغرام سجين القديسة هيلانة قطعت مسافة قرن من الزمان. وطرقت مسمعي من فم سجين المغاور أحد ضحايا المرأة.</tei:p>
+            <tei:p change="#d2e73">تلك المخلوقة اللطيفة موضوع خيالي. من تسجد أمامها روحي وتحرق على مذبحها بخور أماني وآمالي. تلك التي اعترفت أن سعادة المرء منها. مثلت أمامي كشبح شقاء الجنس البشري وسبب تعاسته. شعرت بسلسلة آثام وجرائم. أولها إغواء حواء. وآخرها غواية</tei:p>
+            <tei:p change="#d2e73">المسكين المنتصب أمامي.</tei:p>
+            <tei:p change="#d2e73">الرجل. وما صار إليه من المدينة في القرن العشرين. هذا المخلوق الذي يزاحم بأعماله الألوهية. ويدرس سر الخلود. هذا الكائن مخضع الأرواح والعامل ما وراء الوجود. تصورته أسير جسم نحيف وقد نحيل، بل ألعوبة بين القلب والعين. بل فريسة نظرة وميل.</tei:p>
+            <tei:p change="#d2e73">ولم يكن إلا لمحة بصر. حتى مرت أمام ناظري صور جميلة.</tei:p>
+            <tei:p change="#d2e73">أمام النجاح الباهر في التقدم والعمران. وعلى أثر الانقلاب العظيم في البشرية والأكوان تذكرت كم لتلك اليد اللطيفة من التأثير في العمل وكم شددت من عزائم وأحيت من أمل؟ كم دفعت إلى الأمام. مسهلة الأمور. وكم رفعت من خافض محركة فيه الشعور؟ تذكرت - وما أحلى ذكرى لحاظ العيون السود. وسحر ورد الخدود. ولواجع قلب يخفق تحت رمان النهود - وقلت في نفسي: لله أفي تربية المرأة هذا السر المكنون والكنز المدفون.</tei:p>
+            <tei:p change="#d2e73">ثم انتبهت إلى الواقف أمامي وقلت: هذا ما كان من الجريمة الأولى
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p454"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P465.xhtml"/>
+
+
+فما دفعك إلى الثانية. وكيف أتيتها وأنت على ما أنت؟</tei:p>
+            <tei:p change="#d2e73">فأجاب وقد قدحت عيناه ناراً: رجل أهان شرفي فانتقمت منه.</tei:p>
+            <tei:p change="#d2e73">عدت خطوة إلى الوراء ونظرت إلى هذا الرجل العجيب فوجدت سيماء الأبهة والعظمة تلوح على محياه كأنه أتى أمراً تحمد عقباه. تأملته وقد دفعه نزقه وطيشه إلى عمل فظيع. فقتل عمداً شاباً في ربيع العمر توهم أنه حط من كرامته ثم استأنف قائلاً:</tei:p>
+            <tei:p change="#d2e73">- حكم علي بالإعدام لارتكابي الجريمة الأولى. وقد استبدلت محكمة التمييز هذا الحكم بالسجن المؤبد. على أن الدستور حمل إلي عفواً فخفض مدة سجني إلى الخمس عشرة سنة. صرفت منها تسعاً في السجن. وبقي منها ست سأقضيها وأنطلق من هذه البلاد إلى حيث أستطيع الانتقام من الحكومة والإنسانية بنشر ما لاقيت في سجني من الحيف والظلم.</tei:p>
+            <tei:p change="#d2e73">ما أشقى ما فطر عليه البشر! جريمتان تهتز لهما الأبدان. ارتكبهما هذا الشقي بخلق هامد. ودم بارد. دون أن يحرك قلبه الجلمودي عامل ندامة أو شفقة. وهو يعلل النفس بالخلاص. وينتظر ساعة يستطيع بها الانتقام من العدل والقانون. فما أتعس قلب الإنسان. رحمة طلبت فيه قلبي لهذا التعس لا عدلاً. وسلاماً تمنيت له لا انتقاماً. فما العدل والانتقام مما يغير فطرة غرستها فيه الطبيعة ورضي بها الإله. وعدنا بإعطائه بعض ما يخفف به من</tei:p>
+            <tei:p change="#d2e73">تعاسته. فعمدت إلى قول الريحاني وقصدت أن يشترك القلب واللسان مع اليمين في الإحسان. فدنوت منه وقلت:</tei:p>
+            <tei:p change="#d2e73">- أخي! ليس ما لاقيته من الحكومة إلا قصاصاً عادلاً عما جنته
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p455"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P466.xhtml"/>
+
+
+يداك. فتذكر أن جهالتك أفقدت رجلاً مثلك حقه في الحياة وسلبته نصيبه من الدنيا. جريمتك عظيمة فاعمل على إصلاح مستقبلك ليكون كفارة عما جنيت.</tei:p>
+            <tei:p change="#d2e73">ثم جمعنا شيئاً من الدراهم وأردنا أن ننقده إياها. فأبى وقال: لا حاجة بي إلى ذلك. ولا أرغب إلا في إحسان القلب إلى القلب فعدوني بالعودة إلي من حين إلى حين ليشرق نور الأمل في جو نفسي ويقشع عن صدري غياهب اليأس والقنوط.</tei:p>
+            <tei:p change="#d2e73">فوعدنا وخرجنا وقد تمثل أمام أعيننا تقصير الإنسان في واجبه نحو أخوانه. فكم من النفوس تذهب ضحية الجهل لأنها لم تجد من يهذب أخلاقها ويقوم طباعها وهي إنما تنتقم من الإنسانية لأن الإنسانية أهملتها.</tei:p>
+            <tei:p change="#d2e73">حلب</tei:p>
+            <tei:p change="#d2e73">يوسف توتل</tei:p>
+         </tei:div>
+         <tei:div change="#d2e64" type="item">
+            <head xmlns="http://www.tei-c.org/ns/1.0">أزهار وأشواك</head>
+            <tei:p change="#d2e73">بين الرصافة والجسر</tei:p>
+            <tei:p change="#d2e73">أتردد كثيراً إلى مكتب إدارة الزهور لأطالع الصحف والمجلات العربية الواردة من كل الأنحاء. فإن لي شغفاً في استطلاع أنباء أدباء العرب.</tei:p>
+            <tei:p change="#d2e73">وقد تصفحت في زورتي الأخيرة جرائد بغداد، فرأيتها صاخبة ناقمة، وفيها الردود الطويلة العريضة على مقالة كتبها أديب بغدادي في الزهور عن النهضة الأدبية في العراق. قال ذاك الكاتب إن الصحف
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p456"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P467.xhtml"/>
+
+
+هناك لا يزال بينها وبين الكمال مراحل شاسعة. فرأت تلك الصحف أن توسعه شتماً وسباباً لتدمغه بالحجة وتبرهن على رقيها وقربها من الكمال. وما كان أغناها عن ذلك البرهان! إن صحافة مصر وأمريكا العربية أرقى من صحافة العراق وصحافة الإفرنج أرقى من هذه وتلك ومع ذلك فإن الكتاب هنا وهناك لا يزالون يرمون الصحف بالتقصير دون أن يخطر على بال صحافي أن يفرغ جام غضبه على المنتقد. لأن الجميع يفهمون أن مهمة الصحافة كبيرة فالمطلوب منها كثير. ولكن الظاهر أن في العراق فريقاً من محرري الصحف ومنهم كتاب الرصافة سريعي الغضب قريبي التهيج وما عهد حملتهم على جميل الزهاوي ببعيد. ومن الأمور التي لا أجد لها وصفاً ولا نعتاً أن احد هؤلاء الصحافيين أغار على رواية أبطال الحرية تأليف منشئ هذه المجلة فطبعها وتاجر بها بين قومه - تجارة رابحة إن شاء الله. . . 1 ولكني أشكو هذه السرقة الشنعاء إلى زميلي الرقيب اليقظ الذي يكتب في الإخاء تحت عنوان الجرائم الأدبية. فليقل لي إذا كان يحق لمثل هؤلاء الصحافيين أن يغضبوا إذا قال قائل إن صحافتهم لا تزال في أدنى درجة من سلم الترقي؟</tei:p>
+            <tei:p change="#d2e73">ألا حيا الله ربوع بغداد، وجادتها مزن العلم لتعود إلى ما كانت عليه من ازدهار المعارف والعمران على عهد الخلفاء، وإن ذلك لقريب بفضل أصحاب النهضة الحقيقية لا بفضل المدعين، وإن كل أديب عربي يتوقع هذه الأمنية كأن:</tei:p>
+            <tei:p change="#d2e73">عيون المها بين الرصافة والجسر <gap xmlns="http://www.tei-c.org/ns/1.0" resp="#org_MS"/> جلبن الهوى من حيث يدري ولا يدري
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p457"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P468.xhtml"/>
+
+
+حول الأزياء أيضاً</tei:p>
+            <tei:p change="#d2e73">كان لما كتبته عن سودة المقيدات في العدد الماضي وقع كبير بين قرائي وقارئاتي.</tei:p>
+            <tei:p change="#d2e73">فاستحسنه القراء، وتلوه في الأندية والمجتمعات وعلى مسمع من بناتهم ونسائهم. واختلف رأي القارئات فيه، فمنهن من استصوبن مقالي وعدلن عن هذا الزي الغريب القبيح فحللن قيود أثوابهن، ومنهن من أبرقن وأرعدن علي وسددن سهام العتاب إلي لتعرضي لهذا الموضوع الحرج. وما كنت لأعود إليه اليوم لولا القصيدة التي جاءتني بواسطة منشئ المجلة من صاحب التوقيع. فها هي بنصها وعلى السيدات المقيدات أن يعرضن عنها:</tei:p>
+            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>لم تشف من داء الغرام عليلا</tei:seg> 
+                  <tei:seg>صباً يردد أنة وعويلا</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>يهوى محاسنها ويرجو قربها</tei:seg> 
+                  <tei:seg>فيرى حساماً دونها مسلولا</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>نبت الطبيعة بالبساطة لا كما</tei:seg> 
+                  <tei:seg>شاء المشد نحافة ونحولا</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>يا حسنها أيام أرخت مرسلاً</tei:seg> 
+                  <tei:seg>من شعرها لا يعرف التجديلا</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>ونضت نقاب الحسن عن وجناتها</tei:seg> 
+                  <tei:seg>فكأنها شمس الغروب أصيلا</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>وثنت قواماً كالقضيب ليانةً</tei:seg> 
+                  <tei:seg>يهتز أن هب النسيم بليلا</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>وقفت وقوف الريم يرمي لحظها</tei:seg> 
+                  <tei:seg>نبلاً فيصمي عروة وجميلا</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>تلك التي بجمالها وجلالها</tei:seg> 
+                  <tei:seg>وكمالها تدع الذليل جليلا</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>وتهز باليمنى سرير رضيعها</tei:seg> 
+                  <tei:seg>وبكها اليسرى تجر قبيلا</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>قم بي أريك الآن كيف تغيرت</tei:seg> 
+                  <tei:seg>تلك العهود وبدلت تبديلا</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>وتشوهت تلك الخدود وأصبحت</tei:seg> 
+                  <tei:seg>تلك النهود بما حشين تلولا</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>قد ضيقت خصراً يذوب وعرضت</tei:seg> 
+                  <tei:seg>كفلاً، بتنفير النفوس كفيلا</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>صقلت عوارضها فلا والله ما</tei:seg> 
+                  <tei:seg>حد المهند مثلها مصقولا</tei:seg>
+               </tei:l>
+            </lg>
+            <pb xmlns="http://www.tei-c.org/ns/1.0"
+                n="n1-p458"
+                ed="shamela"
+                corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P469.xhtml"/>
+            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>من أبيض يقق وأصفر كالح</tei:seg> 
+                  <tei:seg>أو أحمر لا يعرف التحليلا</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>وتتوجت بغمامة أو روضة</tei:seg> 
+                  <tei:seg>حتى الحمام غدا بها إكليلا</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>فأعجب لها يا صاحبي إذ صيرت</tei:seg> 
+                  <tei:seg>تاج الرؤوس غمائماً وبقولا</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>وتفننت في لبسها وأتت لنا</tei:seg> 
+                  <tei:seg>ما لم يكن بحسابنا معقولا</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>ومشت مقيدة الخطى فكأنما</tei:seg> 
+                  <tei:seg>ركب الكمي جواده مشكولا</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>وتثاقلت في خطوها تطأ الثرى</tei:seg> 
+                  <tei:seg>فكأنها آسٍ يجس عليلا</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>وتكاد تسقط إن رنت وإذا مشت</tei:seg> 
+                  <tei:seg>شمت الأسير مصفداً مغلولا</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>كيف الخلاص وقد أحلت نفسها</tei:seg> 
+                  <tei:seg>في عقدة تدع العزيز ذليلا</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>ثمن الثياب غلا فأنت لذا ترى</tei:seg> 
+                  <tei:seg>دينار قلب عقيلها مبذولا</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>وإذا تباخل كان ذلك ذنبها</tei:seg> 
+                  <tei:seg>فلأجلها صار الكريم بخيلا</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>هيهات إصلاحاً ترجي بعدها</tei:seg> 
+                  <tei:seg>يا شرق قد عاد الصعود نزولا</tei:seg>
+               </tei:l>
+            </lg>
+            <tei:p change="#d2e73">الإسكندرية</tei:p>
+            <tei:p change="#d2e73">خليل شيبوب</tei:p>
+            <tei:p change="#d2e73">أنا لم أورد هذه القصيدة لاستحساني لها فقط، بل لأحول إلى صاحبها بعض ما أصابني من غضب سيداتي المقيدات اللواتي يشبهن الفارس وقد ركب جواده مشكولا.</tei:p>
+            <tei:p change="#d2e73">في كرمة ابن هاني</tei:p>
+            <tei:p change="#d2e73">في كرمة ابن هاني، في مهبط الشعر وكعبة الأدباء، في منزل شوقي بالمطرية، بين متلألئ الأنوار، ومفتح الأزهار، على رنات العود والقانون، ونغمات المنشدين المطربين، تحت الخمائل الجميلة، والسرادقات الفخيمة، التقت جماعة من الوجهاء والأدباء مساء الخميس الماضي، ابتهاجاً بعودة سمو أمير مصر إلى عاصمته.
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p459"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P470.xhtml"/>
+
+
+فالتقت الحلقات حول وزير جليل، أو شاعر أديب، أو منشد مبدع؛ والمضيف الكريم يتنقل بين هذه الحلقات، فكانت ليلة سمر وأنس وسماع فريدة، والزمان بمثلها ضنين. وفي الحديقة الغناء مدت الموائد المثقلة بألوان الطعام وأنواع الشراب. وكانت فترة أنشد خلالها أحد المنشدين بحضور رئيس النظار غزلية شوقي مضناك جفاه مرقده (وهي الأبيات التي نشرتها الزهور ص 213 وعارضها كبار شعرائنا) وقد زاد عليها الشاعر أبياً كثيرة، منها في الغزل:</tei:p>
+            <tei:p change="#d2e73">الحسن حلفت بيوسفه والسورة أنك مفرده</tei:p>
+            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>بيني في الحب وبينك ما</tei:seg> 
+                  <tei:seg>لا يقدر واش يفسده</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>ما بال العاذل يفتح لي</tei:seg> 
+                  <tei:seg>باب السلوان وأوصده</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>ويقول تكاد تجن به</tei:seg> 
+                  <tei:seg>فأقوال وأوشك أعبده. . .</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>قسماً بثنايا لؤلؤها</tei:seg> 
+                  <tei:seg>قسم الياقوت منضده</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>ورضاب يوعد كوثره</tei:seg> 
+                  <tei:seg>متقول العشق ومشهده</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>وبخال كاد يحج له</tei:seg> 
+                  <tei:seg>لو كان يقبل أسوده</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>وقوام يروي الغصن له</tei:seg> 
+                  <tei:seg>نسباً والرمح يفنده</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>ما خنت هواك ولا خطرت</tei:seg> 
+                  <tei:seg>سلوى بالقلب تبرده</tei:seg>
+               </tei:l>
+            </lg>
+            <tei:p change="#d2e73">ومن الأبيات التي يمدح بها الأمير:</tei:p>
+            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>يا سيف الدولة عش أبداً</tei:seg> 
+                  <tei:seg>للعصر يهزك أحمده</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>سعدت بقدومك مصر ضحى</tei:seg> 
+                  <tei:seg>وتلاقى الأوج وفرقده</tei:seg>
+               </tei:l>
+            </lg>
+            <tei:p change="#d2e73">ثم ختمها بنشيد وطني منه:</tei:p>
+            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>يا مصر سماؤك جوهرة</tei:seg> 
+                  <tei:seg>وثراك بحار عسجده</tei:seg>
+               </tei:l>
+            </lg>
+            <pb xmlns="http://www.tei-c.org/ns/1.0"
+                n="n1-p460"
+                ed="shamela"
+                corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P471.xhtml"/>
+            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>والنيل حياة دافقة</tei:seg> 
+                  <tei:seg>ونعيم عذب مورده</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>والملك سعيد حاضره</tei:seg> 
+                  <tei:seg>لك في الدنيا حر غده</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>والعصر إليك تقربه</tei:seg> 
+                  <tei:seg>وإلى حاميك تودده</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>والشرق رقيك مظهره</tei:seg> 
+                  <tei:seg>وحضارة جيلك سؤدده</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>لسريرك بين أسرته</tei:seg> 
+                  <tei:seg>أعلى التاريخ وأمجده</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>بعلو الهمة نرجعه</tei:seg> 
+                  <tei:seg>وبنشر العلم نجدده</tei:seg>
+               </tei:l>
+            </lg>
+            <tei:p change="#d2e73">وبعد أن انقضى هزيع من الليل أخذ القطار يقل المدعوين أفواجاً عائداً بهم إلى مصر.</tei:p>
+            <tei:p change="#d2e73">حاصد</tei:p>
+         </tei:div>
+         <tei:div change="#d2e64" type="item">
+            <head xmlns="http://www.tei-c.org/ns/1.0">من كل حديقة زهرة</head>
+            <tei:p change="#d2e73">* سيتم عن قريب بناء دار البلدية في نيويورك وعلوها 70 متراً وعمق أساسها 44، وقد كلفت 50 مليون فرنك.</tei:p>
+            <tei:p change="#d2e73">* الرأي في أصل الأثمار التي نأكلها مختلف. على أن المعروف أن أصل المشمش من الصين، والفريز (الفراولة) من ولاية فرجينيا في أمريكا، وأصل البرتقال من الصين أيضاً، والليمون الحامض من الهند، والتين من سورية، واللوز من التركستان، والجوز من الهند، والسفرجل من القفقاس، والإجاص (الكومترى) من أرمينيا، والعنب من كل مكان، والتفاح من جنة عدن حيث أغوت حواء آدم بتفاحة.</tei:p>
+            <tei:p change="#d2e73">* كان القاضي في إحدى محاكم النمسا يسأل في الشهر الماضي متهماً عما إذا كان له أخوة. فأجاب أن له أخاً توفي منذ 140 سنة. فده القاضي. فقال المتهم: تزوج أبي وله من العمر 19 سنة فرزق ولداً عاش
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p461"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P472.xhtml"/>
+
+
+بضعة أيام ومات، ثم تزوج والدي بعد ذلك بخمسين سنة فولدت أنا ولي من العمر الآن 85 سنة. وعليه فقد توفي أخوه منذ قرن ونصف تقريباً.</tei:p>
+            <tei:p change="#d2e73">* كسدت تجارة الكتب في كندا فعمد أحد الكتبيين إلى طريقة مبتكرة للإعلان، فبدلاً من أن يملأ واجهة مكتبته بالكتب نصب سريراً تتمدد فيه فتاة جميلة وبيدها كتاب تطالعه. فكان الناس يتجمهرون أمام المكتبة وبالطبع يشترون الكتاب. نصيحة نقدمها للكتبيين عندنا.</tei:p>
+            <tei:p change="#d2e73">* عادة من يجلسون في القهوات أن ينقدوا الخادم حلواناً أو بخشيشاً وقد أحصى أحدهم المبالغ التي تنفق من هذا الباب في باريس وحدها فإذا هي 280. 000 فرنك كل يوم أو 8 ملايين و400. 000 فرنك في الشهر. ولمجموع فرنسا في السنة 473 مليوناً. فكم يا ترى تنفق على الجرسونات في مصر من الملايين المؤلفة من القرش التعريفي ونحن أكثر الناس قعوداً في القهوات؟</tei:p>
+            <tei:p change="#d2e73">* اكبر كتاب وأصغر كتاب موجودان في المتحف البريطاني في لندرا؛ والأول يبحث في جغرافية ألمانيا القديمة، أهدي إلى تشارلس الثاني سنة 1660 وهو مجلد بالنحاس وزنه 300 كيلو. أما الكتاب الثاني فلا يتجاوز حجمه ظفر الإصبع وهو نسخة من الإنجيل رسمها أحد المصورين في أوائل القرن السابع عشر.</tei:p>
+            <tei:p change="#d2e73">* في الهند الإنكليزية في قبيلة ظارو تقوم المرأة بأعمال الرجل والرجل بأعمال المرة: فهي تطلبه للزواج وتشتغل لتسد حاجات المنزل وهو يبقى في البيت ويهتم بالأولاد.
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p462"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P473.xhtml"/>
+
+
+* وفي آسيا عند قبيلة أكواكا المتوحشة يحرق الولد جسد والديه بعد موتهما وليسحق عظامهما ويسف الرماد حتى يمتزجا بجسمه وهكذا يفعلون بالأحباب والأصدقاء.</tei:p>
+            <tei:p change="#d2e73">* أكثر الشعوب استعمالاً للتلفون الأمريكان وعندهم 6. 600. 000 آلة تلفونية ويليهم الألمان وعندهم 860. 000 تلفون ثم الإنكليز 590. 000 والفرنسيون 197. 000 والأسوجيون 167. 000. ولكل ألف نفس في الولايات المتحدة 82 تلفوناً وفي أسوج 31 وفي ألمانيا 14 وفي إنكلترا 13 وفي فرنسا 5.</tei:p>
+            <tei:p change="#d2e73">* لم يبدأ استثمار مناجم الفحم إلا في أوائل القرن الرابع عشر.</tei:p>
+            <tei:p change="#d2e73">* يظهر أن الحيات لا تحب الثوم، فإن الوطنيين في بلاد أفريقيا حيث تكثر هذه الزحافات يدهنون جسمهم بعصير الثوم فتهرب الحيات من رائحته. وهكذا يأمن الأهالي لدغاتها السامة.</tei:p>
+         </tei:div>
+         <tei:div change="#d2e64" type="item">
+            <head xmlns="http://www.tei-c.org/ns/1.0">حديقة الأخبار</head>
+            <tei:p change="#d2e73">* عرفت مصر حضرة إدوارد أفندي مرقص كاتباً مدققاً وشاعراً بليغاً واشترك في وادي النيل في تحرير صحف كثيرة. وقد عاد الآن إلى وطنه اللاذقية حيث أصدر جريدة المنتخب وأخذ يودعها من نفثاته كل ما يلذ ويفيد. ولاشك في أن يكون لهذه الصحيفة مستقبل حسن فتخدم البلاد والأمة خير خدمة.
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p463"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P474.xhtml"/>
+
+
+* كان أمين أفندي الغريب من أكبر خدمة الآداب العربية في بلاد أمريكا وكانت جريدته المهاجر من أرقى صحف العرب على الإطلاق. ولما أعلن الدستور في البلاد العثمانية عاد إلى بيروت وتولى رئاسة تحرير النصير مدة فأظهر إخلاصاً وبراعة في معالجة الأبحاث الوطنية. ثم رأى أن يؤسس صحيفةً جديدة فأنشأ جريدة الحارس وقد جاءتنا أعدادها الأولى طافحة بالفوائد والأخبار واللطائف الأدبية فكانت برهاناً جديداً على علو كعب الأمين في عالم الأدب.</tei:p>
+            <tei:p change="#d2e73">* جريدة الاتحاد المصري من أقدم الصحف المصرية، مضى عليها ثلاثون سنة وهي عاملة على خدمة الوطن ونشر الآداب والمبادئ الطيبة، ويعز على محبي النهضة الأدبية أن يروا هذه الصحيفة اليوم لابسة ثوب السواد حداداً على فقد صاحبها ومؤسسها المأسوف عليه روفائيل مشاقه. وافه أجله في 6 نوفمبر الماضي وهو في الخامسة والخمسين من عمره قضى معظمها في خدمة الصحافة. فمنذ سنة 1880 دخل في جريدة الاجبت الفرنسوية ثم أنشأ جريدة لونيون ايجبسين باللغة الفرنسوية أيضاً وما لبث أن حولها إلى جريدة عربية هي جريدة الاتحاد المصري المعروفة. فإذا نحن أسفنا على فقد هذا الصحافي القديم فإننا نرجو لجريدته دوام الانتشار والازدهار بهمة نجله الأديب ادجار أفندي مشاقه وعناية محررها الكاتب البليغ نجيب أفندي غرغور.</tei:p>
+            <tei:p change="#d2e73">* في مصر نهضة شريفة - ومصر مهد النهضات الشريفة في الشرق - ترمي إلى تحسين حالة المرأة والنظر في ترقيتها. وآخر مظاهر
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p464"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P475.xhtml"/>
+
+
+هذه النهضة كان صدور جريدة العفاف التي أنشأها حضرة الفاضل سليمان أفندي مهران السليمي للدفاع عن حقوق المرأة وقد جعل شعارها العفاف تاج المرأة فإن زال دال ملكها وسبك أحد محرري الجريدة الأديب الشيخ محمود رمزي نظيم هذه الآية في أبيات قال في ختامها:</tei:p>
+            <lg xmlns="http://www.tei-c.org/ns/1.0" change="#d2e82">
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>إن الفتاة ملك</tei:seg> 
+                  <tei:seg>كل نعيم ملكها</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>ربانة الكون التي</tei:seg> 
+                  <tei:seg>في السعد يجري فلكها</tei:seg>
+               </tei:l>
+            
+               <tei:l type="bayt" change="#d2e82">
+                  <tei:seg>وتاجها عفافها</tei:seg> 
+                  <tei:seg>إن زال دال ملكها</tei:seg>
+               </tei:l>
+            </lg>
+            <tei:p change="#d2e73">ومتى عرفت أن للسيد الفاضلة مدام بستاني مؤسسة نادي الأوبرا يداً في إدارة العفاف أيقنت أن مستقبل هذه الجريدة سيكون زاهراً.</tei:p>
+            <tei:p change="#d2e73">* المكتبة العمومية في بيروت لصاحبها الأديب النشيط سليم أفندي إبراهيم صادر من أشهر وأقدم مكتبات الشرق والمطبعة العلمية الملحقة بها بإدارة حضرة الفاضل الهمام يوسف أفندي صادر من أكثر المطابع خدمة للمعارف وقد طالما عملت هذه وتلك على إتحاف عالم الأدب بخير المصنفات وأنفس الكتب. وآخر أثرٍ ظهر منهما كان الأنيس وهو اسم مجلة روائية تشتمل على سلسلة روايات أخلاقية تاريخية أدبية معربة بأسلوب جميل عن أشهر مؤلفي الغرب وستصدر مرتين في الشهر بنحو 100 صفحة كل مرة واشتراكها في البلاد العثمانية 35 غرشاً صاغاً وفي الخارج 9 فرنكات.
+<pb xmlns="http://www.tei-c.org/ns/1.0"
+                   n="n1-p465"
+                   ed="shamela"
+                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P476.xhtml"/>
+
+
+            </tei:p>
+         </tei:div>
+      </tei:body>
+   </tei:text>
+</tei:TEI>
