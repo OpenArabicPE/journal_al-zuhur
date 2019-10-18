@@ -54,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+      <revisionDesc><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
@@ -320,7 +320,7 @@
          </tei:div>
          <tei:div change="#d2e64" type="section">
             <head>في رياض الشعر</head>
-            <tei:p change="#d2e73">أمين بك ناصر الدين رئيس تحرير جريدة الصفاء اللبنانية شاعر مجيد وكاتب بليغ. شهير في سورية ومجهول في مصر فالزهور تفتخر بأن تضمه إلى عداد أنصارها الذين يتكاثرون يوماً فيوماً، وسيزداد القراء معرفة بأدبه الزاهر مما سنتابع نشره من شعره الرائق مشفوعاً برسمه ونبذة من ترجمة حياته وهو لا يزال في ربيعها:</tei:p>
+            <tei:p change="#d2e73"><persName>أمين بك ناصر الدين</persName> رئيس تحرير جريدة <tei:title level="j" change="#d2e193">الصفاء</tei:title> اللبنانية شاعر مجيد وكاتب بليغ. شهير في سورية ومجهول في مصر فالزهور تفتخر بأن تضمه إلى عداد أنصارها الذين يتكاثرون يوماً فيوماً، وسيزداد القراء معرفة بأدبه الزاهر مما سنتابع نشره من شعره الرائق مشفوعاً برسمه ونبذة من ترجمة حياته وهو لا يزال في ربيعها:</tei:p>
             <tei:p change="#d2e73">الحي يخاطب الجماد</tei:p>
             <tei:p change="#d2e73">أو شاعر يناجي صورة</tei:p>
             <lg change="#d2e82">
@@ -632,7 +632,7 @@
             <tei:p change="#d2e73">عبد الحليم المصري</tei:p>
             <tei:p change="#d2e73">البدر والليل</tei:p>
             <tei:p change="#d2e73">لعلها آخر ما نظمه إمام العبد</tei:p>
-            <tei:p change="#d2e73">كان إمام قد أشفى، فدعا بدواة وقلم وكتب الأبيات التالية، وفي حروفها على الورق ما يشعر بارتجاف يده، ثم أوصى إحدى النسوة اللواتي كن يعطفن عليه في شدته بأن ترسل ما كتب إلى مجلة الزهور. فلما قضى لرحمة ربه، وقد ضعضع الأسى والبؤس من حوله، ذهب أمر الرسالة عن تلك المرأة الحزينة، حتى إذا جفت الدمعة إلا قليلاً وبردت الجمرات إلا بعضها بلغت الأبيات إلينا وروح إمام ترفرف بين كلماتها وسطورها. وهذه هي:</tei:p>
+            <tei:p change="#d2e73">كان إمام قد أشفى، فدعا بدواة وقلم وكتب الأبيات التالية، وفي حروفها على الورق ما يشعر بارتجاف يده، ثم أوصى إحدى النسوة اللواتي كن يعطفن عليه في شدته بأن ترسل ما كتب إلى مجلة <tei:title level="j" change="#d2e193">الزهور</tei:title>. فلما قضى لرحمة ربه، وقد ضعضع الأسى والبؤس من حوله، ذهب أمر الرسالة عن تلك المرأة الحزينة، حتى إذا جفت الدمعة إلا قليلاً وبردت الجمرات إلا بعضها بلغت الأبيات إلينا وروح إمام ترفرف بين كلماتها وسطورها. وهذه هي:</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>تمنى أن يجازيني بوجدٍ</tei:seg> 
@@ -993,7 +993,7 @@
 <pb n="n2-p277" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P837.xhtml"/>
 
 
-الكاتبة الأديبة مي مما نشرته من الروايات الجميلة والمقالات الشائقة والأبحاث النفسانية الدقيقة في جريدة المحروسة الغراء وقد أتحفتنا بمقالة لطيفة عن ألفرد ده موسه نشرناها في غير هذا المكان من هذا الجزء. وأمامنا الآن كتاب شعر إفرنسي رقيق، في ذيله بضع صفحات نثرية جميلة، تأليف إيزيس كوبيا. وإيزيس ومي هما شخص واحد، والقلم الذي حبر المقالات والروايات العربية،</tei:p>
+الكاتبة الأديبة مي مما نشرته من الروايات الجميلة والمقالات الشائقة والأبحاث النفسانية الدقيقة في جريدة <tei:title level="j" change="#d2e193">المحروسة</tei:title> الغراء وقد أتحفتنا بمقالة لطيفة عن ألفرد ده موسه نشرناها في غير هذا المكان من هذا الجزء. وأمامنا الآن كتاب شعر إفرنسي رقيق، في ذيله بضع صفحات نثرية جميلة، تأليف إيزيس كوبيا. وإيزيس ومي هما شخص واحد، والقلم الذي حبر المقالات والروايات العربية،</tei:p>
             <tei:p change="#d2e73">والريشة التي حاكت برد هذه القصائد الفرنسوية، تحملهما يد واحدة ويملي عليهما فكر واحد. الكتاب الذي نحن بصدده الآن مجموعة أزهار عطرية نبتت في رياض الأحلام الجميلة، وهي مهداة إلى روح لامرتين شاعر القلوب الحزينة، وهذه الروح المتألمة ترف على كل صفحاته وتجعل الكاتبة تقول في قصيدة هل هي شاعرة؟ معناه: البكاء والرأفة والحب والألم هذه هي صفات الشاعر وقد ظهر من المواضيع التي طرقتها الكاتبة أنها لا تصف إلا ما ترى، ولا تعبر إلا عما تشعر به. فجاءت منظوماتها صورة حقيقية لما يشغل فكرها ويحرك قلبها، ولذلك أنت تشاركها عند تلاوة أشعارها في هذه العواطف مهما كان رأيك في القالب التي سبكتها فيه. فلا تتمالك من أن تصبو معها إلى مصر ونيلها وآثارها وسهولها، وتحن معها إلى لبنان وجماله وأوديته. وإذا كانت إيزيس كوبيا شاعرة في نظمها فقد وجدناها أشهر منها في تلك الصفحات النثرية التي ختمت بها أزهار أحلامها حيث لم تعد مقيدة بقيود القافية والوزن، وكثيراً ما تكون الأزهار المنثورة أجمل من الأزهار المضفورة على شكل مقرر. ولولا ضيق المقام
 <pb n="n2-p278" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P838.xhtml"/>
 
@@ -1040,7 +1040,7 @@
                </tei:l>
             </lg>
             <tei:p change="#d2e73">أما القصيدة الثانية فقد نشرتها الصحف الإنكليزية في مصر وأثنت على ناظمها أجمل الثناء.</tei:p>
-            <tei:p change="#d2e73">صحيفة الوجدان - نشرت الزهور في سنتها الأولى شيئاً مختاراً من نظم الأديب رمزي أفندي نظيم. وقد أتحفنا حضرته اليوم بمجموعة ما نشره في جريدة العفاف الغراء في مواضيع مختلفة وهي تبشر شاعرها الشاب بمستقبل مجيد في هذا الفن.</tei:p>
+            <tei:p change="#d2e73">صحيفة الوجدان - نشرت الزهور في سنتها الأولى شيئاً مختاراً من نظم الأديب رمزي أفندي نظيم. وقد أتحفنا حضرته اليوم بمجموعة ما نشره في جريدة <tei:title level="j" change="#d2e193">العفاف</tei:title> الغراء في مواضيع مختلفة وهي تبشر شاعرها الشاب بمستقبل مجيد في هذا الفن.</tei:p>
             <tei:p change="#d2e73">لغة العرب - هو عنوان مجلة أدبية تاريخية سيصدرها قريباً في
 <pb n="n2-p280" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P840.xhtml"/>
 

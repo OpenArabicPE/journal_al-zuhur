@@ -54,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+      <revisionDesc><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
@@ -153,7 +153,7 @@
             <tei:p change="#d2e73">نقولا أفندي رزق الله</tei:p>
             <tei:p change="#d2e73">ولي الدين بك يكن</tei:p>
             <tei:p change="#d2e73">يوسف أفندي نخلة ثابت</tei:p>
-            <tei:p change="#d2e73">وهناك أيضاً عدد كبير من أئمة الكتبة في مصر والشام وبغداد وتونس وطرابلس الغرب والجزائر وأمريكا إلخ قد باشرنا مفاوضتهم بهذا الشأن لتتم الغاية المطلوبة. فيجد القارئ إن شاء الله في مجلة الزهور خير ما تجود به الأقلام العربية في كل الأصقاع فيكون له فيها أحسن مجموعة أدبية جامعة يحق الاحتفاظ بها.
+            <tei:p change="#d2e73">وهناك أيضاً عدد كبير من أئمة الكتبة في مصر والشام وبغداد وتونس وطرابلس الغرب والجزائر وأمريكا إلخ قد باشرنا مفاوضتهم بهذا الشأن لتتم الغاية المطلوبة. فيجد القارئ إن شاء الله في مجلة <tei:title level="j" change="#d2e193">الزهور</tei:title> خير ما تجود به الأقلام العربية في كل الأصقاع فيكون له فيها أحسن مجموعة أدبية جامعة يحق الاحتفاظ بها.
 <pb n="n1-p10" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P23.xhtml"/>
 
 
@@ -163,7 +163,7 @@
             <tei:p change="#d2e73">في الممالك العثمانية: ثلاثة ريالات مجيدية</tei:p>
             <tei:p change="#d2e73">وفي الخارج: خمسة عشر فرنكاً</tei:p>
             <tei:p change="#d2e73">وجعلنا للمعاهد العلمية وأساتذتها وللأندية الأدبية حسم  <tei:num type="auto-markup" change="#d2e181" value="30" xml:lang="ar">٣٠</tei:num>  في المئة.</tei:p>
-            <tei:p change="#d2e73">حقوق المشترك - يحق لكل مشترك في مجلة الزهور:</tei:p>
+            <tei:p change="#d2e73">حقوق المشترك - يحق لكل مشترك في مجلة <tei:title level="j" change="#d2e193">الزهور</tei:title>:</tei:p>
             <tei:p change="#d2e73">
                <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num>  - </hi>حسم  <tei:num type="auto-markup" change="#d2e181" value="50" xml:lang="ar">٥٠</tei:num>  في المئة من ثمن كل كتاب تنشره المجلة.</tei:p>
             <tei:p change="#d2e73">
@@ -206,7 +206,7 @@
             <tei:p change="#d2e73">الجوائز -: سيمنح الفائزون في كل سباق من هذين السباقين جوائز ثمينة متنوعة سنذكرها في عددٍ آت.</tei:p>
             <tei:p change="#d2e73">الشروط -: على كل من يرغب في الاشتراك في أحد هذين السباقين أو في كليهما أن يراعي الشروط الآتية:</tei:p>
             <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num>  ً - أن يكون مشتركاً في المجلة - وإلا فعليه أن يرسل طوابع بريد بقيمة فرنكين لنفقات المراسلات.</tei:p>
-            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="2" xml:lang="ar">٢</tei:num>  ً - أن يوقع ما يكتبه بتوقيع مستعار. ويكتب اسمه الحقيقي وعنوانه مع اسمه المستعار في ورقة يضعها في ظرف مختوم يدون على ظاهره اسمه المستعار فقط ويضع هذا الظرف مع قصيدته أو مقالته في ظرف ثان ويرسله خالص أجرة البريد بعنوان مجلة الزهور. شارع الفجالة نمرة  <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num>  بمصر.</tei:p>
+            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="2" xml:lang="ar">٢</tei:num>  ً - أن يوقع ما يكتبه بتوقيع مستعار. ويكتب اسمه الحقيقي وعنوانه مع اسمه المستعار في ورقة يضعها في ظرف مختوم يدون على ظاهره اسمه المستعار فقط ويضع هذا الظرف مع قصيدته أو مقالته في ظرف ثان ويرسله خالص أجرة البريد بعنوان مجلة <tei:title level="j" change="#d2e193">الزهور</tei:title>. شارع الفجالة نمرة  <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num>  بمصر.</tei:p>
             <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="3" xml:lang="ar">٣</tei:num>  ً - أن يذكر إذا كان يريد، عند نشر الكتابات في المجلة أن يصرح باسمه الحقيقي أو يكتفي باسمه المستعار.</tei:p>
             <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="4" xml:lang="ar">٤</tei:num>  ً - أن لا يتأخر بإرسال موضوعه عن الموعد المضروب لكل سباق.
 <pb n="n1-p13" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P26.xhtml"/>
@@ -878,7 +878,7 @@
 فسأسكب عنبراً وبلسماً، إذا رأيت في الحوادث والأعمال زهوراً طيبة وإلا كان جنيي صاباً وعلقماً.</tei:p>
             <tei:p change="#d2e73">وجاء في لسان العرب إن الزهور تلألؤ السراج الزاهر. فعسى أن يقطر ما أجنيه زيتاً صافياً يزيد تلألؤ هذه المجلة الزاهرة، لا سائلاً عكراً يبعث دخاناً تدمع له العيون، وتشمئز منه الأنوف. وعلى كل فجل رغائبي أن تتوثق عرى الصداقة شيئاً فشيئاً بيني وبين قرائي الأحياء. فنتبادل ما نشاء من الأفكار بين الأزهار والأشواك. فنبتسم معاً ونتألم معاً. متذكرين أن لا ورد بلا شوك. وأن أشواكاً كثيرة بلا ورد.</tei:p>
             <tei:p change="#d2e73">إدمون روستان وحافظ إبراهيم</tei:p>
-            <tei:p change="#d2e73">إدمون روستان هو أحد كبار شعراء فرنسا في هذه الأيام. ذكره طبق الآفاق، ورواياته مثلت على أكثر مراسح العالم، فصفقوا لها في كل عواصم أوروبا، وهتفوا لمؤلفها في أمريكا وآسيا وأفريقيا. ألف فاشتهر، وصنف فاغتنى، فما أحسن حظه وما أسعد نجمه. .! جمع من رواية الايجلون أو فرخ النسر ومن رواية سيرانوده برجراك ما يقدر بالملايين من الفرنكات. وها قد أنجز الآن رواية شانتكلير وهي رواية غريبة الشكل والوضع، لأن كل أشخاصها من الحيوانات. . . غير الناطقة. لكن بلاغة مؤلفها أنطقتها بما تكاد تعجز عنه الحيوانات الناطقة. بيد أني لا انظر الآن إلى هذا الأمر. بل أريد أن يعرف القراء أن مدير مجلة الالوستراسيون قد اشترى حق نشر هذه الرواية في مجلته بمبلغ. . . .
+            <tei:p change="#d2e73">إدمون روستان هو أحد كبار شعراء فرنسا في هذه الأيام. ذكره طبق الآفاق، ورواياته مثلت على أكثر مراسح العالم، فصفقوا لها في كل عواصم أوروبا، وهتفوا لمؤلفها في أمريكا وآسيا وأفريقيا. ألف فاشتهر، وصنف فاغتنى، فما أحسن حظه وما أسعد نجمه. .! جمع من رواية الايجلون أو فرخ النسر ومن رواية سيرانوده برجراك ما يقدر بالملايين من الفرنكات. وها قد أنجز الآن رواية شانتكلير وهي رواية غريبة الشكل والوضع، لأن كل أشخاصها من الحيوانات. . . غير الناطقة. لكن بلاغة مؤلفها أنطقتها بما تكاد تعجز عنه الحيوانات الناطقة. بيد أني لا انظر الآن إلى هذا الأمر. بل أريد أن يعرف القراء أن مدير مجلة <tei:title level="j" change="#d2e193">الالوستراسيون</tei:title> قد اشترى حق نشر هذه الرواية في مجلته بمبلغ. . . .
 <pb n="n1-p37" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P50.xhtml"/>
 
 
@@ -946,8 +946,8 @@
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head> العدد </head>
-            <tei:p change="#d2e73">الأول من مجلة الزهور لاعتقادنا بغيرتك على النهضة الأدبية ورغبتك في الاطلاع على سيرها في القطار العربية. فإذا وجدت في خطة هذه المجلة ما يحقق رغائبك فتفضل بتوقيع الطلب الواصل طيه وإرساله مع قيمة الاشتراك الموضحة فيه أو التعهد بدفعها إلى وكيل المجلة في أول فرصة. والسلام.</tei:p>
-            <tei:p change="#d2e73">إدارة مجلة الزهور بشارع الفجالة نمرة  <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num>  بمصر
+            <tei:p change="#d2e73">الأول من مجلة <tei:title level="j" change="#d2e193">الزهور</tei:title> لاعتقادنا بغيرتك على النهضة الأدبية ورغبتك في الاطلاع على سيرها في القطار العربية. فإذا وجدت في خطة هذه المجلة ما يحقق رغائبك فتفضل بتوقيع الطلب الواصل طيه وإرساله مع قيمة الاشتراك الموضحة فيه أو التعهد بدفعها إلى وكيل المجلة في أول فرصة. والسلام.</tei:p>
+            <tei:p change="#d2e73">إدارة مجلة <tei:title level="j" change="#d2e193">الزهور</tei:title> بشارع الفجالة نمرة  <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num>  بمصر
 <pb n="n1-p41" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P54.xhtml"/>
 
 
