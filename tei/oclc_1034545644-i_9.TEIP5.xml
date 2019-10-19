@@ -54,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+      <revisionDesc><tei:change when="2019-10-19" who="#pers_TG" xml:id="d3e209" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
@@ -189,7 +189,10 @@
             <tei:p change="#d2e73">هذا يم خاضت فيه من قبل أقلام وسبحت عقول، وما أنا بالجاني علي نفسي بالخوض في</tei:p>
             <tei:p change="#d2e73">خضمه، والإحاطة بأطرافه، والأمر ظاهر للعيان غني عن البيان، فانحطاط الشرق لانحطاط بناته، وجمود فتاته، وعلى تهذيبها يتوقف ارتقاؤه، فهي داؤه ودواؤه.</tei:p>
             <tei:p change="#d2e73">وتلك نفثة مصدور لو لم يضق الخناق، وتبلغ الروح التراق لكسرت القلم قبل أن أبوح بها، والسلام.</tei:p>
-            <tei:p change="#d2e73">- بيت جالا، <persName>إسكندر الخوري</persName>
+            <tei:p change="#d2e73">- بيت جالا، <persName change="#d3e209" ref="oape:pers:379 viaf:285129784">
+                            <forename xml:lang="ar">إسكندر</forename>
+                            <surname xml:lang="ar">الخوري</surname>
+                        </persName>
 <pb n="n1-p426" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P437.xhtml"/>
 
 
@@ -317,7 +320,12 @@
                   <tei:seg>أما أنا فأخاف أن لا أصبرا</tei:seg>
                </tei:l>
             </lg>
-            <byline><persName>ولي الدين يكن</persName></byline>
+            <byline><persName change="#d3e209" ref="oape:pers:2834 viaf:36771043">
+                            <forename xml:lang="ar">
+                                <addName type="khitab" xml:lang="ar">ولي الدين</addName>
+                            </forename>
+                            <surname xml:lang="ar">يكن</surname>
+                        </persName></byline>
             <tei:p change="#d2e73">الحنين إلى مصر</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
@@ -511,7 +519,10 @@
                   <tei:seg>ما راقهم في الكون بعدك مشرق</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">(مصر) <persName>إسماعيل صبري</persName></tei:p>
+            <tei:p change="#d2e73">(مصر) <persName change="#d3e209" ref="oape:pers:777 viaf:45752632">
+                            <forename xml:lang="ar">إسماعيل</forename>
+                            <surname xml:lang="ar">صبري</surname>
+                        </persName></tei:p>
             <tei:p change="#d2e73">الرجاء واليأس</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
@@ -524,7 +535,10 @@
                   <tei:seg>على مركب لا يهدأ الدهر راكبه</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73"><persName>حافظ إبراهيم</persName></tei:p>
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:245 viaf:32410755">
+                            <forename xml:lang="ar">حافظ</forename>
+                            <surname xml:lang="ar">إبراهيم</surname>
+                        </persName></tei:p>
             <tei:p change="#d2e73">المشد</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
@@ -542,7 +556,7 @@
                   <tei:seg>ليحمل جور النهد قدي المهفهف</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">(مصر) <persName>فيليب مخلوف</persName>
+            <tei:p change="#d2e73">(مصر) <persName change="#d3e209" ref="oape:pers:2174">فيليب مخلوف</persName>
 <pb n="n1-p432" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P443.xhtml"/>
 
 
@@ -766,7 +780,10 @@
 المهجر وهكذا لم تلبث</tei:p>
             <tei:p change="#d2e73">المهاجرة التي بدأ بها النصارى أن شملت سائر الطوائف والملل من المسلمين والدروز والمتاولة فاقتعدوا غارب الرحيل إلى العالم الجديد وكان تيارها في بداية الأمر موجهاً إلى البرازيل وما قاربها قبل أن اتجه إلى الولايات المتحدة.</tei:p>
             <tei:p change="#d2e73">وصل المهاجرون إلى بلاد سادت فيها الحرية، واستتب الأمن، وتوفرت مصادر الارتزاق، والكل فيها سواء، برعاية النظام والقانون، والاشتراك في إدارة شؤون البلاد. فنزلوا في ميدان الجهاد وأقبلوا على العمل بنشاط واجتهاد. فأثروا شيئاً فشيئاً وتخلقوا بأخلاق القوم الذين نزلوا بينهم وفتح الكثيرون منهم البيوت التجارية الكبيرة بعد أن كانت تجارتهم دائرة على الكشة والجزدان ومدوا يدهم إلى الصناعة والزراعة فأحرزوا نجاحاً يذكر.</tei:p>
-            <tei:p change="#d2e73">ويقدر عددهم الآن بثلاثمائة ألف في الولايات المتحدة وحدها وقد أسسوا أيضاً جوالي كثيرة في الجمهورية الفضية والبير والبرازيل والمكسيك وهايتي وسائر أنحاء أمريكا وأصبحت لهم بين القوم منزلة سامية، وقد أجاد <persName>حافظ إبراهيم</persName> وأبدع في وصف المهاجر السوري إذ قال:</tei:p>
+            <tei:p change="#d2e73">ويقدر عددهم الآن بثلاثمائة ألف في الولايات المتحدة وحدها وقد أسسوا أيضاً جوالي كثيرة في الجمهورية الفضية والبير والبرازيل والمكسيك وهايتي وسائر أنحاء أمريكا وأصبحت لهم بين القوم منزلة سامية، وقد أجاد <persName change="#d3e209" ref="oape:pers:245 viaf:32410755">
+                            <forename xml:lang="ar">حافظ</forename>
+                            <surname xml:lang="ar">إبراهيم</surname>
+                        </persName> وأبدع في وصف المهاجر السوري إذ قال:</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>يمضي ولا حلية إلا عزيمته</tei:seg> 
@@ -1030,7 +1047,7 @@
                </tei:l>
             </lg>
             <tei:p change="#d2e73">الإسكندرية</tei:p>
-            <byline><persName>خليل شيبوب</persName></byline>
+            <byline><persName change="#d3e209" ref="oape:pers:1655">خليل شيبوب</persName></byline>
             <tei:p change="#d2e73">أنا لم أورد هذه القصيدة لاستحساني لها فقط، بل لأحول إلى صاحبها بعض ما أصابني من غضب سيداتي المقيدات اللواتي يشبهن الفارس وقد ركب جواده مشكولا.</tei:p>
             <tei:p change="#d2e73">في كرمة ابن هاني</tei:p>
             <tei:p change="#d2e73">في كرمة ابن هاني، في مهبط الشعر وكعبة الأدباء، في منزل شوقي بالمطرية، بين متلألئ الأنوار، ومفتح الأزهار، على رنات العود والقانون، ونغمات المنشدين المطربين، تحت الخمائل الجميلة، والسرادقات الفخيمة، التقت جماعة من الوجهاء والأدباء مساء الخميس الماضي، ابتهاجاً بعودة سمو أمير مصر إلى عاصمته.

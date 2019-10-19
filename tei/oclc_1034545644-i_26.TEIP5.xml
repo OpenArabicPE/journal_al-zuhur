@@ -54,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+      <revisionDesc><tei:change when="2019-10-19" who="#pers_TG" xml:id="d3e209" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
@@ -138,7 +138,7 @@
                   <tei:seg>قبر ميتاً ويوم تُبْعَث حيَّا</tei:seg>
                </tei:l>
             </lg>
-            <byline change="#d2e198"><persName>سليم عبد الأحد</persName>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:1831">سليم عبد الأحد</persName>
 <pb n="n3-p242" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1351.xhtml"/>
 
 
@@ -173,7 +173,7 @@
             <tei:p change="#d2e73">صديق صغير غرد فأطربني وسكن بجوار روحي فأنسني ولما آلم قلبي العالم بدناءته وكذبه غنى طائري فأنساني قباحة البشر وغشّهم وجعلني أفكر في كل حسن بهي</tei:p>
             <tei:p change="#d2e73">هذه قيثارتي فقدت أحد أوتارها فناحت بلابل أنغامها</tei:p>
             <tei:p change="#d2e73">فما أتعس القلوب الشديدة التأثر! وما أكثر مرارة الجرح الصغير الذي يفتح جراحات كبيرة!!</tei:p>
-            <byline change="#d2e198"><persName>مي</persName>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:2269">م . ي</persName>
 <pb n="n3-p246" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1355.xhtml"/>
 
 
@@ -198,7 +198,7 @@
 
 
 الإحساء ونزل في عُقْرُبا المعروفة وحاصر بلدة العمارية حتى هزلت مواشيهم وأصابتهم أضرار كثيرة. ثمَّ سار الدرعية ونهب بيوتها فقتل أهل الدرعية كثيراً من قومهِ وفرَّ العلماء إلى بلادٍ يجدون فيها راحتهم. ولما مات سعدون المذكور سنة  <tei:num type="auto-markup" change="#d2e181" value="1138" xml:lang="ar">١١٣٨</tei:num> هـ= <tei:num type="auto-markup" change="#d2e181" value="1725" xml:lang="ar">١٧٢٥</tei:num> م عُمّرت منازل بني هلال ومنازل بني سعيد وآل بني سليمان في بلدة الروضة المعروفة في ناحية سدير. فتنفس العلماء الصعداء وعاد أغلبهم من مَفَرّهم إلى مقرّهم. وبعد ذلك بمدَّة ظهر آل سعود في الدرعية واستولوا على بلاد نجد والإحساء والقطيف وعمان والعسير وجبل شمَّر (جبل طيء) وانقادت لهم القبائل والبلاد وحصل من أمرهم ما هو مشهور. ورجع العلم إلى دياره وانبعث من قبره كما سنذكره بعد ذلك إن شاء الله تعالى.</tei:p>
-            <byline change="#d2e198"><persName>ساتسنا</persName></byline>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:227 viaf:39370998">ساتسنا</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>أيها القمر</head>
@@ -231,7 +231,11 @@
 
 
 كلمة معنى من الحياة لأنهُ لا يكتب كلاماً بل يخط صورة قلبهِ. والعواطف الحية تبقى حية ولو كانت مرسومة لأنها لا تجتمع في شكلها الذي تنتهي إليهِ إلاَّ بعد أن تمر في أدوار الحياة فتألفها الأرواح وتصير كاللفظ ما هو إلاَّ أن يذكر حتى ترى معناه للذهن ماثلاً. بلى ولقد يخبَّل إليَّ أيها القمر الجميل حين أكتب عمن أهواها أنك لفظ في ألفاظي تطلع من المداد فإذا قلت وجهها فهل تظن هذا اللفظ الذي هو جملة الجمال إلا قمراً في الكلام. وإذا فلت ابتسامها فهل ترى الحروف إلاّ الفجر الندي وإذا قلت هي فهل ترى إلاّ ضمير الطبيعة التي تأخذ عنها الإنسانية دينها؟ أة لو تعلم أيها القمر من هي!</tei:p>
-            <byline change="#d2e198"><persName>مصطفى صادق الرافعي</persName></byline>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:410 viaf:236524859">
+                            <forename xml:lang="ar">مصطفى</forename>
+                            <forename xml:lang="ar">صادق</forename>
+                            <surname xml:lang="ar">الرافعي</surname>
+                        </persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="section">
             <head>في رياض الشعر</head>
@@ -346,9 +350,9 @@
                   <tei:seg>يؤخرُهُ وَجَلْ الواجلِ</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73"><persName>داود عمون</persName></tei:p>
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:1677">داود عمون</persName></tei:p>
             <tei:p change="#d2e73">إن في هذه الأبيات لصورةً معنوية لشاعرها الكبير. ولئن كنا قد اخترناها لهذا الجزء فلأنها</tei:p>
-            <tei:p change="#d2e73">أشبه شيءٍ بمرآةٍ تتجلى فيها نفس داود بك عمون. ففي الجزء الأوَّل منها وصفٌ ينطبق على الشاعر انطباقاً تاماً , وفي سائرها أفكار ومبادئ عرفها الناس في هذا الرجل المتقد ذكاءً وعزماً. فهي لمن عرفوا <persName>داود عمون</persName> ولمن لم يعرفوه صورة عنهُ وعن أفكاره طبق الأصل وإنما نشرناها مع صورتهِ لتكون متممة لها.
+            <tei:p change="#d2e73">أشبه شيءٍ بمرآةٍ تتجلى فيها نفس داود بك عمون. ففي الجزء الأوَّل منها وصفٌ ينطبق على الشاعر انطباقاً تاماً , وفي سائرها أفكار ومبادئ عرفها الناس في هذا الرجل المتقد ذكاءً وعزماً. فهي لمن عرفوا <persName change="#d3e209" ref="oape:pers:1677">داود عمون</persName> ولمن لم يعرفوه صورة عنهُ وعن أفكاره طبق الأصل وإنما نشرناها مع صورتهِ لتكون متممة لها.
 <pb n="n3-p258" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1367.xhtml"/>
 
 
@@ -750,7 +754,10 @@
                   <tei:seg>ن إذ الشمس غُيّبتْ في الحجاب</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73"><persName>خليل مطران</persName>
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:931 viaf:102460074">
+                            <forename xml:lang="ar">خليل</forename>
+                            <surname xml:lang="ar">مطران</surname>
+                        </persName>
 <pb n="n3-p263" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1372.xhtml"/>
 
 
@@ -824,7 +831,7 @@
 بسلامة القلب وشدّة التأثير. ولكن إذا علق قلبهنّ بأحد فمن الصعب أن يخلص من أيديهنّ لشدة مفعول الغرام والانتقام في قلوبهنّ السليمة. ومن العادات الخاصة بأهل الأندلس , والمنقوطة طبعاً عن العرب , إن الشاب لا يقدر أن يقابل خطيبته ولا يكلمها مباشرة إلا بعد مرور بضعة أشهر على عقد الخطبة ويجب أن يتردّد في تلك الأثناء إلى منزل والدها دون أن يصعد إلى الدور الأعلى حيث تكون خطيبته فيضعون له كرسيّاً في أول المدخل وعروستهُ تكلمهُ قليلاً من نافذة البيت. وفي أيام الآحاد والأعياد - وما أكثر الأعياد في هذه البلاد - عند ذهاب الخطيبة إلى الكنيسة يجب على الخاطب أن يتتبع خطواتها , وعليها أن تحاول الإِعراض عنهُ وتتظاهر بعدم الرغبة فيهِ. وفي أثناء الخطبة يجب على الفتاة أن تظهر أكثر من ألف</tei:p>
             <tei:p change="#d2e73">مرة عدم رغبتها في الاقتران , ومع ذلك عند مجيء خطيبها في الساعة المحددة إلى البيت يجب عليها أن تطل من الشباك وتكلمه. وسنجيء في مقالٍ آتٍ على ذكر ما نشاهده من أحوال الأندلس</tei:p>
             <tei:p change="#d2e73">مدريد</tei:p>
-            <byline change="#d2e198"><persName>نجيب زلزل</persName></byline>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:2593">نجيب زلزل</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>من إدارة الزهور</head>
@@ -907,7 +914,7 @@
          <tei:div change="#d2e64" type="item">
             <head>صور الشعر</head>
             <tei:p change="#d2e73">إن للنفس لنزعات تختلف باختلاف عواملها , وكأنها أمام تلك العوامل لوحة الصوَر المتحركة تنطبع عليها صوَر بما تتلوها وهكذا. فهي مسرح تتعاقب عليهِ روايتنا السرور والابتهاج والوحشة واليأس , فبينا ترى المرء يهتز اليوم طرباً إذ تراه في الغد ينقبض غماً , وما الحياة التي حارت في تكييفها الإفهام إلا مجموعة لمختلف تلك المظاهر. أما تذكارات أويقات البشر والإيناس فإنها تبدد عن النفس المحزونة غياهب الكرب وتقشع سحب الاكدار , إذ هي فجر السرور يطرد ليل الهموم فيجعل للإنسان من ضيقه فرجاً ومن وحشته أنساً. وأحسن تلك التذكارات لغة للفؤاد في أويقات الفرح يرنّ صداها في الوجدان فتلقي على مشاعر النفس معنى السعادة. السعادة خيال ما تحقق لإنسان , وسراب قصده الناس فتقطعت بهم الأسباب فرضوا من الغنيمة بالإياب , وعندي أنها في وادي الحقيقة اسم لغير مسمى. وما السعادة الحقة إلا في جولان خاطر الشاعر في مسارح الخيال حيت يكون بطلاً لروايات مختلفة , فطوراً يرى نفسه كأنهُ المحب وافاه حبيبه في غفلة العيون , وطوراً بهيم بالطبيعة فتتجلى له في أبهى حللها , وطوراً يترقب طلعة البدر فيظهر له قوسه من وراء خط الأفق المرئي تعلوه طبقة من ذهب ابريز فيستعطفهُ ليملي عليهِ كثيراً من معاني الخيال , وطوراً يرى من ظلام الليل شريكاً له في وجده , وفي هاطل المطر تقديراً لكمية مسكوب دمعه , وفي وميض البرق شبهاً لخلب أمانيه , وفي طرف النجم ذكرى ليل الأماني , وفي أشعة الصباح صورة الأمل الوفر , وفي مجرى الغدير جلال الخيال؛ وطوراً يحب الجمال حقيقة؛ وطوراً يحبهُ خيالاً. لا شيء أروح للنفس المحزونة من أن ينشر أمامها مطويّ صفحات رقصت عليها ريشة الخيال فجاءت صوَراً ما وُجد أبدع منها في معرض الحياة. تلك صوَر الشعر</tei:p>
-            <byline change="#d2e198"><persName>أمين حمدي</persName>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:1143">أمين حمدي</persName>
 <pb n="n3-p281" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1390.xhtml"/>
 
 
@@ -986,7 +993,11 @@
          <tei:div change="#d2e64" type="section">
             <head>أزهار وأشواك</head>
             <tei:p change="#d2e73">من بحمدون إلى الرافعي</tei:p>
-            <tei:p change="#d2e73">نشر السيد <persName>مصطفى صادق الرافعي</persName> في الجزء الثالث من هذه المجلة قصيدة لطيفة عنوانها إلى بحمدون - وبحمدون قرية جميلة في جبل لبنان - تأوَّه فيها من النوى وسكب عبرات البين على فراق ليلى. فوصل صدى زفراتهِ إلى تلك الربوع , وجاءَه جواب ليلى منظوماً بقلم حبيب أفندي ثابت. نسمةٌ لطيفة هبَّت من قمم لبنان فأحببتُ أن تسري إلى القرَّاء من نافذتي , لاسيما وقد حُرِم الكثيرون في هذا الصيف من نسيم لبنان البليل؛ وإليك بعض ما في الجواب:</tei:p>
+            <tei:p change="#d2e73">نشر السيد <persName change="#d3e209" ref="oape:pers:410 viaf:236524859">
+                            <forename xml:lang="ar">مصطفى</forename>
+                            <forename xml:lang="ar">صادق</forename>
+                            <surname xml:lang="ar">الرافعي</surname>
+                        </persName> في الجزء الثالث من هذه المجلة قصيدة لطيفة عنوانها إلى بحمدون - وبحمدون قرية جميلة في جبل لبنان - تأوَّه فيها من النوى وسكب عبرات البين على فراق ليلى. فوصل صدى زفراتهِ إلى تلك الربوع , وجاءَه جواب ليلى منظوماً بقلم حبيب أفندي ثابت. نسمةٌ لطيفة هبَّت من قمم لبنان فأحببتُ أن تسري إلى القرَّاء من نافذتي , لاسيما وقد حُرِم الكثيرون في هذا الصيف من نسيم لبنان البليل؛ وإليك بعض ما في الجواب:</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>ليلى تحيَّيك من أعلى بحمدونِ</tei:seg> 
@@ -1069,7 +1080,13 @@
             </lg>
             <tei:p change="#d2e73">بقي سؤالٌ لي أوجهّهُ إلى الرافعي وهو: هل يلاكَ يا أبا السامي أخيلية أم خيالية. .؟</tei:p>
             <tei:p change="#d2e73">سوق عُكاظ</tei:p>
-            <tei:p change="#d2e73">عُقدت هذه السوق في مصر في فندق الكونتننتال منذ شهر من الزمن على طرزٍ حديث وأسلوب شائق جميل ترأسها أمير الشعر في مصر , <persName>أحمد شوقي</persName> بك , وتصدّرها ناظر المعارف العمومية , <persName>أحمد حشمت</persName> باشا , وحضرها كل ذي مقامٍ في دولة الأدب , وتبارى في ميدانها نثراً ونظماً , أشهر من نثر وأبلغ من نظم. لم يكن موضوعها المفاخرة بين قبيلتين ولا التحكيم بين شاعرين , بل كرام <persName>حافظ إبراهيم</persName> الشاعر وتهنئته بيكويته. في الجزء الفائت قلتُ كلمتي في الرتب والألقاب , وفي لقب حافظ على الأخص. وكلمتي اليوم قاصرة على هذه الحفلة أو بالأحرى على الإشارة إليها فقط. لأني كنت قد جمعت لقرّائي أهم ما قيل فيها من طيب الشعر وجيد الخطب. ثم نظرت إلى الأتعاب والمشقات التي كابدها سليم سركيس فقدّرتها قدرها , وأبيت أن أحرمهُ الانتفاع بتعبه كما فعل بتوجيه أنظار القراء إلى العدد الأخير من مجلته وقد دوّن فيه جميع القصائد والخطب التي قيلت في حافظ. فأهنئه وأهنئ شريكه في العمل <persName>داود بركات</persName> فإنهما أقاما هذه الحفلة فأكرما الأدب ورفعا شأن الأدباء وحملاً فريقاً من كتَّابنا على شحذ قريحتهم بعد أن كادت تصدأ فسمعنا نغمات مطربة كانت قد خمدت حيناً من الزمن.
+            <tei:p change="#d2e73">عُقدت هذه السوق في مصر في فندق الكونتننتال منذ شهر من الزمن على طرزٍ حديث وأسلوب شائق جميل ترأسها أمير الشعر في مصر , <persName change="#d3e209" ref="oape:pers:768 viaf:7540373">
+                            <forename xml:lang="ar">أحمد</forename>
+                            <surname xml:lang="ar">شوقي</surname>
+                        </persName> بك , وتصدّرها ناظر المعارف العمومية , <persName change="#d3e209" ref="oape:pers:1060">أحمد حشمت</persName> باشا , وحضرها كل ذي مقامٍ في دولة الأدب , وتبارى في ميدانها نثراً ونظماً , أشهر من نثر وأبلغ من نظم. لم يكن موضوعها المفاخرة بين قبيلتين ولا التحكيم بين شاعرين , بل كرام <persName change="#d3e209" ref="oape:pers:245 viaf:32410755">
+                            <forename xml:lang="ar">حافظ</forename>
+                            <surname xml:lang="ar">إبراهيم</surname>
+                        </persName> الشاعر وتهنئته بيكويته. في الجزء الفائت قلتُ كلمتي في الرتب والألقاب , وفي لقب حافظ على الأخص. وكلمتي اليوم قاصرة على هذه الحفلة أو بالأحرى على الإشارة إليها فقط. لأني كنت قد جمعت لقرّائي أهم ما قيل فيها من طيب الشعر وجيد الخطب. ثم نظرت إلى الأتعاب والمشقات التي كابدها سليم سركيس فقدّرتها قدرها , وأبيت أن أحرمهُ الانتفاع بتعبه كما فعل بتوجيه أنظار القراء إلى العدد الأخير من مجلته وقد دوّن فيه جميع القصائد والخطب التي قيلت في حافظ. فأهنئه وأهنئ شريكه في العمل <persName change="#d3e209" ref="oape:pers:1673">داود بركات</persName> فإنهما أقاما هذه الحفلة فأكرما الأدب ورفعا شأن الأدباء وحملاً فريقاً من كتَّابنا على شحذ قريحتهم بعد أن كادت تصدأ فسمعنا نغمات مطربة كانت قد خمدت حيناً من الزمن.
 <pb n="n3-p288" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1397.xhtml"/>
 
 

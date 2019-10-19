@@ -54,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+      <revisionDesc><tei:change when="2019-10-19" who="#pers_TG" xml:id="d3e209" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
@@ -70,8 +70,14 @@
             <tei:p change="#d2e73"> - بتاريخ: <date when="1913-05-01">1913-05-01</date> </tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">
-            <head>شاعرية <persName>خليل مطران</persName></head>
-            <tei:p change="#d2e73">على راية الفرقة يعلّق القائدُ شارةَ المجد والشرف , عندما يبلي أفراد تلك الفرقة البلاء الحسن في مواقع القتال. . . وفي ميدان النهضة الأبية الحديثة أبلى شعراؤنا بلاءً حسناً , فكأن سمو أفندينا المعظَّم قد علَّق تلك الشارة على رايتهم إذ وضعها على صدر شاعرنا <persName>خليل مطران</persName>. . . فليهنأ الخليل لواءَ الشعر العصري؛ وليهنأ النيشان الذي حلَّ على صدر يحوي الدرَّ والجوهر؛ وليُحمَد مليكُ البلاد على آلائه وليُشكر. . . . أما بعد. فقد رأيت أن خير ما يصاغ من التهاني في مثل هذا الاحتفال الزاهر هو حديثٌ أُطار حكم إياه , أيها السادة , عن المحتفَل بهِ وعن شاعريته. فأقول:</tei:p>
+            <head>شاعرية <persName change="#d3e209" ref="oape:pers:931 viaf:102460074">
+                            <forename xml:lang="ar">خليل</forename>
+                            <surname xml:lang="ar">مطران</surname>
+                        </persName></head>
+            <tei:p change="#d2e73">على راية الفرقة يعلّق القائدُ شارةَ المجد والشرف , عندما يبلي أفراد تلك الفرقة البلاء الحسن في مواقع القتال. . . وفي ميدان النهضة الأبية الحديثة أبلى شعراؤنا بلاءً حسناً , فكأن سمو أفندينا المعظَّم قد علَّق تلك الشارة على رايتهم إذ وضعها على صدر شاعرنا <persName change="#d3e209" ref="oape:pers:931 viaf:102460074">
+                            <forename xml:lang="ar">خليل</forename>
+                            <surname xml:lang="ar">مطران</surname>
+                        </persName>. . . فليهنأ الخليل لواءَ الشعر العصري؛ وليهنأ النيشان الذي حلَّ على صدر يحوي الدرَّ والجوهر؛ وليُحمَد مليكُ البلاد على آلائه وليُشكر. . . . أما بعد. فقد رأيت أن خير ما يصاغ من التهاني في مثل هذا الاحتفال الزاهر هو حديثٌ أُطار حكم إياه , أيها السادة , عن المحتفَل بهِ وعن شاعريته. فأقول:</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>منشدٌ للغرامِ لم يشدُ إلاّ</tei:seg> 
@@ -90,7 +96,10 @@
                   <tei:seg>باقياً منهُ في السطورِ خفيَّا</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">هي أبيات كتبها <persName>خليل مطران</persName> على الصفحة الأولى من ديوان الشاعر الفرنسوي ألفرد ده موسه ولا يسع من ينظر فيها إلا أن يقابل بين حالَتيْ الواصف والموصوف , وشعر الأول والثاني , فيجدها تنطبق أتمّ الانطباق على الاثنين: كأن الشاعرَ العربي وصف حاله لما وصف حال الشاعر الإفرنجي. . . من المعروف أن لحياة الكاتب , والمحيط الذي ينشأ ويعيش فيهِ تأثيراً كبيراً في كتابته. ويرى على ذلك دليلاً واضحاً في شعر خليل: دبَّ شاعرنا وشبَّ تحت سماء سوريا الجميلة , بين جبالها وقممها البيضاء , أمام بحرها الصافي وأمواجه الزرقاء , فجاءَ شعره رقيقاً لطيفاً. . . ترعرع وكبر في وادي النيل بين آثار المدينة القديمة وصروحها العظيمة , فكان إنشاده فخماً عظيماً. عاش تارة في القرى والجبال , فتشرَّب حب الفضيلة والطبيعة , فأسمعنا الشعر زاهراً طاهراً؛ وعاش طوراً في المدن , فراعه ما فيها من التعاسة والشقاء , فألقى علينا إنشاده مبكياً زاجراً. قال في مقدمة ديوانه أن القارئ يدارجهُ مدراجةً تمثِّلهُ لديهِ في كل حالة مرَّ بها ولقد أصاب في ذلك , فإن شعره بالحقيقة رسمٌ تمثَّلت لنا فيهِ كل أطوار صاحبه , وارتسمت بين أبياتهِ كل عواطف قلبه , وتأثرات فؤاده. وهذا سرُّ محاسن شعره العديدة. وصف لنا خليلٌ حياته في صبا , بين آثار بعلبك , فتمثلناه:
+            <tei:p change="#d2e73">هي أبيات كتبها <persName change="#d3e209" ref="oape:pers:931 viaf:102460074">
+                            <forename xml:lang="ar">خليل</forename>
+                            <surname xml:lang="ar">مطران</surname>
+                        </persName> على الصفحة الأولى من ديوان الشاعر الفرنسوي ألفرد ده موسه ولا يسع من ينظر فيها إلا أن يقابل بين حالَتيْ الواصف والموصوف , وشعر الأول والثاني , فيجدها تنطبق أتمّ الانطباق على الاثنين: كأن الشاعرَ العربي وصف حاله لما وصف حال الشاعر الإفرنجي. . . من المعروف أن لحياة الكاتب , والمحيط الذي ينشأ ويعيش فيهِ تأثيراً كبيراً في كتابته. ويرى على ذلك دليلاً واضحاً في شعر خليل: دبَّ شاعرنا وشبَّ تحت سماء سوريا الجميلة , بين جبالها وقممها البيضاء , أمام بحرها الصافي وأمواجه الزرقاء , فجاءَ شعره رقيقاً لطيفاً. . . ترعرع وكبر في وادي النيل بين آثار المدينة القديمة وصروحها العظيمة , فكان إنشاده فخماً عظيماً. عاش تارة في القرى والجبال , فتشرَّب حب الفضيلة والطبيعة , فأسمعنا الشعر زاهراً طاهراً؛ وعاش طوراً في المدن , فراعه ما فيها من التعاسة والشقاء , فألقى علينا إنشاده مبكياً زاجراً. قال في مقدمة ديوانه أن القارئ يدارجهُ مدراجةً تمثِّلهُ لديهِ في كل حالة مرَّ بها ولقد أصاب في ذلك , فإن شعره بالحقيقة رسمٌ تمثَّلت لنا فيهِ كل أطوار صاحبه , وارتسمت بين أبياتهِ كل عواطف قلبه , وتأثرات فؤاده. وهذا سرُّ محاسن شعره العديدة. وصف لنا خليلٌ حياته في صبا , بين آثار بعلبك , فتمثلناه:
 <pb n="n4-p115" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1798.xhtml"/>
 
 
@@ -329,7 +338,10 @@
 
 
                <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e181" value="2" xml:lang="ar">٢</tei:num>  - </hi>الشعور</tei:p>
-            <tei:p change="#d2e73">قال <persName>خليل مطران</persName> في مقدمة ديوانه: وليس أكثر شعري هذا بين الطرس والمداد إلاَّ مدامع ذرفتها , وزفرات صعَّدتهاو وقطع من الحياة بدَّدتها؛ ثم نظمتها فتوهمت أني استعدتها. وهكذا يتحقق لنا قوله الأول أن شعره ليس فقط شعر خيال. بل هو أيضاً شعر حياة ومن القول ما يؤثر في النفس وأنّ خلا من كل صورة , لأنهُ صورة الحياة الحقيقية. وفي شعر خليل الشيء الكثير من هذا القبيل. كقوله مثلاً في مشاكاة وهي من أوليات قصائده:</tei:p>
+            <tei:p change="#d2e73">قال <persName change="#d3e209" ref="oape:pers:931 viaf:102460074">
+                            <forename xml:lang="ar">خليل</forename>
+                            <surname xml:lang="ar">مطران</surname>
+                        </persName> في مقدمة ديوانه: وليس أكثر شعري هذا بين الطرس والمداد إلاَّ مدامع ذرفتها , وزفرات صعَّدتهاو وقطع من الحياة بدَّدتها؛ ثم نظمتها فتوهمت أني استعدتها. وهكذا يتحقق لنا قوله الأول أن شعره ليس فقط شعر خيال. بل هو أيضاً شعر حياة ومن القول ما يؤثر في النفس وأنّ خلا من كل صورة , لأنهُ صورة الحياة الحقيقية. وفي شعر خليل الشيء الكثير من هذا القبيل. كقوله مثلاً في مشاكاة وهي من أوليات قصائده:</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>أرى مثل سهديَ في الكوكبِ</tei:seg> 
@@ -666,13 +678,16 @@
 <pb n="n4-p128" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1811.xhtml"/>
 
 
-هذا بعض الشيء عن شاعرية <persName>خليل مطران</persName> وعبقريته. وقد رأيتم أيها السادة الخطة الجديدة التي اختطها للشعر العربي - وهي خطة المستقبل. فحق لنا بعد ذلك أن تعده أستاذاً علّماً في هذا الفن. وحق لعصرنا أن يفاخر به وبأمثاله من شعرائنا النابغين أبهى عصور اللغة العربية. أجل يا سادة , جال الشعراء في عصر العباس جولة وصلوا بها حبل النسب بين العصرَين الزاهرَين , والعهدَين الناضرَين: عهد بها الرشيد والمأمون , وعهد عباسنا الميمون. فعقدت في هذا لشوقي في ذلك الألويةُ لابن الوليد وابن هانئ. وعقدت في هذا لشوقي وصبري وحافظ ومطران.</tei:p>
+هذا بعض الشيء عن شاعرية <persName change="#d3e209" ref="oape:pers:931 viaf:102460074">
+                            <forename xml:lang="ar">خليل</forename>
+                            <surname xml:lang="ar">مطران</surname>
+                        </persName> وعبقريته. وقد رأيتم أيها السادة الخطة الجديدة التي اختطها للشعر العربي - وهي خطة المستقبل. فحق لنا بعد ذلك أن تعده أستاذاً علّماً في هذا الفن. وحق لعصرنا أن يفاخر به وبأمثاله من شعرائنا النابغين أبهى عصور اللغة العربية. أجل يا سادة , جال الشعراء في عصر العباس جولة وصلوا بها حبل النسب بين العصرَين الزاهرَين , والعهدَين الناضرَين: عهد بها الرشيد والمأمون , وعهد عباسنا الميمون. فعقدت في هذا لشوقي في ذلك الألويةُ لابن الوليد وابن هانئ. وعقدت في هذا لشوقي وصبري وحافظ ومطران.</tei:p>
             <tei:p change="#d2e73">فوضع مولانا - حرسه الله - بيده الكريمة آية رضاه على صدر علَمها الخفاق فوق رأس فارسها السباق. كما يضع القائد شارة الفخر على لواء النصر - ولفرسان البيان أسوة بفرسان الميدان.</tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>اليمين</head>
             <tei:p change="#d2e73">إنما يحملُ الرَّجلَ على الحلف إحدى هذه الخِلال: إما مهانة يجدها في نفسه وضرَعٌ وحاجةٌ إلى تصديق الناس إيَّاه؛ وإما عيٌّ بالكلام حتى يجعل الإيمان لهُ حشواً ووصلاً؛ وإما تهمةٌ قد عرَفها من الناس لحديثهِ فهوَ يُنزل نفسهُ منزلةَ مَن لا يُقبَل منهُ قولٌ إلاَّ بعد جهد اليمين؛ وأما عبثٌ في القول , أو إرسال اللسان على غيرِ رويَّةٍ ولا تقدير.</tei:p>
-            <byline change="#d2e198"><persName>ابن المقفع</persName>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:185 viaf:89743196">ابن المقفع</persName>
 <pb n="n4-p129" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1812.xhtml"/>
 
 
@@ -748,7 +763,10 @@
 
 
 المضادَّة فرأوا أن الخير كل الخير في اللذات وإنالة النفس كل ما تشتهيه. وكذلك لا يعجب من قد وصفنا حظه من الإطلاع لأَقوام يبكون , لكثرة ما يضحك الناس , وآخرين يضحكون من كثرة ما يبكون , فسبحان من خلق بين هؤلاء البشر جذور الائتلاف والاختلاف , وجعل هذا التباين في الأفكار , آيةً خالدة قاضية بمزيد التبصر والاعتبار.</tei:p>
-            <byline change="#d2e198"><persName>عبد الحميد الزهراوي</persName></byline>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:419 viaf:305411080">
+                            <forename xml:lang="ar">عبد الحميد</forename>
+                            <surname xml:lang="ar">الزهراوي</surname>
+                        </persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>الحب</head>
@@ -795,7 +813,7 @@
 
 كل منهم عن المثل الأعلى في خياله إلى ما دونه من الأمثلة. ولا يتشدَّد في التمسك بالاعتبارات الإضافية كفقر الزوج أو مركز أبيها في الحكومة. . . الخ وأن يتساهلوا بعض الشيء ولو في بعض الشروط المعقولة عندهم غير المقبولة عندنا نحن الآباء لا بحجة العقل ولا الدين ولكن بحكم العادة الطويلة. هل يستطاع الأمل بأن هؤلاء المماطلين</tei:p>
             <tei:p change="#d2e73">المعتصبين يخففون عنا كابوس الخوف من قلة النسل في الفرقة المتعلمة من الطبقة الوسطى؟ أنهم لو ذاقو تلك السعادة الزوجية , وشملهم سلام العيشة العائلية , وشعروا بلذة عواطف الأبوَّة لما احتاجوا إلى ألحافنا في المسئلة , ولندموا على ما ضيعوا من ربيع الحياة.</tei:p>
-            <byline change="#d2e198"><persName>أحمد لطفي السيد</persName></byline>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:1079">أحمد لطفي السيد</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>أقوال مأثورة</head>
@@ -962,7 +980,10 @@
                   <tei:seg>فؤادي وعيني في ضياءِ وحندسِ</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73"><persName>أحمد محرم</persName></tei:p>
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:910 viaf:60500457">
+                            <forename xml:lang="ar">أحمد</forename>
+                            <surname xml:lang="ar">محرم</surname>
+                        </persName></tei:p>
             <tei:p change="#d2e73">فؤاد حافظ</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
@@ -995,7 +1016,10 @@
                   <tei:seg>كلّ محالٍ في الهوى ممكنُ</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73"><persName>حافظ إبراهيم</persName>
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:245 viaf:32410755">
+                            <forename xml:lang="ar">حافظ</forename>
+                            <surname xml:lang="ar">إبراهيم</surname>
+                        </persName>
 <pb n="n4-p145" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1828.xhtml"/>
 
 
@@ -1255,7 +1279,12 @@
                   <tei:seg>بنضرتهِ فلا عاد الربيعُ</tei:seg>
                </tei:l>
             </lg>
-            <byline><persName>ولي الدين يكن</persName></byline>
+            <byline><persName change="#d3e209" ref="oape:pers:2834 viaf:36771043">
+                            <forename xml:lang="ar">
+                                <addName type="khitab" xml:lang="ar">ولي الدين</addName>
+                            </forename>
+                            <surname xml:lang="ar">يكن</surname>
+                        </persName></byline>
             <tei:p change="#d2e73">شاعر يسلو</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
@@ -1301,7 +1330,8 @@
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>الإنشاء المترهل</head>
-            <tei:p change="#d2e73">شرح <persName>الدكتور شميل</persName> يطبع كتابه حوادث وخواطر وأتيح لنا أن نقف على مقدمته فاقتطفنا منها الكلمة الآتية في انتقاد هذا النوع من الإنشاء الذي ضاع فيه فريق من كتاب العصر قال:</tei:p>
+            <tei:p change="#d2e73">شرح <persName change="#d3e209" ref="oape:pers:3303">
+                            <roleName type="title">الدكتور</roleName>شميل</persName> يطبع كتابه حوادث وخواطر وأتيح لنا أن نقف على مقدمته فاقتطفنا منها الكلمة الآتية في انتقاد هذا النوع من الإنشاء الذي ضاع فيه فريق من كتاب العصر قال:</tei:p>
             <tei:p change="#d2e73">عنيتُ في الصيف الماضي  <tei:num type="auto-markup" change="#d2e181" value="1912" xml:lang="ar">١٩١٢</tei:num>  بتقييد بعض حوادث مما مرَّ عليَّ , وتَعليق بعض خواطر مما يعنَّ لي , عسايَ أن أجد فيها ما أشغل بهِ أوقات الفراغ. وأفرّج كُرب العزلة. حتى إذا كاد الصيفُ ينقضي نشبتِ الحرب البلقانية , فوقفتُ في تلك حيث وقفت , وعلَّقت على هذه ما علَّقت. ثم ضممتُ إلى ذلك بعض ما تيسر لي العثور عليهِ من مطويٍّ لم يُنشر , ومنشورٍ مبعثر. وجمعتُ الكل في هذا الكتاب , فجاءَ من كل حرش عصا أو من كل نبتة زهرة على ذوق القارئ. وسمَّيتهُ حوادث وخواطر حوادث هي بعض مذكَّراتي في حياتي القليلة الاختلاط الكثيرة الاعتزال. إن لم تتسع للرواية فقد تستوقف بدقة التحليل؛ وإن أقفزت من القديم المأنوس فقد يكون فيها شيءٌ من الجديد الطليّ؛ وأن كثر فيها الجدُّ فقد لا تخلو من الفكاهة؛ وإن كثرت فيها المعلَّقات الخصوصية فلم أُهمِل من خلالها المرامي العمومية. حوادث لم أنقلها عن يومية مدوَّن فيها كلُّ ما كان يعرض لي كما يفعل البعض , ولاسيما الإفرنج في مذكَّراتهم , ولكنني اعتمدتُ فيها على ذاكرةٍ قلما تخونني في الوقائع , وغن كانت كثيراً في التاريخ. وخواطر هي بعض أفكاري أُطلقها تجول في ما حولي , وتمرُّ بي حتى أعماق نفسي , وتنطق عن نظري الخاصّ ولو خالفت أحكامي أحكام سواي. وإن لم أدَّعِ لها العصمة فإني أربأُ بها أن تميلَ مع الهوى ولو لَقيَتْ ما لَقيَتْ من عواصف
 <pb n="n4-p149" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1832.xhtml"/>
 
@@ -1313,7 +1343,8 @@
 
 فهم القارئ حيث يجب أن يُستحثّ , ونحن إن لم نكن في عصر بالقياس إلينا فإلى عصر بالقياس إلى سوانا الوقت فيه ثمين , عسانا أن لا نبقي مقيدين في الأغلال على الأجيال. واستعملتُ كثيراً من ألفاظهم التي تعبر جيداً عن المراد , والتي إن وجد بعد العناء في معجم اللغة ما يقوم مقامها , فقد يعزُّ حتى على الأديب مغزاه حتى يتقصاه مكانه , والمقصود من الكتابة ليس الإغلاق. كما أني أثبتُّ كثيراً من كلامهم الجاري مجرى المثل , لأن الأمثال حكمة الشعوب التي تعبر عن أحوالهم وَمجرى أفكارهم في كل أطوارهم. ونهجت نهج الأمم الراقية من متقدمين ومتأخرين , ونهج العرب أنفسهم في أبَّان حضارتهم في مستحدثات الصناعة ومستنبطات العلم , فلم أتحوّل عن مسمياتها في لغاتهم , إلاّ حيث أمنت اللبس ولم أخشَ التشويش , ولاسيما في هذا العصر الكهربائي الذي يتدفق فيه المستجد كل يوم تدفق السيل , حتى صار التحوُّل عنهُ إلى أوضاع الاجتهاد خروجاً عن المأنوس المدرك إلى الوحشيّ المغلَق , متبعاً في كل ذلك سنّة التحوُّل التي تتناول كل شيءِ في الطبيعة والإنسان في العمران , والتي لا يقوى عليها حتى ولا الجامدون المتمكنون من جمودهم مهما جمدوا. حوادث وخواطر لم أدارِ فيها ولم أحابِ , وإن أغضب ذلك النفوس التي لم تألف إلا الهدهدة. وإذا كنت أُكثر فيها الانتقاد أطلقهُ على ما حولي وأتناول بهِ حتى</tei:p>
             <tei:p change="#d2e73">نفسي فلأن الانتقاد يبعث على التفكير. عسى أن يغلب علينا ما لا نحبَّ مما يُحمد فنحسَّ بفكرنا لا أننا نفتكر دائماً بشعورنا وقلما تنجح أعمال العقل إذا غلبته العواطف. ولا أخشى حملات العقلاء , فاحترام كل فكر ضروري لحياة الفكر. والإصغاء إلى كل نظر واجب. وأدفع حملات سواهم متستنصراً عليهم أبناءَهم من أصلابهم فهم الذين يثأرون منهم. يثأرون الإفراد المجنيّ عليهم والمجتمع الذي يسيئون إليهِ. وسرعان ما يكون هذا الاثئار اليوم.</tei:p>
-            <byline change="#d2e198"><persName>الدكتور شميل</persName>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:3303">
+                            <roleName type="title">الدكتور</roleName>شميل</persName>
 <pb n="n4-p151" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1834.xhtml"/>
 
 
@@ -1338,7 +1369,7 @@
 
 رجل كحشمت باشا دلّت سوابق أياديهِ على اللغة العربية على أن يديه لا تنكمشان عن مساعدتها. ففي قليل من عناية أمراء هذه النهضة يُحقق الأمل ويتم الرجاء. وأول حلقة من حلقات هذا النهوض إنشاء ندوة للمشتغلين بالأدب يسنّ لها نظام يربط أبناءَه في مصر وسوريا والعراق حتى والمهاجر الأميركية. فتكون هذه الندوة أشبه شيءٍ بغرّة الفجر الآتي العربي , ونجمة هذه اللغة التي تهدي بنيها إلى أفضل السبل للنهوض العربية ففي تنظيمها وتسييرها في سبلها خير ضامن لها بالبقاء. فإلى العمل والنهوض أيها الأدباء</tei:p>
             <tei:p change="#d2e73">مصر</tei:p>
-            <byline change="#d2e198"><persName>إبراهيم سليم نجار</persName></byline>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:1197">إبراهيم سليم نجار</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>عهود الغادات</head>
@@ -1389,7 +1420,11 @@
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>الحفلة الإكرامية</head>
-            <tei:p change="#d2e73">ل<persName>خليل أفندي مطران</persName></tei:p>
+            <tei:p change="#d2e73">ل<persName change="#d3e209" ref="oape:pers:931 viaf:102460074">
+                            <forename xml:lang="ar">خليل</forename>
+                            <roleName type="title" xml:lang="ar">افندي</roleName>
+                            <surname xml:lang="ar">مطران</surname>
+                        </persName></tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>حُيّيتَ يا وطناً القلوبُ إلى</tei:seg> 
@@ -1406,8 +1441,15 @@
                   <tei:seg>يُلقى وحبلٌ على الأهرام منبسطُ</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73"><persName>إبراهيم اليازجي</persName></tei:p>
-            <tei:p change="#d2e73">في الحفلة التي أقامتها مجلة سركيس في الرابع والعشرين من الشهر الماضي , احتفالاً بالأنعام على <persName>خليل أفندي مطران</persName> بالمجيدي الثالث , تجلَّت هذه الشمس بأجلى مظاهرها , وألقت من قرصها الذهبي المتقد أشعة الحبّ والوئام والصفاء على مصر وصوريا اللتين كان يمثلها في دار الجامعة نخبة الأدباء والفضلاء والوجهاء في القطرين الشقيقين.
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:2808 viaf:64154472">
+                            <forename xml:lang="ar">إبراهيم</forename>
+                            <surname xml:lang="ar">اليازجي</surname>
+                        </persName></tei:p>
+            <tei:p change="#d2e73">في الحفلة التي أقامتها مجلة سركيس في الرابع والعشرين من الشهر الماضي , احتفالاً بالأنعام على <persName change="#d3e209" ref="oape:pers:931 viaf:102460074">
+                            <forename xml:lang="ar">خليل</forename>
+                            <roleName type="title" xml:lang="ar">افندي</roleName>
+                            <surname xml:lang="ar">مطران</surname>
+                        </persName> بالمجيدي الثالث , تجلَّت هذه الشمس بأجلى مظاهرها , وألقت من قرصها الذهبي المتقد أشعة الحبّ والوئام والصفاء على مصر وصوريا اللتين كان يمثلها في دار الجامعة نخبة الأدباء والفضلاء والوجهاء في القطرين الشقيقين.
 <pb n="n4-p162" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1844.xhtml"/>
 
 
@@ -1445,7 +1487,11 @@
                   <tei:seg>واحتفلنا نزيدُهُ إكراما</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">وما أبلغ هذه الشهادة إذا جاءت تزكيتها من <persName>حفني بك ناصف</persName> القائل:</tei:p>
+            <tei:p change="#d2e73">وما أبلغ هذه الشهادة إذا جاءت تزكيتها من <persName change="#d3e209" ref="oape:pers:952">
+                            <forename xml:lang="ar">حفني</forename>
+                            <roleName type="title" xml:lang="ar">بك</roleName>
+                            <surname xml:lang="ar">ناصف</surname>
+                        </persName> القائل:</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>يا شعر مطران لعب</tei:seg> 
@@ -1472,7 +1518,11 @@
                   <tei:seg>تهواهُ واستنزلتَ بدركْ</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">وقال <persName>نقولا أفندي رزق الله</persName>:</tei:p>
+            <tei:p change="#d2e73">وقال <persName change="#d3e209" ref="oape:pers:683 viaf:19561669">
+                            <forename xml:lang="ar">نقولا</forename>
+                            <roleName type="title" xml:lang="ar">أفندي</roleName>
+                            <surname xml:lang="ar">رزق الله</surname>
+                        </persName>:</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>تأمّلْ كرافائيلَ وارسمْ فهذهِ</tei:seg> 
@@ -1560,7 +1610,10 @@
 
 والأصدقاء , والشعراء والقرَّاء</tei:p>
             <tei:p change="#d2e73">فقال من خطبته النفسية:</tei:p>
-            <tei:p change="#d2e73">ولقد سمعتُ منذ زمانٍ طويل بشهرة ذلك الشاعر الطائر الصيت , فاتهجتُ بما وصل إليَّ من أفكاره السديدة التي تنبئُ عما هو عليهِ من علوٍّ في الهمة , وثبات في الرأي , ووفور في العلم. ولم يكن إعجابي بهِ لما أوتيهِ من المواهب الجليلة في دولة العلم فقط , بل لما تحلّى بهِ أيضاً من الأخلاق الكريمة التي تحمله دائماً على سلوك طريق الاستقامة , وتباعد بينه وبين التحقير للغير , حتى صار بذلك محبوباً مرموقاً بعين الإجلال والاعتبار , متأهباً لنيل المجد والفخار. . . ولستُ أدَّعي أن أقدّم لقراء الزهور في بضع صفحات كل ما قيل في هذه الحفلة النادرة وقد كلَّف سركيس جمعُهُ مئة وستين صفحة من مجلتهِ , ولا أن أصف في سطور قلائل ما شهدتُ ورأيت في دار الجامعة وقد تقصر عن ذلك الصفحات الطوال. غير أنه لا يسعني إلاَّ أن أخصَّ بالذكرِ إخواننا أُدباء لبنان وسوريا , فإنهم أحبوا اغتنام هذه الفرصة لأحكام الروابط الأدبية لمتينة التي تربط الأمتين , فأوفدوا أدبيهم الكبير وشاعرهم البليغ شبلي بك ملاَّط ليمثلهم في هذه الحفلة , فقام بمهمتهِ خير قيام , وأنشد قصيدة عصماءَ اهتزَّ لها السامعون طرباً , كما يحقُّ لموفديهِ أن يهتزُّوا لها عجباً , وقد أكرمت مصر في شخصهِ الكرم أدباءَ المصريين للضيوف الأدباء حدّث ولا حرج. . . . أعود إل الحفلة فأقول: وقد أراد فريقٌ من أصدقاءِ <persName>خليل مطران</persName>
+            <tei:p change="#d2e73">ولقد سمعتُ منذ زمانٍ طويل بشهرة ذلك الشاعر الطائر الصيت , فاتهجتُ بما وصل إليَّ من أفكاره السديدة التي تنبئُ عما هو عليهِ من علوٍّ في الهمة , وثبات في الرأي , ووفور في العلم. ولم يكن إعجابي بهِ لما أوتيهِ من المواهب الجليلة في دولة العلم فقط , بل لما تحلّى بهِ أيضاً من الأخلاق الكريمة التي تحمله دائماً على سلوك طريق الاستقامة , وتباعد بينه وبين التحقير للغير , حتى صار بذلك محبوباً مرموقاً بعين الإجلال والاعتبار , متأهباً لنيل المجد والفخار. . . ولستُ أدَّعي أن أقدّم لقراء الزهور في بضع صفحات كل ما قيل في هذه الحفلة النادرة وقد كلَّف سركيس جمعُهُ مئة وستين صفحة من مجلتهِ , ولا أن أصف في سطور قلائل ما شهدتُ ورأيت في دار الجامعة وقد تقصر عن ذلك الصفحات الطوال. غير أنه لا يسعني إلاَّ أن أخصَّ بالذكرِ إخواننا أُدباء لبنان وسوريا , فإنهم أحبوا اغتنام هذه الفرصة لأحكام الروابط الأدبية لمتينة التي تربط الأمتين , فأوفدوا أدبيهم الكبير وشاعرهم البليغ شبلي بك ملاَّط ليمثلهم في هذه الحفلة , فقام بمهمتهِ خير قيام , وأنشد قصيدة عصماءَ اهتزَّ لها السامعون طرباً , كما يحقُّ لموفديهِ أن يهتزُّوا لها عجباً , وقد أكرمت مصر في شخصهِ الكرم أدباءَ المصريين للضيوف الأدباء حدّث ولا حرج. . . . أعود إل الحفلة فأقول: وقد أراد فريقٌ من أصدقاءِ <persName change="#d3e209" ref="oape:pers:931 viaf:102460074">
+                            <forename xml:lang="ar">خليل</forename>
+                            <surname xml:lang="ar">مطران</surname>
+                        </persName>
 <pb n="n4-p165" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1847.xhtml"/>
 
 
@@ -1571,7 +1624,13 @@
 
 
 عصا حافظ وجزمة الشميّل</tei:p>
-            <tei:p change="#d2e73"><persName>حافظ إبراهيم</persName> و<persName>خليل مطران</persName> يشتغلان الآن معاً بترجمة كتاب علم الاقتصاد للكاتب الفرنسوي ليروى - بوليو؛ فتراهما يروحان ويجيئان بين المكتبة والمطبعة , ويبحثان وينقّبان عن لفظةٍ عربية تؤدّي معنى الاصطلاحات الأفرنجية. وليس ذلك دائماً بالأمر السهل؛ وسأعود إلى زيارة التفصيل عن هذه المساًلة في جزءٍ آتٍ. ولم أذكر اليوم كتاب علم الاقتصاد إلاّ عَرَضاَ فقط , لأنهُ جمعني في  <tei:num type="auto-markup" change="#d2e181" value="6" xml:lang="ar">٦</tei:num>  أبريل الماضي بأحد نصفي المعرّب حافظ بك إبراهيم , فلمحتُ في يدهِ عصا عليها شارةٌ نُقِشَ فيها تاريخ إهدائها إليهِ , فإذا هو  <tei:num type="auto-markup" change="#d2e181" value="6" xml:lang="ar">٦</tei:num> أبريل  <tei:num type="auto-markup" change="#d2e181" value="1907" xml:lang="ar">١٩٠٧</tei:num> . اتفاقٌ غريب! وأغربُ منهُ أن تلك العصا قد رافقت حافظاً ستة أعوامٍ كاملة , سلمت فيها من البيع والرهن والسرقة.</tei:p>
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:245 viaf:32410755">
+                            <forename xml:lang="ar">حافظ</forename>
+                            <surname xml:lang="ar">إبراهيم</surname>
+                        </persName> و<persName change="#d3e209" ref="oape:pers:931 viaf:102460074">
+                            <forename xml:lang="ar">خليل</forename>
+                            <surname xml:lang="ar">مطران</surname>
+                        </persName> يشتغلان الآن معاً بترجمة كتاب علم الاقتصاد للكاتب الفرنسوي ليروى - بوليو؛ فتراهما يروحان ويجيئان بين المكتبة والمطبعة , ويبحثان وينقّبان عن لفظةٍ عربية تؤدّي معنى الاصطلاحات الأفرنجية. وليس ذلك دائماً بالأمر السهل؛ وسأعود إلى زيارة التفصيل عن هذه المساًلة في جزءٍ آتٍ. ولم أذكر اليوم كتاب علم الاقتصاد إلاّ عَرَضاَ فقط , لأنهُ جمعني في  <tei:num type="auto-markup" change="#d2e181" value="6" xml:lang="ar">٦</tei:num>  أبريل الماضي بأحد نصفي المعرّب حافظ بك إبراهيم , فلمحتُ في يدهِ عصا عليها شارةٌ نُقِشَ فيها تاريخ إهدائها إليهِ , فإذا هو  <tei:num type="auto-markup" change="#d2e181" value="6" xml:lang="ar">٦</tei:num> أبريل  <tei:num type="auto-markup" change="#d2e181" value="1907" xml:lang="ar">١٩٠٧</tei:num> . اتفاقٌ غريب! وأغربُ منهُ أن تلك العصا قد رافقت حافظاً ستة أعوامٍ كاملة , سلمت فيها من البيع والرهن والسرقة.</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>عجباً له فظ العنانَ بأنملٍ</tei:seg> 

@@ -54,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+      <revisionDesc><tei:change when="2019-10-19" who="#pers_TG" xml:id="d3e209" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
@@ -160,7 +160,7 @@
 
 
 فروع تدبير المنزل على حدة , فتقصده كلُّ فتاة روم الاختصاص بفرع من هذه الفروع , وتخرج منهُ بعد  <tei:num type="auto-markup" change="#d2e181" value="6" xml:lang="ar">٦</tei:num>  أشهرٍ بشهادة مربية أولاد أو مدبرة منزل أو طاهية الخ. وتُلقي كلية أيدنبرج أيضاً في العاصمة والضواحي محاضراتٍ في حفظ الصحة والتمريض والعناية بالأطفال وما شابه ذلك. فترى أنَّ التعليم المنزلي في بريطانية قد كاد يبلغُ حدَّ الكمال وهو لا يزال في طورهِ الأوَّل , فإِنهُ في حالتهِ الحاضرة يمكّن كلَّ انكليزية من إتقان شؤونها المنزلية , ويعلّمها كيف تُؤَنث منزلها بنفسها , فتصنع الأبسطة , وتحبكُ قشَّ الكراسي , وتُصلح الأقفال , وتزين الجدران والأمتعة بالرسوم والنقوش , وتتعهد بنفسها زرع أزهار حديقتها , وتقي تلك الأزهارَ في غرف المنزل من الذبول السريع , وتختار الألوان التي تتفق مع بعضها بعض في تنسيق الأمتعة وترتيبها بذوقٍ يزيدها جمالاً ورونقاً؛ فتجعلُ منزلها شعاعاً من نور نفسها , ونسمةً من حياتها , يُنير ويُحيي الأفئدة التي يضمُّها بين جدرانهِ. ولقد صدق الوزير الانكليزي الذي قال: إِن إدارةَ المنزل جيداً تستدعي من المقدرة والبراعة والذكاءِ فوق ما تستدعيه إدارة مملكة واسعة ولا ريب في ن مثل هذا التعليم في مصر , يؤثر تأثيراً سعيداً في الحياة العائلية وفي أخلاق الأمة وصحة عقولها وأبدانها , وفي سلامها ونجاحها , ويصرف اهتمام شابَّاتنا عمَّا لا يجديهنَّ نفعاً إلى ما يضمن سعادة أسرِهنَّ.</tei:p>
-            <byline change="#d2e198"><persName>هند اسكندر عمون</persName>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:2666">هند إسكندر عمون</persName>
 <pb n="n4-p353" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P2035.xhtml"/>
 
 
@@ -221,7 +221,7 @@
 
 منشئ الأجبشن ستندرد بأنهُ يدعو المصريين إلى الدَّعارة والفجور. ثم أخذ بعض الناقدين وأهل الرأي والمدركين حقيقة الفنون الجميلة يخفقِّون من انتقادهم على الرقص البلدي , ولاسيما بعد أن شاهدوا في أوربا وأمريكا ومصر من الرقص الإفرنجي المعيب والتهتك الذي لا زيادة بعده لمستزيد. وقد حدث منذ شهرين أنَّ راقصة انكليزية أرادت السفر إلى الهند فقامت الصحف الانكليزية مناديةً بالويل والثبور , وطلبت من الحكومة منعها عن عزمها بدعوى أن الهنود لا ينظرون إلى حركات هذه الراقصة بالعين التي يرى بها إليها أدباءُ الانكليز. وهكذا شأن القوم معنا , فمهما تحشَّمت الراقصة المصرية , عدُّوا رقصها تهتكاً وابتذالاً. ومهما تهتكت الراقصة الأجنبية ورفَّ الشفوف فأعلن ما استتر وجوباً وجوازاً من أعضائها , عدُّوا عملها نهاية الرقي العقلي والأدبي. وسبحان مقسم العقول والأرزاق.</tei:p>
             <tei:p change="#d2e73">مصر</tei:p>
-            <byline change="#d2e198"><persName>توفيق حبيب</persName></byline>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:1438">توفيق حبيب</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>حكم</head>
@@ -633,7 +633,12 @@
                   <tei:seg>إِن لم أمت وجداً فلا بد لي</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73"><persName>ولي الدين يكن</persName>
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:2834 viaf:36771043">
+                            <forename xml:lang="ar">
+                                <addName type="khitab" xml:lang="ar">ولي الدين</addName>
+                            </forename>
+                            <surname xml:lang="ar">يكن</surname>
+                        </persName>
 <pb n="n4-p369" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P2051.xhtml"/>
 
 
@@ -1130,7 +1135,10 @@
                   <tei:seg>والناسُ فوضى والحياةُ أماني</tei:seg>
                </tei:l>
             </lg>
-            <byline change="#d2e198"><persName>أحمد محرم</persName>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:910 viaf:60500457">
+                            <forename xml:lang="ar">أحمد</forename>
+                            <surname xml:lang="ar">محرم</surname>
+                        </persName>
 <pb n="n4-p380" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P2062.xhtml"/>
 
 
@@ -1163,7 +1171,7 @@
 
 لأن زيداً سرَق منهُ؟ فيا لله من هذا الظلم والاستبداد! ألم يكن في وسع النحاة أن ينصفوا عمرواً ولو مرة وحدة في الحياة؟</tei:p>
             <tei:p change="#d2e73">حاشية - بمزيد السرور وعظيم الابتهاج وننعي إلى طلبة الصرف والنحو حضرة الشيخ عمرو , عدوّ زيد. وجار بكرو ونسيب نفطويه. انتقل من الديار الفانية بعد عمر قضاه في احتمال الضربات من عدوّه زيد وقد أسلم الروح فراح شهيد النحاة على أثر الجروح المميتة التي أُصيب بها على أُمّ رأسه. فانصرف مع أنهُ كان أعوَر. والتمست جمعية الشفقة على الحيوانات من عدوّه زيد أن لا يلحق به إلى دار الخلود. وسيُحتفل بتشييع جنازته من دار نفطويهَ إلى قبر سيبويه ليُدفَنَ معهُ وتستريح عظامه الموضوضة. وسيثنْقَش على ضريحهِ: ضرب زيدٌ عمرواً. . .</tei:p>
-            <byline change="#d2e198"><persName>سليم عبد الأحد</persName></byline>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:1831">سليم عبد الأحد</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>حِكَم للإِمام علي</head>
@@ -1214,7 +1222,7 @@
 
 مَنْ كَتَبَ سَوفَ يكتبُ</tei:p>
             <tei:p change="#d2e73">يقولُ الإفرنج في أمثالهم من شَرِبَ سوف يشرب إِشارة إلى أن مُدْمِنَ الخمرة لن يُقلعَ عنها. ويصحُّ إِن نقولَ من كتبَ سوف يكتب بمعنى أنَّ مُدمِنَ الكتابةِ لن يكسرَ قَلَمهُ. والصحافة هي إِدمانُ الكتابة فمن زاولها مدَّةً , وذاقَ حلوها ومُرَّها لن يعرف أن يعيش بعيداً عنها. والأمثلة على ذلك كثيرة. عَلِمَ القرَّاءُ أن اسكندر أفندي شاهين الصحافي المعروف قد ودَّع</tei:p>
-            <tei:p change="#d2e73">الصحافة يوم غادر الديارَ المصرية قاصداً البلاد البرازيلية لتَعَاطي التجارة فيها , بعد أن خدم القلَمَ بأمانةٍ وإِخلاص مدَّةً ربع قرنٍ. وقد أقام لهُ يومئذٍ زملاؤُهُ حفلة لتوديعهِ , وتمنى عليهِ الكثيرون ألاَّ يهجر الكتابة هجراً تامّاً , لأنَّ لهُ في ميادينها جولاتٍ صادقة , وكنت بين المشتركين في الحفلة , فتبسَّمت لدى سماعي التعبير عن هذه الأمنية , لأنَّهُ كان قد بلغني أن الصديق اسكندر قد وَضَعَ في حقيبةِ سفرهِ كليشة حفرها في مصر باسمٍ جريدةٍ قد يُصدرها في البرازيل. ولم تلبث الأيام أن جعلت الظنَّ حقيقة , فقد حمل إلينا البريد منذ أسبوعين رزمةً من أميريكا الجنوبية , ففضضتها , وإذا فيها جريدةٌ يومية بثماني صفحات عنوانها أميركا وأبحاثها متنوّعة لذيذة , وعبارتها منسجمة طليّة , وهي لصاحبها ومحرّرها <persName>اسكندر شاهين</persName>. فأيقنتُ أنَّ من كتبَ سوف يكتب وتمنّيتُ لأميركا نجاحاً وخيراً كثيراً.</tei:p>
+            <tei:p change="#d2e73">الصحافة يوم غادر الديارَ المصرية قاصداً البلاد البرازيلية لتَعَاطي التجارة فيها , بعد أن خدم القلَمَ بأمانةٍ وإِخلاص مدَّةً ربع قرنٍ. وقد أقام لهُ يومئذٍ زملاؤُهُ حفلة لتوديعهِ , وتمنى عليهِ الكثيرون ألاَّ يهجر الكتابة هجراً تامّاً , لأنَّ لهُ في ميادينها جولاتٍ صادقة , وكنت بين المشتركين في الحفلة , فتبسَّمت لدى سماعي التعبير عن هذه الأمنية , لأنَّهُ كان قد بلغني أن الصديق اسكندر قد وَضَعَ في حقيبةِ سفرهِ كليشة حفرها في مصر باسمٍ جريدةٍ قد يُصدرها في البرازيل. ولم تلبث الأيام أن جعلت الظنَّ حقيقة , فقد حمل إلينا البريد منذ أسبوعين رزمةً من أميريكا الجنوبية , ففضضتها , وإذا فيها جريدةٌ يومية بثماني صفحات عنوانها أميركا وأبحاثها متنوّعة لذيذة , وعبارتها منسجمة طليّة , وهي لصاحبها ومحرّرها <persName change="#d3e209" ref="oape:pers:1244">إسكندر شاهين</persName>. فأيقنتُ أنَّ من كتبَ سوف يكتب وتمنّيتُ لأميركا نجاحاً وخيراً كثيراً.</tei:p>
             <tei:p change="#d2e73">حاصد
 <pb n="n4-p389" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P2071.xhtml"/>
 
@@ -1230,7 +1238,11 @@
 
 قارئٍ أن يقف عليهِ ويستفيد منهُ. أننا نتمنى أن يكون في كلّ بيت مكتبة وأن تزدان كلّ مكتبة بمؤلفات هذا النطاسي الفاضل.</tei:p>
             <tei:p change="#d2e73">تقويم البشير - هو أوفي تقويمٍ يصدرُ باللغة العربية من حيث الإتقان ودقة المعلومات وتنوّع الأبحاث وضعهُ حضرة العالم الفاضل الأَب لويس معلوف مدير جريدة <tei:title level="j" change="#d2e193">البشير</tei:title> وصاحب قاموس المُنجِد وضِمنَّهُ كلّ ما يُقال عن تواريخ السنة مع فوائد كثيرة في الجغرافية والتاريخ والمالية والفلك والصحة وآداب اللغة. ويزيد هذا التقويم إتقاناً سنةً فسنةً , حتى يصحَّ أن يقال إِنهُ يتدرّجُ شيئاً فشيئاً ليكون في اللغة العربية كتقويم هاشت في اللغة الفرنسوية.</tei:p>
-            <tei:p change="#d2e73">النظرات - هو مجموع المقالاتِ الشائقة , والنبذُ المستملحة التي نسج بردها , ووشى طرازها الأديبُ <persName>مصطفى لطفي المنفلوطي</persName> وقد نشرنا رأينا في الكتاب وصاحبهِ الزهور مجلّد  <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num>  ص  <tei:num type="auto-markup" change="#d2e181" value="80" xml:lang="ar">٨٠</tei:num>  , وفي يدِنا الآن الطبعة الثانية من هذا السفر النفيس. نهنئ المؤلّف برواج كتابهِ وإِقبال الجمهور عليهِ.</tei:p>
+            <tei:p change="#d2e73">النظرات - هو مجموع المقالاتِ الشائقة , والنبذُ المستملحة التي نسج بردها , ووشى طرازها الأديبُ <persName change="#d3e209" ref="oape:pers:545 viaf:61716327">
+                            <forename xml:lang="ar">مصطفى</forename>
+                            <forename xml:lang="ar">لطفي</forename>
+                            <surname xml:lang="ar">المنفلوطي</surname>
+                        </persName> وقد نشرنا رأينا في الكتاب وصاحبهِ الزهور مجلّد  <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num>  ص  <tei:num type="auto-markup" change="#d2e181" value="80" xml:lang="ar">٨٠</tei:num>  , وفي يدِنا الآن الطبعة الثانية من هذا السفر النفيس. نهنئ المؤلّف برواج كتابهِ وإِقبال الجمهور عليهِ.</tei:p>
             <tei:p change="#d2e73">ملخص التاريخ القديم - كتيّبٌ صغير جمع في صفحاته ملخّص تاريخ المصريين والفينيقين واليونان والرومانيين والقرطاجنيين والفتوحات الإِسلامية والحروب الصليبية والدولة التركية , كل ذلك بعبارةٍ رشيقة وأَسلوبٍ جميل يدلُّ على براعةِ المؤلّف المتستّر.
 <pb n="n4-p391" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P2073.xhtml"/>
 
@@ -1240,7 +1252,11 @@
 <pb n="n4-p392" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P2074.xhtml"/>
 
 
-بين اليمن والشام - عنوان قصيدةٍ غرّاء من نوع الشعر القصصي نظم عقدها حضرة الشاعر الكبير شبلي بك ملاَّط مندوب أُدباءِ سوريا في حفلة تكريم <persName>خليل أفندي مطران</persName>. وهي قصَّة غرام حدثت وقائعها في عهد لخلفاء الأمويين فسبكها حضرتُهُ بقالبٍ سهل المأخذ رصين التركيب وطبعتها جريدة <tei:title level="j" change="#d2e193">المراقب</tei:title> الغراء في بيروت.</tei:p>
+بين اليمن والشام - عنوان قصيدةٍ غرّاء من نوع الشعر القصصي نظم عقدها حضرة الشاعر الكبير شبلي بك ملاَّط مندوب أُدباءِ سوريا في حفلة تكريم <persName change="#d3e209" ref="oape:pers:931 viaf:102460074">
+                            <forename xml:lang="ar">خليل</forename>
+                            <roleName type="title" xml:lang="ar">افندي</roleName>
+                            <surname xml:lang="ar">مطران</surname>
+                        </persName>. وهي قصَّة غرام حدثت وقائعها في عهد لخلفاء الأمويين فسبكها حضرتُهُ بقالبٍ سهل المأخذ رصين التركيب وطبعتها جريدة <tei:title level="j" change="#d2e193">المراقب</tei:title> الغراء في بيروت.</tei:p>
             <tei:p change="#d2e73">مفكّرة المعارف - صدرت هذه المفكرة الشهيرة لسنة  <tei:num type="auto-markup" change="#d2e181" value="1914" xml:lang="ar">١٩١٤</tei:num>  وهي صغيرة الحجم كبيرة الفائدة وتمتاز عن غيرها بما أُضيف إليها من الآيات والأمثال الحكيمة في ذيل كل صفحة وتاريخ أشهَر الاختراعات والاكتشافات وضبط الأعياد الدينية والمدنية. وهي مطبوعة على ورق جيّد ومجلَّدَة تجليداً متقناً وثمنها أربعة غروش صاغ وتُطلَبُ من جميع المكتبات في</tei:p>
             <tei:p change="#d2e73">مصر.</tei:p>
             <tei:p change="#d2e73">مجلة فرعون - <persName>توفيق أفندي حبيب</persName> من أعرفِ الكتَّاب بشؤون مصر وحوادثها الخصوصية , يعرف منها كثيراً ويروي ما يعرف بأسلوبٍ خفيف يلذّ القارئ ويُسلّي المطالع. وقد أعاد في هذه الآونة أصادر مجلتهِ فرعون التي وقفها على البحث في أحوال الطائفة القبطية وشؤونها الاجتماعية. فنتمنى لها رواجاً رفيعاً في عالم الأدب.

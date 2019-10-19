@@ -54,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+      <revisionDesc><tei:change when="2019-10-19" who="#pers_TG" xml:id="d3e209" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
@@ -121,37 +121,97 @@
 
 
 الآن بمساعدة الكتبة الآتية أسماؤهم مرتبة على حروف الهجاء:</tei:p>
-            <tei:p change="#d2e73"><persName>إبراهيم أفندي الحوراني</persName></tei:p>
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:361 viaf:305214782">
+                            <forename xml:lang="ar">إبراهيم</forename>
+                            <roleName type="title" xml:lang="ar">أفندي</roleName>
+                            <surname xml:lang="ar">الحوراني</surname>
+                        </persName></tei:p>
             <tei:p change="#d2e73"><persName>إبراهيم أفندي شدودي</persName> (الدكتور)</tei:p>
-            <tei:p change="#d2e73"><persName>أحمد بك شوقي</persName></tei:p>
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:768 viaf:7540373">
+                            <forename xml:lang="ar">احمد</forename>
+                            <roleName type="title" xml:lang="ar">بك</roleName>
+                            <surname xml:lang="ar">شوقي</surname>
+                        </persName></tei:p>
             <tei:p change="#d2e73"><persName>الشيخ أحمد حسن طبارة</persName></tei:p>
-            <tei:p change="#d2e73"><persName>أحمد أفندي الكاشف</persName></tei:p>
-            <tei:p change="#d2e73"><persName>أحمد أفندي محرم</persName></tei:p>
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:499">
+                            <forename xml:lang="ar">احمد</forename>
+                            <roleName type="title" xml:lang="ar">أفندي</roleName>
+                            <surname xml:lang="ar">الكاشف</surname>
+                        </persName></tei:p>
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:910 viaf:60500457">
+                            <forename xml:lang="ar">احمد</forename>
+                            <roleName type="title" xml:lang="ar">أفندي</roleName>
+                            <surname xml:lang="ar">محرم</surname>
+                        </persName></tei:p>
             <tei:p change="#d2e73"><persName>أحمد أفندي نسيم</persName></tei:p>
             <tei:p change="#d2e73"><persName>الشيخ إسكندر العازار</persName></tei:p>
             <tei:p change="#d2e73"><persName>إسماعيل باشا صبري</persName></tei:p>
-            <tei:p change="#d2e73"><persName>إلياس أفندي فياض</persName></tei:p>
-            <tei:p change="#d2e73"><persName>أمين أفندي الريحاني</persName></tei:p>
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:852">
+                            <forename xml:lang="ar">الياس</forename>
+                            <roleName type="title" xml:lang="ar">أفندي</roleName>
+                            <surname xml:lang="ar">فياض</surname>
+                        </persName></tei:p>
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:698 viaf:17374300">
+                            <forename xml:lang="ar">أمين</forename>
+                            <roleName type="title" xml:lang="ar">أفندي</roleName>
+                            <surname xml:lang="ar">الريحاني</surname>
+                        </persName></tei:p>
             <tei:p change="#d2e73"><persName>أمين أفندي الغريب</persName></tei:p>
             <tei:p change="#d2e73"><persName>بشارة أفندي عبد الله الخوري</persName></tei:p>
             <tei:p change="#d2e73"><persName>توفيق أفندي حبيب</persName></tei:p>
-            <tei:p change="#d2e73"><persName>حافظ أفندي إبراهيم</persName></tei:p>
-            <tei:p change="#d2e73"><persName>حفني بك ناصف</persName></tei:p>
-            <tei:p change="#d2e73"><persName>خليل أفندي مطران</persName></tei:p>
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:245 viaf:32410755">
+                            <forename xml:lang="ar">حافظ</forename>
+                            <roleName type="title" xml:lang="ar">أفندي</roleName>
+                            <surname xml:lang="ar">إبراهيم</surname>
+                        </persName></tei:p>
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:952">
+                            <forename xml:lang="ar">حفني</forename>
+                            <roleName type="title" xml:lang="ar">بك</roleName>
+                            <surname xml:lang="ar">ناصف</surname>
+                        </persName></tei:p>
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:931 viaf:102460074">
+                            <forename xml:lang="ar">خليل</forename>
+                            <roleName type="title" xml:lang="ar">افندي</roleName>
+                            <surname xml:lang="ar">مطران</surname>
+                        </persName></tei:p>
             <tei:p change="#d2e73"><persName>داود أفندي بركات</persName></tei:p>
             <tei:p change="#d2e73"><persName>شبلي أفندي شميل </persName>(الدكتور)</tei:p>
             <tei:p change="#d2e73"><persName>شبلي بك ملاط</persName></tei:p>
             <tei:p change="#d2e73"><persName>فليكس أفندي فارس</persName></tei:p>
-            <tei:p change="#d2e73"><persName>الشيخ عبد القادر المغربي</persName></tei:p>
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:3406">
+                            <roleName type="honorific">الشيخ</roleName>عبد القادر المغربي</persName></tei:p>
             <tei:p change="#d2e73"><persName>محمد أفندي إمام العبد</persName></tei:p>
-            <tei:p change="#d2e73"><persName>محمد أفندي كرد علي</persName></tei:p>
-            <tei:p change="#d2e73"><persName>محمد أفندي مسعود</persName></tei:p>
-            <tei:p change="#d2e73"><persName>محمد أفندي السباعي</persName></tei:p>
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:878 viaf:32272677">
+                            <forename>محمد</forename>
+                            <roleName type="title">أفندي</roleName>
+                            <surname>كرد علي</surname>
+                        </persName></tei:p>
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:2958">
+                            <forename xml:lang="ar">محمد</forename>
+                            <roleName type="title">أفندي</roleName>
+                            <surname xml:lang="ar">مسعود</surname>
+                        </persName></tei:p>
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:3929">محمد 
+                            <roleName type="title">أفندي</roleName>
+                            السباعي</persName></tei:p>
             <tei:p change="#d2e73"><persName>الشيخ محيي الدين الخياط</persName></tei:p>
-            <tei:p change="#d2e73"><persName>السيد مصطفى لطفي المنفلوطي</persName></tei:p>
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:545 viaf:61716327">
+                            <roleName type="nobility">السيد</roleName>
+                            <forename xml:lang="ar">مصطفى</forename>
+                            <forename xml:lang="ar">لطفي</forename>
+                            <surname xml:lang="ar">المنفلوطي</surname>
+                        </persName></tei:p>
             <tei:p change="#d2e73"><persName>نعوم بك شقير</persName></tei:p>
-            <tei:p change="#d2e73"><persName>نقولا أفندي رزق الله</persName></tei:p>
-            <tei:p change="#d2e73"><persName>ولي الدين بك يكن</persName></tei:p>
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:683 viaf:19561669">
+                            <forename xml:lang="ar">نقولا</forename>
+                            <roleName type="title" xml:lang="ar">أفندي</roleName>
+                            <surname xml:lang="ar">رزق الله</surname>
+                        </persName></tei:p>
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:2834 viaf:36771043">
+                            <forename>ولي الدين</forename>
+                            <roleName type="title">بك</roleName>
+                            <surname>يكن</surname>
+                        </persName></tei:p>
             <tei:p change="#d2e73"><persName>يوسف أفندي نخلة ثابت</persName></tei:p>
             <tei:p change="#d2e73">وهناك أيضاً عدد كبير من أئمة الكتبة في مصر والشام وبغداد وتونس وطرابلس الغرب والجزائر وأمريكا إلخ قد باشرنا مفاوضتهم بهذا الشأن لتتم الغاية المطلوبة. فيجد القارئ إن شاء الله في مجلة <tei:title level="j" change="#d2e193">الزهور</tei:title> خير ما تجود به الأقلام العربية في كل الأصقاع فيكون له فيها أحسن مجموعة أدبية جامعة يحق الاحتفاظ بها.
 <pb n="n1-p10" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P23.xhtml"/>
@@ -191,7 +251,11 @@
             <tei:p change="#d2e73">- (سورة الأعراف:  <tei:num type="auto-markup" change="#d2e181" value="7" xml:lang="ar">٧</tei:num> )</tei:p>
             <tei:p change="#d2e73">بعد صدور الحكم بالموت على الإنسان الأول، جلس آدم وحواء في البرية عند المساء، يتساءلان: ما هو الموت؟ كيف تصوراه. . .؟ نظم قصيدة في تصوراتهما هذه.</tei:p>
             <tei:p change="#d2e73">الموعد -: آخر موعد لقبول القصائد المختصة بهذا لموضع  <tei:num type="auto-markup" change="#d2e181" value="30" xml:lang="ar">٣٠</tei:num>  أفريل (نيسان) من السنة الجارية.</tei:p>
-            <tei:p change="#d2e73">الحكم -: ويكون الحكم النهائي في الموضوع لحضرة الشاعرين الكبيرين: سعادة <persName>إسماعيل باشا صبري</persName> و<persName>حافظ أفندي إبراهيم</persName>.</tei:p>
+            <tei:p change="#d2e73">الحكم -: ويكون الحكم النهائي في الموضوع لحضرة الشاعرين الكبيرين: سعادة <persName>إسماعيل باشا صبري</persName> و<persName change="#d3e209" ref="oape:pers:245 viaf:32410755">
+                            <forename xml:lang="ar">حافظ</forename>
+                            <roleName type="title" xml:lang="ar">أفندي</roleName>
+                            <surname xml:lang="ar">إبراهيم</surname>
+                        </persName>.</tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>السباق النثري الكبير</head>
@@ -201,7 +265,11 @@
 
 
 الموعد -: آخر موعد لقبول ما يرسل إلينا في هذا الشأن  <tei:num type="auto-markup" change="#d2e181" value="15" xml:lang="ar">١٥</tei:num>  مايو (أيار) من السنة الجارية.</tei:p>
-            <tei:p change="#d2e73">الحكم -: وسيحكم بين الباحثين كاتبان اختصاصيان وهما: سعادة القانوني <persName>حفني بك ناصف</persName>، مدرس الآداب العربية في الجامعة المصرية، وحضرة الباحث الشيخ محمد المهدي المدرس بمدرسة القضاء الشرعي.</tei:p>
+            <tei:p change="#d2e73">الحكم -: وسيحكم بين الباحثين كاتبان اختصاصيان وهما: سعادة القانوني <persName change="#d3e209" ref="oape:pers:952">
+                            <forename xml:lang="ar">حفني</forename>
+                            <roleName type="title" xml:lang="ar">بك</roleName>
+                            <surname xml:lang="ar">ناصف</surname>
+                        </persName>، مدرس الآداب العربية في الجامعة المصرية، وحضرة الباحث الشيخ محمد المهدي المدرس بمدرسة القضاء الشرعي.</tei:p>
             <tei:p change="#d2e73">* * *</tei:p>
             <tei:p change="#d2e73">الجوائز -: سيمنح الفائزون في كل سباق من هذين السباقين جوائز ثمينة متنوعة سنذكرها في عددٍ آت.</tei:p>
             <tei:p change="#d2e73">الشروط -: على كل من يرغب في الاشتراك في أحد هذين السباقين أو في كليهما أن يراعي الشروط الآتية:</tei:p>
@@ -216,7 +284,15 @@
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>حج الخديوي عباس حلمي وقصائد المدح فيه</head>
-            <tei:p change="#d2e73">حج سمو خديوي مصر في هذا العام إلى البيت الحرام وعاد محفوفاً باليمن والبركات. وقد تبارت قرائح شعرائنا في وداعه واستقباله. فكان موسم شعر ذكرنا سوق عكاظ. ولا جدال في أن خير ما قيل في حج أمير مصر قصيدة سعادة <persName>أحمد بك شوقي</persName> أمير الشعر. وقصيدة حضرة <persName>حافظ أفندي إبراهيم</persName> نابغة مصر. وقد جئنا على بعض ما فيها من الدرر الغوالي في ما يأتي من المقال:
+            <tei:p change="#d2e73">حج سمو خديوي مصر في هذا العام إلى البيت الحرام وعاد محفوفاً باليمن والبركات. وقد تبارت قرائح شعرائنا في وداعه واستقباله. فكان موسم شعر ذكرنا سوق عكاظ. ولا جدال في أن خير ما قيل في حج أمير مصر قصيدة سعادة <persName change="#d3e209" ref="oape:pers:768 viaf:7540373">
+                            <forename xml:lang="ar">احمد</forename>
+                            <roleName type="title" xml:lang="ar">بك</roleName>
+                            <surname xml:lang="ar">شوقي</surname>
+                        </persName> أمير الشعر. وقصيدة حضرة <persName change="#d3e209" ref="oape:pers:245 viaf:32410755">
+                            <forename xml:lang="ar">حافظ</forename>
+                            <roleName type="title" xml:lang="ar">أفندي</roleName>
+                            <surname xml:lang="ar">إبراهيم</surname>
+                        </persName> نابغة مصر. وقد جئنا على بعض ما فيها من الدرر الغوالي في ما يأتي من المقال:
 <pb n="n1-p14" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P27.xhtml"/>
 
 
@@ -795,11 +871,21 @@
 قال أحد أدباء الفرنسويين لكل امرئ وطنان: وطنه الأصلي ووطنه باريس فلبيك إذن على باريس كل الناس، فهي وطن كل الناس.</tei:p>
             <tei:p change="#d2e73">من حقها على من أكرمت وفادتهم ورحبت بهم منزلاً، ونثروا عليها التبر وهي حالية، أن يكرموها في مصابها، وأن ينثروا عليها التبر وهي عاطلة.</tei:p>
             <tei:p change="#d2e73">سأبكي باريس مستمداً دموع الغمائم، مستعيناً بعيون النيرات. فإن تنفد الدموع، فإن من الأسى ما يجدده الشوق، وينميه الغرام. سلام على باريس في مصابها. سلام عليها في جلبابها الأسود. وكأنها العذراء بعثت لتدعو العالم إلى السجود. . .</tei:p>
-            <byline change="#d2e198"><persName>ولي الدين يكن</persName></byline>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:2834 viaf:36771043">
+                            <forename xml:lang="ar">
+                                <addName type="khitab" xml:lang="ar">ولي الدين</addName>
+                            </forename>
+                            <surname xml:lang="ar">يكن</surname>
+                        </persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>الغد</head>
-            <tei:p change="#d2e73"><persName>السيد مصطفى لطفي المنفلوطي</persName> أشهر من أن يعرف. فلقد نالت كتاباته الرائقة شهرة بعيدة وتناقلتها صحف القطرين. وهو مباشر الآن طبع كتاب تحت عنوان النظرات جمع فيه ما نشره على صفحات الجرائد والمجلات. وسيكون هذا الكتاب النفيس خير متحف جمع بين أسلوب الأقدمين وتفنن المحدثين. وسنعود إليه بالتفصيل بعد بروزه من عالم الطباعة إلى عالم المطالعة. ونحن واثقون بأن كل قارئ سيضمه في مكتبته إلى كتبه الثمينة. وقد تفضل صاحبه بان يترك لنا اختيار ما نريد من الملازم التي نجز طبعها لنحلي به العدد الأول من هذه المجلة. ولذلك أتيح لنا أن نتحف القراء بالمقالة الأولى من كتاب النظرات وهي تحت العنوان المتقدم:</tei:p>
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:545 viaf:61716327">
+                            <roleName type="nobility">السيد</roleName>
+                            <forename xml:lang="ar">مصطفى</forename>
+                            <forename xml:lang="ar">لطفي</forename>
+                            <surname xml:lang="ar">المنفلوطي</surname>
+                        </persName> أشهر من أن يعرف. فلقد نالت كتاباته الرائقة شهرة بعيدة وتناقلتها صحف القطرين. وهو مباشر الآن طبع كتاب تحت عنوان النظرات جمع فيه ما نشره على صفحات الجرائد والمجلات. وسيكون هذا الكتاب النفيس خير متحف جمع بين أسلوب الأقدمين وتفنن المحدثين. وسنعود إليه بالتفصيل بعد بروزه من عالم الطباعة إلى عالم المطالعة. ونحن واثقون بأن كل قارئ سيضمه في مكتبته إلى كتبه الثمينة. وقد تفضل صاحبه بان يترك لنا اختيار ما نريد من الملازم التي نجز طبعها لنحلي به العدد الأول من هذه المجلة. ولذلك أتيح لنا أن نتحف القراء بالمقالة الأولى من كتاب النظرات وهي تحت العنوان المتقدم:</tei:p>
             <tei:p change="#d2e73">عرفت أني فكرت ليلة الأمس فيما أكتب اليوم، وعرفت أني ممسك الساعة قلمي بين أصابعي، وأن بين يدي صحيفة بيضاء، تسودُّ
 <pb n="n1-p32" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P45.xhtml"/>
 
@@ -836,7 +922,11 @@
                   <tei:seg>إذا هي ضاعت فالحياة على الأثر</tei:seg>
                </tei:l>
             </lg>
-            <byline change="#d2e198"><persName>مصطفى لطفي المنفلوطي</persName>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:545 viaf:61716327">
+                            <forename xml:lang="ar">مصطفى</forename>
+                            <forename xml:lang="ar">لطفي</forename>
+                            <surname xml:lang="ar">المنفلوطي</surname>
+                        </persName>
 <pb n="n1-p35" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P48.xhtml"/>
 
 
@@ -877,14 +967,20 @@
 
 فسأسكب عنبراً وبلسماً، إذا رأيت في الحوادث والأعمال زهوراً طيبة وإلا كان جنيي صاباً وعلقماً.</tei:p>
             <tei:p change="#d2e73">وجاء في لسان العرب إن الزهور تلألؤ السراج الزاهر. فعسى أن يقطر ما أجنيه زيتاً صافياً يزيد تلألؤ هذه المجلة الزاهرة، لا سائلاً عكراً يبعث دخاناً تدمع له العيون، وتشمئز منه الأنوف. وعلى كل فجل رغائبي أن تتوثق عرى الصداقة شيئاً فشيئاً بيني وبين قرائي الأحياء. فنتبادل ما نشاء من الأفكار بين الأزهار والأشواك. فنبتسم معاً ونتألم معاً. متذكرين أن لا ورد بلا شوك. وأن أشواكاً كثيرة بلا ورد.</tei:p>
-            <tei:p change="#d2e73">إدمون روستان و<persName>حافظ إبراهيم</persName></tei:p>
+            <tei:p change="#d2e73">إدمون روستان و<persName change="#d3e209" ref="oape:pers:245 viaf:32410755">
+                            <forename xml:lang="ar">حافظ</forename>
+                            <surname xml:lang="ar">إبراهيم</surname>
+                        </persName></tei:p>
             <tei:p change="#d2e73">إدمون روستان هو أحد كبار شعراء فرنسا في هذه الأيام. ذكره طبق الآفاق، ورواياته مثلت على أكثر مراسح العالم، فصفقوا لها في كل عواصم أوروبا، وهتفوا لمؤلفها في أمريكا وآسيا وأفريقيا. ألف فاشتهر، وصنف فاغتنى، فما أحسن حظه وما أسعد نجمه. .! جمع من رواية الايجلون أو فرخ النسر ومن رواية سيرانوده برجراك ما يقدر بالملايين من الفرنكات. وها قد أنجز الآن رواية شانتكلير وهي رواية غريبة الشكل والوضع، لأن كل أشخاصها من الحيوانات. . . غير الناطقة. لكن بلاغة مؤلفها أنطقتها بما تكاد تعجز عنه الحيوانات الناطقة. بيد أني لا انظر الآن إلى هذا الأمر. بل أريد أن يعرف القراء أن مدير مجلة <tei:title level="j" change="#d2e193">الالوستراسيون</tei:title> قد اشترى حق نشر هذه الرواية في مجلته بمبلغ. . . .
 <pb n="n1-p37" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P50.xhtml"/>
 
 
 زهيد لا</tei:p>
             <tei:p change="#d2e73">يتجاوز المليون فرنك: أربعة فصول: لا يتجاوز الفصل  <tei:num type="auto-markup" change="#d2e181" value="500" xml:lang="ar">٥٠٠</tei:num>  شعر - بمليون فرنك. فيكون ثمن الشعر الواحد من أشعار روستان يباع بخمسمئة فرنك أي بعشرين جنيهاً وثمن الكلمة إذا قدرنا عشر كلمات في كل بيت جنيهان فضلاً عما ينال المؤلف من تمثيل روايته. وإذا عرفت أنها ستمثل كأسلافها ألوفاً من المرات تعرف أن روستان يقبض ثمن الحرف الواحد من أشعاره مالاً جزيلاً قد لا يناله كتابنا من الصفحات الطويلة فحرفه إذن يساوي مجلداً من كتبنا. . . الرائجة.</tei:p>
-            <tei:p change="#d2e73">يعد روستان عندهم بمثابة <persName>حافظ إبراهيم</persName> عندنا. فهل يا ترى تعود قصيدة من حافظ بل ديوانه برمته بما يعود بيت من روستان على صاحبه.؟ مسكين حافظ تنقده مجلاتنا وجرائدنا كلمات النابغة، وشاعر مصر ثمن قصائده وتنقد روستان مجلة واحدة مليون فرنك ثمن رواية واحدة. . . هناك يدفعون لروستان درراً وجواهر، وهنا نكتفي بان نجد الدرر والجواهر في نفثات شعرائنا. فشعراؤنا إذن أغنياء، فنأخذ منهم، وشعراؤهم فقراء، فيعطونهم. فيا ليتني كنت شاعراً إفرنجياً تجود علي الجرائد والمجلات بالدرر لا شاعراً عربياً تجد الجرائد والمجلات تلك الدرر في أشعاري. .!</tei:p>
+            <tei:p change="#d2e73">يعد روستان عندهم بمثابة <persName change="#d3e209" ref="oape:pers:245 viaf:32410755">
+                            <forename xml:lang="ar">حافظ</forename>
+                            <surname xml:lang="ar">إبراهيم</surname>
+                        </persName> عندنا. فهل يا ترى تعود قصيدة من حافظ بل ديوانه برمته بما يعود بيت من روستان على صاحبه.؟ مسكين حافظ تنقده مجلاتنا وجرائدنا كلمات النابغة، وشاعر مصر ثمن قصائده وتنقد روستان مجلة واحدة مليون فرنك ثمن رواية واحدة. . . هناك يدفعون لروستان درراً وجواهر، وهنا نكتفي بان نجد الدرر والجواهر في نفثات شعرائنا. فشعراؤنا إذن أغنياء، فنأخذ منهم، وشعراؤهم فقراء، فيعطونهم. فيا ليتني كنت شاعراً إفرنجياً تجود علي الجرائد والمجلات بالدرر لا شاعراً عربياً تجد الجرائد والمجلات تلك الدرر في أشعاري. .!</tei:p>
             <tei:p change="#d2e73">* * *</tei:p>
             <tei:p change="#d2e73">النادي العائلي</tei:p>
             <tei:p change="#d2e73">اسمه لطيف ذلك النادي الذي أسسه في بيروت فريق من الأفاضل والأدباء. وأول عمل عرفناه عنه ألطف. . . جعل جائزة قدرها خمسمئة فرنك للكاتب الذي يؤلف خير رواية تمثيلية في موضوع وطني.

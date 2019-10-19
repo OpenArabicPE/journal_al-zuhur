@@ -54,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+      <revisionDesc><tei:change when="2019-10-19" who="#pers_TG" xml:id="d3e209" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
@@ -227,7 +227,7 @@
 زهوهم حتى استنكروا على العارفين. وكادوا يخفون عن عيون المنقبين الباحثين، وصات كلمة عربي في أوروبا وأمريكا سباباً للعرب والمستعربين.</tei:p>
             <tei:p change="#d2e73">وقد قرأت في الصحف أن الذين شهدوا عنترة وعبلة كانوا آلافاً جنوا بهما سروراً وفرحاً. فلم تبق في نفسي ريبة بأن أولئك الألوف الذين سمعوا كلام عنترة قد عرفوا مجد العرب وفضائلهم فلا يجسر واحد منهم - أو هو يدعو على لسانه بالقطع - أن يعيب الغربي أجداده ونسبه بعدما عرف شيئاً عن مجد أولئك الأجداد ونسبهم.</tei:p>
             <tei:p change="#d2e73">فمن مصر إذن بل من الشرق العربي أمد مع كل أدب يدي إلى مصافحة غانم وشكره والثناء عليه. فليس الغزاة من يفتحون البلاد بالمدفع والحسام فقط، بل أجل منهم وأنبل من يفتحون القلوب باليراعة ويملكونها بخالب الفصاحة - وغانم منهم.</tei:p>
-            <tei:p change="#d2e73"><persName>داود بركات</persName></tei:p>
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:1673">داود بركات</persName></tei:p>
             <tei:p change="#d2e73">(الزهور) إنا نسدي شكري أفندي غانم خالص التهاني على فوزه الباهر ولا نمدحه إلا بما أطراه به الأجانب أنفسهم فقد كتبت مجلة <tei:title level="j" change="#d2e193">الالوستراسيون</tei:title> في عدد  <tei:num type="auto-markup" change="#d2e181" value="19" xml:lang="ar">١٩</tei:num>  فبراير الفائت ما يأتي: في ملعب الأديون رواية جديدة تستحق أن تنجح - وقد نجحت نجاحاً ساطعاً - فهي ترضي العين والأذن والعقل، مؤلفها عربي باريسي وهو رئيس الغرفة التجارية العثمانية في باريس. . . . وقد أحيا شكري غانم بأشعار لطيفة صافية منسجمة انسجام الماء ذكر عنترة البطل العربي الشاعر العاشق ومثل ذلك قالت الطان والفيغارو والجورنال وغيرها من أمهات الصحف.
 <pb n="n1-p54" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P67.xhtml"/>
 
@@ -242,7 +242,10 @@
             <tei:p change="#d2e73">الناس أشباح تحركها الأغراض والأهواء. وتتقاذفها في بحار الحب والبغض الرياح والأنواء.</tei:p>
             <tei:p change="#d2e73">النفوس أدوية يشترك في مزجها الله والإنسان. فمنها المرة، ومنها الحلوة، ومنها الحامضة، ومنها - وهذه اكره من كل الأدوية - ما لا طعم ولا لون لها.</tei:p>
             <tei:p change="#d2e73">إن من يكتفي بمسحة من العلم والحكمة كمن يكتفي بغسل وجهه إذا دخل الحمام. وليس بالأمر الصعب على مثل هذا أن يفوز بقصب السبق إما في الثقالة وإما في الرعونة. وإذا ركب إلى غرضه فرس سيبويه يعود وفي يده القصبتان، فنقرأ إذ نراه التعويذتين.</tei:p>
-            <byline change="#d2e198">- <persName>أمين ريحاني</persName>
+            <byline change="#d2e198">- <persName change="#d3e209" ref="oape:pers:698 viaf:17374300">
+                            <forename xml:lang="ar">أمين</forename>
+                            <surname xml:lang="ar">ريحاني</surname>
+                        </persName>
 <pb n="n1-p55" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P68.xhtml"/>
 
 
@@ -313,7 +316,10 @@
                   <tei:seg>لم ينقض الميثاق قم واسمع</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73"><persName>إسماعيل صبري</persName>
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:777 viaf:45752632">
+                            <forename xml:lang="ar">إسماعيل</forename>
+                            <surname xml:lang="ar">صبري</surname>
+                        </persName>
 <pb n="n1-p56" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P69.xhtml"/>
 
 
@@ -440,7 +446,10 @@
                   <tei:seg>من خلال</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73"><persName>خليل مطران</persName>
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:931 viaf:102460074">
+                            <forename xml:lang="ar">خليل</forename>
+                            <surname xml:lang="ar">مطران</surname>
+                        </persName>
 <pb n="n1-p59" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P72.xhtml"/>
 
 
@@ -555,7 +564,10 @@
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>في حدائق العرب</head>
-            <tei:p change="#d2e73">ننشر في هذا الباب صفحات مطوية لمشاهير الكتاب الغابرين. لأن في كتبهم ومخطوطاتهم التي نسجت عليها عناكب الأيام كنوزاً نحن في أشد الحاجة إليها. وها نحن نورد اليوم ملخص فصل كتبه <persName>فارس الشدياق</persName> منذ  <tei:num type="auto-markup" change="#d2e181" value="55" xml:lang="ar">٥٥</tei:num>  سنة عن الألقاب والمغالاة في الكتابة. وقلما قرأنا كاتباً عربياً فيه ملكة الملاحظة - التي يفاخر بها الإفرنج ويقولون إنها سر الإجادة في الإنشاء - أقوى مما هي في الشدياق ولا نتعرض لمبادئ الرجل وأطواره بل نورد شيئاً من قلمه لبيان أسلوبه الكتابي. وهو مأخوذ من كتابه الساق على الساق المطبوع في باريس على نفقة المرحوم رافائيل كحلا الدمشقي.</tei:p>
+            <tei:p change="#d2e73">ننشر في هذا الباب صفحات مطوية لمشاهير الكتاب الغابرين. لأن في كتبهم ومخطوطاتهم التي نسجت عليها عناكب الأيام كنوزاً نحن في أشد الحاجة إليها. وها نحن نورد اليوم ملخص فصل كتبه <persName change="#d3e209" ref="oape:pers:430 viaf:17273766">
+                            <forename xml:lang="ar">فارس</forename>
+                            <surname xml:lang="ar">الشدياق</surname>
+                        </persName> منذ  <tei:num type="auto-markup" change="#d2e181" value="55" xml:lang="ar">٥٥</tei:num>  سنة عن الألقاب والمغالاة في الكتابة. وقلما قرأنا كاتباً عربياً فيه ملكة الملاحظة - التي يفاخر بها الإفرنج ويقولون إنها سر الإجادة في الإنشاء - أقوى مما هي في الشدياق ولا نتعرض لمبادئ الرجل وأطواره بل نورد شيئاً من قلمه لبيان أسلوبه الكتابي. وهو مأخوذ من كتابه الساق على الساق المطبوع في باريس على نفقة المرحوم رافائيل كحلا الدمشقي.</tei:p>
             <tei:p change="#d2e73">وصل الفارياق - وهو اسم مستعار لنفس المؤلف - إلى مصر فهداه أحد الظرفاء إلى شاعر مصري له وجاهة ونباهة عند جميع الأعيان. وهنا نترك الكلام للمؤلف:</tei:p>
             <tei:p change="#d2e73">الألقاب والمغالاة</tei:p>
             <tei:p change="#d2e73">(قال الظريف) نصحي لك أن تكتب كتاباً إلى هذا العلامة وتلتمس منه فيما تطري به عليه مواجهته. وإذا تكرم بذلك فاذكر له حينئذ ما أنت تعاينه واستنجد به. فلا بد من أن يجيبك، فإنه رجل متصف بمكارم الأخلاق ويحب دغدغة الافتخار. ولاسيما أنه يرغب في مجالسة ذوي الأدب وتيسير أسباب معيشتهم. فتلطف إليه في المقال، وأنا ضامن لك أن تفوز منه بالآمال. فشكره الفارياق على نصحه ورجع إلى محله راضياً مستبشراً. فلما جن الليل أخذ القلم والقرطاس وكتب ما نصه:
@@ -579,7 +591,10 @@
             <tei:p change="#d2e73">من حاشية، إن الزنمة عند أهل الشرق غير موروثة، والجليدة عند الإفرنج متوارثة كابراً عن صاغر. مثال ذلك لقب الباشا والبيك والأفندي والآغا بل الملك إنما هو محصور في ذات الملقب به فلا ينطلق منه إلى ولده، فقد يمكن أن يكون ابن الوزير أو املك كاتباً أو نوتياً. أما عند الإفرنج فلا يصح أن يقال لابن المركيز إلا مركيز. . .</tei:p>
             <tei:p change="#d2e73">واصل الزنمة والجليدة في الغالب أكال يحدث في ذوي الأمر والنهي، لهيجان الدم عليهم. فلا يمكن تسكين هذا الهيجان وحك ذلك الأكال إلا بإحداث الهنة أو الجليدة. والغرض من كل ذلك انفراد شخص عن غيره بصفة ما.</tei:p>
             <tei:p change="#d2e73">. . . وأعلم أن الخواجا والمعلم والشيخ ليست ألقاباً معدودة في الهنات ولا في الجليدات. . . إنما هي خرقة تستر عورة الاسم الذي أطلق على المسمى، وهي غير مخيطة فيه ولا مكفوفة، ولا مسرجة ولا ملفوفة. بل هي كالبطاقة شدت إلى لابسها ليعرف بها سعره. إلا أنه كثيراً ما يقع الغلط في إلصاقها بمن ليس بينه وبينها من علاقة. . .</tei:p>
-            <byline change="#d2e198"><persName>فارس الشدياق</persName>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:430 viaf:17273766">
+                            <forename xml:lang="ar">فارس</forename>
+                            <surname xml:lang="ar">الشدياق</surname>
+                        </persName>
 <pb n="n1-p65" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P78.xhtml"/>
 
 
@@ -784,7 +799,11 @@
 <pb n="n1-p80" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P93.xhtml"/>
 
 
-* من قصيدة ل<persName>حافظ أفندي إبراهيم</persName></tei:p>
+* من قصيدة ل<persName change="#d3e209" ref="oape:pers:245 viaf:32410755">
+                            <forename xml:lang="ar">حافظ</forename>
+                            <roleName type="title" xml:lang="ar">أفندي</roleName>
+                            <surname xml:lang="ar">إبراهيم</surname>
+                        </persName></tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>قف غداً أيها الرئيس وعلم</tei:seg> 
@@ -818,7 +837,10 @@
                   <tei:seg>ق وهذا في ذلة المأسور</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">* الدكتور <persName>شبلي شميل</persName></tei:p>
+            <tei:p change="#d2e73">* الدكتور <persName change="#d3e209" ref="oape:pers:763 viaf:3813100">
+                            <forename xml:lang="ar">شبلي</forename>
+                            <surname xml:lang="ar">شميل</surname>
+                        </persName></tei:p>
             <tei:p change="#d2e73">أحيي فيك مروض الوحوش - وحوش المال في أمريكا ووحوش الحيوان في أفريقيا - وقد لا تكون مصيباً في هذه، ولكنك مصيب في تلك، فأهلاً وسهلاً بقاتل الوحشين.</tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">

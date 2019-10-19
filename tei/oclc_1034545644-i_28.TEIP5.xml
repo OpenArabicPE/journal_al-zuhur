@@ -54,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+      <revisionDesc><tei:change when="2019-10-19" who="#pers_TG" xml:id="d3e209" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
@@ -93,7 +93,10 @@
 
 
 سيجارته , ونيشان القديسين موريس ولا زار ليزين صدره. . ولقد اشتهر أمر كثيرين من مشاهير العلماء وكبار الرجال الذين رفضوا بتاتا الرتب والنياشين , وكان رفضهم عن إخلاص في الاعتقاد ورسوخ في المبدأ. غير أن رفض البعض كان ينمّ عن كبرياءٍ حقيقة وعجرفة فعلية. وما الرتب والنياشين في الحقيقة إلاّ كمصباح يحمله الإنسان , فيبدي عيوبه إذا كان ناقصا , ويُظهر محاسنهُ إذا كان كاملاً. قال أحد كتَّاب الغربيين: يجب أن نعجب لا أن نضحك من هذا الاختراع الكبير - اختراع الأوسمة والنياشين - فهو اختراع قوة أدبية لنيل قطعة من المعدن يرون فيها أمجد مجد وأشرف شر وأعظم جزاء هذا جنون ولكنهُ جنون جميل. كأن الناس خافوا على هذه الامتيازات من الطامعين فيها يدّعونها كذباً وزوراً فجعلوا في القانون مادة تعاقب بالسجن من ستة أشهر إلى سنتين من يحمل نيشاناً لم يُنعم عليهِ بهِ , كما أنهم يغرّمون من ينتحل</tei:p>
-            <tei:p change="#d2e73">لنفسهِ لقباً من ألقاب الشرف جزاءً نقدياً من  <tei:num type="auto-markup" change="#d2e181" value="500" xml:lang="ar">٥٠٠</tei:num> إلى  <tei:num type="auto-markup" change="#d2e181" value="20000" xml:lang="ar">٢٠٠٠٠</tei:num>  فرنك. وأحسن ما يختم بهِ هذا المقال كلمة جامعة شاملة على إيجازها , لأحمد <persName>فارس الشدياق</persName> عن الألقاب قال: هي خرقة تستر عورة الاسم الذي أُطلق على المسمى. . بل هي كالبطاقة شُدَّت إلى لابسها ليعرف بها سعره. إلاَّ أنه كثيراً ما يقع الغلط في إلصاقها بمن ليس بينهُ وبينها علاقة. . .
+            <tei:p change="#d2e73">لنفسهِ لقباً من ألقاب الشرف جزاءً نقدياً من  <tei:num type="auto-markup" change="#d2e181" value="500" xml:lang="ar">٥٠٠</tei:num> إلى  <tei:num type="auto-markup" change="#d2e181" value="20000" xml:lang="ar">٢٠٠٠٠</tei:num>  فرنك. وأحسن ما يختم بهِ هذا المقال كلمة جامعة شاملة على إيجازها , لأحمد <persName change="#d3e209" ref="oape:pers:430 viaf:17273766">
+                            <forename xml:lang="ar">فارس</forename>
+                            <surname xml:lang="ar">الشدياق</surname>
+                        </persName> عن الألقاب قال: هي خرقة تستر عورة الاسم الذي أُطلق على المسمى. . بل هي كالبطاقة شُدَّت إلى لابسها ليعرف بها سعره. إلاَّ أنه كثيراً ما يقع الغلط في إلصاقها بمن ليس بينهُ وبينها علاقة. . .
 <pb n="n3-p349" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1458.xhtml"/>
 
 
@@ -143,7 +146,7 @@
          <tei:div change="#d2e64" type="item">
             <head>المودة الكاذبة</head>
             <tei:p change="#d2e73">إن أهل الدنيا يتعاطون فيما بينهم أمرين , ويتواصلون عليهما؛ وهما ذات النفس , وذات اليد. فالمتبادلون ذات النفس هم الأصفياء. وأما المتبادلون ذات اليد فهم المتعاونون ذات يلتمس بعضهم الانتفاع ببعض. ومن كان يصنع المعروف ببعض منافع الدنيا , فإنما مثلهُ فيما يبذل ويُعطي كمثل الصياد وإلقائهِ الحبّ للطير , لا يريد بذلك نفعَ الطير وإنما يريد نفع نفسه.</tei:p>
-            <byline change="#d2e198"><persName>ابن المقفع</persName>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:185 viaf:89743196">ابن المقفع</persName>
 <pb n="n3-p356" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1465.xhtml"/>
 
 
@@ -412,7 +415,7 @@
                </tei:l>
             </lg>
             <tei:p change="#d2e73">أتبره السودان</tei:p>
-            <byline><persName>محمد فاضل</persName></byline>
+            <byline><persName change="#d3e209" ref="oape:pers:2399">محمد فاضل</persName></byline>
             <tei:p change="#d2e73">بالجيش المصري</tei:p>
             <tei:p change="#d2e73">السلطان الغازي</tei:p>
             <lg change="#d2e82">
@@ -545,7 +548,7 @@
                   <tei:seg>من سعار يمزّق الأرواحا</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73"><persName>عباس محمود العقاد</persName></tei:p>
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:1956">عباس محمود العقاد</persName></tei:p>
             <tei:p change="#d2e73">بالأوقاف بمصر</tei:p>
             <tei:p change="#d2e73">حافظ بك المنشاوي</tei:p>
             <tei:p change="#d2e73">إن صحّ في رجل أن ينعت بالسريّ النبيل , فإن حافظاً من أجدر كبراء القطر المصري بهذا النعت. وقد فزنا برسالة وقصيدة أهديتا إليه في هذا الشهر بمناسبة إنعام الحضرة الفخيمة الخديوية عليه بالوسام العثماني الرابع بصفته أحد أعضاء الجمعية العمومية. فآثرنا نشرهما لبلاغتها وللدلالة على ما لسليل أسرة المنشاوي من المكانة في نفوس الأدباء أما الرسالة فهي من قلم الذكي النجيب محمد بك البابلي , وهذا نصّحها البليغ بعد الديباجة:</tei:p>
@@ -555,7 +558,10 @@
 
 عما أوصله إليك علوُّ الهمم , وحسبك صدرٌ ضلّت الفضيلة حتى اهتدت إليهِ , فاستقرَّت عليهِ؛ ومقام بناه خيرة الآباء الأمجاد , وأعلاه صفوة الأبناء الأجواد. . .</tei:p>
             <tei:p change="#d2e73">البابلي</tei:p>
-            <tei:p change="#d2e73">أما القصيدة فهي لشاعرنا الكبير <persName>خليل مطران</persName> , وهذا نصُّها:</tei:p>
+            <tei:p change="#d2e73">أما القصيدة فهي لشاعرنا الكبير <persName change="#d3e209" ref="oape:pers:931 viaf:102460074">
+                            <forename xml:lang="ar">خليل</forename>
+                            <surname xml:lang="ar">مطران</surname>
+                        </persName> , وهذا نصُّها:</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>هل لشعري وأنتَ منهُ مرادي</tei:seg> 
@@ -669,7 +675,10 @@
                   <tei:seg>غير أن الفروقَ في الأندادِ</tei:seg>
                </tei:l>
             </lg>
-            <byline><persName>خليل مطران</persName></byline>
+            <byline><persName change="#d3e209" ref="oape:pers:931 viaf:102460074">
+                            <forename xml:lang="ar">خليل</forename>
+                            <surname xml:lang="ar">مطران</surname>
+                        </persName></byline>
             <tei:p change="#d2e73">السعادة</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
@@ -682,7 +691,7 @@
                   <tei:seg>م فلم أجد غيرَ العذابْ</tei:seg>
                </tei:l>
             </lg>
-            <byline change="#d2e198"><persName>حليم إبراهيم دموس</persName>ى</byline>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:1610">حليم إبراهيم دموس</persName>ى</byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>حول النياشين</head>
@@ -761,7 +770,10 @@
 <pb n="n3-p377" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1486.xhtml"/>
 
 
-أقتطف من الرسائل الواردة باسمي إلى إدارة مجلة <tei:title level="j" change="#d2e193">الزهور</tei:title> شيئاً عن الرتب والنياشين , لأن هذا الموضوع حديث الناس في هذه الأيام. كتب لي أحد القراء من مصر يقول ما كان أصدقك يا حاصد في تعليقك على رتبة حافظ حيث كتبت: فإذا نحن قلنا الشاعر <persName>حافظ إبراهيم</persName> عرفهُ كل ناطق بالضاد. ولكننا إذا قلنا عزتلو الوجيه بك إبراهيم لا يعرفهُ إلاَّ بواب منزله وفرَّاش الكتبخانة. وقولك هذا يصح في كل أديب كبير , فقد حدث منذ أيام في نظارة المعارف ما أُبت ذلك: كان صاحب الهلال , بعد الإنعام عليهِ بالرتبة , في النظارة , وكان هناك أحد كبار علماء الهند. فعرَّف الناظر الواحد إلى الثاني , قائلاً زيدان بك فلم يُعره العالم الهندي كبير التفات لظنهِ أنهُ أحد البكوات - والبكوات في مصر أكثر من الهمّ على القلب - فأدرك الناظر الأمر , وأراد أن يستدرك ما فات فما لبث أن ذكر جرجي زيدان منشئ الهلال فقام الهندي إليهِ وصحافهُ مصافحة</tei:p>
+أقتطف من الرسائل الواردة باسمي إلى إدارة مجلة <tei:title level="j" change="#d2e193">الزهور</tei:title> شيئاً عن الرتب والنياشين , لأن هذا الموضوع حديث الناس في هذه الأيام. كتب لي أحد القراء من مصر يقول ما كان أصدقك يا حاصد في تعليقك على رتبة حافظ حيث كتبت: فإذا نحن قلنا الشاعر <persName change="#d3e209" ref="oape:pers:245 viaf:32410755">
+                            <forename xml:lang="ar">حافظ</forename>
+                            <surname xml:lang="ar">إبراهيم</surname>
+                        </persName> عرفهُ كل ناطق بالضاد. ولكننا إذا قلنا عزتلو الوجيه بك إبراهيم لا يعرفهُ إلاَّ بواب منزله وفرَّاش الكتبخانة. وقولك هذا يصح في كل أديب كبير , فقد حدث منذ أيام في نظارة المعارف ما أُبت ذلك: كان صاحب الهلال , بعد الإنعام عليهِ بالرتبة , في النظارة , وكان هناك أحد كبار علماء الهند. فعرَّف الناظر الواحد إلى الثاني , قائلاً زيدان بك فلم يُعره العالم الهندي كبير التفات لظنهِ أنهُ أحد البكوات - والبكوات في مصر أكثر من الهمّ على القلب - فأدرك الناظر الأمر , وأراد أن يستدرك ما فات فما لبث أن ذكر جرجي زيدان منشئ الهلال فقام الهندي إليهِ وصحافهُ مصافحة</tei:p>
             <tei:p change="#d2e73">الاعتبار والإجلال مثنياً على تآليفهِ وأعماله الأدبية. . . فما أجمل مغزى هذه الحادثة وما أبلغ. . . وكتب إليَّ قارئ من الأرياف يقول: كثرت المؤامرات في هذا الصيف وإنني لأكاد أرى في رتب أدبائنا واحدة منها , وما المتآمرون إلاَّ عصبة من الباشاوات والبكوات. فإن حافظاً وخليلاً وزيدان كانوا بصفتهم الأدبية يُعدّون في طليعة أهل البلاد قبل هؤلاء الباشاوات والبكوات. فدبَّر لهم المتآمرون هذه المكيدة , وقد انطلقت عليهم الحيلة فأصبح حافظ برتبتهِ الثانية , وخليل بنيشانهِ الثالث , وزيدان برتبتهِ
 <pb n="n3-p378" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1487.xhtml"/>
 

@@ -54,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+      <revisionDesc><tei:change when="2019-10-19" who="#pers_TG" xml:id="d3e209" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
@@ -139,7 +139,7 @@
 ولما رأيت القبر المقدس الذي تمسح به المسيحيون والمهد الذي يتبركون بزيارته ثم رأيت ما رأيت من الأديار الكبيرة والمدارس المجانية والمضايف الواسعة النظيفة الحسنة الأثاث التي تكرم مثوى الزوّار وتستحسن وفادتهم فتقدم لهم مثل ما يقدم للغني السخي في بيته. فعندئذ تخيلت تلك الآثار المكرمة قد استحالت ينابيع ذهب يعيش عليها خلقٌ كثير. وتمثلت جبل الجلجلة وبستان الزيتون وادي تبر وقلت في نفسي لو جمع ما أنفق الزوار في طريق الأرض المقدسة من لدن ابتداء النصرانية إلى اليوم لربما وازن ما على جبل الجلجلة من التراب. فأورشليم هي معرض الكرم المسيحي الأوربي فكم للآتين والروم والبروتستانت هنالك من أيادٍ بيض على نصارى تلك المدينة وسائر الأرض المكرمة فثمة من المدارس والمياتم والمضايف ما يقضي بالفضل لأصحابها وينادي بلسان حاله هذه الثمرات الطيبة إنما هي ثمرات الإيمان.</tei:p>
             <tei:p change="#d2e73">ألا وان الأرض المقدسة كلها ألسنة تنطق بفضل الآباء الفرنسيسيين الذي تقدموا الجميع في هذه المبارّ فالمسيحيون هنالك سابحون في غمر مكارمهم متقلبون على بساط نعمهم فهم الذي يجمعون الحسنات الجمة من مسيحي أوربا وأميركا لينفقوها على المسيحيين من قطان</tei:p>
             <tei:p change="#d2e73">الأرض المقدسة وزوارها. سعيد // الخوري الشرنوني</tei:p>
-            <tei:p change="#d2e73">ويلي ذلك كلام عن المسجد الأقصى ووصف <persName>ابن خلدون</persName> له سنذكره في العدد القادم.
+            <tei:p change="#d2e73">ويلي ذلك كلام عن المسجد الأقصى ووصف <persName change="#d3e209" ref="oape:pers:53 viaf:41841661">ابن خلدون</persName> له سنذكره في العدد القادم.
 <pb n="n2-p12" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P573.xhtml"/>
 
 
@@ -267,7 +267,7 @@
                <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e181" value="26" xml:lang="ar">٢٦</tei:num>  - </hi>حكوماتهم تخدم الأمم. وأممنا تخدم الحكومات.</tei:p>
             <tei:p change="#d2e73">
                <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e181" value="27" xml:lang="ar">٢٧</tei:num>  - </hi>هم ينظرون إلى مستقبلهم. ونحن ننظر إلى ماضينا. لهذا هم تقدموا ونحن تأخرنا.</tei:p>
-            <byline change="#d2e198"><persName>صالح جودت</persName>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:1923">صالح جودت</persName>
 <pb n="n2-p21" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P582.xhtml"/>
 
 
@@ -455,7 +455,11 @@
             </lg>
             <tei:p change="#d2e73">النسيم العاشق</tei:p>
             <tei:p change="#d2e73">قصيدة تلاها في جمعية شمس البر في بيروت في الشهر الفائت</tei:p>
-            <tei:p change="#d2e73"><persName>إلياس أفندي فياض</persName> وهو الشاعر المعروف لدى أدباء القطرين</tei:p>
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:852">
+                            <forename xml:lang="ar">الياس</forename>
+                            <roleName type="title" xml:lang="ar">أفندي</roleName>
+                            <surname xml:lang="ar">فياض</surname>
+                        </persName> وهو الشاعر المعروف لدى أدباء القطرين</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>هذه قصة جرتلنسيم الرو</tei:seg> 
@@ -877,7 +881,7 @@
             </lg>
             <tei:p change="#d2e73">فو الله أنه يسوءنا كثيراً نحن معشر المصريين انتشار مثل هذه الآفات بمصرنا السعيدة وشقيقها السودان المصري. حيث إنها من دواعي التأخير وعثرة في سبيل الرقي والتقدم العصري.</tei:p>
             <tei:p change="#d2e73">عطبرة (السودان)</tei:p>
-            <byline change="#d2e198"><persName>عبد المطلب لبيب</persName></byline>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:2032">عبد المطلب لبيب</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>بين القصور والأكواخ</head>
@@ -987,7 +991,7 @@
             <tei:p change="#d2e73">هناك الآن صخور قاحلة جرداء لا يكاد ينبت فيها عشب حتى يصفر ويذبل ويموت، فإن الهواء الذي يهب في تلك الأرجاء يلهب ويحرق.</tei:p>
             <tei:p change="#d2e73">لم يبق للمدينتين من أثر. ولم يدع الماضي لعبرة الحاضر والمستقبل سوى بحيرة مرة تغلي كمرجل لذكرى نار السماء</tei:p>
             <tei:p change="#d2e73">تعريب حنا صاوه</tei:p>
-            <byline change="#d2e198"><persName>فيكتور هوجو</persName>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:2167">فيكتور هوجو</persName>
 <pb n="n2-p41" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P602.xhtml"/>
 
 
@@ -1021,16 +1025,19 @@
             <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="7" xml:lang="ar">٧</tei:num> ً: حديقة الأخبار بيروت: هي الجريدة الأولى التي تأسست في سوريا بفرمان سلطاني في  <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num>  ك  <tei:num type="auto-markup" change="#d2e181" value="2" xml:lang="ar">٢</tei:num>  يناير سنة  <tei:num type="auto-markup" change="#d2e181" value="1858" xml:lang="ar">١٨٥٨</tei:num> . منشئها المرحوم خليل الخوري الشاعر الشهير. وقد تحول امتيازها لعهدة أخيه وديع الذي يحررها. مادتها ضعيفة. أخبارها وتلغرافاتها منقولة.</tei:p>
             <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="8" xml:lang="ar">٨</tei:num> ً: الثبات بيروت صاحبها اسكندر الخوري. رئيس تحريرها خليل زينيه، وهو شيخ المحررين، وأخفهم روحاً وأطولهم باعاً.</tei:p>
             <tei:p change="#d2e73">والثبات هي الجريدة البيروتية الوحيدة التي تصدر عند الظهر. أما بقية الجرائد اليومية - ما عدا أحوال المساء - فإنها تصدر صباحاً إلا يوم الأحد. أما جريدة <tei:title level="j" change="#d2e193">المفيد</tei:title> فإنها تصدر الأحد وتحتجب الجمعة.</tei:p>
-            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="9" xml:lang="ar">٩</tei:num> ً: المقتبس دمشق: صاحبها <persName>محمد كرد علي</persName>، مؤرخ مدقق وكاتب سريع الخاطر. يهتم بشؤون المسلمين اهتماماً شديداً. قوة الجريدة متوزعة بينها وبين المجلة.</tei:p>
+            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="9" xml:lang="ar">٩</tei:num> ً: المقتبس دمشق: صاحبها <persName change="#d3e209" ref="oape:pers:878 viaf:32272677">
+                            <forename xml:lang="ar">محمد</forename>
+                            <surname xml:lang="ar">كرد علي</surname>
+                        </persName>، مؤرخ مدقق وكاتب سريع الخاطر. يهتم بشؤون المسلمين اهتماماً شديداً. قوة الجريدة متوزعة بينها وبين المجلة.</tei:p>
             <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="10" xml:lang="ar">١٠</tei:num> ً: العصر الجديد دمشق: صاحبها المحامي ناصيف أبو زيد. تختلف جريدته ارتقاءً وترتيباً باختلاف كتاب العصر فيها فقد تولى
 <pb n="n2-p44" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P605.xhtml"/>
 
 
-إدارتها <persName>عيسى إسكندر المعلوف</persName> فجرجي</tei:p>
+إدارتها <persName change="#d3e209" ref="oape:pers:2096">عيسى اسكندر المعلوف</persName> فجرجي</tei:p>
             <tei:p change="#d2e73">الحداد وسليم العنحوري فاسكندر المرحالا. فالعصر في دمشق الشام كالصدق المحتجب في بونس إيرس.</tei:p>
             <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="11" xml:lang="ar">١١</tei:num> : الكائنات دمشق: صاحبها أديب نظمي. كاتب كبير. في إنشائه رقة وسلاسة. وفي نفحةٌ من مفحات الأديب ولو لم يكن. في دمشق العصر الجديد المسيحي والمقتبس الإسلامي لكان لهذه الجريدة شأنٌ يذكر في أرض الشآم.</tei:p>
             <tei:p change="#d2e73">هذه هي أهم الجرائد اليومية ومن وصفها ترى أن فيها المتطرفة والمعتدلة والمحافظة.</tei:p>
-            <byline><persName>حليم إبراهيم دموس</persName></byline>
+            <byline><persName change="#d3e209" ref="oape:pers:1610">حليم إبراهيم دموس</persName></byline>
             <tei:p change="#d2e73">وسيأتي الكلام عن الجرائد الأسبوعية والمجلات</tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="section">

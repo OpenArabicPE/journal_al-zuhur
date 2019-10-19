@@ -54,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+      <revisionDesc><tei:change when="2019-10-19" who="#pers_TG" xml:id="d3e209" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
@@ -178,7 +178,7 @@
 
 صحيفة من النحاس - الفساد - ولما بعدا عن الشيخ ووارتهما أغصان الغاب رجعت إليه فلقيته يئن أنيناً متقطعاً وهو يحتضر وكان احتضاره رهيباً مزعجاً فدنوت منه وسألته وأنت من أنت يا هذا فأجاب والنور يخرج من فيه: أنا الحب العذري - أنا الطهر - أنا العفاف.</tei:p>
             <tei:p change="#d2e73">قال هذا وتنفس الصعداء وكان بها خروج الروح. وأدرت لحاظي في هيئته فرأيته قد تحول كله إلى شعلة من نور ورأيت زهرة آسٍ كان يتضوع منها عرفٌ قوي الرائحة رغماً عن ذبولها. وساد السكون على تلك الأنحاء عميقاً فرجعت أدراجي نحو منزلي لما رأيت أن الهواء أصبح بارداً وشعرت بوطأة السكون.</tei:p>
-            <byline change="#d2e198">بيروت، <persName>جميل مدور</persName></byline>
+            <byline change="#d2e198">بيروت، <persName change="#d3e209" ref="oape:pers:1527">جميل مدور</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>نظرة إشراف عام</head>
@@ -240,7 +240,7 @@
                <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e181" value="2" xml:lang="ar">٢</tei:num>  - </hi>وأما العلوم والآداب في حائل (ويقال لهذه الإمارة أيضاً الجبل وجبل شمَّر وهو جبل طيء في السابق) فهي على غير ما رأيته في الإمارة الأولى.</tei:p>
             <tei:p change="#d2e73">ومما يجب أن تعلمه قبل إيغال في البحث أن هذه البلاد قد وصلت إلى درجة تذكر في العلوم منذ سابق العهد. وإمارتها لشمّر منذ أن وجدوا إلى يومنا هذا. وقد استولى عليها آل السعود حين قويت شوكتهم وعظمت صولتهم. وما كادت شمسها تميل إلى الغروب إلا وعادت تلك الديار إلى أهلها الأقدمين. وكان أول أهلها ورؤسائهم: آل علي ثم انتقلت إلى طلال فبندر فمحمد الرشيد.</tei:p>
             <tei:p change="#d2e73">بغداد</tei:p>
-            <byline change="#d2e198"><persName>ساتسنا</persName>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:227 viaf:39370998">ساتسنا</persName>
 <pb n="n2-p184" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P744.xhtml"/>
 
 
@@ -296,7 +296,7 @@
 عارف الزين. مجلته جامعة. فيها من كل فن خبر. منشئها مثال التساهل الديني.</tei:p>
             <tei:p change="#d2e73">* * *</tei:p>
             <tei:p change="#d2e73">وهناك مجلات أخرى لم أذكرها لعدم قراءتي إياها طويلاً كالطبيب للدكتور إسكندر بارودي، والجسمانية للأب يوسف علوان، واللطائف الأهلية لمحمد جمل، والتلميذ للمدرسة العثمانية، والمجلة السورية لفيليب يوسف تيان، ومجلة <tei:title level="j" change="#d2e193">الاقتصاد</tei:title> لأنيبال إبيلا، والحقوق لمعوشي وخلف، والعري، والعروس، والشبيبة وغيرها من المجلات التي لم تعش كثيراً لضعف مادتها العلمية من جهة. وفقر أصحابها من جهة أخرى.</tei:p>
-            <byline change="#d2e198"><persName>حليم إبراهيم دموس</persName></byline>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:1610">حليم إبراهيم دموس</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>في جنائن الغرب</head>
@@ -317,7 +317,8 @@
             <tei:p change="#d2e73">وأنا كالكلب الأمين أحرس دارك من شر اللصوص، وأرافق أنعامك إلى مرعاها الأخضر، وأذب عنها الذئاب والضباع، وأرد إلى أسرابك ما شرد عنها من الأغنام. أصنع لك الجبنة عندما تدر لك قطعانك أبانها، وإذا ما الشمس نادت حي على الفلاح كنت أول بادئ في العمل فأهيئ لك خيلك وأجرد عنها أقذارها.</tei:p>
             <tei:p change="#d2e73">ألا تريدين أن تنظري إلي. . . آه لو لم ترفضي إذن لعلمت أن الأرواح ليست قبيحة كما تتوهمها عقول البشر، لي أجنحة أطير بها وعينان زرقاوان كرقيع السماء الصافي، أنا ابن الهواء، أنا ابن الهباء، ونحافة جسمي تدلك على صدق قولي.</tei:p>
             <tei:p change="#d2e73">ألا قولي يا لوسي ما بالك ترتعدين؟ إني لست أعجب من رعبك. إليك آخر سؤلي، وما العهد بك أن ترفضي نعمة طلبت إليك فاسمعي. إن الله يأذن للأشباح أن تلبس الهيكل الإنساني مرة في السنة. فأنا سآخذ صورة حبيبك مانيوس من نقشت صورته على سويداء قلبك وعلقت نفسك بهواه. ألا فاقبلي طيفي الشارد كما لو كنت إياه وارحمي شقائي. . . إن التي كانت ترتعد خوفاً وتغرق رعباً منذ هنيهة من ذلك الصوت الحنون الرخيم، وتطرده منتصرة بالصليب، قد علا وجهها الأحمر وصمتت حياءً وخجلاً، فدنا من فمها فمٌّ وتعانقا. أتلك قبلة بشرية أم قبلة روح طوتها الأيام فبعثها الغرام. . .؟</tei:p>
-            <byline change="#d2e198"><persName>لويس أسود</persName>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:2788">
+                            <forename>لويس</forename>أسود</persName>
 <pb n="n2-p190" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P750.xhtml"/>
 
 
@@ -347,7 +348,10 @@
                   <tei:seg>في الوصل ناراً وفي الهجران نيرانا</tei:seg>
                </tei:l>
             </lg>
-            <byline><persName>إسماعيل صبري</persName></byline>
+            <byline><persName change="#d3e209" ref="oape:pers:777 viaf:45752632">
+                            <forename xml:lang="ar">إسماعيل</forename>
+                            <surname xml:lang="ar">صبري</surname>
+                        </persName></byline>
             <tei:p change="#d2e73">ما كان</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
@@ -360,7 +364,12 @@
                   <tei:seg>يا ليت ما كان قبل اليوم ما كانا</tei:seg>
                </tei:l>
             </lg>
-            <byline><persName>ولي الدين يكن</persName></byline>
+            <byline><persName change="#d3e209" ref="oape:pers:2834 viaf:36771043">
+                            <forename xml:lang="ar">
+                                <addName type="khitab" xml:lang="ar">ولي الدين</addName>
+                            </forename>
+                            <surname xml:lang="ar">يكن</surname>
+                        </persName></byline>
             <tei:p change="#d2e73">الحب المكتوم</tei:p>
             <tei:p change="#d2e73">نشرنا في جنائن الغرب من العدد الماضي تعريب أبيان بالعنوان المتقدم للشاعر الفرنسوي فليكس أرفر وقد نظم الترجمة شعراً صاحب الإمضاء قال:</tei:p>
             <lg change="#d2e82">
@@ -776,7 +785,7 @@
             <tei:p change="#d2e73">ولقد تسنى لنا أن نفوز ببعض تلك اللآلئ المكنوزة فرأينا أن ننشرها تباعاً تاركين للقراء أن يقدروا قيمتها الغالية ويعرفوا مكانتها من الأدب.</tei:p>
             <tei:p change="#d2e73">قلت أولاً إن الشاعر الذي أوحت إليه سماء لبنان، وألهمته الطبيعة الباهرة الجمال في تلك</tei:p>
             <tei:p change="#d2e73">الربوع والأصقاع، مطالب بكثير، ومسؤول عن أدبٍ وفرٍ وبيان ساحر يكونان بمقدار ما استنزل مما حواليه من الوحي والإلهام. إذن فإن رشيداً سيكون ولا ريب حبيباً إلى قراء الزهور ولعله لا تشغله وظيفته السامية في حكومة جبل لبنان عن إتحافنا على التمادي بزهراته الطيبة؟</tei:p>
-            <byline change="#d2e198"><persName>أمين</persName></byline>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:1136">أمين</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>أنت</head>
@@ -799,7 +808,7 @@
 القلب الملكي عاطفة الحنو والإشفاق ويبتذلوا مجلى جمالك وبهائك للعيون وبالجملة يريدون أن يجعلوك رجلاً وامرأة معاً.</tei:p>
             <tei:p change="#d2e73">هذا ما يريدون وذلك ما يعالجون ويدّعون نصرتك ويهزون لواءك.</tei:p>
             <tei:p change="#d2e73">أما أنا يا ذات المعصم وربة السوار، فلا أريدك إلا كما خلقت مادحة السرير منهنهة الصغير مؤنسة الوحشة مملكة القلوب ناعمة البشرة أنيقة الجسم منمنمة البنان رقيقة الشعور.</tei:p>
-            <byline><persName>رشيد نخلة</persName></byline>
+            <byline><persName change="#d3e209" ref="oape:pers:1734">رشيد نخلة</persName></byline>
             <byline change="#d2e198">(وسننشر في العدد القادم شيئاً من شعره)</byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
@@ -834,20 +843,27 @@
 
 * حسن سلوكك في بيتك سعادة لك ولشريكة حياتك، ومدرسة لبنيك وبناتك، فإن كنت لا تستطيع هذا، فجرب أن تكون بلا بيت لئلا تنزل عن عرش رجوليتك وتقلل من هيبتك واعتبارك وتدوس الإنسانية وواجباتك نحوها.</tei:p>
             <tei:p change="#d2e73">* الأخلاق الحسان تلقى إليك كالوزنات التي أشار إليها يسوع الجليلي على شرط العمل بها وإنمائها، فإن لم يكن لك ضمير حي يطالبك بها، فلابد من أن تطالب بها من أولادك يوم يرون ذواتهم تعساء في حياتهم، ذلك إذا لم تستوف الطبيعة نفسها حقها منك.</tei:p>
-            <byline change="#d2e198"><persName>سامي الراسي</persName></byline>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:1787">سامي الراسي</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>أحسن مقالة وأحسن قصيدة؟</head>
             <tei:p change="#d2e73">سألنا القراء رأيهم في أحسن مقالة وأحسن قصيدة نشرت في السنة الأولى للزهور. فجاءتنا الأجوبة مختلفة مما يدل على الاختلاف في الأذواق.</tei:p>
-            <tei:p change="#d2e73">مقالة رجوع الحبيب ل<persName>جبران خليل جبران</persName> وقصيدة شوقي بك في رثاء تولستوي أحرزتا أكثرية الأصوات. وجاءت بعدها قصيدة فرعون وقومه ل<persName>إسماعيل باشا صبري</persName> وقصيدة نفس مكرمة ونف تزدرى ل<persName>ولي الدين بك يكن</persName>.</tei:p>
+            <tei:p change="#d2e73">مقالة رجوع الحبيب ل<persName change="#d3e209" ref="oape:pers:1479">جبران خليل جبران</persName> وقصيدة شوقي بك في رثاء تولستوي أحرزتا أكثرية الأصوات. وجاءت بعدها قصيدة فرعون وقومه ل<persName>إسماعيل باشا صبري</persName> وقصيدة نفس مكرمة ونف تزدرى ل<persName change="#d3e209" ref="oape:pers:2834 viaf:36771043">
+                            <forename>ولي الدين</forename>
+                            <roleName type="title">بك</roleName>
+                            <surname>يكن</surname>
+                        </persName>.</tei:p>
             <tei:p change="#d2e73">ونالت قصيدتا صبري باشا أيضاً بكاء صديق ودمعة أصواتاً غير قليلة. ومثلها قصيدة شوقي بك إلى الحبيب.</tei:p>
             <tei:p change="#d2e73">ومقالة الرقيق الأبيض ومن القفص إلى العش أحرزتا خصوصاً استحسان القارئات.
 <pb n="n2-p205" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P765.xhtml"/>
 
 
-أما محبو الأبحاث الأدبية فقد أعجبوا بوجهٍ خاص بتاريخ الآداب لعيسى معلوف وبالنهضة في العراق ل<persName>ساتسنا</persName>.</tei:p>
-            <tei:p change="#d2e73">ومن المقالات التي نالت أصواتاً غير يسيرة العمال والحكومات والقطران الشقيقان ل<persName>داود بركات</persName> وما كان في معناها من قلم تحرير المجلة في مفتتح العدد الأول وفي العدد الكبير مصر وسورية.</tei:p>
-            <tei:p change="#d2e73">وقد جاءتنا كتابات أيضاً تعرب عن استحسان خطة درس الكتب كالريحانيات والنظرات ومجموعة الشميل والمقابلة بين شوقي والبوصيري و<persName>حافظ إبراهيم</persName> والفرزدق. وطلب أصحابها أن نكثر من هذه الدروس الانتقادية فنجيبهم: أعطونا كتباً وخذوا دروساً.</tei:p>
+أما محبو الأبحاث الأدبية فقد أعجبوا بوجهٍ خاص بتاريخ الآداب لعيسى معلوف وبالنهضة في العراق ل<persName change="#d3e209" ref="oape:pers:227 viaf:39370998">ساتسنا</persName>.</tei:p>
+            <tei:p change="#d2e73">ومن المقالات التي نالت أصواتاً غير يسيرة العمال والحكومات والقطران الشقيقان ل<persName change="#d3e209" ref="oape:pers:1673">داود بركات</persName> وما كان في معناها من قلم تحرير المجلة في مفتتح العدد الأول وفي العدد الكبير مصر وسورية.</tei:p>
+            <tei:p change="#d2e73">وقد جاءتنا كتابات أيضاً تعرب عن استحسان خطة درس الكتب كالريحانيات والنظرات ومجموعة الشميل والمقابلة بين شوقي والبوصيري و<persName change="#d3e209" ref="oape:pers:245 viaf:32410755">
+                            <forename xml:lang="ar">حافظ</forename>
+                            <surname xml:lang="ar">إبراهيم</surname>
+                        </persName> والفرزدق. وطلب أصحابها أن نكثر من هذه الدروس الانتقادية فنجيبهم: أعطونا كتباً وخذوا دروساً.</tei:p>
             <tei:p change="#d2e73">وأثنى الكثيرون على الأشواك والأزهار التي يجمعها حاصد وكتب إلينا أحد الظرفاء يقول: باقةٌ جميلة جمع فيها الورد والبنفسج والزنبق والياسمين: مجموع أزهار عطرية لا أعرف أيها أفضّل فلذلك جمعتها كلها وحرصت عليها في خزانتي.</tei:p>
             <tei:p change="#d2e73">هذا مجمل ما جاءنا من الأجوبة على سؤالنا نورده مع الشكر لكل الذين لبوا الطلب.</tei:p>
          </tei:div>
@@ -1055,7 +1071,10 @@
 منه دلالة على ما فيه من الفائدة. ولعلنا نفعل مثل ذلك في عدد آتٍ.</tei:p>
             <tei:p change="#d2e73">نشكر المؤلف على هديته ونلفت الأنظار إلى كتابه.</tei:p>
             <tei:p change="#d2e73">رواية البائسين - هي الرواية الاجتماعية الشهيرة التي وضعها فيكتور هوغو شاعر فرنسا الأكبر في نهضة آدابها الحديثة. وبطلها جان فالجان الذي حكم عليه بالنفي لأنه سرق كسرة خبزٍ ليسد بها رمق أولاد شقيقته يوم كانوا يتضورون جوعاً. كتبها مؤلفها سنة  <tei:num type="auto-markup" change="#d2e181" value="1862" xml:lang="ar">١٨٦٢</tei:num>  وهو حينذاك في الستين من عمره. فنالت شهرة بعيدة وترجمت إلى معظم اللغات لأن كاتبها الكبير جمع فيها جل آرائه وأفكاره في الهيأة الاجتماعية. ويضيق بنا المجال اليوم لتحليل هذه المبادئ وإيفائها حقها من الدرس والبحث. جاءنا الجزء الأول من هذه</tei:p>
-            <tei:p change="#d2e73">الرواية منقولاً إلى العربية بقلم الكاتبين جرجي وصموئيل يني صاحبي مجلة <tei:title level="j" change="#d2e193">المباحث</tei:title> الطرابلسية. وقد حاول المعربان أن يطابقا الترجمة عل الأصل قدر الإمكان ليحفظا أسلوب المؤلف وخطته الكتابية. . . وقد سبق ل<persName>حافظ إبراهيم</persName> منذ بضع سنوات أن عرب أيضاً جزءاً من هذه الرواية فكان لظهوره ضجة في عالم الأدب العربي. ولا ندري لماذا أحجم شاعرنا عن متابعة عمله. هذا ونحن لا نزال نقول إن نقل آداب الإفرنج إلى لغتنا لمما يكسب العربية ثروة طائلة من المعاني بشرط أن يوفق أدباؤنا إلى تعريب الصالح منها وإيفائه حقه.
+            <tei:p change="#d2e73">الرواية منقولاً إلى العربية بقلم الكاتبين جرجي وصموئيل يني صاحبي مجلة <tei:title level="j" change="#d2e193">المباحث</tei:title> الطرابلسية. وقد حاول المعربان أن يطابقا الترجمة عل الأصل قدر الإمكان ليحفظا أسلوب المؤلف وخطته الكتابية. . . وقد سبق ل<persName change="#d3e209" ref="oape:pers:245 viaf:32410755">
+                            <forename xml:lang="ar">حافظ</forename>
+                            <surname xml:lang="ar">إبراهيم</surname>
+                        </persName> منذ بضع سنوات أن عرب أيضاً جزءاً من هذه الرواية فكان لظهوره ضجة في عالم الأدب العربي. ولا ندري لماذا أحجم شاعرنا عن متابعة عمله. هذا ونحن لا نزال نقول إن نقل آداب الإفرنج إلى لغتنا لمما يكسب العربية ثروة طائلة من المعاني بشرط أن يوفق أدباؤنا إلى تعريب الصالح منها وإيفائه حقه.
 <pb n="n2-p218" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P778.xhtml"/>
 
 

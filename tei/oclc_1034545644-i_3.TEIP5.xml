@@ -54,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+      <revisionDesc><tei:change when="2019-10-19" who="#pers_TG" xml:id="d3e209" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
@@ -201,18 +201,27 @@
             <tei:p change="#d2e73">هو دمّل من دماميل مجتمع الإنسان،</tei:p>
             <tei:p change="#d2e73">هو ثمرة طغيانكم أيها الرؤساء والأسياد والحكام،</tei:p>
             <tei:p change="#d2e73">هو صنع يدكم الأثيمة لا صنع يد الله.</tei:p>
-            <byline change="#d2e198"><persName>أمين ريحاني</persName></byline>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:698 viaf:17374300">
+                            <forename xml:lang="ar">أمين</forename>
+                            <surname xml:lang="ar">ريحاني</surname>
+                        </persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>حملة الأقلام في بر الشام</head>
-            <tei:p change="#d2e73">* <persName>إبراهيم الحوراني</persName> (محرر النشرة) - غزرت مادته فأتت أقواله (من كل فاكهة بها زوجان)</tei:p>
+            <tei:p change="#d2e73">* <persName change="#d3e209" ref="oape:pers:361 viaf:305214782">
+                            <forename xml:lang="ar">إبراهيم</forename>
+                            <surname xml:lang="ar">الحوراني</surname>
+                        </persName> (محرر النشرة) - غزرت مادته فأتت أقواله (من كل فاكهة بها زوجان)</tei:p>
             <tei:p change="#d2e73">* <persName>الشيخ إسكندر العازار</persName> - كل ما كتبه ويكتبه هو من السهل الممتنع</tei:p>
             <tei:p change="#d2e73">* إبراهيم أبي خاطر - يسرك كخطيب. ولا يسوءك ككاتب</tei:p>
-            <tei:p change="#d2e73">* <persName>أمين الريحاني</persName> - جمع بين لطافة الهواء. وسلاسة الماء</tei:p>
+            <tei:p change="#d2e73">* <persName change="#d3e209" ref="oape:pers:698 viaf:17374300">
+                            <forename xml:lang="ar">أمين</forename>
+                            <surname xml:lang="ar">الريحاني</surname>
+                        </persName> - جمع بين لطافة الهواء. وسلاسة الماء</tei:p>
             <tei:p change="#d2e73">* <persName>أمين الغريب</persName> (صاحب المهاجر سابقاً وأحد صاحبي النصير حالاً) - أقدر صحافي لإرضاء مشتركيه. وترغيبهم في مطالعته</tei:p>
             <tei:p change="#d2e73">* أسعد رستم - لا يجاريه في البرية فرد في ضروب الفكاهة الرستمية</tei:p>
             <tei:p change="#d2e73">* أميل الخوري - لو أكمل الشوط لبلغ الغاية</tei:p>
-            <tei:p change="#d2e73">* <persName>بشارة الخوري</persName> (صاحب البرق) - هو كجريدته. فيه من كل فن خبر</tei:p>
+            <tei:p change="#d2e73">* <persName change="#d3e209" ref="oape:pers:1365">بشارة الخوري</persName> (صاحب البرق) - هو كجريدته. فيه من كل فن خبر</tei:p>
             <tei:p change="#d2e73">* بشري رمضان (صاحب الكوثر) - لم أقر له كثيراً. ولكنني أرى في مجلته مادة غزيرة.</tei:p>
             <tei:p change="#d2e73">* بطرس مختاره المعلوف - لو رام الشهرة لكان شانه في لبنان الجميل
 <pb n="n1-p100" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P113.xhtml"/>
@@ -228,28 +237,34 @@
             <tei:p change="#d2e73">* سعيد الشرتوني - كل شيء منه مقبول - إلا الشعر</tei:p>
             <tei:p change="#d2e73">* الشيخ رشيد نفاع - أقوى حافظةً من أبي العلاء</tei:p>
             <tei:p change="#d2e73">* سليم العقاد (محرر الأحوال) - كاتب مجيد صبور. آثر التستر على الظهور</tei:p>
-            <tei:p change="#d2e73">* <persName>شبلي ملاط</persName> (صاحب الوطن) - تكاد تلمس حدته من خلال سطوره</tei:p>
+            <tei:p change="#d2e73">* <persName change="#d3e209" ref="oape:pers:1885">شبلي ملاط</persName> (صاحب الوطن) - تكاد تلمس حدته من خلال سطوره</tei:p>
             <tei:p change="#d2e73">* شبل ناصيف دموس - شديد اللجهة. طويل النفس</tei:p>
             <tei:p change="#d2e73">* شكيب أرسلان - جال جولة رفعته إلى رتبة المشاهير. ثم أشغلته السياسة عن متابعة التحبير</tei:p>
             <tei:p change="#d2e73">* عبد الله البستاني - قريع وحده في أساليب البلاغة</tei:p>
             <tei:p change="#d2e73">* عبد الغني العريسي (صاحف المفيد) - خير مثال للحمية العربية</tei:p>
-            <tei:p change="#d2e73">* <persName>عيسى إسكندر المعلوف</persName> - كثرت كتابته. فتوزعت مادته</tei:p>
+            <tei:p change="#d2e73">* <persName change="#d3e209" ref="oape:pers:2096">عيسى اسكندر المعلوف</persName> - كثرت كتابته. فتوزعت مادته</tei:p>
             <tei:p change="#d2e73">* فارس الخوري - يحذو حذو حافظ في شعره. ولكنه لن يدانيه في نثره</tei:p>
             <tei:p change="#d2e73">* فيلكس فارس (صاحب لسان الاتحاد) هو في نثره أشعر منه في شعره</tei:p>
             <tei:p change="#d2e73">* كامل حميه (محرر النفائس) - إذا كان الإنشاء هو الإنسان فاقرأ النفائس. . .</tei:p>
-            <tei:p change="#d2e73">* <persName>محيي الدين الخياط</persName> (محرر الإقبال والاتحاد العثماني) - هو في شعره فوقه في نثره.</tei:p>
+            <tei:p change="#d2e73">* <persName change="#d3e209" ref="oape:pers:391 viaf:4812503">
+                            <forename>محيي الدين</forename>
+                            <surname>الخياط</surname>
+                        </persName> (محرر الإقبال والاتحاد العثماني) - هو في شعره فوقه في نثره.</tei:p>
             <tei:p change="#d2e73">* مصفى الغلاييني (صاحب النبراس) - أفضل ما أتمثه خطيباً
 <pb n="n1-p101" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P114.xhtml"/>
 
 
-* <persName>محمد كرد علي</persName> (صاحب المقتبسين) - لا تعرف منزلة نبي في وطنه</tei:p>
+* <persName change="#d3e209" ref="oape:pers:878 viaf:32272677">
+                            <forename xml:lang="ar">محمد</forename>
+                            <surname xml:lang="ar">كرد علي</surname>
+                        </persName> (صاحب المقتبسين) - لا تعرف منزلة نبي في وطنه</tei:p>
             <tei:p change="#d2e73">* محمد الباقر (صاحب المنتقد) - كل من سار على الدرب وصل</tei:p>
             <tei:p change="#d2e73">* نعوم لبكي (صاحب المناظر) - ترى ظلمة خفيفة. من خلال بلاغته اللامعة.</tei:p>
             <tei:p change="#d2e73">* <persName>يوسف نخلة ثابت</persName> - هو في تعريبه أصح لغة من أكثر المنشئين.</tei:p>
             <tei:p change="#d2e73">* * *</tei:p>
             <tei:p change="#d2e73">هذا ما وصلت إليه طاقتي القاصرة. كتبته ورتبته على حروف الهجاء.</tei:p>
             <tei:p change="#d2e73">وهناك أيضاً قسم كبير من الكتاب والشعراء المجيدين من النبت الجديد وسأذكرهم على حدة في مقالة أخرى إن شاء الله.</tei:p>
-            <byline change="#d2e198"><persName>حليم إبراهيم دموس</persName> (بيروت)</byline>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:1610">حليم إبراهيم دموس</persName> (بيروت)</byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>ملكة الجمال</head>
@@ -773,7 +788,7 @@
                </tei:l>
             </lg>
             <tei:p change="#d2e73">زحلة</tei:p>
-            <byline change="#d2e198"><persName>عيسى إسكندر المعلوف</persName>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:2096">عيسى اسكندر المعلوف</persName>
 <pb n="n1-p109" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P122.xhtml"/>
 
 
@@ -1095,7 +1110,10 @@
             <tei:p change="#d2e73">بيروس - لقد عز الصبر ولم يبق للعفو منال. . . واعلمي أن بغضي يكون كحبي شديداً. وإن الابن يؤخذ بأعمال أمه لا محال فسأسلمه إلى اليونان. . .</tei:p>
             <tei:p change="#d2e73">أندروماك - يموت ابني. . . ابني يموت ولا معين له ولا شافع إلا دمعي. . . وعسى أن يقصر ذلك عذابي ويريحني مما ألاقيه فألحق به لنلتقي معاً بأبيه. . . .</tei:p>
             <tei:p change="#d2e73">(راسين)</tei:p>
-            <byline change="#d2e198">تعريب <persName>أديب إسحق</persName>
+            <byline change="#d2e198">تعريب <persName change="#d3e209" ref="oape:pers:246 viaf:90074341">
+                            <forename xml:lang="ar">أديب</forename>
+                            <surname xml:lang="ar">إسحق</surname>
+                        </persName>
 <pb n="n1-p121" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P134.xhtml"/>
 
 
@@ -1269,7 +1287,10 @@
          </tei:div>
          <tei:div change="#d2e64" type="section">
             <head>حديقة الأخبار</head>
-            <tei:p change="#d2e73">- في  <tei:num type="auto-markup" change="#d2e181" value="26" xml:lang="ar">٢٦</tei:num>  مارس مثلت الجمعية الحمصية في ملعب أكاديمي أوف موزيك في بروكلين (أمريكا) رواية جنفياف وفي  <tei:num type="auto-markup" change="#d2e181" value="9" xml:lang="ar">٩</tei:num>  من الشهر الغابر مثل المنتدى السوري الأمريكي في نيويورك رواية ثارات العرب من قلم المرحوم الشيخ <persName>نجيب الحداد</persName>. فالمهاجرون ينشرون اللغة العربية في أقاصي المعمور.</tei:p>
+            <tei:p change="#d2e73">- في  <tei:num type="auto-markup" change="#d2e181" value="26" xml:lang="ar">٢٦</tei:num>  مارس مثلت الجمعية الحمصية في ملعب أكاديمي أوف موزيك في بروكلين (أمريكا) رواية جنفياف وفي  <tei:num type="auto-markup" change="#d2e181" value="9" xml:lang="ar">٩</tei:num>  من الشهر الغابر مثل المنتدى السوري الأمريكي في نيويورك رواية ثارات العرب من قلم المرحوم الشيخ <persName change="#d3e209" ref="oape:pers:2586">
+                            <forename>نجيب</forename>
+                            <surname>الحداد</surname>
+                        </persName>. فالمهاجرون ينشرون اللغة العربية في أقاصي المعمور.</tei:p>
             <tei:p change="#d2e73">- للكاتب التركي عزت مليح بك رواية تمثيلية اسمها ليلى وقد نقلت إلى اللغة الإسبانية ومثلت في الشهر الغابر في مكسيكو وقد أثنت جرائد البلاد كثيراً على هذه الرواية ومؤلفها الشرقي لإجادته في تنسيق مشاهدها وتمثيل العادات الشرقية.</tei:p>
             <tei:p change="#d2e73">- مثلت رواية عنتر تأليف شكري أفندي غانم ستين مرة في باريس في ملعب الأوديون وكانت القاعة كل مرة غاصة بالحاضرين، واضطر مدير الملعب إلى إيقاف تمثيلها بسبب ارتباطه مع بعض المؤلفين لتمثيل رواياتهم هذه السنة.</tei:p>
             <tei:p change="#d2e73">- في  <tei:num type="auto-markup" change="#d2e181" value="17" xml:lang="ar">١٧</tei:num>  أبريل مثل فريق من تلامذة المدرسة المارونية في مصر رواية اللصوص من قلم مدير هذه المجلة فأجادوا كثيراً.</tei:p>
@@ -1280,7 +1301,16 @@
 
 حضرة عبد الحميد أفندي الزهراوي العضو في مجلس المبعوثان ومدير أعمالها شاكر أفندي الحنبلي. وهي سياسية أدبية فنية وتصدر يومياً. بدل اشتراكها  <tei:num type="auto-markup" change="#d2e181" value="60" xml:lang="ar">٦٠</tei:num>  غرشاً. اخبارها شائقة وعبارتها رائقة ومدير سياستها كاتب طويل الباع.</tei:p>
             <tei:p change="#d2e73">- وردت مقالة لطيفة في الإكسبرس الإسكندري عن الأندية والصحف: كل الأندية تريد أن ترسل إليها الصحف والمجلات مجاناً مع أن النادي يستفيد من الجريدة لأنها أهم الآلات والوسائل التي تعينه على بلوغ غرضه. أما صاحب الجريدة فلا يستفيد من النادي. ونظام الاجتماع يقضي بأن يكون النفع متبادلاً. . . الأندية في أوروبا تخلق الصحف وتمدها بالمال وتروجها وتشد إزرها. أما عندنا فيريدون من الجرائد أن تخدم الأندية والمجتمعات وتعضدها وتنشر تقاريرها و. و. و. وتريد أن تشترك فيها لوجه الله.</tei:p>
-            <tei:p change="#d2e73">- ثلاثة من نخبة كتابنا حرمت الحكومة القراء من نفثاتهم الشائقة فتركوا الصحافة لدواوين الحكومة: حافظ أفندي عوض أصبح في المعية السنية، و<persName>السيد مصطفى لطفي المنفلوطي</persName> في نظارة المعارف، و<persName>محمد أفندي مسعود</persName> في قلم المطبوعات. نحن نتمنى لهم كل توفيق وتقدم على شرط أن يذكرونا من حين إلى حين. وإذا كانت مراكزهم الجديدة تحول دون جولاتهم المعروفة في ميادين الصحافة، فإن المجلات الأدبية لا تزال مفتوحة في وجههم. فليذكروا العهد، ولا ينسوا صحبتهم الطويلة للقلم الذي طالما غرّد في يمينهم. . .</tei:p>
+            <tei:p change="#d2e73">- ثلاثة من نخبة كتابنا حرمت الحكومة القراء من نفثاتهم الشائقة فتركوا الصحافة لدواوين الحكومة: حافظ أفندي عوض أصبح في المعية السنية، و<persName change="#d3e209" ref="oape:pers:545 viaf:61716327">
+                            <roleName type="nobility">السيد</roleName>
+                            <forename xml:lang="ar">مصطفى</forename>
+                            <forename xml:lang="ar">لطفي</forename>
+                            <surname xml:lang="ar">المنفلوطي</surname>
+                        </persName> في نظارة المعارف، و<persName change="#d3e209" ref="oape:pers:2958">
+                            <forename xml:lang="ar">محمد</forename>
+                            <roleName type="title">أفندي</roleName>
+                            <surname xml:lang="ar">مسعود</surname>
+                        </persName> في قلم المطبوعات. نحن نتمنى لهم كل توفيق وتقدم على شرط أن يذكرونا من حين إلى حين. وإذا كانت مراكزهم الجديدة تحول دون جولاتهم المعروفة في ميادين الصحافة، فإن المجلات الأدبية لا تزال مفتوحة في وجههم. فليذكروا العهد، ولا ينسوا صحبتهم الطويلة للقلم الذي طالما غرّد في يمينهم. . .</tei:p>
             <tei:p change="#d2e73">- مخبر
 <pb n="n1-p137" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P150.xhtml"/>
 

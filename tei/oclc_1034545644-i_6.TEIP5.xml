@@ -54,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+      <revisionDesc><tei:change when="2019-10-19" who="#pers_TG" xml:id="d3e209" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
@@ -130,7 +130,10 @@
 
 وذكرت في العبرية باسم ماصور وهو مأخوذ من مصرايم. وتعرف في العربية بمصر.</tei:p>
             <tei:p change="#d2e73">أما أسماؤها المتعارفة عند اليونان وفي أوروبا فهي أجيبتوس قال بروكش إنه مشتق من حاكابتاح اسم منف عاصمة الحكومة المصرية القديمة. لأن الأقوام المتوحشة من ملاحي البحر الأبيض كانوا يقيمون في مصر أزماناً طويلة فيسمعون من أهلها اسم عاصمتهم هذا لأنها كانت اكبر مدن مصر وأهمها وأغناها. فنقلوا اسمها إلى بلادهم وحرّفوه إلى اجيبت، وهو الشائع الآن. . . وذهب بكتيت إلى غير ذلك، فقال إن إِ معناه الماشية وجوب معناه الحارس فيكون معناهما الراعي. وقد جعلا اسماً للعقاب تهكماً به، ثم أطلقا على مصر من قبيل التهكم لإغارة الرعاة.</tei:p>
-            <byline change="#d2e198"><persName>أحمد كمال</persName>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:884">
+                            <forename xml:lang="ar">أحمد</forename>
+                            <surname xml:lang="ar">كمال</surname>
+                        </persName>
 <pb n="n1-p242" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P253.xhtml"/>
 
 
@@ -339,7 +342,10 @@
                   <tei:seg>إذا هما وزنا يوماً بميزان</tei:seg>
                </tei:l>
             </lg>
-            <byline change="#d2e198"><persName>إسماعيل صبري</persName></byline>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:777 viaf:45752632">
+                            <forename xml:lang="ar">إسماعيل</forename>
+                            <surname xml:lang="ar">صبري</surname>
+                        </persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>آثار مصر</head>
@@ -853,7 +859,10 @@
             </lg>
             <tei:p change="#d2e73">بهاء الدين زهير</tei:p>
             <tei:p change="#d2e73">محطة مصر</tei:p>
-            <tei:p change="#d2e73">لما أنشئت محطة القاهرة الكبرى اقترحت الحكومة المصرية على الشعراء نظم أبيات ترسم على جدران المحطة، وجعلت جائزة للذي يحرر قصب السبق، فنال الأفضلية فقيد الأدب المرحوم الشيخ <persName>نجيب الحداد</persName>. وإليك الأبيات التي يراها المسافر منقوشة على باب المحطة:
+            <tei:p change="#d2e73">لما أنشئت محطة القاهرة الكبرى اقترحت الحكومة المصرية على الشعراء نظم أبيات ترسم على جدران المحطة، وجعلت جائزة للذي يحرر قصب السبق، فنال الأفضلية فقيد الأدب المرحوم الشيخ <persName change="#d3e209" ref="oape:pers:2586">
+                            <forename>نجيب</forename>
+                            <surname>الحداد</surname>
+                        </persName>. وإليك الأبيات التي يراها المسافر منقوشة على باب المحطة:
 <pb n="n1-p261" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P272.xhtml"/>
 
 
@@ -894,7 +903,10 @@
                   <tei:seg>عنا وأهلاً وسهلاً بالذي قدما</tei:seg>
                </tei:l>
             </lg>
-            <byline change="#d2e198"><persName>نجيب الحداد</persName></byline>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:2586">
+                            <forename>نجيب</forename>
+                            <surname>الحداد</surname>
+                        </persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>الأزبكية</head>
@@ -966,7 +978,10 @@
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>وصف مصر</head>
-            <tei:p change="#d2e73">في منتصف القرن الغابر زار مصر الكاتب الشهير <persName>فارس الشدياق</persName> وكتب عنها فصلين ضافيين نشرهما في كتابه الساق على الساق في ما هو الفارياق المطبوع في باريس سنة  <tei:num type="auto-markup" change="#d2e181" value="1855" xml:lang="ar">١٨٥٥</tei:num> م و <tei:num type="auto-markup" change="#d2e181" value="1270" xml:lang="ar">١٢٧٠</tei:num>  هجري على نفقة المرحوم رافائيل كحلا الدمشقي. وعنهما نلخص ما يأتي. وسيرى القارئ أن أكثر هذه الملاحظات لا يزال منطبقاً على أيامنا هذه. قال:</tei:p>
+            <tei:p change="#d2e73">في منتصف القرن الغابر زار مصر الكاتب الشهير <persName change="#d3e209" ref="oape:pers:430 viaf:17273766">
+                            <forename xml:lang="ar">فارس</forename>
+                            <surname xml:lang="ar">الشدياق</surname>
+                        </persName> وكتب عنها فصلين ضافيين نشرهما في كتابه الساق على الساق في ما هو الفارياق المطبوع في باريس سنة  <tei:num type="auto-markup" change="#d2e181" value="1855" xml:lang="ar">١٨٥٥</tei:num> م و <tei:num type="auto-markup" change="#d2e181" value="1270" xml:lang="ar">١٢٧٠</tei:num>  هجري على نفقة المرحوم رافائيل كحلا الدمشقي. وعنهما نلخص ما يأتي. وسيرى القارئ أن أكثر هذه الملاحظات لا يزال منطبقاً على أيامنا هذه. قال:</tei:p>
             <tei:p change="#d2e73">مصر بلد الخير، ومعدن الفضل والكرم، أهلها ذوو لطف وأدب وإحسان إلى الغريب، وفي كلامهم من الرقة ما يغني الحزين عن التطريب. إذا حيوك فقد أحيوك، وإن سلموا عليك فقد سلموك. وإن زاروك زادوك شوقاً إلى رؤيتهم، وإن زرتهم فسحوا لك صدورهم فضلاً عن مجالسهم. أما علماؤها فإن مدحهم قد انتشر في الآفاق، وفات فخر من سواهم وفاق،
 <pb n="n1-p264" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P275.xhtml"/>
 
@@ -985,7 +1000,10 @@
 <pb n="n1-p266" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P277.xhtml"/>
 
 
-<persName>فارس الشدياق</persName></tei:p>
+<persName change="#d3e209" ref="oape:pers:430 viaf:17273766">
+                            <forename xml:lang="ar">فارس</forename>
+                            <surname xml:lang="ar">الشدياق</surname>
+                        </persName></tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head><persName>نابليون بونابرت</persName> في مصر</head>
@@ -1068,7 +1086,10 @@
             <tei:p change="#d2e73">وفي العاشر من تموز سنة  <tei:num type="auto-markup" change="#d2e181" value="1324" xml:lang="ar">١٣٢٤</tei:num>  جاءنا فاتح جديد بلا حملة ولا سيف. جاءتنا فتاة تركية بجناحها الذهبي وابتسامتها الخلابة لتجفف الدموع التي أسالها أبوها القاسي. ظهرت ابنة الترك لتضمد جراح سوريا وقد سبرت الأجيال قروحها إلى أقصاها. أو بالحري جاءتنا فتاة الحرية وهي ابنة العالم كله لا تنتسب لأمة ولا لشعب دون أخيه.</tei:p>
             <tei:p change="#d2e73">جاءت محررة الإنسانية من قيودها ومطلقة للعناصر من أوهامها والأديان من تعصباتها.</tei:p>
             <tei:p change="#d2e73">ملاك في شماله غصن السلام، في يمينه قبس النور نشاهد على شعاعه ما أخفته عنا ظلمات القرون، فلننظر إلى مجاهل أمراضنا نظرة الشجاع إلى جراحه، فإن الحرية لا تشفي ولكنها تعطي العليل حرية الشفاء.</tei:p>
-            <byline change="#d2e198"><persName>فليكس فارس</persName>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:2827 viaf:57546984">
+                            <forename xml:lang="ar">فليكس</forename>
+                            <surname xml:lang="ar">فارس</surname>
+                        </persName>
 <pb n="n1-p272" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P283.xhtml"/>
 
 
@@ -1106,7 +1127,7 @@
                   <tei:seg>وخذوا من ثلجه كفني</tei:seg>
                </tei:l>
             </lg>
-            <byline change="#d2e198"><persName>داود عمون</persName>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:1677">داود عمون</persName>
 <pb n="n1-p275" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P286.xhtml"/>
 
 
@@ -1195,7 +1216,10 @@
                   <tei:seg>يرنو لهن بمقلة الغيران</tei:seg>
                </tei:l>
             </lg>
-            <byline change="#d2e198"><persName>معروف الرصافي</persName>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:411 viaf:14924300">
+                            <forename xml:lang="ar">معروف</forename>
+                            <surname xml:lang="ar">الرصافي</surname>
+                        </persName>
 <pb n="n1-p276" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P287.xhtml"/>
 
 
@@ -1326,7 +1350,7 @@
                   <tei:seg>نلت الجنان وحزت عليينا</tei:seg>
                </tei:l>
             </lg>
-            <byline change="#d2e198">- <persName>عيسى إسكندر المعلوف</persName>
+            <byline change="#d2e198">- <persName change="#d3e209" ref="oape:pers:2096">عيسى اسكندر المعلوف</persName>
 <pb n="n1-p280" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P291.xhtml"/>
 
 
@@ -1438,7 +1462,11 @@
                   <tei:seg>ذكراك أن إليك القلب ينحرف</tei:seg>
                </tei:l>
             </lg>
-            <byline change="#d2e198"><persName>مصطفى صادق الرافعي</persName></byline>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:410 viaf:236524859">
+                            <forename xml:lang="ar">مصطفى</forename>
+                            <forename xml:lang="ar">صادق</forename>
+                            <surname xml:lang="ar">الرافعي</surname>
+                        </persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>يافا</head>
@@ -1818,7 +1846,10 @@
 <pb n="n1-p308" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P319.xhtml"/>
 
 
-زار المرحوم الشيخ <persName>إبراهيم اليازجي</persName> قلعة بعلبك فحفر على باب هيكل باخوس بيتين من الشعر هما:</tei:p>
+زار المرحوم الشيخ <persName change="#d3e209" ref="oape:pers:2808 viaf:64154472">
+                            <forename xml:lang="ar">إبراهيم</forename>
+                            <surname xml:lang="ar">اليازجي</surname>
+                        </persName> قلعة بعلبك فحفر على باب هيكل باخوس بيتين من الشعر هما:</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>يا بعلبك فريدة الأزمان</tei:seg> 
@@ -2029,7 +2060,10 @@
                   <tei:seg>لتمام أم مطمع في افتخار</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73"><persName>خليل مطران</persName>
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:931 viaf:102460074">
+                            <forename xml:lang="ar">خليل</forename>
+                            <surname xml:lang="ar">مطران</surname>
+                        </persName>
 <pb n="n1-p311" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P322.xhtml"/>
 
 
@@ -2054,7 +2088,10 @@
                   <tei:seg>يلقى وحبل على الأهرام منبسط</tei:seg>
                </tei:l>
             </lg>
-            <byline change="#d2e198"><persName>إبراهيم اليازجي</persName></byline>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:2808 viaf:64154472">
+                            <forename xml:lang="ar">إبراهيم</forename>
+                            <surname xml:lang="ar">اليازجي</surname>
+                        </persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>القطران الشقيقان</head>
@@ -2088,7 +2125,7 @@
             <tei:p change="#d2e73">وبدت النهضة الأدبية في سورية منذ خمسين عاماً، فانتفعت بها مصر: فصحف البستاني ومجلاته وكتبه وقواميسه ودائرة معارفه، ومؤلفات الشدياق، وكتب اليازجي، وتصانيف فانديك، ومطبوعات اليسوعيين والأمريكان وتآليفهم كانت لسورية ومصر معاً. وهذه مجلات مصر وسورية وصحف كلتيهما كأنها مجلات الأخرى وصحفها. وهؤلاء كتاب مصر وسورية وعلماؤها كل واحد منهم كاتب كلا القطرين وعالمه.</tei:p>
             <tei:p change="#d2e73">تصعد الجبل في سورية أو تهبط الوادي، فتسمع المغنين يتغنون بقصيدة شوقي، أو منظومة حافظ، وتطوف الأرجاء هنا، فتسمع الأدباء يتحدثون بمؤلفات اليازجي أو الشرتوني أو البستاني، وتطالع المجلات وفصولها فلا تجد فرقاً بين كاتب مصري ومصنف سوري. وإذا تدرجت في البحث والتنقيب ونزلت إلى صميم الشعب وحياض العامة، رأيت التقاليد بالأغاني والأناشيد والرقص والعزف واللهو والحزن والمآكل والملابس والأفراح والمآتم والأثاث والفرش وتدبير المنزل نقل بعضها أو أكثرها أو كل جديد متقن منها من بر الشام إلى بر مصر، أو من بر مصر إلى بر الشام. فهما في اللغة والرقعة الجغرافية بلد واحد وإن لم تكونا في السياسة كذلك.</tei:p>
             <tei:p change="#d2e73">فإذا كانت الزهور قد أنشئت لزيادة التعارف بين أدباء القطرين وعلماء المصرين، فإنما هي قد رمت إلى غاية جلى وغرض نبيل، قد يكون أقل منافعه سرعان التعارف والترابط بين الأدباء، حتى يزداد الشعبان نفعاً، بها، بفضل لغتهما الواحدة.</tei:p>
-            <byline change="#d2e198"><persName>داود بركات</persName>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:1673">داود بركات</persName>
 <pb n="n1-p316" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P327.xhtml"/>
 
 
@@ -2149,7 +2186,10 @@
                   <tei:seg>ربوعها من بنيها سادة نجب</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73"><persName>حافظ إبراهيم</persName></tei:p>
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:245 viaf:32410755">
+                            <forename xml:lang="ar">حافظ</forename>
+                            <surname xml:lang="ar">إبراهيم</surname>
+                        </persName></tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>يحن لمصر من سكن الشاما</tei:seg> 
@@ -2242,7 +2282,10 @@
                   <tei:seg>وعليك السلام يا سوريه</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73"><persName>نقولا رزق الله</persName></tei:p>
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:683 viaf:19561669">
+                            <forename xml:lang="ar">نقولا</forename>
+                            <surname xml:lang="ar">رزق الله</surname>
+                        </persName></tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>سلام على الوادي الخصيب ونيله</tei:seg> 
@@ -2264,7 +2307,7 @@
                   <tei:seg>فانتم لها أوفى وأنتم بها أحرى</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">الدكتور <persName>إبراهيم شدودي</persName></tei:p>
+            <tei:p change="#d2e73">الدكتور <persName change="#d3e209" ref="oape:pers:1198">إبراهيم شدودي</persName></tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>مصر العزيزة دام العز منتسباً</tei:seg> 
@@ -2312,11 +2355,14 @@
                   <tei:seg>و (للخليل) ومن يبقى من الأدبا</tei:seg>
                </tei:l>
             </lg>
-            <byline change="#d2e198"><persName>رشيد مصوبع</persName></byline>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:1733">رشيد مصوبع</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>الحركة الأدبية</head>
-            <tei:p change="#d2e73">كانت سورية في النصف الأخير من القرن الغابر مهد كتاب مشاهير وأدباء أعلام كان لهم اليد الطولى في نهضة اللغة العربية والآداب الرقية، ولما ضاق عليهم هذا المضمار في ربوع الشام، هاجروا زرافات إلى وادي النيل، فكانت الديار المصرية خير مسرح تجلت عليه عرائس أفكارهم وبرزت إليه نفائس خواطرهم. بل وجدوا في تلك الديار التي حلوها على الرحب والسعة تكملة لسليقتهم. وهكذا إذا كانت الشام قد أنبتتهم فإن مصر انتمهم وأنضجت أفكارهم فأنتجت أينع الأثمار بعد أن كانت حملت ألطف الأزهار. وما عهد اليازجي والنقاش والحداد و<persName>أديب إسحق</persName> وغيرهم ببعيد. وعليه فيصعب على من شاء أن يكتب تاريخ الآداب العربية الحديث أن يفرق بين القطرين ويميز بين كتاب البلدين. وجل الكتاب أن لم نقل كلهم قد نسقوا نسيم لبنان العليل ورشفوا ماء النيل السلسبيل. فيحق لكلا القطرين أن يدعيهم.</tei:p>
+            <tei:p change="#d2e73">كانت سورية في النصف الأخير من القرن الغابر مهد كتاب مشاهير وأدباء أعلام كان لهم اليد الطولى في نهضة اللغة العربية والآداب الرقية، ولما ضاق عليهم هذا المضمار في ربوع الشام، هاجروا زرافات إلى وادي النيل، فكانت الديار المصرية خير مسرح تجلت عليه عرائس أفكارهم وبرزت إليه نفائس خواطرهم. بل وجدوا في تلك الديار التي حلوها على الرحب والسعة تكملة لسليقتهم. وهكذا إذا كانت الشام قد أنبتتهم فإن مصر انتمهم وأنضجت أفكارهم فأنتجت أينع الأثمار بعد أن كانت حملت ألطف الأزهار. وما عهد اليازجي والنقاش والحداد و<persName change="#d3e209" ref="oape:pers:246 viaf:90074341">
+                            <forename xml:lang="ar">أديب</forename>
+                            <surname xml:lang="ar">إسحق</surname>
+                        </persName> وغيرهم ببعيد. وعليه فيصعب على من شاء أن يكتب تاريخ الآداب العربية الحديث أن يفرق بين القطرين ويميز بين كتاب البلدين. وجل الكتاب أن لم نقل كلهم قد نسقوا نسيم لبنان العليل ورشفوا ماء النيل السلسبيل. فيحق لكلا القطرين أن يدعيهم.</tei:p>
             <tei:p change="#d2e73">وكانت ريح الاستبداد العاصفة قد شتتت شمل السوريين ونثرتهم في كل أنحاء العالم، فطرحتهم مطارح النوى إلى أقصى بلاد الله، فعرفوا مجاهل أفريقيا ومفاوز
 <pb n="n1-p319" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P330.xhtml"/>
 

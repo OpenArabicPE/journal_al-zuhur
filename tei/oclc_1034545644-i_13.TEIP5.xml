@@ -54,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+      <revisionDesc><tei:change when="2019-10-19" who="#pers_TG" xml:id="d3e209" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
@@ -110,7 +110,7 @@
          <tei:div change="#d2e64" type="item">
             <head>إيماءة زائر</head>
             <tei:p change="#d2e73">إلى بعض ما باورشليم من المآثر تابع</tei:p>
-            <tei:p change="#d2e73">المسجد الأقصى نعم قلت إني لا أتعرض لوصف تلك الآثار، غير أن قلبي لا يسمح لي أن أذكر أورشليم وأعرض عن ذكر الحرم فإنه أبدع ما رأيت حتى اليوم وقد عثرت في تاريخ <persName>ابن خلدون</persName> على ما أظن أن السواد الأعظم من القراء لا يعرفونه وهذا نص قوله:</tei:p>
+            <tei:p change="#d2e73">المسجد الأقصى نعم قلت إني لا أتعرض لوصف تلك الآثار، غير أن قلبي لا يسمح لي أن أذكر أورشليم وأعرض عن ذكر الحرم فإنه أبدع ما رأيت حتى اليوم وقد عثرت في تاريخ <persName change="#d3e209" ref="oape:pers:53 viaf:41841661">ابن خلدون</persName> على ما أظن أن السواد الأعظم من القراء لا يعرفونه وهذا نص قوله:</tei:p>
             <tei:p change="#d2e73">وأما بيت المقدس وهو المسجد الأقصى فكان أول أمره أيام الصابئة موضع الزهرة، وكانوا يقربون إليه الزيت فيما يقربونهُ يصبونهُ على الصخرة التي هناك. ثم دثر ذلك الهيكل وأتخذها بنو إسرائيل حين ملكوها قبلة لصلاتهم. وذلك أن
 <pb n="n2-p62" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P623.xhtml"/>
 
@@ -279,7 +279,7 @@
 
 أسد الله الغالب علي بن أبي طالب أمير المؤمنين ورابع الخلفاء الراشدين عن سيد المرسلين وأفضل العالمين ابن عمه محمد المصطفى - صلى الله عليه وسلم - فلله الحمد على هذا النسب العالي ولا ترى نسباً كنسب الحيدرية في أخذ كل عن أبيه وهو من عجيب الاتفاق وذلك فضل الله يؤتيه من يشاء.</tei:p>
             <tei:p change="#d2e73">بغداد</tei:p>
-            <byline change="#d2e198"><persName>ساتسنا</persName></byline>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:227 viaf:39370998">ساتسنا</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>الجرائد والمجلات في مصر</head>
@@ -318,7 +318,7 @@
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>الطالب البائس</head>
-            <tei:p change="#d2e73">ذكرنا كلمة في العدد الماضي عن المرحوم <persName>محمد أمام العبد</persName> الشاعر البائس الذي كان يقول أن سواد جلده حداد على حظه. وقد أحببنا أن ننقل إلى قرائنا شيئاً
+            <tei:p change="#d2e73">ذكرنا كلمة في العدد الماضي عن المرحوم <persName change="#d3e209" ref="oape:pers:2303">محمد إمام العبد</persName> الشاعر البائس الذي كان يقول أن سواد جلده حداد على حظه. وقد أحببنا أن ننقل إلى قرائنا شيئاً
 <pb n="n2-p84" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P645.xhtml"/>
 
 
@@ -333,7 +333,7 @@
             <tei:p change="#d2e73">فما قنعت الأقدار بفعلتها الأولى، بل نزلت علينا في ليلة اختلفت أجرامها وتنكرت نجومها، وكثرت همومها، ولم تزل بنا حتى أصابت والدتي بعلة طوتها في لحدها، واسقمتني من بعدها. فلم أجد من يقوم بتربيتي من بني الإنسان في هذا الزمان بعد ما أبعدتني المدرسة عن مناهل العلم وتركتني أتلمس نصيراً من الوهم.</tei:p>
             <tei:p change="#d2e73">وأنا الآن لا أملك غير نفس أبي اليأس أن يبتعد عنها قيد شبر، وفؤاد أصبح غرضاً لسهام الدهر. فامتعضت قليلاً وقلت في نفسي أما آن للأغنياء أن تساعد زمرة الفقراء؟ رب أن</tei:p>
             <tei:p change="#d2e73">ناظر المعارف أولى الناس بإجابة هذا النداء. فإن لم يكن كذلك فقد ضاقت المسالك، والأمر لله ولا حول ولا قوة إلا بالله.</tei:p>
-            <byline change="#d2e198"><persName>محمد أمام العبد</persName></byline>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:2303">محمد إمام العبد</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>رثاء إمام</head>
@@ -444,7 +444,7 @@
             <tei:p change="#d2e73">نظرت وسمعت فحرت في أمري، وبقيت لا أعي فعلاً آتيه ولا أدري، وفي هذا الحين وقف العصفور المحبوس بغتة وأرسل صوتاً ليس بالصدح المألوف، ولا بالتغريد المعروف، وإذا هو كرير صدرٍ مثقل بالغموم، وتأوه فؤاد مكلوم، زفر به صاحبه زفيراً، مد به النفس حيناً فكان شجياً مثيراً، ثم رمى به فإذا هو بقية روح كان الأمل قد حبسها عند حد التراقي، ودفع بها اليأس فغادرت صاحبها قتيل الاستبداد والاسترقاق</tei:p>
             <tei:p change="#d2e73">ملكتُ جسمه وحياته ولم أملك فؤاده وعواطفه وهو الحر الكريم فكنت قاتله</tei:p>
             <tei:p change="#d2e73">أيها المستبدون اتقوا الله في خلائقه وعباده</tei:p>
-            <byline change="#d2e198"><persName>فيليب مخلوف</persName>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:2174">فيليب مخلوف</persName>
 <pb n="n2-p90" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P651.xhtml"/>
 
 
@@ -1231,7 +1231,7 @@
                </tei:l>
             </lg>
             <tei:p change="#d2e73">كل هذا جنتهُ أمي عليا</tei:p>
-            <byline><persName>شبلي ملاط</persName></byline>
+            <byline><persName change="#d3e209" ref="oape:pers:1885">شبلي ملاط</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>جرائد سورية ولبنان</head>
@@ -1241,7 +1241,7 @@
             <tei:p change="#d2e73">
                <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num>  - </hi>المناظر: صاحبها نعوم لبكي، الكاتب المعروف في سورية ومصر والمهجر. جريدته ربنة عاقلة، تقرأ مقالاتها وأخبارها بسرورٍ وارتياح. هذا ذات مبدأ في كل مباحثها. وهي محتجبة الآن. وستظهر قريباً في لبنان.</tei:p>
             <tei:p change="#d2e73">
-               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e181" value="2" xml:lang="ar">٢</tei:num>  - </hi>البرق (بيروت): صاحبها <persName>بشارة الخوري</persName>. الكاتب الرقيق والشاعر اللطيف. جريدته عنوان الاعتناء، ومثال الذوق والترتيب. تقرأها الشبيبة الراقية. وتخشى الحكومة اللبنانية وحزب المتصرّف سهام شواردها ورؤوس حرابها. وهي أكثر الجرائد انتشاراً.</tei:p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e181" value="2" xml:lang="ar">٢</tei:num>  - </hi>البرق (بيروت): صاحبها <persName change="#d3e209" ref="oape:pers:1365">بشارة الخوري</persName>. الكاتب الرقيق والشاعر اللطيف. جريدته عنوان الاعتناء، ومثال الذوق والترتيب. تقرأها الشبيبة الراقية. وتخشى الحكومة اللبنانية وحزب المتصرّف سهام شواردها ورؤوس حرابها. وهي أكثر الجرائد انتشاراً.</tei:p>
             <tei:p change="#d2e73">
                <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e181" value="3" xml:lang="ar">٣</tei:num>  - </hi>المراقب (بيروت): صاحبها جرجي شاهين عطية. كاتب عاقل. وشاعر صميم. جريدته رصينة، ولها مباحث سياسية جديرة بالاعتبار. تطربك افتتاحياتها، وتسليك رواية أسبوعها.</tei:p>
             <tei:p change="#d2e73">
@@ -1257,7 +1257,10 @@
             <tei:p change="#d2e73">
                <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e181" value="7" xml:lang="ar">٧</tei:num>  - </hi>البشير (بيروت): أنشأه الآباء اليسوعيون بعد احتجاب <tei:title level="j" change="#d2e193">مجلة المجمع الفاتيكاني</tei:title>. مديره الأب لويس معلوف الزحلي المولد. يصدر اليوم مرتين في الأسبوع وله خطة قديمة لم يحد عنها قط. هو في ثباته على مبدأه خيرٌ من أكثر الجرائد المتقلبة.</tei:p>
             <tei:p change="#d2e73">
-               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e181" value="8" xml:lang="ar">٨</tei:num>  - </hi><title level="j">النشرة الأسبوعية</title> (بيروت): أنشاها المرسلون الأمريكان. يحرر رئيسياتها ويعتني بلغتها العالم الكبير <persName>إبراهيم الحوراني</persName>. وهو كاتبٌ بليغ وشاعر مدهش. له قلمٌ سيال يجعل</tei:p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e181" value="8" xml:lang="ar">٨</tei:num>  - </hi><title level="j">النشرة الأسبوعية</title> (بيروت): أنشاها المرسلون الأمريكان. يحرر رئيسياتها ويعتني بلغتها العالم الكبير <persName change="#d3e209" ref="oape:pers:361 viaf:305214782">
+                            <forename xml:lang="ar">إبراهيم</forename>
+                            <surname xml:lang="ar">الحوراني</surname>
+                        </persName>. وهو كاتبٌ بليغ وشاعر مدهش. له قلمٌ سيال يجعل</tei:p>
             <tei:p change="#d2e73">للنشرة رونقاً.</tei:p>
             <tei:p change="#d2e73">
                <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e181" value="9" xml:lang="ar">٩</tei:num>  - </hi>لسان الاتحاد (بيروت): صاحبها فيلكس فارس. كاتبٌ وخطيبٌ جريء، أفكارها جديدة، يميل إلى الخيال. للجريدة اعتبارٌ وشأن عند أعضاء الاتحاد والترقي. ولو أن سرعة انتشار الجريدة تتوقف على سرعة قلم كاتبها لكان لسان الاتحاد أوسع الجرائد انتشاراً.
@@ -1286,7 +1289,7 @@
             <tei:p change="#d2e73">
                <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e181" value="18" xml:lang="ar">١٨</tei:num>  - </hi>حمص (في حمص): صاحب امتيازها سيادة المطران اثناسيوس عطا الله. محررها قسطنطين يني. كاتبٌ عصري رقيق وشاعر أرق، تعتني الجريدة في شؤون المهاجرين. ولا عجب، فمنهم نشأت. وبمكارمهم نمت وأزهرت.</tei:p>
             <tei:p change="#d2e73">هذه أهم الجرائد الأسبوعية التي أقرؤها دائماً على وجه التقريب. وهناك جرائد عديدة كالحقيقة. والأيام، والخرج، وحط بالخرج، والرشيد، وصدى الجامعة العثمانية، وحمارة بلدنا، وطرابلس، وعيواظ، والحكمة، والروضة، ولبنان الرسمية، والاتفاق، والأجيال، والشعب، والتقدم، والراوي، والمنتخبات، والنفير، والكرمل، والزهرة، وفلسطين، وغيرها من الجرائد التي ضربت عن ذكرها صفحاً لعدم تمكني من قراءتها طويلاً والسلام.</tei:p>
-            <byline change="#d2e198">- <persName>حليم إبراهيم دموس</persName>
+            <byline change="#d2e198">- <persName change="#d3e209" ref="oape:pers:1610">حليم إبراهيم دموس</persName>
 <pb n="n2-p105" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P666.xhtml"/>
 
 
@@ -1303,7 +1306,10 @@
             <tei:p change="#d2e73">وما أكثر أزيائك يا سيدتي! وما أدهش تفننك في ملابسك. . . ضلّ الحكيم القائل لا جديد تحت الشمس أو أن قوله وصل إلينا ناقصاً مبتوراً، ولا شك أنه استثنى مما نفى فقال:. . . إلا ما تولدهُ أدمغة النساء ويا لله من أدمغة بنات حواء! حملت في ما مضى الحملة الشعواء على مودة المقيدات فنالني ما نالني من غضب السيدات أثناء تلك الحملة. ولذلك لستُ بمجددها اليوم بمناسبة مودة السراويل والشناتين التي بدت طلائعها في ربوعنا، بل أن أتقهقر بانتظام أمامها. وأخلي لها المكان، فامرحي أيتها الحسناء ما شئت في شنتانك الجديد وسروالك الحديث، فقد كفى ما أصاب رجليك وساقيك من الضغط والتقييد. وأنا أضع على رسمك الذي زينت بهِ هذه الصفحة باقة من أزهاري، حافظاً أشواكي لوقتٍ</tei:p>
             <tei:p change="#d2e73">آخر.</tei:p>
             <tei:p change="#d2e73">الحكومة والأدباء</tei:p>
-            <tei:p change="#d2e73">أبت حكومتنا المصرية إلا أن تضع يدها على كل كاتب أديب أو شاعر بليغ. وآخر من استهواه ذهبها الوهاج واستماله راتبها الضخم <persName>حافظ إبراهيم</persName> شاعر النيل، فاختطفته من بين الرياض التي كان يغازلها، والنجوم التي كان يناجيها، وجماعة البؤساء التي كان يسليها، ووضعته في المكتب الخديوية لينسقها ويحليها، ومن عرف ما في دماغ حافظ من بديع المحفوظ أيقن أن الحكومة قد ضمّت إلى مكتبتها الجامدة مكتبة حية. وإذا كان
+            <tei:p change="#d2e73">أبت حكومتنا المصرية إلا أن تضع يدها على كل كاتب أديب أو شاعر بليغ. وآخر من استهواه ذهبها الوهاج واستماله راتبها الضخم <persName change="#d3e209" ref="oape:pers:245 viaf:32410755">
+                            <forename xml:lang="ar">حافظ</forename>
+                            <surname xml:lang="ar">إبراهيم</surname>
+                        </persName> شاعر النيل، فاختطفته من بين الرياض التي كان يغازلها، والنجوم التي كان يناجيها، وجماعة البؤساء التي كان يسليها، ووضعته في المكتب الخديوية لينسقها ويحليها، ومن عرف ما في دماغ حافظ من بديع المحفوظ أيقن أن الحكومة قد ضمّت إلى مكتبتها الجامدة مكتبة حية. وإذا كان
 <pb n="n2-p108" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P668.xhtml"/>
 
 
@@ -1472,7 +1478,8 @@
             <tei:p change="#d2e73">قال هذا ووقع على القبر جثة هامدة. أنشدي أيتها الطيور احزن الألحان وخذ، مثلاً مما ترى أيها الإنسان. لما فتحوا قبر إيفون ليضموا لوتيك إليها توردت وجنتاها المصفرتان وأفتر ثغرها وتنحت ليلاً ووسعت لحبيبها مكاناً.</tei:p>
             <tei:p change="#d2e73">فدهش الناس مما رأوا ونصبوا لهما قبراً منيفاً يركع بجنبه للصلاة من يريد أن يفتح قلبهُ للحب الزواجي الطاهر.</tei:p>
             <tei:p change="#d2e73">(عن فيكتور هوغو)</tei:p>
-            <tei:p change="#d2e73">- حلب، <persName>لويس أسود</persName>
+            <tei:p change="#d2e73">- حلب، <persName change="#d3e209" ref="oape:pers:2788">
+                            <forename>لويس</forename>أسود</persName>
 <pb n="n2-p113" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P673.xhtml"/>
 
 

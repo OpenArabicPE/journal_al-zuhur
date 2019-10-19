@@ -54,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+      <revisionDesc><tei:change when="2019-10-19" who="#pers_TG" xml:id="d3e209" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
@@ -298,7 +298,7 @@
 
 لا يسوءُك عتابي هذا فإن اليأس الذي أنا فيهِ هو الدافع لي على النطق بكلامٍ ربما لا ترضاه. وأنني ليدهشني فرط الشجاعة التي بدت مني في خلال العام الغابر إذ لم أكن أصدّق قبلاً أن امرأةً مثلي تستطيع أن تحتمل ما احتملته من عذاب وشقاء. والذي شجعني على احتماله هو أملي أن يكون لي من ورائه كفَّارة عن هفواتي تشفع بي لديك وتنسيك كل شيء ما عدا حسنتي الوحيدة وهي أنني أحببتك حبًّا مخلصاً على رغم ما كان يبلغك عني</tei:p>
             <tei:p change="#d2e73">من الأراجيف. وليست غايتي الآن أن أدافع عن نفسي بين يديك , فإِن ما كان بيننا قد انطوت صفحته , وقضاءَك لا مرد له. وإنما أردت أن أنبهك إلى أمرٍ قد يسهو عنهُ الملوك والعظماء. وهو أن واضع الشرائع يجب أن يكون نموذجاً للعدل. وأما أنت فقد وضعت نفسك موضع الخصم والحكم , وسددت أذنيك عن سماع صوت الرحمة والرأفة لما كنت أسمع بانتصاراتك الباهرة كنت أفرح وأشعر كأنني حاملة راية النصر. لا أزال حتى الآن أتوق إلى سماع أخبار انتصاراتك وأتمنى أن تزيد منها كل يوم صفحةً جديدة إلى تاريخك المجيد وفي الختام أقبل تهنئاتي لك بوارث عرشك وأطال الله بقاءَك حتى ترى أولاد أولاده. . .</tei:p>
-            <tei:p change="#d2e73">بقلم <persName>سليم عبد الأحد</persName>)</tei:p>
+            <tei:p change="#d2e73">بقلم <persName change="#d3e209" ref="oape:pers:1831">سليم عبد الأحد</persName>)</tei:p>
             <byline change="#d2e198">جوزفين
 <pb n="n3-p141" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1251.xhtml"/>
 
@@ -501,7 +501,7 @@
                   <tei:seg>قّ بما سال من دماءِ حرامِ</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73"><persName>داود عمون</persName></tei:p>
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:1677">داود عمون</persName></tei:p>
             <tei:p change="#d2e73">سجن الهوى</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
@@ -604,7 +604,10 @@
                   <tei:seg>من كان يحسبُ للهموم قلوبا</tei:seg>
                </tei:l>
             </lg>
-            <byline><persName>خليل مطران</persName></byline>
+            <byline><persName change="#d3e209" ref="oape:pers:931 viaf:102460074">
+                            <forename xml:lang="ar">خليل</forename>
+                            <surname xml:lang="ar">مطران</surname>
+                        </persName></byline>
             <tei:p change="#d2e73">إلى بحمدون</tei:p>
             <tei:p change="#d2e73">عبرات البين</tei:p>
             <lg change="#d2e82">
@@ -685,7 +688,11 @@
                   <tei:seg>شرقتُ منها بما قد كان يُرديني</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73"><persName>مصطفى صادق الرافعي</persName></tei:p>
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:410 viaf:236524859">
+                            <forename xml:lang="ar">مصطفى</forename>
+                            <forename xml:lang="ar">صادق</forename>
+                            <surname xml:lang="ar">الرافعي</surname>
+                        </persName></tei:p>
             <tei:p change="#d2e73">الفتاة العمياء</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
@@ -750,7 +757,12 @@
                   <tei:seg>وارحموا أدمعاً تخذُّ الخدودا</tei:seg>
                </tei:l>
             </lg>
-            <byline><persName>ولي الدين يكن</persName></byline>
+            <byline><persName change="#d3e209" ref="oape:pers:2834 viaf:36771043">
+                            <forename xml:lang="ar">
+                                <addName type="khitab" xml:lang="ar">ولي الدين</addName>
+                            </forename>
+                            <surname xml:lang="ar">يكن</surname>
+                        </persName></byline>
             <tei:p change="#d2e73">أوهى قرنه الوَعٍلُ</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
@@ -826,7 +838,11 @@
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>رواية عطيل</head>
-            <tei:p change="#d2e73">ترجم حضرة الكاتب الشاعر الشهير <persName>خليل أفندي مطران</persName> رواية عطيل لشكسبير؛ ومثَّلها في تياترو الأوّبرا الخديوية جوق جورج أفندي أبيض نابغة التمثيل العربي. ثمّ تمنى جمهور الأدباء على المترجم الفاضل أن ينشر هذه الرواية بالطبع , فصدَّرها بمقدمة بليغة درس فيها الشاعر الانكليزي وروايته هذه درساً جميلاً جدًّا فنقلاه عنهُ. والرواية لا تلبث أن تتداولها أيدي القراء. قال خليل: ندبَني لتعريب هذه الرواية جورج أفندي أبيض صاحب الفرقة (الجوق) المعروفة الآن باسمه , فترددتُ زمناً , ثم أتيح لي أن رأيتهُ يمثّل تجربة من أديب فأعجبني إتقانه وإتقان بعض أعوانه واستخرتُ الله في نقل عُطَيل إلى لغتنا الشريفة فلأذكرْ أولاً ما دعاني إلى اختيار اسم عطيل ردًّا على بعض المعترضين كان عُطيل في زعم القصَّاص الذي نقل عنهُ شكسبير أصل هذه الحكاية , بدويًّا مغربيًّا جلا إلى البندقية وخدم في جيشها حتى أصبح قائده الأكبر , وعقيدة في الملمَّات. والمغاربة يومئذ خليط من العرب والبربر المستعربة. فأمَّا أن يكون قد دعي منذ مولده باسم إفرنجي فغير مجتمل , وأمَّا أن يكون قد دعي باسم عربي حرَّفته العجمة , فهو الأصح عقلاً. فإذا أرددنا أو تلّلو إلى لسانهِ الأصلي , فالذي يستخرج من حروفهِ أحد اثنين: عطاء الله أو عُطيل. فأما عطاء الله فلم أتوصل إلى تحقيق أن مغربيًّا واحداً سمّي بهِ ولهذا ضربتُ عنه صفحاً , وأما عُطيل فقد اعتقدت أنهُ الأخلق بالاختيار لسببين: أحدهما أنهُ أشبه بما جرت عادة العرب على تسمية الزنوج بهِ من ألفاظ التحبيب أمثال مسعود ومسرور وزيتون ومرجان للذكور , وخيزران وضياء للجواري. ومعلوم أن عطيلا تصغير تحبّب لصفة عُطْل بمعنى عاطل أي خلوٌ من الحلية فتسمية أحد الزنوج به إنما هي محاكاة صحيحة لإصلاح العرب. وثانيهما لأن عُطيلُ بضم أوله ورفع أخره مع تخفيف التنوين أقرب إلى أوتللّو من اسم سواه
+            <tei:p change="#d2e73">ترجم حضرة الكاتب الشاعر الشهير <persName change="#d3e209" ref="oape:pers:931 viaf:102460074">
+                            <forename xml:lang="ar">خليل</forename>
+                            <roleName type="title" xml:lang="ar">افندي</roleName>
+                            <surname xml:lang="ar">مطران</surname>
+                        </persName> رواية عطيل لشكسبير؛ ومثَّلها في تياترو الأوّبرا الخديوية جوق جورج أفندي أبيض نابغة التمثيل العربي. ثمّ تمنى جمهور الأدباء على المترجم الفاضل أن ينشر هذه الرواية بالطبع , فصدَّرها بمقدمة بليغة درس فيها الشاعر الانكليزي وروايته هذه درساً جميلاً جدًّا فنقلاه عنهُ. والرواية لا تلبث أن تتداولها أيدي القراء. قال خليل: ندبَني لتعريب هذه الرواية جورج أفندي أبيض صاحب الفرقة (الجوق) المعروفة الآن باسمه , فترددتُ زمناً , ثم أتيح لي أن رأيتهُ يمثّل تجربة من أديب فأعجبني إتقانه وإتقان بعض أعوانه واستخرتُ الله في نقل عُطَيل إلى لغتنا الشريفة فلأذكرْ أولاً ما دعاني إلى اختيار اسم عطيل ردًّا على بعض المعترضين كان عُطيل في زعم القصَّاص الذي نقل عنهُ شكسبير أصل هذه الحكاية , بدويًّا مغربيًّا جلا إلى البندقية وخدم في جيشها حتى أصبح قائده الأكبر , وعقيدة في الملمَّات. والمغاربة يومئذ خليط من العرب والبربر المستعربة. فأمَّا أن يكون قد دعي منذ مولده باسم إفرنجي فغير مجتمل , وأمَّا أن يكون قد دعي باسم عربي حرَّفته العجمة , فهو الأصح عقلاً. فإذا أرددنا أو تلّلو إلى لسانهِ الأصلي , فالذي يستخرج من حروفهِ أحد اثنين: عطاء الله أو عُطيل. فأما عطاء الله فلم أتوصل إلى تحقيق أن مغربيًّا واحداً سمّي بهِ ولهذا ضربتُ عنه صفحاً , وأما عُطيل فقد اعتقدت أنهُ الأخلق بالاختيار لسببين: أحدهما أنهُ أشبه بما جرت عادة العرب على تسمية الزنوج بهِ من ألفاظ التحبيب أمثال مسعود ومسرور وزيتون ومرجان للذكور , وخيزران وضياء للجواري. ومعلوم أن عطيلا تصغير تحبّب لصفة عُطْل بمعنى عاطل أي خلوٌ من الحلية فتسمية أحد الزنوج به إنما هي محاكاة صحيحة لإصلاح العرب. وثانيهما لأن عُطيلُ بضم أوله ورفع أخره مع تخفيف التنوين أقرب إلى أوتللّو من اسم سواه
 <pb n="n3-p153" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1263.xhtml"/>
 
 
@@ -849,7 +865,10 @@
 
 
 منتقماً للفصاحة نفسها وأية فصاحة في خَشَارة لا تصيب فيها الأصل إلا وقد تلوَّثت بذريرات لا تحصى من أوضار الرطانات بأنواعها بُعداً لهذه الأسلوب إذن! ولنختر غيره. . . أنؤثر الأسلوب الجزل المتين القديم؟ لا ولا! لأن الروايات إنما تكتب ليفهمها القوم ويستفيدوا منها مغزى بجانب التفكهة. أفنعكس عليهم تلك السنَّة الشريفة التي سنها النبي القرشي بقوله (أمرتُ أن أخاطب الناس على قدر عقولهم) بعد هذا وذاك لم يبقَ إلاَّ الأسلوب الوسط وهو الذي تكون بمقتضاه الألفاظ كلها فصيحة لكن سهلة , وتفكك الجمل تفكيكاً يقرّب مراداتها من الإفهام بمحاكاته لفنون المحادثات المستجدة من غير أن يفوتنا الالتفات في ذلك التفكيك إلى أشتات ما صنع أدباء العرب من مثله لمناسبات مخصوصة وإن لم يألفهُ جمهور الكتَّاب الاحتفاليين هذا هو الأسلوب الذي آثرتهُ وأرجو أن أكون قد وفقت فيهِ بعض التوفيق فتجمع معه لهذه الرواية مزيتان: أحداهما أنها تكون عربية فصيحة لولا الإعلام ولولا تشقيق الكلِم على ترتيب المخاطبة بين الفرنجة قديماً وحديثاً , والثانية أنها تمثل أقوال شكسبير حرفاً بحرف ولفظة بلفظة مع مراعاة انطباق كل منها على الاصطلاح الديني لو الاجتماعي الذي لها عند القوم الممثَّلين فيصحُّ أن تكون هذه التجربة مثالاً للتعريب يتحداه طلبة المدارس</tei:p>
-            <byline change="#d2e198"><persName>خليل مطران</persName></byline>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:931 viaf:102460074">
+                            <forename xml:lang="ar">خليل</forename>
+                            <surname xml:lang="ar">مطران</surname>
+                        </persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>نوابغ مصر الأحياء</head>
@@ -897,7 +916,12 @@
 
 
 كنت قاربت الكبر. وأدركني الأعياء. وها أنا اليوم اسمع بلابل الله في ملكه فأجاوبه. ما هذا بنات هديل , وإنما هي بنات حواء. آن لأقلامنا أن تختار أحسن ما عندها من الدرر تلك الأجياد جديرة بهذه العقود. . .</tei:p>
-            <byline change="#d2e198"><persName>ولي الدين يكن</persName></byline>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:2834 viaf:36771043">
+                            <forename xml:lang="ar">
+                                <addName type="khitab" xml:lang="ar">ولي الدين</addName>
+                            </forename>
+                            <surname xml:lang="ar">يكن</surname>
+                        </persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>جريدة <tei:title level="j" change="#d2e193">الأخبار</tei:title></head>
@@ -915,7 +939,7 @@
 <pb n="n3-p165" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1275.xhtml"/>
 
 
-ملاحظات دقيقة وقرصات انتقادية , وهي غالباً موقعة بإمضاء محدّث وله أبحاث حسنة في شؤون طائفتهِ القبطية؛ وقد لا تعجبك المقالة منهُ على أنك قلما تضجر أو تسأم منها. وهو كثير المطالعة , يقرأ كلَّ ما تصل إليهِ يدُهُ مما يطبع باللغة العربية , وله ذاكرة قوَّية تجعله بمثابة قاموس للحوادث المصرية على عهدهِ , ويصعب على الشيخ يوسف أن يجد مساعداً للتحرير أطوع من <persName>توفيق حبيب</persName> وأقرب منهُ لفهم أفكاره , كما أنهُ يصعب على <persName>توفيق حبيب</persName> أن يجد صاحب جريدة يترك له الحرية في الكتابة كصاحب الأخبار , ولذلك قد مرَّت عليهما بضع سنوات وهما جليسان إلى طاولة تحرير هذه الجريدة , وكلاهما راضٍ عن صاحبه</tei:p>
+ملاحظات دقيقة وقرصات انتقادية , وهي غالباً موقعة بإمضاء محدّث وله أبحاث حسنة في شؤون طائفتهِ القبطية؛ وقد لا تعجبك المقالة منهُ على أنك قلما تضجر أو تسأم منها. وهو كثير المطالعة , يقرأ كلَّ ما تصل إليهِ يدُهُ مما يطبع باللغة العربية , وله ذاكرة قوَّية تجعله بمثابة قاموس للحوادث المصرية على عهدهِ , ويصعب على الشيخ يوسف أن يجد مساعداً للتحرير أطوع من <persName change="#d3e209" ref="oape:pers:1438">توفيق حبيب</persName> وأقرب منهُ لفهم أفكاره , كما أنهُ يصعب على <persName change="#d3e209" ref="oape:pers:1438">توفيق حبيب</persName> أن يجد صاحب جريدة يترك له الحرية في الكتابة كصاحب الأخبار , ولذلك قد مرَّت عليهما بضع سنوات وهما جليسان إلى طاولة تحرير هذه الجريدة , وكلاهما راضٍ عن صاحبه</tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>معرض الزهور السابع عشر</head>

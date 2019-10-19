@@ -54,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+      <revisionDesc><tei:change when="2019-10-19" who="#pers_TG" xml:id="d3e209" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
@@ -148,7 +148,7 @@
             <tei:p change="#d2e73">تسمع السارق يفتخر أمام الجمهور بسرقته والزاني يحدث الناس بحوادث فحشه وفجر العاهرات معه والسكير يزهو على الحضور بنموذج عربدته والكاذب يضحِك من حوله بنكات كذبه - فإذا ما وجهت بلومك إلى أحدهم هبَّ الجمع المحتشد حولهم ورموك بالغلظة وسوء الخلق ونسبوا أولئك المجرمين لخفة الروح والدم. فكأنما الناس قد أجمعوا أمرهم على استحسان المنكر فإذا كنت حراً يجري في عروقك دم أحمر جننت فتؤخذ إلى السراية الصفراء.</tei:p>
             <tei:p change="#d2e73">أحبس نفسك في بيتك بين أولادك أو كتبك وإذا مررت بقوم فمرّ بهم مر الكرام ولا تختلط بهم تعش سعيداً، أو فجهز وصيتك إذا أردت الاختلاط بالناس لأنك ستجن حتماً وتساق إلى السراية الصفراء.</tei:p>
             <tei:p change="#d2e73">عطبره (السودان)</tei:p>
-            <byline change="#d2e198"><persName>محمد فاضل</persName>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:2399">محمد فاضل</persName>
 <pb n="n2-p122" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P682.xhtml"/>
 
 
@@ -170,7 +170,7 @@
             <tei:p change="#d2e73">الليل إذا كفر وتولى الصب الضجر، وسئم المهجور موعد مبزغ النور، وافترشت جنبهُ التراب والتحفت بأم السحاب، وتحول من حركة إلى سكون ومن فكرٍ إلى عيون. . يقولون</tei:p>
             <tei:p change="#d2e73">إنك أنت السلوى بدون مَنّ، وأنك إن لم تكنها إذاً فمن. . . أهو كذلك يا سمير العاشقين. . .</tei:p>
             <tei:p change="#d2e73">القلوب مواطن الرحمة - قبل هذا الجيل - فهل لك بين ضلوعك أيها البدر ذاك العضو الأجوف الذي يسمونه قلباً. . . .</tei:p>
-            <byline><persName>رشيد نخلة</persName></byline>
+            <byline><persName change="#d3e209" ref="oape:pers:1734">رشيد نخلة</persName></byline>
             <tei:p change="#d2e73">السنة الأولى للزهور</tei:p>
             <tei:p change="#d2e73">في الإدارة مجموعة الزهور للسنة الأولى مجلدة تجليداً متقناً. وثمنها خمسون غرشاً صاغاً ويضاف إلى ذلك أجرة البريد للخارج.
 <pb n="n2-p124" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P684.xhtml"/>
@@ -409,7 +409,10 @@
                   <tei:seg>أن تخطها فرّجت عني</tei:seg>
                </tei:l>
             </lg>
-            <byline><persName>إسماعيل صبري</persName></byline>
+            <byline><persName change="#d3e209" ref="oape:pers:777 viaf:45752632">
+                            <forename xml:lang="ar">إسماعيل</forename>
+                            <surname xml:lang="ar">صبري</surname>
+                        </persName></byline>
             <tei:p change="#d2e73">على قبري</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
@@ -424,7 +427,10 @@
                   <tei:seg>فأحمل بعد الموت صخراً على صخر</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73"><persName>أحمد شوقي</persName></tei:p>
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:768 viaf:7540373">
+                            <forename xml:lang="ar">أحمد</forename>
+                            <surname xml:lang="ar">شوقي</surname>
+                        </persName></tei:p>
             <tei:p change="#d2e73">خيبة أمل</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
@@ -442,7 +448,10 @@
                   <tei:seg>وتقليبي الكفين حيث أكون</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73"><persName>حافظ إبراهيم</persName></tei:p>
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:245 viaf:32410755">
+                            <forename xml:lang="ar">حافظ</forename>
+                            <surname xml:lang="ar">إبراهيم</surname>
+                        </persName></tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>المراسلات السامية</head>

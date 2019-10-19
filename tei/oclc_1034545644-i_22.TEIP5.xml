@@ -54,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-10-18" who="#pers_TG" xml:id="d2e193" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+      <revisionDesc><tei:change when="2019-10-19" who="#pers_TG" xml:id="d3e204" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-10-18" who="#pers_TG" xml:id="d2e193" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
@@ -315,7 +315,7 @@
 في تفسير شهادة أن لا اله إلاَّ الله.  <tei:num type="auto-markup" change="#d2e181" value="6" xml:lang="ar">٦</tei:num> ً كتاب في تفسير الفاتحة.  <tei:num type="auto-markup" change="#d2e181" value="7" xml:lang="ar">٧</tei:num> ً رسالة في معرفة ربهُ ودينه ونبيهُ.  <tei:num type="auto-markup" change="#d2e181" value="8" xml:lang="ar">٨</tei:num> ً رسالة في بيان التوجه في الصلاة.  <tei:num type="auto-markup" change="#d2e181" value="9" xml:lang="ar">٩</tei:num> ً رسالة في معنى الكلمة الطيبة.  <tei:num type="auto-markup" change="#d2e181" value="10" xml:lang="ar">١٠</tei:num> ً رسالة في التقليد وانهُ جائز لا واجب.  <tei:num type="auto-markup" change="#d2e181" value="11" xml:lang="ar">١١</tei:num> ً كتاب مفيد المستفيد.  <tei:num type="auto-markup" change="#d2e181" value="12" xml:lang="ar">١٢</tei:num> ً كتاب أصول الإيمان.  <tei:num type="auto-markup" change="#d2e181" value="13" xml:lang="ar">١٣</tei:num> ً كتاب الكبائر.  <tei:num type="auto-markup" change="#d2e181" value="14" xml:lang="ar">١٤</tei:num> ً كتاب آداب المشي إلى الصلاة وهو مختصر الإقناع.  <tei:num type="auto-markup" change="#d2e181" value="15" xml:lang="ar">١٥</tei:num> ً كتاب مختصر الشرح الكبير.  <tei:num type="auto-markup" change="#d2e181" value="16" xml:lang="ar">١٦</tei:num> ً كتاب مختصر الإنصاف.  <tei:num type="auto-markup" change="#d2e181" value="17" xml:lang="ar">١٧</tei:num> ً كتاب مختصر سيرة ابن هشام.  <tei:num type="auto-markup" change="#d2e181" value="18" xml:lang="ar">١٨</tei:num> ً مختصر الهدى النبوي , للإمام ابن القسيم.  <tei:num type="auto-markup" change="#d2e181" value="19" xml:lang="ar">١٩</tei:num> ً مختصر الفتاوى المصرية , لشيخ الإسلام ابن تيمية.  <tei:num type="auto-markup" change="#d2e181" value="20" xml:lang="ar">٢٠</tei:num> ً نبذة في معرفة الدين الذي معرفتُه والعمل بهِ سبب لدخول الجنة وإضاعته والجهل بهِ سبب لدخول</tei:p>
             <tei:p change="#d2e73">النار.  <tei:num type="auto-markup" change="#d2e181" value="21" xml:lang="ar">٢١</tei:num> ً المسائل التي خالف فيها رسول الله - صلى الله عليه وسلم - أهل الجاهلية. وهي تزيد على مائة مسئلة وقد طبعت في الهند وقد شرحها الشيخ العلاَّمة السيد محمود شكري أفندي الآلوسي. وهناك غير هذه المؤلفات والرسائل ما يطول شرحهُ وسرده. وكلها عن المواضيع الدينية. وإنشاؤه سلس لا كلفة فيهِ ولا تعقد. إلاَّ أن النساخ قد حرفوا وصحفوا ألفاظاً يعرفها من له الاطلاع في العربية. - هذا ما أردنا أن نبينهُ بوجه الاختصار لكي يقف القارئ بعد ذلك على ما يكتب في هذا الصدد والسلام</tei:p>
             <tei:p change="#d2e73">(بغداد)</tei:p>
-            <byline change="#d2e193"><persName>ساتسنا</persName>
+            <byline change="#d2e193"><persName change="#d3e204" ref="oape:pers:227 viaf:39370998">ساتسنا</persName>
 <pb n="n3-p10" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1121.xhtml"/>
 
 
@@ -327,7 +327,7 @@
 <pb n="n3-p11" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1122.xhtml"/>
 
 
-أصحاب النار. وروي عن عمر بن عبد العزيز انهُ أتاه أن ابنهُ اشترى فَص خاتم بألف دينار , فكتب إليه: عزمت عليك إلاَّ ما بعت خاتمك بألف دينار وجعلتها في بطن جائع , واستعمل خاتماً من ورق وانقش عليهِ رحم الله امرءاً عرف نفسه ومما قاله <persName>ابن خلدون</persName> أنَّ الخاتم من الخطوط السلطانية والوظائف الملكية والختم على الرسائل والصكوك معروف للملوك قبل الإسلام وبعده. وقد ثبت في الصحيحين أن النبيَّ أراد أن يكتب إلى كسرى فقيل له أن العجم لا يقبلون كتاباً إلاَّ أن يكون مختوماً. فاتخذ خاتماً من فضة ونقش فيهِ محمد رسول الله. قال البخاري: جعل الثلاث كلمات في ثلاثة اسطر , وختم بهِ وقال لا ينقش أحد مثله. قال وتختم بهِ أبو بكر وعُمر وعثمان. ثمَّ سقط من يد عثمان في بئر أريس , فاغتم عثمان وتطيرَّ منهُ وصنع</tei:p>
+أصحاب النار. وروي عن عمر بن عبد العزيز انهُ أتاه أن ابنهُ اشترى فَص خاتم بألف دينار , فكتب إليه: عزمت عليك إلاَّ ما بعت خاتمك بألف دينار وجعلتها في بطن جائع , واستعمل خاتماً من ورق وانقش عليهِ رحم الله امرءاً عرف نفسه ومما قاله <persName change="#d3e204" ref="oape:pers:53 viaf:41841661">ابن خلدون</persName> أنَّ الخاتم من الخطوط السلطانية والوظائف الملكية والختم على الرسائل والصكوك معروف للملوك قبل الإسلام وبعده. وقد ثبت في الصحيحين أن النبيَّ أراد أن يكتب إلى كسرى فقيل له أن العجم لا يقبلون كتاباً إلاَّ أن يكون مختوماً. فاتخذ خاتماً من فضة ونقش فيهِ محمد رسول الله. قال البخاري: جعل الثلاث كلمات في ثلاثة اسطر , وختم بهِ وقال لا ينقش أحد مثله. قال وتختم بهِ أبو بكر وعُمر وعثمان. ثمَّ سقط من يد عثمان في بئر أريس , فاغتم عثمان وتطيرَّ منهُ وصنع</tei:p>
             <tei:p change="#d2e73">آخر مثله. واقتدى الخلفاء في صدر الإسلام بالنبي فنقشوا على خواتمهم الحكم والآيات بعد إن كانوا لا ينقشون عليها سوى الأسماء فنقش أبو بكر على خاتمهِ نعم القادر الله وعمر كفى بالموت واعظاً يا عمر وعثمان الملك لله وفي الجدول التالي ما نقشهُ بعض الخلفاء على خواتمهم:</tei:p>
             <tei:p change="#d2e73">الخلفاء: ما نقش على خواتمهم</tei:p>
             <tei:p change="#d2e73">الوليد بن عبد الملك: يا وليد انك ميت ومحاسَب</tei:p>
@@ -450,7 +450,7 @@
             <tei:p change="#d2e73">واختلف الناس في الإصبع التي يلبس فيها خاتم الزيجة والشائع اليوم حمله في بنصر اليد اليمنى قبل الزواج , وفي بنصر اليسرى بعده. ويقال أن سبب ذلك وجود وريد في هذه الإصبع يحمل الدم إلى القلب رأساً. وورد في كتاب الطقوس الدينية الرومانية أن الكاهن الإلهي. ثمَّ يرجعه إلى الزوج مشيراً بذلك إلى أنَّ الله قد ختم بهذا الحب على قلبهِ فلا ينفتح لحبٍ آخر , فيصبح بين يدي الزوج رمز المحبة المتبادلة , وضمانةً لارتباط قلبه بقلب</tei:p>
             <tei:p change="#d2e73">عروسهِ , ثمَّ يخرجه الزوج من إصبعهِ ويضعهُ في البنصر اليسرى من يد زوجتهِ. ثمَّ توسع بعضهم في معنى خاتم الزواج فرمز بهِ إلى دوام الصداقة , أو إلى دوام السلطان , أو إلى دوام العهود , وما شاكل ذلك. فكان ولا يزال بعض الانكليز يتبادلون الخواتم عندما يحلفون يمين الصداقة. وكان دوج البندقية في بحر الادرياتيك يوم خميس الصعود خاتماً ويقول: أيتها البحار إننا نتخذك زوجةً لنا إشارةً إلى تسلطنا عليك</tei:p>
             <tei:p change="#d2e73">فالخاتم الذي اختلفت أشكاله , وتنوعت رموزه , وتعددت معانيه بحسب اختلاف الشعوب والأزمنة , وتنوّع العادات وتعدّد الأغراضٍ , لا يزال إلى يومنا أوفر الحلي حظاً , وأكثرها نفعاً؛ يتختم بهِ الغنيُّ والفقير معاً وإنما الفرق أن الأول يتخذه من الذهب محلَّىً بالجواهر , والثاني يكتفي بأن يلبسه من نحاس أصفر</tei:p>
-            <byline change="#d2e193"><persName>هند اسكندر عمون</persName>
+            <byline change="#d2e193"><persName change="#d3e204" ref="oape:pers:2666">هند إسكندر عمون</persName>
 <pb n="n3-p24" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1135.xhtml"/>
 
 
@@ -497,7 +497,7 @@
 الفراق. . .! تلك أيام مرَّت بنا مرّ السحاب , وهذه أيام تمشي متثاقلة بنا إلى القبر , غير عابئة بما تطيل من آلام وعذابات؛ فلا تنطوي منها دقيقة , إلاَّ وتنطوي معها أنفاس. وإلا بدية محبة لذاتها تضم إلى سفرها من أعمارنا أيام السعادة , وتبقي لنا أيام الشقاء. ولولا شعاع أملِ ضئيل يحترق حجب الظلام , لكانت الحياة أعظم نقمة ينتقم بها الله من خليقة يديه</tei:p>
             <tei:p change="#d2e73">لا يا سيبيل. بل الحياة كلها سعادة وهناء , لأنك أنتِ فيها. ولولاكِ لكان العالم في نظري فراغاً , وكل ما فيه ألغازاً وأوهاماً. وكثير ما أتساءَل: ترى لماذا لا يكون العالم كله سعيداً لوجودك فيه.؟ ثم أثوب إلى نفسي وأقول: بل يجب أن تكوني لي وحدي لا للعالم أجمع. لأننا إذا كنا كلانا سعيدين , فما الذي يهمنا سعد العالم أو شقيَ؛ عُمّر الكون أو خرب , ثبتت الكائنات أو زلزلت</tei:p>
             <tei:p change="#d2e73">لماذا تطلبين إليّ يا سيبيل أن أحرق رسائلك؟ إنجيل الغرام المنزل تجُعل آياته أكلا للنار؟ استغفر الله أيتها القاسية. إن رسائلك تبقى إلى الأبد في مأمن من عيون الرقباء؛ فليهدأ روعكِ وليطمئن بالك. واسلمي لمن لا ينساك مدى العمر</tei:p>
-            <tei:p change="#d2e73">بقلم <persName>سليم عبد الأحد</persName> سونبرق
+            <tei:p change="#d2e73">بقلم <persName change="#d3e204" ref="oape:pers:1831">سليم عبد الأحد</persName> سونبرق
 <pb n="n3-p29" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1140.xhtml"/>
 
 
@@ -506,7 +506,11 @@
          <tei:div change="#d2e64" type="section">
             <head>في رياض الشعر</head>
             <tei:p change="#d2e73">في عزّ مُلك الصّبي</tei:p>
-            <tei:p change="#d2e73">نشرنا في الجزء الأخير من سنة الزهور الثانية أبياتاً لسعادة <persName>إسماعيل باشا صبري</persName> يعزّي بها سعادة السير يوسف سابا باشا ناظر المالية المصرية عن فقده ولده فريداً وهو في ربيع الحياة. وننشر اليوم أبياتاً في المعنى لحضرة <persName>خليل أفندي مطران</persName> الشاعر الشهير:</tei:p>
+            <tei:p change="#d2e73">نشرنا في الجزء الأخير من سنة الزهور الثانية أبياتاً لسعادة <persName>إسماعيل باشا صبري</persName> يعزّي بها سعادة السير يوسف سابا باشا ناظر المالية المصرية عن فقده ولده فريداً وهو في ربيع الحياة. وننشر اليوم أبياتاً في المعنى لحضرة <persName change="#d3e204" ref="oape:pers:931 viaf:102460074">
+                            <forename xml:lang="ar">خليل</forename>
+                            <roleName type="title" xml:lang="ar">افندي</roleName>
+                            <surname xml:lang="ar">مطران</surname>
+                        </persName> الشاعر الشهير:</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>ما في الأسى من تفتّت الكبدِ</tei:seg> 
@@ -652,7 +656,10 @@
                   <tei:seg>يا بنينا فالردى أقسى العقوقِ</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73"><persName>خليل مطران</persName>
+            <tei:p change="#d2e73"><persName change="#d3e204" ref="oape:pers:931 viaf:102460074">
+                            <forename xml:lang="ar">خليل</forename>
+                            <surname xml:lang="ar">مطران</surname>
+                        </persName>
 <pb n="n3-p31" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1142.xhtml"/>
 
 
@@ -698,7 +705,12 @@
                   <tei:seg>فلؤلؤ الدمع منهُ لؤلؤ الغزلِ</tei:seg>
                </tei:l>
             </lg>
-            <byline><persName>ولي الدين يكن</persName></byline>
+            <byline><persName change="#d3e204" ref="oape:pers:2834 viaf:36771043">
+                            <forename xml:lang="ar">
+                                <addName type="khitab" xml:lang="ar">ولي الدين</addName>
+                            </forename>
+                            <surname xml:lang="ar">يكن</surname>
+                        </persName></byline>
             <tei:p change="#d2e73">الخال</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
@@ -742,7 +754,7 @@
                </tei:l>
             </lg>
             <tei:p change="#d2e73">أتبره (السودان)</tei:p>
-            <byline><persName>محمد فاضل</persName></byline>
+            <byline><persName change="#d3e204" ref="oape:pers:2399">محمد فاضل</persName></byline>
             <tei:p change="#d2e73">ذات البرقع الأحمر</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
@@ -844,7 +856,7 @@
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>شيء عن الفن</head>
-            <tei:p change="#d2e73">نشرنا في الجزء الفائت من الزهور ( <tei:num type="auto-markup" change="#d2e181" value="518" xml:lang="ar">٥١٨</tei:num> :  <tei:num type="auto-markup" change="#d2e181" value="2" xml:lang="ar">٢</tei:num> ) مقالة عن الفن بقلم حضرة الكاتبة الأديبة الفاضلة الآنسة مي فلما اطلعت عليها حضرة الفاضلة السيدة <persName>لبيبة هاشم</persName> تفضلت بالردّ الآتي:</tei:p>
+            <tei:p change="#d2e73">نشرنا في الجزء الفائت من الزهور ( <tei:num type="auto-markup" change="#d2e181" value="518" xml:lang="ar">٥١٨</tei:num> :  <tei:num type="auto-markup" change="#d2e181" value="2" xml:lang="ar">٢</tei:num> ) مقالة عن الفن بقلم حضرة الكاتبة الأديبة الفاضلة الآنسة مي فلما اطلعت عليها حضرة الفاضلة السيدة <persName change="#d3e204" ref="oape:pers:2247">لبيبة هاشم</persName> تفضلت بالردّ الآتي:</tei:p>
             <tei:p change="#d2e73">رأى القارئ الكريم من مقالة الآنسة مي (شيء عن الفن) حسن نصورّ هذه الكاتبة وسمو نفسها إلى أوج الجمال الفني. فهي تنظر من
 <pb n="n3-p38" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1149.xhtml"/>
 
@@ -870,7 +882,7 @@
 
 شمس الحقائق المتلألة في أفق العمل والنشاط فشمروا عن ساعد الجد وقطعوا مسافات شاسعة في النصف الثاني من القرن الأخير لم يكن يصدقها العقل لولا ما نراه من النتائج العظمى المترتبة على جهادهم الغريب</tei:p>
             <tei:p change="#d2e73">أما وهم قد بلغوا هذا الشأو من الكمال بجدهم ونشاطهم فهل يجوز بشرع ربة اللطف أن تصوّب فيهم نظر الاتهام والاحتقار بينما هم ينتظرون من يدها الجميلة أكاليل الغار؟</tei:p>
-            <byline change="#d2e193"><persName>لبيبة هاشم</persName></byline>
+            <byline change="#d2e193"><persName change="#d3e204" ref="oape:pers:2247">لبيبة هاشم</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>في جنائن الغرب</head>
@@ -897,7 +909,7 @@
             <tei:p change="#d2e73">فوقف , وقد خارت قواه وكاد يكبو لكل خطوة , وقف يسترحم فارسه القرسي. . ولكنك أيها الظالم لم تعره إلاّ أُذُناً صماّء</tei:p>
             <tei:p change="#d2e73">بل زدتَ ضغط ساقيك على خاصرتيه. وقلّبتَ شكيمته في زَبَدِ فكيهِ لتُخمد شكواه , فحطمت نواجذه قهراً</tei:p>
             <tei:p change="#d2e73">نهض الفرس من عثرته ولكنه خارت قواه في إحدى المعامع وعجز عن قرض لجامه فسقط صريعاً على فراش من الرصاص وقد قصف أضلاعك في تلك الكبوة</tei:p>
-            <byline change="#d2e193"><persName>عزيز مرزا</persName></byline>
+            <byline change="#d2e193"><persName change="#d3e204" ref="oape:pers:2055">عزيز مرزا</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="section">
             <head>ثمرات المطابع</head>
@@ -928,7 +940,7 @@
 أقبل الفجر بهجة يتلالى - فأدِرها تزري الصباح جمالا - واعتزل حلبة الفخار اعتزالا - والأمانيَّ خلّ والآمالا - وتأمل فروع هند الطوالا - واسمع العود واطّرح عنك هما - واصف واهنأ بالكأس عيشاً وبالا</tei:p>
             <tei:p change="#d2e73"><persName>محمد لطفي جمعه</persName></tei:p>
             <tei:p change="#d2e73">المحامي</tei:p>
-            <tei:p change="#d2e73">كتاب في التربية - لا تزال إدارة الجامعة المصرية دائبةً على توفير أسباب التعليم والتهذيب للناشئة الوطنية. وقد عهدت إلى نخبة من أفاضل العلماء وأعلام الأدباء من وطنيين وأجانب بإلقاء محاضراتٍ في مواضيع مختلفة من آدابٍ وعلوم وفنون واقتصاد إلى غير ذلك من فروع المعارف الحديثة. وقد سرّنا أنها وجهت عناية خاصة إلى تهذيب الفتاة فأناطت ببعض السيدات إلقاء محاضرات في مواضيع نسائية لا غنى للمرأة الشرقية عنها حتى تجاري أختها الغربية في مضمار الترقي. وقد تولت إلقاء هذه المحاضرات في العام الماضي سيدةُ من فضليات سيداتنا وكاتبة من أشهر كاتباتنا , عنينا السيدة <persName>لبيبة هاشم</persName> صاحبة ومحررة مجلة فتاة الشرق المعروفة. وقد جعلت موضوع محاضراتها التربية وهو الأمر الذي نحن في حاجة ماسة إليه. فتناولته من جميع أطرافه فتكلمت عن التربية الوالدية من حيث اعتناء الوالدين بالأولاد , وعن التربية البدنية من حيث غذاء الأطفال ونظافتهم وملبوسهم وترويضهم؛ وعن التربية
+            <tei:p change="#d2e73">كتاب في التربية - لا تزال إدارة الجامعة المصرية دائبةً على توفير أسباب التعليم والتهذيب للناشئة الوطنية. وقد عهدت إلى نخبة من أفاضل العلماء وأعلام الأدباء من وطنيين وأجانب بإلقاء محاضراتٍ في مواضيع مختلفة من آدابٍ وعلوم وفنون واقتصاد إلى غير ذلك من فروع المعارف الحديثة. وقد سرّنا أنها وجهت عناية خاصة إلى تهذيب الفتاة فأناطت ببعض السيدات إلقاء محاضرات في مواضيع نسائية لا غنى للمرأة الشرقية عنها حتى تجاري أختها الغربية في مضمار الترقي. وقد تولت إلقاء هذه المحاضرات في العام الماضي سيدةُ من فضليات سيداتنا وكاتبة من أشهر كاتباتنا , عنينا السيدة <persName change="#d3e204" ref="oape:pers:2247">لبيبة هاشم</persName> صاحبة ومحررة مجلة فتاة الشرق المعروفة. وقد جعلت موضوع محاضراتها التربية وهو الأمر الذي نحن في حاجة ماسة إليه. فتناولته من جميع أطرافه فتكلمت عن التربية الوالدية من حيث اعتناء الوالدين بالأولاد , وعن التربية البدنية من حيث غذاء الأطفال ونظافتهم وملبوسهم وترويضهم؛ وعن التربية
 <pb n="n3-p48" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1159.xhtml"/>
 
 
@@ -967,7 +979,14 @@
 <pb n="n3-p52" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1163.xhtml"/>
 
 
-أسلوبه حتى لقد أطلق علماء الأدب على إنشائهِ صفة السهل الممتنع , وما برح كتابه كليلة ودمنة إلى يومنا هذا رفيق المتأدبين. وأخرج اليوم سعادة الأستاذ العالم <persName>أحمد زكي باشا</persName> كاتب مجلس النظار كتاباً آخر لذلك المنشئ النابغة هو الأدب الصغير فعرفت فضله نظارة المعارف العمومية فقررتهُ لمدارسها الابتدائية ونعم ما فعلت. أما الكتاب فيكفي في تقريظه أن يكون كاتبه عبد الله بن المقفع , وناشره والواقف على طبعه <persName>أحمد زكي</persName></tei:p>
+أسلوبه حتى لقد أطلق علماء الأدب على إنشائهِ صفة السهل الممتنع , وما برح كتابه كليلة ودمنة إلى يومنا هذا رفيق المتأدبين. وأخرج اليوم سعادة الأستاذ العالم <persName change="#d3e204" ref="oape:pers:707 viaf:49218655">
+                            <forename xml:lang="ar">أحمد</forename>
+                            <surname xml:lang="ar">زكي</surname>
+                            <roleName type="title" xml:lang="ar">باشا</roleName>
+                        </persName> كاتب مجلس النظار كتاباً آخر لذلك المنشئ النابغة هو الأدب الصغير فعرفت فضله نظارة المعارف العمومية فقررتهُ لمدارسها الابتدائية ونعم ما فعلت. أما الكتاب فيكفي في تقريظه أن يكون كاتبه عبد الله بن المقفع , وناشره والواقف على طبعه <persName change="#d3e204" ref="oape:pers:707 viaf:49218655">
+                            <forename xml:lang="ar">أحمد</forename>
+                            <surname xml:lang="ar">زكي</surname>
+                        </persName></tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="section">
             <head>أزهار وأشواك</head>
@@ -983,7 +1002,10 @@
 الثمانينية - على هذا الزعم - من سنّ الفتاة ابنة العشرين. . .؟ آه</tei:p>
             <tei:p change="#d2e73">من عمر النساء. . .!</tei:p>
             <tei:p change="#d2e73">تمثال مويّار</tei:p>
-            <tei:p change="#d2e73">لا يزال الإنسان يغالب عناصر الطبيعة , فيتغلب عليها؛ ويسترق أسرارها ونواميسها , فيستخدم قواها لزيادة قوته , أو لتوفير أسباب رفاهيته. فتوحاتٌ وانتصاراتٌ أحرزها وهي أبهى وأشرف من انتصاراته في ميادين القتال. وآخر فتح ثمَّ له من هذا القبيل , تذليله الهواء , واتخاذه إياه مطية سهلة المقاد. فصار يسافر هواءَ كما كان يسافر برًّا أو بحراً , فدانت له الطبيعة بأسرها. على أن هذا الفتح لم يتم له دون تضحية العدد الكبير من الأبطال. نخص منهم اليوم بالذكر المهندس الفرنسوي مويار الذي رفعت له شركة مصر الجديدة تمثالاً في أرضها , وجمعت الوجهاء والأدباء حوله في الشهر الغابر ليحتفلوا بذكره. هكذا يكرم الغربيون نوابغهم. . وقد أراد علاَّمتنا زكي باشا أن يكون لنوابغ الشرق نصيبهم من هذا الإكرام , فأبان في خطبةٍ ملؤُها التنقيب والبحث أن اثنين من العرب - وهما الجوهري وعباس بن فرناس - قد حاولا الطيران قبل سواهما. وقد اعترفت بذلك لجنة الاحتفال , فنقشت الأبيات الآتية على قاعدة التمثال وهي ل<persName>حافظ إبراهيم</persName>:</tei:p>
+            <tei:p change="#d2e73">لا يزال الإنسان يغالب عناصر الطبيعة , فيتغلب عليها؛ ويسترق أسرارها ونواميسها , فيستخدم قواها لزيادة قوته , أو لتوفير أسباب رفاهيته. فتوحاتٌ وانتصاراتٌ أحرزها وهي أبهى وأشرف من انتصاراته في ميادين القتال. وآخر فتح ثمَّ له من هذا القبيل , تذليله الهواء , واتخاذه إياه مطية سهلة المقاد. فصار يسافر هواءَ كما كان يسافر برًّا أو بحراً , فدانت له الطبيعة بأسرها. على أن هذا الفتح لم يتم له دون تضحية العدد الكبير من الأبطال. نخص منهم اليوم بالذكر المهندس الفرنسوي مويار الذي رفعت له شركة مصر الجديدة تمثالاً في أرضها , وجمعت الوجهاء والأدباء حوله في الشهر الغابر ليحتفلوا بذكره. هكذا يكرم الغربيون نوابغهم. . وقد أراد علاَّمتنا زكي باشا أن يكون لنوابغ الشرق نصيبهم من هذا الإكرام , فأبان في خطبةٍ ملؤُها التنقيب والبحث أن اثنين من العرب - وهما الجوهري وعباس بن فرناس - قد حاولا الطيران قبل سواهما. وقد اعترفت بذلك لجنة الاحتفال , فنقشت الأبيات الآتية على قاعدة التمثال وهي ل<persName change="#d3e204" ref="oape:pers:245 viaf:32410755">
+                            <forename xml:lang="ar">حافظ</forename>
+                            <surname xml:lang="ar">إبراهيم</surname>
+                        </persName>:</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>إن يركبِ الغربُ متن الريح مبتدعاً</tei:seg> 
@@ -1000,7 +1022,10 @@
 
 
 خصت مصر مويار دون سواه من أبطال الطيران لترفع له تمثالاً تحت سمائها , لأن مويّار الأفرنسي المولد , عاش ومات في مصر. وفي مصر كان يشتغل لتحقيق مسألة الطيران , فوضع قواعد هذا الفن كما هي معروفة اليوم؛ ولكنّ ضيق ذات يده حال دون إبراز فكرته إلى حيز العمل , فعاش فقيراً ومات فقيراً. وقام علماء آخرون فعملوا بالمبادئ الميكانيكية التي وضعها , فتمكنوا من امتلاك ناصية الهواء ومجاراة الطير في مضمار السماء. مات مويار فقيراً كما عاش ولكنه أغنى أبناء جنسه باختراعه العجيب؛ فكان شأنه شأن معظم كبار المخترعين والمكتشفين كغاليله وكولمبس , فهم لا يحيون ولا يمجَّدون إلاَّ بعد موتهم. . . خمسة عشر عاماً مرّت على وفاة هذا المخترع. فأدرك العالم سموَّ مداركه؛ وقام اليوم يجود بتماثيل البرونز والرخام , على من حُرم في حياته ما يسدُّ به الرمق. فما</tei:p>
-            <tei:p change="#d2e73">أعجب مغالطات بني البشر. ويا ما أحدّ سهام اللوم التي صوّبها إليهم حكيمنا <persName>شبلي شميل</persName> إذ قال:</tei:p>
+            <tei:p change="#d2e73">أعجب مغالطات بني البشر. ويا ما أحدّ سهام اللوم التي صوّبها إليهم حكيمنا <persName change="#d3e204" ref="oape:pers:763 viaf:3813100">
+                            <forename xml:lang="ar">شبلي</forename>
+                            <surname xml:lang="ar">شميل</surname>
+                        </persName> إذ قال:</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>مُيّار أنك قد قضيت ككل منٍ</tei:seg> 

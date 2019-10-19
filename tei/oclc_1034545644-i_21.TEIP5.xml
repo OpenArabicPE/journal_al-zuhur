@@ -54,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+      <revisionDesc><tei:change when="2019-10-19" who="#pers_TG" xml:id="d3e209" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
@@ -189,7 +189,7 @@
 
 معاملة الأسواق غشاً وخداعاً وسرقة وخبثاً وكذباً؟</tei:p>
             <tei:p change="#d2e73">لست أدري أمخطئة أنا أم محقة؟ لكن هذه الاكتشافات التي تهم الجمهور معرفتها، لا أظنها تؤثر في أرواح الأفراد كما تعمل فيها صور الفكر القديم وظواهره الفنية. إن هؤلاء الأفراد يؤثرون على بلادة الترفه الميكانيكي شرف العمل الروحي. فهم يظلون مدى حياتهم عبيداً لأحلام الجمال اللطيفة، وذوي الأمزجة السريعة التأثر حيث تختلط الحدة بالدعة، والضحك بالغضب، والسكوت بالسرور، والتأملات بالخيالات الجميلة.</tei:p>
-            <byline change="#d2e198"><persName>مي</persName></byline>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:2269">م . ي</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>في جنائن الغرب</head>
@@ -259,7 +259,7 @@
             <tei:p change="#d2e73">لو خيرت أن اجلس على العرش طول العمر أو أكون زوجتك يوماً واحداً ثم أموت لنبذت العرش ولم أحفل به، لن سعادة يوم واحد معك أفضل عندي من أبهة الملك. ولو كان في كرهك إياي سعادة لك لكنت أنا أيضاً أتمتع بذلك الكره لأن سروري لا يتم إلا بسرورك أيها الحبيب.</tei:p>
             <tei:p change="#d2e73">إلى الملتقى يا هنري. بودي لو ينفسح لي أن أطيل حديثي معك ولكن. . .</tei:p>
             <tei:p change="#d2e73">إميليا</tei:p>
-            <byline change="#d2e198">بقلم <persName>سليم عبد الأحد</persName>
+            <byline change="#d2e198">بقلم <persName change="#d3e209" ref="oape:pers:1831">سليم عبد الأحد</persName>
 <pb n="n2-p529" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1089.xhtml"/>
 
 
@@ -307,7 +307,7 @@
 
 
 الكلام منزلة علياء من البلاغة، فالمعاني سامية، والإنشاء من النمط العالي، والتخييل في منتهى الكمال وإنما ليس هذا اللباس كساءه فكان أولى بأمثال هذه الأقوال أن تفرغ في مهيع القريض وتنسج على منواله.</tei:p>
-            <byline change="#d2e198"><persName>حلمي المصري</persName></byline>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:1608">حلمي المصري</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="section">
             <head>في رياض الشعر</head>
@@ -359,12 +359,19 @@
                   <tei:seg>مقامه أن ضيم في شبله</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">- <persName>إسماعيل صبري</persName>
+            <tei:p change="#d2e73">- <persName change="#d3e209" ref="oape:pers:777 viaf:45752632">
+                            <forename xml:lang="ar">إسماعيل</forename>
+                            <surname xml:lang="ar">صبري</surname>
+                        </persName>
 <pb n="n2-p534" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1094.xhtml"/>
 
 
 قطرة دم</tei:p>
-            <tei:p change="#d2e73">لقي <persName>خليل أفندي مطران</persName> منذ أيام سيدة في إصبعها خاتم فصه من الياقوت فقال لصاحب كان معه:</tei:p>
+            <tei:p change="#d2e73">لقي <persName change="#d3e209" ref="oape:pers:931 viaf:102460074">
+                            <forename xml:lang="ar">خليل</forename>
+                            <roleName type="title" xml:lang="ar">افندي</roleName>
+                            <surname xml:lang="ar">مطران</surname>
+                        </persName> منذ أيام سيدة في إصبعها خاتم فصه من الياقوت فقال لصاحب كان معه:</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>حذار لقلبك من لحظها</tei:seg> 
@@ -376,7 +383,10 @@
                   <tei:seg>به قطرة الدم في شكل قلب؟</tei:seg>
                </tei:l>
             </lg>
-            <byline><persName>خليل مطران</persName></byline>
+            <byline><persName change="#d3e209" ref="oape:pers:931 viaf:102460074">
+                            <forename xml:lang="ar">خليل</forename>
+                            <surname xml:lang="ar">مطران</surname>
+                        </persName></byline>
             <tei:p change="#d2e73">عطفاً على الفقراء</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
@@ -424,7 +434,7 @@
                   <tei:seg>هؤلاء أيضاً من صنيع الباري</tei:seg>
                </tei:l>
             </lg>
-            <byline><persName>شبلي ملاط</persName></byline>
+            <byline><persName change="#d3e209" ref="oape:pers:1885">شبلي ملاط</persName></byline>
             <tei:p change="#d2e73">أنا والبدر</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
@@ -740,7 +750,7 @@
 هيا إلى تلك البقعة السوداء تر جماعة كالأبالسة شكلاً يتآمرون على السرقة والفتك. هناك في تلك البناية الباسقة المتلألئة بالأنوار جماعة من الشبان يتناولون بأقداح بلورية سائلاً يقتل الشعور، ويميت الفضيلة. هذا ربح مال رفيقه حراماً بالميسر، وهذا خسر ما تملكه يده فانتحر. وهناك وراء البحار دخان متصاعد في الفضاء ورعود قاصفة وبروع لامعة وأشلاء متطايرة هناك نار الحرب شبها الطمع فذهبت بالأرواح والأموال ولم تبق ولم تذر. . .</tei:p>
             <tei:p change="#d2e73">يا أهل سادوم وعامورة! إن السماء أزمعت أن تصب عليكم جام غضبها، فاقلعوا عن هذا الغرور فليس من إبراهيم يشفع بكم إلى الله. أو هل بينكم عشرة أبرار تتذرعون بهم لديه فتنجوا من عذاب اليم؟ أين نجد هؤلاء الصالحين؟ لا أدري، فتش معي أيها القارئ، فقد أعياني البحث والتنقيب، ولم أظفر بضالتي المنشودة.</tei:p>
             <tei:p change="#d2e73">حمص</tei:p>
-            <byline change="#d2e198"><persName>بدري فركوح</persName></byline>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:1354">بدري فركوح</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>محاكم الأحداث</head>
@@ -774,7 +784,7 @@
             <tei:p change="#d2e73">وإن عاد احدهم إلى سابق أعماله يعيد عليه القاضي الكرة فيسمعه النصائح والمواعظ ويورده طريق السير والعمل ثانية فيتغير بمداومة النصح والإرشاد وقد يحدث له ما يميله عنها فلا تؤثر فيه. فترسله إذ ذاك المحكمة إلى إحدى مدارس الحكومة الصناعية التي لها علاقة بها فيدرب هناك على نظامات وتعاليم تؤديه طريق الصواب والصراط المستقيم.</tei:p>
             <tei:p change="#d2e73">هذا وقد يبقى الواحد مع كل هذه الوسائط ميالاً إلى الشر لا يحيد عنه فيعسر طريق إصلاحه وهذا نادر شاذ ولا يقاس على الشواذ.</tei:p>
             <byline><persName>توفيق جريديني</persName></byline>
-            <tei:p change="#d2e73">قالن <persName>ابن المقفع</persName>:</tei:p>
+            <tei:p change="#d2e73">قالن <persName change="#d3e209" ref="oape:pers:185 viaf:89743196">ابن المقفع</persName>:</tei:p>
             <tei:p change="#d2e73">ليس من خلة هي للغني مدح إلا هي للفقير عيب: فإن كان شجاعاً، سمي أهوج؛ وإن كان جوّاداً، سمي مفسداً، وإن كان حليماً، سمي ضعيفاً؛ وإن كان وقوراً، سمي بليداً، وإن كان لسناً، سمي مهذاراً؛ وإن كان صموتاً، سمي عيياً.
 <pb n="n2-p545" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1105.xhtml"/>
 
@@ -784,7 +794,21 @@
          <tei:div change="#d2e64" type="section">
             <head>ثمرات المطابع</head>
             <tei:p change="#d2e73">المعلوم والمجهول</tei:p>
-            <tei:p change="#d2e73">أصدر <persName>ولي الدين بك يكن</persName> الجزء الثاني من كتابه المعلوم والمجهول في نحو  <tei:num type="auto-markup" change="#d2e181" value="160" xml:lang="ar">١٦٠</tei:num>  صفحة مطبوعة طبعاً جميلاً في مطبعة المعارف المشهورة ومزينة بصور بعض الذين ورد ذكرهم في الكتاب، وبرسوم الأماكن التي عرفها المؤلف إبان وجوده في المنفى. ولو كان <persName>ولي الدين يكن</persName> من الأدباء الذين لا يكترث لهم، أو لو كان كتابه هذا من الكتب التي تهمل في زاويات المكاتب، لزدنا على ما قلناه الآن كلمة الثناء ثم وقفنا عند هذا الحد. ولكن الزهور لا تنظر إلى ما يهدى إليها من المبوعات نظرة التقريظ المبتذل فقط، ولا تكتفي بذكرها لمجرد الإعلان عنها ولاسيما متى كان الكتاب كتاب المعلوم والمجهول، والكتاب <persName>ولي الدين يكن</persName>.</tei:p>
+            <tei:p change="#d2e73">أصدر <persName change="#d3e209" ref="oape:pers:2834 viaf:36771043">
+                            <forename>ولي الدين</forename>
+                            <roleName type="title">بك</roleName>
+                            <surname>يكن</surname>
+                        </persName> الجزء الثاني من كتابه المعلوم والمجهول في نحو  <tei:num type="auto-markup" change="#d2e181" value="160" xml:lang="ar">١٦٠</tei:num>  صفحة مطبوعة طبعاً جميلاً في مطبعة المعارف المشهورة ومزينة بصور بعض الذين ورد ذكرهم في الكتاب، وبرسوم الأماكن التي عرفها المؤلف إبان وجوده في المنفى. ولو كان <persName change="#d3e209" ref="oape:pers:2834 viaf:36771043">
+                            <forename xml:lang="ar">
+                                <addName type="khitab" xml:lang="ar">ولي الدين</addName>
+                            </forename>
+                            <surname xml:lang="ar">يكن</surname>
+                        </persName> من الأدباء الذين لا يكترث لهم، أو لو كان كتابه هذا من الكتب التي تهمل في زاويات المكاتب، لزدنا على ما قلناه الآن كلمة الثناء ثم وقفنا عند هذا الحد. ولكن الزهور لا تنظر إلى ما يهدى إليها من المبوعات نظرة التقريظ المبتذل فقط، ولا تكتفي بذكرها لمجرد الإعلان عنها ولاسيما متى كان الكتاب كتاب المعلوم والمجهول، والكتاب <persName change="#d3e209" ref="oape:pers:2834 viaf:36771043">
+                            <forename xml:lang="ar">
+                                <addName type="khitab" xml:lang="ar">ولي الدين</addName>
+                            </forename>
+                            <surname xml:lang="ar">يكن</surname>
+                        </persName>.</tei:p>
             <tei:p change="#d2e73">طالعنا هذا الكتاب بما يستحقه من الإمعان والتدقيق فرأينا فيه أنموذجاً من السياسة العثمانية تجاه الأفراد العثمانيين في خلال ثلاثة وثلاثين عاماً من سلطنة السلطان عبد الحميد الثاني. بل هو تاريخ في شخص وليا لدين بك يكن لحياة الأحرار الذين اضطهدهم العهد العثماني الماضي. وفي رأينا لو أن كل واحد من أولئك الذين تمكن منهم عبد الحميد وحكومته، قرأ هذا الكتاب، لتوسم أنه يقرأ فيه تاريخ حياته الخاصة فما
 <pb n="n2-p546" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1106.xhtml"/>
 
@@ -860,10 +884,11 @@
          <tei:div change="#d2e64" type="item">
             <head>جرائد جديدة</head>
             <tei:p change="#d2e73">الجديد - جريدة أصدرها في سان باولو من أعمال البرازيل نجيب أفندي نسيم طراد الكاتب المشهور وفارس أفندي نجم. إن لها من اقتدار صاحبيها الفاضلين ما يكفل لها النجاح.</tei:p>
-            <tei:p change="#d2e73">البرهان - جريدة ينشئها في طرابلس الشام حضرة الكاتب المعروف <persName>الشيخ عبد القادر المغربي</persName> فنتمنى لها الانتشار الذي تستحقه.</tei:p>
+            <tei:p change="#d2e73">البرهان - جريدة ينشئها في طرابلس الشام حضرة الكاتب المعروف <persName change="#d3e209" ref="oape:pers:3406">
+                            <roleName type="honorific">الشيخ</roleName>عبد القادر المغربي</persName> فنتمنى لها الانتشار الذي تستحقه.</tei:p>
             <tei:p change="#d2e73">البيرق - جريدة أسبوعية أنشأها في الحدث (لبنان) حضرة نجيب أفندي شديد عقل وسعيد أفندي فاضل عقل من أفاضل الأدباء المعروفين في سورية فنرجو لها النجاح.</tei:p>
             <tei:p change="#d2e73">المراقب - دخلت جريدة <tei:title level="j" change="#d2e193">المراقب</tei:title> الغراء التي ينشئها في بيروت حضرة الكاتب الفاضل جرجي أفندي عطية في سنتها الرابعة مطردة خطته الجميلة.</tei:p>
-            <tei:p change="#d2e73">جبل عامل - جريدة أسبوعية يصدرها في صيدا (سورية) حضرة الكاتب لمعي أحمد أفندي عارف الزين <persName>صاحب مجلة <tei:title level="j" change="#d2e193">العرفان</tei:title></persName> الزاهرة فنؤمل لها مزيد الانتشار.
+            <tei:p change="#d2e73">جبل عامل - جريدة أسبوعية يصدرها في صيدا (سورية) حضرة الكاتب لمعي أحمد أفندي عارف الزين <persName change="#d3e209" ref="oape:pers:2941">صاحب مجلة <tei:title level="j" change="#d2e193">العرفان</tei:title></persName> الزاهرة فنؤمل لها مزيد الانتشار.
 <pb n="n2-p554" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1113.xhtml"/>
 
 

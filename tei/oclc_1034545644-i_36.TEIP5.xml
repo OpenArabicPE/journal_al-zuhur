@@ -54,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+      <revisionDesc><tei:change when="2019-10-19" who="#pers_TG" xml:id="d3e209" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
@@ -241,7 +241,7 @@
 
 ستة آلاف دونم من الأراضي على مقربة من بحيرة طبريا , وإنشاءُ مزرعتين كبيرتين للزيتون في حولدا وبن شامن وعدة حدائق لزراعة البرتقال والليمون والاترنج في شدراح وجنينة صامويل. أما المدارس الصناعية والزراعية والعالية التي أنشئت بمال الذخيرة في حيفا ويافا والقدس لتربية النشء الإسرائيلي وتعليمه فحدّث عنها ولا حرج. وهكذا قل عن المستعمرات الزراعية وبيوت العمَّال التي أنشئت في أنحاءِ فلسطين فتحوّل بها القفر البلقع إلى روض أزهر. وقد أتاحت لي الظروف التعرف إلى جماعة من المشتغلين بهذا الموضوع في القاهرة والاختلاط بهم فعلمت أن لهم مندوباً خاصاً يتردّد على بعض المدارس الابتدائية ويلقي على تلاميذها دروساً يبين فيها حقيقة الصهيوينة وما يجب على كل إسرائيلي عمله لتنشيطها ومسعدتها ولهم مجلة فرنساوية شهرية اسمها النهضة الإسرائيلية يوافيها أئمة الكتاب الصهيونية وأنصارها. وقيمة اشتراكها السنوي ثلاثة فرنكات. ولهم نادٍ خاص كبير في حيّ الإسماعيلية. ونحو عشر جمعيات تشتغل بجمع المال وإرساله إلى اللجنة الرئيسية في كولونيا. ويعني صهيوني , مصر بمطالعة كل ما يردُ عنهم في الجرائد المحلية ويعقبون عليه. وقد انعقدت الجمعية العاملة للصهيونيين في مدينة فينا يوم  <tei:num type="auto-markup" change="#d2e181" value="10" xml:lang="ar">١٠</tei:num>  يونيو مقدمة</tei:p>
             <tei:p change="#d2e73">للمؤتمر الذي سينعقد في شهر سبتمبر القادم المسائل المعروضة عليه يأخذ في تنفيذها بقوة مالهِ ورجالهِ</tei:p>
-            <byline change="#d2e198"><persName>توفيق حبيب</persName>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:1438">توفيق حبيب</persName>
 <pb n="n4-p248" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1930.xhtml"/>
 
 
@@ -482,7 +482,10 @@
                   <tei:seg>ألاَّ تضيقَ بأعظمِ الأوزارِ</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73"><persName>إسماعيل صبري</persName>
+            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:777 viaf:45752632">
+                            <forename xml:lang="ar">إسماعيل</forename>
+                            <surname xml:lang="ar">صبري</surname>
+                        </persName>
 <pb n="n4-p256" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1938.xhtml"/>
 
 
@@ -683,7 +686,7 @@
 
 
 الكذب والرياء. فإذا قدّر لي أن أعودَ إلى هذا القلم رجعتُ إليهِ ولم ارجع عن المبدأ الذي أفخر بهِ وقد رأيته أنفعَ من مبادئ الذي يتقلبون مع الأهواء , ويبدون في كل يوم بشكل جديد. وأسأتُ في ما مضى إلى كثيرين أيضاً ربما كان معظمهم من الزملاء الذين يقضي اختلافُ نفساً بقصد إيلامها ولا تهجمت على رجل بالطعن , وأنني كنتُ أحزنُ لما يصيبُ الخصمَ الصحافي ولا حزنَ أصحابه والأخصاء الأقربين. على أن المطاعنَ الصحافية كلها خطأ قبيح , ولابدَّ أن يكون قلمي قد زلَّ مراراً وأغضبّ بعض الرفاق فاسألهم الصفحَ والمعذرة , وأرجو أن يكون عامنا الحالي آخرَ أعوامِ التجريح والمشاتمة في عالم التحرير. قلتُ أن الذي تعي ذاكرتي من حوادث هذا العمر الصحافي والذي يعنُّ لي إيرادهُ شيء كثير. فإذا شاء قراء الوطن أن أوافيهم بشيء من أذوق الراحة أياماً. وأمَّا اليوم فاكتفي بشكرٍ عام أرسلهُ إلى كل صديق كريم وذي وداد طلب لي الخير فيما مضى؛ وأسأل الله أن يوفق كلًّ منا إلى الغرض الذي يطلبه , وأن يديمَ أيامَ الصفاء والهناء لجميع الأخوان الذين عرفتهم في وادي النيل.</tei:p>
-            <byline change="#d2e198"><persName>اسكندر شاهين</persName>
+            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:1244">إسكندر شاهين</persName>
 <pb n="n4-p262" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1944.xhtml"/>
 
 
@@ -712,7 +715,11 @@
 <pb n="n4-p263" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1945.xhtml"/>
 
 
-في سوريا جريدة <tei:title level="j" change="#d2e193">السوريين</tei:title> المهاجرين في الأقطار الأميركية فقد ميزتها حينئذٍ بصفتين خصيصتين بها. نشأت في بيروت على أثر إعلان الدستور في تركيا , ولم يكن لها رأس مالٍ ماديّ قط , ولا معنويّ سوى أدب منشئها ونشاطهِ , وسوى تلك الفوضى الهائلة التي انتشرت في البلاد يومئذ. على أنها ما برحت سائرة في طريقها يدفعها نشاط الشباب إلى الأمام , وتحببها حرية القلم إلى القرَّاء حتى بلغت اليوم السنة الخامسة من حياتها وقد بلغت معها شأواً كبيراً من النجاح. هذه هي جريدة <tei:title level="j" change="#d2e193">البرق</tei:title> التي اثني عليها حضرة الكاتب الشهير سليم أفندي سركيس ذلك الثناء الطيّب في حفلة إكرام <persName>خليل أفندي مطران</persName> الشاعر المحبوب؛ فإنَّ البرق دعت أنصار الأدب في سوريا إلى الاشتراك في تكريم شاعر القطرين وأرسلت إليهِ باسم أولئك الأدباء هدية جميلة اعترافاً بفضله ونبوغهِ. أما صاحب البرق , بشارة أفندي الخوري , ففي ما دون الثلاثين من العمر. وهو ذكيُّ الفؤاد , عصبي المزاج , سريع التأثر. إذا كتب راضياً سالت كلماتهُ رضيً وصفاءً , وإذا كتب غاضباً قطر قلمهُ سّماً زعافاً. وهو شاعر مجيد ليس للصناعة أثرٌ ما في شعره وإن كان أثرها يظهر على الغالب في نثره؛ ذلك لأنهُ يقول الشعر عفواَ الخاطر غير مغضوب عليهِ , ويكتب على الأكثر محمولاً على الكتابة إما بحكم السياسة وإِما بحكم الأحوال. ولقد أُتيح للزُّهور أن تنشر شيئاً من شعره في بعض
+في سوريا جريدة <tei:title level="j" change="#d2e193">السوريين</tei:title> المهاجرين في الأقطار الأميركية فقد ميزتها حينئذٍ بصفتين خصيصتين بها. نشأت في بيروت على أثر إعلان الدستور في تركيا , ولم يكن لها رأس مالٍ ماديّ قط , ولا معنويّ سوى أدب منشئها ونشاطهِ , وسوى تلك الفوضى الهائلة التي انتشرت في البلاد يومئذ. على أنها ما برحت سائرة في طريقها يدفعها نشاط الشباب إلى الأمام , وتحببها حرية القلم إلى القرَّاء حتى بلغت اليوم السنة الخامسة من حياتها وقد بلغت معها شأواً كبيراً من النجاح. هذه هي جريدة <tei:title level="j" change="#d2e193">البرق</tei:title> التي اثني عليها حضرة الكاتب الشهير سليم أفندي سركيس ذلك الثناء الطيّب في حفلة إكرام <persName change="#d3e209" ref="oape:pers:931 viaf:102460074">
+                            <forename xml:lang="ar">خليل</forename>
+                            <roleName type="title" xml:lang="ar">افندي</roleName>
+                            <surname xml:lang="ar">مطران</surname>
+                        </persName> الشاعر المحبوب؛ فإنَّ البرق دعت أنصار الأدب في سوريا إلى الاشتراك في تكريم شاعر القطرين وأرسلت إليهِ باسم أولئك الأدباء هدية جميلة اعترافاً بفضله ونبوغهِ. أما صاحب البرق , بشارة أفندي الخوري , ففي ما دون الثلاثين من العمر. وهو ذكيُّ الفؤاد , عصبي المزاج , سريع التأثر. إذا كتب راضياً سالت كلماتهُ رضيً وصفاءً , وإذا كتب غاضباً قطر قلمهُ سّماً زعافاً. وهو شاعر مجيد ليس للصناعة أثرٌ ما في شعره وإن كان أثرها يظهر على الغالب في نثره؛ ذلك لأنهُ يقول الشعر عفواَ الخاطر غير مغضوب عليهِ , ويكتب على الأكثر محمولاً على الكتابة إما بحكم السياسة وإِما بحكم الأحوال. ولقد أُتيح للزُّهور أن تنشر شيئاً من شعره في بعض
 <pb n="n4-p264" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1946.xhtml"/>
 
 
@@ -974,7 +981,10 @@
 
 
 إلينا مكتبة المنار الشهيرة في مصر. وقد وضعهُ حضرة الأستاذ الفاضل الشيخ مصطفى الغلاييني مدرّس اللغة العربية في الكتب السلطاني والكلية العثمانية في بيروت , وضمّنهُ تاريخ شعراء المعلقات العشر وأنسابهم ونفيس أشعارهم وما اتفق لهم من الحوادث مما يجدُ القارئ فيه لذةً وفائدة كبيرتين. وقد ضبط الشعر بالشكل الكامل وشرحهُ شرحاً وافياًَ لمساعدة المطالع على تفهّم المفردات والمعاني. وصدّر الكتاب بمقدمتين جليلتي النفع ضافيتي الذيول: الأولى تتضمن خلاصة تاريخ العرب قبل الإسلام , والثانية تشتمل خلاصة تاريخ أدب اللغة العربية من لدان العصر الجاهلي حتى الزمن الحاضر. ولم يدّخر المؤلف وسعاً في مراجعة الدواوين وكتب الأدب القديمة والحديثة , حتى جاء عمله متقناً وافياً بالغرض. ولا نشك في أن الإقبال سيكون عظيماً على هذا الكتاب الجميل في إبان النهضة العربية الحاضرة.</tei:p>
-            <tei:p change="#d2e73">منتخبات الشيخ أمين الحدَّاد - قلنا في الزهور سنة  <tei:num type="auto-markup" change="#d2e181" value="3" xml:lang="ar">٣</tei:num>  صفحة  <tei:num type="auto-markup" change="#d2e181" value="307" xml:lang="ar">٣٠٧</tei:num>  كلمةً في المرحوم الشيخ <persName>أمين الحداد</persName> من حيث هو كاتبٌ وشاعر , فلا حاجة بنا اليوم إلى زيارة القراء تعريفأً بهِ. إنما يسرّنا أن نعلن محبي النظم الرائق والنثر الطلي أنهُ صدر في عالم المطبوعات كتابٌ نفيس جمع بين دفَّتيهِ مئتين وثلاثين موضوعاً من المواضيع التي جال فيها قلم الفقيد. والفضل في نشر هذا الكتاب عائد لحضرة الأديب المشهور الشيخ سلامة حجازي الذي أراد أن يطبعه على نفقتهِ الخاصة تخليداً لمآثر أبناء الحداد وتذكاراً لإشتغاله مع المرحوم الشيخ نجيب بفن التمثيل
+            <tei:p change="#d2e73">منتخبات الشيخ أمين الحدَّاد - قلنا في الزهور سنة  <tei:num type="auto-markup" change="#d2e181" value="3" xml:lang="ar">٣</tei:num>  صفحة  <tei:num type="auto-markup" change="#d2e181" value="307" xml:lang="ar">٣٠٧</tei:num>  كلمةً في المرحوم الشيخ <persName change="#d3e209" ref="oape:pers:1140">
+                            <forename>أمين</forename>
+                            <surname>الحداد</surname>
+                        </persName> من حيث هو كاتبٌ وشاعر , فلا حاجة بنا اليوم إلى زيارة القراء تعريفأً بهِ. إنما يسرّنا أن نعلن محبي النظم الرائق والنثر الطلي أنهُ صدر في عالم المطبوعات كتابٌ نفيس جمع بين دفَّتيهِ مئتين وثلاثين موضوعاً من المواضيع التي جال فيها قلم الفقيد. والفضل في نشر هذا الكتاب عائد لحضرة الأديب المشهور الشيخ سلامة حجازي الذي أراد أن يطبعه على نفقتهِ الخاصة تخليداً لمآثر أبناء الحداد وتذكاراً لإشتغاله مع المرحوم الشيخ نجيب بفن التمثيل
 <pb n="n4-p270" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1952.xhtml"/>
 
 
