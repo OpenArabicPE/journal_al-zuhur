@@ -118,7 +118,7 @@
                                 <addName type="khitab" xml:lang="ar">ولي الدين</addName>
                             </forename>
                             <surname xml:lang="ar">يكن</surname>
-                        </persName> بك والثالثة من سعادة الأمير نسيب أرسلان.</tei:p>
+                        </persName> بك والثالثة من سعادة ا<persName>لأمير نسيب أرسلان</persName>.</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar"> <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num> </tei:p>
             <lg change="#d2e82 #d2e223" xml:lang="ar">
                <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
@@ -349,7 +349,7 @@
                   <tei:seg change="#d2e223" xml:lang="ar">يهوى الأغصان مغرده</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73 #d2e223" xml:lang="ar">نسيب أرسلان
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"><persName>نسيب أرسلان</persName>
 <pb n="n1-p329" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P340.xhtml"/>
 
 
@@ -768,7 +768,7 @@
             <head change="#d2e223" xml:lang="ar">بين هنا وهناك</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">اجتمع صاحب الزهور ببعض أدباء بيروت، فدار الحديث على الأدب هنا وهناك، ولما كان ملاحظ جريدة <tei:title level="j" change="#d2e193 #d2e223" xml:lang="ar">البرق</tei:title> البيروتية قد وفى هذا الاجتماع حقه من الوصف، فقد رأينا نقل ما كتب:</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">وكانت شمس الأربعاء على جناح الشفق يوم اجتمع في مكتب البرق عصابة من الأدباء:</tei:p>
-            <tei:p change="#d2e73 #d2e223" xml:lang="ar">أنطون الجميل وأمين تقي الدين و<persName change="#d2e223" xml:lang="ar">أمين الغريب</persName> وإلياس فياض ويوسف ثابت وشكري السودا و<persName change="#d3e209 #d2e223" ref="oape:pers:1365" xml:lang="ar">بشارة الخوري</persName> وهلم جرا - هؤلاء كانوا من أركان العصابة.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">أنطون الجميل و<persName>أمين تقي الدين</persName> و<persName change="#d2e223" xml:lang="ar">أمين الغريب</persName> وإلياس فياض ويوسف ثابت وشكري السودا و<persName change="#d3e209 #d2e223" ref="oape:pers:1365" xml:lang="ar">بشارة الخوري</persName> وهلم جرا - هؤلاء كانوا من أركان العصابة.</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">وصاح بهم صائح: هلموا فقد ضاق صدر الغرفة، وبعد دقائق كنا في روضة جمعت الطيبات الصوالح وسمحت بثلاثة أصحاب هم نصر الله الحداد وشكري أرقش وداود مجاعص فقلنا، وكأنا كنا على ميعاد:</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">- هات يا فياض هجاءك في سركيس</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">- سمعاً وطاعة
