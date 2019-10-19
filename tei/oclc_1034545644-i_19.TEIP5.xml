@@ -65,11 +65,11 @@
    <tei:text xml:lang="ar">
       <pb n="n2-p393" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P953.xhtml"/>
       <tei:body change="#d2e223" xml:lang="ar">
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">العدد  <tei:num type="auto-markup" change="#d2e181" value="19" xml:lang="ar">١٩</tei:num> </head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar"> - بتاريخ: <date when="1911-12-01" change="#d2e223" xml:lang="ar">1911-12-01</date> </tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">المطر</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">لا نغالي إذا قلنا إن مصر لا تعرف من فصول السنة إلا اثنين الصيف والربيع، ويكاد فصل الشتاء وما يتخلله من الزوابع والأمطار يكون فيها اسماً لغير مسمى. على أن شوكة القيظ قد انكسرت الآن وبتنا على باب ما يعد في معظم الأمصار في فصل الأمطار. أضف إلى ذلك أن توسيع نطاق الري وزيادة المغروسات واختراق الأسلاك البرقية لجونا لمما أحدث بعض التغيير في تقلبات الطقس عندنا، فصارت السحب تجود علينا بمزنها أكثر من ذي قبل، فرأينا سماءنا في شهر واحد ممطرة أكثر من ثلاث مرات. فأحببنا أن نقول كلمة في المطر وماهيته ومصدره ومظاهره المختلفة:</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">الغيوم مصدر المدر - إن حرارة الشمس تعمل في البحار والبحيرات ومجاري المياه، فتحدث فيها ما نسميه بخاراً. تتبخر المياه فتتصاعد في الفضاء وتتركب منها تلك الغيوم التي نراها في كبد السماء.
@@ -102,7 +102,7 @@
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">وأصاب مثل هذا النجاح الجزئي المهندس ألن في الهند لكن بطريقةٍ أخرى، فإنه كان يرسل في الفضاء أسهماً مملوءة من الأثير، فكانت عند انفجارها تحدث برودة في الهواء من شأنها أن تحول الغيوم إلى مياه تنهمر على الأرض.</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">هذا معظم ما رأينا ذكره في هذا الصدد سائلين أن يكون مطر هذا العام مطر خير وإقبال على الفلاح العزيز عماد الثروة والفلاح فيتسنى لنا أن نقول عن بلادنا ما قاله الشاعر فرجيل عن بلاده بلاد غنية بالرجال والغلال.</tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">محاكم الأحداث</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">لا يمضي يوم إلا ويأتينا غيره بأخبار وحوادث لم نسمعها من قبل. فمن يوم إلى يوم، ومن شهر إلى شهر، ومن سنة إلى سنة، تظهر اختراعات وإصلاحات لم نكن نحلم بها ولم تخطر لنا على بال. . . .</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">ومن الإصلاحات الحديثة العهد نهضة إصلاح شؤون الأحداث كما يسمونها فقد سمعنا ولا نزال نسمع كل يوم بالنظامات الجديدة والشرائع الحديثة التي تسنها الحكومات الراقية حباً بتخفيض ويلات الأحداث ومصائبهم ولاسيما العاملين منهم بأشغال مختلفة
@@ -143,7 +143,7 @@
 
             </byline>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">رسائل غرام</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">بين نساء شهيرات ورجال عظام</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">الرسالة الرابعة</tei:p>
@@ -187,7 +187,7 @@
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">(بقلم <persName change="#d3e209 #d2e223" ref="oape:pers:1831" xml:lang="ar">سليم عبد الأحد</persName>)</tei:p>
             <byline change="#d2e198 #d2e223" xml:lang="ar">مدام ستايل</byline>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">الحرب اليونانية العثمانية</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">موقعة دوموكوس</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">يوم  <tei:num type="auto-markup" change="#d2e181" value="17" xml:lang="ar">١٧</tei:num>  مايو (أيار) سنة  <tei:num type="auto-markup" change="#d2e181" value="1897" xml:lang="ar">١٨٩٧</tei:num> </tei:p>
@@ -296,7 +296,7 @@
 
             </tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">الأستاذ مرغليوث</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">الأستاذ مرغليوث إنكليزي ناطق بالضاد. . . فإنه مستشرق تضلع من العربية وملك عنانها. ولا بدع فإنه وقف عليها ذكاء خارقاً وعزيمة ماضية. فهو اليوم ملم بعلومها وآدابها إلماماً قلما تسنى لغيره من المستشرقين.</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">وهو يقيم في أكسفورد مدينة العلم وهي على نحو  <tei:num type="auto-markup" change="#d2e181" value="60" xml:lang="ar">٦٠</tei:num>  ميلاً من لندرا، سكانها طلبة، ومخازنها مكاتب، وشوارعها حدائق. أهم مبانيها وأقدمها ثلاثة وعشرون هي صروح العلم منذ القرن الرابع عشر، إذ هي
@@ -334,7 +334,7 @@
 
             </byline>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">في حدائق العرب</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">الحرب</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">الحرب رحى ثفالها الصبر، وقطبها المكر، ومدارها الاجتهاد، ونفاقها الأناة، وزمامها الحذر. ولكل شيء من هذه ثمرة: فثمرة الصبر التأييد، وثمرة المكر الظفر، وثمرة الاجتهاد التوفيق، وثمرة الأناة اليمن، وثمرة الحذر السلامة. ولكل مقام مقال، ولكل زمان رجال، والحرب بين الناس سجال، والرأي فيها أبلغ من القتال.</tei:p>
@@ -915,7 +915,7 @@
 
             </tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">حلب الشهباء</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">موقعها - قدمها - أصل اسمها</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">ما نحن من يصف قدرها الخطير ومحلها الأثير أو يطنب في بسيطها المشهور وما تجده النفس فيه من الانبساط والسرور ولا من يتغزل بظلها الضافي ومائها الصافي وسعدها الوافي وانوارها المشرقة وأزهارها المونقة وأشجارها المثمرة المورقة. ولا من يقف على أطلالها فيندب كبار رجالها ويبكي منازلها وديارها وينعي سكانها وعمارها. ولا بالنتيجة من يجدها من (الشام) الواسطة من العقد والقلب من الصدر والإنسان من العين. إلى ما أشبه هذه من ألفاظ مبتذلة وفواصل باردة وقفت عندها البدائه فلاكتها الألسن وتداولتها الأقلام دهراً طويلاً فما زادت هذه المدينة تعريفاً ولا أجدت في حقيقة حالها شيئاً مذكوراً.</tei:p>
@@ -964,7 +964,7 @@
 يرى ملك حلب مستخرجاً من النهر ومعلقاً برجليه يتدفق من فيه ما كان يظن أنه ابتلعه من الماء.</tei:p>
             <byline change="#d2e198 #d2e223" xml:lang="ar"><persName change="#d2e223" xml:lang="ar">القس جرجس منش</persName></byline>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">المعلوم والمجهول</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">صدر منذ عامين الجزء الأول من هذا الكتاب لمؤلفه الكاتب والشاعر الشهير <persName change="#d3e209 #d2e223" ref="oape:pers:2834 viaf:36771043" xml:lang="ar">
                             <forename change="#d2e223" xml:lang="ar">ولي الدين</forename>

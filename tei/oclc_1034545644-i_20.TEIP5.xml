@@ -65,11 +65,11 @@
    <tei:text xml:lang="ar">
       <pb n="n2-p449" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1009.xhtml"/>
       <tei:body change="#d2e223" xml:lang="ar">
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">العدد  <tei:num type="auto-markup" change="#d2e181" value="20" xml:lang="ar">٢٠</tei:num> </head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar"> - بتاريخ: <date when="1912-01-01" change="#d2e223" xml:lang="ar">1912-01-01</date> </tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">حول السنة الجديدة</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">في أول الشهر الجاري ابتدأت السنة الثانية عشرة بعد التسعمئة والألف للميلاد، وقبل ذلك التاريخ بتسعة أيام كان مطلع السنة الثلاثين بعد الثلاثمئة والألف للهجرة: مرحلة جديدة من مراحل أيامنا تأهبنا لاجتيازها، وحلقة جديدة من حلقات العمر هممنا بإضافتها إلى سلسلة الحياة. فإذا كانت توافق السنة العشرين أو الأربعين أو الستين من عمرنا فهي توافق سنة  <tei:num type="auto-markup" change="#d2e181" value="7111" xml:lang="ar">٧١١١</tei:num>  للخليفة أو  <tei:num type="auto-markup" change="#d2e181" value="5972" xml:lang="ar">٥٩٧٢</tei:num>  للحساب الإسرائيلي و <tei:num type="auto-markup" change="#d2e181" value="3927" xml:lang="ar">٣٩٢٧</tei:num>  لإبراهيم الخليل و <tei:num type="auto-markup" change="#d2e181" value="2665" xml:lang="ar">٢٦٦٥</tei:num>  لتأسيس رومة و <tei:num type="auto-markup" change="#d2e181" value="1628" xml:lang="ar">١٦٢٨</tei:num>  للحساب القبطي.</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">وللسنة حسابات مختلفة ذكرناها في مثل هذا العدد من العام الماضي (ص  <tei:num type="auto-markup" change="#d2e181" value="466" xml:lang="ar">٤٦٦</tei:num> ) على أنها في كل هذه الحسابات مقسومة إلى اثني عشر شهراً: وأسماء الأشهر تختلف باختلاف الحساب: فهي في الحسابين الغربي والشرقي: يناير (كانون الثاني)، وفبراير (شباط)، ومارس (آذار)، وأبريل (نيسان)، ومايو (أيار)، ويونيو (حزيران)، ويوليو (تموز)،
@@ -103,7 +103,7 @@
 والساعات إنما تسير بموجب الوقت الأوسط وتدل عليه لا على الوقت الحقيقي. فإذا كانت ساعتك مضبوطة ودلت على الظهر فليس من الضرورة أن تكون الشمس في الهاجرة وأن يكون إذ ذاك الظهر الحقيقي بل قد يتقدم الظهر الأوسط على الحقيقي وقد يتأخر عنه، مثلاً في أول كانون الثاني إذ تكون الشمس الحقيقية في الهاجرة أي وقت الظهر الحقيقي تدل الساعات المضبوطة على الساعة  <tei:num type="auto-markup" change="#d2e181" value="12" xml:lang="ar">١٢</tei:num>  والدقيقة  <tei:num type="auto-markup" change="#d2e181" value="3" xml:lang="ar">٣</tei:num>  والثانية  <tei:num type="auto-markup" change="#d2e181" value="10" xml:lang="ar">١٠</tei:num>  فيكون الظهر الأوسط قد مضى منذ  <tei:num type="auto-markup" change="#d2e181" value="3" xml:lang="ar">٣</tei:num>  دقائق و <tei:num type="auto-markup" change="#d2e181" value="10" xml:lang="ar">١٠</tei:num>  ثانيات. وفي أول تشرين الثاني وقت الظهر الحقيقي تدل الساعات المضبوطة على الساعة  <tei:num type="auto-markup" change="#d2e181" value="11" xml:lang="ar">١١</tei:num>  والدقيقة  <tei:num type="auto-markup" change="#d2e181" value="43" xml:lang="ar">٤٣</tei:num>  والثانية  <tei:num type="auto-markup" change="#d2e181" value="39" xml:lang="ar">٣٩</tei:num>  فيبقى للظهر الأوسط  <tei:num type="auto-markup" change="#d2e181" value="16" xml:lang="ar">١٦</tei:num>  دقيقة و <tei:num type="auto-markup" change="#d2e181" value="21" xml:lang="ar">٢١</tei:num>  ثانية.</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">ثم اعلم أن الزمن المتوسط يتغير بالانتقال من بلد إلى آخر فزمن القاهرة المتوسط مثلاً لا يطابق زمن باريس المتوسط أو غيرها من المدن.</tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">البرد والصحة</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">ذكرنا في الجزء الماضي من الزهور نبذة عن المطر وماهيته ومصدره ومظاهره المختلفة، ونرى الآن أن نذكر شيئاً عن البرد وتأثيره في الصحة لأننا دخلنا في فصل الشتاء، فنقول:</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">إذا نظرنا إلى الإنسان من حيث تركيبه الطبيعي نجد أن الحر يؤثر فيه أكثر من البرد. فإنه يحتمل بصعوبة وبضنك شديد درجة الحرارة إذا بلغت الأربعين (في ميزان سنتغراد)، مع أنها درجة تقارب
@@ -129,7 +129,7 @@
 الأشربة الكحولية إذا كانت تولد بعض الحرارة في جسم متناولها، فهي لا تلبث أن تحدث رد فعل فتنخفض حرارة الجسم درجة أو درجتين عما كانت عليه قبل تناول المشروب. وقد لوحظ ذلك خصوصاً في بلاد روسيا حيث يكثر الفعلة أيام الشتاء من تناول المشروبات. فإن كثيرين منهم يموتون بدراً حين خروجهم من حانات الشرب.</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">هذه ملاحظات إجمالية يجدر التذكير بها في هذه الأيام.</tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">وصف غرق</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">وهو فصل من رواية يترجمها بعضهم وينشئها السيد <persName change="#d2e223" xml:lang="ar">مصطفى لطفي أفندي المنفلوطي</persName> الكاتب المشهور.</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">من سوزان إلى ماجدولين</tei:p>
@@ -166,7 +166,7 @@
                             <surname xml:lang="ar">المنفلوطي</surname>
                         </persName></byline>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">بينهما</head>
             <lg change="#d2e82 #d2e223" xml:lang="ar">
                <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
@@ -220,7 +220,7 @@
 
             </tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">ذكرى بعلبك</head>
             <lg change="#d2e82 #d2e223" xml:lang="ar">
                <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
@@ -290,7 +290,7 @@
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">الزمان يتابع سيره ويل التربة تدوسها قدمه! هناك تتراكم الزلازل وتفيض البحار، هناك يشعر الإنسان بأنه عبد لحظات الأقدار، وأن عينيه لا ترفان من الكون غير سواد الليل واسوداد النهار. . .</tei:p>
             <byline change="#d2e198 #d2e223" xml:lang="ar"><persName change="#d3e209 #d2e223" ref="oape:pers:2269" xml:lang="ar">م . ي</persName></byline>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">رسائل غرام</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">بين نساء شهيرات ورجال عظام</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">الرسالة الخامسة</tei:p>
@@ -328,7 +328,7 @@
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">دورثي</tei:p>
             <byline change="#d2e198 #d2e223" xml:lang="ar">بقلم <persName change="#d3e209 #d2e223" ref="oape:pers:1831" xml:lang="ar">سليم عبد الأحد</persName></byline>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">غرائب امريكا</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">أمدنية أم ماذا؟</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">لقينا في هذه الأيام أديباً من أدباء الشرق أقام سنوات طويلة في البلاد الأمريكية يخدم فيها الصحافة العربية، فرغبنا إليه في أن يحدث قراء الزهور عن مدنية العالم الجديد فكتب إلينا الفصل التالي ولعله يتابع هذا البحث في أعداد قادمة:</tei:p>
@@ -784,7 +784,7 @@
             <byline change="#d2e223" xml:lang="ar"><persName change="#d3e209 #d2e223" ref="oape:pers:1365" xml:lang="ar">بشارة الخوري</persName></byline>
             <byline change="#d2e223" xml:lang="ar"><persName change="#d2e223" xml:lang="ar">صاحب جريدة <tei:title level="j" change="#d2e193 #d2e223" xml:lang="ar">البرق</tei:title></persName></byline>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">رصاص دم دم</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">هو هذا الرصاص العريض ذو الحدين يغرز في الجسم فيلتوي فيشبه ذنب العقرب المعكوف، أو يلتف التفاف علامة الاستفهام في لغات الإفرنج، التواء يشرط ما حوليه حتى لا ينفع معه مشرط الطبيب، والتفاف يمزق ما على جانبيه حتى لا تفيد فيه إبرة الجراح. يصيب فيجرح، ويجرح
 <pb n="n2-p482" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1042.xhtml"/>
@@ -826,7 +826,7 @@
                </tei:l>
             </lg>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">محاكم الأحداث</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">محاكم الأحداث التي نحن بصددها غايتها العظمى إصلاح الأحداث بأية طريقة كانت. فلا يوجد لديها نظامات مسنونة تجري عليها في معاملة هؤلاء الأحداث فهي تعامل كل ولد بحسب مقتضى حاله وظروفه. تبحث لتمنع وقوع الذنب أو الجرم قبل ارتكابه وغرضها الإصلاح والمساعدة. مساعدة الذين يريدون أن يساعدوا أنفسهم دون أن يتسنى لهم ذلك.</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">فتسهل لهم السبل وتوردهم أقرب موارد الإصلاح وهم لو تركوا وشأنهم لأصبحوا أشقياء قتلة مجرمين فهي تشعر بعظم مسؤوليتها وتعلم أن الولد يشب على ما يربى عليه. فتبدأ من البدء وتزيل الموانع والعقبات القائمة في سبيل ترقيه. وترده عن الطريق التي قد تؤدي به إلى الهلاك والشقاء، فتغرس في نفسه حب الفضائل والصفات الشريفة في زمنٍ تتأثر عواطفه

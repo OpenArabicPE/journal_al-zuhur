@@ -65,11 +65,11 @@
    <tei:text xml:lang="ar">
       <pb n="n1-p233" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P245.xhtml"/>
       <tei:body change="#d2e223" xml:lang="ar">
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">العدد  <tei:num type="auto-markup" change="#d2e181" value="6" xml:lang="ar">٦</tei:num> </head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar"> - بتاريخ: <date when="1910-08-01" change="#d2e223" xml:lang="ar">1910-08-01</date> </tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">
                <head change="#d2e223" xml:lang="ar">مصر </head>وسوريا</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">قلنا عند صدور الجزء الأول من هذه المجلة، إننا إنما أنشأناها لتكون الرابطة الأدبية بين الأقطار العربية. وذلك بإيجاد صلة تعارف وترابط بين أدباء هذه الأقطار وكتّابها وشعرائها، بنشر رسومهم وما تجود به قرائحهم، ليتم التعاضد والتساند الأدبي، فنجني الفائدة المبتغاة من تراسل
@@ -121,7 +121,7 @@
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">أسماء مصر</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">مرجع أسماء</tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar"> مصر </head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">إلى ثلاث لغات مختلفة: اللغة المصرية، واللغات السامية، واللغة اليونانية. فمن الأسماء المصرية قيمت ومنه اشتق الاسم القبطي الصعيدي قيمه والاسم القبطي المنفي خيمي وقد اختلفوا في معناه فمن قائل أنه موقد، أو مجمرة، أو تنور. ومن قائل إنه ربوة ذات نار مستعرة. ومن قائل إنه أسود. ومن أسمائها بق وهو شجر اليسار، سميت به لكثرته فيها قديماً. وكذا تونهي، أي أرض الجميز، لكون ينبت فيها بكثرة. ولها أسماء أخرى غير ذلك، منها آن تاوي أي إقليم مدينة آن الشهيرة الآن بعين شمس.</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">وأما أسماؤها السامية فهي مصير ومصري وجدت في الألواح الآشورية التي وردت من تلك العمارنة وتاريخها سنة  <tei:num type="auto-markup" change="#d2e181" value="1700" xml:lang="ar">١٧٠٠</tei:num>  ق. م. وفي شروط العائلة الأولى البابلية المؤرخة سنة  <tei:num type="auto-markup" change="#d2e181" value="2000" xml:lang="ar">٢٠٠٠</tei:num>  ق. م. ذكرت باسم موصور في الآثار الآشورية المنقوشة في عهد السرجونيين.
@@ -139,11 +139,11 @@
 
             </byline>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">فرعون وقومه</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">هذه قصيدة لسعادة أستاذ الشعراء <persName change="#d2e223" xml:lang="ar">إسماعيل باشا صبري</persName>، وهي من خير ما قيل في </tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">آثار مصر</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">. وقد ضمنها الشاعر نظرية جديدة، وهي أن هذه البنايات الفخيمة لم تتم إلا على يد عمال كانوا يطلبون الإتقان الفني إكراماً للفن لا خوفاً ولا طمعاً. ولا يضارع جلال هذه الأبيات وفخامتها إلا جلال وفخامة تلك الآثار:</tei:p>
             <lg change="#d2e82 #d2e223" xml:lang="ar">
@@ -347,7 +347,7 @@
                             <surname xml:lang="ar">صبري</surname>
                         </persName></byline>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">آثار مصر</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">
                <hi style="color:red;" change="#d2e223" xml:lang="ar"> <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num>  - </hi>هيل أنس الوجود</tei:p>
@@ -607,7 +607,7 @@
 
             </tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">النيل</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">مصر هيدة من النيل</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">(هيردوت)</tei:p>
@@ -655,7 +655,7 @@
 
             </tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">وفاء النيل</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">في هذا اليوم الذي كان فيه قدماء المصريين يقدمون لك فتاة من أجمل فتياتهم، ويلبسونها أجمل الأثواب وأثمن الحلى، ويأتون بها إلى وسط مياهك الهادئة ويطرحونها ضحية في أمواجك اللطيفة، نأتي نحن أيضاً أبناء القرن العشرين بتقدماتنا وضحايانا.</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">كنت إلهاً عظيماً، لأنك كجميع آلهة البشر قوة عجيبة من قوى الكون ومظهر غريب من مظاهر الأرض. فحسبوك إلهاً كسائر آلهتهم التي يعبدونها تحب النقمة وترتاح إلى سفك الدماء وتصبو إلى الذبائح والضحايا، لذلك كانوا يزفون إليك كل عام فتاة فتانة لتكون لك عروساً أيها الإله وابن الآلهة. .!</tei:p>
@@ -908,7 +908,7 @@
                             <surname change="#d2e223" xml:lang="ar">الحداد</surname>
                         </persName></byline>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">الأزبكية</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">كما وصفها المرحوم الشيخ حسن العطار شيخ الجامع الأزهر المتوفي سنة  <tei:num type="auto-markup" change="#d2e181" value="1250" xml:lang="ar">١٢٥٠</tei:num>  هجري.</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">وأما بركة الأزبكية فهي مسكن الأمراء، وموطن الرؤساء، قد أحدقت بها البساتين الوارفة الظلال، العديمة المثال، فترى الخضرة في خلال تلك القصور المبيضة، كثياب سندس خضر على أثواب من فضة، يوقد بها كثير من السرج والشموع، فألانس بها غير مقطوع ولا ممنوع، وجمالها يدخل على القلب السرور، ويذهل العقل حتى كأنه من النشوة مخمور، ولطالما مضت لي بالمسرة فيها أيام وليالي، هن في سمط الأيام من يتيم اللآلي، وأنا أنظر إلى انطباع صورة البدر في وجناتها، وفيضان لجين نوره على حافاتها وساحاتها، والنسيم بأذيال ثوب مائها الفضي لعاب،
@@ -976,7 +976,7 @@
 
             </tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">وصف مصر</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">في منتصف القرن الغابر زار مصر الكاتب الشهير <persName change="#d3e209 #d2e223" ref="oape:pers:430 viaf:17273766" xml:lang="ar">
                             <forename xml:lang="ar">فارس</forename>
@@ -1005,7 +1005,7 @@
                             <surname xml:lang="ar">الشدياق</surname>
                         </persName></tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar"><persName change="#d2e223" xml:lang="ar">نابليون بونابرت</persName> في مصر</head>
             <lg change="#d2e82 #d2e223" xml:lang="ar">
                <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
@@ -1051,7 +1051,7 @@
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">ومن قرب الشاطئ تمد جناحاً كبيراً ينتهي بالكرمل الواقف عمودياً على صفحة الماء، ثم ترتفع على مشهد منه قمة الطور لتسود التلال العديدة الواقفة بعلو متدرج حتى تصل نقطة اختفائها على الأرض القاحلة، على الرمال المحرقة، على الصحراء.</tei:p>
             <byline change="#d2e198 #d2e223" xml:lang="ar">تلك هي</byline>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar"> سوريا </head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">وفيها حلب ودمشق وبيروت وأورشليم: المدائن الأربع التي تقف كالعواصم لما حولها، وعليها مدار النظر في مستقبل سوريا وحياتها. هذه البلاد العزيزة التي رأينا فيها نور الحياة وشاهدنا على قممها
 <pb n="n1-p268" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P279.xhtml"/>
@@ -1095,7 +1095,7 @@
 
             </byline>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">بيروت ولبنان</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">وصلنا إلى بيروت وهي من المدن السورية الآهلة بالسكان، وقد عرفت عند الأقدمين باسم بيريت وأصبحت على عهد أغسطس مستعمرة رومانية وأطلق عليها الفاتح الروماني اسم جوليا السعيدة وقد ميزت بهذه الصفة، لخصب ضواحيها وفخامة موقعها، وجمال جوها العديم المثيل. والمدينة قائمة على رابية جميلة تنحدر شيئاً فشيئاً إلى البحر وقد قامت فيه بعض صخورها فرفعت عليها الحصون التركية. أما ميناؤها فهي كناية عن لسان أرض يمتد في البحر ويقي المراكب من الرياح الشرقية. وكل هذه البقعة وما حواليها من الروابي مكللة بخضرة جميلة، وترى شجر التوت قائماً على مدرجات من الأرض. وشجر الخروب والتين والدلب والبرتقال والرمان تلقي ظل أوراقها المختلفة الألوان على تلك الأنحاء. ووراءها الزيتون ذو الورق الرمادي يزركش هذا المنظر الأخضر البديع. وعلى مسافة ميل من المدينة انتصبت سلسلة جبال لبنان وفيها الأخاديد التي يضيع فيها النظر. وتتحدر في طياتها مجاري الماء إلى صور وصيدا أو إلى طرابلس واللاذقية. وقمم تلك الجبال المتفاوتة العلو تضيع في السحب البيضاء أو تسطع من انعكاس أشعة الشمس فتشبه جبال الألب وثلوجها الأبدية.
 <pb n="n1-p273" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P284.xhtml"/>
@@ -1133,7 +1133,7 @@
 
             </byline>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">ذكرى لبنان</head>
             <lg change="#d2e82 #d2e223" xml:lang="ar">
                <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
@@ -1225,7 +1225,7 @@
 
             </byline>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">شمالي لبنان</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">نقتطف عن رحلة الطبيب العالم الدكتور أمي الجميل إلى تلك الأنحاء الجميلة ما لا يضيق عنه نطاق هذه المجلة. قال:</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">بعين الطبيب وبأذنه فحصت هذه البقعة الجميلة، وبمداد الوطنية أسطر رسالتي. وكنت أود أن أعطي موهبة الشعر ساعة من الزمن فقط، لأمثل جمال لبنان للناظر إليه من الباخرة، لأن للشاعر وحده أن يشخص لنا عظمة هذا الجبل الذي أقدامه في زرقة البحر، ورأسه في زرقة السماء، جروده مغطاة بمنطقة ناصعة البياض من ثلوج الشتاء، وسواحله تكسوها خضرة الليمون والبساتين. وبين ثلوج دائمة في الأعالي، وربيع دائم في الساحل، تلال مشجرة، ووديان مخصبة، وقرى زاهرة، وأديار عامرة. وفي كل مكان منه شعب نشيط عرف بسمو الذكاء، كما اشتهر بكرم الأخلاق وشرف المبادئ وصدق العقائد، في سورية كما في مصر وأوروبا وأمريكا.</tei:p>
@@ -1267,7 +1267,7 @@
 
             </tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">صنين</head>
             <lg change="#d2e82 #d2e223" xml:lang="ar">
                <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
@@ -1356,7 +1356,7 @@
 
             </byline>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">طرابلس الشام</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">في سنة  <tei:num type="auto-markup" change="#d2e181" value="1112" xml:lang="ar">١١١٢</tei:num>  هجرية أي منذ مائتين وعشرين سنة تقريباً زار الشيخ عبد الغني النابلسي مدينة طرابلس.</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">والشيخ عبد الغني هذا مفخرة من مفاخر دمشق الشام وواسطة العقد الذي ينتظم علماءها الأعلام:</tei:p>
@@ -1468,7 +1468,7 @@
                             <surname xml:lang="ar">الرافعي</surname>
                         </persName></byline>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">يافا</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">قال البهاء زهير ملغزاً في مدينة يافا</tei:p>
             <lg change="#d2e82 #d2e223" xml:lang="ar">
@@ -1483,7 +1483,7 @@
 
             </tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">قلعة الشهباء</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">هي قلعة شامخة الذرى أكب عليها الدهر وانزلها في الحضيض والسفال، فعادت أطلالاً بالية ورسوماً دارسة وخرباً صامتة، تحدث الورى بعظمة الجدود وتناجي النفوس بقدرة الخالق في الوجود والكائنات.</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">عندها تقف الألوف طويلاً بين متنزه يلهو بالمادة، ومفكر يدرس في كتاب الوجود، ومعتبر يتأمل بمصير الأمور، ومهندس يشتغل بالمقادير والأشكال، وراوٍ محقق يستنطق الآثار ليسجلها ذكرى وعبرة للآتين والكل لا يجسر أن يلفظ كلمته الأخيرة في واضع أسسها ورافع أبراجها.</tei:p>
@@ -1578,7 +1578,7 @@
 
             </byline>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">وصف دمشق</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">جاء ذكر الشيخ النابلسي ص  <tei:num type="auto-markup" change="#d2e181" value="280" xml:lang="ar">٢٨٠</tei:num>  وهذه أبيات مختارة من قصيدته في وصف الشام:</tei:p>
             <lg change="#d2e82 #d2e223" xml:lang="ar">
@@ -1665,7 +1665,7 @@
 
             </tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">الجامع الأموي</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">هو من أشهر جوامع الإسلام حسناً وإتقان بناء وغرابة صنعة واحتفال تنميق وتزيين، وشهرته المتعارفة في ذلك تغني عن استغراق الوصف فيه. انتدب لبنائه الوليد بن عبد الملك ووجه إلى ملك الروم بالقسطنطينية يأمره بإشخاص اثني عشرا ألفاً من الصناع من بلاده وتقدم إليه بالوعيد في ذلك إن توقف عنه، فامتثل أمره مذعناً بعد مراسلة جرت بينهما في ذلك مما هو مذكور في كتبا لتواريخ فشرع في بنائه وبلغت الغاية في
 <pb n="n1-p296" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P307.xhtml"/>
@@ -1716,7 +1716,7 @@
 
             </tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">ملكة الصحراء</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">إذا سرت في بادية الشام وقاربت الوصول إلى حاشية منها، تظهر لك عن بعد شاسع من خلال الحجب الهوائية الشفافة نقطة سوداء في الشمال الغربي من حمص وحماه، فتنتعش نفسك وتشعر بقرب آثار الحياة، بعد أن تكون سرت أياماً في ظل الموت محاطاً بسكون الطبيعة الراقدة. ولا تكاد تتقدم قليلاً إلى الأمام حتى تنقشع الحجب شيئاً فتتسع تلك النقطة وتنجلي بعد حين عن دائرة خضراء غير منتظمة، ولا تزال الدائرة آخذة بالوضوح والانتشار ذات اليمين وذات اليسار كلما
 <pb n="n1-p301" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P312.xhtml"/>
@@ -1761,7 +1761,7 @@
 
             </byline>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">نهر الصفا</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">وهو النبع المتدفق من عين زحلتا في جبل لبنان، أرسل إلينا وصفه هذا البديع سعادة الأمير أرسلان.</tei:p>
             <lg change="#d2e82 #d2e223" xml:lang="ar">
@@ -1886,7 +1886,7 @@
 
             </tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">قلعة بعلبك</head>
             <lg change="#d2e82 #d2e223" xml:lang="ar">
                <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
@@ -2070,7 +2070,7 @@
                <hi style="color:red;" change="#d2e223" xml:lang="ar"> <tei:num type="auto-markup" change="#d2e181" value="3" xml:lang="ar">٣</tei:num>  - </hi>
             </tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">بين مصر وسورية</head>
             <lg change="#d2e82 #d2e223" xml:lang="ar">
                <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
@@ -2093,7 +2093,7 @@
                             <surname xml:lang="ar">اليازجي</surname>
                         </persName></byline>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">القطران الشقيقان</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">حفرت معاول الفعلة ترعة السويس، فكانت كالمبضع بتر شرياناً بين عضوين في جسم واحد، طالما توارد فيه الدم صعوداً من مصر إلى سورية ونزولاً من سوريا إلى مصر. فإذا كانت سورية قد انفصلت عن مصر بثغرة لا تزيد فجوتها عن  <tei:num type="auto-markup" change="#d2e181" value="65" xml:lang="ar">٦٥</tei:num>  متراً، فلا تقولن إن يد ده لسبس
 <pb n="n1-p312" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P323.xhtml"/>
@@ -2131,7 +2131,7 @@
 
             </byline>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">تحية الشعراء</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">
                <hi style="color:red;" change="#d2e223" xml:lang="ar"> <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num>  - </hi>من شعراء مصر إلى سورية</tei:p>
@@ -2357,7 +2357,7 @@
             </lg>
             <byline change="#d2e198 #d2e223" xml:lang="ar"><persName change="#d3e209 #d2e223" ref="oape:pers:1733" xml:lang="ar">رشيد مصوبع</persName></byline>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">الحركة الأدبية</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">كانت سورية في النصف الأخير من القرن الغابر مهد كتاب مشاهير وأدباء أعلام كان لهم اليد الطولى في نهضة اللغة العربية والآداب الرقية، ولما ضاق عليهم هذا المضمار في ربوع الشام، هاجروا زرافات إلى وادي النيل، فكانت الديار المصرية خير مسرح تجلت عليه عرائس أفكارهم وبرزت إليه نفائس خواطرهم. بل وجدوا في تلك الديار التي حلوها على الرحب والسعة تكملة لسليقتهم. وهكذا إذا كانت الشام قد أنبتتهم فإن مصر انتمهم وأنضجت أفكارهم فأنتجت أينع الأثمار بعد أن كانت حملت ألطف الأزهار. وما عهد اليازجي والنقاش والحداد و<persName change="#d3e209 #d2e223" ref="oape:pers:246 viaf:90074341" xml:lang="ar">
                             <forename xml:lang="ar">أديب</forename>

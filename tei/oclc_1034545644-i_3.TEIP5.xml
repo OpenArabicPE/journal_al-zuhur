@@ -65,11 +65,11 @@
    <tei:text xml:lang="ar">
       <pb n="n1-p89" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P102.xhtml"/>
       <tei:body change="#d2e223" xml:lang="ar">
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">العدد  <tei:num type="auto-markup" change="#d2e181" value="3" xml:lang="ar">٣</tei:num> </head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar"> - بتاريخ: <date when="1910-05-01" change="#d2e223" xml:lang="ar">1910-05-01</date> </tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">نطاق العالم البحري</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">السويس وبناما</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">هي العقول السامية المدارك ترينا في عالم الاختراعات ما تزدهي به البلاد ويستفيد منه العباد، فترقى بالحضارة والهيئة الاجتماعية في مراقي التقدم والفلاح. . . وقد تجلت تلك العقول البعيدة المرامي في أفراد جاؤوا الوجود في أحقاب مختلفة وخصوا ما أتاهم الله من ثقوب الفهم ومضاء الفكر بالتنقيب عن أسرار الطبيعة واستخدام قواها، وتوصلوا بثباتهم إلى ما عاد على المجتمع الإنساني بالخير الجزيل.</tei:p>
@@ -122,7 +122,7 @@
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">وعليه فإن السويس وبناما قد جمعا بين البحار وجعلا للكرة الأرضية نطاقاً بحرياً يحيط</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">بها. وهل يخفى على أحد ما في ذلك من الأهمية والفوائد الخطيرة. . .؟</tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">نبوكدنصر الشحاذ</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">ولم تنبح الكلاب،</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">من ذا الذي في الباب؟</tei:p>
@@ -206,7 +206,7 @@
                             <surname xml:lang="ar">ريحاني</surname>
                         </persName></byline>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">حملة الأقلام في بر الشام</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">* <persName change="#d3e209 #d2e223" ref="oape:pers:361 viaf:305214782" xml:lang="ar">
                             <forename xml:lang="ar">إبراهيم</forename>
@@ -266,7 +266,7 @@
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">وهناك أيضاً قسم كبير من الكتاب والشعراء المجيدين من النبت الجديد وسأذكرهم على حدة في مقالة أخرى إن شاء الله.</tei:p>
             <byline change="#d2e198 #d2e223" xml:lang="ar"><persName change="#d3e209 #d2e223" ref="oape:pers:1610" xml:lang="ar">حليم إبراهيم دموس</persName> (بيروت)</byline>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">ملكة الجمال</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">أو زهرة لبنان</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">إقامة الأفراح في أيام المرافع عادة شائعة، ومن العادة أيضاً في بعض البلاد إقامة ملكة ترأس العيد. وقد جرت هذه السنة في الجمهورية الدومينيكانية حادثة غريبة، نقتطفها عن الجرائد الأمريكية تفكهة للقراء:</tei:p>
@@ -654,7 +654,7 @@
 
             </tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">بين شعراء مصر والشام</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">نشرنا في العدد الماضي قصيدة لعبد الحليم أفندي المصري يشكو فيها إلى شعراء الشام كساد سوق الأدب في مصر ويسألهم عن حالهم في بلادهم (راجع القصيدة ص  <tei:num type="auto-markup" change="#d2e181" value="59" xml:lang="ar">٥٩</tei:num> ) وننشر اليوم جوابين وردا علينا الأول من سعادة الأمير نسيب أرسلان والثاني من حضرة عيسى أفندي إسكندر المعلوف.</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">
@@ -794,7 +794,7 @@
 
             </byline>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">في حدائق العرب</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">أجبن الناس وأحيل الناس وأشجع الناس</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">دخل عمرو بن معدي كرب الزبيدي على عمر بن الخطاب، رضي الله عنه، فقال عمر: أخبرني من أجبن من لقيت وأحيل من لقيت وأشجع من لقيت.</tei:p>
@@ -905,7 +905,7 @@
 
             </byline>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">في جنائن الغرب</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">ننشر تباعاً تحت هذا العنوان خير ما يؤخذ عن آداب الغربيين قديماً وحديثاً، لأن ذلك يكسب لغتنا ثروة طائلة من المعاني والأفكار الجديدة فيطلعنا على مجرى الحركة الأدبية عند الأمم. وقد كان لما عربناه في العدد الماضي (راجع ص  <tei:num type="auto-markup" change="#d2e181" value="68" xml:lang="ar">٦٨</tei:num> ) من رواية شانتكلير وقع حسن عند جمهور القراء وتناقلت الترجمة جرائد عديدة. وقد أحببنا اليوم أن نأخذ شيئاً من قصة أندروماك بمناسبة تمثيل روايتها الفرنسوية على مرسح الأوبرا الخديوية أثناء وجود جوق جورج أفندي أبيض في مصر.</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">أندروماك</tei:p>
@@ -1119,7 +1119,7 @@
 
             </byline>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">الأميران في سورية</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">أميران جليلان زارا سورية في الشهر الغابر، وتنقلا بين آثارها وربوعها: البرنس فردريك ايتل نجل أكبر عاهل غربي، و<persName change="#d2e223" xml:lang="ar">الأمير محمد علي</persName> شقيق أعظم أمير شرقي. جاء الأول القدس الشريف للاحتفال بتدشين المستشفى الألماني، وزار الثاني سورية ولبنان سائحاً متجولاً. فكان في زيارة الأميرين أكبر معنى، وأشرف مغزى.</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar"> <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num> </tei:p>
@@ -1207,7 +1207,7 @@
 
             </tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">جمالان في معرض</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">بعد ظهر السبت في  <tei:num type="auto-markup" change="#d2e181" value="23" xml:lang="ar">٢٣</tei:num>  أبريل كان افتتاح المعرض السنوي الخامس من معارض الزهور في كازينو سان استفانو في الإسكندرية بحضور سمو الجناب الخديوي وهو عبد الزهر والجمال. وقد جاءتنا الرسالة الآتية بهذا الموضوع. ومن أولى من مجلة <tei:title level="j" change="#d2e193 #d2e223" xml:lang="ar">الزهور</tei:title> بالاهتمام بمعرض الزهور:</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">أخذت الشمس تبزغ ساطعة في أفق صافٍ هو جزء من جو انقشعت سحابته التي كانت تبدو تارة سنجابية رامزة إلى البرد والعواصف، وتارة كثيفة سوداء منذرة بالبرق والرعد والمطر - أخذت تبزغ فتتهادى متجلية في هذا الجو اللازوردي مانحة روح الحياة إلى الطبيعة. فانجلت عبوستها مسفرة عن مجموع جمالي طبيعي رائع كاسف لسواه من الجمال. فهو الحياة في سن الشباب الزاهر، بل البهاء السائد على القلوب، بل الرواء الآسر للأميال السامية، بل الشذا الذي تحرك النسمات مصدره فيعطر الأرجاء، بل الروح التي تمتزج في نفس اليائس فتولد فيه الأمل، وتمر بالعبوس المكتئب فتنفس كربته، ويستنشقها الحزين فتخفف ما به، وتصل إلى معاطس العليل فتنعشه، بل هي التي يراها السعيد فتضاف إلى سعادته سعادة أخرى، وتلمسها أنامل الحسناء فترى مستقبلها في نطاق الغبطة، ويشاهدها المعاقر فيتجلى له الحبب للآلئ، ويضمها العاشق فيود لو ينزع قلبه فيهديه إلى عشيقته، بل هي التي ينساب الماء في مجاريها فتنمو، وتنبعث الحرارة الشمسية في عيدانها فتحيا، ويداعب الهواء البليل أوراقها فيسمع لتلامسها صوت هو الشدو، أي هي الورود - بين أحمر

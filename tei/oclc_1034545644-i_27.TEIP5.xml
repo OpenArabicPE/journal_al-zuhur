@@ -65,11 +65,11 @@
    <tei:text xml:lang="ar">
       <pb n="n3-p289" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1398.xhtml"/>
       <tei:body change="#d2e223" xml:lang="ar">
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">العدد  <tei:num type="auto-markup" change="#d2e181" value="27" xml:lang="ar">٢٧</tei:num> </head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar"> - بتاريخ: <date when="1912-10-01" change="#d2e223" xml:lang="ar">1912-10-01</date> </tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">القنصل الروماني والوالي العثماني</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">أتيليوس ريجلوس وصبحي بك</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">لما احتلَّ الإيطاليون جزيرة رودس منذ بضعة أشهر أسروا وإليها صبحي بك , وظل عندهم معتقلاً مدة من الزمن , حتى واقتنا الصحف في الشهر الغابر بخبر الإفراج عنه. وذلك أن الإيطاليين أطلقوا سراحه ليعود إلى الاستنانة فيفاوض حكومته العثمانية بأمر تبادل الأسرى الذين وقعوا في أدي كلتا الدولتين المتحاربتين. وأعطت حكومة رومة صبحي بك مهلة شهر ليقوم بهذه المهمة , فإذا لم تفضِ المفاوضة إلى نتيجة ترضي الفريقين عاد إلى الأسر. قرأنا هذا الخبر في جرائدنا اليومية فذكّرنا حادثة من هذا القبيل جرت منذ اثنين وعشرين قرناً تقريباً في حرب التحمت مواقعها , كحرب اليوم , على سواحل أفريقيا , وكان بطلها , القائد الروماني ماركوس انيليوس ريجلوس وهو أحد أبناء رومة
@@ -94,7 +94,7 @@
 
             </tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">مقالات باكون</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">باكون أشهر مشاهير فلاسفة الانكليز , كان له تأثير كبير في عصره , وهو يُعدُّ مؤسس الفلسفة الحديثة المبنية على الاختبار والاستقراء. وقد شاءَ صديقنا <persName change="#d2e223" xml:lang="ar">محمد لطفي جمعه</persName> الكاتب الألمعي والأصولي الضليع أن يتحف قرَّاء الزهور بمختارات من مقالات الفيلسوف. وإليك النبذة الأولى منها:</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">
@@ -586,7 +586,7 @@
 
             </tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">نجيب و<persName change="#d3e209 #d2e223" ref="oape:pers:1140" xml:lang="ar">
                             <forename change="#d2e223" xml:lang="ar">أمين</forename>
                             <surname change="#d2e223" xml:lang="ar">الحداد</surname>
@@ -660,7 +660,7 @@
 
             </byline>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">حياة الأخوين</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">
                <hi style="color:red;" change="#d2e223" xml:lang="ar"> <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num>  - </hi>سعيد الشرتوني</tei:p>
@@ -895,7 +895,7 @@
 
             </tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">بوليوس قيصر</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">رواية تمثيلية من أشهر الروايات , وأحكمها وضعاً , وأعظمها وقعاً في النفوس لمؤلفها نابغة هذا الفن شكسبير الروائي الانكليزي الشهير. نقلها إلى العربية بعبارة مطابقة تماماً للأصل الانكليزي حضرة الكاتب المجيد سامي الجربدني المحامي وسننشرها تباعاً ابتداء من هذا الجزء بمناسبة النهضة التمثيلية الحديثة.</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">أشخاص الرواية:</tei:p>

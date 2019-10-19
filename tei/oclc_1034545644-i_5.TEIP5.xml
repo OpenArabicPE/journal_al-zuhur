@@ -65,11 +65,11 @@
    <tei:text xml:lang="ar">
       <pb n="n1-p185" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P198.xhtml"/>
       <tei:body change="#d2e223" xml:lang="ar">
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">العدد  <tei:num type="auto-markup" change="#d2e181" value="5" xml:lang="ar">٥</tei:num> </head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar"> - بتاريخ: <date when="1910-07-01" change="#d2e223" xml:lang="ar">1910-07-01</date> </tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">النهضة الأدبية في العراق</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">وعدنا عند إنشاء هذه المجلة أن نجعلها رابطة تعارف بين أدباء الأقطار العربية وبينا فائدة ذلك في حينه. فإن الأدباء في مصر والشام يعرفون شيئاً عن بعضهم بعض ولكنهم يكادون يجهلون كل شيء عن زملائهم في العراق وسائر بلاد العرب. ونحن نزف إلى القراء اليوم هذه المقالة الشائقة التي أتحفنا بها أديب من أدباء بغداد الذين يشار إليهم بالبنان وفيها الفوائد الجمة عن النهضة الأدبية في هاتيك الأنحاء.</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">وسيوافينا مراسلونا العديدون في كل بلاد عربية بكل ما تهم معرفته في هذا الشأن:</tei:p>
@@ -223,7 +223,7 @@
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">- بغداد سانسنا</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">(الزهور) نشكر حضرة الأديب الفاضل المتستر تحت هذا الاسم شكراً وافراً ونثني على أده ونرحب بكل ما يتحفنا به عن تلك الربوع التي تجلت فيها لغتنا بأجمل مجاليها.</tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">أيها الفن</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">مرفوعة إلى</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">أيها الفن، العظيم بتأثيره، الغريب بأعماله، السامي بجماله وأسراره، أنت شبح من مقدرة المبدع الأزلي في نفوس النوابغ المبدعين، أنت روح الله المرفوفة بين قلوب البشر واللانهاية، أنت فكرة مستيقظة في هذا العالم النائم بحراكه، الجامدة بمسيره.</tei:p>
@@ -251,7 +251,7 @@
 
             </byline>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">في جنائن الغرب</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">سويفت كاتب إنكليزي اشتهر بكتابة رحلات جلفر وبينها وبين أسفار السندباد البحري بعض المشابهة. وقد أودعها حكماً وأبحاثاً عمرانية في قالب فكاهي لذيذ. ويتضمن هذا الكتاب خبر رحلته ليليبت وهي بلاد لا يزيد طول الواحد من سكانها - على ما يزعم - عن إصبعين، وخبر رحلة إلى بلاد بربدنجناج التي يسكنها المردة العظام. وقد نشر هذه الرحلات باللغة العربية حضرة البارع عبد الفتاح صبري بك وكيل المدرسة السعيدية. ونحن نقتطف اليوم شيئاً عن الرحلة الأولىة وما شاهد فيها من صغر السكان:</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">رحلة جلفر إلى ليليبت</tei:p>
@@ -306,7 +306,7 @@
                             <surname xml:lang="ar">شميل</surname>
                         </persName></byline>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">في حدائق العرب</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">حرب البسوس</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">كانت العرب تقول في أمثالها أشأم من البسوس لأن هذه المرأة كانت سبباً في نشوب حرب طاحنة بين القبائل. وتفصيل الخبر أن البسوس هذه نزلت على ابن أختها جساس بن مرة، فكانت جارة له، ومعها ابن لها وناقة خوارة مع فصيلها، واسم الناقة سراب. وقيل أن الناقة لرجل من بني جرم نزل بالبسوس. فخرج كليب (زوج جليلة أخت جساس) يوماً يتعهد الإمبل ومراعيها، فأتاها وتردد فيها. وكانت إبله وإبل جساس مختلطة، فنظر كليب إلى سراب فأنكرها. فقال له جساس وكان معه: هذه ناقة جارنا الجرمي.</tei:p>
@@ -409,7 +409,7 @@
 
 البسوس. وبقي الحرث بن عباد على الحيادة قائلاً: لا ناقة لي في هذا ولا جمل. فذهبت مثلاً. وكان مقتل كليب سنة  <tei:num type="auto-markup" change="#d2e181" value="494" xml:lang="ar">٤٩٤</tei:num>  للمسيح.</tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">من القفص إلى العش</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">في قفصها الجميل، كانت الحمامة الأسيرة تنوح وتحن إلى الحرية. . .</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">ترى أمامها الفضاء فسيحاً، فتحاول الطيران، فتهشم جناحيها اللطيفين على الحواجز الصلبة، فيضيق بها رحب الفضاء. . .</tei:p>
@@ -714,7 +714,7 @@
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">البرازيل</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">فائز السمعاني اللبناني</tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">الكلمات الأجنبية</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">في اللغة العربية</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">ذكرنا في العدد الماضي (ص  <tei:num type="auto-markup" change="#d2e181" value="137" xml:lang="ar">١٣٧</tei:num> ) طائفة من الكلمات الفصيحة التي وضعتها لجنة دار العلوم بدلاً من الكلمات العامية أو الدخيلة على اللغة. ولا تزال اللجنة موالية العمل في هذا البحث المفيد. وإليك تابع ما سبق.
@@ -838,7 +838,7 @@
 
             </tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">مصر وسورية</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">موضوع العدد الكبير</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">سألنا القراء في العدد الماضي عن موضوع عدد خاص كبير من الزهور يقوم مقام عددين يصدران في آن واحد في فصل الصيف. وقد جاءتنا اقتراحات عديدة ولكن السواد الأعظم مجمع على اختيار موضوع مصر وسورية لأن الزهور دائبة على إيجاد رابطة أدبية بين الأقطار العربية ويجب أن تبدأ بهذين القطرين الشقيقين. وقد كاشفنا المساعدين بتحرير المجلة فاستحسنوا الموضوع كثيراً.</tei:p>
@@ -931,7 +931,7 @@
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">وأقامت مدرسة الفرير بشبرا مثل هذا الاحتفال الأدبي وخير ما جاء فيه قصيدة بليغة المبنى سامية المعنى ف تربية الأولاد نظم دررها حضرة الأديب الفاضل الأخ اليان باخوم مدير الدروس العربية في تلك المدرسة.</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">مخبر</tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">من وإلى القراء</head>
             <tei:p change="#d2e223" xml:lang="ar">نشرنا في العدد الثالث (ص  <tei:num type="auto-markup" change="#d2e181" value="121" xml:lang="ar">١٢١</tei:num> ) مقالة عن البرنس فردريك ايتل في فلسطين. وقد جاءنا البريد الأخير ببعض مجلات وجرائد ألمانية. وقد نشرت ترجمة تلك المقالة مطرية الزهور وهذا يدللك على اهتمام القوم بكل ما يقال عنهم.</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">- لدينا مقالات وقصائد كثيرة من مراسلينا الأدباء من جهات مختلفة اضطررنا إلى إرجائها وسننشرها عن قريب إن شاء الله.</tei:p>

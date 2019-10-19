@@ -65,11 +65,11 @@
    <tei:text xml:lang="ar">
       <pb n="n1-p3" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P16.xhtml"/>
       <tei:body change="#d2e223" xml:lang="ar">
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">العدد  <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num> </head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar"> - بتاريخ: <date when="1910-03-01" change="#d2e223" xml:lang="ar">1910-03-01</date> </tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">ما هي هذه المجلة؟</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">بدت منذ مدة من الزمن في كل الأقطار العربية طوالع حركة فكرية، ونهضة أدبية، لا يسع المكابر إنكارها. فلقد نفض الناطقون بالضاد غبار الخمول عنهم، وأفاقوا من سباتهم العميق، فألقوا نظرة إلى مجاوريهم أبناء سائر اللغات، فرأوهم قد ساروا شوطاً بعيداً في مضمار الآداب والفنون، ونظروا إلى العرب أجدادهم، فرأوا أنفسهم قد قصروا عنهم أيما تقصير: فلا السيوف المشرقية، ولا الرماح الهندية، ولا الجياد الأعوجية، يفاخرون بها الأقران، ويفتحون بها الأمصار والبلدان. . . . ولا البيان الدرّيّ، ولا الشعر السحري، ولا الهوى العذري، يخلبون به الألباب ويستولون به على ممالك الأذهان. . .</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">رأوا قد دالت من يدهم دولة الحسام، ودولة الأقلام، وأدركوا أن الأحفاد كادوا يضيعون ذلك الإرث المجيد الذي خلفه لهم الأجداد. فهالهم ما رأوا وما أدركوا عندما تفتحت منهم العيون، بعد مر الأجيال
@@ -242,7 +242,7 @@
 
             </tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">السباق الشعري الكبير</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">لسنة  <tei:num type="auto-markup" change="#d2e181" value="1910" xml:lang="ar">١٩١٠</tei:num> </tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">الموضوع -: وأما شجرة معرفة الخير والشر فلا تأكل منها. فإنك يوم تأكل منها تموت موتاً</tei:p>
@@ -257,7 +257,7 @@
                             <surname xml:lang="ar">إبراهيم</surname>
                         </persName>.</tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">السباق النثري الكبير</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">لسنة  <tei:num type="auto-markup" change="#d2e181" value="1910" xml:lang="ar">١٩١٠</tei:num> </tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">الموضوع: كتابة نبذة لا تتجاوز عشر صفحات من قطع هذه المجلة في الوسائل الواجب اتخاذها لترقية آداب اللغة العربية بعد إيراد لمحة وجيزة في ما كانت عليه أيام الجاهلية وعلى عهد الخلفاء.
@@ -282,7 +282,7 @@
 
             </tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">حج الخديوي عباس حلمي وقصائد المدح فيه</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">حج سمو خديوي مصر في هذا العام إلى البيت الحرام وعاد محفوفاً باليمن والبركات. وقد تبارت قرائح شعرائنا في وداعه واستقباله. فكان موسم شعر ذكرنا سوق عكاظ. ولا جدال في أن خير ما قيل في حج أمير مصر قصيدة سعادة <persName change="#d3e209 #d2e223" ref="oape:pers:768 viaf:7540373" xml:lang="ar">
                             <forename xml:lang="ar">احمد</forename>
@@ -766,7 +766,7 @@
 فيقول بعد كل بيت مدح: أستغفر الله وبعد كل بيت دعاء: إن شاء الله.</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">فأكرم بالملوك والأمراء الذين يعرفون قدر الأدب والأدباء. . .</tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">الصحافة والصحافيون</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">كان حامل القلم كحامل السيف في يمين كليهما سلاح ماض. . . وأصبح حامل القلم، في العصر الحديث، كالقابض على الصولجان: كلاهما نافذ الكلمة، مرعي الجانب.</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">ولكن لا يتم ذلك للكاتب، إلا إذا فهم حقيقة مهمته، وأدرك شرف مهنته. فإذا لم يكن كل من هز الحسام بضارب فكذلك ليس كل من هز اليراع بكاتب وأبعد حملة الأقلام نفوذاً الآن هم الصحافيون، بفضل انتشار الصحف وإقبال الكبير والصغير عليها. وعليه يجب أن تكون الصحافة - كما قال احد كبار المفكرين - شجرة الحقيقة يغرد على فنانها الكتاب الصادقون وإنه ليسرنا أن ندون على صفحات الزهور كلمتين في هذا الموضوع: أحداهما لأمير شرقي كبير، والثانية لشريف غربي خطير.</tei:p>
@@ -799,7 +799,7 @@
 وليس الانتقاد في شيء من الطعن. ولا يجب أن يخاطب المنتقد بلهجة العداء. والهجو هو ما يلجأ إليه الأعداء. وذلك محط من شان الصحافة.</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">والصحافة الحديثة تستدعي العناية بالتهذيب. والتهذيب هو عماد السلم والاتحاد والسياسة والاجتماع العصري. ولا يحافظ على الحقوق إلا المهذبون.</tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">نكبة باريس</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">طغى نهر السين على مدينة باريس، فنشر في تلك الربوع الجميلة الدمار والخراب ولسنا في حاجة إلى إيراد تفصيل هذا الخطب الجسيم، فقد اطلع القراء على ذلك في الصحف اليومية. وإذا كانت عاصمة فرنسا مهبط الجمال وكل فنون الجمال، فيليق بالشعراء أن يسكبوا عليها في مصابها دمعة الأسف:</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar"> <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num> </tei:p>
@@ -878,7 +878,7 @@
                             <surname xml:lang="ar">يكن</surname>
                         </persName></byline>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">الغد</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar"><persName change="#d3e209 #d2e223" ref="oape:pers:545 viaf:61716327" xml:lang="ar">
                             <roleName type="nobility" change="#d2e223" xml:lang="ar">السيد</roleName>
@@ -932,7 +932,7 @@
 
             </byline>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">ساعة الوداع</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">لسعادة <persName change="#d2e223" xml:lang="ar">إسماعيل باشا صبري</persName></tei:p>
             <lg change="#d2e82 #d2e223" xml:lang="ar">
@@ -1036,11 +1036,11 @@
             </lg>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">- استقال دولة البرنس حسين باشا كامل من رئاسة مجلس الشورى والجمعية العمومية.</tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar">أيها القارئ العزيز</head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">أرسلنا إليك هذا</tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" subtype="article" xml:lang="ar">
             <head change="#d2e223" xml:lang="ar"> العدد </head>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">الأول من مجلة <tei:title level="j" change="#d2e193 #d2e223" xml:lang="ar">الزهور</tei:title> لاعتقادنا بغيرتك على النهضة الأدبية ورغبتك في الاطلاع على سيرها في القطار العربية. فإذا وجدت في خطة هذه المجلة ما يحقق رغائبك فتفضل بتوقيع الطلب الواصل طيه وإرساله مع قيمة الاشتراك الموضحة فيه أو التعهد بدفعها إلى وكيل المجلة في أول فرصة. والسلام.</tei:p>
             <tei:p change="#d2e73 #d2e223" xml:lang="ar">إدارة مجلة <tei:title level="j" change="#d2e193 #d2e223" xml:lang="ar">الزهور</tei:title> بشارع الفجالة نمرة  <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num>  بمصر
