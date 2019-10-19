@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns:tei="http://www.tei-c.org/ns/1.0"
+                xmlns:mods="http://www.loc.gov/mods/v3"
+                xmlns="http://www.loc.gov/mods/v3"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/mods-3-7.xsd">
+   <mods ID="oclc_1034545644-i_23-div_1.d2e239-mods">
+      <titleInfo>
+         <title xml:lang="ar">العدد ٢٣</title>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local" xml:lang="en">journalArticle</genre>
+      <genre authority="marcgt" xml:lang="en">article</genre>
+      <relatedItem type="host">
+         <titleInfo>
+            <title xml:lang="ar">الزهور مجلة أدبية فنية علمية</title>
+         </titleInfo>
+         <genre authority="marcgt">journal</genre>
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/305214858">
+            <namePart type="family" xml:lang="ar">الجميل</namePart>
+            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <role>
+               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+            </role>
+         </name>
+         <originInfo>
+            <edition xml:lang="en">digital TEI edition, 2019</edition>
+            <place>
+               <placeTerm type="text" xml:lang="ar">القاهرة</placeTerm>
+            </place>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <dateIssued encoding="w3cdtf">1912-04-01</dateIssued>
+            <issuance>continuing</issuance>
+         </originInfo>
+         <part>
+            <detail type="volume">
+               <number>1</number>
+            </detail>
+            <detail type="issue">
+               <number>23</number>
+            </detail>
+            <extent unit="pages">
+               <start/>
+               <end/>
+            </extent>
+         </part>
+      </relatedItem>
+      <accessCondition/>
+      <location>
+         <url dateLastAccessed="2019-10-20" usage="primary display">#div_1.d2e239</url>
+      </location>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods ID="oclc_1034545644-i_23-div_1.d2e254-mods">
+      <titleInfo>
+         <title xml:lang="ar">الكهانة</title>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local" xml:lang="en">journalArticle</genre>
+      <genre authority="marcgt" xml:lang="en">article</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="ar">اسكندر عمون</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+         </role>
+      </name>
+      <relatedItem type="host">
+         <titleInfo>
+            <title xml:lang="ar">الزهور مجلة أدبية فنية علمية</title>
+         </titleInfo>
+         <genre authority="marcgt">journal</genre>
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/305214858">
+            <namePart type="family" xml:lang="ar">الجميل</namePart>
+            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <role>
+               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+            </role>
+         </name>
+         <originInfo>
+            <edition xml:lang="en">digital TEI edition, 2019</edition>
+            <place>
+               <placeTerm type="text" xml:lang="ar">القاهرة</placeTerm>
+            </place>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <dateIssued encoding="w3cdtf">1912-04-01</dateIssued>
+            <issuance>continuing</issuance>
+         </originInfo>
+         <part>
+            <detail type="volume">
+               <number>1</number>
+            </detail>
+            <detail type="issue">
+               <number>23</number>
+            </detail>
+            <extent unit="pages">
+               <start/>
+               <end/>
+            </extent>
+         </part>
+      </relatedItem>
+      <accessCondition/>
+      <location>
+         <url dateLastAccessed="2019-10-20" usage="primary display">#div_1.d2e254</url>
+      </location>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods ID="oclc_1034545644-i_23-div_1.d2e461-mods">
+      <titleInfo>
+         <title xml:lang="ar">نابوليون الأول وحرب روسيا</title>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local" xml:lang="en">journalArticle</genre>
+      <genre authority="marcgt" xml:lang="en">article</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="ar">الياس طنوس الحوّيك</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+         </role>
+      </name>
+      <relatedItem type="host">
+         <titleInfo>
+            <title xml:lang="ar">الزهور مجلة أدبية فنية علمية</title>
+         </titleInfo>
+         <genre authority="marcgt">journal</genre>
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/305214858">
+            <namePart type="family" xml:lang="ar">الجميل</namePart>
+            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <role>
+               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+            </role>
+         </name>
+         <originInfo>
+            <edition xml:lang="en">digital TEI edition, 2019</edition>
+            <place>
+               <placeTerm type="text" xml:lang="ar">القاهرة</placeTerm>
+            </place>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <dateIssued encoding="w3cdtf">1912-04-01</dateIssued>
+            <issuance>continuing</issuance>
+         </originInfo>
+         <part>
+            <detail type="volume">
+               <number>1</number>
+            </detail>
+            <detail type="issue">
+               <number>23</number>
+            </detail>
+            <extent unit="pages">
+               <start/>
+               <end/>
+            </extent>
+         </part>
+      </relatedItem>
+      <accessCondition/>
+      <location>
+         <url dateLastAccessed="2019-10-20" usage="primary display">#div_1.d2e461</url>
+      </location>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods ID="oclc_1034545644-i_23-div_1.d2e568-mods">
+      <titleInfo>
+         <title xml:lang="ar">في رياض الشعر</title>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local" xml:lang="en">journalArticle</genre>
+      <genre authority="marcgt" xml:lang="en">article</genre>
+      <name type="personal"
+            xml:lang="ar"
+            authority="viaf"
+            valueURI="https://viaf.org/viaf/36771043">
+         <namePart type="family" xml:lang="ar">يكن</namePart>
+         <namePart type="given" xml:lang="ar">ولي الدين</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+         </role>
+      </name>
+      <relatedItem type="host">
+         <titleInfo>
+            <title xml:lang="ar">الزهور مجلة أدبية فنية علمية</title>
+         </titleInfo>
+         <genre authority="marcgt">journal</genre>
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/305214858">
+            <namePart type="family" xml:lang="ar">الجميل</namePart>
+            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <role>
+               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+            </role>
+         </name>
+         <originInfo>
+            <edition xml:lang="en">digital TEI edition, 2019</edition>
+            <place>
+               <placeTerm type="text" xml:lang="ar">القاهرة</placeTerm>
+            </place>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <dateIssued encoding="w3cdtf">1912-04-01</dateIssued>
+            <issuance>continuing</issuance>
+         </originInfo>
+         <part>
+            <detail type="volume">
+               <number>1</number>
+            </detail>
+            <detail type="issue">
+               <number>23</number>
+            </detail>
+            <extent unit="pages">
+               <start/>
+               <end/>
+            </extent>
+         </part>
+      </relatedItem>
+      <accessCondition/>
+      <location>
+         <url dateLastAccessed="2019-10-20" usage="primary display">#div_1.d2e568</url>
+      </location>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods ID="oclc_1034545644-i_23-div_1.d2e1242-mods">
+      <titleInfo>
+         <title xml:lang="ar">رسائل غرام</title>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local" xml:lang="en">journalArticle</genre>
+      <genre authority="marcgt" xml:lang="en">article</genre>
+      <relatedItem type="host">
+         <titleInfo>
+            <title xml:lang="ar">الزهور مجلة أدبية فنية علمية</title>
+         </titleInfo>
+         <genre authority="marcgt">journal</genre>
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/305214858">
+            <namePart type="family" xml:lang="ar">الجميل</namePart>
+            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <role>
+               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+            </role>
+         </name>
+         <originInfo>
+            <edition xml:lang="en">digital TEI edition, 2019</edition>
+            <place>
+               <placeTerm type="text" xml:lang="ar">القاهرة</placeTerm>
+            </place>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <dateIssued encoding="w3cdtf">1912-04-01</dateIssued>
+            <issuance>continuing</issuance>
+         </originInfo>
+         <part>
+            <detail type="volume">
+               <number>1</number>
+            </detail>
+            <detail type="issue">
+               <number>23</number>
+            </detail>
+            <extent unit="pages">
+               <start/>
+               <end/>
+            </extent>
+         </part>
+      </relatedItem>
+      <accessCondition/>
+      <location>
+         <url dateLastAccessed="2019-10-20" usage="primary display">#div_1.d2e1242</url>
+      </location>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods ID="oclc_1034545644-i_23-div_1.d2e1304-mods">
+      <titleInfo>
+         <title xml:lang="ar">شيء عن الفن</title>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local" xml:lang="en">journalArticle</genre>
+      <genre authority="marcgt" xml:lang="en">article</genre>
+      <name type="personal"
+            xml:lang="ar"
+            authority="oape"
+            valueURI="oape:pers:2269">
+         <namePart type="family" xml:lang="ar">م . ي</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+         </role>
+      </name>
+      <relatedItem type="host">
+         <titleInfo>
+            <title xml:lang="ar">الزهور مجلة أدبية فنية علمية</title>
+         </titleInfo>
+         <genre authority="marcgt">journal</genre>
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/305214858">
+            <namePart type="family" xml:lang="ar">الجميل</namePart>
+            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <role>
+               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+            </role>
+         </name>
+         <originInfo>
+            <edition xml:lang="en">digital TEI edition, 2019</edition>
+            <place>
+               <placeTerm type="text" xml:lang="ar">القاهرة</placeTerm>
+            </place>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <dateIssued encoding="w3cdtf">1912-04-01</dateIssued>
+            <issuance>continuing</issuance>
+         </originInfo>
+         <part>
+            <detail type="volume">
+               <number>1</number>
+            </detail>
+            <detail type="issue">
+               <number>23</number>
+            </detail>
+            <extent unit="pages">
+               <start/>
+               <end/>
+            </extent>
+         </part>
+      </relatedItem>
+      <accessCondition/>
+      <location>
+         <url dateLastAccessed="2019-10-20" usage="primary display">#div_1.d2e1304</url>
+      </location>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods ID="oclc_1034545644-i_23-div_1.d2e1354-mods">
+      <titleInfo>
+         <title xml:lang="ar">نوابغ مصر الأحياء</title>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local" xml:lang="en">journalArticle</genre>
+      <genre authority="marcgt" xml:lang="en">article</genre>
+      <relatedItem type="host">
+         <titleInfo>
+            <title xml:lang="ar">الزهور مجلة أدبية فنية علمية</title>
+         </titleInfo>
+         <genre authority="marcgt">journal</genre>
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/305214858">
+            <namePart type="family" xml:lang="ar">الجميل</namePart>
+            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <role>
+               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+            </role>
+         </name>
+         <originInfo>
+            <edition xml:lang="en">digital TEI edition, 2019</edition>
+            <place>
+               <placeTerm type="text" xml:lang="ar">القاهرة</placeTerm>
+            </place>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <dateIssued encoding="w3cdtf">1912-04-01</dateIssued>
+            <issuance>continuing</issuance>
+         </originInfo>
+         <part>
+            <detail type="volume">
+               <number>1</number>
+            </detail>
+            <detail type="issue">
+               <number>23</number>
+            </detail>
+            <extent unit="pages">
+               <start/>
+               <end/>
+            </extent>
+         </part>
+      </relatedItem>
+      <accessCondition/>
+      <location>
+         <url dateLastAccessed="2019-10-20" usage="primary display">#div_1.d2e1354</url>
+      </location>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods ID="oclc_1034545644-i_23-div_1.d2e1381-mods">
+      <titleInfo>
+         <title xml:lang="ar">حادث في الصحافة</title>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local" xml:lang="en">journalArticle</genre>
+      <genre authority="marcgt" xml:lang="en">article</genre>
+      <name type="personal"
+            xml:lang="ar"
+            authority="viaf"
+            valueURI="https://viaf.org/viaf/36771043">
+         <namePart type="family" xml:lang="ar">يكن</namePart>
+         <namePart type="given" xml:lang="ar">ولي الدين</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+         </role>
+      </name>
+      <name type="personal"
+            xml:lang="ar"
+            authority="viaf"
+            valueURI="https://viaf.org/viaf/61716327">
+         <namePart type="family" xml:lang="ar">المنفلوطي</namePart>
+         <namePart type="given" xml:lang="ar">مصطفى</namePart>
+         <namePart type="given" xml:lang="ar">لطفي</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+         </role>
+      </name>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="ar">إبراهيم الدباغ</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+         </role>
+      </name>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="ar">صاحبة مجلة الإنسانية</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+         </role>
+      </name>
+      <relatedItem type="host">
+         <titleInfo>
+            <title xml:lang="ar">الزهور مجلة أدبية فنية علمية</title>
+         </titleInfo>
+         <genre authority="marcgt">journal</genre>
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/305214858">
+            <namePart type="family" xml:lang="ar">الجميل</namePart>
+            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <role>
+               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+            </role>
+         </name>
+         <originInfo>
+            <edition xml:lang="en">digital TEI edition, 2019</edition>
+            <place>
+               <placeTerm type="text" xml:lang="ar">القاهرة</placeTerm>
+            </place>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <dateIssued encoding="w3cdtf">1912-04-01</dateIssued>
+            <issuance>continuing</issuance>
+         </originInfo>
+         <part>
+            <detail type="volume">
+               <number>1</number>
+            </detail>
+            <detail type="issue">
+               <number>23</number>
+            </detail>
+            <extent unit="pages">
+               <start/>
+               <end/>
+            </extent>
+         </part>
+      </relatedItem>
+      <accessCondition/>
+      <location>
+         <url dateLastAccessed="2019-10-20" usage="primary display">#div_1.d2e1381</url>
+      </location>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods ID="oclc_1034545644-i_23-div_1.d2e1511-mods">
+      <titleInfo>
+         <title xml:lang="ar">تربية الطفل</title>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local" xml:lang="en">journalArticle</genre>
+      <genre authority="marcgt" xml:lang="en">article</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="ar">الدكتور محمد عبد الحميد</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+         </role>
+      </name>
+      <relatedItem type="host">
+         <titleInfo>
+            <title xml:lang="ar">الزهور مجلة أدبية فنية علمية</title>
+         </titleInfo>
+         <genre authority="marcgt">journal</genre>
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/305214858">
+            <namePart type="family" xml:lang="ar">الجميل</namePart>
+            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <role>
+               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+            </role>
+         </name>
+         <originInfo>
+            <edition xml:lang="en">digital TEI edition, 2019</edition>
+            <place>
+               <placeTerm type="text" xml:lang="ar">القاهرة</placeTerm>
+            </place>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <dateIssued encoding="w3cdtf">1912-04-01</dateIssued>
+            <issuance>continuing</issuance>
+         </originInfo>
+         <part>
+            <detail type="volume">
+               <number>1</number>
+            </detail>
+            <detail type="issue">
+               <number>23</number>
+            </detail>
+            <extent unit="pages">
+               <start/>
+               <end/>
+            </extent>
+         </part>
+      </relatedItem>
+      <accessCondition/>
+      <location>
+         <url dateLastAccessed="2019-10-20" usage="primary display">#div_1.d2e1511</url>
+      </location>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods ID="oclc_1034545644-i_23-div_1.d2e1562-mods">
+      <titleInfo>
+         <title xml:lang="ar">لمن هذا الشعر</title>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local" xml:lang="en">journalArticle</genre>
+      <genre authority="marcgt" xml:lang="en">article</genre>
+      <name type="personal"
+            xml:lang="ar"
+            authority="oape"
+            valueURI="oape:pers:1143">
+         <namePart type="family" xml:lang="ar">أمين حمدي</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+         </role>
+      </name>
+      <relatedItem type="host">
+         <titleInfo>
+            <title xml:lang="ar">الزهور مجلة أدبية فنية علمية</title>
+         </titleInfo>
+         <genre authority="marcgt">journal</genre>
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/305214858">
+            <namePart type="family" xml:lang="ar">الجميل</namePart>
+            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <role>
+               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+            </role>
+         </name>
+         <originInfo>
+            <edition xml:lang="en">digital TEI edition, 2019</edition>
+            <place>
+               <placeTerm type="text" xml:lang="ar">القاهرة</placeTerm>
+            </place>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <dateIssued encoding="w3cdtf">1912-04-01</dateIssued>
+            <issuance>continuing</issuance>
+         </originInfo>
+         <part>
+            <detail type="volume">
+               <number>1</number>
+            </detail>
+            <detail type="issue">
+               <number>23</number>
+            </detail>
+            <extent unit="pages">
+               <start/>
+               <end/>
+            </extent>
+         </part>
+      </relatedItem>
+      <accessCondition/>
+      <location>
+         <url dateLastAccessed="2019-10-20" usage="primary display">#div_1.d2e1562</url>
+      </location>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods ID="oclc_1034545644-i_23-div_1.d2e1794-mods">
+      <titleInfo>
+         <title xml:lang="ar">ثمرات المطابع</title>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local" xml:lang="en">journalArticle</genre>
+      <genre authority="marcgt" xml:lang="en">article</genre>
+      <relatedItem type="host">
+         <titleInfo>
+            <title xml:lang="ar">الزهور مجلة أدبية فنية علمية</title>
+         </titleInfo>
+         <genre authority="marcgt">journal</genre>
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/305214858">
+            <namePart type="family" xml:lang="ar">الجميل</namePart>
+            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <role>
+               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+            </role>
+         </name>
+         <originInfo>
+            <edition xml:lang="en">digital TEI edition, 2019</edition>
+            <place>
+               <placeTerm type="text" xml:lang="ar">القاهرة</placeTerm>
+            </place>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <dateIssued encoding="w3cdtf">1912-04-01</dateIssued>
+            <issuance>continuing</issuance>
+         </originInfo>
+         <part>
+            <detail type="volume">
+               <number>1</number>
+            </detail>
+            <detail type="issue">
+               <number>23</number>
+            </detail>
+            <extent unit="pages">
+               <start/>
+               <end/>
+            </extent>
+         </part>
+      </relatedItem>
+      <accessCondition/>
+      <location>
+         <url dateLastAccessed="2019-10-20" usage="primary display">#div_1.d2e1794</url>
+      </location>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods ID="oclc_1034545644-i_23-div_1.d2e1852-mods">
+      <titleInfo>
+         <title xml:lang="ar">مصر وسوريا</title>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local" xml:lang="en">journalArticle</genre>
+      <genre authority="marcgt" xml:lang="en">article</genre>
+      <relatedItem type="host">
+         <titleInfo>
+            <title xml:lang="ar">الزهور مجلة أدبية فنية علمية</title>
+         </titleInfo>
+         <genre authority="marcgt">journal</genre>
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/305214858">
+            <namePart type="family" xml:lang="ar">الجميل</namePart>
+            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <role>
+               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+            </role>
+         </name>
+         <originInfo>
+            <edition xml:lang="en">digital TEI edition, 2019</edition>
+            <place>
+               <placeTerm type="text" xml:lang="ar">القاهرة</placeTerm>
+            </place>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <dateIssued encoding="w3cdtf">1912-04-01</dateIssued>
+            <issuance>continuing</issuance>
+         </originInfo>
+         <part>
+            <detail type="volume">
+               <number>1</number>
+            </detail>
+            <detail type="issue">
+               <number>23</number>
+            </detail>
+            <extent unit="pages">
+               <start/>
+               <end/>
+            </extent>
+         </part>
+      </relatedItem>
+      <accessCondition/>
+      <location>
+         <url dateLastAccessed="2019-10-20" usage="primary display">#div_1.d2e1852</url>
+      </location>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods ID="oclc_1034545644-i_23-div_1.d2e1872-mods">
+      <titleInfo>
+         <title xml:lang="ar">جريح بيروت</title>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local" xml:lang="en">journalArticle</genre>
+      <genre authority="marcgt" xml:lang="en">article</genre>
+      <relatedItem type="host">
+         <titleInfo>
+            <title xml:lang="ar">الزهور مجلة أدبية فنية علمية</title>
+         </titleInfo>
+         <genre authority="marcgt">journal</genre>
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/305214858">
+            <namePart type="family" xml:lang="ar">الجميل</namePart>
+            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <role>
+               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+            </role>
+         </name>
+         <originInfo>
+            <edition xml:lang="en">digital TEI edition, 2019</edition>
+            <place>
+               <placeTerm type="text" xml:lang="ar">القاهرة</placeTerm>
+            </place>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <dateIssued encoding="w3cdtf">1912-04-01</dateIssued>
+            <issuance>continuing</issuance>
+         </originInfo>
+         <part>
+            <detail type="volume">
+               <number>1</number>
+            </detail>
+            <detail type="issue">
+               <number>23</number>
+            </detail>
+            <extent unit="pages">
+               <start/>
+               <end/>
+            </extent>
+         </part>
+      </relatedItem>
+      <accessCondition/>
+      <location>
+         <url dateLastAccessed="2019-10-20" usage="primary display">#div_1.d2e1872</url>
+      </location>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods ID="oclc_1034545644-i_23-div_1.d2e2761-mods">
+      <titleInfo>
+         <title xml:lang="ar">قصيدة شاعر الأمير</title>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local" xml:lang="en">journalArticle</genre>
+      <genre authority="marcgt" xml:lang="en">article</genre>
+      <relatedItem type="host">
+         <titleInfo>
+            <title xml:lang="ar">الزهور مجلة أدبية فنية علمية</title>
+         </titleInfo>
+         <genre authority="marcgt">journal</genre>
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/305214858">
+            <namePart type="family" xml:lang="ar">الجميل</namePart>
+            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <role>
+               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+            </role>
+         </name>
+         <originInfo>
+            <edition xml:lang="en">digital TEI edition, 2019</edition>
+            <place>
+               <placeTerm type="text" xml:lang="ar">القاهرة</placeTerm>
+            </place>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <dateIssued encoding="w3cdtf">1912-04-01</dateIssued>
+            <issuance>continuing</issuance>
+         </originInfo>
+         <part>
+            <detail type="volume">
+               <number>1</number>
+            </detail>
+            <detail type="issue">
+               <number>23</number>
+            </detail>
+            <extent unit="pages">
+               <start/>
+               <end/>
+            </extent>
+         </part>
+      </relatedItem>
+      <accessCondition/>
+      <location>
+         <url dateLastAccessed="2019-10-20" usage="primary display">#div_1.d2e2761</url>
+      </location>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods ID="oclc_1034545644-i_23-div_1.d2e3006-mods">
+      <titleInfo>
+         <title xml:lang="ar">خطبة سعادة الأستاذ أحمد زكي باشا</title>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local" xml:lang="en">journalArticle</genre>
+      <genre authority="marcgt" xml:lang="en">article</genre>
+      <name type="personal"
+            xml:lang="ar"
+            authority="viaf"
+            valueURI="https://viaf.org/viaf/49218655">
+         <namePart type="family" xml:lang="ar">زكي</namePart>
+         <namePart type="given" xml:lang="ar">أحمد</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+         </role>
+      </name>
+      <relatedItem type="host">
+         <titleInfo>
+            <title xml:lang="ar">الزهور مجلة أدبية فنية علمية</title>
+         </titleInfo>
+         <genre authority="marcgt">journal</genre>
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/305214858">
+            <namePart type="family" xml:lang="ar">الجميل</namePart>
+            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <role>
+               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+            </role>
+         </name>
+         <originInfo>
+            <edition xml:lang="en">digital TEI edition, 2019</edition>
+            <place>
+               <placeTerm type="text" xml:lang="ar">القاهرة</placeTerm>
+            </place>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <dateIssued encoding="w3cdtf">1912-04-01</dateIssued>
+            <issuance>continuing</issuance>
+         </originInfo>
+         <part>
+            <detail type="volume">
+               <number>1</number>
+            </detail>
+            <detail type="issue">
+               <number>23</number>
+            </detail>
+            <extent unit="pages">
+               <start/>
+               <end/>
+            </extent>
+         </part>
+      </relatedItem>
+      <accessCondition/>
+      <location>
+         <url dateLastAccessed="2019-10-20" usage="primary display">#div_1.d2e3006</url>
+      </location>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods ID="oclc_1034545644-i_23-div_1.d2e3094-mods">
+      <titleInfo>
+         <title xml:lang="ar">تحية الشام لمصر</title>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local" xml:lang="en">journalArticle</genre>
+      <genre authority="marcgt" xml:lang="en">article</genre>
+      <name type="personal"
+            xml:lang="ar"
+            authority="viaf"
+            valueURI="https://viaf.org/viaf/102460074">
+         <namePart type="family" xml:lang="ar">مطران</namePart>
+         <namePart type="given" xml:lang="ar">خليل</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+         </role>
+      </name>
+      <relatedItem type="host">
+         <titleInfo>
+            <title xml:lang="ar">الزهور مجلة أدبية فنية علمية</title>
+         </titleInfo>
+         <genre authority="marcgt">journal</genre>
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/305214858">
+            <namePart type="family" xml:lang="ar">الجميل</namePart>
+            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <role>
+               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+            </role>
+         </name>
+         <originInfo>
+            <edition xml:lang="en">digital TEI edition, 2019</edition>
+            <place>
+               <placeTerm type="text" xml:lang="ar">القاهرة</placeTerm>
+            </place>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <dateIssued encoding="w3cdtf">1912-04-01</dateIssued>
+            <issuance>continuing</issuance>
+         </originInfo>
+         <part>
+            <detail type="volume">
+               <number>1</number>
+            </detail>
+            <detail type="issue">
+               <number>23</number>
+            </detail>
+            <extent unit="pages">
+               <start/>
+               <end/>
+            </extent>
+         </part>
+      </relatedItem>
+      <accessCondition/>
+      <location>
+         <url dateLastAccessed="2019-10-20" usage="primary display">#div_1.d2e3094</url>
+      </location>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+</modsCollection>
