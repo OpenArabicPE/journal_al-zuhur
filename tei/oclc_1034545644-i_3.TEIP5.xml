@@ -54,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+      <revisionDesc><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
@@ -201,7 +201,7 @@
             <tei:p change="#d2e73">هو دمّل من دماميل مجتمع الإنسان،</tei:p>
             <tei:p change="#d2e73">هو ثمرة طغيانكم أيها الرؤساء والأسياد والحكام،</tei:p>
             <tei:p change="#d2e73">هو صنع يدكم الأثيمة لا صنع يد الله.</tei:p>
-            <tei:p change="#d2e73">أمين ريحاني</tei:p>
+            <byline change="#d2e198"><persName>أمين ريحاني</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>حملة الأقلام في بر الشام</head>
@@ -233,11 +233,11 @@
             <tei:p change="#d2e73">* شكيب أرسلان - جال جولة رفعته إلى رتبة المشاهير. ثم أشغلته السياسة عن متابعة التحبير</tei:p>
             <tei:p change="#d2e73">* عبد الله البستاني - قريع وحده في أساليب البلاغة</tei:p>
             <tei:p change="#d2e73">* عبد الغني العريسي (صاحف المفيد) - خير مثال للحمية العربية</tei:p>
-            <tei:p change="#d2e73">* عيسى إسكندر المعلوف - كثرت كتابته. فتوزعت مادته</tei:p>
+            <tei:p change="#d2e73">* <persName>عيسى إسكندر المعلوف</persName> - كثرت كتابته. فتوزعت مادته</tei:p>
             <tei:p change="#d2e73">* فارس الخوري - يحذو حذو حافظ في شعره. ولكنه لن يدانيه في نثره</tei:p>
             <tei:p change="#d2e73">* فيلكس فارس (صاحب لسان الاتحاد) هو في نثره أشعر منه في شعره</tei:p>
             <tei:p change="#d2e73">* كامل حميه (محرر النفائس) - إذا كان الإنشاء هو الإنسان فاقرأ النفائس. . .</tei:p>
-            <tei:p change="#d2e73">* محيي الدين الخياط (محرر الإقبال والاتحاد العثماني) - هو في شعره فوقه في نثره.</tei:p>
+            <tei:p change="#d2e73">* <persName>محيي الدين الخياط</persName> (محرر الإقبال والاتحاد العثماني) - هو في شعره فوقه في نثره.</tei:p>
             <tei:p change="#d2e73">* مصفى الغلاييني (صاحب النبراس) - أفضل ما أتمثه خطيباً
 <pb n="n1-p101" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P114.xhtml"/>
 
@@ -249,7 +249,7 @@
             <tei:p change="#d2e73">* * *</tei:p>
             <tei:p change="#d2e73">هذا ما وصلت إليه طاقتي القاصرة. كتبته ورتبته على حروف الهجاء.</tei:p>
             <tei:p change="#d2e73">وهناك أيضاً قسم كبير من الكتاب والشعراء المجيدين من النبت الجديد وسأذكرهم على حدة في مقالة أخرى إن شاء الله.</tei:p>
-            <tei:p change="#d2e73">حليم إبراهيم دموس (بيروت)</tei:p>
+            <byline change="#d2e198"><persName>حليم إبراهيم دموس</persName> (بيروت)</byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>ملكة الجمال</head>
@@ -773,11 +773,11 @@
                </tei:l>
             </lg>
             <tei:p change="#d2e73">زحلة</tei:p>
-            <tei:p change="#d2e73">عيسى إسكندر المعلوف
+            <byline change="#d2e198"><persName>عيسى إسكندر المعلوف</persName>
 <pb n="n1-p109" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P122.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>في حدائق العرب</head>
@@ -884,11 +884,11 @@
             </lg>
             <tei:p change="#d2e73">ثم هوت إلى الرمح وكادت تنزعه من يدي فلما رأيت ذلك منها خفت أن ظفرت بي قتلتني، فقتلتها.</tei:p>
             <tei:p change="#d2e73">فهذا يا أمير المؤمنين أشجع من رأيت.</tei:p>
-            <tei:p change="#d2e73">الاتليدي
+            <byline change="#d2e198">الاتليدي
 <pb n="n1-p115" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P128.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>في جنائن الغرب</head>
@@ -1095,15 +1095,15 @@
             <tei:p change="#d2e73">بيروس - لقد عز الصبر ولم يبق للعفو منال. . . واعلمي أن بغضي يكون كحبي شديداً. وإن الابن يؤخذ بأعمال أمه لا محال فسأسلمه إلى اليونان. . .</tei:p>
             <tei:p change="#d2e73">أندروماك - يموت ابني. . . ابني يموت ولا معين له ولا شافع إلا دمعي. . . وعسى أن يقصر ذلك عذابي ويريحني مما ألاقيه فألحق به لنلتقي معاً بأبيه. . . .</tei:p>
             <tei:p change="#d2e73">(راسين)</tei:p>
-            <tei:p change="#d2e73">تعريب أديب إسحق
+            <byline change="#d2e198">تعريب <persName>أديب إسحق</persName>
 <pb n="n1-p121" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P134.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>الأميران في سورية</head>
-            <tei:p change="#d2e73">أميران جليلان زارا سورية في الشهر الغابر، وتنقلا بين آثارها وربوعها: البرنس فردريك ايتل نجل أكبر عاهل غربي، والأمير محمد علي شقيق أعظم أمير شرقي. جاء الأول القدس الشريف للاحتفال بتدشين المستشفى الألماني، وزار الثاني سورية ولبنان سائحاً متجولاً. فكان في زيارة الأميرين أكبر معنى، وأشرف مغزى.</tei:p>
+            <tei:p change="#d2e73">أميران جليلان زارا سورية في الشهر الغابر، وتنقلا بين آثارها وربوعها: البرنس فردريك ايتل نجل أكبر عاهل غربي، و<persName>الأمير محمد علي</persName> شقيق أعظم أمير شرقي. جاء الأول القدس الشريف للاحتفال بتدشين المستشفى الألماني، وزار الثاني سورية ولبنان سائحاً متجولاً. فكان في زيارة الأميرين أكبر معنى، وأشرف مغزى.</tei:p>
             <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num> </tei:p>
             <tei:p change="#d2e73">فلسطين وطن الأنبياء، ومهد الشعر والشعراء:</tei:p>
             <tei:p change="#d2e73">وقف أرميا في ربوعها راثياً، فسالت قريحته بأرق الأشعار، وقام على أطلالها نادباً باكياً، فعلم الشعراء كيف يكون الوقوف والبكاء على الأطلال.</tei:p>
@@ -1132,7 +1132,7 @@
             <tei:p change="#d2e73">مصر وسورية قطران شقيقان، وبلدان متاخمان. يجمعهما التاريخ وتربطهما اللغة والعادات والتقاليد. ولقد أصبح الأدب، أشد رابطة بينهما من صلة النسب.</tei:p>
             <tei:p change="#d2e73">نحن في عصر كثرت فيه المزاحمة، واشتدت المنافسة، حتى كادت كل أمة تخشى أن تمشي وحدها، فعاهدت وحالفت للتضافر والتآزر في سيرها العمراني.</tei:p>
             <tei:p change="#d2e73">وكل شيء يمهد للقطرين المصري والسوري سبل التعاهد والتحالف، ليسيرا جنباً إلى جنب في مدارج الرقي، ولا يخفى على أحد ما في ذلك من الفوائد الجمة.</tei:p>
-            <tei:p change="#d2e73">زار الأمير محمد علي ربوع الشام، وقد عرفت الشام ما بينها وبين مصر، فنهضت نهضة واحدة لتكرم مثوى الأمير المصري، وهي تكرم في شخصه الكريم كل سكان وادي النيل.</tei:p>
+            <tei:p change="#d2e73">زار <persName>الأمير محمد علي</persName> ربوع الشام، وقد عرفت الشام ما بينها وبين مصر، فنهضت نهضة واحدة لتكرم مثوى الأمير المصري، وهي تكرم في شخصه الكريم كل سكان وادي النيل.</tei:p>
             <tei:p change="#d2e73">ولائم ومآدب، وخطب وقصائد، وجموع هازجة، وجماهير مهللة، في بيروت ولبنان ودمشق وحمص وحماه وحلب وطرابلس وفي كل مدينة حلها الأمير ضيفاً كريماً على السوريين.</tei:p>
             <tei:p change="#d2e73">أمراء عظام، وضيوف أعلام زاروا سورية قبل الدستور وبعده، فاستقبلتهم الحكومة استقبالاً</tei:p>
             <tei:p change="#d2e73">رسمياً، ولكن لم يحتفل بهم الأهالي
@@ -1222,7 +1222,7 @@
             <tei:p change="#d2e73">صدى الآلات العازفة ينشف الأسماع ويجلو هموم الصدور، ودمدمة الأمواج رامزة إلى أن البحر ثائر لتقيده بسلاسل حجرية، والشمس آخذة في الأفول وهي كقبة من نار مشتعلة في الأفق الغربي. فملنا إثر ذاك الاستنتاج عن سماع العزف واعرضنا عن ذينك الجمالين واستقبلنا الشفق فانطلقت من صدرنا نفسة وقلنا:</tei:p>
             <tei:p change="#d2e73">إنك الجمال أيها الشفق الطبيعي الذي لن تنال يد الإنسان ولن تدعها أنت تصل إليك وإنك لمتمثل فعلاً في ابنة الكوخ والزهرة وهي في الحقل</tei:p>
             <tei:p change="#d2e73">- الإسكندرية</tei:p>
-            <tei:p change="#d2e73">حنا صاده</tei:p>
+            <byline change="#d2e198"><persName>حنا صاده</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="section">
             <head>أزهار وأشواك</head>
@@ -1269,7 +1269,7 @@
          </tei:div>
          <tei:div change="#d2e64" type="section">
             <head>حديقة الأخبار</head>
-            <tei:p change="#d2e73">- في  <tei:num type="auto-markup" change="#d2e181" value="26" xml:lang="ar">٢٦</tei:num>  مارس مثلت الجمعية الحمصية في ملعب أكاديمي أوف موزيك في بروكلين (أمريكا) رواية جنفياف وفي  <tei:num type="auto-markup" change="#d2e181" value="9" xml:lang="ar">٩</tei:num>  من الشهر الغابر مثل المنتدى السوري الأمريكي في نيويورك رواية ثارات العرب من قلم المرحوم الشيخ نجيب الحداد. فالمهاجرون ينشرون اللغة العربية في أقاصي المعمور.</tei:p>
+            <tei:p change="#d2e73">- في  <tei:num type="auto-markup" change="#d2e181" value="26" xml:lang="ar">٢٦</tei:num>  مارس مثلت الجمعية الحمصية في ملعب أكاديمي أوف موزيك في بروكلين (أمريكا) رواية جنفياف وفي  <tei:num type="auto-markup" change="#d2e181" value="9" xml:lang="ar">٩</tei:num>  من الشهر الغابر مثل المنتدى السوري الأمريكي في نيويورك رواية ثارات العرب من قلم المرحوم الشيخ <persName>نجيب الحداد</persName>. فالمهاجرون ينشرون اللغة العربية في أقاصي المعمور.</tei:p>
             <tei:p change="#d2e73">- للكاتب التركي عزت مليح بك رواية تمثيلية اسمها ليلى وقد نقلت إلى اللغة الإسبانية ومثلت في الشهر الغابر في مكسيكو وقد أثنت جرائد البلاد كثيراً على هذه الرواية ومؤلفها الشرقي لإجادته في تنسيق مشاهدها وتمثيل العادات الشرقية.</tei:p>
             <tei:p change="#d2e73">- مثلت رواية عنتر تأليف شكري أفندي غانم ستين مرة في باريس في ملعب الأوديون وكانت القاعة كل مرة غاصة بالحاضرين، واضطر مدير الملعب إلى إيقاف تمثيلها بسبب ارتباطه مع بعض المؤلفين لتمثيل رواياتهم هذه السنة.</tei:p>
             <tei:p change="#d2e73">- في  <tei:num type="auto-markup" change="#d2e181" value="17" xml:lang="ar">١٧</tei:num>  أبريل مثل فريق من تلامذة المدرسة المارونية في مصر رواية اللصوص من قلم مدير هذه المجلة فأجادوا كثيراً.</tei:p>

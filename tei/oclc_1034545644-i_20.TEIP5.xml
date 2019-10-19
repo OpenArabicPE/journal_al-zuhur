@@ -54,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+      <revisionDesc><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
@@ -160,7 +160,7 @@
 يسبح به حتى أبلغه الشاطئ فسقطا جميعاً فتولى الناس أمرهما حتى أفاقا فمشى الغريق إلى صاحبه يتمسح به ويتوجع له كأنما يشكر له يده عنده ويعتذر له عن ذنبه إليه، ثم انفض الجميع وبقي الرجل وحده فلبس ثيابه ومشى يتحامل على نفسه إلى شجرات كن على الشاطئ، فأخذ يقتطف بعض زهورها ويضعها في منطقته كأنما يريد أن يجعلها لتلك الحادثة تذكاراً فتركناه على حاله وعدنا إلى المنزل صامتين وقد فاتنا ما كنا عزمنا عليه من زيارتك في قريتك.</tei:p>
             <tei:p change="#d2e73">لا أستطيع أن أكتب إليك اليوم يا ماجدولين شيئاً غير هذا فلقد أصبحت لا أذكر تلك الحادثة إلا واجد لذكراها من الأثر في نفسي ما يخيل لي أنها حاضرة بين يدي وربما كتبت إليك فيما بعد والسلام -</tei:p>
             <tei:p change="#d2e73">سوزان</tei:p>
-            <tei:p change="#d2e73"><persName>مصطفى لطفي المنفلوطي</persName></tei:p>
+            <byline change="#d2e198"><persName>مصطفى لطفي المنفلوطي</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>بينهما</head>
@@ -224,7 +224,7 @@
                   <tei:seg>صنعه كان أعظم الأسرار</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">خليل مطران</tei:p>
+            <byline><persName>خليل مطران</persName></byline>
             <tei:p change="#d2e73">يقول الغد في نفسه: لو علم هذا</tei:p>
             <tei:p change="#d2e73">الجامع أنه يجمع للوارث، وهذا</tei:p>
             <tei:p change="#d2e73">الباني إنه يبني للخراب، وهذا</tei:p>
@@ -281,7 +281,7 @@
 وإلى أين في الفضاء مصيرها؟</tei:p>
             <tei:p change="#d2e73">ضموا إلى شفاهكم الأقلام وإلى قلوبكم الطروس! دعوها تنطق يأساً باسم قلعة بعلبك، ثم حطموها وإن كانت غالية، ومزقوها وإن كانت شطراً من الأرواح!</tei:p>
             <tei:p change="#d2e73">الزمان يتابع سيره ويل التربة تدوسها قدمه! هناك تتراكم الزلازل وتفيض البحار، هناك يشعر الإنسان بأنه عبد لحظات الأقدار، وأن عينيه لا ترفان من الكون غير سواد الليل واسوداد النهار. . .</tei:p>
-            <tei:p change="#d2e73">مي</tei:p>
+            <byline change="#d2e198"><persName>مي</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>رسائل غرام</head>
@@ -319,7 +319,7 @@
             <tei:p change="#d2e73">أود كثيراً أن أطيل رسائلي إليك. لو استطعت لجعلت اليوم خمساً وعشرين ساعة وأنفقته في مناجاتك عن بعد. كما أنا أغار من رسائلي لأنها تستطيع الوصول إليك وأما أنا فكالطير المقصوص الجناح.</tei:p>
             <tei:p change="#d2e73">حبيبتك حتى الموت</tei:p>
             <tei:p change="#d2e73">دورثي</tei:p>
-            <tei:p change="#d2e73">بقلم سليم عبد الأحد</tei:p>
+            <byline change="#d2e198">بقلم <persName>سليم عبد الأحد</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>غرائب امريكا</head>
@@ -365,11 +365,11 @@
 أمور هذه الفئة أن الفدية تدفع ودافعوها لا يعرفون مستلميها ولا مرقهم ولا يرون لهم وجهاً. وكثيراً ما ضجت الجرائد لاستئصال هذه الآفة إلا أنها كالنافخ في البوق بين الأموات. . .</tei:p>
             <tei:p change="#d2e73">هذا قليل من كثير مما يجري في بلاد تكاد البلاد الأخرى تتخذها منزل آلهة التمدن الحديث. وإذا قيل أين حكومتها وأين بوليسها وأين ما يقال عن عدلها وقسطها؟ قلت حكومتها موجودة، وبوليسها موجود، ولكنها الوحيدة بين الحكومات في العالم التي اتخذت مبدأها الوحيد توفير ثروة البلاد وجعل شعبها وأممها وبلاد أغنى شعوب أمم وبلاد العالم على الإطلاق، وإلى غير هذه الوجهة لا تنظر، منصرفة أكثر الانصراف عن بقية الوجوه الأخرى. وإذا كان جمع المال غاية المرء عميت عيناه وبصيرته عن سائر الغايات.</tei:p>
             <tei:p change="#d2e73">وعندهم أيضاً ما يعرف بتجارة الرقيق الأبيض وهي تجارة ذات شركات في كثير من البلاد الأمريكية تستجلب من البلاد الأوروبية كل رشيقة القد أسيلة الخد تبيعها من تجار الحسن وتبالغ في طلب الثمن المختلف لا باختلاف درجات الجمال فقط بل باختلاف الجنسية فلكل جنس عندهم ثمن معروف. والإفرنسية أغلى الفتيات ثمناً وأرفعهن مقاماً وأكثرهن رواجاً. وقد اهتمت الحكومة الأمريكية في العامين الماضيين اهتماماً مشكوراً لاصطلام هذه الآفة إلا أنها لم تؤت نجاحاً يذكر. ولا يزال مؤلفو هذه الشركات يتابعون هذه التجارة الرابحة والمدنية الحقيقة تنظر كل ذلك وتلطم خديها بيديها.</tei:p>
-            <tei:p change="#d2e73">- العامري
+            <byline change="#d2e198">- العامري
 <pb n="n2-p477" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1037.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="section">
             <head>في رياض الشعر</head>
@@ -622,7 +622,7 @@
                   <tei:seg>ت فقد عاد سالماً للتراب</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">إسماعيل صبري</tei:p>
+            <byline><persName>إسماعيل صبري</persName></byline>
             <tei:p change="#d2e73">الساعة الدقاقة</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
@@ -660,7 +660,7 @@
                   <tei:seg>فيبكي الطاس والكاس</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73"><persName>ولي الدين يكن</persName></tei:p>
+            <byline><persName>ولي الدين يكن</persName></byline>
             <tei:p change="#d2e73">رائعة المشيب</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
@@ -766,8 +766,8 @@
                </tei:l>
             </lg>
             <tei:p change="#d2e73">صدّاح أن تقبله فانشد أخاك * نلت مناك * روحي فداها وحياتي فداك</tei:p>
-            <tei:p change="#d2e73"><persName>بشارة الخوري</persName></tei:p>
-            <tei:p change="#d2e73"><persName>صاحب جريدة <tei:title level="j" change="#d2e193">البرق</tei:title></persName></tei:p>
+            <byline><persName>بشارة الخوري</persName></byline>
+            <byline><persName>صاحب جريدة <tei:title level="j" change="#d2e193">البرق</tei:title></persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>رصاص دم دم</head>
@@ -848,11 +848,11 @@
             <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="19" xml:lang="ar">١٩</tei:num>  منهم آباؤهم عجّز لا يستطيعون عملاً ما</tei:p>
             <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="10" xml:lang="ar">١٠</tei:num>  منهم آباؤهم لا عمل لهم</tei:p>
             <tei:p change="#d2e73">فمن مقارنة أرقام هذه الجداول ترى نسبة عدد الأحداث المجرمين إلى الأحوال التي وجدوا فيها. وهناك أمور كثيرة تختص بهذه المحاكم سنعود إليها في العدد القادم.</tei:p>
-            <tei:p change="#d2e73"><persName>توفيق جريديني</persName>
+            <byline change="#d2e198"><persName>توفيق جريديني</persName>
 <pb n="n2-p489" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1049.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="section">
             <head>أزهار وأشواك</head>

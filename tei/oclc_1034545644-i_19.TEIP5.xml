@@ -54,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+      <revisionDesc><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
@@ -137,11 +137,11 @@
             <tei:p change="#d2e73">فالدين من أشد المؤثرات على الأفعال وهو الضابط لكثير من الشرور والقبائح والمانع لضروب من المفسدات والجرائم.</tei:p>
             <tei:p change="#d2e73">فإن عجز البيت عن إتمام واجباته فقد أعظم العوامل في تربية الولد فتقع إذ ذاك المسؤولية على أولياء الأمور وقد يعجز هؤلاء في أغلب الأحيان عن القيام بأعباء ما يلقى إليهم من إتمام واجبات آباء أهملوا شأن أولادهم. وقد رأينا أن الحكومة في الماضي كانت تعامل أولاداً كهؤلاء معاملة البالغين تماماً متغاضية عن البون الشاسع بين الفريقين. ولكنها قد أفاقت من غفلتها وسرى إليها حب السعي والإقدام والقيام بالواجب فسعت في هذه الأيام لتخفيف ويلات الأحداث غير البالغين فأصدرت لذلك في أكثر الممالك المتمدنة القوانين والنظامات بمنع تشغيل الحدث كالرجل لاسيما في المعامل والمعادن. فقامت عليها قيامة أصحاب المعامل والمعادن فأصلتهم حرباً عواناً دارت عليهم بها الدائرة. ولما رأت أن هذا لا يعد إصلاحاً تاماً عاودت الكرة فكانت هذه أشد من الأولى لأنها عرفت أصل الفساد ومنبع الشرور فأعدت لذلك سبيلاً إذ أنشأت محاكم خصوصية للنظر في شؤون الأحداث وطرق إصلاحهم فكان ذلك من أجل ما فعلته لإصلاح الأحداث.</tei:p>
             <tei:p change="#d2e73">هذه هي المحاكم التي نحن بصددها الآن وسنأتي على تفصيلها وبيان أحوالها في العدد الثاني إن شاء الله.</tei:p>
-            <tei:p change="#d2e73"><persName>توفيق جريديني</persName>
+            <byline change="#d2e198"><persName>توفيق جريديني</persName>
 <pb n="n2-p402" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P962.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>رسائل غرام</head>
@@ -184,8 +184,8 @@
 (بعد أسبوع)</tei:p>
             <tei:p change="#d2e73">مولاي. . . طلبت إلي جان أن أكمل هذه الرسالة وأبعث بها إليك فقد علمت عنوانك ولاشك أنك تود الوقوف على خبر منها. مسكينة جان! إنها تحبك حتى الموت وتزدري العالم كله من أجلك. مضى عليها يومان وهي في غيبوبة لا تشعر معها بشيء وتراني جالسة إلى سريرها أذرف العبرات ولكنني أتجلد قدامها وأتعلل بالآمال. قلت لها أول البارحة إن الطبيب شديد الأمل بشفائك فابتسمت ابتسامة ازدراء وأدارت رأسها على</tei:p>
             <tei:p change="#d2e73">وسادتها كأنها تقول: أنا أخبر بنفسي من الطبيب حقاً لو تراها اليوم لأدهشك كم قد غيرها الزمان. ليتك تحضر وتشاهدها فلعل رؤيتك تعيد إليها شيئاً من الحياة. . .</tei:p>
-            <tei:p change="#d2e73">(بقلم سليم عبد الأحد)</tei:p>
-            <tei:p change="#d2e73">مدام ستايل</tei:p>
+            <tei:p change="#d2e73">(بقلم <persName>سليم عبد الأحد</persName>)</tei:p>
+            <byline change="#d2e198">مدام ستايل</byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>الحرب اليونانية العثمانية</head>
@@ -328,11 +328,11 @@
 
 لم يهتدوا إلى تبويب وتدوين قواعدها وقوانينها إلا بعد توطئة نوابغ نحويي الإسلام للطريق. وبعد ما ألف سيبويه كتابه وجمع أبو عبيد غريبه ورتب الراغب مفرداته حملت بعض أساتذة اليهود الغيرة على الاقتداء بهم. وقد سهل ذلك عليهم ما بين اللغتين من التقارب والتشابه فلما استهل عند الإفرنج قمر المعارف صار لاهوتيوهم يأخذون من علماء اليهود تفسير التوراة. وبتقفية الآثار تدرجوا إلى الموارد العربية فأصبح كل من يرغب في الوقوف على حقائق معاني التوراة طالباً للعربية لا يستغني عن طرف منها. فالسبب الأصلي في تأسيس أستاذيات اللغة العربية عند الإفرنج هو ديني صرف أضيف إليه ما كان اشتهر من حذق أطباء العرب وحكمائهم ومنجميهم وأنه لم يزل عندهم متون أئمة اليونان القدماء وشروحها وكان طلبة الطب عندنا قبل  <tei:num type="auto-markup" change="#d2e181" value="250" xml:lang="ar">٢٥٠</tei:num>  سنة يضطرون إلى حضور دروس مدرس العربية. ثم عندما بلغت حرية الأفكار ما بلغت وأنتجت علوم جديدة تنقر عن الإنسان من حيث هو إنسان وتبحث عن مصادر السياسات والأديان وتاريخ الممالك</tei:p>
             <tei:p change="#d2e73">والبلدان واختلاف الأنواع باختلاف الزمان والمكان لم يخف على المتبحرين في هذه العلوم اتساع الممالك الإسلامية وعظم ما تشتمل عليه من الموارد اللازمة لأشغالهم من آثار متواثرة وعوائد غير محل بها ومذاهب متشعبة وطرائق متفاوتة فازدادوا رغبة في الحصول على الآلات التي تمكنهم من الاكتشاف عن خفايا التاريخ وهؤلاء لابد لهم من الاستشراق.</tei:p>
-            <tei:p change="#d2e73">- مرغليوث
+            <byline change="#d2e198">- مرغليوث
 <pb n="n2-p417" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P977.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>في حدائق العرب</head>
@@ -394,7 +394,7 @@
          </tei:div>
          <tei:div change="#d2e64" type="section">
             <head>في رياض الشعر</head>
-            <tei:p change="#d2e73"><persName>أمين بك ناصر الدين</persName></tei:p>
+            <byline><persName>أمين بك ناصر الدين</persName></byline>
             <tei:p change="#d2e73">رئيس تحرير جريدة <tei:title level="j" change="#d2e193">الصفاء</tei:title></tei:p>
             <tei:p change="#d2e73">صاحب هذا الرسم هو صاحب تلك القصائد الجميلة التي نشرتها الزهور في بعض أعدادها السابقة، والتي ما برحت تنشر منها إلى اليوم ما توقفت إليه. وهو الشاعر الذي قلنا عنه يوم نقلنا لقرائنا قصيدته شاعر يناجي صورة إنه معروف في سورية ولبنان ومجهول في مصر،
 <pb n="n2-p420" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P980.xhtml"/>
@@ -679,7 +679,7 @@
                </tei:l>
             </lg>
             <tei:p change="#d2e73">عطبره (السودان)</tei:p>
-            <tei:p change="#d2e73">محمد فاضل</tei:p>
+            <byline><persName>محمد فاضل</persName></byline>
             <tei:p change="#d2e73">الشرق والغرب</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
@@ -857,7 +857,7 @@
                   <tei:seg>فأي جواب للذي ما له قلب؟</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">رشيد نخلة</tei:p>
+            <byline><persName>رشيد نخلة</persName></byline>
             <tei:p change="#d2e73">الفل</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
@@ -870,7 +870,7 @@
                   <tei:seg>وردة تحمل فلا</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">خليل مطران</tei:p>
+            <byline><persName>خليل مطران</persName></byline>
             <tei:p change="#d2e73">أصابح العاج</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
@@ -954,7 +954,7 @@
 
 
 يرى ملك حلب مستخرجاً من النهر ومعلقاً برجليه يتدفق من فيه ما كان يظن أنه ابتلعه من الماء.</tei:p>
-            <tei:p change="#d2e73">القس جرجس منش</tei:p>
+            <byline change="#d2e198"><persName>القس جرجس منش</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>المعلوم والمجهول</head>
@@ -970,12 +970,12 @@
 
 
 أمن أجلي كل هذا. كلا. بل حدادك على أختك الغزالة. أنا أضيع فيك من دمعة على خد مهجور. أنا أهون على الدهر من ذرة من ذراتك ضلت بين ثنيات الأثير. . .</tei:p>
-            <tei:p change="#d2e73"><persName>ولي الدين يكن</persName></tei:p>
+            <byline change="#d2e198"><persName>ولي الدين يكن</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="section">
             <head>أزهار وأشواك</head>
             <tei:p change="#d2e73">إقرار ومتاب</tei:p>
-            <tei:p change="#d2e73">هذا هو عنوان القصيدة التي أشرت إليها في العدد الماضي أثناء ما رويته عن الحفلة الجميلة التي أقيمت في منزل صديقي سليم سركيس إكراماً لصديقته السيدة نجلا صباغ. فزت بها لأتحف قرائي بعذوبة نظمها وأطربهم ببديع معانيها، وقد شاء خليل مطران منضد دررها أن يخصني بها وهي خير ما أقدمه لقراء الزهور في هذا الشهر. قال خليل متذكراً وما أجمل تذكاراته:</tei:p>
+            <tei:p change="#d2e73">هذا هو عنوان القصيدة التي أشرت إليها في العدد الماضي أثناء ما رويته عن الحفلة الجميلة التي أقيمت في منزل صديقي سليم سركيس إكراماً لصديقته السيدة نجلا صباغ. فزت بها لأتحف قرائي بعذوبة نظمها وأطربهم ببديع معانيها، وقد شاء <persName>خليل مطران</persName> منضد دررها أن يخصني بها وهي خير ما أقدمه لقراء الزهور في هذا الشهر. قال خليل متذكراً وما أجمل تذكاراته:</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>هل تذكرين ونحن طفلان</tei:seg> 

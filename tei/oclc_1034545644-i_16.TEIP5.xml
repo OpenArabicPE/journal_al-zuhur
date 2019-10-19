@@ -54,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+      <revisionDesc><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
@@ -94,7 +94,7 @@
             <tei:p change="#d2e73">ويتم مسح الملكة وتتويجها على نسق ما تقدم.</tei:p>
             <tei:p change="#d2e73">هذا ما جرى في حفلة تتويج الملك جورج الخامس في  <tei:num type="auto-markup" change="#d2e181" value="22" xml:lang="ar">٢٢</tei:num>  من الشهر الفائت، وقد طالع القراء في الصحف اليومية ما جرى من الحفلات الشائقة في بلاد الإنكليز ومستعمراتهم الواسعة احتفالاً بتتويج مليكهم.</tei:p>
             <tei:p change="#d2e73">وفي الشهر الذي يلي التتويج يعين الملك كبير بنيه برنساً لواليس أو ولياً للعهد وهو البرنس إدوارد الذي بلغ السابعة عشرة من عمره.</tei:p>
-            <tei:p change="#d2e73">أما الملك جورج فهو خامس ملوك إنكلترا بهذا الاسم رقي العرش البريطاني في  <tei:num type="auto-markup" change="#d2e181" value="6" xml:lang="ar">٦</tei:num>  مايو من السنة الماضية، وكان مولده في  <tei:num type="auto-markup" change="#d2e181" value="3" xml:lang="ar">٣</tei:num>  يونيو سنة  <tei:num type="auto-markup" change="#d2e181" value="1865" xml:lang="ar">١٨٦٥</tei:num>  وهو ابن الملك إدوارد السابع والملكة ألكسندرة كبرى بنات كريستيان السابع ملك الدانمارك. وهو منذ نعومة أظفاره كثير الميل إلى البحرية وقد انخرط في سلكها وتدرج في رتبها حتى بلغ رتبة أميرال. ولما توفي أخوه الأكبر البرس ده كلارنس أصبح هو ولي العهد سنة  <tei:num type="auto-markup" change="#d2e181" value="1891" xml:lang="ar">١٨٩١</tei:num> .</tei:p>
+            <tei:p change="#d2e73">أما الملك جورج فهو خامس ملوك إنكلترا بهذا الاسم رقي العرش البريطاني في  <tei:num type="auto-markup" change="#d2e181" value="6" xml:lang="ar">٦</tei:num>  مايو من السنة الماضية، وكان مولده في  <tei:num type="auto-markup" change="#d2e181" value="3" xml:lang="ar">٣</tei:num>  يونيو سنة  <tei:num type="auto-markup" change="#d2e181" value="1865" xml:lang="ar">١٨٦٥</tei:num>  وهو ابن الملك <persName>إدوارد السابع</persName> والملكة ألكسندرة كبرى بنات كريستيان السابع ملك الدانمارك. وهو منذ نعومة أظفاره كثير الميل إلى البحرية وقد انخرط في سلكها وتدرج في رتبها حتى بلغ رتبة أميرال. ولما توفي أخوه الأكبر البرس ده كلارنس أصبح هو ولي العهد سنة  <tei:num type="auto-markup" change="#d2e181" value="1891" xml:lang="ar">١٨٩١</tei:num> .</tei:p>
             <tei:p change="#d2e73">وفي  <tei:num type="auto-markup" change="#d2e181" value="6" xml:lang="ar">٦</tei:num>  يوليو سنة  <tei:num type="auto-markup" change="#d2e181" value="1893" xml:lang="ar">١٨٩٣</tei:num>  تزوج بالأميرة فكتوريا ماري كبرى أولاد الدوق أوف تك وهو يكبرها بسنتين. وقد أطلقوا عليها منذ صغرها اسم
 <pb n="n2-p230" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P790.xhtml"/>
 
@@ -247,13 +247,15 @@
                </tei:l>
             </lg>
             <tei:p change="#d2e73">(بغداد)</tei:p>
-            <tei:p change="#d2e73">ساتسنا</tei:p>
-            <tei:p change="#d2e73">الإسباذ والكهونية - كتب إلينا مراسلنا البغدادي يقول: جاء في مقدمة الأستاذ الشرتوني (الزهور ص  <tei:num type="auto-markup" change="#d2e181" value="62" xml:lang="ar">٦٢</tei:num> ) تحمله (تابوت العهد) الإسباذ والكهونية والصحيح تحمله الأصيار أو الأسيار وهي جمع صِيْر أو سِير وهو أسقف اليهود أو حاخامهم الكبير. والكهونية صحيحها الكوهنية وهو جمع كوهن وهو الكاهن بلسان اليهود وقد ذكر هذه الرواية ابن خلدون فيم واضع كثيرة وهو لا يستعمل لفظة كاهن العربية. وبنو خمسان (ص  <tei:num type="auto-markup" change="#d2e181" value="63" xml:lang="ar">٦٣</tei:num> ) صحيحها بنو</tei:p>
-            <tei:p change="#d2e73">حشمناي.
+            <tei:byline><persName>ساتسنا</persName></tei:byline>>
+          </tei:div>
+          <tei:div type="item">
+            <tei:p change="#d2e73">الإسباذ والكهونية - كتب إلينا مراسلنا البغدادي يقول: جاء في مقدمة الأستاذ الشرتوني (الزهور ص  <tei:num type="auto-markup" change="#d2e181" value="62" xml:lang="ar">٦٢</tei:num> ) تحمله (تابوت العهد) الإسباذ والكهونية والصحيح تحمله الأصيار أو الأسيار وهي جمع صِيْر أو سِير وهو أسقف اليهود أو حاخامهم الكبير. والكهونية صحيحها الكوهنية وهو جمع كوهن وهو الكاهن بلسان اليهود وقد ذكر هذه الرواية <persName>ابن خلدون</persName> فيم واضع كثيرة وهو لا يستعمل لفظة كاهن العربية. وبنو خمسان (ص  <tei:num type="auto-markup" change="#d2e181" value="63" xml:lang="ar">٦٣</tei:num> ) صحيحها بنو</tei:p>
+            <byline change="#d2e198">حشمناي.
 <pb n="n2-p242" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P802.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>رسائل غرام</head>
@@ -284,7 +286,7 @@
 هذه الحياة؟ ألم يمنحك الله شباباً وجمالاً وعقلاً وكل ما يتمناه الإنسان في هذا العالم؟ أليس مجال المجد متسعاً أمامك وقلب كل امرأة فدية لك؟ فافرح إذاً لأن الحياة أقصر من أيام البنفسج. افرح لأن عبوستك تزيد في دجى هذا العالم وظلماته. افرح لأن أشعة الابتسام تبدد غيوم الحزن. افرح لأن العزاء الوحيد الباقي لي بعدك هو أن أراك سعيداً في هذه الحياة.</tei:p>
             <tei:p change="#d2e73">سلام عليك من حشاشة ذائبة. سلام عليك من كبد مقروحة. سلام عليك من مقلة دامية. ربما كانت هذه آخر رسائلي إليك فقد أشار علي الأطباء بالابتعاد عن هذه المشاهد التي كيفما التفت تذكرني بك وبأيامنا الماضية.</tei:p>
             <tei:p change="#d2e73">أما أنا فمقيمة على حبك. ثابتة في ولائك. مقسمة أن لا أنساك. . .</tei:p>
-            <tei:p change="#d2e73">سليم عبد الأحد</tei:p>
+            <byline change="#d2e198"><persName>سليم عبد الأحد</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>التعليم الإجباري</head>
@@ -316,7 +318,7 @@
 
 
 أما الجواب عن الاعتراض الثاني فهو أن أشد احتياج الفلاح لمساعدة أولاده له إنما يكون في زمن زرع القطن وخله وجمعه. وكل ذلك الزمن لا تزيد مدته عن الثلاثة الأشهر فما على الحكومة إلا أن تجعل تلك الأيام أيام الإجازات المدرسية فيربح فيها التلميذ عقله من عناء الدروس، ويروض عضلاته بالأشغال الزراعية. على أنه إذا كان لابد للفلاح من يد تعينه على عمله متى كان أولاده بعيدين عنه في المدارس فإن له من أيدي بناته تلك المعونة المطلوبة، إلى أن تسمح الأحوال بأن يشمل التعليم الإجباري صبيان مصر وبناتها.</tei:p>
-            <tei:p change="#d2e73">هند إسكندر عمون</tei:p>
+            <byline change="#d2e198"><persName>هند إسكندر عمون</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="section">
             <head>في رياض الشعر</head>
@@ -491,7 +493,7 @@
                   <tei:seg>بهواها وليس تعلم شيا</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">رشيد نخلة</tei:p>
+            <byline><persName>رشيد نخلة</persName></byline>
             <tei:p change="#d2e73">مجد العرب</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
@@ -687,11 +689,11 @@
 والصكوك معروف للملوك قبل الإسلام وبعده، وقد ثبت في الصحيحين أن النبي صلى الله عليه وسلم أراد أن يكتب إلى قيصر، فقيل له أن العجم لا يقبلون كتاباً إلا أن يكون مختوماً، فاتخذ خاتماً من فضة ونقش فيه محمد رسول الله. قال البخاري جعل الثلاث كلمات في ثلاث أسر وختم به وقال لا ينقش أحد مثله. وقد تختم به أبو بكر وعمر وعثمان.</tei:p>
             <tei:p change="#d2e73">الطراز - من أبهة الملك والسلطان ومذاهب الدول أن ترسم أسماؤهم أو علامات تختص بهم في طراز أثوابهم المعدة للباسهم من الحرير والديباج أو الأبريسم تعتبر كتابة خطها في نسج الثوب ألحاماً وسدى بخيط الذهب أو ما يخالف لون الثوب من الخيوط الملونة من غير الذهب على ما يحكم الصناع في تقدير ذلك ووضعه في صناعة نسجهم، فتصير الثياب الملوكية معلمة بذلك الطراز قصداً للتنويه بلابسها من السلطان فمن دونه، أو التنويه</tei:p>
             <tei:p change="#d2e73">بمن يختصه السلطان بملبوسه إذا قصد تشريفه. . . وكان ملوك العجم من قبل الإسلام يجعلون ذلك الطراز بصور الملوك وأشكالهم أو أشكال وصور معينة لذلك. ثم اعتاض ملوك الإسلام عن ذلك بكتب أسمائهم مع كلمات أخرى تجري مجرى الفال أو السجلات. . . . وكان الدور المعدة لنسج أثوابهم في قصورهم تسمى دور الطراز. وكان القائم على النظر فيها يسمى صاحب الطراز. . .</tei:p>
-            <tei:p change="#d2e73">(باختصار عن ابن خلدون)
+            <byline change="#d2e198">(باختصار عن <persName>ابن خلدون</persName>)
 <pb n="n2-p257" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P817.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>ألفرد ده موسه</head>

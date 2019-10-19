@@ -54,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+      <revisionDesc><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
@@ -121,7 +121,7 @@
 
 
 أتيتِ نقيةً , وتذهبين نقية , كتقطرة الطَلّ على ورقةٍ من الورد , تلمعُ بكرةً , ولا تلبث أن تُستطار بخارأً. بين نوحات الثاكلات , وترجيع الحمائم بالأسحار , وبكاءِ السماءِ , وابتسام الأرض تضادٌّ يغيظ الموجَع. لا أشكو بثي فيكِ؛ ولكني استبقيه لأعتصرَ منهُ ذوبَ الشجون , ولأخاطبَ بهِ نفسي ناصحاً كلما غلبت عليها غفلات هذه الدار , وكادت تكون لها فتنة. لا أستطيع دفعاً لشيء يسوقهُ المقدور , ولكني وفيٌّ أضمن لكِ ألاَّ يلتام جرح يومك هذا. تزولين أنتِ وتبقى ذكراكِ. كذاك الحياة , تزول الهيولى وتبقى الصوَر. . .</tei:p>
-            <tei:p change="#d2e73"><persName>ولي الدين يكن</persName></tei:p>
+            <byline change="#d2e198"><persName>ولي الدين يكن</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>الأغاني في الحروب</head>
@@ -193,7 +193,7 @@
 
 
 إلى اللهو والزهو والخلاعة , كالرومان في آخر عهدهم. فنقلها عنهم الحضر وسكان المدن. ولكنَّ أَهلَ البادية والجبال ظلُّوا على ما كان عليهِ آباؤهم , ولا يزالون على ذلك حتى الآن في غنائهم وعيشتهم وتقاليدهم وفخارهم وشجاعتهم. فإذا أردنا العود إلى مجدنا فلنعد إلى صلب الشعب في بواريهِ وقفاره , حيث نجد الكرّم والجود والشجاعة والحماسة والنبل والشرف والعزّة والآنفة.</tei:p>
-            <tei:p change="#d2e73">داود بركات</tei:p>
+            <byline change="#d2e198"><persName>داود بركات</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>الجامعة المصرية</head>
@@ -232,11 +232,11 @@
 
 
 السعادة حسين رشدي باشا وأحمد شفيق باشا وعبد الخالق ثروت باشا. ثم قرروا باتفاق الآراء أن يعهدوا في الرئاسة إلى البرنس يوسف كمال باشا والرئيس الجديد خير خلف لخير سلف. فهو منشئ مدرسة الفنون الجميلة , وصاحب الأيادي البيضاء على الجامعة ونادي المدارس العالية. فقد وهب الجامعة مئة فدان , وأعطى النادي قطعة أرض مساحتها  <tei:num type="auto-markup" change="#d2e181" value="1200" xml:lang="ar">١٢٠٠</tei:num>  متر في الجيزة , وتبرع بمبلغ ألفي جنيه لبناء دار للنادي في هذه الأرض , وتعهد بإنشاء مكتبة للنادي عهد في ترتيبها لحضرة حيدر بك فاضل شناسي. وقد أعلن خبر هذه المنحة السنية سعادة أحمد باشا زكي على ملأِ من الأدباء والأفاضل في جلسة عقدت بنزل الكونتيننتال , وختم خطبته بقوله أن الأمير يوسف كمال أصبح بعطيته خليقاً بأن يلقب بحامي المعارف والآداب , ونصير الأساتذة والطلاَّب ولا تزال الحكومة ثابتة على رأيها الذي أبدته منذ سبع سنوات , وصرّح بهِ فخامة اللورد كرومر في أحد تقاريره وهو أنه لم يحن الوقت الذي يكون فيهِ للمصريين مدرسة جامعة وقد تناقلت الألسنة إشاعة فحواها أن فخامة اللورد كتشنر خاطب دولة البرنس فؤاد في ضم الجامعة إلى الحكومة أو جعلها تحت إشراف نظارة المعارف. فلم يوافقهُ الأمير على هذا الطلب. ولكن الكثيرين يؤكدون أنه لابد من ضم هذا المعهد العلمي الكبير إلى الحكومة آجلاً أو عاجلاً , فيصبح على جانب مدارس الطب والحقوق والهندسة والزراعة مدرسة للعلوم الأدبية يتخرَّج منها أدباء بديبلومات!!</tei:p>
-            <tei:p change="#d2e73"><persName>توفيق حبيب</persName>
+            <byline change="#d2e198"><persName>توفيق حبيب</persName>
 <pb n="n4-p189" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1871.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="section">
             <head>في رياض الشعر</head>
@@ -501,7 +501,7 @@
                   <tei:seg>تصدَّى الزمانُ لإنكارِها</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">داود عمون
+            <tei:p change="#d2e73"><persName>داود عمون</persName>
 <pb n="n4-p192" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1874.xhtml"/>
 
 
@@ -614,7 +614,7 @@
                   <tei:seg>حتى يسودَ كبيرَهنَّ الأصغرُ</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">إسماعيل صبري</tei:p>
+            <byline><persName>إسماعيل صبري</persName></byline>
             <tei:p change="#d2e73">سكر صبابة</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
@@ -632,7 +632,7 @@
                   <tei:seg>بة وهي في عينيكَ سكري</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">خليل مطران</tei:p>
+            <byline><persName>خليل مطران</persName></byline>
             <tei:p change="#d2e73">دمعة على الشباب</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
@@ -726,11 +726,11 @@
                </tei:l>
             </lg>
             <tei:p change="#d2e73">في عالم أحلامُهُ غرورٌ</tei:p>
-            <tei:p change="#d2e73">سليم عبد الأحد
+            <byline change="#d2e198"><persName>سليم عبد الأحد</persName>
 <pb n="n4-p198" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1880.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>أسباب الحرب البلقانية</head>
@@ -761,7 +761,7 @@
 
 
 الحقد القديم في صدور أهل ذاك الجبل أيضاً وهو: إذا نشبت الحرب بيننا وبين الأتراك فلا يجوز لأحد من أل الجبل أن يترك ساحة القتال إلا بأمر رئيسه. وكلّ من يفرّ أمام الترك يفقد شرفه إلى الأبد ويُصبح محتقراً منبوذاً من آلهِ , ثمَّ يُلبس ثوب امرأة ويُعطى مغزلاً ليشتغل بهِ مع النساء , وتعمد النسوة أنفسهنَّ إلى طرده كما يطرد الجبان الذي يخون وطنه وهنا ندع القارئ يفكر في الحالة النفسية التي كان فيها أعداء تركيا يوم ساروا إلى الحرب وهم يؤملون النصر.</tei:p>
-            <tei:p change="#d2e73">يوسف البستاني</tei:p>
+            <byline change="#d2e198"><persName>يوسف البستاني</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>سفراء الدول</head>
@@ -802,7 +802,7 @@
 
 
 لأن اللورد سولسبري وهو يومئذٍ وزير الانكليز عدَّ فعل الرئيس إهانة لسفيره فلم يعيّن سفيراً بدله حتى انتهت الانتخابات الأميركية وخرج كليفلاند من منصب الرئاسة. هذا الذي لا يجوز للسفراء وأما الذي يجوز فأكثر منهُ كما رأيت وليس في الأرض فئة أخرى تتنعم بكل هذه النعمة وهذا الامتياز في ديار المتدنين.</tei:p>
-            <tei:p change="#d2e73">اسكندر شاهين</tei:p>
+            <byline change="#d2e198"><persName>اسكندر شاهين</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>الأندلس الجديدة</head>
@@ -1375,12 +1375,12 @@
                   <tei:seg>واجعلِ الرسمَ من لجسمِ خَلَفْ</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">الشيخ إبراهيم اليازجي</tei:p>
+            <tei:p change="#d2e73">الشيخ <persName>إبراهيم اليازجي</persName></tei:p>
             <tei:p change="#d2e73">محطة مصر في الرابع من الشهر الجاري وداعاً لعظامٍ بالية كانت تحييها بالأمس روح نابغة من نوابغ كتَّابنا , وقد أتى جمهورٌ من الأدباءِ والوجهاء
 <pb n="n4-p219" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1901.xhtml"/>
 
 
-والفضلاء في مصر يشيعون تلك العظام بتجلة وإكرام كما يُشيَّع الأمراءِ والملوك , واحتشدوا يبكون سليل الأسرة اليازجية ويعدون فضلهُ ومناقبهُ. افتتح التآبين والمرائي سعادة أحمد باشا زكي سكرتير مجلس النظار فأطنب في مدح الفقيد وغيرتهِ على لسان العرب ورثاهُ باسم مصر بكلام فصيح بليغ , ونحا نحوهُ حضرة رفيق بك العظم , فأتى في خطاب جامعٍ على لمحةٍ من تاريخ اللغة العربية ونهضتها منذ نصف قرن على يد أمثال البستاني والنقاش واليازحي والأسير والشدياق. وتكلم على الأثر الدكتور خليل بك سعادة موجّهاً الخطاب إلى الفقيد الكريم وقد أخذ التأثر منهُ ومن الحاضرين مبلغه. ثمَّ ألقى خليل مطران قصيدةً من شعرهِ المعروف بسموّ الأفكار وابتكار المعاني , قال في مطلعها:</tei:p>
+والفضلاء في مصر يشيعون تلك العظام بتجلة وإكرام كما يُشيَّع الأمراءِ والملوك , واحتشدوا يبكون سليل الأسرة اليازجية ويعدون فضلهُ ومناقبهُ. افتتح التآبين والمرائي سعادة أحمد باشا زكي سكرتير مجلس النظار فأطنب في مدح الفقيد وغيرتهِ على لسان العرب ورثاهُ باسم مصر بكلام فصيح بليغ , ونحا نحوهُ حضرة رفيق بك العظم , فأتى في خطاب جامعٍ على لمحةٍ من تاريخ اللغة العربية ونهضتها منذ نصف قرن على يد أمثال البستاني والنقاش واليازحي والأسير والشدياق. وتكلم على الأثر الدكتور خليل بك سعادة موجّهاً الخطاب إلى الفقيد الكريم وقد أخذ التأثر منهُ ومن الحاضرين مبلغه. ثمَّ ألقى <persName>خليل مطران</persName> قصيدةً من شعرهِ المعروف بسموّ الأفكار وابتكار المعاني , قال في مطلعها:</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>أحننتَ من شوقٍ إلى لبنانِ</tei:seg> 

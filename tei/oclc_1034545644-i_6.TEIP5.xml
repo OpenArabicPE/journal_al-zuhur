@@ -54,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+      <revisionDesc><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
@@ -130,11 +130,11 @@
 
 وذكرت في العبرية باسم ماصور وهو مأخوذ من مصرايم. وتعرف في العربية بمصر.</tei:p>
             <tei:p change="#d2e73">أما أسماؤها المتعارفة عند اليونان وفي أوروبا فهي أجيبتوس قال بروكش إنه مشتق من حاكابتاح اسم منف عاصمة الحكومة المصرية القديمة. لأن الأقوام المتوحشة من ملاحي البحر الأبيض كانوا يقيمون في مصر أزماناً طويلة فيسمعون من أهلها اسم عاصمتهم هذا لأنها كانت اكبر مدن مصر وأهمها وأغناها. فنقلوا اسمها إلى بلادهم وحرّفوه إلى اجيبت، وهو الشائع الآن. . . وذهب بكتيت إلى غير ذلك، فقال إن إِ معناه الماشية وجوب معناه الحارس فيكون معناهما الراعي. وقد جعلا اسماً للعقاب تهكماً به، ثم أطلقا على مصر من قبيل التهكم لإغارة الرعاة.</tei:p>
-            <tei:p change="#d2e73">أحمد كمال
+            <byline change="#d2e198"><persName>أحمد كمال</persName>
 <pb n="n1-p242" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P253.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>فرعون وقومه</head>
@@ -339,7 +339,7 @@
                   <tei:seg>إذا هما وزنا يوماً بميزان</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">إسماعيل صبري</tei:p>
+            <byline change="#d2e198"><persName>إسماعيل صبري</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>آثار مصر</head>
@@ -853,7 +853,7 @@
             </lg>
             <tei:p change="#d2e73">بهاء الدين زهير</tei:p>
             <tei:p change="#d2e73">محطة مصر</tei:p>
-            <tei:p change="#d2e73">لما أنشئت محطة القاهرة الكبرى اقترحت الحكومة المصرية على الشعراء نظم أبيات ترسم على جدران المحطة، وجعلت جائزة للذي يحرر قصب السبق، فنال الأفضلية فقيد الأدب المرحوم الشيخ نجيب الحداد. وإليك الأبيات التي يراها المسافر منقوشة على باب المحطة:
+            <tei:p change="#d2e73">لما أنشئت محطة القاهرة الكبرى اقترحت الحكومة المصرية على الشعراء نظم أبيات ترسم على جدران المحطة، وجعلت جائزة للذي يحرر قصب السبق، فنال الأفضلية فقيد الأدب المرحوم الشيخ <persName>نجيب الحداد</persName>. وإليك الأبيات التي يراها المسافر منقوشة على باب المحطة:
 <pb n="n1-p261" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P272.xhtml"/>
 
 
@@ -894,7 +894,7 @@
                   <tei:seg>عنا وأهلاً وسهلاً بالذي قدما</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">نجيب الحداد</tei:p>
+            <byline change="#d2e198"><persName>نجيب الحداد</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>الأزبكية</head>
@@ -966,7 +966,7 @@
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>وصف مصر</head>
-            <tei:p change="#d2e73">في منتصف القرن الغابر زار مصر الكاتب الشهير فارس الشدياق وكتب عنها فصلين ضافيين نشرهما في كتابه الساق على الساق في ما هو الفارياق المطبوع في باريس سنة  <tei:num type="auto-markup" change="#d2e181" value="1855" xml:lang="ar">١٨٥٥</tei:num> م و <tei:num type="auto-markup" change="#d2e181" value="1270" xml:lang="ar">١٢٧٠</tei:num>  هجري على نفقة المرحوم رافائيل كحلا الدمشقي. وعنهما نلخص ما يأتي. وسيرى القارئ أن أكثر هذه الملاحظات لا يزال منطبقاً على أيامنا هذه. قال:</tei:p>
+            <tei:p change="#d2e73">في منتصف القرن الغابر زار مصر الكاتب الشهير <persName>فارس الشدياق</persName> وكتب عنها فصلين ضافيين نشرهما في كتابه الساق على الساق في ما هو الفارياق المطبوع في باريس سنة  <tei:num type="auto-markup" change="#d2e181" value="1855" xml:lang="ar">١٨٥٥</tei:num> م و <tei:num type="auto-markup" change="#d2e181" value="1270" xml:lang="ar">١٢٧٠</tei:num>  هجري على نفقة المرحوم رافائيل كحلا الدمشقي. وعنهما نلخص ما يأتي. وسيرى القارئ أن أكثر هذه الملاحظات لا يزال منطبقاً على أيامنا هذه. قال:</tei:p>
             <tei:p change="#d2e73">مصر بلد الخير، ومعدن الفضل والكرم، أهلها ذوو لطف وأدب وإحسان إلى الغريب، وفي كلامهم من الرقة ما يغني الحزين عن التطريب. إذا حيوك فقد أحيوك، وإن سلموا عليك فقد سلموك. وإن زاروك زادوك شوقاً إلى رؤيتهم، وإن زرتهم فسحوا لك صدورهم فضلاً عن مجالسهم. أما علماؤها فإن مدحهم قد انتشر في الآفاق، وفات فخر من سواهم وفاق،
 <pb n="n1-p264" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P275.xhtml"/>
 
@@ -985,10 +985,10 @@
 <pb n="n1-p266" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P277.xhtml"/>
 
 
-فارس الشدياق</tei:p>
+<persName>فارس الشدياق</persName></tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">
-            <head>نابليون بونابرت في مصر</head>
+            <head><persName>نابليون بونابرت</persName> في مصر</head>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>. . . وأتى النسر ينهب الأرض نهباً</tei:seg> 
@@ -1031,7 +1031,7 @@
                <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e181" value="2" xml:lang="ar">٢</tei:num>  - </hi>سوريا</tei:p>
             <tei:p change="#d2e73">ما بين آسيا الصغرى للشمال، والفرات والبادية للرشق، وقسم من بلاد العرب للجنوب، وبحر الروم للغرب تمتد سورية سلسلة جبالها متدرجة من الغرب حتى تنتهي على بحر الروم، وممتدة من الشرق حتى تلامس نهر الفرات عند شماله ورمال صحراء الشام عند جنوبه. وهذه السلسلة التي تمتد بطولها من آسيا الصغرى حتى بلاد العرب، من طوروس الفاصل حتى الصحراء الجافة، تظهر للناظر بأغرب حركات الطبيعة وأجمل انتساقها، فهي تحاذي خليج إسكندرونة حتى إنطاكية، ثم تتجه نحو الجنوب الشرقي حتى بعلبك، ومن هنالك تتقطع بتلال متتابعة وتمد ذراعيها لتصافح بحر الروم بجبلي لبنان والانتي لبنان.</tei:p>
             <tei:p change="#d2e73">ومن قرب الشاطئ تمد جناحاً كبيراً ينتهي بالكرمل الواقف عمودياً على صفحة الماء، ثم ترتفع على مشهد منه قمة الطور لتسود التلال العديدة الواقفة بعلو متدرج حتى تصل نقطة اختفائها على الأرض القاحلة، على الرمال المحرقة، على الصحراء.</tei:p>
-            <tei:p change="#d2e73">تلك هي</tei:p>
+            <byline change="#d2e198">تلك هي</byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head> سوريا </head>
@@ -1068,11 +1068,11 @@
             <tei:p change="#d2e73">وفي العاشر من تموز سنة  <tei:num type="auto-markup" change="#d2e181" value="1324" xml:lang="ar">١٣٢٤</tei:num>  جاءنا فاتح جديد بلا حملة ولا سيف. جاءتنا فتاة تركية بجناحها الذهبي وابتسامتها الخلابة لتجفف الدموع التي أسالها أبوها القاسي. ظهرت ابنة الترك لتضمد جراح سوريا وقد سبرت الأجيال قروحها إلى أقصاها. أو بالحري جاءتنا فتاة الحرية وهي ابنة العالم كله لا تنتسب لأمة ولا لشعب دون أخيه.</tei:p>
             <tei:p change="#d2e73">جاءت محررة الإنسانية من قيودها ومطلقة للعناصر من أوهامها والأديان من تعصباتها.</tei:p>
             <tei:p change="#d2e73">ملاك في شماله غصن السلام، في يمينه قبس النور نشاهد على شعاعه ما أخفته عنا ظلمات القرون، فلننظر إلى مجاهل أمراضنا نظرة الشجاع إلى جراحه، فإن الحرية لا تشفي ولكنها تعطي العليل حرية الشفاء.</tei:p>
-            <tei:p change="#d2e73">فليكس فارس
+            <byline change="#d2e198"><persName>فليكس فارس</persName>
 <pb n="n1-p272" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P283.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>بيروت ولبنان</head>
@@ -1106,11 +1106,11 @@
                   <tei:seg>وخذوا من ثلجه كفني</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">داود عمون
+            <byline change="#d2e198"><persName>داود عمون</persName>
 <pb n="n1-p275" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P286.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>ذكرى لبنان</head>
@@ -1195,11 +1195,11 @@
                   <tei:seg>يرنو لهن بمقلة الغيران</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">معروف الرصافي
+            <byline change="#d2e198"><persName>معروف الرصافي</persName>
 <pb n="n1-p276" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P287.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>شمالي لبنان</head>
@@ -1326,11 +1326,11 @@
                   <tei:seg>نلت الجنان وحزت عليينا</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">- عيسى إسكندر المعلوف
+            <byline change="#d2e198">- <persName>عيسى إسكندر المعلوف</persName>
 <pb n="n1-p280" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P291.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>طرابلس الشام</head>
@@ -1438,7 +1438,7 @@
                   <tei:seg>ذكراك أن إليك القلب ينحرف</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">مصطفى صادق الرافعي</tei:p>
+            <byline change="#d2e198"><persName>مصطفى صادق الرافعي</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>يافا</head>
@@ -1544,11 +1544,11 @@
             <tei:p change="#d2e73">روى بيشوف الجرماني في تاريخه عن أحد حاخامي اليهود قال: إنه رأى في القلعة كتابة عبرية مفادها (أنا يواب بن سرويا أخذت هذه القلعة). . . ويواب هذا تولى قيادة جيوش داود في سنة  <tei:num type="auto-markup" change="#d2e181" value="1055" xml:lang="ar">١٠٥٥</tei:num>  ق. م فإذا صحت هذه الرواية كانت هذه الكتابة أكثر قدمية من سائر كتابات القلعة، ورجحت ما قاله المحققون من أنها من بنايات الحثيين. وأما الكتابات الباقية فهي عربية لا تتعدى القرن السبع للهجرة.</tei:p>
             <tei:p change="#d2e73">وقد كان يتولى حراسة القلعة نفر من الشعب ويعرفون حتى الآن ببيت القلعجي إلى أن انقرضت وجاقات الإنجكارية وانتظمت أحوال العسكرية، فتولت المحافظة عليها إلى أن عاد أمرها في هذه السنة إلى رجال الملكية. وقد تعاقبت عليها الرجوف والزلازل مرات عديدة يطول إيرادها وآخرها في سنة  <tei:num type="auto-markup" change="#d2e181" value="1822" xml:lang="ar">١٨٢٢</tei:num>  وسنة  <tei:num type="auto-markup" change="#d2e181" value="1872" xml:lang="ar">١٨٧٢</tei:num> ، فتشعثت أسوارها وتهدمت أبراجها، وأصبحت أخربة دارسة وأطلالا بالية. وقد أهمل أمرها من عهد بعيد فعادت إلى ما تشاهد عليه الآن مما سبق وصفه في هذه المقالة فسبحان من بيده تصريف الأمور وإليه</tei:p>
             <tei:p change="#d2e73">المصير.</tei:p>
-            <tei:p change="#d2e73">القس جرجس منش
+            <byline change="#d2e198"><persName>القس جرجس منش</persName>
 <pb n="n1-p294" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P305.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>وصف دمشق</head>
@@ -1727,11 +1727,11 @@
             <tei:p change="#d2e73">وقد ذهب بعض المؤرخين إلى أن معظم سكان تدمر وضواحيها كان في أيام زنوبيا مؤلفاً من العرب بدليل أن أكثر الأسماء الواردة في الكتابات اليونانية القديمة التي وجدت في تدمر عربية محضة ومثلها الكتابات التي وجدوها في حوران فإنها عربية اللفظ والمعنى وإن تكن مكتوبة بأحرف يونانية. وفي بعض التواريخ أن تدمر ظلت في أمن ن غزوات العرب المسلمين دهراً طويلاً ولكنها قاست الشدائد في حروب الأمويين والعباسيين سنة  <tei:num type="auto-markup" change="#d2e181" value="745" xml:lang="ar">٧٤٥</tei:num> م. وما يليها. وقد زارها العالم الفرنساوي فولني سنة  <tei:num type="auto-markup" change="#d2e181" value="1758" xml:lang="ar">١٧٥٨</tei:num>  فوصفها أبدع وصف ومزق ما كان مسدولاً على تاريخها من الحجب الكثيفة وألفت وصفه لها أنظار العلماء والسياح فطفقوا يتقاطرون إليها من كل حدب وصوب لمشاهدة آثارها العجيبة.</tei:p>
             <tei:p change="#d2e73">فحبذا لو كانت حكومتنا الدستورية الجديدة تتمثل بالحكومات الأوروبية فتصرف بعض عنايتها إلى الآثار القديمة الحافلة بها البلاد السورية فإن في جمع هذه الآثار في متاحف</tei:p>
             <tei:p change="#d2e73">خصوصية من الفوائد المادية ما لا يقل قيمة في اعتبار الأمم المتمدنة عما في ذلك من عبر التاريخ البالغة والفوائد الأدبية للبلاد التي تشتمل على آثار جليلة كآثار تدمر وبعلبك ودمشق والقدس وغيرها مما يعرض لنا كل يوم أن نورده مثلاً من الأمثلة العديدة على بلوغ التمدن الشرقي أقصى درجات الكمال في زمن كانت أوروبا تتخبط في دياجي الجهل والانحطاط.</tei:p>
-            <tei:p change="#d2e73">- بولس مسعد
+            <byline change="#d2e198">- <persName>بولس مسعد</persName>
 <pb n="n1-p307" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P318.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>نهر الصفا</head>
@@ -1818,7 +1818,7 @@
 <pb n="n1-p308" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P319.xhtml"/>
 
 
-زار المرحوم الشيخ إبراهيم اليازجي قلعة بعلبك فحفر على باب هيكل باخوس بيتين من الشعر هما:</tei:p>
+زار المرحوم الشيخ <persName>إبراهيم اليازجي</persName> قلعة بعلبك فحفر على باب هيكل باخوس بيتين من الشعر هما:</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>يا بعلبك فريدة الأزمان</tei:seg> 
@@ -2029,7 +2029,7 @@
                   <tei:seg>لتمام أم مطمع في افتخار</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">خليل مطران
+            <tei:p change="#d2e73"><persName>خليل مطران</persName>
 <pb n="n1-p311" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P322.xhtml"/>
 
 
@@ -2054,7 +2054,7 @@
                   <tei:seg>يلقى وحبل على الأهرام منبسط</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">إبراهيم اليازجي</tei:p>
+            <byline change="#d2e198"><persName>إبراهيم اليازجي</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>القطران الشقيقان</head>
@@ -2088,11 +2088,11 @@
             <tei:p change="#d2e73">وبدت النهضة الأدبية في سورية منذ خمسين عاماً، فانتفعت بها مصر: فصحف البستاني ومجلاته وكتبه وقواميسه ودائرة معارفه، ومؤلفات الشدياق، وكتب اليازجي، وتصانيف فانديك، ومطبوعات اليسوعيين والأمريكان وتآليفهم كانت لسورية ومصر معاً. وهذه مجلات مصر وسورية وصحف كلتيهما كأنها مجلات الأخرى وصحفها. وهؤلاء كتاب مصر وسورية وعلماؤها كل واحد منهم كاتب كلا القطرين وعالمه.</tei:p>
             <tei:p change="#d2e73">تصعد الجبل في سورية أو تهبط الوادي، فتسمع المغنين يتغنون بقصيدة شوقي، أو منظومة حافظ، وتطوف الأرجاء هنا، فتسمع الأدباء يتحدثون بمؤلفات اليازجي أو الشرتوني أو البستاني، وتطالع المجلات وفصولها فلا تجد فرقاً بين كاتب مصري ومصنف سوري. وإذا تدرجت في البحث والتنقيب ونزلت إلى صميم الشعب وحياض العامة، رأيت التقاليد بالأغاني والأناشيد والرقص والعزف واللهو والحزن والمآكل والملابس والأفراح والمآتم والأثاث والفرش وتدبير المنزل نقل بعضها أو أكثرها أو كل جديد متقن منها من بر الشام إلى بر مصر، أو من بر مصر إلى بر الشام. فهما في اللغة والرقعة الجغرافية بلد واحد وإن لم تكونا في السياسة كذلك.</tei:p>
             <tei:p change="#d2e73">فإذا كانت الزهور قد أنشئت لزيادة التعارف بين أدباء القطرين وعلماء المصرين، فإنما هي قد رمت إلى غاية جلى وغرض نبيل، قد يكون أقل منافعه سرعان التعارف والترابط بين الأدباء، حتى يزداد الشعبان نفعاً، بها، بفضل لغتهما الواحدة.</tei:p>
-            <tei:p change="#d2e73">داود بركات
+            <byline change="#d2e198"><persName>داود بركات</persName>
 <pb n="n1-p316" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P327.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>تحية الشعراء</head>
@@ -2312,11 +2312,11 @@
                   <tei:seg>و (للخليل) ومن يبقى من الأدبا</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">رشيد مصوبع</tei:p>
+            <byline change="#d2e198"><persName>رشيد مصوبع</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>الحركة الأدبية</head>
-            <tei:p change="#d2e73">كانت سورية في النصف الأخير من القرن الغابر مهد كتاب مشاهير وأدباء أعلام كان لهم اليد الطولى في نهضة اللغة العربية والآداب الرقية، ولما ضاق عليهم هذا المضمار في ربوع الشام، هاجروا زرافات إلى وادي النيل، فكانت الديار المصرية خير مسرح تجلت عليه عرائس أفكارهم وبرزت إليه نفائس خواطرهم. بل وجدوا في تلك الديار التي حلوها على الرحب والسعة تكملة لسليقتهم. وهكذا إذا كانت الشام قد أنبتتهم فإن مصر انتمهم وأنضجت أفكارهم فأنتجت أينع الأثمار بعد أن كانت حملت ألطف الأزهار. وما عهد اليازجي والنقاش والحداد وأديب إسحق وغيرهم ببعيد. وعليه فيصعب على من شاء أن يكتب تاريخ الآداب العربية الحديث أن يفرق بين القطرين ويميز بين كتاب البلدين. وجل الكتاب أن لم نقل كلهم قد نسقوا نسيم لبنان العليل ورشفوا ماء النيل السلسبيل. فيحق لكلا القطرين أن يدعيهم.</tei:p>
+            <tei:p change="#d2e73">كانت سورية في النصف الأخير من القرن الغابر مهد كتاب مشاهير وأدباء أعلام كان لهم اليد الطولى في نهضة اللغة العربية والآداب الرقية، ولما ضاق عليهم هذا المضمار في ربوع الشام، هاجروا زرافات إلى وادي النيل، فكانت الديار المصرية خير مسرح تجلت عليه عرائس أفكارهم وبرزت إليه نفائس خواطرهم. بل وجدوا في تلك الديار التي حلوها على الرحب والسعة تكملة لسليقتهم. وهكذا إذا كانت الشام قد أنبتتهم فإن مصر انتمهم وأنضجت أفكارهم فأنتجت أينع الأثمار بعد أن كانت حملت ألطف الأزهار. وما عهد اليازجي والنقاش والحداد و<persName>أديب إسحق</persName> وغيرهم ببعيد. وعليه فيصعب على من شاء أن يكتب تاريخ الآداب العربية الحديث أن يفرق بين القطرين ويميز بين كتاب البلدين. وجل الكتاب أن لم نقل كلهم قد نسقوا نسيم لبنان العليل ورشفوا ماء النيل السلسبيل. فيحق لكلا القطرين أن يدعيهم.</tei:p>
             <tei:p change="#d2e73">وكانت ريح الاستبداد العاصفة قد شتتت شمل السوريين ونثرتهم في كل أنحاء العالم، فطرحتهم مطارح النوى إلى أقصى بلاد الله، فعرفوا مجاهل أفريقيا ومفاوز
 <pb n="n1-p319" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P330.xhtml"/>
 

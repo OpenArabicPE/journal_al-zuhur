@@ -54,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+      <revisionDesc><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
@@ -147,8 +147,8 @@
             <tei:p change="#d2e73">محمد أفندي كرد علي</tei:p>
             <tei:p change="#d2e73">محمد أفندي مسعود</tei:p>
             <tei:p change="#d2e73">محمد أفندي السباعي</tei:p>
-            <tei:p change="#d2e73">الشيخ محيي الدين الخياط</tei:p>
-            <tei:p change="#d2e73"><persName>السيد مصطفى لطفي المنفلوطي</persName></tei:p>
+            <tei:p change="#d2e73">الشيخ <persName>محيي الدين الخياط</persName></tei:p>
+            <byline><persName>السيد مصطفى لطفي المنفلوطي</persName></byline>
             <tei:p change="#d2e73">نعوم بك شقير</tei:p>
             <tei:p change="#d2e73">نقولا أفندي رزق الله</tei:p>
             <tei:p change="#d2e73">ولي الدين بك يكن</tei:p>
@@ -795,7 +795,7 @@
 قال أحد أدباء الفرنسويين لكل امرئ وطنان: وطنه الأصلي ووطنه باريس فلبيك إذن على باريس كل الناس، فهي وطن كل الناس.</tei:p>
             <tei:p change="#d2e73">من حقها على من أكرمت وفادتهم ورحبت بهم منزلاً، ونثروا عليها التبر وهي حالية، أن يكرموها في مصابها، وأن ينثروا عليها التبر وهي عاطلة.</tei:p>
             <tei:p change="#d2e73">سأبكي باريس مستمداً دموع الغمائم، مستعيناً بعيون النيرات. فإن تنفد الدموع، فإن من الأسى ما يجدده الشوق، وينميه الغرام. سلام على باريس في مصابها. سلام عليها في جلبابها الأسود. وكأنها العذراء بعثت لتدعو العالم إلى السجود. . .</tei:p>
-            <tei:p change="#d2e73"><persName>ولي الدين يكن</persName></tei:p>
+            <byline change="#d2e198"><persName>ولي الدين يكن</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>الغد</head>
@@ -836,11 +836,11 @@
                   <tei:seg>إذا هي ضاعت فالحياة على الأثر</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73"><persName>مصطفى لطفي المنفلوطي</persName>
+            <byline change="#d2e198"><persName>مصطفى لطفي المنفلوطي</persName>
 <pb n="n1-p35" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P48.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>ساعة الوداع</head>

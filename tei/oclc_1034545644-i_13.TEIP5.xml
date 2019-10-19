@@ -54,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+      <revisionDesc><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
@@ -110,7 +110,7 @@
          <tei:div change="#d2e64" type="item">
             <head>إيماءة زائر</head>
             <tei:p change="#d2e73">إلى بعض ما باورشليم من المآثر تابع</tei:p>
-            <tei:p change="#d2e73">المسجد الأقصى نعم قلت إني لا أتعرض لوصف تلك الآثار، غير أن قلبي لا يسمح لي أن أذكر أورشليم وأعرض عن ذكر الحرم فإنه أبدع ما رأيت حتى اليوم وقد عثرت في تاريخ ابن خلدون على ما أظن أن السواد الأعظم من القراء لا يعرفونه وهذا نص قوله:</tei:p>
+            <tei:p change="#d2e73">المسجد الأقصى نعم قلت إني لا أتعرض لوصف تلك الآثار، غير أن قلبي لا يسمح لي أن أذكر أورشليم وأعرض عن ذكر الحرم فإنه أبدع ما رأيت حتى اليوم وقد عثرت في تاريخ <persName>ابن خلدون</persName> على ما أظن أن السواد الأعظم من القراء لا يعرفونه وهذا نص قوله:</tei:p>
             <tei:p change="#d2e73">وأما بيت المقدس وهو المسجد الأقصى فكان أول أمره أيام الصابئة موضع الزهرة، وكانوا يقربون إليه الزيت فيما يقربونهُ يصبونهُ على الصخرة التي هناك. ثم دثر ذلك الهيكل وأتخذها بنو إسرائيل حين ملكوها قبلة لصلاتهم. وذلك أن
 <pb n="n2-p62" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P623.xhtml"/>
 
@@ -279,7 +279,7 @@
 
 أسد الله الغالب علي بن أبي طالب أمير المؤمنين ورابع الخلفاء الراشدين عن سيد المرسلين وأفضل العالمين ابن عمه محمد المصطفى - صلى الله عليه وسلم - فلله الحمد على هذا النسب العالي ولا ترى نسباً كنسب الحيدرية في أخذ كل عن أبيه وهو من عجيب الاتفاق وذلك فضل الله يؤتيه من يشاء.</tei:p>
             <tei:p change="#d2e73">بغداد</tei:p>
-            <tei:p change="#d2e73">ساتسنا</tei:p>
+            <byline change="#d2e198"><persName>ساتسنا</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>الجرائد والمجلات في مصر</head>
@@ -318,7 +318,7 @@
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>الطالب البائس</head>
-            <tei:p change="#d2e73">ذكرنا كلمة في العدد الماضي عن المرحوم محمد أمام العبد الشاعر البائس الذي كان يقول أن سواد جلده حداد على حظه. وقد أحببنا أن ننقل إلى قرائنا شيئاً
+            <tei:p change="#d2e73">ذكرنا كلمة في العدد الماضي عن المرحوم <persName>محمد أمام العبد</persName> الشاعر البائس الذي كان يقول أن سواد جلده حداد على حظه. وقد أحببنا أن ننقل إلى قرائنا شيئاً
 <pb n="n2-p84" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P645.xhtml"/>
 
 
@@ -333,7 +333,7 @@
             <tei:p change="#d2e73">فما قنعت الأقدار بفعلتها الأولى، بل نزلت علينا في ليلة اختلفت أجرامها وتنكرت نجومها، وكثرت همومها، ولم تزل بنا حتى أصابت والدتي بعلة طوتها في لحدها، واسقمتني من بعدها. فلم أجد من يقوم بتربيتي من بني الإنسان في هذا الزمان بعد ما أبعدتني المدرسة عن مناهل العلم وتركتني أتلمس نصيراً من الوهم.</tei:p>
             <tei:p change="#d2e73">وأنا الآن لا أملك غير نفس أبي اليأس أن يبتعد عنها قيد شبر، وفؤاد أصبح غرضاً لسهام الدهر. فامتعضت قليلاً وقلت في نفسي أما آن للأغنياء أن تساعد زمرة الفقراء؟ رب أن</tei:p>
             <tei:p change="#d2e73">ناظر المعارف أولى الناس بإجابة هذا النداء. فإن لم يكن كذلك فقد ضاقت المسالك، والأمر لله ولا حول ولا قوة إلا بالله.</tei:p>
-            <tei:p change="#d2e73">محمد أمام العبد</tei:p>
+            <byline change="#d2e198"><persName>محمد أمام العبد</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>رثاء إمام</head>
@@ -416,7 +416,7 @@
                   <tei:seg>وممات الأديب نعم الدواءُ</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">العرب</tei:p>
+            <byline change="#d2e198">العرب</byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>أنا قاتل عصفوري</head>
@@ -444,11 +444,11 @@
             <tei:p change="#d2e73">نظرت وسمعت فحرت في أمري، وبقيت لا أعي فعلاً آتيه ولا أدري، وفي هذا الحين وقف العصفور المحبوس بغتة وأرسل صوتاً ليس بالصدح المألوف، ولا بالتغريد المعروف، وإذا هو كرير صدرٍ مثقل بالغموم، وتأوه فؤاد مكلوم، زفر به صاحبه زفيراً، مد به النفس حيناً فكان شجياً مثيراً، ثم رمى به فإذا هو بقية روح كان الأمل قد حبسها عند حد التراقي، ودفع بها اليأس فغادرت صاحبها قتيل الاستبداد والاسترقاق</tei:p>
             <tei:p change="#d2e73">ملكتُ جسمه وحياته ولم أملك فؤاده وعواطفه وهو الحر الكريم فكنت قاتله</tei:p>
             <tei:p change="#d2e73">أيها المستبدون اتقوا الله في خلائقه وعباده</tei:p>
-            <tei:p change="#d2e73">فيليب مخلوف
+            <byline change="#d2e198"><persName>فيليب مخلوف</persName>
 <pb n="n2-p90" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P651.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="section">
             <head>في رياض الشعر</head>
@@ -1231,7 +1231,7 @@
                </tei:l>
             </lg>
             <tei:p change="#d2e73">كل هذا جنتهُ أمي عليا</tei:p>
-            <tei:p change="#d2e73"><persName>شبلي ملاط</persName></tei:p>
+            <byline><persName>شبلي ملاط</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>جرائد سورية ولبنان</head>
@@ -1266,7 +1266,7 @@
 
                <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e181" value="10" xml:lang="ar">١٠</tei:num>  - </hi>أبابيل (بيروت): صاحبها حسين محيي الدين حبَّال. كاتبٌ جارح مصيب وجريدتهُ وطنية بحتة وانتقاداتها عادلة.</tei:p>
             <tei:p change="#d2e73">
-               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e181" value="11" xml:lang="ar">١١</tei:num>  - </hi>الإقبال (بيروت): صاحبها عبد الباسط الأنسي. محررها الشيخ محيي الدين الخياط. هو أغزر كتّاب المسلمين البيروتيين مادة، وأعلاهم كعباً. هو عندهم الأستاذ البستاني عند المسيحيين. ولو أنه يهتم بالمواضيع العمومية اهتمامه بالمواضيع الإسلامية لكان الإقبال أنفع الجرائد وأرقاها.</tei:p>
+               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e181" value="11" xml:lang="ar">١١</tei:num>  - </hi>الإقبال (بيروت): صاحبها عبد الباسط الأنسي. محررها الشيخ <persName>محيي الدين الخياط</persName>. هو أغزر كتّاب المسلمين البيروتيين مادة، وأعلاهم كعباً. هو عندهم الأستاذ البستاني عند المسيحيين. ولو أنه يهتم بالمواضيع العمومية اهتمامه بالمواضيع الإسلامية لكان الإقبال أنفع الجرائد وأرقاها.</tei:p>
             <tei:p change="#d2e73">
                <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e181" value="12" xml:lang="ar">١٢</tei:num>  - </hi>لبنان: صاحبها إبراهيم الأسود. هو من الحكومة وللحكومة ومع الحكومة. يناصرها ويدافع عنها في كل حين. وتختلف الجريدة رقياً باختلاف محرريها. ويكتبها اليوم محبوب الشرتوني وهو كاتبٌ وشاعرٌ مجيد. مركز الجريدة بيروت.</tei:p>
             <tei:p change="#d2e73">
@@ -1286,11 +1286,11 @@
             <tei:p change="#d2e73">
                <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e181" value="18" xml:lang="ar">١٨</tei:num>  - </hi>حمص (في حمص): صاحب امتيازها سيادة المطران اثناسيوس عطا الله. محررها قسطنطين يني. كاتبٌ عصري رقيق وشاعر أرق، تعتني الجريدة في شؤون المهاجرين. ولا عجب، فمنهم نشأت. وبمكارمهم نمت وأزهرت.</tei:p>
             <tei:p change="#d2e73">هذه أهم الجرائد الأسبوعية التي أقرؤها دائماً على وجه التقريب. وهناك جرائد عديدة كالحقيقة. والأيام، والخرج، وحط بالخرج، والرشيد، وصدى الجامعة العثمانية، وحمارة بلدنا، وطرابلس، وعيواظ، والحكمة، والروضة، ولبنان الرسمية، والاتفاق، والأجيال، والشعب، والتقدم، والراوي، والمنتخبات، والنفير، والكرمل، والزهرة، وفلسطين، وغيرها من الجرائد التي ضربت عن ذكرها صفحاً لعدم تمكني من قراءتها طويلاً والسلام.</tei:p>
-            <tei:p change="#d2e73">- حليم إبراهيم دموس
+            <byline change="#d2e198">- <persName>حليم إبراهيم دموس</persName>
 <pb n="n2-p105" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P666.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="section">
             <head>أزهار وأشواك</head>
@@ -1472,7 +1472,7 @@
             <tei:p change="#d2e73">قال هذا ووقع على القبر جثة هامدة. أنشدي أيتها الطيور احزن الألحان وخذ، مثلاً مما ترى أيها الإنسان. لما فتحوا قبر إيفون ليضموا لوتيك إليها توردت وجنتاها المصفرتان وأفتر ثغرها وتنحت ليلاً ووسعت لحبيبها مكاناً.</tei:p>
             <tei:p change="#d2e73">فدهش الناس مما رأوا ونصبوا لهما قبراً منيفاً يركع بجنبه للصلاة من يريد أن يفتح قلبهُ للحب الزواجي الطاهر.</tei:p>
             <tei:p change="#d2e73">(عن فيكتور هوغو)</tei:p>
-            <tei:p change="#d2e73">- حلب، لويس أسود
+            <tei:p change="#d2e73">- حلب، <persName>لويس أسود</persName>
 <pb n="n2-p113" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P673.xhtml"/>
 
 

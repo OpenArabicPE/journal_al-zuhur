@@ -54,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+      <revisionDesc><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
@@ -245,11 +245,11 @@
             <tei:p change="#d2e73">أيها الفن الغريب بأسراره، العجيب بخفاياه، القوي برقته، الفاتن بهوله ومهابته، كيف نصفك وبماذا نشبهك، وأنت روح الوصف وعلة التشبيه. هل ندعوك عاطفة؟ وأنت مولد العواطف والإحساس. أم ندعوك قوة؟ وأنت مظهر القوات والعزائم. نحن نرى مجدك بعيون قلوبنا الشاخصة، ونسمع أناشيدك بآذان نفوسنا المصغية. ونثلم أطراف أذيالك بشفاه أرواحنا المرتعشة. ولكننا لا نستطيع أن نخط حرفاً من حروف اسمك حتى تلامس أصابعنا أصابعك، ولا نقدر أن نتكلم عن جمالك إلا إذا غمست ألسنتنا بخمرة جمالك، فأنت بنفسك مظهر لنفسك، ونحن بقوة الحب الذي وضعته في أعماقنا نقترب من محبة القوة التي وضعها الله في أعماقك.</tei:p>
             <tei:p change="#d2e73">اجعلني أيها الفن خادماً من خدامك المتسلطين على الحياة. وصيرني جندياً من جنودك المنتصرين على الدهور، ودع حريتي تستعبد لمشيئتك، والمس نفسي بشعاعك لعلها تقترب من مبدعها ومبدعك.</tei:p>
             <tei:p change="#d2e73">باريس</tei:p>
-            <tei:p change="#d2e73">جبران خليل جبران
+            <byline change="#d2e198"><persName>جبران خليل جبران</persName>
 <pb n="n1-p196" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P209.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>في جنائن الغرب</head>
@@ -293,14 +293,14 @@
 
 
 جرنالوفوبيا وجرنالوفاجيا</tei:p>
-            <tei:p change="#d2e73">كتبها الدكتور شميل لما كان صحافياً يصدر الشفاء منذ  <tei:num type="auto-markup" change="#d2e181" value="25" xml:lang="ar">٢٥</tei:num>  سنة</tei:p>
+            <tei:p change="#d2e73">كتبها <persName>الدكتور شميل</persName> لما كان صحافياً يصدر الشفاء منذ  <tei:num type="auto-markup" change="#d2e181" value="25" xml:lang="ar">٢٥</tei:num>  سنة</tei:p>
             <tei:p change="#d2e73">الأول معناه الخوف من الجرائد والثاني التهامها - وقد نحت لهما بعضهم اسمين عربيين، فسمى الأول الجنفرة من الجرنال والنفور والثاني الجبلعة من البلع أو الجأكلة أيضاً من الأكل. وهما مرضان لم يسبق لأحد وصفهما ومن أعراض الأول أن الواحد إذا ورد له جريدة ملفوفة بادر على الفور إلى ردها وكتب على غلافها مرفوض أو مرضوض لم مرتب وهو مرض حميد. ومن أعراض الثاني أن الواحد يقبل الجريدة إذا لم يردها في آخر سنتها ولكنه يلتهم ثمنها، وهو مرض أشد ضرراً من الأول، وقال بعض المحققين بل</tei:p>
             <tei:p change="#d2e73">المرضان طوران مختلفان لمرض واحد كالخنازيري والسل ولو كره البرفسور بتر. والحق يقال إن الذنب ليس على هؤلاء وحدهم بل على أصحاب الجرائد أيضاً فإنهم هنا خلافاً لأوروبا يطرحون جرائدهم على الناس خوفاً من أنهم لو
 <pb n="n1-p201" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P214.xhtml"/>
 
 
 حذوا حذو أهل أوروبا ولم يرسلوا الجريدة إلا لمن يطلبها ويدفع ثمنها سلفاً لربما لم يجدوا مشتركاً - فها نحن قد وصفنا الداء فعلى الطبيب الحاذق أن يصف الدواء.</tei:p>
-            <tei:p change="#d2e73">شبلي شميل</tei:p>
+            <byline change="#d2e198"><persName>شبلي شميل</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>في حدائق العرب</head>
@@ -800,7 +800,7 @@
 
 ابتهاج وفرح - وفي كلا الحالين نظرة شاعر - فدونها بمداد يسيل من قلبه المتأثر. وأنا أرى النظم بما يحيط بنا من الوقائع أجدر بشعرائنا من التيه في مفاوز مبتذلات الماضي، ولذلك قلنا أن نسيماً شاعر عصري.</tei:p>
             <tei:p change="#d2e73">* * *</tei:p>
-            <tei:p change="#d2e73">دروس التاريخ الإسلام - عرفنا الشيخ محيي الدين الخياط كاتباً بليغاً وشاعراً كبيراً، وها قد نزل إلى ميدان التاريخ فكان مؤرخاً مدققاً. ظهر القسم الأول من كتابه في تاريخ الإسلام وهو يشتمل على مجمل تاريخ صاحب الشرعية الإسلامية. كتبه لطلبة المدارس بأسلوب</tei:p>
+            <tei:p change="#d2e73">دروس التاريخ الإسلام - عرفنا الشيخ <persName>محيي الدين الخياط</persName> كاتباً بليغاً وشاعراً كبيراً، وها قد نزل إلى ميدان التاريخ فكان مؤرخاً مدققاً. ظهر القسم الأول من كتابه في تاريخ الإسلام وهو يشتمل على مجمل تاريخ صاحب الشرعية الإسلامية. كتبه لطلبة المدارس بأسلوب</tei:p>
             <tei:p change="#d2e73">سهل التعبير، حسن التبويب والتنسيق، وختم هذا الجزء الأول ببعض الأحاديث النبوية في الأخلاق والعلم والسياسة نقتطف منها: لا فقر أشد من الجهل. ولا مال أعز من العقل، ولا وحشة أشد من العجب.</tei:p>
             <tei:p change="#d2e73">اعمل لدنياك كأنك تعيش أبداً، واعمل لآخرتك كأنك تموت غداً.</tei:p>
             <tei:p change="#d2e73">التمسوا الرزق في خبايا الأرض، إن الله يحب معالي الأمور وأشرافها ويكره دنيئها وسفسافها.</tei:p>
@@ -835,7 +835,7 @@
             <head>أزهار وأشواك</head>
             <tei:p change="#d2e73">الكتاب على المراسح</tei:p>
             <tei:p change="#d2e73">كان لما كتبته في العدد الماضي عن التمثيل والكتاب وقع حسن في أندية الأدب، وتناقله بعض الصحف مستحسناً الاقتراح. ولم يعترض احد من الأدباء على الدور الذي خصصته به. ألقيت بذرة هذه الفكرة في الأذهان، فإذا لم تكن قد نبتت فهي لم تمت، ونحن ننتظر الربيع لنرى. وقد جاءني من بيروت الكتاب الآتي وها هو نصه:</tei:p>
-            <tei:p change="#d2e73">السلام على حاصد. وبعد فنعم ما ارتأيتم بخصوص التمثيل والكتاب ولقد أحسنتم في توزيع الأدوار على قدر ما نعرف عن أدبائكم. وإذا تم إبراز هذا الفكر إلى حيز الوجود فإننا نعدكم بشد الرحال إلى وادي النيل لحضور هذه الحفلة الفريدة. ثم ندعوكم إلى حفلة من نوعها نقيمها في بيروت وتوزع أدوارها على أدبائنا: فيمثل الأمير شكيب أرسلان دور الملك. والشيخ إسكندر العازار دور النديم والشي محيي الدين الخياط دور الوزير، والأستاذ الحوراني دور بزرجمهر. ويعهد دور قائدي الجيش إلى فليكس فارس وداود مجاعص. أما دور العاشق فكثيرون هم المرشحون له. ويدير صاحب الحسناء جوق المغنيات في القصر، و<persName>بشارة الخوري</persName> يقوم بدور رئيس الحرس. أظن أن أدبائنا سيقومون بأدوارهم هذه كما يقوم أدباؤكم بالأدوار التي وزعتها عليهم. فابتدؤوا تجدونا لكم لاحقين والسلام.</tei:p>
+            <tei:p change="#d2e73">السلام على حاصد. وبعد فنعم ما ارتأيتم بخصوص التمثيل والكتاب ولقد أحسنتم في توزيع الأدوار على قدر ما نعرف عن أدبائكم. وإذا تم إبراز هذا الفكر إلى حيز الوجود فإننا نعدكم بشد الرحال إلى وادي النيل لحضور هذه الحفلة الفريدة. ثم ندعوكم إلى حفلة من نوعها نقيمها في بيروت وتوزع أدوارها على أدبائنا: فيمثل الأمير شكيب أرسلان دور الملك. والشيخ إسكندر العازار دور النديم والشي <persName>محيي الدين الخياط</persName> دور الوزير، والأستاذ الحوراني دور بزرجمهر. ويعهد دور قائدي الجيش إلى <persName>فليكس فارس</persName> وداود مجاعص. أما دور العاشق فكثيرون هم المرشحون له. ويدير صاحب الحسناء جوق المغنيات في القصر، و<persName>بشارة الخوري</persName> يقوم بدور رئيس الحرس. أظن أن أدبائنا سيقومون بأدوارهم هذه كما يقوم أدباؤكم بالأدوار التي وزعتها عليهم. فابتدؤوا تجدونا لكم لاحقين والسلام.</tei:p>
             <tei:p change="#d2e73">الإمضاء: متطوع بالحصاد</tei:p>
             <tei:p change="#d2e73">الاقتراح إذن جميل وأنا عرضته من باب الهزل، وبت أفكر به عن جد.
 <pb n="n1-p229" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P241.xhtml"/>
@@ -909,11 +909,7 @@
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>من وإلى القراء</head>
-            <tei:p change="#d2e73">نشرنا في</tei:p>
-         </tei:div>
-         <tei:div change="#d2e64" type="item">
-            <head> العدد </head>
-            <tei:p change="#d2e73">الثالث (ص  <tei:num type="auto-markup" change="#d2e181" value="121" xml:lang="ar">١٢١</tei:num> ) مقالة عن البرنس فردريك ايتل في فلسطين. وقد جاءنا البريد الأخير ببعض مجلات وجرائد ألمانية. وقد نشرت ترجمة تلك المقالة مطرية الزهور وهذا يدللك على اهتمام القوم بكل ما يقال عنهم.</tei:p>
+            <tei:p>نشرنا في العدد الثالث (ص  <tei:num type="auto-markup" change="#d2e181" value="121" xml:lang="ar">١٢١</tei:num> ) مقالة عن البرنس فردريك ايتل في فلسطين. وقد جاءنا البريد الأخير ببعض مجلات وجرائد ألمانية. وقد نشرت ترجمة تلك المقالة مطرية الزهور وهذا يدللك على اهتمام القوم بكل ما يقال عنهم.</tei:p>
             <tei:p change="#d2e73">- لدينا مقالات وقصائد كثيرة من مراسلينا الأدباء من جهات مختلفة اضطررنا إلى إرجائها وسننشرها عن قريب إن شاء الله.</tei:p>
             <tei:p change="#d2e73">- أهدى الكثيرون من الغيورين على الأدب أعداد المجلة لسنة كاملة إلى أصدقائهم قائلين أنها خيرة هدية. فنشكر لهم أدبهم وحسن ظنهم.</tei:p>
             <tei:p change="#d2e73">الزهور بمصر أنطون الجميل.

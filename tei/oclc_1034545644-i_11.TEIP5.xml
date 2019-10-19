@@ -54,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+      <revisionDesc><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
@@ -349,7 +349,7 @@
                </tei:l>
             </lg>
             <tei:p change="#d2e73">(بغداد)</tei:p>
-            <tei:p change="#d2e73">ساتسنا</tei:p>
+            <byline change="#d2e198"><persName>ساتسنا</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>المرأة العصرية</head>
@@ -403,11 +403,11 @@
 
 بترتيب منزلكن وتربية أولادكن تربية جدية لا تربية دلع وتخنيث، فتشب الأولاد أشد تأنثاً من الإناث إلى آخر ما هنالك من النقائص التي لا تخفى على بصيرتكن - وإذا كنا معاشر الرجال لا نحترم إلا المتفرنجة، وإن كانت محتقرة، ونحتقر الغير متفرنجة، وإن كانت محترمة، فهذا سقوط منا فعلمننا يا رعاكن الله أن نحترم فيكن الأدب والفضل والجد والترتيب والعلم الصحيح، لا أن نحترم القبعة إذا حجبت دائرتها نور الشمس والبرد إذا قيد أرجلكن حتى تتدحرجن وتتزحلقن كلما عثرت قدم لكن - وما أكثر ما تزل القدم في تلك المقيدات!</tei:p>
             <tei:p change="#d2e73">سأغضبكن يا سيداتي بكلامي هذا وإن كان عن حسن نية وسأغضب صاحب الزهور باضطراري إياه إلى نشره، لأنه متفانٍ بخدمتكن، ولكن متى علمتن أنني أطوع لكن من البنان وإنني لا أرى للحياة معنى إلا بوجودكن، حملتم كلامي على محمل الإخلاص. وموقتاً أخفي اسمي خوفاً من غضبكن والسلام على من اتبع هدى.</tei:p>
-            <tei:p change="#d2e73">حسون</tei:p>
+            <byline change="#d2e198">حسون</byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>إحياء الآداب العربية</head>
-            <tei:p change="#d2e73">ذكرنا في الجزء الماضي (ص  <tei:num type="auto-markup" change="#d2e181" value="494" xml:lang="ar">٤٩٤</tei:num> ) المذكرة التي قدمها إلى مجلس النظار عطوفة رئيسه بشأن إحياء آداب العرب وننشر الآن كما وعدنا ملخص التقرير المقدم بهذا الموضوع من سعادة أحمد حشمت باشا ناظر المعارف:</tei:p>
+            <tei:p change="#d2e73">ذكرنا في الجزء الماضي (ص  <tei:num type="auto-markup" change="#d2e181" value="494" xml:lang="ar">٤٩٤</tei:num> ) المذكرة التي قدمها إلى مجلس النظار عطوفة رئيسه بشأن إحياء آداب العرب وننشر الآن كما وعدنا ملخص التقرير المقدم بهذا الموضوع من سعادة <persName>أحمد حشمت</persName> باشا ناظر المعارف:</tei:p>
             <tei:p change="#d2e73">رئيس مجلس النظار عطوفتلو أفندي حضرتلري</tei:p>
             <tei:p change="#d2e73">تفضلتم عطوفتكم بدعوتي لدرس المفكرة المقدمة من حضرة أحمد بك زكي عن الأسباب والوسائل المؤدية لإحياء العلوم والآداب العربية بمصر مع
 <pb n="n1-p533" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P544.xhtml"/>
@@ -460,17 +460,17 @@
 على أحسن حال لكي يزيد في شرف هذا العصر الأسعد، المشمول بيمن خديوينا المحبوب الأمجد، الحامي لواء العلم والأدب، الراغب في تقدم لسان العرب.</tei:p>
             <tei:p change="#d2e73">وفي الختام أرجو عطوفتكم قبول فائق الإخلاص وجليل الاحترام.</tei:p>
             <tei:p change="#d2e73">ناظر المعارف العمومية</tei:p>
-            <tei:p change="#d2e73">أحمد حشمت</tei:p>
+            <byline change="#d2e198"><persName>أحمد حشمت</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>مصر الأدبية</head>
             <tei:p change="#d2e73">مصر تعرف أدباء سورية وهؤلاء يعرفونها! فهي إذا لم تكن منشأ جمهورهم وأمهم الحنون فهي منشأ ومربية كثيرين منهم ولا ريب.</tei:p>
-            <tei:p change="#d2e73">عرفت أديب إسحق، وسليم النقاش، وأمين الشميل، وسليم وبشارة تقلا، وخليل اليازجي، ونجيب الحداد، وبشارة زلزل، وإبراهيم اليازجي، من حملة الألوية في طليعة النهضة الأدبية الحديثة. وحضنت يعقوب صروف، وسبلي شميل، وفارس نمر، وجرجي زيدان، ومحمد رشيد رضا، وسليمان البستاني، وداود عمون، وخليل مطران، وسليم سركيس، ورفيق العظم، وأمين الحداد، ويوسف الخازن، وإسكندر شاهين، وداود بركات، وعبد الحميد الزهراوي، وسامي قصيري، وسليم عنحوري وخليل زينية، ونقولا رزق الله، وأمين البستاني، وطانيوس عبده، ومصطفى صادق الرافعي، ونجيب شاهين، وانطون الجميل، وفرح أنطون، ويوسف البستاني، ورشيد عطية، ونقولا حداد، وعبد القادر المغربي، ونجيب هاشم، من حملة الأقلام اليوم.</tei:p>
+            <tei:p change="#d2e73">عرفت <persName>أديب إسحق</persName>، وسليم النقاش، وأمين الشميل، وسليم وبشارة تقلا، وخليل اليازجي، و<persName>نجيب الحداد</persName>، وبشارة زلزل، و<persName>إبراهيم اليازجي</persName>، من حملة الألوية في طليعة النهضة الأدبية الحديثة. وحضنت يعقوب صروف، وسبلي شميل، وفارس نمر، وجرجي زيدان، ومحمد رشيد رضا، وسليمان البستاني، و<persName>داود عمون</persName>، و<persName>خليل مطران</persName>، وسليم سركيس، ورفيق العظم، و<persName>أمين الحداد</persName>، ويوسف الخازن، وإسكندر شاهين، و<persName>داود بركات</persName>، و<persName>عبد الحميد الزهراوي</persName>، وسامي قصيري، و<persName>سليم عنحوري</persName> وخليل زينية، ونقولا رزق الله، وأمين البستاني، وطانيوس عبده، و<persName>مصطفى صادق الرافعي</persName>، ونجيب شاهين، وانطون الجميل، وفرح أنطون، و<persName>يوسف البستاني</persName>، ورشيد عطية، ونقولا حداد، وعبد القادر المغربي، ونجيب هاشم، من حملة الأقلام اليوم.</tei:p>
             <tei:p change="#d2e73">وربت محمد عبده، وقاسم أمين، ومحمود سامي البارودي، وإبراهيم
 <pb n="n1-p539" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P550.xhtml"/>
 
 
-المويلحي، وعبد الله نديم، وإبراهيم اللقاني، وعلي الليثي، ومصطفى كامل ونشأت أحمد شوقي، وحافظ إبراهيم، وإسماعيل صبري، وفتحي زغلول، وعلي يوسف، وأحمد لطفي السيد ومحمد المويلي، وحنفي ناصف، و<persName>ولي الدين يكن</persName>، و<persName>مصطفى لطفي المنفلوطي</persName>، وإمام العبد، وعبد الحليم المصري، ومحمد مسعود، وأحمد الكاشف، وأحمد فؤاد، وأحمد نسيم، وأحمد محرم العرب، وعبد الرحمن شكري، ولطفي جمعه وكثيرين آخرين وعطفت علي جمال الدين الأفغاني، وعبد الرحمن الكواكبي، وعبد المحسن الكاظمي.</tei:p>
+المويلحي، وعبد الله نديم، وإبراهيم اللقاني، وعلي الليثي، ومصطفى كامل ونشأت أحمد شوقي، وحافظ إبراهيم، و<persName>إسماعيل صبري</persName>، وفتحي زغلول، وعلي يوسف، و<persName>أحمد لطفي السيد</persName> ومحمد المويلي، وحنفي ناصف، و<persName>ولي الدين يكن</persName>، و<persName>مصطفى لطفي المنفلوطي</persName>، وإمام العبد، وعبد الحليم المصري، ومحمد مسعود، وأحمد الكاشف، وأحمد فؤاد، وأحمد نسيم، و<persName>أحمد محرم</persName> العرب، وعبد الرحمن شكري، ولطفي جمعه وكثيرين آخرين وعطفت علي جمال الدين الأفغاني، وعبد الرحمن الكواكبي، وعبد المحسن الكاظمي.</tei:p>
             <tei:p change="#d2e73">فإذا كان للآداب العربية جنة فمصر جنتها يجري في أرباضها النيل. وإذا كان مجلى لعرائس الأفكار فسماء مصر موحى الشعر وملهم البيان.</tei:p>
             <tei:p change="#d2e73">ولست أدري أفي طبيعة مصر نفسها خاصية الأدب وقد كانت مصر منذ القديم ولا تزال إلى يومنا هذا أم الأدب والمتأدبين، أم هي الحياة فيها توحي الشعر، وتستنزل البيان. وقد قام في وادي النيل في كل زمان شعراء مجيدون، وكتاب أفاضل منذ فتحها عمرو بن العاص إلى اليوم وقد احتلها الإنكليز.</tei:p>
             <tei:p change="#d2e73">ولست أدري - وقد نشأ في سورية شعراء ومنشئون كثيرون - أسباب الفرن بين النفسين</tei:p>
@@ -513,9 +513,9 @@
             <tei:p change="#d2e73">يسمع الليل منه في الفجر يا ليل فيصغي مستمهلاً في فراره</tei:p>
             <tei:p change="#d2e73">وهزه إنشاد المغني يا ليل الصب متى غده فقال أبياته الجميلة:</tei:p>
             <tei:p change="#d2e73">مضناك جفاه مرقده</tei:p>
-            <tei:p change="#d2e73">وإسماعيل صبري طرب لغناء بعضهم فنظم له القد المشهور:</tei:p>
+            <tei:p change="#d2e73">و<persName>إسماعيل صبري</persName> طرب لغناء بعضهم فنظم له القد المشهور:</tei:p>
             <tei:p change="#d2e73">قدك أمير الأغصان</tei:p>
-            <tei:p change="#d2e73">وخليل مطران استخفه الطرف فنظم لمغنيه الدور المغروف:</tei:p>
+            <tei:p change="#d2e73">و<persName>خليل مطران</persName> استخفه الطرف فنظم لمغنيه الدور المغروف:</tei:p>
             <tei:p change="#d2e73">الكمال في الملاح صدف</tei:p>
             <tei:p change="#d2e73">ومراد فرج المحامي استفزه صوت مطربه فكتب له الدور المعروف أيضاً:</tei:p>
             <tei:p change="#d2e73">سلمت روحك يا فؤادي</tei:p>
@@ -812,11 +812,11 @@
                   <tei:seg>تملكه في أفقه عبداً بلا ثمن</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">إسماعيل صبري
+            <byline change="#d2e198"><persName>إسماعيل صبري</persName>
 <pb n="n1-p547" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P558.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="section">
             <head>أزهار وأشواك</head>
@@ -834,12 +834,12 @@
          </tei:div>
          <tei:div change="#d2e64" type="section">
             <head>ثمرات المطابع</head>
-            <tei:p change="#d2e73">ظهر القسم الثالث من كتاب دروس التاريخ الإسلامي تأليف حضرة الكاتب البليغ الشيخ محيي الدين الخياط وقد سبق لنا الكلام عن هذه الدروس عند صدور الجزئين الأولين منها. أما القسم الذي أمامنا فهو يتناول مجمل تاريخ بني أمية وهو مزين بخريطة الدول العربية الإسلامية.
+            <tei:p change="#d2e73">ظهر القسم الثالث من كتاب دروس التاريخ الإسلامي تأليف حضرة الكاتب البليغ الشيخ <persName>محيي الدين الخياط</persName> وقد سبق لنا الكلام عن هذه الدروس عند صدور الجزئين الأولين منها. أما القسم الذي أمامنا فهو يتناول مجمل تاريخ بني أمية وهو مزين بخريطة الدول العربية الإسلامية.
 <pb n="n1-p549" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P560.xhtml"/>
 
 
 وظهر أيضاً الجزء الثاني من كتاب سمير الليالي الذي وضعه محمد أفندي الصوفي السكري وقد تكلمنا عنه عند صدور الجزء الأول منه ومجمل أبحاثه جغرافية. أما هذا الجزء فقد دون فيه أشهر الحوادث التاريخية وأورد معلومات شتى وفوائد كثيرة.</tei:p>
-            <tei:p change="#d2e73">الحمل خارج الرحم: رسالة طبية وضعها حضرة العالم الدكتور محمد أفندي عبد الحميد طبيب مستشفى قليوب، بحث فيها بحثاً دقيقاً موضوع الحمل فأورد أقوال نُطس الأطباء في هذا الموضوع وأردفها باختباراته الشخصية ويسرنا أن نرى كثرة الكتابة عن هذه الموضوعات الاختصاصية في اللغة العربية مما يدل على نهضة حقيقية. فنثني على حضرة الدكتور عبد الحميد وننتظر منه متابعة أبحاثه في لغتنا.</tei:p>
+            <tei:p change="#d2e73">الحمل خارج الرحم: رسالة طبية وضعها حضرة العالم الدكتور محمد أفندي عبد الحميد <persName>طبيب مستشفى قليوب</persName>، بحث فيها بحثاً دقيقاً موضوع الحمل فأورد أقوال نُطس الأطباء في هذا الموضوع وأردفها باختباراته الشخصية ويسرنا أن نرى كثرة الكتابة عن هذه الموضوعات الاختصاصية في اللغة العربية مما يدل على نهضة حقيقية. فنثني على حضرة الدكتور عبد الحميد وننتظر منه متابعة أبحاثه في لغتنا.</tei:p>
             <tei:p change="#d2e73">ضحايا البشرية: مجموع مقالات عمرانية انتقادية من قلم حضرة الأديب ندره أفندي نقولا ألوف. لهجتها تدل على ثورة في صدر كاتبها انفجرت بزفرات كلها تألم مما يؤلم ومما لا يؤلم من هذه البشرية التي لا تعد ضحاياها. والذنب تارة على المجتمع الإنساني وتارة على الأفراد أنفسهم الذين يذهبون ضحية جعل معنى الحياة. وقد كتبت مقدمة هذه المقالات حضرة المنشئة الأديبة السيدة لبيبه هاشم صاحبة فتاة الشرق.
 <pb n="n1-p550" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P561.xhtml"/>
 

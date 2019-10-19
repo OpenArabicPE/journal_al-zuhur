@@ -54,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+      <revisionDesc><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
@@ -97,7 +97,7 @@
             <tei:p change="#d2e73">طبع في بولاق سنة  <tei:num type="auto-markup" change="#d2e181" value="1893" xml:lang="ar">١٨٩٣</tei:num>  كتاب اسمه تاريخ العرب وآدابهم لجامعيه فانديك وفيليبيدس، صدره الكاتبان بمقدمة جغرافية عن جزيرة العرب ترى فيها أكثر الأسماء مشوهاً أي</tei:p>
             <tei:p change="#d2e73">تشويه لنقلهما هذه الكلمات عن لغات أجنبية دون مراعاة أصلها فيجعلون مثلاً (ص  <tei:num type="auto-markup" change="#d2e181" value="6" xml:lang="ar">٦</tei:num> ) جزيرة خوريان كوريان، وبلد الكويت قويط، وجبل العارض الجبل العريض، والقصيم القسيم. . . . .</tei:p>
             <tei:p change="#d2e73">هذا وقد توفق الأستاذ نلينو إلى تنقيح أسماء مختلفة فأعادها غىل أصلها وأكثرها من أسماء الأمكنة في مراكش والجزائر، وهي مغلوطة الكتابة حتى على الرسوم الجغرافية المعول عليا، وها نحن نورد أهمها للفائدة:</tei:p>
-            <tei:p change="#d2e73">تل أمرنا والصحيح تل العمارنة، قبيلة دوي منيه والصحيح ذوي منيع. وسهل تافراته والصحيح سهل تافراطا، وقد ورد ذكره في ابن خلدون وسائر مؤرخي بلاد المغرب.</tei:p>
+            <tei:p change="#d2e73">تل أمرنا والصحيح تل العمارنة، قبيلة دوي منيه والصحيح ذوي منيع. وسهل تافراته والصحيح سهل تافراطا، وقد ورد ذكره في <persName>ابن خلدون</persName> وسائر مؤرخي بلاد المغرب.</tei:p>
             <tei:p change="#d2e73">وقد ذكر العرب في كتبهم قبائل إيت سغروشن وأيت شخمان. فصارت في كتاباتنا الحديثة إيت شروشن وإيت سغمان. وقبيلة غياثة صارت رياطة.</tei:p>
             <tei:p change="#d2e73">ونحن نعتقد أن سبب هذا التحوير الأخير أن بعض الإفرنسيين
 <pb n="n2-p341" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P901.xhtml"/>
@@ -211,11 +211,11 @@
             </lg>
             <tei:p change="#d2e73">فهذا القول وإن كان من قضايا علم الهيئة إلا أن فيه تشبيهاً يقرب المعنى ويكسبه طلاوة.</tei:p>
             <tei:p change="#d2e73">وبعد ما تقدم يمكنا النظر في الشعر من الوجهة المعنوية والودهة اللفظية وهذا ما نراه في مقال آت.</tei:p>
-            <tei:p change="#d2e73">حلمي المصري
+            <byline change="#d2e198"><persName>حلمي المصري</persName>
 <pb n="n2-p349" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P909.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>رسائل غرام</head>
@@ -243,7 +243,7 @@
 
 طيب تقيك نبال الحاسدين وترشدم إلى حيث تقيم من هي مقيمة على عهود هواك. كن معافى. ولتحرسك الآلهة.</tei:p>
             <tei:p change="#d2e73">من كيلوباطرة، وارثة النيل</tei:p>
-            <tei:p change="#d2e73">بقلم سليم عبد الأحد</tei:p>
+            <byline change="#d2e198">بقلم <persName>سليم عبد الأحد</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>الحاجة</head>
@@ -264,7 +264,7 @@
             <tei:p change="#d2e73">وأنفاسك المستعرة بنار الشهوة تمر على الجباه العالية والأنوف الشماء فتترك عليها أثراً من دخانها الأسود يجذبها للتمرغ في جحيم الرذائل.</tei:p>
             <tei:p change="#d2e73">ليتك تخلعين عن منكبيك دثار الخفاء، وتظهرين أمام عين الرائي كما تظهر أفعالك الخبيثة، إذن لجردت من عزيمتي ماضياً أغمده في صدرك. إذن لأرحت العالم من شرك وبدلت هذا الناموس الفاسد الذي يسيرون عليه، وأطلقتهم من عقال الهم والشقاء، وأريتهم كيف يكون الهناء في العيش وأين يجدون السعادة التي ينشدونها.</tei:p>
             <tei:p change="#d2e73">(مصر)</tei:p>
-            <tei:p change="#d2e73">محمد شريف وصفي</tei:p>
+            <byline change="#d2e198"><persName>محمد شريف وصفي</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>حقائق</head>
@@ -295,7 +295,7 @@
 
 نظرت ذلك وسمعت وقارنته بما نظرت وسمعت من الطير والحيوان، بل من الأشجار والجبال، فوددت لو مسخ الله ابن آدم فصار حجراً ولو أنطق تلك الحيوانات ودبت الروح في تلك الجبال والأشجار، لكي يتبدل العالم الفاسد بآخر نقي الذيل نقي القلب لا فجور فيه ولا فحش، واستغفر الله وأتوب إليه وإليه المرجع والمآب.</tei:p>
             <tei:p change="#d2e73">عطبرة (السودان)</tei:p>
-            <tei:p change="#d2e73">محمد فاضل</tei:p>
+            <byline change="#d2e198"><persName>محمد فاضل</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>في جنائن الغرب</head>
@@ -350,11 +350,11 @@
             <tei:p change="#d2e73">وجهان متشابهان لا يضحك كل منهما على حدته يضحكان بتشابههما إذا شوهدا معاً.</tei:p>
             <tei:p change="#d2e73">* * *</tei:p>
             <tei:p change="#d2e73">نرى حادثاً يتكرر أمامنا على هيئة واحدة فنقضي من تواتره بوجوب حدوثه كما نعتقد أعقاب الصبح للدجى. على أنه كثيراً ما تكذبنا الطبيعة فإنه لا شيء يضبطها حتى ولا نواميسها.</tei:p>
-            <tei:p change="#d2e73">تعريب - هزيز مرزا
+            <byline change="#d2e198">تعريب - <persName>هزيز مرزا</persName>
 <pb n="n2-p361" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P921.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>في حدائق العرب</head>
@@ -461,7 +461,7 @@
 
 ولو لم أعلم أن النفس لا تنتهج محجة الاهتداء، ولا تخف إلى معالجة دائها العياء إلا بالاستهداء إلى عيبها ونقائصها، وبالوقوف على ذاتها ومغامزها لصورت لبلادي الحسن قبيحاً والقبيح حسناً، وأتيتها من خلب القول ما أقعدها عن كبير الفعل، والسلام.</tei:p>
             <tei:p change="#d2e73">بيت جالا (فلسطين)</tei:p>
-            <tei:p change="#d2e73">- إسكندر الخوري</tei:p>
+            <byline change="#d2e198">- <persName>إسكندر الخوري</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="section">
             <head>في رياض الشعر</head>
@@ -786,10 +786,10 @@
 
 
 الأبيض، وكان الأحرار يتزينون بالورد الأحمر. فكانت هذه الزهور تدعو كل يوم إلى معارك دومية، فإن كل حامل قرنفلة بيضاء عندما كان يصادف شخصاً في عروة ردائه وردة حمراء كان يقابله بالشتم والإهانة، وقد قابل مرة في ليموج أحد أنصار العرش شقيقة الذي كان من الأحرار وفي عروة ردائه وردة حمراء ولم يكن الواحد منهما من قبل يعرف مبدأ الآخر فتبارزا وقتل أحد الشقيقين شقيقه بسبب حمله الوردة الحمراء.</tei:p>
-            <tei:p change="#d2e73">وعلى عهد شارل الخامس كانت الأفضلية بين الزهور في فرنسا لزهر الزنبق وهو زهرة ملوك فرنسا. غير أن نابليون بونابرت قال قد انتهى عهد الزنبق واستبدله بزهر البنفسج الزكي الرائحة.</tei:p>
+            <tei:p change="#d2e73">وعلى عهد شارل الخامس كانت الأفضلية بين الزهور في فرنسا لزهر الزنبق وهو زهرة ملوك فرنسا. غير أن <persName>نابليون بونابرت</persName> قال قد انتهى عهد الزنبق واستبدله بزهر البنفسج الزكي الرائحة.</tei:p>
             <tei:p change="#d2e73">وأقرب زمن إلينا عهد الجنرال بولانجه فإن هذا القائد اتخذ شعاراً له زهر القرنفل الأحمر فكان يتزين به هو وجميع أنصاره.</tei:p>
             <tei:p change="#d2e73">ثم أن غليوم جد إمبراطور ألمانيا الحالي اتخذ الريحان شعاراً له وأمر بجعله الزهر الوطني للإمبراطورية الألمانية. ويقولون إنه كان يجمع بنفسه باقات الريحان في الحقول والسهول وهو زاحف على باريس في حرب السبعين التي قامت بين فرنسا وبروسيا.</tei:p>
-            <tei:p change="#d2e73">ثم أن الريحان والورد يعتبران الآن في نظر العالم أنهما من اختصاص الأمة الفرنسية. ولما احتفلت هذه الأمة ببلوغ شاعرها المشهور فيكتور هوجو الثمانين من عمره أحاطت به الشبيبة الفرنسية وعلى صدر كل فتاة زهرة ريحان أو وردة وكذلك في عرى أردية الشبان.
+            <tei:p change="#d2e73">ثم أن الريحان والورد يعتبران الآن في نظر العالم أنهما من اختصاص الأمة الفرنسية. ولما احتفلت هذه الأمة ببلوغ شاعرها المشهور <persName>فيكتور هوجو</persName> الثمانين من عمره أحاطت به الشبيبة الفرنسية وعلى صدر كل فتاة زهرة ريحان أو وردة وكذلك في عرى أردية الشبان.
 <pb n="n2-p373" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P933.xhtml"/>
 
 
@@ -861,7 +861,7 @@
          </tei:div>
          <tei:div change="#d2e64" type="section">
             <head>ثمرات المطابع</head>
-            <tei:p change="#d2e73">طبيب مستشفى قليوب وصاحب كتاب التشخيص الجراحي, والحمل خارج الرحم, والعملية القيصرية, والعلاج بعد العمليات إلخ.
+            <tei:p change="#d2e73"><persName>طبيب مستشفى قليوب</persName> وصاحب كتاب التشخيص الجراحي, والحمل خارج الرحم, والعملية القيصرية, والعلاج بعد العمليات إلخ.
 <pb n="n2-p380" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P940.xhtml"/>
 
 
@@ -905,7 +905,7 @@
 
 
 لطيفة انقضت بالهضم والمسامرة. وسركيس بملابسه البلدية كأم العروس ينتقل من حلقة إلى حلقة، ومدامته ترحب بالجميع بمنتهى الرقة والظرف، وولده أنور على ذراعي مرضعه ينظر مدهوشاً إلى أعمال أبيه. ومن محاسن هذه السهرة أن كل شاعر أو كاتب لم ير من المحتم الواجب أن ينغص عيش المتسامرين</tei:p>
-            <tei:p change="#d2e73">بقصيدة أو خطاب شأننا في كل اجتماعاتنا بل اكتفى القوم بأن طلبوا من خليل مطران أن يطربهم بشيء من النظم، فأسكرهم بالشعر بعد الخمر، وتلا قصيدة وصف بها حالته وحالة ابنة عمه المحتفل بها أيام كانا ولدين يلعبان على شاطئ النهر. ولو وفى صديقي خليل بوعده لكنت ناشرها اليوم للقراء. . . ثم وقفت السيدة نجلا وألقت كلمات هي الدر أو أغلى بلفظ مليح ونطق فصيح. فذكرت المهاجرين وتعلقهم بأبيهم الوطن وأمهم اللغة. وهكذا مضى هزيع من الليل والبشر مخيم على منزل نمرة  <tei:num type="auto-markup" change="#d2e181" value="15" xml:lang="ar">١٥</tei:num>  بشارع الفجالة بمصر.</tei:p>
+            <tei:p change="#d2e73">بقصيدة أو خطاب شأننا في كل اجتماعاتنا بل اكتفى القوم بأن طلبوا من <persName>خليل مطران</persName> أن يطربهم بشيء من النظم، فأسكرهم بالشعر بعد الخمر، وتلا قصيدة وصف بها حالته وحالة ابنة عمه المحتفل بها أيام كانا ولدين يلعبان على شاطئ النهر. ولو وفى صديقي خليل بوعده لكنت ناشرها اليوم للقراء. . . ثم وقفت السيدة نجلا وألقت كلمات هي الدر أو أغلى بلفظ مليح ونطق فصيح. فذكرت المهاجرين وتعلقهم بأبيهم الوطن وأمهم اللغة. وهكذا مضى هزيع من الليل والبشر مخيم على منزل نمرة  <tei:num type="auto-markup" change="#d2e181" value="15" xml:lang="ar">١٥</tei:num>  بشارع الفجالة بمصر.</tei:p>
             <tei:p change="#d2e73">حاصد</tei:p>
          </tei:div>
          <tei:div change="#d2e64" type="item">

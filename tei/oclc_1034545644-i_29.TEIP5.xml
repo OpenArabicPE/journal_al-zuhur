@@ -54,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+      <revisionDesc><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
@@ -126,7 +126,7 @@
          <tei:div change="#d2e64" type="item">
             <head>جمال الدين الأفغاني</head>
             <tei:p change="#d2e73">في نظر الدكتور شبلي شميّل</tei:p>
-            <tei:p change="#d2e73">يشتغل الدكتور شميل في هذه الأثناء بوضع كتاب كبير عنوانه حوادث وخواطر أو هو مجموعة مذكراته كما بدل عليه الاسم. وقد اقتطعنا منه الفصل التالي جمال الدين الأفغاني الشهير. قال عفا الله عنه:</tei:p>
+            <tei:p change="#d2e73">يشتغل <persName>الدكتور شميل</persName> في هذه الأثناء بوضع كتاب كبير عنوانه حوادث وخواطر أو هو مجموعة مذكراته كما بدل عليه الاسم. وقد اقتطعنا منه الفصل التالي جمال الدين الأفغاني الشهير. قال عفا الله عنه:</tei:p>
             <tei:p change="#d2e73">. . . أما جمال الدين فكان من نوابغ عصره عالماً واسع الإطلاع في علوم الأقدمين وفلسفتهم ذا ذكاءٍ مفرط وأدب رائع مع شجاعة في القول لا تصدر إلاَّ عن نفوس مستقلَّة كريمة وكان ذا حديث طلي شهي لا يمل منه سامعه مع فصاحة عربية في التزام القواعد واختيار الألفاظ ولكنها ممزوجة ببعض لكنةٍ أعجمية تنمُّ عن أصله الغريب وإنما وقعها على الأذن كان محبوباً. ونظره كان جذاباً وله عينان إلى السواد غائرتان قليلاً تتقدان ذكاءٍ. وهو لم يكن يعرف لغةً من لغات الإفرنج الحافلة بالأفكار الجديدة والعلوم الحديثة ولكنهُ كان مقدرة عجيبة في التحصيل
 <pb n="n3-p412" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1521.xhtml"/>
 
@@ -154,11 +154,11 @@
 
 
 اعتقادهم على هوى جليسهم تارةً أقرب إلى المعطلين وطوراً أقرب إلى المؤمنين أي أنهم يكونون كما وصفهم الإمام الغزالي حين قال: إن الآراء ثلاثة أقسام: رأي يشاركه فيهِ الجمهور فيما هم عليه. ورأي يكون بحسب ما يخاطب به كل سائل ومسترشد. ورأي يكون بين الإنسان ونفسه لا يطلع إلاَّ من هو شريكه في اعتقادهم اهـ ويصعب عليَّ جداً بعد اختياري الرجل بنفسي من جهة ثم سماعي عنه بعد دلك أن أبدي فيه حكماً جازماً ولكني أرجح جداً أنه لم يكن من المؤمنين.</tei:p>
-            <tei:p change="#d2e73">الدكتور شميل
+            <byline change="#d2e198"><persName>الدكتور شميل</persName>
 <pb n="n3-p418" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1527.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>نشيد نهر الصفا</head>
@@ -215,16 +215,16 @@
             <tei:p change="#d2e73">وأنا. . . أنا شئءٌ آخر. أنت لغز بين البحار والآفاق , وأنا لغز بين الحياة واللانهاية. أنا أعرف إني لا أفهمك , وأشعر بجهل الإنسان وشقائهِ , أما أنت. . . مالنا ولك؟</tei:p>
             <tei:p change="#d2e73">سيري , أيتها المياه , سيري واتركيني. أسقي النباتات والأعشاب , ضعي لآلئ في أفمام الورود , رطّبي صدر الأرض الملتهب , ترنمي في وحدة الوادي , اسردي حكايتك التي لا تنتهي , اندبي , هللي , اصرخي , اهمسي , انشدي , أنحبي , اطربي , احزني. كل هذا ننسبه إليكِ نحن أبناء الطرب والكآبة</tei:p>
             <tei:p change="#d2e73">سيري , أيتها المياه , ودعيني ابكي. لقد تلبَّد جوّ فكري بالغيوم القاتمة. وقلبي - ما لكِ ولهُ! - منفرد حزين. . . .</tei:p>
-            <tei:p change="#d2e73">مي</tei:p>
+            <byline change="#d2e198"><persName>مي</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>الشكوكيُّون</head>
             <tei:p change="#d2e73">ليس شيء من أمور الدنيا إلاّ وهو معرَّض للشك حتى قال بعض الفلاسفة: إن كل شيء يقبل الشك حتى قولي هذا: إن كل شيء يقبل الشك ومن بين الفلاسفة طائفة يعرفون بأهل الشكوك يشكون في كل شيء حتى في وجود ذواتهم</tei:p>
-            <tei:p change="#d2e73">محمد المويلمي
+            <byline change="#d2e198"><persName>محمد المويلمي</persName>
 <pb n="n3-p424" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1533.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>الرتب والنياشين</head>
@@ -296,11 +296,11 @@
             <tei:p change="#d2e73">خاندان آل عثمان السلطان عبد الحميد الثاني  <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num>  مرصع بالأحجار الكريمة</tei:p>
             <tei:p change="#d2e73">الأسرة المالكة أرطغرل السلطان عبد الحميد الثاني مرصع بالأحجار الكريمة</tei:p>
             <tei:p change="#d2e73">ثم هناك مداليات أنواط مثل مدالية التخليص تمنح لكل من ينجي حياة شخص من الغرق في البحر أو من حريق وما أشبه ومداليات الزراعة والافتخار أنشأها جميعها السلطان عبد الحميد الثاني. هذا غير أنواط حربية وقتية قديمة أسست عقب الحروب الماضية كحرب الروس واليونان وكريد واليمن وغيرها منحت لكل من حضرها من الجند والضباط والقواد.</tei:p>
-            <tei:p change="#d2e73">حقي العظم
+            <byline change="#d2e198"><persName>حقي العظم</persName>
 <pb n="n3-p430" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1539.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="section">
             <head>في رياض الشعر</head>
@@ -618,7 +618,7 @@
                   <tei:seg>ما كان من سيرتهِ أوَّلا</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">خليل مطران</tei:p>
+            <byline><persName>خليل مطران</persName></byline>
             <tei:p change="#d2e73">غانية فقيرة</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
@@ -631,7 +631,7 @@
                   <tei:seg>أفقرٌ وعندكِ هذي الدُرَرْ</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73"><persName>بشارة الخوري</persName></tei:p>
+            <byline><persName>بشارة الخوري</persName></byline>
             <tei:p change="#d2e73">قساوة التشفّي</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
@@ -666,7 +666,7 @@
          <tei:div change="#d2e64" type="section">
             <head>أزهار وأشواك</head>
             <tei:p change="#d2e73">توارد الخواطر</tei:p>
-            <tei:p change="#d2e73">توارد الخواطر أمرٌ معروفٌ بين الناس عامةً , وكلٌّ يروي من هذا القبيل الشيء الكثير مما حدث له شخصياً أو اتصل بهِ عن الغير. على أن توارد الخواطر بين الأدباء كثيراً ما جاء بصورة مدهشة غريبة , فتقرأ الشطرة الواحدة من الشعر , أو الفقرة الواحدة من النثر , لشاعرين أو لكاتبين مختلفين , حتى لتكاد تتصوَّر الواحد قد اقتبس قول الآخر مع أنه لم يتفق له الإطلاع على شيء منهُ؛ وتاريخ آداب العرب حافل بمثل هذه النوادر. وإلى القراء حادثة من هذا القبيل جرت في مصر , واتصل خبرها بحاصد الزهور وهو ينقلها تفكهة للقراء: وضع أحد الأدباء كتاباً عنوانه العرب وأطوارها وأحبَّ أ، يهديه إلى العالم العربي أحمد زكي باشا , فسأل الأديب محمود أفندي عماد أن يصوغ له كلمة الإهداء في بيتين من الشعر , وطلب مثل هذا الطلب أيضاً من شاعر الأمير شوقي بك. فجاءه من الأول هذا البيتان:</tei:p>
+            <tei:p change="#d2e73">توارد الخواطر أمرٌ معروفٌ بين الناس عامةً , وكلٌّ يروي من هذا القبيل الشيء الكثير مما حدث له شخصياً أو اتصل بهِ عن الغير. على أن توارد الخواطر بين الأدباء كثيراً ما جاء بصورة مدهشة غريبة , فتقرأ الشطرة الواحدة من الشعر , أو الفقرة الواحدة من النثر , لشاعرين أو لكاتبين مختلفين , حتى لتكاد تتصوَّر الواحد قد اقتبس قول الآخر مع أنه لم يتفق له الإطلاع على شيء منهُ؛ وتاريخ آداب العرب حافل بمثل هذه النوادر. وإلى القراء حادثة من هذا القبيل جرت في مصر , واتصل خبرها بحاصد الزهور وهو ينقلها تفكهة للقراء: وضع أحد الأدباء كتاباً عنوانه العرب وأطوارها وأحبَّ أ، يهديه إلى العالم العربي <persName>أحمد زكي باشا</persName> , فسأل الأديب محمود أفندي عماد أن يصوغ له كلمة الإهداء في بيتين من الشعر , وطلب مثل هذا الطلب أيضاً من شاعر الأمير شوقي بك. فجاءه من الأول هذا البيتان:</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>إيهٍ ذكيَّ النفس تحيا نسبةٌ</tei:seg> 
@@ -799,7 +799,7 @@
          </tei:div>
          <tei:div change="#d2e64" type="section">
             <head>ثمرات المطابع</head>
-            <tei:p change="#d2e73">حديث القمر - نشرنا في الجزء الخامس من هذه السنة ص  <tei:num type="auto-markup" change="#d2e181" value="249" xml:lang="ar">٢٤٩</tei:num>  مقالةً خيالية عنوانها أيها القمر من قلم الشاعر المشهور السيد أبي السامي مصطفى صادق الرافعي. ثمَّ أخذ حضرته هذه المقالة وتوسع فيها بما أوحى إليهِ أمير الليل من خطرات أفكار شعرية وغزَلية وأدبية واجتماعية فجاءت سلسلة فصولٍ شائقة تتناول مباحث شتى في الحب والجمال والزواج والإلحاد والطبيعة بأسلوب خيالي وقالب
+            <tei:p change="#d2e73">حديث القمر - نشرنا في الجزء الخامس من هذه السنة ص  <tei:num type="auto-markup" change="#d2e181" value="249" xml:lang="ar">٢٤٩</tei:num>  مقالةً خيالية عنوانها أيها القمر من قلم الشاعر المشهور السيد أبي السامي <persName>مصطفى صادق الرافعي</persName>. ثمَّ أخذ حضرته هذه المقالة وتوسع فيها بما أوحى إليهِ أمير الليل من خطرات أفكار شعرية وغزَلية وأدبية واجتماعية فجاءت سلسلة فصولٍ شائقة تتناول مباحث شتى في الحب والجمال والزواج والإلحاد والطبيعة بأسلوب خيالي وقالب
 <pb n="n3-p439" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1548.xhtml"/>
 
 

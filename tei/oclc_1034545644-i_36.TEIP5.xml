@@ -54,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+      <revisionDesc><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
@@ -197,18 +197,18 @@
 
 
 مليون فرنك. وهكذا عاد الصفاءُ بين السلالتين منذ نحو  <tei:num type="auto-markup" change="#d2e181" value="50" xml:lang="ar">٥٠</tei:num>  سنة , وعادت دوقية برنزويك إلى أمرائها الأصليين؛ ولم يبق في انكلترا أمراء من الدم الملكي القديم. بل عادوا إلى ألمانيا , وهي مسقط رأسهم الأوَّل. ولم يعد باقياً أثر للعداوات والمناوآت القديمة التي كانت بين بروسيا ومخاصمها في ألمانيا لأن الإمبراطور الألماني أضحى على وفاق تام مع جميع الذين غلبهم جدُّه ووزيرهُ بسمارك.</tei:p>
-            <tei:p change="#d2e73">سليم خطار الدحداح</tei:p>
+            <byline change="#d2e198"><persName>سليم خطار الدحداح</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>حكمة قاض</head>
             <tei:p change="#d2e73">ٍ</tei:p>
             <tei:p change="#d2e73">من أغرب الأحكام الصينية أن أربعةً من تجار القطن خافوا أن يسطوا الفأر على قطنهم فابتاعوا هرّاً بأن دفع كل واحد منهم ثمن فخذ. فحدث أن الهرّ جرح بفخذٍ من أفخاذه فربط جرحه بالقطن وبلَّ بالغا. . فقضت الصدفة التعسة بالتهاب الضماد وفرار الهرّ إلى أكداس القطن فأحرقها. فأقام أصحاب الأفخاذ الثلاث السليمة الدعوى على صاحب الفخذ الجريح. فأصدر القاضي حكمهُ بأن الفخذ الجريح لم يحمل الهرّ إلى القطن ولكن الأفخاذ السليمة هي التي حملته. فعلى أصحابها أن يدفعوا ثمن قطن صاحب الفخذ الجريح.</tei:p>
             <tei:p change="#d2e73">ثلاثة لا يعرفون إلاَّ في ثلاثة مواضع. لا يعرف الشجاع إلاَّ عند الحرب. ولا الحكيم إلاَّ عند الغضب. ولا الصديق إلاَّ عند الحاجة إليه.</tei:p>
-            <tei:p change="#d2e73">للمستعصمي
+            <byline change="#d2e198">للمستعصمي
 <pb n="n4-p241" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1923.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>الحركة الصهوينة</head>
@@ -241,11 +241,11 @@
 
 ستة آلاف دونم من الأراضي على مقربة من بحيرة طبريا , وإنشاءُ مزرعتين كبيرتين للزيتون في حولدا وبن شامن وعدة حدائق لزراعة البرتقال والليمون والاترنج في شدراح وجنينة صامويل. أما المدارس الصناعية والزراعية والعالية التي أنشئت بمال الذخيرة في حيفا ويافا والقدس لتربية النشء الإسرائيلي وتعليمه فحدّث عنها ولا حرج. وهكذا قل عن المستعمرات الزراعية وبيوت العمَّال التي أنشئت في أنحاءِ فلسطين فتحوّل بها القفر البلقع إلى روض أزهر. وقد أتاحت لي الظروف التعرف إلى جماعة من المشتغلين بهذا الموضوع في القاهرة والاختلاط بهم فعلمت أن لهم مندوباً خاصاً يتردّد على بعض المدارس الابتدائية ويلقي على تلاميذها دروساً يبين فيها حقيقة الصهيوينة وما يجب على كل إسرائيلي عمله لتنشيطها ومسعدتها ولهم مجلة فرنساوية شهرية اسمها النهضة الإسرائيلية يوافيها أئمة الكتاب الصهيونية وأنصارها. وقيمة اشتراكها السنوي ثلاثة فرنكات. ولهم نادٍ خاص كبير في حيّ الإسماعيلية. ونحو عشر جمعيات تشتغل بجمع المال وإرساله إلى اللجنة الرئيسية في كولونيا. ويعني صهيوني , مصر بمطالعة كل ما يردُ عنهم في الجرائد المحلية ويعقبون عليه. وقد انعقدت الجمعية العاملة للصهيونيين في مدينة فينا يوم  <tei:num type="auto-markup" change="#d2e181" value="10" xml:lang="ar">١٠</tei:num>  يونيو مقدمة</tei:p>
             <tei:p change="#d2e73">للمؤتمر الذي سينعقد في شهر سبتمبر القادم المسائل المعروضة عليه يأخذ في تنفيذها بقوة مالهِ ورجالهِ</tei:p>
-            <tei:p change="#d2e73"><persName>توفيق حبيب</persName>
+            <byline change="#d2e198"><persName>توفيق حبيب</persName>
 <pb n="n4-p248" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1930.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>أثر عرابي ثمين</head>
@@ -449,7 +449,7 @@
                   <tei:seg>فيا أفقُ سجّلها ويا أنجمُ اشهدي</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">وليّ الدين يكن</tei:p>
+            <tei:p change="#d2e73"><persName>وليّ الدين يكن</persName></tei:p>
             <tei:p change="#d2e73">إلى الله</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
@@ -482,7 +482,7 @@
                   <tei:seg>ألاَّ تضيقَ بأعظمِ الأوزارِ</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">إسماعيل صبري
+            <tei:p change="#d2e73"><persName>إسماعيل صبري</persName>
 <pb n="n4-p256" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1938.xhtml"/>
 
 
@@ -683,11 +683,11 @@
 
 
 الكذب والرياء. فإذا قدّر لي أن أعودَ إلى هذا القلم رجعتُ إليهِ ولم ارجع عن المبدأ الذي أفخر بهِ وقد رأيته أنفعَ من مبادئ الذي يتقلبون مع الأهواء , ويبدون في كل يوم بشكل جديد. وأسأتُ في ما مضى إلى كثيرين أيضاً ربما كان معظمهم من الزملاء الذين يقضي اختلافُ نفساً بقصد إيلامها ولا تهجمت على رجل بالطعن , وأنني كنتُ أحزنُ لما يصيبُ الخصمَ الصحافي ولا حزنَ أصحابه والأخصاء الأقربين. على أن المطاعنَ الصحافية كلها خطأ قبيح , ولابدَّ أن يكون قلمي قد زلَّ مراراً وأغضبّ بعض الرفاق فاسألهم الصفحَ والمعذرة , وأرجو أن يكون عامنا الحالي آخرَ أعوامِ التجريح والمشاتمة في عالم التحرير. قلتُ أن الذي تعي ذاكرتي من حوادث هذا العمر الصحافي والذي يعنُّ لي إيرادهُ شيء كثير. فإذا شاء قراء الوطن أن أوافيهم بشيء من أذوق الراحة أياماً. وأمَّا اليوم فاكتفي بشكرٍ عام أرسلهُ إلى كل صديق كريم وذي وداد طلب لي الخير فيما مضى؛ وأسأل الله أن يوفق كلًّ منا إلى الغرض الذي يطلبه , وأن يديمَ أيامَ الصفاء والهناء لجميع الأخوان الذين عرفتهم في وادي النيل.</tei:p>
-            <tei:p change="#d2e73">اسكندر شاهين
+            <byline change="#d2e198"><persName>اسكندر شاهين</persName>
 <pb n="n4-p262" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1944.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>صاحب البرق</head>
@@ -962,7 +962,7 @@
          <tei:div change="#d2e64" type="section">
             <head>ثمرات المطابع</head>
             <tei:p change="#d2e73">خواطر في الحقوق والأدب - هذه مجموعة تلك امقالات الغراء التي كان ينشرها في جريدة <tei:title level="j" change="#d2e193">الأخبار</tei:title> حضرة الكاتب الفاضل <persName>سامي أفندي الجريديني</persName> المحامي المشهورز وإنَّ الأدباء ليذكرون مقدار التأثير الذي كانت تؤثرهُ مباحثهُ الطليّة في النفوس , وصدى لاستحسان الذي كانت تجده كل مقالة منهاز جمعها حضرتهُ ضنّاً بفائدتها وحرصاً عليها فجاءت كتاباً شاملاً أبحاثاً دقيقة في مواضيع شتىَّ كالربا والطلاق وحقوق الملاَّك وحقوق الحياة ونظريات صادفة في آداب اللغة العربية مفرغة جميعها في قال لطيف رشيق العبارة سهل المأخذ لا يبعد عن الإفهام , مؤيدة وذوق سليم في الانتقاد. وقد عرف قراء الزهور مقدرة سامي أفندي في الكتابةو وأجادته في التعبير من ترجمته لرواية يوليوس قيصر التي نشرت متسلسلة في هذه المجلة فكان لها وقع حسن جداً في النفوس واتخذها تلاميذ المدارس معواناً لهم على تفهَّم شكسبير واستيعاب أغراضه ومعانيه. فنثني على حضرّته كل الثناء.</tei:p>
-            <tei:p change="#d2e73">الإسعاف الأوّلي - لم يعجب أحدٌ من عارفي فضل الدكتور محمد عبد الحميد ونشاطهِ في خدمة العلم من وجود اسمهِ في الشهر الفائت مدرجاً بين أسماءِ الذين أنعمت عليهم الحضرة الفخيمة الخديوية بلقب
+            <tei:p change="#d2e73">الإسعاف الأوّلي - لم يعجب أحدٌ من عارفي فضل <persName>الدكتور محمد عبد الحميد</persName> ونشاطهِ في خدمة العلم من وجود اسمهِ في الشهر الفائت مدرجاً بين أسماءِ الذين أنعمت عليهم الحضرة الفخيمة الخديوية بلقب
 <pb n="n4-p268" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1950.xhtml"/>
 
 
@@ -974,7 +974,7 @@
 
 
 إلينا مكتبة المنار الشهيرة في مصر. وقد وضعهُ حضرة الأستاذ الفاضل الشيخ مصطفى الغلاييني مدرّس اللغة العربية في الكتب السلطاني والكلية العثمانية في بيروت , وضمّنهُ تاريخ شعراء المعلقات العشر وأنسابهم ونفيس أشعارهم وما اتفق لهم من الحوادث مما يجدُ القارئ فيه لذةً وفائدة كبيرتين. وقد ضبط الشعر بالشكل الكامل وشرحهُ شرحاً وافياًَ لمساعدة المطالع على تفهّم المفردات والمعاني. وصدّر الكتاب بمقدمتين جليلتي النفع ضافيتي الذيول: الأولى تتضمن خلاصة تاريخ العرب قبل الإسلام , والثانية تشتمل خلاصة تاريخ أدب اللغة العربية من لدان العصر الجاهلي حتى الزمن الحاضر. ولم يدّخر المؤلف وسعاً في مراجعة الدواوين وكتب الأدب القديمة والحديثة , حتى جاء عمله متقناً وافياً بالغرض. ولا نشك في أن الإقبال سيكون عظيماً على هذا الكتاب الجميل في إبان النهضة العربية الحاضرة.</tei:p>
-            <tei:p change="#d2e73">منتخبات الشيخ أمين الحدَّاد - قلنا في الزهور سنة  <tei:num type="auto-markup" change="#d2e181" value="3" xml:lang="ar">٣</tei:num>  صفحة  <tei:num type="auto-markup" change="#d2e181" value="307" xml:lang="ar">٣٠٧</tei:num>  كلمةً في المرحوم الشيخ أمين الحداد من حيث هو كاتبٌ وشاعر , فلا حاجة بنا اليوم إلى زيارة القراء تعريفأً بهِ. إنما يسرّنا أن نعلن محبي النظم الرائق والنثر الطلي أنهُ صدر في عالم المطبوعات كتابٌ نفيس جمع بين دفَّتيهِ مئتين وثلاثين موضوعاً من المواضيع التي جال فيها قلم الفقيد. والفضل في نشر هذا الكتاب عائد لحضرة الأديب المشهور الشيخ سلامة حجازي الذي أراد أن يطبعه على نفقتهِ الخاصة تخليداً لمآثر أبناء الحداد وتذكاراً لإشتغاله مع المرحوم الشيخ نجيب بفن التمثيل
+            <tei:p change="#d2e73">منتخبات الشيخ أمين الحدَّاد - قلنا في الزهور سنة  <tei:num type="auto-markup" change="#d2e181" value="3" xml:lang="ar">٣</tei:num>  صفحة  <tei:num type="auto-markup" change="#d2e181" value="307" xml:lang="ar">٣٠٧</tei:num>  كلمةً في المرحوم الشيخ <persName>أمين الحداد</persName> من حيث هو كاتبٌ وشاعر , فلا حاجة بنا اليوم إلى زيارة القراء تعريفأً بهِ. إنما يسرّنا أن نعلن محبي النظم الرائق والنثر الطلي أنهُ صدر في عالم المطبوعات كتابٌ نفيس جمع بين دفَّتيهِ مئتين وثلاثين موضوعاً من المواضيع التي جال فيها قلم الفقيد. والفضل في نشر هذا الكتاب عائد لحضرة الأديب المشهور الشيخ سلامة حجازي الذي أراد أن يطبعه على نفقتهِ الخاصة تخليداً لمآثر أبناء الحداد وتذكاراً لإشتغاله مع المرحوم الشيخ نجيب بفن التمثيل
 <pb n="n4-p270" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1952.xhtml"/>
 
 

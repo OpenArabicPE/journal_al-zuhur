@@ -54,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+      <revisionDesc><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
@@ -131,7 +131,7 @@
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>حرفة الأدب</head>
-            <tei:p change="#d2e73">للشيخ أبي السامي مصطفى صادق الرافعي</tei:p>
+            <tei:p change="#d2e73">للشيخ أبي السامي <persName>مصطفى صادق الرافعي</persName></tei:p>
             <tei:p change="#d2e73">لا أريد من معنى هذه الحرفة ما يتجوز به المتكلمون من إملاق أهل الأدب وسوء أثر الزمان عليهم كسوء أثره على بعض الكتب القديمة. . . ولا ما يترسلون به من جفاء الأديب واطرحه دون منزلته وتقديره بما ليس من كفايته , وذهابهم إلى أن الأقدار ما برحت تنصرف بسعادته إلى غيره , وبشقاء غيره إليه , كأنه في لغة الأقدار باب من الطرد والعكس. . . ولا ما يتمثلونه من قبح مكافأة كل أديب لنفسه , وجنايته عليها وابتغائه بها المراميَ في كل ما أجرى إليه من قصد , واستهدف له من غرض , كأنها غير نفسه أو نفس غيره , فما إن يزال ينصب ويتهالك فيما يعاني من أمر الأدب لا يرفق بها ولا يستجمّ لها , حتى تسترخيَ جوانبها , وتتناثر بما فيها من قوة , فيحتف عليها كل بلاء , ويمكّن منها لكل قضاء , وهو يرى أن لا بأس على نفسه من شيء ولو كان الموت ما دام قد استيقن أن لا بأس في لبه. لا أريد ذلك وما إليه مما عسى أن تبلغ به بلاغة القوم في تفضيل هذه الحرفة إذا هم جمعوا أطراف لبيان وأخذوا في متاحي القول؛ وإنما أشير إلى معنى الحرفة على الحقيقة , وأريد أن أصف شيئاً من أخلاق جماعة يحترفون من الأدب صناعة كسائر المهن؛ والصناعات التي بها قِوام
 <pb n="n3-p538" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1646.xhtml"/>
 
@@ -198,7 +198,7 @@
 
 الفلسفة اليونانية وانتشرت مبادئ العلوم. ولم يمض بعد أكثر من نصف دقيقة على ظهور الآلات البخارية , كذا ولم ننتبه غيبوبة الجهل إلى عالم المعرفة إلاَّ منذ دقيقة وبعض الثواني. هذه فكاهة علمية فلسفية. لكنها كجميع الفكاهات تضمر تهكماً ودعوى , وتمكن في أعماق معانيها مرارة في رغبة المعرفة , وألماً في استكشاف ما أغمض عن العقول في ضمير الوجود. فيا ليت شعري لماذا كانت الأيام ولماذا كنا؟ ألندوّن حركات النجوم بعقارب معدنية , أم لنقابل نبضات القلب في الصدر بحفيف الأفلاك في الأثير؟ ألنرى الزمان تائهاً في دوائره الأبدية التي لا مجال للمدارك فيها , أم لنشعر بأقدام خياله دائسة على الأرواح فتطبع عليها ما شاءت من آثار حاسة مجهولة بذاتها , نسميها ألماً أو سروراً بحسب ما تُسر به إلى أعصابنا من الاهتزازات المريحة أو المضنية. . .؟</tei:p>
             <tei:p change="#d2e73">أم كانت الأيام وكنا لنرتقي بها وتتعظم بنا.</tei:p>
-            <tei:p change="#d2e73">ميّ</tei:p>
+            <byline change="#d2e198"><persName>مي</persName>ّ</byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>خطرات</head>
@@ -584,11 +584,11 @@
                   <tei:seg>أجدُ الخيالَ على الخيالِ معينا</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">عباس محمود العقاد
+            <byline change="#d2e198"><persName>عباس محمود العقاد</persName>
 <pb n="n3-p554" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1662.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>فرسايل</head>
@@ -633,7 +633,7 @@
 
 
 في أوقيانوس الفضاء , وتنساب الساقية قرب الضريح مرددةً أنينها المنسجم! عبثاً تتمايل أغصان الغابة , وعبثاً تأتي الحسناء في طلب الأثمار وتضع رجلها وجلة في المياه الباردة. . . لن يوقظه من ظلمات قبره شيء!</tei:p>
-            <tei:p change="#d2e73">عبده أبو حجره</tei:p>
+            <byline change="#d2e198"><persName>عبده أبو حجره</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>الزهور</head>
@@ -666,11 +666,11 @@
 
 
 يعقد موآمرته السياسة في هذا الصرح ويسعى لإعادة الملك المخلوع. وفيهِ أيضاً وُلد البرنس جيمس فردرك ادورد الذي كان مطالباً بعرش انجلترا. وكان البعض يعتقدون أنهُ لم يكن ابناً شرعياً بل نقل إلى غرفة أمهِ الملكة بطريقة الخداع. ومن أدلتهم على ذلك أن السرير الذي وُجد فيهِ الطفل مقمطاً كان إلى مؤخرة الدَّرج التي في داخل القصر بعيداً جداً عن أنهِ. على أن هذا الزعم لم يبقَ من يؤيدُه اليوم في انجلترا. ومن الحوادث الخطيرة التي وقعت في هذا القصر أن الملك جيمس الثاني نام فيهِ في الليلة التي سبقت تتويجهُ. ومن هناك هرب ولم يرجع إلى انجلترا قط. ولما جاء وليم أوف أورنج اتخذه مقرّاً له ريثما يستتب له العرش. وبلغ قصر سان جيمس ذروة شهرتهِ على عهد الملكة حنة وزوجها؛ فإنهُ أصبح منذ ذلك الحين مركزاً لسائر الحفلات والمقابلات الرسمية. وسكن فيهِ جورج الأول والثاني والثالث والرابع. ولما جاءَ وليم الرابع اتخذه هو والملكة أدلائيد مقرّاً لهما؛ وأقاما كثيراً من الحفلات الرسمية؛ إلاَّ أن شمس سعده آذنت بالأفوال عند ارتقاء الملكة فيكتوريا إلى العرش فأنها أهملتهُ ووقفتهُ على بعض الحفلات الرسمية فقط. وربما كان آخر الحفلات التي جرت فيهِ حفلة اليمين التي أقسمها المرحوم الملك ادورد السابع عند ارتقائهِ العرش , ثم حفلة اجتماع المندوبين الأتراك بمندوبي البلقان للبحث في شروط الصلح كما يعلم القراء.</tei:p>
-            <tei:p change="#d2e73">س. ع
+            <byline change="#d2e198"><persName>س. ع</persName>
 <pb n="n3-p565" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1673.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>في حدائق العرب</head>
@@ -737,7 +737,7 @@
 
 
 ظاهر أفندي الريس قبل الثلاثين. وهو مجموعة الرسائل التي نشرها في جريدة <tei:title level="j" change="#d2e193">المقطم</tei:title>. ولما كانت هذه الرسائل تتناول مواضيع شتى من أدبٍ وسياسة وفكاهة واقتصاد , فإنها لم تفقد جدتها بفوات الحوادث التي كتبت بصددها. ولذلك يمكن القارئ أن يجد فيها لذة وفائدة لاسيما وإن كاتبها الفاضل بعيد عن الدعوى يروي الحقائق كما يراها ليستفيد منها وليشاركه غيره في الفائدة. وهذه صفة من أجلّ صفات الكتّاب والمنشئين.</tei:p>
-            <tei:p change="#d2e73">تاريخ الصحافة العربية - أنجز حضرة الفاضل الفيكونت فيليب دي طرازي كتاب تاريخ الصحافة العربية ومثل للطبع على ورق صقيل بحجم كبير. وهو يبحث عن مجمل أخبار صحافتنا الشريفة وآدابها منذ ظهورها حتى الآن في العالم كله. ويشتمل أيضاً على حوادث كل جريدة أو مجلة أو نشرها موقوتة بلا استثناء واحدة منها مع رسوم أصحابها والمحررين فيها. وقد أضاف إلى ذلك تراجم مشاهير الصحافيين حرصاً على صيانة آثارهم وتنويها بفضلهم وتخليداً لذكرهم في القرون اللاحقة. ولا شك أن مثل هذا العمل المجيد قد اقتضى من حضرة الكاتب عملاً شاقاً , وجلداً كبيراً. فنحن نثني على همته كل الثناءِ , ونتمنى لكتابه الرواج الكبير.</tei:p>
+            <tei:p change="#d2e73">تاريخ الصحافة العربية - أنجز حضرة الفاضل الفيكونت <persName>فيليب دي طرازي</persName> كتاب تاريخ الصحافة العربية ومثل للطبع على ورق صقيل بحجم كبير. وهو يبحث عن مجمل أخبار صحافتنا الشريفة وآدابها منذ ظهورها حتى الآن في العالم كله. ويشتمل أيضاً على حوادث كل جريدة أو مجلة أو نشرها موقوتة بلا استثناء واحدة منها مع رسوم أصحابها والمحررين فيها. وقد أضاف إلى ذلك تراجم مشاهير الصحافيين حرصاً على صيانة آثارهم وتنويها بفضلهم وتخليداً لذكرهم في القرون اللاحقة. ولا شك أن مثل هذا العمل المجيد قد اقتضى من حضرة الكاتب عملاً شاقاً , وجلداً كبيراً. فنحن نثني على همته كل الثناءِ , ونتمنى لكتابه الرواج الكبير.</tei:p>
             <tei:p change="#d2e73">الصحة والآداب - كتاب وضعه الدكتور بول جود من أطباءِ البحرية الفرنساوية وعرّبة حضرة الأديب الفاضل فريد أفندي يوسف
 <pb n="n3-p575" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1683.xhtml"/>
 
@@ -779,22 +779,22 @@
             <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="26" xml:lang="ar">٢٦</tei:num>  منه يتزوجون من غير جنسهم طمعاً بالثروة ويعيشون بهناء</tei:p>
             <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="27" xml:lang="ar">٢٧</tei:num>  منه أسفارهم محفوفة بالمخاطر</tei:p>
             <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="28" xml:lang="ar">٢٨</tei:num>  منه مهددون بالخراب ويوقفون لتربية أبنائهم تربية صالة فيسعدون بهم.</tei:p>
-            <tei:p change="#d2e73">أ. غ
+            <byline change="#d2e198"><persName>أ. غ</persName>
 <pb n="n3-p577" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1685.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>رأي في اللغة</head>
             <tei:p change="#d2e73">قلنا كلمة في جزء سابق عن حديث القمر وهو الكتاب الذي وضعه حضرة الكاتب المجيد مصطفى أفندي صادق الرافعي. وكان إن انتقد المؤلف أحد الكتاب وآخذه ببعض ألفاظ قال أنها من استعمال العامة. فنشر الرافعي رداً على ذلك نقتطف منه ما يأتي , قال:. . . كأننا لا نزالُ نحتاجُ كلّ حرفٍ ووضع كل كلمة إلى نصوص هؤلاء أصحاب الصحاح واللسان والقاموس وكأنّ هذه اللغة لا تجري على قواعد يمكن أن تنزل منزلة السنن الطبيعية في الحياة , بحيث لا تأبى في عصر من العصور أن يُضافَ إليها شيءٌ من المستحدثات الزمنية. وإلاَّ فكيف وضعها العرب إذن , وكيف تبسطوا فيها حتى بلغت بهم ما بلغت بهم من السعة , كيف جاء القرآن الكريم من ألفاظهم نفسها وأجراه فيما لم يستعملوه ولا هم بهِ عهد , وهو مُعجزة القوم , وكيف فصحت الألفاظ المولَّدة وأسماء المستحدثات العلمية حتى ألحقت بمادة اللغة؟؟</tei:p>
             <tei:p change="#d2e73">إنَّ القول بأن هذه فصيحة , وهذه مولّدة قد مضى زمنه. فإنما كان الباعث عليهِ قرب عهد الرُواة من فصحاء الأعراب في الصدر الأول , ثم تقليد علماء اللغة من المتأخرين لأولئك الرواة تحقيقاً بشروط هذا العلم الذي يحملونهُ وبآدابه التاريخية إذا كنَّا في كلّ نقول: نصَّ الجوهري وابن مكرم والمجد وفلان وفلان , ونغفل عما وراءَ ذلك مما تنصُّ عليهِ طيعة اللغة من أوزانها وقواعدها وطُرُق الوضع والاستعمال فيها , فما نحن بأهل هذه اللغة ولا بالقائمين عليها , ولا هي لغة عصرنا , إنما هي لفة الجوهري وابن مكرم والمجد وفلان وفلان.</tei:p>
             <tei:p change="#d2e73">لستُ أتردّد في القول بأن سبب الضعف الذي طرأ على هذا اللسان إنما هو في هذه العقول الضعيف الذي طرأ هذا اللسان إنما هو في هذه العقول الضعيفة التي تقوم عليهِ أسوأ القيام , لا بالنظر ولكن بالتقليد الأعمى , فلا نزال نرجع بكل لفظة إلى حدود البادية , كأنَّ هذه البادية العربية هي جغرافية اللغة , وإنما يستقيم مثل هذا إذا كانت اللغة , وإنما يستقيم مثل هذا إذا كانت اللغة ميتة ليس فيها قوة النموّ كهذه العقول التي يغني عنها كلها كتابٌ واحد كلسان العرب.</tei:p>
-            <tei:p change="#d2e73">أبو السامي الرافعي
+            <byline change="#d2e198"><persName>أبو السامي الرافعي</persName>
 <pb n="n4-p3" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1686.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
       </tei:body>
    </tei:text>

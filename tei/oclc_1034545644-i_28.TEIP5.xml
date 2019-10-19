@@ -54,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+      <revisionDesc><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
@@ -93,7 +93,7 @@
 
 
 سيجارته , ونيشان القديسين موريس ولا زار ليزين صدره. . ولقد اشتهر أمر كثيرين من مشاهير العلماء وكبار الرجال الذين رفضوا بتاتا الرتب والنياشين , وكان رفضهم عن إخلاص في الاعتقاد ورسوخ في المبدأ. غير أن رفض البعض كان ينمّ عن كبرياءٍ حقيقة وعجرفة فعلية. وما الرتب والنياشين في الحقيقة إلاّ كمصباح يحمله الإنسان , فيبدي عيوبه إذا كان ناقصا , ويُظهر محاسنهُ إذا كان كاملاً. قال أحد كتَّاب الغربيين: يجب أن نعجب لا أن نضحك من هذا الاختراع الكبير - اختراع الأوسمة والنياشين - فهو اختراع قوة أدبية لنيل قطعة من المعدن يرون فيها أمجد مجد وأشرف شر وأعظم جزاء هذا جنون ولكنهُ جنون جميل. كأن الناس خافوا على هذه الامتيازات من الطامعين فيها يدّعونها كذباً وزوراً فجعلوا في القانون مادة تعاقب بالسجن من ستة أشهر إلى سنتين من يحمل نيشاناً لم يُنعم عليهِ بهِ , كما أنهم يغرّمون من ينتحل</tei:p>
-            <tei:p change="#d2e73">لنفسهِ لقباً من ألقاب الشرف جزاءً نقدياً من  <tei:num type="auto-markup" change="#d2e181" value="500" xml:lang="ar">٥٠٠</tei:num> إلى  <tei:num type="auto-markup" change="#d2e181" value="20000" xml:lang="ar">٢٠٠٠٠</tei:num>  فرنك. وأحسن ما يختم بهِ هذا المقال كلمة جامعة شاملة على إيجازها , لأحمد فارس الشدياق عن الألقاب قال: هي خرقة تستر عورة الاسم الذي أُطلق على المسمى. . بل هي كالبطاقة شُدَّت إلى لابسها ليعرف بها سعره. إلاَّ أنه كثيراً ما يقع الغلط في إلصاقها بمن ليس بينهُ وبينها علاقة. . .
+            <tei:p change="#d2e73">لنفسهِ لقباً من ألقاب الشرف جزاءً نقدياً من  <tei:num type="auto-markup" change="#d2e181" value="500" xml:lang="ar">٥٠٠</tei:num> إلى  <tei:num type="auto-markup" change="#d2e181" value="20000" xml:lang="ar">٢٠٠٠٠</tei:num>  فرنك. وأحسن ما يختم بهِ هذا المقال كلمة جامعة شاملة على إيجازها , لأحمد <persName>فارس الشدياق</persName> عن الألقاب قال: هي خرقة تستر عورة الاسم الذي أُطلق على المسمى. . بل هي كالبطاقة شُدَّت إلى لابسها ليعرف بها سعره. إلاَّ أنه كثيراً ما يقع الغلط في إلصاقها بمن ليس بينهُ وبينها علاقة. . .
 <pb n="n3-p349" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1458.xhtml"/>
 
 
@@ -138,16 +138,16 @@
 
 
 يعلّم الناس فنَّ السياسة , والشعر يولّد الآراء السامية , وفنّ الرياضيات يعلّم الدقة , والعلوم الطبيعية تكون واسطة للتبحر في العلم , والفلسفة الأدبية تورث الحزم والثبات , والمنطق والبلاغة يقرّبان المرء من المقدرة على الخطابة والمناظرة. وليس في العقول نقص لا يكلمه العلم , أو عاهة لا تشفيها الحكمة. وكما أن لكل داءٍ من أدواءِ الجسم جدواءً يشفيهِ فالمشي ذهاباً وجيئة ينفع الأمعاء , وركوب الخيل يشفي المخ , والرماية تصلح الرئتين. فمن كان قليل الانتباه فدعه يدرس الرياضيات فإنهُ إن سها أو نسي أو أخطأ فيها مرةً , تكبد مشقة العمل ثانياً , وإن آنس من نفسه عجزاً في الاستنتاج فدعه يصرف قليل وقت في مطالعة المناظرات الدينية. وإن أحس من نفسه بضعف في ضرب الأمثال فدعه يقرأ كتب الشرائع والقوانين</tei:p>
-            <tei:p change="#d2e73">محمد لطفي جمعه المحامي</tei:p>
+            <byline change="#d2e198"><persName>محمد لطفي جمعه</persName> المحامي</byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>المودة الكاذبة</head>
             <tei:p change="#d2e73">إن أهل الدنيا يتعاطون فيما بينهم أمرين , ويتواصلون عليهما؛ وهما ذات النفس , وذات اليد. فالمتبادلون ذات النفس هم الأصفياء. وأما المتبادلون ذات اليد فهم المتعاونون ذات يلتمس بعضهم الانتفاع ببعض. ومن كان يصنع المعروف ببعض منافع الدنيا , فإنما مثلهُ فيما يبذل ويُعطي كمثل الصياد وإلقائهِ الحبّ للطير , لا يريد بذلك نفعَ الطير وإنما يريد نفع نفسه.</tei:p>
-            <tei:p change="#d2e73"><persName>ابن المقفع</persName>
+            <byline change="#d2e198"><persName>ابن المقفع</persName>
 <pb n="n3-p356" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1465.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>النساء الرجال</head>
@@ -412,7 +412,7 @@
                </tei:l>
             </lg>
             <tei:p change="#d2e73">أتبره السودان</tei:p>
-            <tei:p change="#d2e73">محمد فاضل</tei:p>
+            <byline><persName>محمد فاضل</persName></byline>
             <tei:p change="#d2e73">بالجيش المصري</tei:p>
             <tei:p change="#d2e73">السلطان الغازي</tei:p>
             <lg change="#d2e82">
@@ -545,7 +545,7 @@
                   <tei:seg>من سعار يمزّق الأرواحا</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">عباس محمود العقاد</tei:p>
+            <tei:p change="#d2e73"><persName>عباس محمود العقاد</persName></tei:p>
             <tei:p change="#d2e73">بالأوقاف بمصر</tei:p>
             <tei:p change="#d2e73">حافظ بك المنشاوي</tei:p>
             <tei:p change="#d2e73">إن صحّ في رجل أن ينعت بالسريّ النبيل , فإن حافظاً من أجدر كبراء القطر المصري بهذا النعت. وقد فزنا برسالة وقصيدة أهديتا إليه في هذا الشهر بمناسبة إنعام الحضرة الفخيمة الخديوية عليه بالوسام العثماني الرابع بصفته أحد أعضاء الجمعية العمومية. فآثرنا نشرهما لبلاغتها وللدلالة على ما لسليل أسرة المنشاوي من المكانة في نفوس الأدباء أما الرسالة فهي من قلم الذكي النجيب محمد بك البابلي , وهذا نصّحها البليغ بعد الديباجة:</tei:p>
@@ -555,7 +555,7 @@
 
 عما أوصله إليك علوُّ الهمم , وحسبك صدرٌ ضلّت الفضيلة حتى اهتدت إليهِ , فاستقرَّت عليهِ؛ ومقام بناه خيرة الآباء الأمجاد , وأعلاه صفوة الأبناء الأجواد. . .</tei:p>
             <tei:p change="#d2e73">البابلي</tei:p>
-            <tei:p change="#d2e73">أما القصيدة فهي لشاعرنا الكبير خليل مطران , وهذا نصُّها:</tei:p>
+            <tei:p change="#d2e73">أما القصيدة فهي لشاعرنا الكبير <persName>خليل مطران</persName> , وهذا نصُّها:</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
                   <tei:seg>هل لشعري وأنتَ منهُ مرادي</tei:seg> 
@@ -669,7 +669,7 @@
                   <tei:seg>غير أن الفروقَ في الأندادِ</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">خليل مطران</tei:p>
+            <byline><persName>خليل مطران</persName></byline>
             <tei:p change="#d2e73">السعادة</tei:p>
             <lg change="#d2e82">
                <tei:l type="bayt" change="#d2e82">
@@ -682,7 +682,7 @@
                   <tei:seg>م فلم أجد غيرَ العذابْ</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">حليم إبراهيم دموسى</tei:p>
+            <byline change="#d2e198"><persName>حليم إبراهيم دموس</persName>ى</byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>حول النياشين</head>
@@ -714,7 +714,7 @@
 
 
 نفوسهم روح الشرّ , فلا يرجى إصلاحهم بالنصح والإرشاد. وقد خطرت على بالنا كلمة لشكسبير نابغة الانكليز وشاعرهم قال دع المتشرّد يقترف الجنايات كل يوم , ويتوغل في شروره صباح مساء , دعهُ ولا تنصحهُ إلى يوم قريب يسقط فيهِ إلى الهاوية على عنقهِ , فالقانون له بالمرصاد ولا تفوته الفرص , وهو يستطيع أن يريبه ويقوّم أخلاقه فإن مادة أو مادتين في القانون تقوم مقام عشرين من ألفاظك العذبة الرقيقة نعم يجب أن يكون القانون واقفاً بالمرصاد للمجرمين الأشرار. وهو أعظم رادع يقف في سبيل هؤلاء الفاسقين. ولو جاءَ فيهِ بندٌ يقضي بعقوبة من يخدع الفتاة ويجرّها إلى الهلاك سواء كانت بالغة سنّ الرشد أو لا لخفت وطأة هذه المصيبة شيئاً عن الهيئة الاجتماعية. وإذا عُدَّ حكم قدماء المصريين بقتل الزاني وقطع أنف الزانية في منتهى القساوة فإن التجاوز عن تلك الجريمة يُعَدُّ منتهى التساهل الذي يكون سبباً لانتشار الفساد في الأخلاق وعلةً لخراب العمران</tei:p>
-            <tei:p change="#d2e73">فيليب. م. ليليا</tei:p>
+            <byline change="#d2e198">فيليب. م. ليليا</byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>أمثال وأقوال</head>
@@ -1081,11 +1081,11 @@
             <tei:p change="#d2e73">المنجم - إني لا أجزم بوقوع الخطر ولكني أخشى حدوثه. سعدت أوقاتكِ. هنا الشارع ضيق والجمع الذي يلحق بقيصر مؤلف من أعيان وقضاة وذوي مطالب شتى يتكاثفون فيزحمون رجلاً ضعيفاً مثلي. وقد يقتلونهُ. سأذهب إلى مكان أفسح من هذا أعارض قيصر في السبيل وأكمله يخرج</tei:p>
             <tei:p change="#d2e73">بورسيا - يجب أن أدخل إلى غرفتي. ويلٌ لي , ما أضعف قلب المرأة. لتُنجحِ السموات مقاصدك يا بروتوس! آه لقد سعني الخادم تقول ما يأتي لتحوّل ذهن الخادم عن الجملة الأولى فيما لو كان قد سمعها أن لبروتوس طلباً لا يستحيبه إليهِ قيصر. يكاد يُغمى عليَّ.</tei:p>
             <tei:p change="#d2e73">اذهب يا غلام إلى مولاك واقرأ سلامي. قل له إني مشروحة الصدر لا أشكو ألماً ثم ارجع إليَّ وأنبئني بما يجيبك بهِ تخرج ثم يتبعها الخادم</tei:p>
-            <tei:p change="#d2e73">تم الفصل الثاني
+            <byline change="#d2e198">تم الفصل الثاني
 <pb n="n3-p401" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1510.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
       </tei:body>
    </tei:text>

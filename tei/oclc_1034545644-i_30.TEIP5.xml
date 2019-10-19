@@ -54,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+      <revisionDesc><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
@@ -219,11 +219,11 @@
                   <tei:seg>رغبةٌ فيك أم رهَبْ</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73"><persName>الياس فياض</persName>
+            <byline change="#d2e198"><persName>الياس فياض</persName>
 <pb n="n3-p459" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1568.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>المرأة المترجلة</head>
@@ -401,7 +401,7 @@
                   <tei:seg>تحية بالدَّمع لا بالكلامْ</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73"><persName>ولي الدين يكن</persName></tei:p>
+            <byline><persName>ولي الدين يكن</persName></byline>
             <tei:p change="#d2e73">صدى نشيد نهر الصفا</tei:p>
             <tei:p change="#d2e73">نشرنا في الجزء الماضي من الزهور شعراً منثوراً للكاتبة الفاضلة مي عنوانه نشيد نهر الصفا وفي الأبيات التالية صدى لذلك النشيد لشاعر ليس أنين الصفا بأحن من أنينه:</tei:p>
             <lg change="#d2e82">
@@ -719,13 +719,13 @@
 
 
 المجرمين الذين ماتوا بسيف الأحكام. ولو أن عدل البشر قضى على الكل لما بقي مجالٌ للحرب ولكنها لا تطول إلاَّ عدداً نزراً لعلّها تهمله في أكثر الأحايين وهي لا تدري أن إنسانيتها الفظيعة تدعو إلى لزومية الحرب. الأرض لا تصرخ عبثاً. هذه الحرب قد أنقذت نارها وتطاير شرارها فإذا بالإنسان قد تناوله غضبٌ إلهي بعيدٌ عن الحقد والغضب البشري فمشى إلى ساحة القتال لا يدري ماذا يفعل ولا ماذا يريد. وهنا اللغزُ المعقَّد. إذ أن الذي يفعله الآن مباين لطبيعته ولكنهُ يفعله مستلذاً مطيعاً. ألا ترون أن الإنسان في ساحة الوغى لا يعصى لكبيره أمراً. هل حدَّثنا التاريخ أن جنوداً شقوا على قائدهم عصا الطاعة ولو كان ذلك القائد من أكبر شرَّاب الدماء والقوم الظالمين. لا شيء يقف في سبيل تلك القوة التي تدفع الإنسان إلى الحرب فيصبح قائلاً وهو بريء لأنهُ آلة تسيّرُها يدٌ رهيبة فيقع في المهواة التي احتفرها لنفسه قائلاً مقتولا وهو لا يشكّ أنه هو الذي صنع الموت. . . وهكذا تنفذ تلك الشريعة الهائلة في الحشرات وفي الإنسان وتبقى الأرض هيكلاً عظيماً لا تفتر إراقة الدماء على مذبحهِ بلا رحمة ولا شفقة منذ البدء إلى انقضاء العالم وموت الموت. . .</tei:p>
-            <tei:p change="#d2e73"><persName>خليل شيبوب</persName></tei:p>
+            <byline><persName>خليل شيبوب</persName></byline>
             <tei:p change="#d2e73">المغفرة دليلُ عدم الاهتمام والاكتراث. إذا وُجد الحب الحقيقي يجب أن لا توجد المغفرة.</tei:p>
-            <tei:p change="#d2e73">كارمن سيلفا
+            <byline change="#d2e198">كارمن سيلفا
 <pb n="n3-p475" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1584.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>عيد الميلاد</head>
@@ -740,7 +740,7 @@
 
 
 يرحّب بي صديق فحسبي بهجة العيد التي تنفذ إلى أعماق نفسي وطلعات الذين حولي السعيدة التي تُدخل فيَّ مجرى السعادة وتجعلني أشعر كأني بين أهلي وخلاَّني , لأنه حقيقةً كما يقال أن السعادة عاطفة قابلة الانعكاس كأشعة السماء , فكل محيا يطفح ابتساماً وكل طلعةٍ تفيض حباً وابتهاجاً هي كمرآةٍ تعكس إلى وجوه الآخرين أشعة السعادة وأضواء الهناء , ومن يحوّل وجهه عن الاشتراك بفرح المعيدين وينزوِ كالحاً في عزلته تستولِ عليهِ السوداء فيضطّر أن يطيب نفساً ويفرح مع المحتفلين ليتمَّ مهرجان العيد. كان أسلافنا في خالي الأحقاب يحتفلون بالعيد احتفالاً شائقاً , ويرصدون من معدات الطرب وصنوف الملاهي ما يضاعف دواعي السرور أما اليوم أعظم أبهة وفخامة , ولكنها أقلُّ مجلبة للسرور وأنقص مورداً للطرب لأن قانون الاجتماع يذهب برونقها وأصفاد العادات تغلُّ القلوب فلا تستطيع وثوباً من الفرح , ومع ذلك فعيد الميلاد في كل زمان ومكان لا يخلو من جاذبيةٍ وبهجة وحبور.</tei:p>
-            <tei:p change="#d2e73"><persName>بدرى فركوح</persName></tei:p>
+            <byline change="#d2e198"><persName>بدرى فركوح</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>في حسناء اسمها وردة</head>
@@ -755,11 +755,11 @@
                   <tei:seg>وردةٌ أنتِ في جميع الفصولِ</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73"><persName>شبلي ملاط</persName>
+            <byline change="#d2e198"><persName>شبلي ملاط</persName>
 <pb n="n3-p478" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1587.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>طربوشي بنتوفلي</head>
@@ -780,16 +780,16 @@
             <tei:p change="#d2e73">ثالثاً - أن لا أفضل رأسي على قدميَّ في حال من الأحوال لأن لكل منهما عملاً لا يقوم به الآخر</tei:p>
             <tei:p change="#d2e73">وغاية الأمل أن يأتي يوم نتخلص فيهِ من شرّ الجزم والشراريب والطرابيش والبرانيط معاً.</tei:p>
             <tei:p change="#d2e73">وكل عام وأنتم. . . .</tei:p>
-            <tei:p change="#d2e73"><persName>توفيق حبيب</persName></tei:p>
+            <byline change="#d2e198"><persName>توفيق حبيب</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>الحقد</head>
             <tei:p change="#d2e73">مقل الحقد في القلب إذا لم يجد محركاً مثل الجمر المكنون إذا لم يجد حطباً. فليس ينفكُّ الحقد متطلعاً إلى العلل كما تبتغي النار الحطب. فإذا وجد علة استعرَ فلا يطفئه حسنُ كلامٍ ولا لينٌ ولا رفقٌ ولا خضوع ولا تصرعٌ ولا مصانعة ولا شيء دون تلف الأنفس وذهاب الأرواح.</tei:p>
-            <tei:p change="#d2e73"><persName>ابن المقفع</persName>
+            <byline change="#d2e198"><persName>ابن المقفع</persName>
 <pb n="n3-p481" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1590.xhtml"/>
 
 
-            </tei:p>
+            </byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>مستقبلنا</head>
@@ -889,7 +889,7 @@
 المتواصل أشبه شيء بدائره معارف خفيفة الحمل حافلة بالفوائد والمُلَح.</tei:p>
             <tei:p change="#d2e73">الأمازون - جريد جامعة حرَّة أنشأها حضرة الكاتب الفاضل فارس أفندي دبغي من أدباء الجالية السورية في سان باولو من أعمال البرازيل في أمريكا. وقد أهدي إلينا الأجزاء التي صدرت منها إلى اليوم فطالعنا فيها المقالات الأدبية والسياسية التي تنمُّ عن مقدرة منشئها وعلمه.</tei:p>
             <tei:p change="#d2e73">جراب الحاوي - تصدر هذه الجريدة في تونس ايرس , مديرها يوسف أفندي ملحم شعيا ومحرّرها سمعان أفندي بقالبٍ هزلي لتقربها من إفهام العامة. فنمتني لهاتين الجريدتين كل نجاح وتقدُّم , كما أننا نثني على صحافتنا العربية في أميريكا قاطبةً لما تبذله من العناية في حفظ رابطة اللغة والوطنية.</tei:p>
-            <tei:p change="#d2e73">جمعية الاتحاد والإحسان السورية في طنطا - أهدت إلينا هذه الجمعية الراقية كتيّباً جمعت فيه خلاصة أعمالها لسنتها الخامسة فتبينَّا فيه آثاراً شريفة , ومآثر غراء لا يكبرها أحد على مؤسسيها الأفاضل , وأعضائها الكرام. فنتمنى لها ما تمناه لها من قبلنا حضرة العالم المحترم الدكتور شميل إذ قال فيها عفي الله عنه: عسى أن تكون هذه الجمعيى قدوة لإنشاء جمعيات كثيرة من أمثالها.
+            <tei:p change="#d2e73">جمعية الاتحاد والإحسان السورية في طنطا - أهدت إلينا هذه الجمعية الراقية كتيّباً جمعت فيه خلاصة أعمالها لسنتها الخامسة فتبينَّا فيه آثاراً شريفة , ومآثر غراء لا يكبرها أحد على مؤسسيها الأفاضل , وأعضائها الكرام. فنتمنى لها ما تمناه لها من قبلنا حضرة العالم المحترم <persName>الدكتور شميل</persName> إذ قال فيها عفي الله عنه: عسى أن تكون هذه الجمعيى قدوة لإنشاء جمعيات كثيرة من أمثالها.
 <pb n="n3-p492" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1601.xhtml"/>
 
 
@@ -967,7 +967,7 @@
                </tei:l>
             </lg>
             <tei:p change="#d2e73">وبعد يا حاصد الزهور فأما وقد ضمنت جائزة آل إبراهيم عن طريق الهند فاعلم إن الضامن غارم والسلام.</tei:p>
-            <tei:p change="#d2e73">مصطفى صادق الرافعي</tei:p>
+            <tei:p change="#d2e73"><persName>مصطفى صادق الرافعي</persName></tei:p>
             <tei:p change="#d2e73">أما كون هذا الجواب الشافي قد ورد من الرافعي فلا عجب وهو الأديب المشهور صاحب الكتاب النفيس في تاريخ آداب للحصول عليها.</tei:p>
             <tei:p change="#d2e73">عتاب</tei:p>
             <tei:p change="#d2e73">نشرت الزهور ص <tei:num type="auto-markup" change="#d2e181" value="76" xml:lang="ar">٧٦</tei:num>  من هذه السنة أبياتاً جميلة لشاعر الفيحاء السيد عبد الحميد بك الرافعي , عنوانها إلى شاعر الأمير وقد وجه فيها الكلام إلى شاعر الأمير أحمد شوقي بك , وسأله مطارحة الشعر على صفحات هذه المجلة ملتقى أقلام أدباء القطرين. فمرَّت بضعة أشهر دون أن تمكّن الفرصة شاعرَ النيل من الجواب , فعتب الشاعر الطرابلسي - ويحقُّ له أن يعتب - ورأيتُ بعض آثار عتبة على ورقةٍ في إدارة الزهور فقرأتُ فيها:</tei:p>
@@ -1035,7 +1035,7 @@
             <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="29" xml:lang="ar">٢٩</tei:num>  منه ذوو سموّ في الأفكار وأصالة في الرأي</tei:p>
             <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="30" xml:lang="ar">٣٠</tei:num>  منه أقوياء القلوب</tei:p>
             <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="31" xml:lang="ar">٣١</tei:num>  منه شديدو الحرص يضيعون الفرص لشدة حرصهم</tei:p>
-            <tei:p change="#d2e73">ا. غ</tei:p>
+            <byline change="#d2e198"><persName>ا. غ</persName></byline>
          </tei:div>
          <tei:div change="#d2e64" type="item">
             <head>فكاهة</head>
