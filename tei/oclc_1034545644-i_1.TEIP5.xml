@@ -6,10 +6,10 @@
             <title type="sub">TEI edition</title>
             <author>أنطون الجميل</author>
             <tei:respStmt xml:lang="en">
-               <tei:resp>TEI edition</tei:resp>
-               <tei:persName xml:id="pers_TG">
-                  <tei:forename>Till</tei:forename>
-                  <tei:surname>Grallert</tei:surname>
+               <tei:resp change="#d2e223" xml:lang="en">TEI edition</tei:resp>
+               <tei:persName xml:id="pers_TG" change="#d2e223" xml:lang="en">
+                  <tei:forename change="#d2e223" xml:lang="en">Till</tei:forename>
+                  <tei:surname change="#d2e223" xml:lang="en">Grallert</tei:surname>
                </tei:persName>
             </tei:respStmt>
          </titleStmt>
@@ -23,11 +23,11 @@
                             <title level="j" xml:lang="ar">مجلة أدبية فنية علمية</title>
                             <title level="j" xml:lang="ar-Latn-x-ijmes">al-Zuhūr</title>
                             <title level="j" xml:lang="ar-Latn-x-ijmes">Majalla adabiyya fanniyya ʿilmiyya</title>
-                            <idno type="oape">3</idno>
+                            <idno type="oape" change="#d2e223" xml:lang="ar">3</idno>
                             <idno type="jid" xml:lang="ar">40</idno>
-                            <idno type="OCLC">1034545644</idno>
-                            <idno type="URI">http://waqfeya.com/book.php?bid=6507</idno>
-                            <idno type="URI">http://shamela.ws/index.php/book/36534</idno>
+                            <idno type="OCLC" change="#d2e223" xml:lang="ar">1034545644</idno>
+                            <idno type="URI" change="#d2e223" xml:lang="ar">http://waqfeya.com/book.php?bid=6507</idno>
+                            <idno type="URI" change="#d2e223" xml:lang="ar">http://shamela.ws/index.php/book/36534</idno>
                             <textLang mainLang="ar"/>
                             <editor xml:lang="ar">
                                 <persName ref="oape:pers:2804 viaf:305214858" xml:lang="ar">
@@ -36,11 +36,11 @@
                                 </persName>
                             </editor>
                             <imprint xml:lang="ar">
-                                <publisher>
+                                <publisher change="#d2e223" xml:lang="ar">
                                     <orgName xml:lang="ar">مطبعة المعارف</orgName>
                                     <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</orgName>
                                 </publisher>
-                                <pubPlace>
+                                <pubPlace change="#d2e223" xml:lang="ar">
                                     <placeName change="#d5e42" ref="oape:place:226 geon:360630" xml:lang="ar">القاهرة</placeName>
                                     <placeName change="#d5e42" ref="oape:place:226 geon:360630" xml:lang="ar-Latn-x-ijmes">al-Qāhira</placeName>
                                     <placeName change="#d5e42" ref="oape:place:226 geon:360630" xml:lang="en">Cairo</placeName>
@@ -49,14 +49,14 @@
                                 <tei:date calendar="#cal_gregorian" xml:lang="ar" when="1910-03-01">١ آذار سنة ١٩١٠</tei:date>
                             </imprint>
                             <biblScope from="1" to="1" unit="volume" xml:lang="ar"/>
-                            <biblScope change="#d3e189" unit="issue" from="1" to="1">1</biblScope>
+                            <biblScope change="#d3e189 #d2e223" unit="issue" from="1" to="1" xml:lang="ar">1</biblScope>
                         </monogr>
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><tei:change when="2019-10-19" who="#pers_TG" xml:id="d3e209" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+      <revisionDesc><tei:change when="2019-10-19" who="#pers_TG" change="d2e223" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change><tei:change when="2019-10-19" who="#pers_TG" xml:id="d3e209" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml" change="#d2e223" xml:lang="en">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi change="#d2e223" xml:lang="en">persName</tei:gi>s without such references based on <tei:gi change="#d2e223" xml:lang="en">person</tei:gi>s in the local authority file. If the source <tei:gi change="#d2e223" xml:lang="en">persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi change="#d2e223" xml:lang="en">p</tei:gi>s inside <tei:gi change="#d2e223" xml:lang="en">div</tei:gi>s as bylines (<tei:gi change="#d2e223" xml:lang="en">byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag change="#d2e223" xml:lang="en">title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi change="#d2e223" xml:lang="en">num</tei:gi> with <tei:att change="#d2e223" xml:lang="en">value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
-         <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
+         <change when="2019-10-17" who="#pers_TG" change="d2e82" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi change="#d2e223" xml:lang="en">p</gi>s divided by a <gi change="#d2e223" xml:lang="en">gap</gi> to <gi change="#d2e223" xml:lang="en">l</gi> of <att change="#d2e223" xml:lang="en">type</att>="bayt" comprising two <gi change="#d2e223" xml:lang="en">seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en">tei:lb</tei:gi> into <tei:gi xml:lang="en">xml:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <tei:gi xml:lang="en">tei:head</tei:gi> into <tei:gi xml:lang="en">xml:div</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="" xml:lang="en">Created this TEI P5 file by automatic conversion from ePub.</change>
@@ -64,231 +64,231 @@
    </teiHeader>
    <tei:text xml:lang="ar">
       <pb n="n1-p3" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P16.xhtml"/>
-      <tei:body>
-         <tei:div change="#d2e64" type="item">
-            <head>العدد  <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num> </head>
-            <tei:p change="#d2e73"> - بتاريخ: <date when="1910-03-01">1910-03-01</date> </tei:p>
+      <tei:body change="#d2e223" xml:lang="ar">
+         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+            <head change="#d2e223" xml:lang="ar">العدد  <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num> </head>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"> - بتاريخ: <date when="1910-03-01" change="#d2e223" xml:lang="ar">1910-03-01</date> </tei:p>
          </tei:div>
-         <tei:div change="#d2e64" type="item">
-            <head>ما هي هذه المجلة؟</head>
-            <tei:p change="#d2e73">بدت منذ مدة من الزمن في كل الأقطار العربية طوالع حركة فكرية، ونهضة أدبية، لا يسع المكابر إنكارها. فلقد نفض الناطقون بالضاد غبار الخمول عنهم، وأفاقوا من سباتهم العميق، فألقوا نظرة إلى مجاوريهم أبناء سائر اللغات، فرأوهم قد ساروا شوطاً بعيداً في مضمار الآداب والفنون، ونظروا إلى العرب أجدادهم، فرأوا أنفسهم قد قصروا عنهم أيما تقصير: فلا السيوف المشرقية، ولا الرماح الهندية، ولا الجياد الأعوجية، يفاخرون بها الأقران، ويفتحون بها الأمصار والبلدان. . . . ولا البيان الدرّيّ، ولا الشعر السحري، ولا الهوى العذري، يخلبون به الألباب ويستولون به على ممالك الأذهان. . .</tei:p>
-            <tei:p change="#d2e73">رأوا قد دالت من يدهم دولة الحسام، ودولة الأقلام، وأدركوا أن الأحفاد كادوا يضيعون ذلك الإرث المجيد الذي خلفه لهم الأجداد. فهالهم ما رأوا وما أدركوا عندما تفتحت منهم العيون، بعد مر الأجيال
+         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+            <head change="#d2e223" xml:lang="ar">ما هي هذه المجلة؟</head>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">بدت منذ مدة من الزمن في كل الأقطار العربية طوالع حركة فكرية، ونهضة أدبية، لا يسع المكابر إنكارها. فلقد نفض الناطقون بالضاد غبار الخمول عنهم، وأفاقوا من سباتهم العميق، فألقوا نظرة إلى مجاوريهم أبناء سائر اللغات، فرأوهم قد ساروا شوطاً بعيداً في مضمار الآداب والفنون، ونظروا إلى العرب أجدادهم، فرأوا أنفسهم قد قصروا عنهم أيما تقصير: فلا السيوف المشرقية، ولا الرماح الهندية، ولا الجياد الأعوجية، يفاخرون بها الأقران، ويفتحون بها الأمصار والبلدان. . . . ولا البيان الدرّيّ، ولا الشعر السحري، ولا الهوى العذري، يخلبون به الألباب ويستولون به على ممالك الأذهان. . .</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">رأوا قد دالت من يدهم دولة الحسام، ودولة الأقلام، وأدركوا أن الأحفاد كادوا يضيعون ذلك الإرث المجيد الذي خلفه لهم الأجداد. فهالهم ما رأوا وما أدركوا عندما تفتحت منهم العيون، بعد مر الأجيال
 <pb n="n1-p4" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P17.xhtml"/>
 
 
 والقرون. فنهضوا نهضة من يريد أن يعتاض بالاجتهاد، عما أضاعه من الأوقات. وأخذوا ينسجون بجد ونشاط ثوباً يسترون به عريهم قبل أن تسقط أسمالهم البالية. ونفخوا الرماد الذي ذرته الأيام على نار أذهانهم ليوقدوا من القبس الباقي مصباحهم.</tei:p>
-            <tei:p change="#d2e73">هذه هي النهضة التي سرت روحها بين غروب القرن التاسع عشر وبزوغ القرن العشرين في مصر والشام والعراق والمغرب وسائر البلاد التي تتفاهم بالعربية.</tei:p>
-            <tei:p change="#d2e73">بين غسق القرن الغابر، وغلس القرن الحاضر، بزغت شمس هذه النهضة الفكرية، في سماء البلاد العربية. بعد أن تقدمها شهاب من النور، في السنين السالفة كما يتقدم شروق البدور.</tei:p>
-            <tei:p change="#d2e73">ولقد كان لإعلان الدستور في الممالك العثمانية كبير تأثير في هذه الحركة. فإن ثوره الأبلج بدد ما تبقى من السحب، في سماء العرب. فراق الجو، وانقشعت غيومه، وصاف أديمه. بعد أن كادت غياهب الاستبداد تطفئ كل نور ونار.</tei:p>
-            <tei:p change="#d2e73">نبغ في الأقطار العربية كتاب أعلام، وشعراء عظام. أخذوا أهبتهم ونزلوا إلى الميدان. فجال فريق منهم جولات صادقة ذكرتنا مفاخر الماضين، فقلنا: إن أولاء الأبناء من أولئك الآباء. وهم - وإن كان عددهم قليلاً - سيكونون لنا خير أساتذة يؤملون بإرجاع العصور الذهبية، للآداب العربية.</tei:p>
-            <tei:p change="#d2e73">ونزل فريق إلى المضمار على غير ما يكفى من التمرين والترويض
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">هذه هي النهضة التي سرت روحها بين غروب القرن التاسع عشر وبزوغ القرن العشرين في مصر والشام والعراق والمغرب وسائر البلاد التي تتفاهم بالعربية.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">بين غسق القرن الغابر، وغلس القرن الحاضر، بزغت شمس هذه النهضة الفكرية، في سماء البلاد العربية. بعد أن تقدمها شهاب من النور، في السنين السالفة كما يتقدم شروق البدور.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">ولقد كان لإعلان الدستور في الممالك العثمانية كبير تأثير في هذه الحركة. فإن ثوره الأبلج بدد ما تبقى من السحب، في سماء العرب. فراق الجو، وانقشعت غيومه، وصاف أديمه. بعد أن كادت غياهب الاستبداد تطفئ كل نور ونار.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">نبغ في الأقطار العربية كتاب أعلام، وشعراء عظام. أخذوا أهبتهم ونزلوا إلى الميدان. فجال فريق منهم جولات صادقة ذكرتنا مفاخر الماضين، فقلنا: إن أولاء الأبناء من أولئك الآباء. وهم - وإن كان عددهم قليلاً - سيكونون لنا خير أساتذة يؤملون بإرجاع العصور الذهبية، للآداب العربية.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">ونزل فريق إلى المضمار على غير ما يكفى من التمرين والترويض
 <pb n="n1-p5" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P18.xhtml"/>
 
 
 فجالوا غير آمنين</tei:p>
-            <tei:p change="#d2e73">كبوة حصانهم، أو نبوة حسامهم. ومثل هؤلاء في حاجة إلى التنشيط وزيادة التمرين تحت إدارة من يروض جيادهم ويثقف سلاحهم.</tei:p>
-            <tei:p change="#d2e73">وأنى يكون ذلك وكل فريق من الكتاب يجري في مضماره بعيداً عن الفريق الآخر فلا يرى أقراناً من ربع غير ربعه يجاريهم، ولا يلاقي فرساناً من حي غير حيه يباريهم. .؟</tei:p>
-            <tei:p change="#d2e73">أنى يكون ذلك ويكاد كتاب القطر الواحد يجهلون حتى أسماء كتاب القطر الثاني. لأن لا صلة بينهم ولا رابطة تربطهم. فحملة الأقلام في مصر يكادون لا يعرفون شيئاً عن زملائهم في الشام، وهؤلاء يعرفون دون القليل عن كتاب العراق. وقس على ذلك في سائر الأقطار العربية.</tei:p>
-            <tei:p change="#d2e73">ولقد تذهب هذه النهضة الجميلة بلا جدوى، وتضيع هذه المساعي الإفرادية بلا فائدة إذا لم تتضام وتتضافر ليتولد منها قوة واحدة كبيرة تنهض بالآداب العربية.</tei:p>
-            <tei:p change="#d2e73">وإذا ظلت الحال على هذا المنوال يظل الكتاب في الأمصار كالجزر المبعثرة في عرض البحار: لا رابط يربط بعضها ببعض ليستمد بعضها من بعض. فلا تفي كل واحدة بحاجات أهليها، فتنضب وتجدب ويهجرها من فيها.</tei:p>
-            <tei:p change="#d2e73">ولذلك فكرنا في العمل على سد هذا الفراغ الذي يشعر به الجميع وعزمنا بعون الله على إنشاء مجلة خاصة - على قدر الإمكان - بهذا الموضوع وبعد مفاوضة السواد الأعظم من مشاهير حملة الأقلام في مصر والشام.
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">كبوة حصانهم، أو نبوة حسامهم. ومثل هؤلاء في حاجة إلى التنشيط وزيادة التمرين تحت إدارة من يروض جيادهم ويثقف سلاحهم.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">وأنى يكون ذلك وكل فريق من الكتاب يجري في مضماره بعيداً عن الفريق الآخر فلا يرى أقراناً من ربع غير ربعه يجاريهم، ولا يلاقي فرساناً من حي غير حيه يباريهم. .؟</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">أنى يكون ذلك ويكاد كتاب القطر الواحد يجهلون حتى أسماء كتاب القطر الثاني. لأن لا صلة بينهم ولا رابطة تربطهم. فحملة الأقلام في مصر يكادون لا يعرفون شيئاً عن زملائهم في الشام، وهؤلاء يعرفون دون القليل عن كتاب العراق. وقس على ذلك في سائر الأقطار العربية.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">ولقد تذهب هذه النهضة الجميلة بلا جدوى، وتضيع هذه المساعي الإفرادية بلا فائدة إذا لم تتضام وتتضافر ليتولد منها قوة واحدة كبيرة تنهض بالآداب العربية.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">وإذا ظلت الحال على هذا المنوال يظل الكتاب في الأمصار كالجزر المبعثرة في عرض البحار: لا رابط يربط بعضها ببعض ليستمد بعضها من بعض. فلا تفي كل واحدة بحاجات أهليها، فتنضب وتجدب ويهجرها من فيها.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">ولذلك فكرنا في العمل على سد هذا الفراغ الذي يشعر به الجميع وعزمنا بعون الله على إنشاء مجلة خاصة - على قدر الإمكان - بهذا الموضوع وبعد مفاوضة السواد الأعظم من مشاهير حملة الأقلام في مصر والشام.
 <pb n="n1-p6" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P19.xhtml"/>
 
 
 عللنا النفس بأن نجعلها المضمار العام الذي ينزل إليه فرسان الأدب، ليجروا أشواطهم جنباً إلى جنب، فيكون هناك مباراة وتمرين واقتداء ولا فائدة بلا هذه الأمور.</tei:p>
-            <tei:p change="#d2e73">أو هي تكون السفينة التي تصل الجزر بعضها ببعض، فتحمل إلى هذه ما تحتاج من تلك، وتحمل إلى تلك ما تحتاج من هذه. وهكذا يتم التعاون والتساند الأدبي.</tei:p>
-            <tei:p change="#d2e73">نحن لم يخف علينا ما في ذلك من الصعوبة والمشقة، ولم تغرر بنا النفس حتى نتوهم أننا - على ضعفنا - قادرون على سد هذا الفراغ. لكننا عرضنا هذه الفكرة على أيمة الأدب في القطرين المصري والسوري فأنسنا منهم ارتياحاً كبيراً إلى هذا المشروع وتنشيطاً عظيماً على تحقيقه. ولما رأينا حينذاك أن لدينا القوة اللازمة من الأنصار والمساعدين أقدمنا على تحقيق هذه الأمنية متكلين على موفق الأمور.</tei:p>
-            <tei:p change="#d2e73">يفهم القارئ مما تقدم مجمل موضوع هذه المجلة الجديدة وخطتها. فهي تعلل النفس بان تكون صلة تعارف بين كتاب العرب في كل الأقطار، وذلك بنشر ما تجود به قرائحهم الوقادة من النفثات الرائقة، وفتح الميدان وسيعاً بوجههم ليتباروا فيه في موضوعات مختلفة. وسننشر تباعاً رسوم حملة ألوية الأدب ونفتح باباً خصوصياً للتراسل والتباحث فيما بينهم وبالإجمال نتوخى كل ما له علاقة بالحركة الفكرية وما يهم الأدباء الاطلاع عليه. ولا حاجة إلى القول أننا سنقصر في هذه النشرة على الأدبيات والفنيات مبتعدين عن السياسيات والمذهبيات.
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">أو هي تكون السفينة التي تصل الجزر بعضها ببعض، فتحمل إلى هذه ما تحتاج من تلك، وتحمل إلى تلك ما تحتاج من هذه. وهكذا يتم التعاون والتساند الأدبي.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">نحن لم يخف علينا ما في ذلك من الصعوبة والمشقة، ولم تغرر بنا النفس حتى نتوهم أننا - على ضعفنا - قادرون على سد هذا الفراغ. لكننا عرضنا هذه الفكرة على أيمة الأدب في القطرين المصري والسوري فأنسنا منهم ارتياحاً كبيراً إلى هذا المشروع وتنشيطاً عظيماً على تحقيقه. ولما رأينا حينذاك أن لدينا القوة اللازمة من الأنصار والمساعدين أقدمنا على تحقيق هذه الأمنية متكلين على موفق الأمور.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">يفهم القارئ مما تقدم مجمل موضوع هذه المجلة الجديدة وخطتها. فهي تعلل النفس بان تكون صلة تعارف بين كتاب العرب في كل الأقطار، وذلك بنشر ما تجود به قرائحهم الوقادة من النفثات الرائقة، وفتح الميدان وسيعاً بوجههم ليتباروا فيه في موضوعات مختلفة. وسننشر تباعاً رسوم حملة ألوية الأدب ونفتح باباً خصوصياً للتراسل والتباحث فيما بينهم وبالإجمال نتوخى كل ما له علاقة بالحركة الفكرية وما يهم الأدباء الاطلاع عليه. ولا حاجة إلى القول أننا سنقصر في هذه النشرة على الأدبيات والفنيات مبتعدين عن السياسيات والمذهبيات.
 <pb n="n1-p7" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P20.xhtml"/>
 
 
 وإليك أهم الأبواب التي سنطرقها في هذه المجلة:</tei:p>
-            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num>  ً - باب للمقالات التي يدبجها مشاهير الكتاب في مواضيع متنوعة.</tei:p>
-            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="2" xml:lang="ar">٢</tei:num>  ً - في رياض الشعر - ننشر تحت هذا العنوان عرائس القصائد التي تجود في قرائح فحول شعرائنا.</tei:p>
-            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="3" xml:lang="ar">٣</tei:num>  ً - في جنائن الغرب - ننشر تباعاً في هذا الباب خير ما يؤخذ عن آداب اليونان والرومان والفرنساويين والإنكليز والألمان والإيطاليان والروس وغيرهم من الغربيين قديماً وحديثاً لأن ذلك يكسب لغتنا ثروة طائلة من المعاني الجديدة والمباني الحديثة. وسنعتمد في ذلك على تعريب فريق من الكتاب العارفين بهذا الفن.</tei:p>
-            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="4" xml:lang="ar">٤</tei:num>  ً - في حدائق العرب - ننشر فيه صفحات مطوية من خير ما قاله الغابرون من كتاب العرب لأن لدينا كنوزاً مدفونة نحن في أشد الحاجة إلى الانتفاع بها. وسنعمل على قدر الإمكان ليكون نشر هذه الصفحات بمناسبة الحوادث الحاضرة وعلى مقتضى سير الأمور حوالينا.</tei:p>
-            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="5" xml:lang="ar">٥</tei:num>  ً - أشواك وأزهار - باب خصوصي للانتقاد والملاحظات على الحوادث الجارية والتعليق عليها بقلم أديب متفنن يريد أن يكتم اسمه.</tei:p>
-            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="6" xml:lang="ar">٦</tei:num>  ً - حديقة الأخبار - نورد في هذا الباب ملخص الحوادث وخصوصاً التي لها علاقة بحياة الكتاب.</tei:p>
-            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="7" xml:lang="ar">٧</tei:num>  ً - باب خصوصي لدرس كل كتاب نفيس يظهر في عالم المطبوعات درساً أدبياً على طريقة الأوربيين في نقد كتبهم. أو البحث بحثاً وافياً في حياة كاتب من أئمة الكتبة الأقدمين</tei:p>
-            <tei:p change="#d2e73">أو المحدثين.
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"> <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num>  ً - باب للمقالات التي يدبجها مشاهير الكتاب في مواضيع متنوعة.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"> <tei:num type="auto-markup" change="#d2e181" value="2" xml:lang="ar">٢</tei:num>  ً - في رياض الشعر - ننشر تحت هذا العنوان عرائس القصائد التي تجود في قرائح فحول شعرائنا.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"> <tei:num type="auto-markup" change="#d2e181" value="3" xml:lang="ar">٣</tei:num>  ً - في جنائن الغرب - ننشر تباعاً في هذا الباب خير ما يؤخذ عن آداب اليونان والرومان والفرنساويين والإنكليز والألمان والإيطاليان والروس وغيرهم من الغربيين قديماً وحديثاً لأن ذلك يكسب لغتنا ثروة طائلة من المعاني الجديدة والمباني الحديثة. وسنعتمد في ذلك على تعريب فريق من الكتاب العارفين بهذا الفن.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"> <tei:num type="auto-markup" change="#d2e181" value="4" xml:lang="ar">٤</tei:num>  ً - في حدائق العرب - ننشر فيه صفحات مطوية من خير ما قاله الغابرون من كتاب العرب لأن لدينا كنوزاً مدفونة نحن في أشد الحاجة إلى الانتفاع بها. وسنعمل على قدر الإمكان ليكون نشر هذه الصفحات بمناسبة الحوادث الحاضرة وعلى مقتضى سير الأمور حوالينا.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"> <tei:num type="auto-markup" change="#d2e181" value="5" xml:lang="ar">٥</tei:num>  ً - أشواك وأزهار - باب خصوصي للانتقاد والملاحظات على الحوادث الجارية والتعليق عليها بقلم أديب متفنن يريد أن يكتم اسمه.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"> <tei:num type="auto-markup" change="#d2e181" value="6" xml:lang="ar">٦</tei:num>  ً - حديقة الأخبار - نورد في هذا الباب ملخص الحوادث وخصوصاً التي لها علاقة بحياة الكتاب.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"> <tei:num type="auto-markup" change="#d2e181" value="7" xml:lang="ar">٧</tei:num>  ً - باب خصوصي لدرس كل كتاب نفيس يظهر في عالم المطبوعات درساً أدبياً على طريقة الأوربيين في نقد كتبهم. أو البحث بحثاً وافياً في حياة كاتب من أئمة الكتبة الأقدمين</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">أو المحدثين.
 <pb n="n1-p8" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P21.xhtml"/>
 
 
  <tei:num type="auto-markup" change="#d2e181" value="8" xml:lang="ar">٨</tei:num>  ً - الروايات - ولما كان الجمهور قد أصبح كثير الميل إلى الروايات الخيالية المعروفة باسم الرومان لم نشأ أن نحرمه ذلك. ولكن لكي نقرن اللذة بالفائدة الواجب استخراجها من كل مطالعة لم نرض بتلك الروايات التافهة التي يضعها بعض تجار الكتب في أيدي القراء. بل عمدنا إلى اختيار نخبة من طرائف الروايات الأوروبية الشهيرة التي وضعها أشهر كتاب الغرب ووكلنا تعريبها إلى من نعرف فيهم الكفاءة اللازمة.</tei:p>
-            <tei:p change="#d2e73">وسننشر تباعاً أشياء كثيرة عن الأدب والفنون والعلوم والتاريخ والاجتماع وغير ذلك مما يهم القراء الاطلاع عليه.</tei:p>
-            <tei:p change="#d2e73">المحررون - قلنا أن غايتنا الأولى من هذه النشرة إيجاد صلة التعارف بني كتاب الأقطار العربية وتعريف عموم القراء بمشاهير كتبتنا لما في ذلك من الفوائد التي لا تخفى على أحد ولرغبة جمهور كبير فيم عرفة وحفظ ما تجود به القرائح العربية. ولذلك لم يكن بالإمكان الاقتصار على فريق قليل من المحررين. وعليه فقد أردنا أن نضمن لنفسنا مساعدة كل من أحرزوا شهرة في عالم الكتابة فكان في مقدمهم من اقترح علينا هذا الفكر وهم ليسوا بالنفر القليل. ثم كتبنا إلى فريق آخر فورد منهم الجواب بالإيجاب مع الارتياح العظيم إلى هذا المشروع وقد لبوا هذا الطلب عن طيبة خاطر غيرة منهم على الأدب، وحرصاً على كنوز العرب. وكان بودنا نشر الكتابات العديدة التي تلقيناها من مشاهير كتابنا لما فيها من التنشيط ولكن ضيق المقام يضطرنا إلى الاكتفاء بنشر أسمائهم الكريمة فقط مرجئين نشر جواباتهم إلى فرصة أخرى. وهكذا يمكننا أن نبشر القراء منذ
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">وسننشر تباعاً أشياء كثيرة عن الأدب والفنون والعلوم والتاريخ والاجتماع وغير ذلك مما يهم القراء الاطلاع عليه.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">المحررون - قلنا أن غايتنا الأولى من هذه النشرة إيجاد صلة التعارف بني كتاب الأقطار العربية وتعريف عموم القراء بمشاهير كتبتنا لما في ذلك من الفوائد التي لا تخفى على أحد ولرغبة جمهور كبير فيم عرفة وحفظ ما تجود به القرائح العربية. ولذلك لم يكن بالإمكان الاقتصار على فريق قليل من المحررين. وعليه فقد أردنا أن نضمن لنفسنا مساعدة كل من أحرزوا شهرة في عالم الكتابة فكان في مقدمهم من اقترح علينا هذا الفكر وهم ليسوا بالنفر القليل. ثم كتبنا إلى فريق آخر فورد منهم الجواب بالإيجاب مع الارتياح العظيم إلى هذا المشروع وقد لبوا هذا الطلب عن طيبة خاطر غيرة منهم على الأدب، وحرصاً على كنوز العرب. وكان بودنا نشر الكتابات العديدة التي تلقيناها من مشاهير كتابنا لما فيها من التنشيط ولكن ضيق المقام يضطرنا إلى الاكتفاء بنشر أسمائهم الكريمة فقط مرجئين نشر جواباتهم إلى فرصة أخرى. وهكذا يمكننا أن نبشر القراء منذ
 <pb n="n1-p9" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P22.xhtml"/>
 
 
 الآن بمساعدة الكتبة الآتية أسماؤهم مرتبة على حروف الهجاء:</tei:p>
-            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:361 viaf:305214782">
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"><persName change="#d3e209 #d2e223" ref="oape:pers:361 viaf:305214782" xml:lang="ar">
                             <forename xml:lang="ar">إبراهيم</forename>
                             <roleName type="title" xml:lang="ar">أفندي</roleName>
                             <surname xml:lang="ar">الحوراني</surname>
                         </persName></tei:p>
-            <tei:p change="#d2e73"><persName>إبراهيم أفندي شدودي</persName> (الدكتور)</tei:p>
-            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:768 viaf:7540373">
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"><persName change="#d2e223" xml:lang="ar">إبراهيم أفندي شدودي</persName> (الدكتور)</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"><persName change="#d3e209 #d2e223" ref="oape:pers:768 viaf:7540373" xml:lang="ar">
                             <forename xml:lang="ar">احمد</forename>
                             <roleName type="title" xml:lang="ar">بك</roleName>
                             <surname xml:lang="ar">شوقي</surname>
                         </persName></tei:p>
-            <tei:p change="#d2e73"><persName>الشيخ أحمد حسن طبارة</persName></tei:p>
-            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:499">
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"><persName change="#d2e223" xml:lang="ar">الشيخ أحمد حسن طبارة</persName></tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"><persName change="#d3e209 #d2e223" ref="oape:pers:499" xml:lang="ar">
                             <forename xml:lang="ar">احمد</forename>
                             <roleName type="title" xml:lang="ar">أفندي</roleName>
                             <surname xml:lang="ar">الكاشف</surname>
                         </persName></tei:p>
-            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:910 viaf:60500457">
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"><persName change="#d3e209 #d2e223" ref="oape:pers:910 viaf:60500457" xml:lang="ar">
                             <forename xml:lang="ar">احمد</forename>
                             <roleName type="title" xml:lang="ar">أفندي</roleName>
                             <surname xml:lang="ar">محرم</surname>
                         </persName></tei:p>
-            <tei:p change="#d2e73"><persName>أحمد أفندي نسيم</persName></tei:p>
-            <tei:p change="#d2e73"><persName>الشيخ إسكندر العازار</persName></tei:p>
-            <tei:p change="#d2e73"><persName>إسماعيل باشا صبري</persName></tei:p>
-            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:852">
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"><persName change="#d2e223" xml:lang="ar">أحمد أفندي نسيم</persName></tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"><persName change="#d2e223" xml:lang="ar">الشيخ إسكندر العازار</persName></tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"><persName change="#d2e223" xml:lang="ar">إسماعيل باشا صبري</persName></tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"><persName change="#d3e209 #d2e223" ref="oape:pers:852" xml:lang="ar">
                             <forename xml:lang="ar">الياس</forename>
                             <roleName type="title" xml:lang="ar">أفندي</roleName>
                             <surname xml:lang="ar">فياض</surname>
                         </persName></tei:p>
-            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:698 viaf:17374300">
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"><persName change="#d3e209 #d2e223" ref="oape:pers:698 viaf:17374300" xml:lang="ar">
                             <forename xml:lang="ar">أمين</forename>
                             <roleName type="title" xml:lang="ar">أفندي</roleName>
                             <surname xml:lang="ar">الريحاني</surname>
                         </persName></tei:p>
-            <tei:p change="#d2e73"><persName>أمين أفندي الغريب</persName></tei:p>
-            <tei:p change="#d2e73"><persName>بشارة أفندي عبد الله الخوري</persName></tei:p>
-            <tei:p change="#d2e73"><persName>توفيق أفندي حبيب</persName></tei:p>
-            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:245 viaf:32410755">
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"><persName change="#d2e223" xml:lang="ar">أمين أفندي الغريب</persName></tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"><persName change="#d2e223" xml:lang="ar">بشارة أفندي عبد الله الخوري</persName></tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"><persName change="#d2e223" xml:lang="ar">توفيق أفندي حبيب</persName></tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"><persName change="#d3e209 #d2e223" ref="oape:pers:245 viaf:32410755" xml:lang="ar">
                             <forename xml:lang="ar">حافظ</forename>
                             <roleName type="title" xml:lang="ar">أفندي</roleName>
                             <surname xml:lang="ar">إبراهيم</surname>
                         </persName></tei:p>
-            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:952">
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"><persName change="#d3e209 #d2e223" ref="oape:pers:952" xml:lang="ar">
                             <forename xml:lang="ar">حفني</forename>
                             <roleName type="title" xml:lang="ar">بك</roleName>
                             <surname xml:lang="ar">ناصف</surname>
                         </persName></tei:p>
-            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:931 viaf:102460074">
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"><persName change="#d3e209 #d2e223" ref="oape:pers:931 viaf:102460074" xml:lang="ar">
                             <forename xml:lang="ar">خليل</forename>
                             <roleName type="title" xml:lang="ar">افندي</roleName>
                             <surname xml:lang="ar">مطران</surname>
                         </persName></tei:p>
-            <tei:p change="#d2e73"><persName>داود أفندي بركات</persName></tei:p>
-            <tei:p change="#d2e73"><persName>شبلي أفندي شميل </persName>(الدكتور)</tei:p>
-            <tei:p change="#d2e73"><persName>شبلي بك ملاط</persName></tei:p>
-            <tei:p change="#d2e73"><persName>فليكس أفندي فارس</persName></tei:p>
-            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:3406">
-                            <roleName type="honorific">الشيخ</roleName>عبد القادر المغربي</persName></tei:p>
-            <tei:p change="#d2e73"><persName>محمد أفندي إمام العبد</persName></tei:p>
-            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:878 viaf:32272677">
-                            <forename>محمد</forename>
-                            <roleName type="title">أفندي</roleName>
-                            <surname>كرد علي</surname>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"><persName change="#d2e223" xml:lang="ar">داود أفندي بركات</persName></tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"><persName change="#d2e223" xml:lang="ar">شبلي أفندي شميل </persName>(الدكتور)</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"><persName change="#d2e223" xml:lang="ar">شبلي بك ملاط</persName></tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"><persName change="#d2e223" xml:lang="ar">فليكس أفندي فارس</persName></tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"><persName change="#d3e209 #d2e223" ref="oape:pers:3406" xml:lang="ar">
+                            <roleName type="honorific" change="#d2e223" xml:lang="ar">الشيخ</roleName>عبد القادر المغربي</persName></tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"><persName change="#d2e223" xml:lang="ar">محمد أفندي إمام العبد</persName></tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"><persName change="#d3e209 #d2e223" ref="oape:pers:878 viaf:32272677" xml:lang="ar">
+                            <forename change="#d2e223" xml:lang="ar">محمد</forename>
+                            <roleName type="title" change="#d2e223" xml:lang="ar">أفندي</roleName>
+                            <surname change="#d2e223" xml:lang="ar">كرد علي</surname>
                         </persName></tei:p>
-            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:2958">
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"><persName change="#d3e209 #d2e223" ref="oape:pers:2958" xml:lang="ar">
                             <forename xml:lang="ar">محمد</forename>
-                            <roleName type="title">أفندي</roleName>
+                            <roleName type="title" change="#d2e223" xml:lang="ar">أفندي</roleName>
                             <surname xml:lang="ar">مسعود</surname>
                         </persName></tei:p>
-            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:3929">محمد 
-                            <roleName type="title">أفندي</roleName>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"><persName change="#d3e209 #d2e223" ref="oape:pers:3929" xml:lang="ar">محمد 
+                            <roleName type="title" change="#d2e223" xml:lang="ar">أفندي</roleName>
                             السباعي</persName></tei:p>
-            <tei:p change="#d2e73"><persName>الشيخ محيي الدين الخياط</persName></tei:p>
-            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:545 viaf:61716327">
-                            <roleName type="nobility">السيد</roleName>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"><persName change="#d2e223" xml:lang="ar">الشيخ محيي الدين الخياط</persName></tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"><persName change="#d3e209 #d2e223" ref="oape:pers:545 viaf:61716327" xml:lang="ar">
+                            <roleName type="nobility" change="#d2e223" xml:lang="ar">السيد</roleName>
                             <forename xml:lang="ar">مصطفى</forename>
                             <forename xml:lang="ar">لطفي</forename>
                             <surname xml:lang="ar">المنفلوطي</surname>
                         </persName></tei:p>
-            <tei:p change="#d2e73"><persName>نعوم بك شقير</persName></tei:p>
-            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:683 viaf:19561669">
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"><persName change="#d2e223" xml:lang="ar">نعوم بك شقير</persName></tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"><persName change="#d3e209 #d2e223" ref="oape:pers:683 viaf:19561669" xml:lang="ar">
                             <forename xml:lang="ar">نقولا</forename>
                             <roleName type="title" xml:lang="ar">أفندي</roleName>
                             <surname xml:lang="ar">رزق الله</surname>
                         </persName></tei:p>
-            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:2834 viaf:36771043">
-                            <forename>ولي الدين</forename>
-                            <roleName type="title">بك</roleName>
-                            <surname>يكن</surname>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"><persName change="#d3e209 #d2e223" ref="oape:pers:2834 viaf:36771043" xml:lang="ar">
+                            <forename change="#d2e223" xml:lang="ar">ولي الدين</forename>
+                            <roleName type="title" change="#d2e223" xml:lang="ar">بك</roleName>
+                            <surname change="#d2e223" xml:lang="ar">يكن</surname>
                         </persName></tei:p>
-            <tei:p change="#d2e73"><persName>يوسف أفندي نخلة ثابت</persName></tei:p>
-            <tei:p change="#d2e73">وهناك أيضاً عدد كبير من أئمة الكتبة في مصر والشام وبغداد وتونس وطرابلس الغرب والجزائر وأمريكا إلخ قد باشرنا مفاوضتهم بهذا الشأن لتتم الغاية المطلوبة. فيجد القارئ إن شاء الله في مجلة <tei:title level="j" change="#d2e193">الزهور</tei:title> خير ما تجود به الأقلام العربية في كل الأصقاع فيكون له فيها أحسن مجموعة أدبية جامعة يحق الاحتفاظ بها.
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"><persName change="#d2e223" xml:lang="ar">يوسف أفندي نخلة ثابت</persName></tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">وهناك أيضاً عدد كبير من أئمة الكتبة في مصر والشام وبغداد وتونس وطرابلس الغرب والجزائر وأمريكا إلخ قد باشرنا مفاوضتهم بهذا الشأن لتتم الغاية المطلوبة. فيجد القارئ إن شاء الله في مجلة <tei:title level="j" change="#d2e193 #d2e223" xml:lang="ar">الزهور</tei:title> خير ما تجود به الأقلام العربية في كل الأصقاع فيكون له فيها أحسن مجموعة أدبية جامعة يحق الاحتفاظ بها.
 <pb n="n1-p10" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P23.xhtml"/>
 
 
 السباقات - وستفتح المجلة سباقات تتناول مواضيع شتى وتجعل الحكم فيها لنخبة من أعلام الأدباء. منها سباقان كبيران: الواحد في موضوع شعري، والثاني في موضوع نثري. وتعد للمجلين في هذا المضمار مداليات وجوائز ثمينة.</tei:p>
-            <tei:p change="#d2e73">الاشتراك - ولما كانت غايتنا تعميم هذه النشرة على قدر الإمكان فقد جعلنا بدل الاشتراك زهيداً للغاية تتحمله كل الجيوب. وقيمته:</tei:p>
-            <tei:p change="#d2e73">في القطر المصري: أربعون غرشاً صاغاً</tei:p>
-            <tei:p change="#d2e73">في الممالك العثمانية: ثلاثة ريالات مجيدية</tei:p>
-            <tei:p change="#d2e73">وفي الخارج: خمسة عشر فرنكاً</tei:p>
-            <tei:p change="#d2e73">وجعلنا للمعاهد العلمية وأساتذتها وللأندية الأدبية حسم  <tei:num type="auto-markup" change="#d2e181" value="30" xml:lang="ar">٣٠</tei:num>  في المئة.</tei:p>
-            <tei:p change="#d2e73">حقوق المشترك - يحق لكل مشترك في مجلة <tei:title level="j" change="#d2e193">الزهور</tei:title>:</tei:p>
-            <tei:p change="#d2e73">
-               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num>  - </hi>حسم  <tei:num type="auto-markup" change="#d2e181" value="50" xml:lang="ar">٥٠</tei:num>  في المئة من ثمن كل كتاب تنشره المجلة.</tei:p>
-            <tei:p change="#d2e73">
-               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e181" value="2" xml:lang="ar">٢</tei:num>  - </hi>حسم  <tei:num type="auto-markup" change="#d2e181" value="25" xml:lang="ar">٢٥</tei:num>  في المئة من ثمن كل كتاب يُطلب عن يد إدارتها.</tei:p>
-            <tei:p change="#d2e73">
-               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e181" value="3" xml:lang="ar">٣</tei:num>  - </hi>الكتاب الخصوصي الذي تنشره المجلة سنوياً يرسل إليه مجاناً.</tei:p>
-            <tei:p change="#d2e73">
-               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e181" value="4" xml:lang="ar">٤</tei:num>  - </hi>نشر إعلان خصوصي لا يتجاوز السطرين مرة في السنة.</tei:p>
-            <tei:p change="#d2e73">
-               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e181" value="5" xml:lang="ar">٥</tei:num>  - </hi>الاشتراك في كل سباق تفتحه المجلة وذلك دون مقابل.</tei:p>
-            <tei:p change="#d2e73">
-               <hi style="color:red;"> <tei:num type="auto-markup" change="#d2e181" value="6" xml:lang="ar">٦</tei:num>  - </hi>حضور الاحتفالات الأدبية التي تقيمها إدارة المجلة بمساعدة المعاونين بالتحرير.</tei:p>
-            <tei:p change="#d2e73">هذا بعض الشيء عن خطة هذه المجلة الجديدة، والغاية التي ترمي إليها، والأبحاث التي ستتناولها بمساعدة خير من حرر، وأشهر من حبر من كتابنا العصريين. فعسى أن تلاقي رضى القراء وارتياحهم إليها. فيلاقوا فيها فائدة لأذهانهم، وتفكهة لخواطرهم، وعلى الله الاتكال في كل الأعمال.
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">الاشتراك - ولما كانت غايتنا تعميم هذه النشرة على قدر الإمكان فقد جعلنا بدل الاشتراك زهيداً للغاية تتحمله كل الجيوب. وقيمته:</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">في القطر المصري: أربعون غرشاً صاغاً</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">في الممالك العثمانية: ثلاثة ريالات مجيدية</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">وفي الخارج: خمسة عشر فرنكاً</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">وجعلنا للمعاهد العلمية وأساتذتها وللأندية الأدبية حسم  <tei:num type="auto-markup" change="#d2e181" value="30" xml:lang="ar">٣٠</tei:num>  في المئة.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">حقوق المشترك - يحق لكل مشترك في مجلة <tei:title level="j" change="#d2e193 #d2e223" xml:lang="ar">الزهور</tei:title>:</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">
+               <hi style="color:red;" change="#d2e223" xml:lang="ar"> <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num>  - </hi>حسم  <tei:num type="auto-markup" change="#d2e181" value="50" xml:lang="ar">٥٠</tei:num>  في المئة من ثمن كل كتاب تنشره المجلة.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">
+               <hi style="color:red;" change="#d2e223" xml:lang="ar"> <tei:num type="auto-markup" change="#d2e181" value="2" xml:lang="ar">٢</tei:num>  - </hi>حسم  <tei:num type="auto-markup" change="#d2e181" value="25" xml:lang="ar">٢٥</tei:num>  في المئة من ثمن كل كتاب يُطلب عن يد إدارتها.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">
+               <hi style="color:red;" change="#d2e223" xml:lang="ar"> <tei:num type="auto-markup" change="#d2e181" value="3" xml:lang="ar">٣</tei:num>  - </hi>الكتاب الخصوصي الذي تنشره المجلة سنوياً يرسل إليه مجاناً.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">
+               <hi style="color:red;" change="#d2e223" xml:lang="ar"> <tei:num type="auto-markup" change="#d2e181" value="4" xml:lang="ar">٤</tei:num>  - </hi>نشر إعلان خصوصي لا يتجاوز السطرين مرة في السنة.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">
+               <hi style="color:red;" change="#d2e223" xml:lang="ar"> <tei:num type="auto-markup" change="#d2e181" value="5" xml:lang="ar">٥</tei:num>  - </hi>الاشتراك في كل سباق تفتحه المجلة وذلك دون مقابل.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">
+               <hi style="color:red;" change="#d2e223" xml:lang="ar"> <tei:num type="auto-markup" change="#d2e181" value="6" xml:lang="ar">٦</tei:num>  - </hi>حضور الاحتفالات الأدبية التي تقيمها إدارة المجلة بمساعدة المعاونين بالتحرير.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">هذا بعض الشيء عن خطة هذه المجلة الجديدة، والغاية التي ترمي إليها، والأبحاث التي ستتناولها بمساعدة خير من حرر، وأشهر من حبر من كتابنا العصريين. فعسى أن تلاقي رضى القراء وارتياحهم إليها. فيلاقوا فيها فائدة لأذهانهم، وتفكهة لخواطرهم، وعلى الله الاتكال في كل الأعمال.
 <pb n="n1-p11" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P24.xhtml"/>
 
 
             </tei:p>
          </tei:div>
-         <tei:div change="#d2e64" type="item">
-            <head>السباق الشعري الكبير</head>
-            <tei:p change="#d2e73">لسنة  <tei:num type="auto-markup" change="#d2e181" value="1910" xml:lang="ar">١٩١٠</tei:num> </tei:p>
-            <tei:p change="#d2e73">الموضوع -: وأما شجرة معرفة الخير والشر فلا تأكل منها. فإنك يوم تأكل منها تموت موتاً</tei:p>
-            <tei:p change="#d2e73">- (سفر التكوين ف  <tei:num type="auto-markup" change="#d2e181" value="2" xml:lang="ar">٢</tei:num> : ع  <tei:num type="auto-markup" change="#d2e181" value="17" xml:lang="ar">١٧</tei:num> )</tei:p>
-            <tei:p change="#d2e73">قال اهبطوا بعضكم لبعضٍ عدوٌّ، ولكم في الأرض مستقرٌ ومتاعٌ إلى حين</tei:p>
-            <tei:p change="#d2e73">- (سورة الأعراف:  <tei:num type="auto-markup" change="#d2e181" value="7" xml:lang="ar">٧</tei:num> )</tei:p>
-            <tei:p change="#d2e73">بعد صدور الحكم بالموت على الإنسان الأول، جلس آدم وحواء في البرية عند المساء، يتساءلان: ما هو الموت؟ كيف تصوراه. . .؟ نظم قصيدة في تصوراتهما هذه.</tei:p>
-            <tei:p change="#d2e73">الموعد -: آخر موعد لقبول القصائد المختصة بهذا لموضع  <tei:num type="auto-markup" change="#d2e181" value="30" xml:lang="ar">٣٠</tei:num>  أفريل (نيسان) من السنة الجارية.</tei:p>
-            <tei:p change="#d2e73">الحكم -: ويكون الحكم النهائي في الموضوع لحضرة الشاعرين الكبيرين: سعادة <persName>إسماعيل باشا صبري</persName> و<persName change="#d3e209" ref="oape:pers:245 viaf:32410755">
+         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+            <head change="#d2e223" xml:lang="ar">السباق الشعري الكبير</head>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">لسنة  <tei:num type="auto-markup" change="#d2e181" value="1910" xml:lang="ar">١٩١٠</tei:num> </tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">الموضوع -: وأما شجرة معرفة الخير والشر فلا تأكل منها. فإنك يوم تأكل منها تموت موتاً</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">- (سفر التكوين ف  <tei:num type="auto-markup" change="#d2e181" value="2" xml:lang="ar">٢</tei:num> : ع  <tei:num type="auto-markup" change="#d2e181" value="17" xml:lang="ar">١٧</tei:num> )</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">قال اهبطوا بعضكم لبعضٍ عدوٌّ، ولكم في الأرض مستقرٌ ومتاعٌ إلى حين</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">- (سورة الأعراف:  <tei:num type="auto-markup" change="#d2e181" value="7" xml:lang="ar">٧</tei:num> )</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">بعد صدور الحكم بالموت على الإنسان الأول، جلس آدم وحواء في البرية عند المساء، يتساءلان: ما هو الموت؟ كيف تصوراه. . .؟ نظم قصيدة في تصوراتهما هذه.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">الموعد -: آخر موعد لقبول القصائد المختصة بهذا لموضع  <tei:num type="auto-markup" change="#d2e181" value="30" xml:lang="ar">٣٠</tei:num>  أفريل (نيسان) من السنة الجارية.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">الحكم -: ويكون الحكم النهائي في الموضوع لحضرة الشاعرين الكبيرين: سعادة <persName change="#d2e223" xml:lang="ar">إسماعيل باشا صبري</persName> و<persName change="#d3e209 #d2e223" ref="oape:pers:245 viaf:32410755" xml:lang="ar">
                             <forename xml:lang="ar">حافظ</forename>
                             <roleName type="title" xml:lang="ar">أفندي</roleName>
                             <surname xml:lang="ar">إبراهيم</surname>
                         </persName>.</tei:p>
          </tei:div>
-         <tei:div change="#d2e64" type="item">
-            <head>السباق النثري الكبير</head>
-            <tei:p change="#d2e73">لسنة  <tei:num type="auto-markup" change="#d2e181" value="1910" xml:lang="ar">١٩١٠</tei:num> </tei:p>
-            <tei:p change="#d2e73">الموضوع: كتابة نبذة لا تتجاوز عشر صفحات من قطع هذه المجلة في الوسائل الواجب اتخاذها لترقية آداب اللغة العربية بعد إيراد لمحة وجيزة في ما كانت عليه أيام الجاهلية وعلى عهد الخلفاء.
+         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+            <head change="#d2e223" xml:lang="ar">السباق النثري الكبير</head>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">لسنة  <tei:num type="auto-markup" change="#d2e181" value="1910" xml:lang="ar">١٩١٠</tei:num> </tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">الموضوع: كتابة نبذة لا تتجاوز عشر صفحات من قطع هذه المجلة في الوسائل الواجب اتخاذها لترقية آداب اللغة العربية بعد إيراد لمحة وجيزة في ما كانت عليه أيام الجاهلية وعلى عهد الخلفاء.
 <pb n="n1-p12" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P25.xhtml"/>
 
 
 الموعد -: آخر موعد لقبول ما يرسل إلينا في هذا الشأن  <tei:num type="auto-markup" change="#d2e181" value="15" xml:lang="ar">١٥</tei:num>  مايو (أيار) من السنة الجارية.</tei:p>
-            <tei:p change="#d2e73">الحكم -: وسيحكم بين الباحثين كاتبان اختصاصيان وهما: سعادة القانوني <persName change="#d3e209" ref="oape:pers:952">
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">الحكم -: وسيحكم بين الباحثين كاتبان اختصاصيان وهما: سعادة القانوني <persName change="#d3e209 #d2e223" ref="oape:pers:952" xml:lang="ar">
                             <forename xml:lang="ar">حفني</forename>
                             <roleName type="title" xml:lang="ar">بك</roleName>
                             <surname xml:lang="ar">ناصف</surname>
                         </persName>، مدرس الآداب العربية في الجامعة المصرية، وحضرة الباحث الشيخ محمد المهدي المدرس بمدرسة القضاء الشرعي.</tei:p>
-            <tei:p change="#d2e73">* * *</tei:p>
-            <tei:p change="#d2e73">الجوائز -: سيمنح الفائزون في كل سباق من هذين السباقين جوائز ثمينة متنوعة سنذكرها في عددٍ آت.</tei:p>
-            <tei:p change="#d2e73">الشروط -: على كل من يرغب في الاشتراك في أحد هذين السباقين أو في كليهما أن يراعي الشروط الآتية:</tei:p>
-            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num>  ً - أن يكون مشتركاً في المجلة - وإلا فعليه أن يرسل طوابع بريد بقيمة فرنكين لنفقات المراسلات.</tei:p>
-            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="2" xml:lang="ar">٢</tei:num>  ً - أن يوقع ما يكتبه بتوقيع مستعار. ويكتب اسمه الحقيقي وعنوانه مع اسمه المستعار في ورقة يضعها في ظرف مختوم يدون على ظاهره اسمه المستعار فقط ويضع هذا الظرف مع قصيدته أو مقالته في ظرف ثان ويرسله خالص أجرة البريد بعنوان مجلة <tei:title level="j" change="#d2e193">الزهور</tei:title>. شارع الفجالة نمرة  <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num>  بمصر.</tei:p>
-            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="3" xml:lang="ar">٣</tei:num>  ً - أن يذكر إذا كان يريد، عند نشر الكتابات في المجلة أن يصرح باسمه الحقيقي أو يكتفي باسمه المستعار.</tei:p>
-            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="4" xml:lang="ar">٤</tei:num>  ً - أن لا يتأخر بإرسال موضوعه عن الموعد المضروب لكل سباق.
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">* * *</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">الجوائز -: سيمنح الفائزون في كل سباق من هذين السباقين جوائز ثمينة متنوعة سنذكرها في عددٍ آت.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">الشروط -: على كل من يرغب في الاشتراك في أحد هذين السباقين أو في كليهما أن يراعي الشروط الآتية:</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"> <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num>  ً - أن يكون مشتركاً في المجلة - وإلا فعليه أن يرسل طوابع بريد بقيمة فرنكين لنفقات المراسلات.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"> <tei:num type="auto-markup" change="#d2e181" value="2" xml:lang="ar">٢</tei:num>  ً - أن يوقع ما يكتبه بتوقيع مستعار. ويكتب اسمه الحقيقي وعنوانه مع اسمه المستعار في ورقة يضعها في ظرف مختوم يدون على ظاهره اسمه المستعار فقط ويضع هذا الظرف مع قصيدته أو مقالته في ظرف ثان ويرسله خالص أجرة البريد بعنوان مجلة <tei:title level="j" change="#d2e193 #d2e223" xml:lang="ar">الزهور</tei:title>. شارع الفجالة نمرة  <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num>  بمصر.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"> <tei:num type="auto-markup" change="#d2e181" value="3" xml:lang="ar">٣</tei:num>  ً - أن يذكر إذا كان يريد، عند نشر الكتابات في المجلة أن يصرح باسمه الحقيقي أو يكتفي باسمه المستعار.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"> <tei:num type="auto-markup" change="#d2e181" value="4" xml:lang="ar">٤</tei:num>  ً - أن لا يتأخر بإرسال موضوعه عن الموعد المضروب لكل سباق.
 <pb n="n1-p13" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P26.xhtml"/>
 
 
             </tei:p>
          </tei:div>
-         <tei:div change="#d2e64" type="item">
-            <head>حج الخديوي عباس حلمي وقصائد المدح فيه</head>
-            <tei:p change="#d2e73">حج سمو خديوي مصر في هذا العام إلى البيت الحرام وعاد محفوفاً باليمن والبركات. وقد تبارت قرائح شعرائنا في وداعه واستقباله. فكان موسم شعر ذكرنا سوق عكاظ. ولا جدال في أن خير ما قيل في حج أمير مصر قصيدة سعادة <persName change="#d3e209" ref="oape:pers:768 viaf:7540373">
+         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+            <head change="#d2e223" xml:lang="ar">حج الخديوي عباس حلمي وقصائد المدح فيه</head>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">حج سمو خديوي مصر في هذا العام إلى البيت الحرام وعاد محفوفاً باليمن والبركات. وقد تبارت قرائح شعرائنا في وداعه واستقباله. فكان موسم شعر ذكرنا سوق عكاظ. ولا جدال في أن خير ما قيل في حج أمير مصر قصيدة سعادة <persName change="#d3e209 #d2e223" ref="oape:pers:768 viaf:7540373" xml:lang="ar">
                             <forename xml:lang="ar">احمد</forename>
                             <roleName type="title" xml:lang="ar">بك</roleName>
                             <surname xml:lang="ar">شوقي</surname>
-                        </persName> أمير الشعر. وقصيدة حضرة <persName change="#d3e209" ref="oape:pers:245 viaf:32410755">
+                        </persName> أمير الشعر. وقصيدة حضرة <persName change="#d3e209 #d2e223" ref="oape:pers:245 viaf:32410755" xml:lang="ar">
                             <forename xml:lang="ar">حافظ</forename>
                             <roleName type="title" xml:lang="ar">أفندي</roleName>
                             <surname xml:lang="ar">إبراهيم</surname>
@@ -297,632 +297,632 @@
 
 
 شوقي والبوصيري</tei:p>
-            <tei:p change="#d2e73">البردة وطرازها</tei:p>
-            <tei:p change="#d2e73">قصيدة البوصيري في مدح نبي الإسلام من خير ما جادت به قرائح الشعراء معنى ومبنى. وقد توالت الأجيال والقرون على هذه البدرة الثمينة، فلم تبل جدتها، ولم تذهب بهجتها، بل أكسبتها الأيام جلال العتق والقدم ولقد شاء احمد بك شوقي أن يُلبسها طرازاً معلماً فنسج طراز البردة بمناسبة عودة سمو أمير مصر من حجه المبرور. ولقد كان ذلك يعد - تهجماً - من أي شاعر كان إلا من أمير الشعر. فهو ذو القريحة
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">البردة وطرازها</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">قصيدة البوصيري في مدح نبي الإسلام من خير ما جادت به قرائح الشعراء معنى ومبنى. وقد توالت الأجيال والقرون على هذه البدرة الثمينة، فلم تبل جدتها، ولم تذهب بهجتها، بل أكسبتها الأيام جلال العتق والقدم ولقد شاء احمد بك شوقي أن يُلبسها طرازاً معلماً فنسج طراز البردة بمناسبة عودة سمو أمير مصر من حجه المبرور. ولقد كان ذلك يعد - تهجماً - من أي شاعر كان إلا من أمير الشعر. فهو ذو القريحة
 <pb n="n1-p15" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P28.xhtml"/>
 
 
 الوقادة والنفس الطويل، القادر على مجاراة فرسان الشعر في أي ميدان كان، فجاءت قصيدته خير طراز يليق أن توشى به تلك البردة البديعة كما سيرى القارئ من المقارنة بين بعض أبيات هذه وتلك. وقد كان بودنا إثبات القصيدتين برمتهما لولا ضيق المقام.</tei:p>
-            <tei:p change="#d2e73">لم تخف على شوقي بك وعورة هذا المسلك فنصل قائلاً:</tei:p>
-            <lg change="#d2e82">
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>المادحون وأرباب الهوى تبع</tei:seg> 
-                  <tei:seg>(لصاحب البردة) الفيحاء ذي القدم</tei:seg>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">لم تخف على شوقي بك وعورة هذا المسلك فنصل قائلاً:</tei:p>
+            <lg change="#d2e82 #d2e223" xml:lang="ar">
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">المادحون وأرباب الهوى تبع</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">(لصاحب البردة) الفيحاء ذي القدم</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>الله يشهد أني لا أعارضه</tei:seg> 
-                  <tei:seg>من ذا يعارض صوب العارض العرم؟</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">الله يشهد أني لا أعارضه</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">من ذا يعارض صوب العارض العرم؟</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">على أن شوقي - رغم هذا التنصل الذي قضى به حسن الذوق - قد عارض سلفه ولم يقصر عنه في أكثر المواقف:</tei:p>
-            <tei:p change="#d2e73">قال البوصيري في الآيات القرآنية:</tei:p>
-            <lg change="#d2e82">
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>لو ناسبت قدره آياته عظماً</tei:seg> 
-                  <tei:seg>أحيا اسمه حين يدعى دارس الرمم</tei:seg>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">على أن شوقي - رغم هذا التنصل الذي قضى به حسن الذوق - قد عارض سلفه ولم يقصر عنه في أكثر المواقف:</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">قال البوصيري في الآيات القرآنية:</tei:p>
+            <lg change="#d2e82 #d2e223" xml:lang="ar">
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">لو ناسبت قدره آياته عظماً</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">أحيا اسمه حين يدعى دارس الرمم</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>وكل آيٍّ أتى الرسل الكرام بها</tei:seg> 
-                  <tei:seg>فإنما اتصلت من نوره بهم</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">وكل آيٍّ أتى الرسل الكرام بها</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">فإنما اتصلت من نوره بهم</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>آيات حق من الرحمن محدثه</tei:seg> 
-                  <tei:seg>قديمة صفة الموصوف بالقدم</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">آيات حق من الرحمن محدثه</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">قديمة صفة الموصوف بالقدم</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>لم تقترن بزمان وهي تخبرنا</tei:seg> 
-                  <tei:seg>عن المعاد وعن عاد وعن إرم</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">لم تقترن بزمان وهي تخبرنا</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">عن المعاد وعن عاد وعن إرم</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">وقال شوقي في مثل هذا المعنى:</tei:p>
-            <lg change="#d2e82">
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>جاء النبيون بالآيات فانصرمت</tei:seg> 
-                  <tei:seg>وجئتنا (بحكيم) غير منصرم</tei:seg>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">وقال شوقي في مثل هذا المعنى:</tei:p>
+            <lg change="#d2e82 #d2e223" xml:lang="ar">
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">جاء النبيون بالآيات فانصرمت</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">وجئتنا (بحكيم) غير منصرم</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>آياته كلما طال الزمان بها</tei:seg> 
-                  <tei:seg>يزينهن جلال العتق والقدم</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">آياته كلما طال الزمان بها</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">يزينهن جلال العتق والقدم</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>يا أفصح الناطقين الضاد قاطبة</tei:seg> 
-                  <tei:seg>(حديثك) الشهد عند الذائق الفهم</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">يا أفصح الناطقين الضاد قاطبة</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">(حديثك) الشهد عند الذائق الفهم</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>حلّيت من عطل جيد الزمان به</tei:seg> 
-                  <tei:seg>من كل منتثر في حسن منتظم</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">حلّيت من عطل جيد الزمان به</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">من كل منتثر في حسن منتظم</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>بكل قولٍ كريم أنت قائله</tei:seg> 
-                  <tei:seg>تحيي القلوب ويحيي ميت الهمم</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">بكل قولٍ كريم أنت قائله</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">تحيي القلوب ويحيي ميت الهمم</tei:seg>
                </tei:l>
             </lg>
             <pb n="n1-p16" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P29.xhtml"/>
-            <lg change="#d2e82">
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>شريعة لك فجرت العقول بها</tei:seg> 
-                  <tei:seg>عن زاخر بصنوف العلم ملتطم</tei:seg>
+            <lg change="#d2e82 #d2e223" xml:lang="ar">
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">شريعة لك فجرت العقول بها</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">عن زاخر بصنوف العلم ملتطم</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>يلوح حول سنا التوحيد جوهرها</tei:seg> 
-                  <tei:seg>كالحلي للسيف أو كالوشي للعلم</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">يلوح حول سنا التوحيد جوهرها</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">كالحلي للسيف أو كالوشي للعلم</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">وجاء في البردة عن وصف العالم عند ظهور الدعوة إلى الإسلام:</tei:p>
-            <tei:p change="#d2e73">أبان مولده عن طيب عنصره=يا طيب مبتدأ منه ومختتم</tei:p>
-            <lg change="#d2e82">
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>يوم تفرَّس فيه الفرس أنهم</tei:seg> 
-                  <tei:seg>قد أنذروا بحلول البؤس والنقم</tei:seg>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">وجاء في البردة عن وصف العالم عند ظهور الدعوة إلى الإسلام:</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">أبان مولده عن طيب عنصره=يا طيب مبتدأ منه ومختتم</tei:p>
+            <lg change="#d2e82 #d2e223" xml:lang="ar">
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">يوم تفرَّس فيه الفرس أنهم</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">قد أنذروا بحلول البؤس والنقم</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>وبات إيوان كسرى وهو منصدع</tei:seg> 
-                  <tei:seg>كشمل أصحاب كسرى غير ملتئم</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">وبات إيوان كسرى وهو منصدع</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">كشمل أصحاب كسرى غير ملتئم</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">وجاء في طراز البردة من بديع الوصف ما نأخذ منه:</tei:p>
-            <lg change="#d2e82">
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>أتيت والناس فوضى لا تمر بهم</tei:seg> 
-                  <tei:seg>إلا على صنم قد هام في صنم</tei:seg>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">وجاء في طراز البردة من بديع الوصف ما نأخذ منه:</tei:p>
+            <lg change="#d2e82 #d2e223" xml:lang="ar">
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">أتيت والناس فوضى لا تمر بهم</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">إلا على صنم قد هام في صنم</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>والأرض مملوءة جوراً مسخرة</tei:seg> 
-                  <tei:seg>لكل طاغية في الخلق محتكم</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">والأرض مملوءة جوراً مسخرة</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">لكل طاغية في الخلق محتكم</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>مسيطر الفرس يبغي في رعيته</tei:seg> 
-                  <tei:seg>وقصير الروم من كبر أصم عمي</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">مسيطر الفرس يبغي في رعيته</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">وقصير الروم من كبر أصم عمي</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>والخلق يفتك أقواهم بأضعفهم</tei:seg> 
-                  <tei:seg>كالليث بالبهم أو كالحوت بالبلم</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">والخلق يفتك أقواهم بأضعفهم</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">كالليث بالبهم أو كالحوت بالبلم</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>أسرى بك الله ليلاً إذ ملائكه</tei:seg> 
-                  <tei:seg>والرسل في (المسجد الأقصى) على قدم</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">أسرى بك الله ليلاً إذ ملائكه</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">والرسل في (المسجد الأقصى) على قدم</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>لما خطرت به التفوا بسيدهم</tei:seg> 
-                  <tei:seg>كالشهب بالبدر أو كالجند بالعلم</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">لما خطرت به التفوا بسيدهم</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">كالشهب بالبدر أو كالجند بالعلم</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">وهذا المعنى الأخير أخذه شوقي عن البوصيري حيث قال:</tei:p>
-            <lg change="#d2e82">
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>فإنه شمس فضلٍ هم كواكبها</tei:seg> 
-                  <tei:seg>يظهرن أنوارها للناس في الظلم</tei:seg>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">وهذا المعنى الأخير أخذه شوقي عن البوصيري حيث قال:</tei:p>
+            <lg change="#d2e82 #d2e223" xml:lang="ar">
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">فإنه شمس فضلٍ هم كواكبها</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">يظهرن أنوارها للناس في الظلم</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">وصف صاحب البردة انقشاع غياهب الجهالة أمام أنوار الرسالة النبوية فقال:</tei:p>
-            <lg change="#d2e82">
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>كم جدلت كلمات الله من جدل</tei:seg> 
-                  <tei:seg>فيه وكم خصم البرهان من خصم</tei:seg>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">وصف صاحب البردة انقشاع غياهب الجهالة أمام أنوار الرسالة النبوية فقال:</tei:p>
+            <lg change="#d2e82 #d2e223" xml:lang="ar">
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">كم جدلت كلمات الله من جدل</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">فيه وكم خصم البرهان من خصم</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>كفاك بالعلم في الأمي معجزة</tei:seg> 
-                  <tei:seg>في الجاهلية والتأديب في اليتم</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">كفاك بالعلم في الأمي معجزة</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">في الجاهلية والتأديب في اليتم</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">وتحداه صاحب الطراز فكمل المعنى بنفي الريب والظنون فقال:
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">وتحداه صاحب الطراز فكمل المعنى بنفي الريب والظنون فقال:
 <pb n="n1-p17" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P30.xhtml"/>
 
 
 والجهل موت فان أوتيت معجزة <gap resp="#org_MS"/> فأبعث من الجهل أو فابعث من الرجم</tei:p>
-            <lg change="#d2e82">
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>قالوا غزوت ورسل الله ما بعثوا</tei:seg> 
-                  <tei:seg>لقتل نفس ولا جاءوا لسفك دم</tei:seg>
+            <lg change="#d2e82 #d2e223" xml:lang="ar">
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">قالوا غزوت ورسل الله ما بعثوا</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">لقتل نفس ولا جاءوا لسفك دم</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>جهل وتضليل أحلام وسفسفة</tei:seg> 
-                  <tei:seg>فتحت بالسيف بعد الفتح بالقلم</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">جهل وتضليل أحلام وسفسفة</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">فتحت بالسيف بعد الفتح بالقلم</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>لما أتى لك عفواً كل ذي حسب</tei:seg> 
-                  <tei:seg>تكفل السيف بالجهال والعمم</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">لما أتى لك عفواً كل ذي حسب</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">تكفل السيف بالجهال والعمم</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>والشر أن تلقه بالخير ضقت به</tei:seg> 
-                  <tei:seg>ذرعاً وإن تلقه بالسيف ينحسم</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">والشر أن تلقه بالخير ضقت به</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">ذرعاً وإن تلقه بالسيف ينحسم</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">وقال البوصيري واصفاً قتال الأعداء فأبدع في الترشيح في الاستعارة:</tei:p>
-            <lg change="#d2e82">
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>راعت قلوب العدة أنباء بعثته</tei:seg> 
-                  <tei:seg>كنبأة أجفلت غفلاً من الغنم</tei:seg>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">وقال البوصيري واصفاً قتال الأعداء فأبدع في الترشيح في الاستعارة:</tei:p>
+            <lg change="#d2e82 #d2e223" xml:lang="ar">
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">راعت قلوب العدة أنباء بعثته</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">كنبأة أجفلت غفلاً من الغنم</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>هم الجبال فسل عنهم مصادمهم</tei:seg> 
-                  <tei:seg>ماذا رأى منهم في كل مصطدم</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">هم الجبال فسل عنهم مصادمهم</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">ماذا رأى منهم في كل مصطدم</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>المصدري البيض حمراً بعد ما وردت</tei:seg> 
-                  <tei:seg>من العدى كل مسود من اللمم</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">المصدري البيض حمراً بعد ما وردت</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">من العدى كل مسود من اللمم</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>والكاتبين بسمر الخط ما تركت</tei:seg> 
-                  <tei:seg>أقلامهم حرف جسم غير منعجم</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">والكاتبين بسمر الخط ما تركت</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">أقلامهم حرف جسم غير منعجم</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">وقال شوقي وقد أضاف إلى ذلك شيئاً من الفلسفة الاجتماعية:</tei:p>
-            <lg change="#d2e82">
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>علمتهم كل شيء يجهلون به</tei:seg> 
-                  <tei:seg>حتى القتال وما فيه من الذمم</tei:seg>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">وقال شوقي وقد أضاف إلى ذلك شيئاً من الفلسفة الاجتماعية:</tei:p>
+            <lg change="#d2e82 #d2e223" xml:lang="ar">
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">علمتهم كل شيء يجهلون به</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">حتى القتال وما فيه من الذمم</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>دعوتهم لجهاد فيه سؤددهم</tei:seg> 
-                  <tei:seg>والحرب أس نظام الكون والأمم</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">دعوتهم لجهاد فيه سؤددهم</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">والحرب أس نظام الكون والأمم</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>لولاه لم نر للدولات في زمن</tei:seg> 
-                  <tei:seg>ما طال من عمد أو قرّ من دعم</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">لولاه لم نر للدولات في زمن</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">ما طال من عمد أو قرّ من دعم</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>بالأمس مالت عروش واعتلت سرر</tei:seg> 
-                  <tei:seg>لولا القنابل لم تثلم ولم تصم</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">بالأمس مالت عروش واعتلت سرر</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">لولا القنابل لم تثلم ولم تصم</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">وجاء في البردة من مدح الخلفاء ما لا يقارب ما جاء على لسان صاحب الطراز حيث قال عن العرب وخلفائهم:</tei:p>
-            <lg change="#d2e82">
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>دع عنك روا وأثينا وما حوتا</tei:seg> 
-                  <tei:seg>كل اليواقيت في بغداد والتوم</tei:seg>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">وجاء في البردة من مدح الخلفاء ما لا يقارب ما جاء على لسان صاحب الطراز حيث قال عن العرب وخلفائهم:</tei:p>
+            <lg change="#d2e82 #d2e223" xml:lang="ar">
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">دع عنك روا وأثينا وما حوتا</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">كل اليواقيت في بغداد والتوم</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>وخل كسرى وإيواناً يدل به</tei:seg> 
-                  <tei:seg>هوى على أثر النيران والأيم</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">وخل كسرى وإيواناً يدل به</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">هوى على أثر النيران والأيم</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>واترك رعمسيس إن الملك مظهره</tei:seg> 
-                  <tei:seg>في نهضة العدل لا في نهضة (الهرم)</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">واترك رعمسيس إن الملك مظهره</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">في نهضة العدل لا في نهضة (الهرم)</tei:seg>
                </tei:l>
             </lg>
             <pb n="n1-p18" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P31.xhtml"/>
-            <lg change="#d2e82">
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>دار الشرائع روما كلما ذكرت</tei:seg> 
-                  <tei:seg>(دار السلام) لها ألقت يد السلم</tei:seg>
+            <lg change="#d2e82 #d2e223" xml:lang="ar">
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">دار الشرائع روما كلما ذكرت</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">(دار السلام) لها ألقت يد السلم</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>ما ضارعتها بياناً عند ملتئم</tei:seg> 
-                  <tei:seg>ولا حكتها قضاء عند مختصم</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">ما ضارعتها بياناً عند ملتئم</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">ولا حكتها قضاء عند مختصم</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>ولا احتوت في طراز من قياصرها</tei:seg> 
-                  <tei:seg>على رشيد ومأمون ومعتصم</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">ولا احتوت في طراز من قياصرها</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">على رشيد ومأمون ومعتصم</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>يطأطئ العلماء الهام أن نبسوا</tei:seg> 
-                  <tei:seg>من هيبة العلم لا من هيبة الحكم</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">يطأطئ العلماء الهام أن نبسوا</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">من هيبة العلم لا من هيبة الحكم</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>ويمطرون فما في الأرض من محل</tei:seg> 
-                  <tei:seg>ولا بمن بات فوق الأرض من عدم</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">ويمطرون فما في الأرض من محل</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">ولا بمن بات فوق الأرض من عدم</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>خلائف الله جلوا عن موزنة</tei:seg> 
-                  <tei:seg>فلا تقيسن أملاك الورى بهم</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">خلائف الله جلوا عن موزنة</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">فلا تقيسن أملاك الورى بهم</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>من في البرية (كالفاروق) معدلة</tei:seg> 
-                  <tei:seg>و (كابن عبد العزيز) الخاشع الحشم</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">من في البرية (كالفاروق) معدلة</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">و (كابن عبد العزيز) الخاشع الحشم</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="3" xml:lang="ar">٣</tei:num>  و (كالإمام) إذا ما فض مزدحماً=بمدمع في مآقي القوم مزدحم</tei:p>
-            <lg change="#d2e82">
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>أو (كابن عفان) والقرآن في يده</tei:seg> 
-                  <tei:seg>يحنوا عليه كما تحنو على الفطم</tei:seg>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"> <tei:num type="auto-markup" change="#d2e181" value="3" xml:lang="ar">٣</tei:num>  و (كالإمام) إذا ما فض مزدحماً=بمدمع في مآقي القوم مزدحم</tei:p>
+            <lg change="#d2e82 #d2e223" xml:lang="ar">
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">أو (كابن عفان) والقرآن في يده</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">يحنوا عليه كما تحنو على الفطم</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">إلى غير ذلك من التاريخ المسبوك بأجمل قالب شعري. . .</tei:p>
-            <tei:p change="#d2e73">وأشار (محمد) البوصيري إلى اسمه فقال:</tei:p>
-            <lg change="#d2e82">
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>فإن لي ذمة منه بتسميتي</tei:seg> 
-                  <tei:seg>(محمداً) وهو أوفى الخلق بالذمم</tei:seg>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">إلى غير ذلك من التاريخ المسبوك بأجمل قالب شعري. . .</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">وأشار (محمد) البوصيري إلى اسمه فقال:</tei:p>
+            <lg change="#d2e82 #d2e223" xml:lang="ar">
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">فإن لي ذمة منه بتسميتي</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">(محمداً) وهو أوفى الخلق بالذمم</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">وأشار (أحمد) شوقي إلى اسمه أيضاً فقال:</tei:p>
-            <lg change="#d2e82">
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>يا (أحمد) الخير لي جاه بتسميتي</tei:seg> 
-                  <tei:seg>وكيف لا يتسامى بالرسول سمي</tei:seg>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">وأشار (أحمد) شوقي إلى اسمه أيضاً فقال:</tei:p>
+            <lg change="#d2e82 #d2e223" xml:lang="ar">
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">يا (أحمد) الخير لي جاه بتسميتي</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">وكيف لا يتسامى بالرسول سمي</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">وهناك أيضاً معانٍ كثيرة نسج عليها الشاعران أبياتاً شائقة كنا نود ذكرها لنبين مجرى الأفكار من جيل إلى جيل، ولكن في ما تقدم كفاية لاطلاع القراء على طريقة شاعر الأمس وشاعر اليوم، فيرون أن راز شوفي كان لبردة البوصيري كالحلي للسيف أو كالوشي للعلم.
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">وهناك أيضاً معانٍ كثيرة نسج عليها الشاعران أبياتاً شائقة كنا نود ذكرها لنبين مجرى الأفكار من جيل إلى جيل، ولكن في ما تقدم كفاية لاطلاع القراء على طريقة شاعر الأمس وشاعر اليوم، فيرون أن راز شوفي كان لبردة البوصيري كالحلي للسيف أو كالوشي للعلم.
 <pb n="n1-p19" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P32.xhtml"/>
 
 
 حافظ والفرزدق</tei:p>
-            <tei:p change="#d2e73">قال حافظ من قصيدته مخاطباً أمير مصر:</tei:p>
-            <lg change="#d2e82">
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>تذكر زين العابدين وجده</tei:seg> 
-                  <tei:seg>وما كان من قول الفرزدق فيهما</tei:seg>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">قال حافظ من قصيدته مخاطباً أمير مصر:</tei:p>
+            <lg change="#d2e82 #d2e223" xml:lang="ar">
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">تذكر زين العابدين وجده</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">وما كان من قول الفرزدق فيهما</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">وقول الفرزدق فيهما مشهور، ورواية الخبر، أنه لما حج هشام بن عبد الملك في أيام أبيه طاف بالبيت وجهد أن يصل إلى الحجر الأسود ليستلمه فلم يقدر على ذلك لكثرة الزحام. فنصب له كرسي وجلس عليه ينظر الناس ومعه جماعة من أعيان أهل الشام. فبينما هو كذلك إذ أقبل زين العابدين علي بن الحسين بن علي بن أبي طالب وكان من أجمل الناس وجهاً وأطيبهم أزجهاً. فطاف بالبيت. فلما انتهى إلى الحجر تنحى له الناس حتى استلم الحجر. فقال رجل من أهل الشام لهشام: من هذا الذي هابه الناس هذه الهيبة؟ فقال هشام: لا أعرفه مخافة أن يرغب فيه أهل الشام وكان الفرزدق حاضراً فقال: أنا أعرفه. - فقال الشامي: ومن هو يا أبا فراس؟ فقال الفرزدق:</tei:p>
-            <lg change="#d2e82">
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>هذا الذي تعرف البطحاء وطأته</tei:seg> 
-                  <tei:seg>والبيت يعرفه والحل والحرم</tei:seg>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">وقول الفرزدق فيهما مشهور، ورواية الخبر، أنه لما حج هشام بن عبد الملك في أيام أبيه طاف بالبيت وجهد أن يصل إلى الحجر الأسود ليستلمه فلم يقدر على ذلك لكثرة الزحام. فنصب له كرسي وجلس عليه ينظر الناس ومعه جماعة من أعيان أهل الشام. فبينما هو كذلك إذ أقبل زين العابدين علي بن الحسين بن علي بن أبي طالب وكان من أجمل الناس وجهاً وأطيبهم أزجهاً. فطاف بالبيت. فلما انتهى إلى الحجر تنحى له الناس حتى استلم الحجر. فقال رجل من أهل الشام لهشام: من هذا الذي هابه الناس هذه الهيبة؟ فقال هشام: لا أعرفه مخافة أن يرغب فيه أهل الشام وكان الفرزدق حاضراً فقال: أنا أعرفه. - فقال الشامي: ومن هو يا أبا فراس؟ فقال الفرزدق:</tei:p>
+            <lg change="#d2e82 #d2e223" xml:lang="ar">
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">هذا الذي تعرف البطحاء وطأته</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">والبيت يعرفه والحل والحرم</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>هذا ابن خير عباد الله كلهم</tei:seg> 
-                  <tei:seg>هذا التقي النقي الطاهر العلم</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">هذا ابن خير عباد الله كلهم</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">هذا التقي النقي الطاهر العلم</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>هذا ابن فاطمة إن كنت جاهله</tei:seg> 
-                  <tei:seg>بجده أولياء الله قد ختموا</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">هذا ابن فاطمة إن كنت جاهله</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">بجده أولياء الله قد ختموا</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">وليس قولك من هذا؟ بضائره <gap resp="#org_MS"/> العرب تعرف من أنكرت والعجم
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">وليس قولك من هذا؟ بضائره <gap resp="#org_MS"/> العرب تعرف من أنكرت والعجم
 <pb n="n1-p20" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P33.xhtml"/>
 
 
 هذا هو قول الفرزدق في زين العابدين الذي يشير إليه حافظ والذي تذكره الركن عند استلام العباس له.</tei:p>
-            <tei:p change="#d2e73">تمنى حافظ أن يسير في ركب أميره، فقال:</tei:p>
-            <lg change="#d2e82">
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>ولو أنني خيرت أن أرى</tei:seg> 
-                  <tei:seg>لعيسك وحدي حادياً مترنما</tei:seg>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">تمنى حافظ أن يسير في ركب أميره، فقال:</tei:p>
+            <lg change="#d2e82 #d2e223" xml:lang="ar">
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">ولو أنني خيرت أن أرى</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">لعيسك وحدي حادياً مترنما</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">فلو فرضنا أن الزحام كان شديداً حتى تعذر على أمير مصر أن يصل إلى الحجر وكان حافظ قد سار أمامه حادياً مترنماً بقوله:</tei:p>
-            <lg change="#d2e82">
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>مشيت كعبة الدنيا إلى كعبة الهدى</tei:seg> 
-                  <tei:seg>يفيض جلال الملك والدين منهما</tei:seg>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">فلو فرضنا أن الزحام كان شديداً حتى تعذر على أمير مصر أن يصل إلى الحجر وكان حافظ قد سار أمامه حادياً مترنماً بقوله:</tei:p>
+            <lg change="#d2e82 #d2e223" xml:lang="ar">
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">مشيت كعبة الدنيا إلى كعبة الهدى</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">يفيض جلال الملك والدين منهما</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>وفي الركب شمس أنجبت أنجب الورى</tei:seg> 
-                  <tei:seg>فتى الشرق مولانا الأمير المعظما</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">وفي الركب شمس أنجبت أنجب الورى</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">فتى الشرق مولانا الأمير المعظما</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>تسير إلى شمس الهدى في طفاوة</tei:seg> 
-                  <tei:seg>من العز تحدوها الزواهر أينما</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">تسير إلى شمس الهدى في طفاوة</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">من العز تحدوها الزواهر أينما</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">لتنحى الناس لهذا الأمير وشاعره ولو كان فيهم صفوة العظماء وخيرة الأمراء.</tei:p>
-            <tei:p change="#d2e73">وإذا قابلنا بين قصيدة حافظ وقصيدة الفرزدق فقد لا تفضل هذه تلك. وشاعر زين العابدين معروف بجزالة شعره وفخامته وشدة أسره حتى قدم على الشعراء الإسلاميين.</tei:p>
-            <tei:p change="#d2e73">وصف الفرزدق ممدوحه بالكرم فقال:</tei:p>
-            <lg change="#d2e82">
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>كلتا يديه غياث عم نفعهما</tei:seg> 
-                  <tei:seg>يستوكفان ولا يعروهما عدم</tei:seg>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">لتنحى الناس لهذا الأمير وشاعره ولو كان فيهم صفوة العظماء وخيرة الأمراء.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">وإذا قابلنا بين قصيدة حافظ وقصيدة الفرزدق فقد لا تفضل هذه تلك. وشاعر زين العابدين معروف بجزالة شعره وفخامته وشدة أسره حتى قدم على الشعراء الإسلاميين.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">وصف الفرزدق ممدوحه بالكرم فقال:</tei:p>
+            <lg change="#d2e82 #d2e223" xml:lang="ar">
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">كلتا يديه غياث عم نفعهما</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">يستوكفان ولا يعروهما عدم</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>ما قال (لا) قط إلا في تشهده</tei:seg> 
-                  <tei:seg>لولا التشهد كانت لاءه نعم</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">ما قال (لا) قط إلا في تشهده</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">لولا التشهد كانت لاءه نعم</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>هم الأسود إذا ما أزمة أزمت</tei:seg> 
-                  <tei:seg>والأسد أسد الشرى والبأس محتم</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">هم الأسود إذا ما أزمة أزمت</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">والأسد أسد الشرى والبأس محتم</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">وقال حافظ:
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">وقال حافظ:
 <pb n="n1-p21" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P34.xhtml"/>
 
 
 حللت بأكناف الجزيرة عابراً <gap resp="#org_MS"/> فأنضرت واديها وكنت لها سما</tei:p>
-            <lg change="#d2e82">
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>دعوا بك واستسقوا فلبى دعاءهم</tei:seg> 
-                  <tei:seg>من الأفق هتان من المزن قد هما</tei:seg>
+            <lg change="#d2e82 #d2e223" xml:lang="ar">
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">دعوا بك واستسقوا فلبى دعاءهم</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">من الأفق هتان من المزن قد هما</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>رجعت وقد داويت بالجود فقرهم</tei:seg> 
-                  <tei:seg>وكنت لهم في موسم الحج موسما</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">رجعت وقد داويت بالجود فقرهم</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">وكنت لهم في موسم الحج موسما</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>وجدت وجادت ربة الطهر والتقى</tei:seg> 
-                  <tei:seg>على العام حتى أخصب العام منكما</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">وجدت وجادت ربة الطهر والتقى</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">على العام حتى أخصب العام منكما</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>فلم تبقيا فوق الجزيرة بائساً</tei:seg> 
-                  <tei:seg>ولم تتركا في ساحة البيت معدما</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">فلم تبقيا فوق الجزيرة بائساً</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">ولم تتركا في ساحة البيت معدما</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">وإذا كان الفرزدق قد أجاد وأبدع فيم دح أجداد ممدوحه فإن حافظاً لم يقصر عنه في هذا الباب أيضاً حيث قال:</tei:p>
-            <lg change="#d2e82">
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>سليل ملوك يشهد الله أنهم</tei:seg> 
-                  <tei:seg>أقاموا عمود الدين لما تهدما</tei:seg>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">وإذا كان الفرزدق قد أجاد وأبدع فيم دح أجداد ممدوحه فإن حافظاً لم يقصر عنه في هذا الباب أيضاً حيث قال:</tei:p>
+            <lg change="#d2e82 #d2e223" xml:lang="ar">
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">سليل ملوك يشهد الله أنهم</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">أقاموا عمود الدين لما تهدما</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>لئن بات المجد المؤثل مغرما</tei:seg> 
-                  <tei:seg>لقد كان (إبراهيم) بالمجد مغرما</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">لئن بات المجد المؤثل مغرما</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">لقد كان (إبراهيم) بالمجد مغرما</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>وإن نام حب المكرمات فؤاده</tei:seg> 
-                  <tei:seg>لقد كان (إسماعيل) فيها متيما</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">وإن نام حب المكرمات فؤاده</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">لقد كان (إسماعيل) فيها متيما</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>وإن سكنت تقوى المهيمن قلبه</tei:seg> 
-                  <tei:seg>فقد كان منها قلب (توفيق) مفعما</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">وإن سكنت تقوى المهيمن قلبه</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">فقد كان منها قلب (توفيق) مفعما</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>وإن بات ناهضاً بمصر إلى الذرى</tei:seg> 
-                  <tei:seg>فمن جده الأعلى (علي) تعلما</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">وإن بات ناهضاً بمصر إلى الذرى</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">فمن جده الأعلى (علي) تعلما</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">الأمراء والشعراء</tei:p>
-            <tei:p change="#d2e73">أمس واليوم</tei:p>
-            <tei:p change="#d2e73">كان الأمراء قدماً يدعون أن كرهم علم الشعراء الشعر. وكان الشعراء يجيبون بان شعرهم علم الأمراء الكرم. ولقد يكون الفريقان صادقين فيما يقولان.
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">الأمراء والشعراء</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">أمس واليوم</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">كان الأمراء قدماً يدعون أن كرهم علم الشعراء الشعر. وكان الشعراء يجيبون بان شعرهم علم الأمراء الكرم. ولقد يكون الفريقان صادقين فيما يقولان.
 <pb n="n1-p22" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P35.xhtml"/>
 
 
 وكان الشعراء بالأمس يقفون على أبواب الملوك والعظماء لينشدوهم الشعر، ونراهم اليوم المقربين الجالسين في الصدر.</tei:p>
-            <tei:p change="#d2e73">ولقد نظم شوقي بك هذا المعنى فأبدع وأجاد. ولشاعر أمير مصر ولع بشعر ابن هاني شاعر هارون الرشيد وقد أطلق على منزله في المطرية اسم كرمة ابن هاني وكان هذا المنزل مزداناً بأبهج الزينات ليلة عودة سمو الخديوي من الحج فاتفق أن سموه مر تلك الليلة أمام كرمة ابن هاني فألقى شاعره واقفاً على الباب فقال له:</tei:p>
-            <tei:p change="#d2e73">يا شوقي أعجبتني قصيدتك كما أعجبتني زينتك فارتجل شوقي بك الأبيات الآتية التي أشرنا إليها، كحاشية لطراز البردة:</tei:p>
-            <tei:p change="#d2e73">زين الملوك الصيد مر بزينتي ج كرماً وباب الله طاف ببابي</tei:p>
-            <lg change="#d2e82">
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>يا ليلة القدر التي بلغتها</tei:seg> 
-                  <tei:seg>ما فيك بعد اليوم من مرتاب</tei:seg>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">ولقد نظم شوقي بك هذا المعنى فأبدع وأجاد. ولشاعر أمير مصر ولع بشعر ابن هاني شاعر هارون الرشيد وقد أطلق على منزله في المطرية اسم كرمة ابن هاني وكان هذا المنزل مزداناً بأبهج الزينات ليلة عودة سمو الخديوي من الحج فاتفق أن سموه مر تلك الليلة أمام كرمة ابن هاني فألقى شاعره واقفاً على الباب فقال له:</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">يا شوقي أعجبتني قصيدتك كما أعجبتني زينتك فارتجل شوقي بك الأبيات الآتية التي أشرنا إليها، كحاشية لطراز البردة:</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">زين الملوك الصيد مر بزينتي ج كرماً وباب الله طاف ببابي</tei:p>
+            <lg change="#d2e82 #d2e223" xml:lang="ar">
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">يا ليلة القدر التي بلغتها</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">ما فيك بعد اليوم من مرتاب</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>ما كنت أهلاً للنوال وإنما</tei:seg> 
-                  <tei:seg>فنحات أحمد فوق كل حساب</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">ما كنت أهلاً للنوال وإنما</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">فنحات أحمد فوق كل حساب</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>لما بلغت السؤل ليلة مدحه</tei:seg> 
-                  <tei:seg>بعث الملوك يعظمون جنابي</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">لما بلغت السؤل ليلة مدحه</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">بعث الملوك يعظمون جنابي</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>بدران بدر في السماء منور</tei:seg> 
-                  <tei:seg>وأخوه فوق الأرض نور رحابي</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">بدران بدر في السماء منور</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">وأخوه فوق الأرض نور رحابي</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>هذا (ابن هاني) نال ما قد نلت من</tei:seg> 
-                  <tei:seg>حسب ندل به على الأحساب</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">هذا (ابن هاني) نال ما قد نلت من</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">حسب ندل به على الأحساب</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>قد كان يسعى للرشيد وبابه</tei:seg> 
-                  <tei:seg>فسعى الرشيد إليه وهو ببابي</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">قد كان يسعى للرشيد وبابه</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">فسعى الرشيد إليه وهو ببابي</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">* * *</tei:p>
-            <tei:p change="#d2e73">أما حافظ فقد مثل بحضرة الأمير يوم وصوله وقام في السرادق الفخيم الذي نصبته لجنة الاحتفال في ساحة سراي عابدين فأنشده قصيدته التي سلفت الإشارة إليها. وكان الأمير يصغي إلى منشده بكل انتباه،
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">* * *</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">أما حافظ فقد مثل بحضرة الأمير يوم وصوله وقام في السرادق الفخيم الذي نصبته لجنة الاحتفال في ساحة سراي عابدين فأنشده قصيدته التي سلفت الإشارة إليها. وكان الأمير يصغي إلى منشده بكل انتباه،
 <pb n="n1-p23" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P36.xhtml"/>
 
 
 فيقول بعد كل بيت مدح: أستغفر الله وبعد كل بيت دعاء: إن شاء الله.</tei:p>
-            <tei:p change="#d2e73">فأكرم بالملوك والأمراء الذين يعرفون قدر الأدب والأدباء. . .</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">فأكرم بالملوك والأمراء الذين يعرفون قدر الأدب والأدباء. . .</tei:p>
          </tei:div>
-         <tei:div change="#d2e64" type="item">
-            <head>الصحافة والصحافيون</head>
-            <tei:p change="#d2e73">كان حامل القلم كحامل السيف في يمين كليهما سلاح ماض. . . وأصبح حامل القلم، في العصر الحديث، كالقابض على الصولجان: كلاهما نافذ الكلمة، مرعي الجانب.</tei:p>
-            <tei:p change="#d2e73">ولكن لا يتم ذلك للكاتب، إلا إذا فهم حقيقة مهمته، وأدرك شرف مهنته. فإذا لم يكن كل من هز الحسام بضارب فكذلك ليس كل من هز اليراع بكاتب وأبعد حملة الأقلام نفوذاً الآن هم الصحافيون، بفضل انتشار الصحف وإقبال الكبير والصغير عليها. وعليه يجب أن تكون الصحافة - كما قال احد كبار المفكرين - شجرة الحقيقة يغرد على فنانها الكتاب الصادقون وإنه ليسرنا أن ندون على صفحات الزهور كلمتين في هذا الموضوع: أحداهما لأمير شرقي كبير، والثانية لشريف غربي خطير.</tei:p>
-            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num> </tei:p>
-            <tei:p change="#d2e73">قام دولة الأمير الجليل حسين باشا كامل عم سمو الجناب العالي الخديوي في إحدى جلسات مجلس شورى القوانين ووجه إلى رجال الصحافة كلمات قلما سمعنا مثلها في الشرق من كبرائنا، قال:</tei:p>
-            <tei:p change="#d2e73">إن كل أمة متمدنة يجب عليها أن تحترم الصحافة، ونود أن تكون معها يداً في يد، لتتعلم منها وتستفيد مما ينشر من الفوائد. . . .
+         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+            <head change="#d2e223" xml:lang="ar">الصحافة والصحافيون</head>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">كان حامل القلم كحامل السيف في يمين كليهما سلاح ماض. . . وأصبح حامل القلم، في العصر الحديث، كالقابض على الصولجان: كلاهما نافذ الكلمة، مرعي الجانب.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">ولكن لا يتم ذلك للكاتب، إلا إذا فهم حقيقة مهمته، وأدرك شرف مهنته. فإذا لم يكن كل من هز الحسام بضارب فكذلك ليس كل من هز اليراع بكاتب وأبعد حملة الأقلام نفوذاً الآن هم الصحافيون، بفضل انتشار الصحف وإقبال الكبير والصغير عليها. وعليه يجب أن تكون الصحافة - كما قال احد كبار المفكرين - شجرة الحقيقة يغرد على فنانها الكتاب الصادقون وإنه ليسرنا أن ندون على صفحات الزهور كلمتين في هذا الموضوع: أحداهما لأمير شرقي كبير، والثانية لشريف غربي خطير.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"> <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num> </tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">قام دولة الأمير الجليل حسين باشا كامل عم سمو الجناب العالي الخديوي في إحدى جلسات مجلس شورى القوانين ووجه إلى رجال الصحافة كلمات قلما سمعنا مثلها في الشرق من كبرائنا، قال:</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">إن كل أمة متمدنة يجب عليها أن تحترم الصحافة، ونود أن تكون معها يداً في يد، لتتعلم منها وتستفيد مما ينشر من الفوائد. . . .
 <pb n="n1-p24" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P37.xhtml"/>
 
 
 نتمنى أن يكون التعليم في مصر إجبارياً حتى يصبح الكل يطالعون الصحف ويستفيدون منها ويتنورون بما فيها. .</tei:p>
-            <tei:p change="#d2e73">مكثت نحو الثمان سنوات تلميذاً في أوروبا، فرأيت أن تنور العامة جاء من مطالعة الصحف. .</tei:p>
-            <tei:p change="#d2e73">الجرائد أكبر من أن تكون مهنة لتعيش أصحابها، بل هي أشرف من ذلك ولها فوائد عامة عديدة</tei:p>
-            <tei:p change="#d2e73">إننا نعتبركم جزءاً منا حيث تحضرون جلساتنا ونقبل بارتياح أن تنتقدوا أعمالنا. . وأنتم جميعاً تعلمون مقدار احترامي لكم. .</tei:p>
-            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="2" xml:lang="ar">٢</tei:num> </tei:p>
-            <tei:p change="#d2e73">وعقد مؤخراً في إنكلترا مؤتمر الصحافة فألقى اللورد مورلاي خطاباً نقتطف منه الفقرات</tei:p>
-            <tei:p change="#d2e73">الآتية:</tei:p>
-            <tei:p change="#d2e73">الإنشاء هو تأليف المقالات أو الكتب الضارة والمفيدة. وهو كالتصوير اليدوي يأتي بالصور الجميلة والقبيحة.</tei:p>
-            <tei:p change="#d2e73">مهنة الصحافة شريفة وشاقة. قال كارليل: الصحافي، سواء كان قائداً للرأي العام أم لم يكن، أليس هو واحداً من حكام العالم؟</tei:p>
-            <tei:p change="#d2e73">ولا يفهم بالصحافي من يحسن اللغة جيداً ولا من هو كثير التأنق ولا من يرسل الكلام على عواهنه بل الصحافي الحقيقي المفيد هو الذي يحافظ على أدب الكتابة وآداب الاجتماع. ويكفي أن تجتمع في المنشئ، فضيلتان: معرفة الحقوق والبساطة، وجوهر الصحافة والإنشاء قائم في ثلاثة أشياء: حسن النية والخبرة والمقدرة.
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">مكثت نحو الثمان سنوات تلميذاً في أوروبا، فرأيت أن تنور العامة جاء من مطالعة الصحف. .</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">الجرائد أكبر من أن تكون مهنة لتعيش أصحابها، بل هي أشرف من ذلك ولها فوائد عامة عديدة</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">إننا نعتبركم جزءاً منا حيث تحضرون جلساتنا ونقبل بارتياح أن تنتقدوا أعمالنا. . وأنتم جميعاً تعلمون مقدار احترامي لكم. .</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"> <tei:num type="auto-markup" change="#d2e181" value="2" xml:lang="ar">٢</tei:num> </tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">وعقد مؤخراً في إنكلترا مؤتمر الصحافة فألقى اللورد مورلاي خطاباً نقتطف منه الفقرات</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">الآتية:</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">الإنشاء هو تأليف المقالات أو الكتب الضارة والمفيدة. وهو كالتصوير اليدوي يأتي بالصور الجميلة والقبيحة.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">مهنة الصحافة شريفة وشاقة. قال كارليل: الصحافي، سواء كان قائداً للرأي العام أم لم يكن، أليس هو واحداً من حكام العالم؟</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">ولا يفهم بالصحافي من يحسن اللغة جيداً ولا من هو كثير التأنق ولا من يرسل الكلام على عواهنه بل الصحافي الحقيقي المفيد هو الذي يحافظ على أدب الكتابة وآداب الاجتماع. ويكفي أن تجتمع في المنشئ، فضيلتان: معرفة الحقوق والبساطة، وجوهر الصحافة والإنشاء قائم في ثلاثة أشياء: حسن النية والخبرة والمقدرة.
 <pb n="n1-p25" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P38.xhtml"/>
 
 
 الصحافة والإنشاء يحتاجان إلى روية أكثر من الخاطبة. لأن ما يقوله الخطيب ينسى حالاً. وأما ما يقوله الصحافي فيبقى مكتوباً ليطالع ويراجع وينتقد. وكمثله كلام المنشئ: وإنما الصحافي يحتاج إلى ذكاء متقد وإلى رزانة أعظم مما يحتاجه المنشئ لأن هذا يمكنه أن يراجع وأن يشاور. وأما الصحافي فليس له من الوقت ما يمكنه من المراجعة والمشاورة. والمنشئ ينشئ في موضوع أو فن واحد. وأما الصحافي فتعرض له كل المواضيع وكل الفنون. فيجب أن يكون راجح العقل، كثير الإدراك، سريع التحصيل ذا حنكة وحكمة ليحصل على رضى الجمهور. ويكون رأيه هو الأصح وحزبه هو الأقوى ويكون هو المحور الذي تدور حوله الآراء - وعلى الصحافي أن يكون فوق الطبيب والفقيه والصناعي والعالم والجندي والسياسي والملك وأن يكون بعيداً عن أغراض الجميع، ولا يتخذ إلا الحق له غرضاً.</tei:p>
-            <tei:p change="#d2e73">الصحافي ليس خادماً في مكتب، بل هو مدير الأفكار بوجهٍ عام: وإذا خطر له مرة أن يفضل الجزئي على الكلي، والعرض على الجوهر، والغرض على الحقيقة، فليتصور أن أمامه الرأي العام يكذبه. وحينذاك تتضح له المسؤولية الكبرى الملقاة على عاتقه، ويفهم أهمية مركزه فيحافظ عليه.</tei:p>
-            <tei:p change="#d2e73">الإنشاء كلام منزل كالناموس، إذا قيل مرة فلا يجوز بعد ذلك إزالة حرف منه. هكذا يجب أن تكون الصحافة لتكون مفيدة. والصحافي المفيد هو الذي يقرأ ويحسن الاستنتاج، ويفهم</tei:p>
-            <tei:p change="#d2e73">معنى الاستقلال والمسؤولية.
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">الصحافي ليس خادماً في مكتب، بل هو مدير الأفكار بوجهٍ عام: وإذا خطر له مرة أن يفضل الجزئي على الكلي، والعرض على الجوهر، والغرض على الحقيقة، فليتصور أن أمامه الرأي العام يكذبه. وحينذاك تتضح له المسؤولية الكبرى الملقاة على عاتقه، ويفهم أهمية مركزه فيحافظ عليه.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">الإنشاء كلام منزل كالناموس، إذا قيل مرة فلا يجوز بعد ذلك إزالة حرف منه. هكذا يجب أن تكون الصحافة لتكون مفيدة. والصحافي المفيد هو الذي يقرأ ويحسن الاستنتاج، ويفهم</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">معنى الاستقلال والمسؤولية.
 <pb n="n1-p26" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P39.xhtml"/>
 
 
 وليس الانتقاد في شيء من الطعن. ولا يجب أن يخاطب المنتقد بلهجة العداء. والهجو هو ما يلجأ إليه الأعداء. وذلك محط من شان الصحافة.</tei:p>
-            <tei:p change="#d2e73">والصحافة الحديثة تستدعي العناية بالتهذيب. والتهذيب هو عماد السلم والاتحاد والسياسة والاجتماع العصري. ولا يحافظ على الحقوق إلا المهذبون.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">والصحافة الحديثة تستدعي العناية بالتهذيب. والتهذيب هو عماد السلم والاتحاد والسياسة والاجتماع العصري. ولا يحافظ على الحقوق إلا المهذبون.</tei:p>
          </tei:div>
-         <tei:div change="#d2e64" type="item">
-            <head>نكبة باريس</head>
-            <tei:p change="#d2e73">طغى نهر السين على مدينة باريس، فنشر في تلك الربوع الجميلة الدمار والخراب ولسنا في حاجة إلى إيراد تفصيل هذا الخطب الجسيم، فقد اطلع القراء على ذلك في الصحف اليومية. وإذا كانت عاصمة فرنسا مهبط الجمال وكل فنون الجمال، فيليق بالشعراء أن يسكبوا عليها في مصابها دمعة الأسف:</tei:p>
-            <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num> </tei:p>
-            <lg change="#d2e82">
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>يا فرنسا لا عدمنا منناً</tei:seg> 
-                  <tei:seg>لك عند العلم والفن جساما</tei:seg>
+         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+            <head change="#d2e223" xml:lang="ar">نكبة باريس</head>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">طغى نهر السين على مدينة باريس، فنشر في تلك الربوع الجميلة الدمار والخراب ولسنا في حاجة إلى إيراد تفصيل هذا الخطب الجسيم، فقد اطلع القراء على ذلك في الصحف اليومية. وإذا كانت عاصمة فرنسا مهبط الجمال وكل فنون الجمال، فيليق بالشعراء أن يسكبوا عليها في مصابها دمعة الأسف:</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"> <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num> </tei:p>
+            <lg change="#d2e82 #d2e223" xml:lang="ar">
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">يا فرنسا لا عدمنا منناً</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">لك عند العلم والفن جساما</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>لطف الله بباريس ولا</tei:seg> 
-                  <tei:seg>لقيت إلا هناء وسلاما</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">لطف الله بباريس ولا</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">لقيت إلا هناء وسلاما</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>روعت قلبي خطوب روعت</tei:seg> 
-                  <tei:seg>ساهر الأحياء فيها والنياما</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">روعت قلبي خطوب روعت</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">ساهر الأحياء فيها والنياما</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>أنا لا أدعوا (سين) طغى</tei:seg> 
-                  <tei:seg>إن (للسين) وإن جار ذماما</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">أنا لا أدعوا (سين) طغى</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">إن (للسين) وإن جار ذماما</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>لست بالناسي عليه عيشة</tei:seg> 
-                  <tei:seg>كانت الشهد وأحباباً كراما</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">لست بالناسي عليه عيشة</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">كانت الشهد وأحباباً كراما</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">شوقي
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">شوقي
 <pb n="n1-p27" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P40.xhtml"/>
 
 
  <tei:num type="auto-markup" change="#d2e181" value="2" xml:lang="ar">٢</tei:num> </tei:p>
-            <tei:p change="#d2e73">باريس عاصمة ملك حذيت على غير منوال</tei:p>
-            <tei:p change="#d2e73">إذا أطرى الواصفون بلدة قالوا: هيا لجنة، أنهارها جارية، وبناياتها شامخة، ورياضها يانعة، وأشجارها ثامرة، وأعوادها زاهرة. . . أوصاف ابتذلتها أقلام الكاتبين، ووقفت عندها بديهات الشعراء.</tei:p>
-            <tei:p change="#d2e73">أما باريس فلا تتناولها هذه الأوصاف. كل شيء هو دون
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">باريس عاصمة ملك حذيت على غير منوال</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">إذا أطرى الواصفون بلدة قالوا: هيا لجنة، أنهارها جارية، وبناياتها شامخة، ورياضها يانعة، وأشجارها ثامرة، وأعوادها زاهرة. . . أوصاف ابتذلتها أقلام الكاتبين، ووقفت عندها بديهات الشعراء.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">أما باريس فلا تتناولها هذه الأوصاف. كل شيء هو دون
 <pb n="n1-p28" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P41.xhtml"/>
 
 
 ما وصف به، إلا باريس فهي فوق ما وصفت به.</tei:p>
-            <tei:p change="#d2e73">قال أكثر الناس: الجمال غريب لا وطن له. . . كذبوا. باريس وطنه ومشرق شمسه.</tei:p>
-            <tei:p change="#d2e73">الذين رأوا باريس عرفوا محاسنها وهم فيها. وأبناؤها عرفوا محاسنها وهم فيها. فلما فارقوها امحت صورها من أذهانهم إلا قليلاً بقي بها ما تحتملها العقول وانضوى ما لا تحتمله. هذه محاسن ترتع فيها النفوس والنواظر معاً. وفيها ما يدخل النفوس لا عن طريق الاستشعار، بل عن طريق الإدراك. وحين تزايل الأبصار أشكالها تزايل البصائر خيالاتها.</tei:p>
-            <tei:p change="#d2e73">الطرقات السوية، والقصور العالية، والمصابيح المتلألئة، والجسور الممتدة، والكنائس</tei:p>
-            <tei:p change="#d2e73">المرتفعة، والدمى المنصوبة، والمصانع العاملة والندية الحافلة يتأود بينها برج ايفل، كأنه خطيب الحرية بين تلك العجائب، بل كأنه حارس القضاء موكل بسكان البانثيون.</tei:p>
-            <tei:p change="#d2e73">سبحانك اللهم ما أكبر قدرتك، بل ما أفصحها وأبلغها من قدرة. .</tei:p>
-            <tei:p change="#d2e73">البلدة الطيبة التي فرعت الحوادث مروتها، ثم ضحكت لها وجوهها، ربيبة العز على اختلاف أنواعه: عز الجمال، وعز العلم، وعز الدولة. اختلفت
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">قال أكثر الناس: الجمال غريب لا وطن له. . . كذبوا. باريس وطنه ومشرق شمسه.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">الذين رأوا باريس عرفوا محاسنها وهم فيها. وأبناؤها عرفوا محاسنها وهم فيها. فلما فارقوها امحت صورها من أذهانهم إلا قليلاً بقي بها ما تحتملها العقول وانضوى ما لا تحتمله. هذه محاسن ترتع فيها النفوس والنواظر معاً. وفيها ما يدخل النفوس لا عن طريق الاستشعار، بل عن طريق الإدراك. وحين تزايل الأبصار أشكالها تزايل البصائر خيالاتها.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">الطرقات السوية، والقصور العالية، والمصابيح المتلألئة، والجسور الممتدة، والكنائس</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">المرتفعة، والدمى المنصوبة، والمصانع العاملة والندية الحافلة يتأود بينها برج ايفل، كأنه خطيب الحرية بين تلك العجائب، بل كأنه حارس القضاء موكل بسكان البانثيون.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">سبحانك اللهم ما أكبر قدرتك، بل ما أفصحها وأبلغها من قدرة. .</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">البلدة الطيبة التي فرعت الحوادث مروتها، ثم ضحكت لها وجوهها، ربيبة العز على اختلاف أنواعه: عز الجمال، وعز العلم، وعز الدولة. اختلفت
 <pb n="n1-p29" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P42.xhtml"/>
 
 
 فيها مواكب الأبهة. دخلها هنري الرابع فاتحاً. وعاودها بونابرت ظافراً ولكن تهادت فيها انطوانت إلى ميدان القصاص. وهي بعد ذلك رقت ودقت وحلت: فكانت الفاتنة يوم فرحها، وكانت الفاتنة يوم ترحها.</tei:p>
-            <tei:p change="#d2e73">وإن مواقع الجياد، يوم دخلها غليوم الأول، لهي مواقع القبل من شفاه عشاقها. ذلك أديم تنبو عنه الشقوة، ويترقرق عليه النعيم.</tei:p>
-            <tei:p change="#d2e73">لم يسعدني الزمان بزورة لها، وكم اشتقتها، وكم أشتاقها. .! وإنما عشقتها الروح، ولم ترها العين. وما كن عشقي لها على قدر ما نعتها به الناعتون فأقول: الأذن تعشق قبل العين أحياناً ولكن عشقي لها على قدر معرفتي بها.</tei:p>
-            <tei:p change="#d2e73">بيني وبينها الفدافد والبحار. لم يستجل مرآتها ناظراي. غير أن نفسي حلقت بسمائها وخواطري جالت في أرجائها.</tei:p>
-            <tei:p change="#d2e73">كلما أنشدت بيتاً لهوغو أو لموسه، خلتني أنشد شعرها وأترجم لذاتي عنها.</tei:p>
-            <tei:p change="#d2e73">حين أبصر الباريسي الظريف في حديثه الطيب، وشمائله المليحة، أذكر باريس. . . وحين أشاهد الباريسية في شعرها الذهبي، وعينيها السماويتين، وحديثها العذب، أخال جزءاً من باريس يتكلم، بل أحسب روح باريس تمثلت لعيني لتوحي إلي معاني الشعر. ولترسل من أعماق روحي كوامن الإعجاز. . .
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">وإن مواقع الجياد، يوم دخلها غليوم الأول، لهي مواقع القبل من شفاه عشاقها. ذلك أديم تنبو عنه الشقوة، ويترقرق عليه النعيم.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">لم يسعدني الزمان بزورة لها، وكم اشتقتها، وكم أشتاقها. .! وإنما عشقتها الروح، ولم ترها العين. وما كن عشقي لها على قدر ما نعتها به الناعتون فأقول: الأذن تعشق قبل العين أحياناً ولكن عشقي لها على قدر معرفتي بها.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">بيني وبينها الفدافد والبحار. لم يستجل مرآتها ناظراي. غير أن نفسي حلقت بسمائها وخواطري جالت في أرجائها.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">كلما أنشدت بيتاً لهوغو أو لموسه، خلتني أنشد شعرها وأترجم لذاتي عنها.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">حين أبصر الباريسي الظريف في حديثه الطيب، وشمائله المليحة، أذكر باريس. . . وحين أشاهد الباريسية في شعرها الذهبي، وعينيها السماويتين، وحديثها العذب، أخال جزءاً من باريس يتكلم، بل أحسب روح باريس تمثلت لعيني لتوحي إلي معاني الشعر. ولترسل من أعماق روحي كوامن الإعجاز. . .
 <pb n="n1-p30" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P43.xhtml"/>
 
 
 تتغير باريس ما بين غمضة عين وانتباهتها: هكذا ينبغي أن تكون. . . للجمال فيها كل آونة شأن جديد الجمال فها موضة فلو تأملوا إحدى فاتناتها، لألفوها صباحاً كالخوخة كللها الندى، وفاح لها شذا. ولرأوها ظهراً، وقد تمشت فيها حرارة الشمس حتى لتجانبها الشفاه إشفافاً، بعد إذ تطامنها لثماً. ولوجدوها مساءً وقد جمد نشرها وبدر، حتى لتنزل عنها الثنايا إذا حاولت لها عضاضاً.</tei:p>
-            <tei:p change="#d2e73">الله في باريس وفي فتن باريس! عروس أوروبا الغالية، بنت التمدين، المثال الجمل لكل شيء: يتشبه الناس بأبنائها. يلبسون كملابسهم، ويأكلون كمآكلهم، ثم ينطقون بألسنتهم، ثم يتغتذون بعلمهم كذلك كانت باريس، وكذا ستكون.</tei:p>
-            <tei:p change="#d2e73">* * *</tei:p>
-            <tei:p change="#d2e73">تعالوا نبكي على باريس في أطلالها ورسومها، وفي أشلاء مواتها، وفي قصورها المتداعية. ابتدرتها سوابق عبرات السماء بمتصلة الثمآبيت، وانشق لها صدر الغمام عن كل متداني الهيدب غداة أقبل عليها السين في أواذيّه المتدافعة، وأزباده المترامية.</tei:p>
-            <tei:p change="#d2e73">كم مقلة بالأمس يتكلم إنسانها عن الصبا، جاد غربها اليوم بواكفٍ هتان. وكم وجنة رق عليها ماء الشباب، خددتها مسبلات الدموع.</tei:p>
-            <tei:p change="#d2e73">عبست تلك الوجوه الضاحكة، وخلت هاتيك المغاني الآهلة، وعطلت مصانع طالما أجادت تنميق المحاسن في كل البلاد، وباتت بلاد الله تندب حسناءها. . .
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">الله في باريس وفي فتن باريس! عروس أوروبا الغالية، بنت التمدين، المثال الجمل لكل شيء: يتشبه الناس بأبنائها. يلبسون كملابسهم، ويأكلون كمآكلهم، ثم ينطقون بألسنتهم، ثم يتغتذون بعلمهم كذلك كانت باريس، وكذا ستكون.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">* * *</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">تعالوا نبكي على باريس في أطلالها ورسومها، وفي أشلاء مواتها، وفي قصورها المتداعية. ابتدرتها سوابق عبرات السماء بمتصلة الثمآبيت، وانشق لها صدر الغمام عن كل متداني الهيدب غداة أقبل عليها السين في أواذيّه المتدافعة، وأزباده المترامية.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">كم مقلة بالأمس يتكلم إنسانها عن الصبا، جاد غربها اليوم بواكفٍ هتان. وكم وجنة رق عليها ماء الشباب، خددتها مسبلات الدموع.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">عبست تلك الوجوه الضاحكة، وخلت هاتيك المغاني الآهلة، وعطلت مصانع طالما أجادت تنميق المحاسن في كل البلاد، وباتت بلاد الله تندب حسناءها. . .
 <pb n="n1-p31" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P44.xhtml"/>
 
 
 قال أحد أدباء الفرنسويين لكل امرئ وطنان: وطنه الأصلي ووطنه باريس فلبيك إذن على باريس كل الناس، فهي وطن كل الناس.</tei:p>
-            <tei:p change="#d2e73">من حقها على من أكرمت وفادتهم ورحبت بهم منزلاً، ونثروا عليها التبر وهي حالية، أن يكرموها في مصابها، وأن ينثروا عليها التبر وهي عاطلة.</tei:p>
-            <tei:p change="#d2e73">سأبكي باريس مستمداً دموع الغمائم، مستعيناً بعيون النيرات. فإن تنفد الدموع، فإن من الأسى ما يجدده الشوق، وينميه الغرام. سلام على باريس في مصابها. سلام عليها في جلبابها الأسود. وكأنها العذراء بعثت لتدعو العالم إلى السجود. . .</tei:p>
-            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:2834 viaf:36771043">
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">من حقها على من أكرمت وفادتهم ورحبت بهم منزلاً، ونثروا عليها التبر وهي حالية، أن يكرموها في مصابها، وأن ينثروا عليها التبر وهي عاطلة.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">سأبكي باريس مستمداً دموع الغمائم، مستعيناً بعيون النيرات. فإن تنفد الدموع، فإن من الأسى ما يجدده الشوق، وينميه الغرام. سلام على باريس في مصابها. سلام عليها في جلبابها الأسود. وكأنها العذراء بعثت لتدعو العالم إلى السجود. . .</tei:p>
+            <byline change="#d2e198 #d2e223" xml:lang="ar"><persName change="#d3e209 #d2e223" ref="oape:pers:2834 viaf:36771043" xml:lang="ar">
                             <forename xml:lang="ar">
                                 <addName type="khitab" xml:lang="ar">ولي الدين</addName>
                             </forename>
                             <surname xml:lang="ar">يكن</surname>
                         </persName></byline>
          </tei:div>
-         <tei:div change="#d2e64" type="item">
-            <head>الغد</head>
-            <tei:p change="#d2e73"><persName change="#d3e209" ref="oape:pers:545 viaf:61716327">
-                            <roleName type="nobility">السيد</roleName>
+         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+            <head change="#d2e223" xml:lang="ar">الغد</head>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar"><persName change="#d3e209 #d2e223" ref="oape:pers:545 viaf:61716327" xml:lang="ar">
+                            <roleName type="nobility" change="#d2e223" xml:lang="ar">السيد</roleName>
                             <forename xml:lang="ar">مصطفى</forename>
                             <forename xml:lang="ar">لطفي</forename>
                             <surname xml:lang="ar">المنفلوطي</surname>
                         </persName> أشهر من أن يعرف. فلقد نالت كتاباته الرائقة شهرة بعيدة وتناقلتها صحف القطرين. وهو مباشر الآن طبع كتاب تحت عنوان النظرات جمع فيه ما نشره على صفحات الجرائد والمجلات. وسيكون هذا الكتاب النفيس خير متحف جمع بين أسلوب الأقدمين وتفنن المحدثين. وسنعود إليه بالتفصيل بعد بروزه من عالم الطباعة إلى عالم المطالعة. ونحن واثقون بأن كل قارئ سيضمه في مكتبته إلى كتبه الثمينة. وقد تفضل صاحبه بان يترك لنا اختيار ما نريد من الملازم التي نجز طبعها لنحلي به العدد الأول من هذه المجلة. ولذلك أتيح لنا أن نتحف القراء بالمقالة الأولى من كتاب النظرات وهي تحت العنوان المتقدم:</tei:p>
-            <tei:p change="#d2e73">عرفت أني فكرت ليلة الأمس فيما أكتب اليوم، وعرفت أني ممسك الساعة قلمي بين أصابعي، وأن بين يدي صحيفة بيضاء، تسودُّ
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">عرفت أني فكرت ليلة الأمس فيما أكتب اليوم، وعرفت أني ممسك الساعة قلمي بين أصابعي، وأن بين يدي صحيفة بيضاء، تسودُّ
 <pb n="n1-p32" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P45.xhtml"/>
 
 
 قليلاً قليلاً، كلما أجريت القلم فيها. ولكني لا أعلم هل يبلغ القلم مداه، أو يكبو دون غايته. وهل أستطيع أن أتمم رسالتي هذه أو يعترض عارض من عوارض الدهر في سبيلها. لأني لا أعرف من شؤون الغد شيئاً. ولأن المستقبل بيد الله.</tei:p>
-            <tei:p change="#d2e73">عرفت أني لبست أثوابي في الصباح وأني لا أزال ألبسها حتى الآن. ولكني لا أعلم هل أخلعها بيدي، أو تخلعها يد الغاسل.</tei:p>
-            <tei:p change="#d2e73">الغد شبح مبهم يتراءى للناظر من بعيد فربما كان ملكاً رحيماً. وربما كان شيطاناً رجيماً. بل ربما كان سحابة سوداء، إذا هبت عليها ريح باردة، حللت أجزاءها، وفرقت ذراتها، فأصبحت كأنما هي عدم من الأعدام التي لم يسبقها وجود.</tei:p>
-            <tei:p change="#d2e73">الغد بحر خضم يعب عبابه، وتصطخب أمواجه، فما يدريك غن كان في جوفه الدر والجوهر، أو الموت الأحمر.</tei:p>
-            <tei:p change="#d2e73">لقد غمض الغد عن العقول ودق شخصه عن الأنظار، حتى لو أن إنساناً رفع قدمه ليضعها لا يدري أيضعها على عتبة القصر، أو على حافة القبر.</tei:p>
-            <tei:p change="#d2e73">الغد صدر مملوء بالأسرار الغزار تحوم حوله البصائر وتتسقطه العقول وتستدرجه الأنظار، فلا يبوح بسر من أسراره إلا إذا جادت الصخرة بالماء الزلال.
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">عرفت أني لبست أثوابي في الصباح وأني لا أزال ألبسها حتى الآن. ولكني لا أعلم هل أخلعها بيدي، أو تخلعها يد الغاسل.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">الغد شبح مبهم يتراءى للناظر من بعيد فربما كان ملكاً رحيماً. وربما كان شيطاناً رجيماً. بل ربما كان سحابة سوداء، إذا هبت عليها ريح باردة، حللت أجزاءها، وفرقت ذراتها، فأصبحت كأنما هي عدم من الأعدام التي لم يسبقها وجود.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">الغد بحر خضم يعب عبابه، وتصطخب أمواجه، فما يدريك غن كان في جوفه الدر والجوهر، أو الموت الأحمر.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">لقد غمض الغد عن العقول ودق شخصه عن الأنظار، حتى لو أن إنساناً رفع قدمه ليضعها لا يدري أيضعها على عتبة القصر، أو على حافة القبر.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">الغد صدر مملوء بالأسرار الغزار تحوم حوله البصائر وتتسقطه العقول وتستدرجه الأنظار، فلا يبوح بسر من أسراره إلا إذا جادت الصخرة بالماء الزلال.
 <pb n="n1-p33" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P46.xhtml"/>
 
 
 كأني بالغد وهو كامن في مكمنه، رابض في مجثمه متلفع بفضل إزاره، ينظر إلى آمالنا</tei:p>
-            <tei:p change="#d2e73">وأمانينا نظرات الهزوء والسخرية، ويبتسم ابتسامات الاستخفاف والازدراء.</tei:p>
-            <tei:p change="#d2e73">يقول في نفسه لو علم هذا الجامع أنه يجمع للوارث، وهذا الباني أنه يبني للخراب، وهذا الوالد أنه يلد للموت، ما جمع الجامع ولا بنى الباني ولا ولد الوالد.</tei:p>
-            <tei:p change="#d2e73">ذلل الإنسان كل عقبة في هذا العالم، فاتخذ نفقاً في الأرض، وصعد بسلم إلى السماء، وعقد ما بين المشرق والمغرب بأسباب من حديد وخيوط من نحاس.</tei:p>
-            <tei:p change="#d2e73">انتقل بعقله إلى العالم العلوي فعاش في كواكبه، وعرف أغوارها وأنجادها وسهولها وبطاحها وعامرها وغامرها ورطبها ويابسها.</tei:p>
-            <tei:p change="#d2e73">وضع المقاييس لمعرفة أبعاد النجوم ومسافات الأشعة، والموازين لوزن كرة الأرض مجموعة ومتفرقة.</tei:p>
-            <tei:p change="#d2e73">غاص في البحار فعرف أعماقها وفحص تربتها وأزعج سكانها ونبش دفائنها وسلبها كنوزها وغلبها على لآلئها وجواهرها.</tei:p>
-            <tei:p change="#d2e73">نفذ من بين الأحجار والآكام إلى القرون الخالية فرأى أصحابها
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">وأمانينا نظرات الهزوء والسخرية، ويبتسم ابتسامات الاستخفاف والازدراء.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">يقول في نفسه لو علم هذا الجامع أنه يجمع للوارث، وهذا الباني أنه يبني للخراب، وهذا الوالد أنه يلد للموت، ما جمع الجامع ولا بنى الباني ولا ولد الوالد.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">ذلل الإنسان كل عقبة في هذا العالم، فاتخذ نفقاً في الأرض، وصعد بسلم إلى السماء، وعقد ما بين المشرق والمغرب بأسباب من حديد وخيوط من نحاس.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">انتقل بعقله إلى العالم العلوي فعاش في كواكبه، وعرف أغوارها وأنجادها وسهولها وبطاحها وعامرها وغامرها ورطبها ويابسها.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">وضع المقاييس لمعرفة أبعاد النجوم ومسافات الأشعة، والموازين لوزن كرة الأرض مجموعة ومتفرقة.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">غاص في البحار فعرف أعماقها وفحص تربتها وأزعج سكانها ونبش دفائنها وسلبها كنوزها وغلبها على لآلئها وجواهرها.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">نفذ من بين الأحجار والآكام إلى القرون الخالية فرأى أصحابها
 <pb n="n1-p34" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P47.xhtml"/>
 
 
 وعرف كيف يعيشون، وأين يسكنون، وماذا يأكلون ويشربون.</tei:p>
-            <tei:p change="#d2e73">تسرب من منافذ الحواس الظاهرة إلى الحواس الباطنة فعرف النفوس وطبائعها. والعقول ومذاهبها. والمدارك ومراكزها. حتى كاد يسمه حديث النفس ودبيب المنى.</tei:p>
-            <tei:p change="#d2e73">اخترق بذكائه كل حجاب، وفتح كل باب، ولكنه سقط أمام باب الغد عاجزاً مقهوراً لا يجرؤ على فتحه، بل لا يجسر على قرعه، لأنه باب الله. والله لا يطلع على غيبه أحداً.</tei:p>
-            <tei:p change="#d2e73">أيها الشبح الملثم بلثام الغيب. هل لك أن ترفع عن وجهك هذا اللثام قليلاً لنرى لمحة واحدة من لمحات وجهك، أو لا، فاقترب منا علنا نستطيع أن نستشف خيالك من وراء هذا اللثام المسدول فقد طارت قلوبنا شوقاً إليك، وذابت أكبادنا وجداً عليك.</tei:p>
-            <tei:p change="#d2e73">أيها الغد. إن لنا آمالاً كباراً وصغاراً، وأماني حساناً وغير حسان. فحدثنا عن آمالنا أين مكانها منك. وخبرنا عن أمانينا ماذا صنعت بها. أأذلتها وأهنتها، أم كنت لها من المكرمين.</tei:p>
-            <tei:p change="#d2e73">لا لا. صن سرك في صدرك، وابق لثامك على وجهك، ولا تحدثنا حديثاً واحداً عن آمالنا وأمانينا حتى لا تفجعنا فيها، فتفجعنا في أرواحنا ونفوسنا فإنما نحن أحياء بالآمال وإن كانت باطلة. وسعداء بالأماني وإن كانت كاذبة.</tei:p>
-            <lg change="#d2e82">
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>وليست حياة المرء إلا أمانيا</tei:seg> 
-                  <tei:seg>إذا هي ضاعت فالحياة على الأثر</tei:seg>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">تسرب من منافذ الحواس الظاهرة إلى الحواس الباطنة فعرف النفوس وطبائعها. والعقول ومذاهبها. والمدارك ومراكزها. حتى كاد يسمه حديث النفس ودبيب المنى.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">اخترق بذكائه كل حجاب، وفتح كل باب، ولكنه سقط أمام باب الغد عاجزاً مقهوراً لا يجرؤ على فتحه، بل لا يجسر على قرعه، لأنه باب الله. والله لا يطلع على غيبه أحداً.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">أيها الشبح الملثم بلثام الغيب. هل لك أن ترفع عن وجهك هذا اللثام قليلاً لنرى لمحة واحدة من لمحات وجهك، أو لا، فاقترب منا علنا نستطيع أن نستشف خيالك من وراء هذا اللثام المسدول فقد طارت قلوبنا شوقاً إليك، وذابت أكبادنا وجداً عليك.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">أيها الغد. إن لنا آمالاً كباراً وصغاراً، وأماني حساناً وغير حسان. فحدثنا عن آمالنا أين مكانها منك. وخبرنا عن أمانينا ماذا صنعت بها. أأذلتها وأهنتها، أم كنت لها من المكرمين.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">لا لا. صن سرك في صدرك، وابق لثامك على وجهك، ولا تحدثنا حديثاً واحداً عن آمالنا وأمانينا حتى لا تفجعنا فيها، فتفجعنا في أرواحنا ونفوسنا فإنما نحن أحياء بالآمال وإن كانت باطلة. وسعداء بالأماني وإن كانت كاذبة.</tei:p>
+            <lg change="#d2e82 #d2e223" xml:lang="ar">
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">وليست حياة المرء إلا أمانيا</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">إذا هي ضاعت فالحياة على الأثر</tei:seg>
                </tei:l>
             </lg>
-            <byline change="#d2e198"><persName change="#d3e209" ref="oape:pers:545 viaf:61716327">
+            <byline change="#d2e198 #d2e223" xml:lang="ar"><persName change="#d3e209 #d2e223" ref="oape:pers:545 viaf:61716327" xml:lang="ar">
                             <forename xml:lang="ar">مصطفى</forename>
                             <forename xml:lang="ar">لطفي</forename>
                             <surname xml:lang="ar">المنفلوطي</surname>
@@ -932,118 +932,118 @@
 
             </byline>
          </tei:div>
-         <tei:div change="#d2e64" type="item">
-            <head>ساعة الوداع</head>
-            <tei:p change="#d2e73">لسعادة <persName>إسماعيل باشا صبري</persName></tei:p>
-            <lg change="#d2e82">
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>أترى أنت خاذلي ساعة التو</tei:seg> 
-                  <tei:seg>ديع يا قلب في غد أم نصيري</tei:seg>
+         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+            <head change="#d2e223" xml:lang="ar">ساعة الوداع</head>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">لسعادة <persName change="#d2e223" xml:lang="ar">إسماعيل باشا صبري</persName></tei:p>
+            <lg change="#d2e82 #d2e223" xml:lang="ar">
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">أترى أنت خاذلي ساعة التو</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">ديع يا قلب في غد أم نصيري</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>ويك قل لي متى أراك بجنبي</tei:seg> 
-                  <tei:seg>راضياً عن مكانك المهجور</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">ويك قل لي متى أراك بجنبي</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">راضياً عن مكانك المهجور</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>ساعة البين قطعة أنت قدّت</tei:seg> 
-                  <tei:seg>للمحبين من عذاب السعير</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">ساعة البين قطعة أنت قدّت</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">للمحبين من عذاب السعير</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>لا تحيني روحي الفداء لماحي</tei:seg> 
-                  <tei:seg>ك غداً من صحيفة المقدور</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">لا تحيني روحي الفداء لماحي</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">ك غداً من صحيفة المقدور</tei:seg>
                </tei:l>
             </lg>
          </tei:div>
-         <tei:div change="#d2e64" type="section">
-            <head>أزهار وأشواك</head>
-            <tei:p change="#d2e73">حول الزهور</tei:p>
-            <tei:p change="#d2e73">رغبت إلي إدارة هذه المجلة في تحرير هذا الباب، وغاية هذه المجلة شريفة، فاضطررت إلى إجابة هذا الطلب. على أني أحجمت كثيراً قبلما أقدمت. لأني إذا كنت سأجني أزهاراً طيبة يروقني ويروق قرائي شذاها ومرآها، فلقد أجني أيضاً كثيراً من الأشواك، فيؤلمني وخزها ويؤلمهم، ولربما يدميني ويدميهم. ولكن القراء الكرام سيرضون عني كما أنا راضٍ الآن بهذه المهمة الشاقة.</tei:p>
-            <tei:p change="#d2e73">سأجني من أنوار الرياض شهداً وبلسماً وعنبراً فيه لذة للذوق، ومداواة للجرح، وطيب للناس. وما هذا وذاك وذلك إلا من جني الزهور، فقد جاء في تاج العروس في مادة عنبر أنه شمع عسل ببلاد الهند مرعى نحله من الزهور الطيبة يكتسب طيبه منها.
+         <tei:div change="#d2e64 #d2e223" type="section" xml:lang="ar">
+            <head change="#d2e223" xml:lang="ar">أزهار وأشواك</head>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">حول الزهور</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">رغبت إلي إدارة هذه المجلة في تحرير هذا الباب، وغاية هذه المجلة شريفة، فاضطررت إلى إجابة هذا الطلب. على أني أحجمت كثيراً قبلما أقدمت. لأني إذا كنت سأجني أزهاراً طيبة يروقني ويروق قرائي شذاها ومرآها، فلقد أجني أيضاً كثيراً من الأشواك، فيؤلمني وخزها ويؤلمهم، ولربما يدميني ويدميهم. ولكن القراء الكرام سيرضون عني كما أنا راضٍ الآن بهذه المهمة الشاقة.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">سأجني من أنوار الرياض شهداً وبلسماً وعنبراً فيه لذة للذوق، ومداواة للجرح، وطيب للناس. وما هذا وذاك وذلك إلا من جني الزهور، فقد جاء في تاج العروس في مادة عنبر أنه شمع عسل ببلاد الهند مرعى نحله من الزهور الطيبة يكتسب طيبه منها.
 <pb n="n1-p36" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P49.xhtml"/>
 
 
 فسأسكب عنبراً وبلسماً، إذا رأيت في الحوادث والأعمال زهوراً طيبة وإلا كان جنيي صاباً وعلقماً.</tei:p>
-            <tei:p change="#d2e73">وجاء في لسان العرب إن الزهور تلألؤ السراج الزاهر. فعسى أن يقطر ما أجنيه زيتاً صافياً يزيد تلألؤ هذه المجلة الزاهرة، لا سائلاً عكراً يبعث دخاناً تدمع له العيون، وتشمئز منه الأنوف. وعلى كل فجل رغائبي أن تتوثق عرى الصداقة شيئاً فشيئاً بيني وبين قرائي الأحياء. فنتبادل ما نشاء من الأفكار بين الأزهار والأشواك. فنبتسم معاً ونتألم معاً. متذكرين أن لا ورد بلا شوك. وأن أشواكاً كثيرة بلا ورد.</tei:p>
-            <tei:p change="#d2e73">إدمون روستان و<persName change="#d3e209" ref="oape:pers:245 viaf:32410755">
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">وجاء في لسان العرب إن الزهور تلألؤ السراج الزاهر. فعسى أن يقطر ما أجنيه زيتاً صافياً يزيد تلألؤ هذه المجلة الزاهرة، لا سائلاً عكراً يبعث دخاناً تدمع له العيون، وتشمئز منه الأنوف. وعلى كل فجل رغائبي أن تتوثق عرى الصداقة شيئاً فشيئاً بيني وبين قرائي الأحياء. فنتبادل ما نشاء من الأفكار بين الأزهار والأشواك. فنبتسم معاً ونتألم معاً. متذكرين أن لا ورد بلا شوك. وأن أشواكاً كثيرة بلا ورد.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">إدمون روستان و<persName change="#d3e209 #d2e223" ref="oape:pers:245 viaf:32410755" xml:lang="ar">
                             <forename xml:lang="ar">حافظ</forename>
                             <surname xml:lang="ar">إبراهيم</surname>
                         </persName></tei:p>
-            <tei:p change="#d2e73">إدمون روستان هو أحد كبار شعراء فرنسا في هذه الأيام. ذكره طبق الآفاق، ورواياته مثلت على أكثر مراسح العالم، فصفقوا لها في كل عواصم أوروبا، وهتفوا لمؤلفها في أمريكا وآسيا وأفريقيا. ألف فاشتهر، وصنف فاغتنى، فما أحسن حظه وما أسعد نجمه. .! جمع من رواية الايجلون أو فرخ النسر ومن رواية سيرانوده برجراك ما يقدر بالملايين من الفرنكات. وها قد أنجز الآن رواية شانتكلير وهي رواية غريبة الشكل والوضع، لأن كل أشخاصها من الحيوانات. . . غير الناطقة. لكن بلاغة مؤلفها أنطقتها بما تكاد تعجز عنه الحيوانات الناطقة. بيد أني لا انظر الآن إلى هذا الأمر. بل أريد أن يعرف القراء أن مدير مجلة <tei:title level="j" change="#d2e193">الالوستراسيون</tei:title> قد اشترى حق نشر هذه الرواية في مجلته بمبلغ. . . .
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">إدمون روستان هو أحد كبار شعراء فرنسا في هذه الأيام. ذكره طبق الآفاق، ورواياته مثلت على أكثر مراسح العالم، فصفقوا لها في كل عواصم أوروبا، وهتفوا لمؤلفها في أمريكا وآسيا وأفريقيا. ألف فاشتهر، وصنف فاغتنى، فما أحسن حظه وما أسعد نجمه. .! جمع من رواية الايجلون أو فرخ النسر ومن رواية سيرانوده برجراك ما يقدر بالملايين من الفرنكات. وها قد أنجز الآن رواية شانتكلير وهي رواية غريبة الشكل والوضع، لأن كل أشخاصها من الحيوانات. . . غير الناطقة. لكن بلاغة مؤلفها أنطقتها بما تكاد تعجز عنه الحيوانات الناطقة. بيد أني لا انظر الآن إلى هذا الأمر. بل أريد أن يعرف القراء أن مدير مجلة <tei:title level="j" change="#d2e193 #d2e223" xml:lang="ar">الالوستراسيون</tei:title> قد اشترى حق نشر هذه الرواية في مجلته بمبلغ. . . .
 <pb n="n1-p37" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P50.xhtml"/>
 
 
 زهيد لا</tei:p>
-            <tei:p change="#d2e73">يتجاوز المليون فرنك: أربعة فصول: لا يتجاوز الفصل  <tei:num type="auto-markup" change="#d2e181" value="500" xml:lang="ar">٥٠٠</tei:num>  شعر - بمليون فرنك. فيكون ثمن الشعر الواحد من أشعار روستان يباع بخمسمئة فرنك أي بعشرين جنيهاً وثمن الكلمة إذا قدرنا عشر كلمات في كل بيت جنيهان فضلاً عما ينال المؤلف من تمثيل روايته. وإذا عرفت أنها ستمثل كأسلافها ألوفاً من المرات تعرف أن روستان يقبض ثمن الحرف الواحد من أشعاره مالاً جزيلاً قد لا يناله كتابنا من الصفحات الطويلة فحرفه إذن يساوي مجلداً من كتبنا. . . الرائجة.</tei:p>
-            <tei:p change="#d2e73">يعد روستان عندهم بمثابة <persName change="#d3e209" ref="oape:pers:245 viaf:32410755">
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">يتجاوز المليون فرنك: أربعة فصول: لا يتجاوز الفصل  <tei:num type="auto-markup" change="#d2e181" value="500" xml:lang="ar">٥٠٠</tei:num>  شعر - بمليون فرنك. فيكون ثمن الشعر الواحد من أشعار روستان يباع بخمسمئة فرنك أي بعشرين جنيهاً وثمن الكلمة إذا قدرنا عشر كلمات في كل بيت جنيهان فضلاً عما ينال المؤلف من تمثيل روايته. وإذا عرفت أنها ستمثل كأسلافها ألوفاً من المرات تعرف أن روستان يقبض ثمن الحرف الواحد من أشعاره مالاً جزيلاً قد لا يناله كتابنا من الصفحات الطويلة فحرفه إذن يساوي مجلداً من كتبنا. . . الرائجة.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">يعد روستان عندهم بمثابة <persName change="#d3e209 #d2e223" ref="oape:pers:245 viaf:32410755" xml:lang="ar">
                             <forename xml:lang="ar">حافظ</forename>
                             <surname xml:lang="ar">إبراهيم</surname>
                         </persName> عندنا. فهل يا ترى تعود قصيدة من حافظ بل ديوانه برمته بما يعود بيت من روستان على صاحبه.؟ مسكين حافظ تنقده مجلاتنا وجرائدنا كلمات النابغة، وشاعر مصر ثمن قصائده وتنقد روستان مجلة واحدة مليون فرنك ثمن رواية واحدة. . . هناك يدفعون لروستان درراً وجواهر، وهنا نكتفي بان نجد الدرر والجواهر في نفثات شعرائنا. فشعراؤنا إذن أغنياء، فنأخذ منهم، وشعراؤهم فقراء، فيعطونهم. فيا ليتني كنت شاعراً إفرنجياً تجود علي الجرائد والمجلات بالدرر لا شاعراً عربياً تجد الجرائد والمجلات تلك الدرر في أشعاري. .!</tei:p>
-            <tei:p change="#d2e73">* * *</tei:p>
-            <tei:p change="#d2e73">النادي العائلي</tei:p>
-            <tei:p change="#d2e73">اسمه لطيف ذلك النادي الذي أسسه في بيروت فريق من الأفاضل والأدباء. وأول عمل عرفناه عنه ألطف. . . جعل جائزة قدرها خمسمئة فرنك للكاتب الذي يؤلف خير رواية تمثيلية في موضوع وطني.
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">* * *</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">النادي العائلي</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">اسمه لطيف ذلك النادي الذي أسسه في بيروت فريق من الأفاضل والأدباء. وأول عمل عرفناه عنه ألطف. . . جعل جائزة قدرها خمسمئة فرنك للكاتب الذي يؤلف خير رواية تمثيلية في موضوع وطني.
 <pb n="n1-p38" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P51.xhtml"/>
 
 
 النادي يشترط أن تكون الرواية مؤلفة لا معربة. ورواياتنا المؤلفة تعد على أصابع اليد الواحدة لا اليدين والجائزة التي وضعها النادي زهيدة لا تعادل المليون الذي يقبضه روستان عن روايته. ولكنه خطا خطوة حسنة يستحق عليها كلمة برافو وها نحن نقولها لرئيسه الفاضل وسكرتيره الأديب وأعضائه الكرام. ونهنئ سلفاً الكاتب الذي سينال نصب السبق كما كان يقول العرب. ويا ليتني أعرف كيف تنسق المشاهد والفصول لأنزل إلى هذا الميدان. ومثل هذا الثناء جدير ببلدية الإسكندرية، فقد منحت جوق سليم أفندي عطا الله مئة جنيه مساعدة له: عطاء. . . البلدية قليل بجانب عطاء. . . الله. ولكنها باكورة تنشيط</tei:p>
-            <tei:p change="#d2e73">البلديات والحكومات الشرقية للأجواق العربية وكل باكورة لذيذة. . .</tei:p>
-            <tei:p change="#d2e73">جنون الطبيعة</tei:p>
-            <tei:p change="#d2e73">الطبيعة تجن كالأفراد، وترتكب مثلهم في حالة الجنون جرائم وفظائع. وجنونها هائل في هذه المدة، ثارت العناصر الواحد تلو الثاني على بني البشر: زلزلت الأرض فانجابت بمن فيها، وتفجرت نيرانها فأودت بمن عليها، وزمجرت العواصف فأهلكت وأغرقت، وأرغت المياه وأزبدت فجرفت واقتلعت، فكأن داء الهيستيريا قد هز المادة فتمردت على العقل المتسلط عليها، المستبد بها. فيا لله من جنون الطبيعة. . .! ويا لله مت تمردها. . .</tei:p>
-            <tei:p change="#d2e73">حاصد
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">البلديات والحكومات الشرقية للأجواق العربية وكل باكورة لذيذة. . .</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">جنون الطبيعة</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">الطبيعة تجن كالأفراد، وترتكب مثلهم في حالة الجنون جرائم وفظائع. وجنونها هائل في هذه المدة، ثارت العناصر الواحد تلو الثاني على بني البشر: زلزلت الأرض فانجابت بمن فيها، وتفجرت نيرانها فأودت بمن عليها، وزمجرت العواصف فأهلكت وأغرقت، وأرغت المياه وأزبدت فجرفت واقتلعت، فكأن داء الهيستيريا قد هز المادة فتمردت على العقل المتسلط عليها، المستبد بها. فيا لله من جنون الطبيعة. . .! ويا لله مت تمردها. . .</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">حاصد
 <pb n="n1-p39" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P52.xhtml"/>
 
 
             </tei:p>
          </tei:div>
-         <tei:div change="#d2e64" type="section">
-            <head>حديقة الأخبار</head>
-            <tei:p change="#d2e73">- وافقت الدول على تمديد أجل المحاكم المختلطة في مصر إلى خمس سنوات ابتداءً من غرة فبراير المنصرم.</tei:p>
-            <tei:p change="#d2e73">- في التاسع من الشهر الغابر افتتحت الجمعية العمومية المعقودة للنظر في مسألة إطالة امتياز قناة السويس.</tei:p>
-            <tei:p change="#d2e73">- قرر سعادة زغلول باشا ناظر المعارف تعليم اختزال الخط. وكانت الحلقة الأخيرة في سلسلة مآثره في نظارة المعارف المصرية قبل أن يغادرها.</tei:p>
-            <tei:p change="#d2e73">- ظهر في مصر حزب سياسي جديد الحزب الدستوري وزعيمه عطوفة إدريس بك راغب.</tei:p>
-            <tei:p change="#d2e73">- اجتمع فريق من كريمات السيدات في سراي صاحبة الدولة الأميرة عين الحياة هانم أفندي وألفن جمعية باسم محمد علي جد العائلة الخديوية العلوية لحماية الأطفال والأمهات فأكرم بالإحسان حلية للحسان.</tei:p>
-            <tei:p change="#d2e73">- جرى في عين شمس أسبوع الطيران. فرأينا النسور البشرية تحلق في الجو. فتذكرنا قول شوقي عن البشر:</tei:p>
-            <lg change="#d2e82">
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>حين ضاق البر والبحر بهم</tei:seg> 
-                  <tei:seg>أسرجوا الجو وساموه اللجاما</tei:seg>
+         <tei:div change="#d2e64 #d2e223" type="section" xml:lang="ar">
+            <head change="#d2e223" xml:lang="ar">حديقة الأخبار</head>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">- وافقت الدول على تمديد أجل المحاكم المختلطة في مصر إلى خمس سنوات ابتداءً من غرة فبراير المنصرم.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">- في التاسع من الشهر الغابر افتتحت الجمعية العمومية المعقودة للنظر في مسألة إطالة امتياز قناة السويس.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">- قرر سعادة زغلول باشا ناظر المعارف تعليم اختزال الخط. وكانت الحلقة الأخيرة في سلسلة مآثره في نظارة المعارف المصرية قبل أن يغادرها.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">- ظهر في مصر حزب سياسي جديد الحزب الدستوري وزعيمه عطوفة إدريس بك راغب.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">- اجتمع فريق من كريمات السيدات في سراي صاحبة الدولة الأميرة عين الحياة هانم أفندي وألفن جمعية باسم محمد علي جد العائلة الخديوية العلوية لحماية الأطفال والأمهات فأكرم بالإحسان حلية للحسان.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">- جرى في عين شمس أسبوع الطيران. فرأينا النسور البشرية تحلق في الجو. فتذكرنا قول شوقي عن البشر:</tei:p>
+            <lg change="#d2e82 #d2e223" xml:lang="ar">
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">حين ضاق البر والبحر بهم</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">أسرجوا الجو وساموه اللجاما</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">وقول الرصافي:</tei:p>
-            <lg change="#d2e82">
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>طائرُ في الفضاء طولاً وعرضاً</tei:seg> 
-                  <tei:seg>بجناح من القوى غير باد</tei:seg>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">وقول الرصافي:</tei:p>
+            <lg change="#d2e82 #d2e223" xml:lang="ar">
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">طائرُ في الفضاء طولاً وعرضاً</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">بجناح من القوى غير باد</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">- في  <tei:num type="auto-markup" change="#d2e181" value="20" xml:lang="ar">٢٠</tei:num>  الماضي أطلق إبراهيم ناصف الورداني على رئيس النظارة
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">- في  <tei:num type="auto-markup" change="#d2e181" value="20" xml:lang="ar">٢٠</tei:num>  الماضي أطلق إبراهيم ناصف الورداني على رئيس النظارة
 <pb n="n1-p40" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P53.xhtml"/>
 
 
 بطرس باشا غالي خمس رصاصات، وثاني يوم توفي الرئيس رحمه الله. وتألف الوزارة الجديدة كما يأتي: محمد باشا سعيد للرئاسة والداخلية. سعد باشا زغلول للحقانية. رشدي باشا للخارجية حشمت باشا للمالية. يوسف سابا باشا للمالية. وسري باشا للأشغال والحربية والبحرية - سعيد أصغر النظار سناً صار رئيسهم. فحق قول الشاعر بنتاؤور الذي هنأه يوم توليه نظارة الداخلية بقوله:</tei:p>
-            <lg change="#d2e82">
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>أهلاً سعيداً وسهلاً</tei:seg> 
-                  <tei:seg>أنت الكبير الصغير</tei:seg>
+            <lg change="#d2e82 #d2e223" xml:lang="ar">
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">أهلاً سعيداً وسهلاً</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">أنت الكبير الصغير</tei:seg>
                </tei:l>
             
-               <tei:l type="bayt" change="#d2e82">
-                  <tei:seg>دعنا نقل عن قريب</tei:seg> 
-                  <tei:seg>أنت الكبير الكبير</tei:seg>
+               <tei:l type="bayt" change="#d2e82 #d2e223" xml:lang="ar">
+                  <tei:seg change="#d2e223" xml:lang="ar">دعنا نقل عن قريب</tei:seg> 
+                  <tei:seg change="#d2e223" xml:lang="ar">أنت الكبير الكبير</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73">- استقال دولة البرنس حسين باشا كامل من رئاسة مجلس الشورى والجمعية العمومية.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">- استقال دولة البرنس حسين باشا كامل من رئاسة مجلس الشورى والجمعية العمومية.</tei:p>
          </tei:div>
-         <tei:div change="#d2e64" type="item">
-            <head>أيها القارئ العزيز</head>
-            <tei:p change="#d2e73">أرسلنا إليك هذا</tei:p>
+         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+            <head change="#d2e223" xml:lang="ar">أيها القارئ العزيز</head>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">أرسلنا إليك هذا</tei:p>
          </tei:div>
-         <tei:div change="#d2e64" type="item">
-            <head> العدد </head>
-            <tei:p change="#d2e73">الأول من مجلة <tei:title level="j" change="#d2e193">الزهور</tei:title> لاعتقادنا بغيرتك على النهضة الأدبية ورغبتك في الاطلاع على سيرها في القطار العربية. فإذا وجدت في خطة هذه المجلة ما يحقق رغائبك فتفضل بتوقيع الطلب الواصل طيه وإرساله مع قيمة الاشتراك الموضحة فيه أو التعهد بدفعها إلى وكيل المجلة في أول فرصة. والسلام.</tei:p>
-            <tei:p change="#d2e73">إدارة مجلة <tei:title level="j" change="#d2e193">الزهور</tei:title> بشارع الفجالة نمرة  <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num>  بمصر
+         <tei:div change="#d2e64 #d2e223" type="item" xml:lang="ar">
+            <head change="#d2e223" xml:lang="ar"> العدد </head>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">الأول من مجلة <tei:title level="j" change="#d2e193 #d2e223" xml:lang="ar">الزهور</tei:title> لاعتقادنا بغيرتك على النهضة الأدبية ورغبتك في الاطلاع على سيرها في القطار العربية. فإذا وجدت في خطة هذه المجلة ما يحقق رغائبك فتفضل بتوقيع الطلب الواصل طيه وإرساله مع قيمة الاشتراك الموضحة فيه أو التعهد بدفعها إلى وكيل المجلة في أول فرصة. والسلام.</tei:p>
+            <tei:p change="#d2e73 #d2e223" xml:lang="ar">إدارة مجلة <tei:title level="j" change="#d2e193 #d2e223" xml:lang="ar">الزهور</tei:title> بشارع الفجالة نمرة  <tei:num type="auto-markup" change="#d2e181" value="1" xml:lang="ar">١</tei:num>  بمصر
 <pb n="n1-p41" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P54.xhtml"/>
 
 
