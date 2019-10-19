@@ -59,7 +59,7 @@
          <change when="2019-10-17" who="#pers_TG" change="d2e82 #d2e228" xml:lang="en" xml:id="change_4.d2e187">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes" change="#d2e228" xml:id="foreign_1.d2e189">qaṣīda</foreign>s from <gi change="#d2e223 #d2e228" xml:lang="en" xml:id="gi_1.d2e192">p</gi>s divided by a <gi change="#d2e223 #d2e228" xml:lang="en" xml:id="gi_2.d2e195">gap</gi> to <gi change="#d2e223 #d2e228" xml:lang="en" xml:id="gi_3.d2e198">l</gi> of <att change="#d2e223 #d2e228" xml:lang="en" xml:id="att_1.d2e201">type</att>="bayt" comprising two <gi change="#d2e223 #d2e228" xml:lang="en" xml:id="gi_4.d2e205">seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en" change="#d2e228" xml:id="gi_5.d2e212">tei:lb</tei:gi> into <tei:gi xml:lang="en" change="#d2e228" xml:id="gi_5.d2e215">xml:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <tei:gi xml:lang="en" change="#d2e228" xml:id="gi_5.d2e221">tei:head</tei:gi> into <tei:gi xml:lang="en" change="#d2e228" xml:id="gi_5.d2e224">xml:div</tei:gi>s.</change>
-         <change when="2019-10-17" who="#pers_TG" xml:id="" xml:lang="en">Created this TEI P5 file by automatic conversion from ePub.</change>
+         <change when="2019-10-17" who="#pers_TG" xml:lang="en">Created this TEI P5 file by automatic conversion from ePub.</change>
       </revisionDesc>
    </teiHeader>
    <tei:text xml:lang="ar" change="#d2e228" xml:id="text_1.d2e233">
@@ -69,160 +69,74 @@
             <head change="#d2e223 #d2e228" xml:lang="ar" xml:id="head_1.d2e241">العدد  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="5" xml:lang="ar" xml:id="num_1.d2e243">٥</tei:num> </head>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e247"> - بتاريخ: <date when="1910-07-01" change="#d2e223 #d2e228" xml:lang="ar" xml:id="date_1.d2e249">1910-07-01</date> </tei:p>
          </tei:div>
-         <tei:div change="#d2e64 #d2e223 #d2e228" type="item" subtype="article" xml:lang="ar" xml:id="div_1.d2e254">
-            <head change="#d2e223 #d2e228" xml:lang="ar" xml:id="head_2.d2e256">النهضة الأدبية في العراق</head>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e259">وعدنا عند إنشاء هذه المجلة أن نجعلها رابطة تعارف بين أدباء الأقطار العربية وبينا فائدة ذلك في حينه. فإن الأدباء في مصر والشام يعرفون شيئاً عن بعضهم بعض ولكنهم يكادون يجهلون كل شيء عن زملائهم في العراق وسائر بلاد العرب. ونحن نزف إلى القراء اليوم هذه المقالة الشائقة التي أتحفنا بها أديب من أدباء بغداد الذين يشار إليهم بالبنان وفيها الفوائد الجمة عن النهضة الأدبية في هاتيك الأنحاء.</tei:p>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e262">وسيوافينا مراسلونا العديدون في كل بلاد عربية بكل ما تهم معرفته في هذا الشأن:</tei:p>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e265">كل من يطالع تاريخ اللغة العربية يتحقق أمراً وهو أن هذه اللغة لم تبلغ أوجها إلا في عصر العباسيين السعيد، ثم أخذت بعد ذلك بالانحطاط والهوي شيئاً فشيئاً عند تقلص ظل هذا الدولة الجليلة حتى أفضت إلى درك ليس وراءه درك. فأخذت حينئذ بالخمود أو الجمود. ثم انتقلت إلى التقهقر.</tei:p>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e268">فالعراق كان من أجل البلاد العربية التي نمت فيها اللغة الفصيحة وسارت فيها سيراً حثيثاً. وفي دياره برز أولئك العلماء النوابغ أي الكوفيون والبصريون. وفي هذين المصرين قام أكتب الكتاب وأشعر الشعراء وأبلغ
-<pb n="n1-p186" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P199.xhtml" change="#d2e228" xml:id="pb_2.d2e270"/>
-
-
-البلغاء وأخطب الخطباء. أما اليوم فقد تبدلت الأحوال. ولم يبق من هذه البلاد إلا الأسماء دون الرجال.</tei:p>
-            <lg change="#d2e82 #d2e223 #d2e228" xml:lang="ar" xml:id="lg_1.d2e274">
-               <tei:l type="bayt" change="#d2e82 #d2e223 #d2e228" xml:lang="ar" xml:id="l_1.d2e276">
-                  <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e278">أما الخيام فإنها كخيامهم</tei:seg> 
-                  <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e281">وأرى رجال الحي غير رجاله</tei:seg>
-               </tei:l>
-            </lg>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e286">على أن الضربة التي قضت على العراق لم يكن سببها مقصوراً على انحطاط دولة العباسيين فقط كما يتوهمه أغلب الناس. بل زادها هولاً قتل ذوي العلم وذبحهم ذبحاً عن بكرة أبيهم وذلك بعد انقراض دولة بني العباس بقرن ونصف قرن. وهو ما استأصل كل الاستئصال عروق العلم ومنابته فانقطع حينئذ متصل حبل التعليم والتدريس والأخذ والتلقي والتلقين والتأليف والتصنيف، ثم إفناء الكتب والأسفار بالإحراق والإغراق في أم العراق، على وجه شنيع وهذا كله في النائبة الأخيرة التي نزلت بها على يد تيمورلنك في  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="10" xml:lang="ar" xml:id="num_1.d2e288">١٠</tei:num>  تموز سنة  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="1401" xml:lang="ar" xml:id="num_1.d2e291">١٤٠١</tei:num>  للمسيح وتبع بغداد في الرزية، وقاسمها البلية البصرة والحلة وسائر مدن العراق الكبرى المشهورة يومئذ.</tei:p>
-            <lg change="#d2e82 #d2e223 #d2e228" xml:lang="ar" xml:id="lg_2.d2e295">
-               <tei:l type="bayt" change="#d2e82 #d2e223 #d2e228" xml:lang="ar" xml:id="l_1.d2e297">
-                  <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e299">إن الرزية لا رزية بعدها</tei:seg> 
-                  <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e302">فقدان كل أخٍ كضوء الكوكب</tei:seg>
-               </tei:l>
-            </lg>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e307">فهذه الرزية العظمى التي لم يقع مثلها في سائر البلاد العربية كالديار الشامية والمصرية</tei:p>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e310">والغربية وغيرها هي التي أسكتت نامة العلماء والشعراء والكتاب ردحاً من الزمن وإذا لم يسمع فيه صوت عربي فصيح في العراق كله.</tei:p>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e313">وساد الجهل في العراق في كل المدة التي ملك فيها بنو تيمور إلى أن انتقلت البلاد إلى أيدي آل عثمان فاستقرت بيدهم سنة  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="1048" xml:lang="ar" xml:id="num_1.d2e315">١٠٤٨</tei:num> م، فأخذ الناس حينئذ يتنفسون الصعداء، مما دهمهم من البرحاء بدون أن يخافوا رقيباً أو جاسوساً.
-<pb n="n1-p187" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P200.xhtml" change="#d2e228" xml:id="pb_3.d2e318"/>
-
-
-وفي تلك السنة رجع الآلوسيون إلى وطنهم بغداد قادمين من جزيرة آلوس مسقط رأس عميدهم الأول وموئلهم في المخاوف والمهالك. وكانوا قد انهزموا إليها في مذبحة تيمورلنك. فلما رجعوا عاد ضياء العلم والأدب إلى منبعثه ومصدره وحينئذ أخذ العلماء يتواردون من كل واد وناد متأثرين الألوسيين العلماء العظام. فمنهم من جاء من ناحية الموصل ومنهم من هبط من ديار الشام ومنهم من أقبل من أقطار مصر وغيرهم من غيرها.</tei:p>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e322">على أن علم العلماء لم يتعد الجوامع والمساجد والكتاتيب. أما تدوينه في الكتب فإن العادة كانت قد ضعفت في أصحابها ولهذا لا ترى شعراً أو أثراً مذكوراً يرتقي إلى ذلك العهد.</tei:p>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e325">وإنما بدأ عهد التأليف ونظم الشعر وقرضه في أيام داود باشا الكبير والوزير الخطير. فإنه كان عالماً جليلاً فضلاً عما كان قد امتاز به من الحنكة والدربة في السياسة إذ كان فيها داهية من الدواهي. فهو إذاً الذي أنهض همة الكتبة والعلماء والشعراء، وأيقظ فيهم ملكة الأدب التي كانت قد خملت فيهم، وهو الذي حث أهل العلم والفضل والأدب على جمع الكتب والمكاتب فعمر لها الخزائن ونظم المدارس وأنشأ المساجد والجوامع إلى غير ذلك من الأعمال العالية التي تذكرنا مآثر هارون الرشيد أو جلائل المأمون.</tei:p>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e328">ولد داود باشا الكبير نحو سنة  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="1188" xml:lang="ar" xml:id="num_1.d2e330">١١٨٨</tei:num>  هجري ( <tei:num type="auto-markup" change="#d2e181 #d2e228" value="1774" xml:lang="ar" xml:id="num_1.d2e333">١٧٧٤</tei:num> م) في بلاد الكرج وجاء بغداد وكان مملوكاً نصرانياً عمره  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="11" xml:lang="ar" xml:id="num_1.d2e336">١١</tei:num>  سنة جاء به أحد النخاسين إلى بغداد فاشتراه منه مصطفى بك الربيعي. ثم باعه لسليمان باشا والي بغداد فرباه أحسن تربية وعلمه القرآن ودرسه العلوم والفنون المشهورة في
-<pb n="n1-p188" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P201.xhtml" change="#d2e228" xml:id="pb_4.d2e339"/>
-
-
-ذلك العصر. ولما بلغ عمره  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="27" xml:lang="ar" xml:id="num_1.d2e341">٢٧</tei:num>  سنة اتخذه وليه أمين خزنته (خزنداراً) ثم مازال يتقدم والنجاح حليفه حتى صار والياً على بغداد في  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="5" xml:lang="ar" xml:id="num_1.d2e345">٥</tei:num>  ربيع الثاني سنة  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="1232" xml:lang="ar" xml:id="num_1.d2e348">١٢٣٢</tei:num>  هجري ( <tei:num type="auto-markup" change="#d2e181 #d2e228" value="22" xml:lang="ar" xml:id="num_1.d2e351">٢٢</tei:num>  شباط سنة  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="1817" xml:lang="ar" xml:id="num_1.d2e354">١٨١٧</tei:num> م) وفي سنة  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="1247" xml:lang="ar" xml:id="num_1.d2e357">١٢٤٧</tei:num>  هجري ( <tei:num type="auto-markup" change="#d2e181 #d2e228" value="1831" xml:lang="ar" xml:id="num_1.d2e360">١٨٣١</tei:num> م) أكره على</tei:p>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e364">السفر إلى الأستانة فأقام فيها إلى سنة  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="1260" xml:lang="ar" xml:id="num_1.d2e366">١٢٦٠</tei:num>  هجري ( <tei:num type="auto-markup" change="#d2e181 #d2e228" value="1844" xml:lang="ar" xml:id="num_1.d2e369">١٨٤٤</tei:num> م) فأرسله في تلك السنة السلطان عبد الحميد ليكون شيخ الحرم فأقام في المدينة يدرس ويعلم إلى أن توفي سنة  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="1267" xml:lang="ar" xml:id="num_1.d2e372">١٢٦٧</tei:num>  هجري ( <tei:num type="auto-markup" change="#d2e181 #d2e228" value="1851" xml:lang="ar" xml:id="num_1.d2e375">١٨٥١</tei:num> م) إلا أنه لم يؤلف كتاباً سمعنا به.</tei:p>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e379">ففي عهد ولاية هذا الوزير الكبير اشتهر شعراؤنا الأولون بعد تلك الفترة الأدبية المديدة. واغلب هؤلاء الشعراء غنوا مكارم هذا النابغة نابغة السياسة والعلم وقد نسجوا كلهم على المنوال القديم.</tei:p>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e382">فمنهم الملا جواد البصير. ومن قصيدة له في الوزير المذكور:</tei:p>
-            <lg change="#d2e82 #d2e223 #d2e228" xml:lang="ar" xml:id="lg_3.d2e386">
-               <tei:l type="bayt" change="#d2e82 #d2e223 #d2e228" xml:lang="ar" xml:id="l_1.d2e388">
-                  <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e390">بشرى لمن أشرقت في الكون طلعته</tei:seg> 
-                  <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e393">وأزهرت في رياض الأرض غرته</tei:seg>
-               </tei:l>
-            
-               <tei:l type="bayt" change="#d2e82 #d2e223 #d2e228" xml:lang="ar" xml:id="l_1.d2e397">
-                  <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e399">وبلبل البشر والإقبال حين أتى</tei:seg> 
-                  <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e402">غنى وأغنت عن الأقيام نغمته</tei:seg>
-               </tei:l>
-            </lg>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e407">وفي القصيدة  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="19" xml:lang="ar" xml:id="num_1.d2e409">١٩</tei:num>  بيتاً. . . ومنهم الشيخ محمد ابن الشيخ جعفر وقال:</tei:p>
-            <lg change="#d2e82 #d2e223 #d2e228" xml:lang="ar" xml:id="lg_4.d2e413">
-               <tei:l type="bayt" change="#d2e82 #d2e223 #d2e228" xml:lang="ar" xml:id="l_1.d2e415">
-                  <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e417">أنار الدهر وابتهج الوجود</tei:seg> 
-                  <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e420">وأقبلت المسرة والسعود</tei:seg>
-               </tei:l>
-            
-               <tei:l type="bayt" change="#d2e82 #d2e223 #d2e228" xml:lang="ar" xml:id="l_1.d2e424">
-                  <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e426">وجاء الحق متضحاً فزاغت</tei:seg> 
-                  <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e429">أباطلهم فهم فيها أبيدوا</tei:seg>
-               </tei:l>
-            </lg>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e434">وممن اشتهر بحسن نظمه وتنسيق كلمة صالح التميمي وله أشعار كثيرة وهو الذي أنكر على داود باشا أن يقرظ قصيدة المعلم بطرس كرامة قائلاً أنه لا يجوز له أن يقرظ شعراً تنصر ثم أنشد:</tei:p>
-            <lg change="#d2e82 #d2e223 #d2e228" xml:lang="ar" xml:id="lg_5.d2e437">
-               <tei:l type="bayt" change="#d2e82 #d2e223 #d2e228" xml:lang="ar" xml:id="l_1.d2e439">
-                  <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e441">عهدناك تعفو عن مسيء تعذرا</tei:seg> 
-                  <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e444">ألا فاعفنا عن رد شعر تنصرا</tei:seg>
-               </tei:l>
-            </lg>
-            <pb n="n1-p189" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P202.xhtml" change="#d2e228" xml:id="pb_5.d2e449"/>
-            <lg change="#d2e82 #d2e223 #d2e228" xml:lang="ar" xml:id="lg_6.d2e452">
-               <tei:l type="bayt" change="#d2e82 #d2e223 #d2e228" xml:lang="ar" xml:id="l_1.d2e454">
-                  <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e456">وهل من مسيحي فصيح نعده</tei:seg> 
-                  <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e459">إذا أينع الشعر الفصيح وأثمرا</tei:seg>
-               </tei:l>
-            
-               <tei:l type="bayt" change="#d2e82 #d2e223 #d2e228" xml:lang="ar" xml:id="l_1.d2e463">
-                  <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e465">عداه شبيب والأخص وفاته</tei:seg> 
-                  <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e468">من الرند والقيصوم ما كان أزهرا</tei:seg>
-               </tei:l>
-            </lg>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e473">فأجابه بطرس كرامة بقصيدة رنانة كان لها دوي بعيد في صدور الأدباء والشعر استهلالها:</tei:p>
-            <lg change="#d2e82 #d2e223 #d2e228" xml:lang="ar" xml:id="lg_7.d2e476">
-               <tei:l type="bayt" change="#d2e82 #d2e223 #d2e228" xml:lang="ar" xml:id="l_1.d2e478">
-                  <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e480">لكل امرئ شان تبارك من برى</tei:seg> 
-                  <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e483">وخص بما قد شاء كلاً من الورى</tei:seg>
-               </tei:l>
-            
-               <tei:l type="bayt" change="#d2e82 #d2e223 #d2e228" xml:lang="ar" xml:id="l_1.d2e487">
-                  <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e489">ولو شاء كان الناس امة واحد</tei:seg> 
-                  <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e492">ولم تلق يوماً بينهم قط منكرا</tei:seg>
-               </tei:l>
-            
-               <tei:l type="bayt" change="#d2e82 #d2e223 #d2e228" xml:lang="ar" xml:id="l_1.d2e496">
-                  <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e498">فلا يفتخر مرء بعجب يناله</tei:seg> 
-                  <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e501">تلاداً إذا عن طارف المجد قصرا</tei:seg>
-               </tei:l>
-            </lg>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e506">ومن شعراء عراقنا الملا عبد الحميد رحبي زاده. والحاج محمد والسيد حسين ابن السيد سليمان الحلي وعبد الله أفندي البصري والملا حسين بن إبراهيم جاوش، وعلي بن أمين الشخلي، ومحمد يس بيك بن أمين بك الموصلي، والشاعر عبد الحميد، ودرويش محمد</tei:p>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e509">مصاحب، والحاج صالح آغا عبد الجليل زاده، والملا خليل أفندي بكتاش زاده، والسيد الملا خميس الموصلي، وحسن بن علي العاملي الفتوني، والملا عبود البصري، ومحمد بن عبد الله الموصلي، ومسعود بن الوزري، والشيخ عثمان بن سند البصري، والسيد عمر بن رمضان الهيتي، والشاعر الشهير عبد الباقي العمري الموصلي، والظاهر أن الوزير داود باشا ألف كتاباً هو شرح كتاب لأن المغربي أحد شعراء بغداد قال فيه يومئذ:</tei:p>
-            <lg change="#d2e82 #d2e223 #d2e228" xml:lang="ar" xml:id="lg_8.d2e512">
-               <tei:l type="bayt" change="#d2e82 #d2e223 #d2e228" xml:lang="ar" xml:id="l_1.d2e514">
-                  <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e516">شرح تضوع عرفه بنضارة</tei:seg> 
-                  <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e519">يسبي العقول بنسجه الفتان</tei:seg>
-               </tei:l>
-            
-               <tei:l type="bayt" change="#d2e82 #d2e223 #d2e228" xml:lang="ar" xml:id="l_1.d2e523">
-                  <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e525">وحوى مؤلفه العلوم مؤسساً</tei:seg> 
-                  <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e528">أوضاعها بمصادر الإتقان</tei:seg>
-               </tei:l>
-            
-               <tei:l type="bayt" change="#d2e82 #d2e223 #d2e228" xml:lang="ar" xml:id="l_1.d2e532">
-                  <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e534">فكأنه في وقته: لكماله</tei:seg> 
-                  <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e537">بدر يشاركه بكل سنان</tei:seg>
-               </tei:l>
-            </lg>
-            <pb n="n1-p190" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P203.xhtml" change="#d2e228" xml:id="pb_6.d2e543"/>
-            <lg change="#d2e82 #d2e223 #d2e228" xml:lang="ar" xml:id="lg_9.d2e545">
-               <tei:l type="bayt" change="#d2e82 #d2e223 #d2e228" xml:lang="ar" xml:id="l_1.d2e547">
-                  <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e549">صدر الصدور وقدوة العلماء من</tei:seg> 
-                  <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e552">هو مقصد للوارد اللهفان</tei:seg>
-               </tei:l>
-            </lg>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e557">ومن كواكب تلك الثريا: سالم بك ابن عبدي باشا والي الموصل، والحاج محمد سعيد الجوادي، ومحمد زين الدين الحسني، والشيخ حسن البرزنجي، وباقي أفندي العمري، والسيد راضي القزويني، والسيد عبد الغفار الأخرس، وتعداد هؤلاء الشعراء يطول، إلا أن يرصد لكل شاعر ترجمة أو لكل بيت اشتهر أبناؤه بالعلم والأدب والشعر مقالة فحينئذ يكون قد تم بعض الغرض.</tei:p>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e560">وبالجملة يقال إن شعراء العراق أكثر عدداً من شعراء ديار الشام ومصر في هذه الحقبة الأخيرة إلا أنهم لم يشتهروا اشتهار هؤلاء لأسباب منها:  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="1" xml:lang="ar" xml:id="num_1.d2e562">١</tei:num> ) قلة وسائط الطبع في العراق لعدم اختلاط أهله بالإفرنج؛  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="2" xml:lang="ar" xml:id="num_1.d2e565">٢</tei:num> ) لبعد موقعه عن ديار أهل الجد والسعي؛  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="3" xml:lang="ar" xml:id="num_1.d2e568">٣</tei:num> ) لأن روح الاستبداد في هذه العقود الأخيرة كان قد أطفأ جذوة كل همة وحاول إتلاف كل محترف بالأدب أو معان له؛  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="4" xml:lang="ar" xml:id="num_1.d2e571">٤</tei:num> ) إن عدم نشر دواوين أولئك الشعراء أو قصائدهم أقعد همة كثيرين عن المجاراة والمسابقة فأضر ذلك بالأدب والأدباء والشعر والشعراء، وهناك غير هذه الأسباب:</tei:p>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e575">ومما يلاحظه كل من يريد أن يتتبع آثار النهضة العلمية والأدبية في العراق هو:</tei:p>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e578">
-               <hi style="color:red;" change="#d2e223 #d2e228" xml:lang="ar" xml:id="hi_1.d2e580"> <tei:num type="auto-markup" change="#d2e181 #d2e228" value="1" xml:lang="ar" xml:id="num_1.d2e582">١</tei:num>  - </hi>أن الشعراء على كثرتهم وتكاثف جمعهم ليس فيهم من يستحق أن يقال عنه أنه نبغ في الشعر للسبب الذي ذكرناه وهوانهم نسجوا على منوال من تقدمهم من شعراء انحطاط الشعر في متوسط عصور الهجرة
-<pb n="n1-p191" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P204.xhtml" change="#d2e228" xml:id="pb_7.d2e586"/>
-
-
-بأن انتحلوا أفكارهم وتصاويرهم وأقوالهم، بل ربما</tei:p>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e590">قصائدهم بأسرها. ولهذا لم يأتونا بشيء طريف أو ظريف. فلم يمتازوا عنهم بأمر يذكر. اللهم إلا اثنان وهما جميل صدقي أفندي الزهاوي ومعروف أفندي الرصافي. وكلاهما حي وهما من نوابغ الشعراء العصريين في عهدنا هذا بل في مقدمتهم. فإن شعرهما من أحسن ما جاء في وقتنا من أي جهة اعتبرته ومن أي موقف وقفت فيه لتنظر إلى محاسنه.</tei:p>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e593">
-               <hi style="color:red;" change="#d2e223 #d2e228" xml:lang="ar" xml:id="hi_2.d2e595"> <tei:num type="auto-markup" change="#d2e181 #d2e228" value="2" xml:lang="ar" xml:id="num_1.d2e597">٢</tei:num>  - </hi>إن العلماء والأدباء والكتبة الذين يستحقون أن يطلق عليهم مثل هذه الألفاظ يعدون على الأصابع أو قل هم منحصرون في آل الآلوسي والزهاوي والحيدري والسويدي والرحبي. وقلما سمعنا بمؤلفات غير أبناء هذه البيوتات.</tei:p>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e602">
-               <hi style="color:red;" change="#d2e223 #d2e228" xml:lang="ar" xml:id="hi_3.d2e604"> <tei:num type="auto-markup" change="#d2e181 #d2e228" value="3" xml:lang="ar" xml:id="num_1.d2e606">٣</tei:num>  - </hi>إن لا ترى في جميع ما سردناه من الأسماء واحداً من النصارى إن بين الأدباء وإن بين الشعراء. والسبب هو أن النصارى كانوا دائماً قليلين في العراق ولم يزدادوا إلا في نصف القرن الأخير. ولما جاؤوا إلى هذه الأقطار، بعد ذبحهم عن آخرهم في القرن الخامس عشر، كانت غايتهم الأولى البيع والشراء والتجارة وتعلم اللغات الأجنبية كالإيطالية والبرتغالية والإنكليزية والهندية سعياً وراء غايتهم. وأما العربية فلم يتقنوها لعدم احتياجهم إليها في أشغالهم أو في وظائفهم الحكومية بخلاف نصارى ديار الشام ومصر فإن اللغة العربية من اللغات التي يرتزق منها من يتقنها.</tei:p>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e611">وأما نصارى هذا العهد فقد جروا على آثارهم من تقدمهم من هجر هذه اللغة الجليلة. وإذا كان عندنا اليوم من ينظم الشعر فهو لا يستحق أن
-<pb n="n1-p192" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P205.xhtml" change="#d2e228" xml:id="pb_8.d2e613"/>
-
-
-يتسم بسمة شاعر أو ناظم، أو يتسم باسم شويعر أو شعرور. فإن أصر على أن يتصف بصفة سميناه بناظم بعروز. وأما من جهة الكتابة والتأليف فإن وجد بيننا من يقع عليه هذا الاسم فلا يحق له إلا من باب الإعارة أو الاستعارة.</tei:p>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e616">
-               <hi style="color:red;" change="#d2e223 #d2e228" xml:lang="ar" xml:id="hi_4.d2e618"> <tei:num type="auto-markup" change="#d2e181 #d2e228" value="4" xml:lang="ar" xml:id="num_1.d2e620">٤</tei:num>  - </hi>وأما اليهود فهم غير معذورين في تلم العربية لأنهم كانوا دائماً منتشرين انتشار الجراد في العراق كله وبعدد عديد، ولم يمحقوا إمحاقاً كلياً. ومع ذلك فلا ترى فيهم من يحسن كتابة جملة عربية، بل ولا من يتكلم كلاماً يفهمه غير اليهودي لشناعة لفظهم وسوء استعمال الكلم في محالها وكراهية لهجتهم وقلق نبرتهم.</tei:p>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e625">وهذا ما ذكرته إلى هناك هو نظرة عموم لا نظرة استقصاء. ثم إنه لابد لي في الختام من أن أذكر كلمة عن حالة اللغة العربية في يومنا هذا أعني بعد نشر الدستور فأقول:</tei:p>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e629">إن لغة جرائدنا (وهي في بغداد تفوت العشر) لغة في منتهى الركاكة ولا ترى فيها واحدة (وهل سمعت كلمة واحدة فاحفظها لأني لا أقول أكثر) تنهج نهج العربية الفصيحة أو تنحوه. ومن اغرب الغرائب أن يقع مثل هذا الأمر في بغداد دار الفصحاء والعلماء ونوابغ الكتاب والشعراء في سابق العهد. فإذا تصفحت إحدى هذه الجرائد وأردت أن تعرف بأي لغة تتكلم، لما اهتديت سبيلاً ولو كنت دعيميص الرمل أو خرّيتاً من الخراريت. لأنك تساءل نفسك وتقول: لعل صاحب المقال تكلم بالتركية أو الكردية أو بالفارسية أو بالهندية أو بالعربية العامية. . . .
-<pb n="n1-p193" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P206.xhtml" change="#d2e228" xml:id="pb_9.d2e631"/>
-
-
-والأصح أنه تكلم بكل هذه اللغات معاً. وأما من جهة اللحن في الإعراب فهذا من مزايا جرائد العراق بأسرها من الموصل إلى البصرة بل ومن مميزاتها الخاصة بها أكثر من غيرها. وأما من جهة الأفكار فهي لا تزال في الطلق والمخاض. فإن شاء الله تولد وتنشأ فصيح أن يقال فيها أحياها الذي أنشأها أو أنشأناها خلقاً آخر، أو الأولى إنا أنشأناهن إنشاء.</tei:p>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e634">- بغداد سانسنا</tei:p>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e637">(الزهور) نشكر حضرة الأديب الفاضل المتستر تحت هذا الاسم شكراً وافراً ونثني على أده ونرحب بكل ما يتحفنا به عن تلك الربوع التي تجلت فيها لغتنا بأجمل مجاليها.</tei:p>
-         </tei:div>
+         <tei:div change="#d2e64 #d2e223 #d2e228" subtype="article" type="item" xml:id="div_1.d2e254" xml:lang="ar">
+<head change="#d2e223 #d2e228" xml:id="head_2.d2e256" xml:lang="ar">النهضة الأدبية في العراق</head>
+<tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e259" xml:lang="ar">وعدنا عند إنشاء هذه المجلة أن نجعلها رابطة تعارف بين أدباء الأقطار العربية وبينا فائدة ذلك في حينه. فإن الأدباء في مصر والشام يعرفون شيئاً عن بعضهم بعض ولكنهم يكادون يجهلون كل شيء عن زملائهم في العراق وسائر بلاد العرب. ونحن نزف إلى القراء اليوم هذه المقالة الشائقة التي أتحفنا بها أديب من أدباء بغداد الذين يشار إليهم بالبنان وفيها الفوائد الجمة عن النهضة الأدبية في هاتيك الأنحاء.</tei:p>
+<tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e262" xml:lang="ar">وسيوافينا مراسلونا العديدون في كل بلاد عربية بكل ما تهم معرفته في هذا الشأن:</tei:p>
+<tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e265" xml:lang="ar">كل من يطالع تاريخ اللغة العربية يتحقق أمراً وهو أن هذه اللغة لم تبلغ أوجها إلا في عصر العباسيين السعيد، ثم أخذت بعد ذلك بالانحطاط والهوي شيئاً فشيئاً عند تقلص ظل هذا الدولة الجليلة حتى أفضت إلى درك ليس وراءه درك. فأخذت حينئذ بالخمود أو الجمود. ثم انتقلت إلى التقهقر.</tei:p>
+<tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e268" xml:lang="ar">فالعراق كان من أجل البلاد العربية التي نمت فيها اللغة الفصيحة وسارت فيها سيراً حثيثاً. وفي دياره برز أولئك العلماء النوابغ أي الكوفيون والبصريون. وفي هذين المصرين قام أكتب الكتاب وأشعر الشعراء وأبلغ <pb change="#d2e228" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P199.xhtml" ed="print" n="n1-p186" xml:id="pb_2.d2e270"/> البلغاء وأخطب الخطباء. أما اليوم فقد تبدلت الأحوال. ولم يبق من هذه البلاد إلا الأسماء دون الرجال.</tei:p>
+<lg change="#d2e82 #d2e223 #d2e228" xml:id="lg_1.d2e274" xml:lang="ar">
+<tei:l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e276" xml:lang="ar"> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e278" xml:lang="ar">أما الخيام فإنها كخيامهم</tei:seg> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e281" xml:lang="ar">وأرى رجال الحي غير رجاله</tei:seg> </tei:l>
+</lg>
+<tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e286" xml:lang="ar">على أن الضربة التي قضت على العراق لم يكن سببها مقصوراً على انحطاط دولة العباسيين فقط كما يتوهمه أغلب الناس. بل زادها هولاً قتل ذوي العلم وذبحهم ذبحاً عن بكرة أبيهم وذلك بعد انقراض دولة بني العباس بقرن ونصف قرن. وهو ما استأصل كل الاستئصال عروق العلم ومنابته فانقطع حينئذ متصل حبل التعليم والتدريس والأخذ والتلقي والتلقين والتأليف والتصنيف، ثم إفناء الكتب والأسفار بالإحراق والإغراق في أم العراق، على وجه شنيع وهذا كله في النائبة الأخيرة التي نزلت بها على يد تيمورلنك في <tei:num change="#d2e181 #d2e228" type="auto-markup" value="10" xml:id="num_1.d2e288" xml:lang="ar">١٠</tei:num> تموز سنة <tei:num change="#d2e181 #d2e228" type="auto-markup" value="1401" xml:id="num_1.d2e291" xml:lang="ar">١٤٠١</tei:num> للمسيح وتبع بغداد في الرزية، وقاسمها البلية البصرة والحلة وسائر مدن العراق الكبرى المشهورة يومئذ.</tei:p>
+<lg change="#d2e82 #d2e223 #d2e228" xml:id="lg_2.d2e295" xml:lang="ar">
+<tei:l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e297" xml:lang="ar"> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e299" xml:lang="ar">إن الرزية لا رزية بعدها</tei:seg> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e302" xml:lang="ar">فقدان كل أخٍ كضوء الكوكب</tei:seg> </tei:l>
+</lg>
+<tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e307" xml:lang="ar">فهذه الرزية العظمى التي لم يقع مثلها في سائر البلاد العربية كالديار الشامية والمصرية</tei:p>
+<tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e310" xml:lang="ar">والغربية وغيرها هي التي أسكتت نامة العلماء والشعراء والكتاب ردحاً من الزمن وإذا لم يسمع فيه صوت عربي فصيح في العراق كله.</tei:p>
+<tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e313" xml:lang="ar">وساد الجهل في العراق في كل المدة التي ملك فيها بنو تيمور إلى أن انتقلت البلاد إلى أيدي آل عثمان فاستقرت بيدهم سنة <tei:num change="#d2e181 #d2e228" type="auto-markup" value="1048" xml:id="num_1.d2e315" xml:lang="ar">١٠٤٨</tei:num> م، فأخذ الناس حينئذ يتنفسون الصعداء، مما دهمهم من البرحاء بدون أن يخافوا رقيباً أو جاسوساً. <pb change="#d2e228" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P200.xhtml" ed="print" n="n1-p187" xml:id="pb_3.d2e318"/> وفي تلك السنة رجع الآلوسيون إلى وطنهم بغداد قادمين من جزيرة آلوس مسقط رأس عميدهم الأول وموئلهم في المخاوف والمهالك. وكانوا قد انهزموا إليها في مذبحة تيمورلنك. فلما رجعوا عاد ضياء العلم والأدب إلى منبعثه ومصدره وحينئذ أخذ العلماء يتواردون من كل واد وناد متأثرين الألوسيين العلماء العظام. فمنهم من جاء من ناحية الموصل ومنهم من هبط من ديار الشام ومنهم من أقبل من أقطار مصر وغيرهم من غيرها.</tei:p>
+<tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e322" xml:lang="ar">على أن علم العلماء لم يتعد الجوامع والمساجد والكتاتيب. أما تدوينه في الكتب فإن العادة كانت قد ضعفت في أصحابها ولهذا لا ترى شعراً أو أثراً مذكوراً يرتقي إلى ذلك العهد.</tei:p>
+<tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e325" xml:lang="ar">وإنما بدأ عهد التأليف ونظم الشعر وقرضه في أيام داود باشا الكبير والوزير الخطير. فإنه كان عالماً جليلاً فضلاً عما كان قد امتاز به من الحنكة والدربة في السياسة إذ كان فيها داهية من الدواهي. فهو إذاً الذي أنهض همة الكتبة والعلماء والشعراء، وأيقظ فيهم ملكة الأدب التي كانت قد خملت فيهم، وهو الذي حث أهل العلم والفضل والأدب على جمع الكتب والمكاتب فعمر لها الخزائن ونظم المدارس وأنشأ المساجد والجوامع إلى غير ذلك من الأعمال العالية التي تذكرنا مآثر هارون الرشيد أو جلائل المأمون.</tei:p>
+<tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e328" xml:lang="ar">ولد داود باشا الكبير نحو سنة <tei:num change="#d2e181 #d2e228" type="auto-markup" value="1188" xml:id="num_1.d2e330" xml:lang="ar">١١٨٨</tei:num> هجري ( <tei:num change="#d2e181 #d2e228" type="auto-markup" value="1774" xml:id="num_1.d2e333" xml:lang="ar">١٧٧٤</tei:num> م) في بلاد الكرج وجاء بغداد وكان مملوكاً نصرانياً عمره <tei:num change="#d2e181 #d2e228" type="auto-markup" value="11" xml:id="num_1.d2e336" xml:lang="ar">١١</tei:num> سنة جاء به أحد النخاسين إلى بغداد فاشتراه منه مصطفى بك الربيعي. ثم باعه لسليمان باشا والي بغداد فرباه أحسن تربية وعلمه القرآن ودرسه العلوم والفنون المشهورة في <pb change="#d2e228" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P201.xhtml" ed="print" n="n1-p188" xml:id="pb_4.d2e339"/> ذلك العصر. ولما بلغ عمره <tei:num change="#d2e181 #d2e228" type="auto-markup" value="27" xml:id="num_1.d2e341" xml:lang="ar">٢٧</tei:num> سنة اتخذه وليه أمين خزنته (خزنداراً) ثم مازال يتقدم والنجاح حليفه حتى صار والياً على بغداد في <tei:num change="#d2e181 #d2e228" type="auto-markup" value="5" xml:id="num_1.d2e345" xml:lang="ar">٥</tei:num> ربيع الثاني سنة <tei:num change="#d2e181 #d2e228" type="auto-markup" value="1232" xml:id="num_1.d2e348" xml:lang="ar">١٢٣٢</tei:num> هجري ( <tei:num change="#d2e181 #d2e228" type="auto-markup" value="22" xml:id="num_1.d2e351" xml:lang="ar">٢٢</tei:num> شباط سنة <tei:num change="#d2e181 #d2e228" type="auto-markup" value="1817" xml:id="num_1.d2e354" xml:lang="ar">١٨١٧</tei:num> م) وفي سنة <tei:num change="#d2e181 #d2e228" type="auto-markup" value="1247" xml:id="num_1.d2e357" xml:lang="ar">١٢٤٧</tei:num> هجري ( <tei:num change="#d2e181 #d2e228" type="auto-markup" value="1831" xml:id="num_1.d2e360" xml:lang="ar">١٨٣١</tei:num> م) أكره على</tei:p>
+<tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e364" xml:lang="ar">السفر إلى الأستانة فأقام فيها إلى سنة <tei:num change="#d2e181 #d2e228" type="auto-markup" value="1260" xml:id="num_1.d2e366" xml:lang="ar">١٢٦٠</tei:num> هجري ( <tei:num change="#d2e181 #d2e228" type="auto-markup" value="1844" xml:id="num_1.d2e369" xml:lang="ar">١٨٤٤</tei:num> م) فأرسله في تلك السنة السلطان عبد الحميد ليكون شيخ الحرم فأقام في المدينة يدرس ويعلم إلى أن توفي سنة <tei:num change="#d2e181 #d2e228" type="auto-markup" value="1267" xml:id="num_1.d2e372" xml:lang="ar">١٢٦٧</tei:num> هجري ( <tei:num change="#d2e181 #d2e228" type="auto-markup" value="1851" xml:id="num_1.d2e375" xml:lang="ar">١٨٥١</tei:num> م) إلا أنه لم يؤلف كتاباً سمعنا به.</tei:p>
+<tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e379" xml:lang="ar">ففي عهد ولاية هذا الوزير الكبير اشتهر شعراؤنا الأولون بعد تلك الفترة الأدبية المديدة. واغلب هؤلاء الشعراء غنوا مكارم هذا النابغة نابغة السياسة والعلم وقد نسجوا كلهم على المنوال القديم.</tei:p>
+<tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e382" xml:lang="ar">فمنهم الملا جواد البصير. ومن قصيدة له في الوزير المذكور:</tei:p>
+<lg change="#d2e82 #d2e223 #d2e228" xml:id="lg_3.d2e386" xml:lang="ar">
+<tei:l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e388" xml:lang="ar"> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e390" xml:lang="ar">بشرى لمن أشرقت في الكون طلعته</tei:seg> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e393" xml:lang="ar">وأزهرت في رياض الأرض غرته</tei:seg> </tei:l>
+<tei:l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e397" xml:lang="ar"> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e399" xml:lang="ar">وبلبل البشر والإقبال حين أتى</tei:seg> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e402" xml:lang="ar">غنى وأغنت عن الأقيام نغمته</tei:seg> </tei:l>
+</lg>
+<tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e407" xml:lang="ar">وفي القصيدة <tei:num change="#d2e181 #d2e228" type="auto-markup" value="19" xml:id="num_1.d2e409" xml:lang="ar">١٩</tei:num> بيتاً. . . ومنهم الشيخ محمد ابن الشيخ جعفر وقال:</tei:p>
+<lg change="#d2e82 #d2e223 #d2e228" xml:id="lg_4.d2e413" xml:lang="ar">
+<tei:l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e415" xml:lang="ar"> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e417" xml:lang="ar">أنار الدهر وابتهج الوجود</tei:seg> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e420" xml:lang="ar">وأقبلت المسرة والسعود</tei:seg> </tei:l>
+<tei:l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e424" xml:lang="ar"> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e426" xml:lang="ar">وجاء الحق متضحاً فزاغت</tei:seg> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e429" xml:lang="ar">أباطلهم فهم فيها أبيدوا</tei:seg> </tei:l>
+</lg>
+<tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e434" xml:lang="ar">وممن اشتهر بحسن نظمه وتنسيق كلمة صالح التميمي وله أشعار كثيرة وهو الذي أنكر على داود باشا أن يقرظ قصيدة المعلم بطرس كرامة قائلاً أنه لا يجوز له أن يقرظ شعراً تنصر ثم أنشد:</tei:p>
+<lg change="#d2e82 #d2e223 #d2e228" xml:id="lg_5.d2e437" xml:lang="ar">
+<tei:l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e439" xml:lang="ar"> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e441" xml:lang="ar">عهدناك تعفو عن مسيء تعذرا</tei:seg> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e444" xml:lang="ar">ألا فاعفنا عن رد شعر تنصرا</tei:seg> </tei:l>
+</lg><pb change="#d2e228" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P202.xhtml" ed="print" n="n1-p189" xml:id="pb_5.d2e449"/>
+<lg change="#d2e82 #d2e223 #d2e228" xml:id="lg_6.d2e452" xml:lang="ar">
+<tei:l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e454" xml:lang="ar"> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e456" xml:lang="ar">وهل من مسيحي فصيح نعده</tei:seg> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e459" xml:lang="ar">إذا أينع الشعر الفصيح وأثمرا</tei:seg> </tei:l>
+<tei:l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e463" xml:lang="ar"> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e465" xml:lang="ar">عداه شبيب والأخص وفاته</tei:seg> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e468" xml:lang="ar">من الرند والقيصوم ما كان أزهرا</tei:seg> </tei:l>
+</lg>
+<tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e473" xml:lang="ar">فأجابه بطرس كرامة بقصيدة رنانة كان لها دوي بعيد في صدور الأدباء والشعر استهلالها:</tei:p>
+<lg change="#d2e82 #d2e223 #d2e228" xml:id="lg_7.d2e476" xml:lang="ar">
+<tei:l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e478" xml:lang="ar"> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e480" xml:lang="ar">لكل امرئ شان تبارك من برى</tei:seg> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e483" xml:lang="ar">وخص بما قد شاء كلاً من الورى</tei:seg> </tei:l>
+<tei:l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e487" xml:lang="ar"> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e489" xml:lang="ar">ولو شاء كان الناس امة واحد</tei:seg> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e492" xml:lang="ar">ولم تلق يوماً بينهم قط منكرا</tei:seg> </tei:l>
+<tei:l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e496" xml:lang="ar"> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e498" xml:lang="ar">فلا يفتخر مرء بعجب يناله</tei:seg> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e501" xml:lang="ar">تلاداً إذا عن طارف المجد قصرا</tei:seg> </tei:l>
+</lg>
+<tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e506" xml:lang="ar">ومن شعراء عراقنا الملا عبد الحميد رحبي زاده. والحاج محمد والسيد حسين ابن السيد سليمان الحلي وعبد الله أفندي البصري والملا حسين بن إبراهيم جاوش، وعلي بن أمين الشخلي، ومحمد يس بيك بن أمين بك الموصلي، والشاعر عبد الحميد، ودرويش محمد</tei:p>
+<tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e509" xml:lang="ar">مصاحب، والحاج صالح آغا عبد الجليل زاده، والملا خليل أفندي بكتاش زاده، والسيد الملا خميس الموصلي، وحسن بن علي العاملي الفتوني، والملا عبود البصري، ومحمد بن عبد الله الموصلي، ومسعود بن الوزري، والشيخ عثمان بن سند البصري، والسيد عمر بن رمضان الهيتي، والشاعر الشهير عبد الباقي العمري الموصلي، والظاهر أن الوزير داود باشا ألف كتاباً هو شرح كتاب لأن المغربي أحد شعراء بغداد قال فيه يومئذ:</tei:p>
+<lg change="#d2e82 #d2e223 #d2e228" xml:id="lg_8.d2e512" xml:lang="ar">
+<tei:l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e514" xml:lang="ar"> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e516" xml:lang="ar">شرح تضوع عرفه بنضارة</tei:seg> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e519" xml:lang="ar">يسبي العقول بنسجه الفتان</tei:seg> </tei:l>
+<tei:l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e523" xml:lang="ar"> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e525" xml:lang="ar">وحوى مؤلفه العلوم مؤسساً</tei:seg> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e528" xml:lang="ar">أوضاعها بمصادر الإتقان</tei:seg> </tei:l>
+<tei:l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e532" xml:lang="ar"> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e534" xml:lang="ar">فكأنه في وقته: لكماله</tei:seg> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e537" xml:lang="ar">بدر يشاركه بكل سنان</tei:seg> </tei:l>
+</lg><pb change="#d2e228" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P203.xhtml" ed="print" n="n1-p190" xml:id="pb_6.d2e543"/>
+<lg change="#d2e82 #d2e223 #d2e228" xml:id="lg_9.d2e545" xml:lang="ar">
+<tei:l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e547" xml:lang="ar"> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e549" xml:lang="ar">صدر الصدور وقدوة العلماء من</tei:seg> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e552" xml:lang="ar">هو مقصد للوارد اللهفان</tei:seg> </tei:l>
+</lg>
+<tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e557" xml:lang="ar">ومن كواكب تلك الثريا: سالم بك ابن عبدي باشا والي الموصل، والحاج محمد سعيد الجوادي، ومحمد زين الدين الحسني، والشيخ حسن البرزنجي، وباقي أفندي العمري، والسيد راضي القزويني، والسيد عبد الغفار الأخرس، وتعداد هؤلاء الشعراء يطول، إلا أن يرصد لكل شاعر ترجمة أو لكل بيت اشتهر أبناؤه بالعلم والأدب والشعر مقالة فحينئذ يكون قد تم بعض الغرض.</tei:p>
+<tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e560" xml:lang="ar">وبالجملة يقال إن شعراء العراق أكثر عدداً من شعراء ديار الشام ومصر في هذه الحقبة الأخيرة إلا أنهم لم يشتهروا اشتهار هؤلاء لأسباب منها: <tei:num change="#d2e181 #d2e228" type="auto-markup" value="1" xml:id="num_1.d2e562" xml:lang="ar">١</tei:num> ) قلة وسائط الطبع في العراق لعدم اختلاط أهله بالإفرنج؛ <tei:num change="#d2e181 #d2e228" type="auto-markup" value="2" xml:id="num_1.d2e565" xml:lang="ar">٢</tei:num> ) لبعد موقعه عن ديار أهل الجد والسعي؛ <tei:num change="#d2e181 #d2e228" type="auto-markup" value="3" xml:id="num_1.d2e568" xml:lang="ar">٣</tei:num> ) لأن روح الاستبداد في هذه العقود الأخيرة كان قد أطفأ جذوة كل همة وحاول إتلاف كل محترف بالأدب أو معان له؛ <tei:num change="#d2e181 #d2e228" type="auto-markup" value="4" xml:id="num_1.d2e571" xml:lang="ar">٤</tei:num> ) إن عدم نشر دواوين أولئك الشعراء أو قصائدهم أقعد همة كثيرين عن المجاراة والمسابقة فأضر ذلك بالأدب والأدباء والشعر والشعراء، وهناك غير هذه الأسباب:</tei:p>
+<tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e575" xml:lang="ar">ومما يلاحظه كل من يريد أن يتتبع آثار النهضة العلمية والأدبية في العراق هو:</tei:p>
+<tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e578" xml:lang="ar"> <hi change="#d2e223 #d2e228" style="color:red;" xml:id="hi_1.d2e580" xml:lang="ar"> <tei:num change="#d2e181 #d2e228" type="auto-markup" value="1" xml:id="num_1.d2e582" xml:lang="ar">١</tei:num> - </hi>أن الشعراء على كثرتهم وتكاثف جمعهم ليس فيهم من يستحق أن يقال عنه أنه نبغ في الشعر للسبب الذي ذكرناه وهوانهم نسجوا على منوال من تقدمهم من شعراء انحطاط الشعر في متوسط عصور الهجرة <pb change="#d2e228" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P204.xhtml" ed="print" n="n1-p191" xml:id="pb_7.d2e586"/> بأن انتحلوا أفكارهم وتصاويرهم وأقوالهم، بل ربما</tei:p>
+<tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e590" xml:lang="ar">قصائدهم بأسرها. ولهذا لم يأتونا بشيء طريف أو ظريف. فلم يمتازوا عنهم بأمر يذكر. اللهم إلا اثنان وهما جميل صدقي أفندي الزهاوي ومعروف أفندي الرصافي. وكلاهما حي وهما من نوابغ الشعراء العصريين في عهدنا هذا بل في مقدمتهم. فإن شعرهما من أحسن ما جاء في وقتنا من أي جهة اعتبرته ومن أي موقف وقفت فيه لتنظر إلى محاسنه.</tei:p>
+<tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e593" xml:lang="ar"> <hi change="#d2e223 #d2e228" style="color:red;" xml:id="hi_2.d2e595" xml:lang="ar"> <tei:num change="#d2e181 #d2e228" type="auto-markup" value="2" xml:id="num_1.d2e597" xml:lang="ar">٢</tei:num> - </hi>إن العلماء والأدباء والكتبة الذين يستحقون أن يطلق عليهم مثل هذه الألفاظ يعدون على الأصابع أو قل هم منحصرون في آل الآلوسي والزهاوي والحيدري والسويدي والرحبي. وقلما سمعنا بمؤلفات غير أبناء هذه البيوتات.</tei:p>
+<tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e602" xml:lang="ar"> <hi change="#d2e223 #d2e228" style="color:red;" xml:id="hi_3.d2e604" xml:lang="ar"> <tei:num change="#d2e181 #d2e228" type="auto-markup" value="3" xml:id="num_1.d2e606" xml:lang="ar">٣</tei:num> - </hi>إن لا ترى في جميع ما سردناه من الأسماء واحداً من النصارى إن بين الأدباء وإن بين الشعراء. والسبب هو أن النصارى كانوا دائماً قليلين في العراق ولم يزدادوا إلا في نصف القرن الأخير. ولما جاؤوا إلى هذه الأقطار، بعد ذبحهم عن آخرهم في القرن الخامس عشر، كانت غايتهم الأولى البيع والشراء والتجارة وتعلم اللغات الأجنبية كالإيطالية والبرتغالية والإنكليزية والهندية سعياً وراء غايتهم. وأما العربية فلم يتقنوها لعدم احتياجهم إليها في أشغالهم أو في وظائفهم الحكومية بخلاف نصارى ديار الشام ومصر فإن اللغة العربية من اللغات التي يرتزق منها من يتقنها.</tei:p>
+<tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e611" xml:lang="ar">وأما نصارى هذا العهد فقد جروا على آثارهم من تقدمهم من هجر هذه اللغة الجليلة. وإذا كان عندنا اليوم من ينظم الشعر فهو لا يستحق أن <pb change="#d2e228" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P205.xhtml" ed="print" n="n1-p192" xml:id="pb_8.d2e613"/> يتسم بسمة شاعر أو ناظم، أو يتسم باسم شويعر أو شعرور. فإن أصر على أن يتصف بصفة سميناه بناظم بعروز. وأما من جهة الكتابة والتأليف فإن وجد بيننا من يقع عليه هذا الاسم فلا يحق له إلا من باب الإعارة أو الاستعارة.</tei:p>
+<tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e616" xml:lang="ar"> <hi change="#d2e223 #d2e228" style="color:red;" xml:id="hi_4.d2e618" xml:lang="ar"> <tei:num change="#d2e181 #d2e228" type="auto-markup" value="4" xml:id="num_1.d2e620" xml:lang="ar">٤</tei:num> - </hi>وأما اليهود فهم غير معذورين في تلم العربية لأنهم كانوا دائماً منتشرين انتشار الجراد في العراق كله وبعدد عديد، ولم يمحقوا إمحاقاً كلياً. ومع ذلك فلا ترى فيهم من يحسن كتابة جملة عربية، بل ولا من يتكلم كلاماً يفهمه غير اليهودي لشناعة لفظهم وسوء استعمال الكلم في محالها وكراهية لهجتهم وقلق نبرتهم.</tei:p>
+<tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e625" xml:lang="ar">وهذا ما ذكرته إلى هناك هو نظرة عموم لا نظرة استقصاء. ثم إنه لابد لي في الختام من أن أذكر كلمة عن حالة اللغة العربية في يومنا هذا أعني بعد نشر الدستور فأقول:</tei:p>
+<tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e629" xml:lang="ar">إن لغة جرائدنا (وهي في بغداد تفوت العشر) لغة في منتهى الركاكة ولا ترى فيها واحدة (وهل سمعت كلمة واحدة فاحفظها لأني لا أقول أكثر) تنهج نهج العربية الفصيحة أو تنحوه. ومن اغرب الغرائب أن يقع مثل هذا الأمر في بغداد دار الفصحاء والعلماء ونوابغ الكتاب والشعراء في سابق العهد. فإذا تصفحت إحدى هذه الجرائد وأردت أن تعرف بأي لغة تتكلم، لما اهتديت سبيلاً ولو كنت دعيميص الرمل أو خرّيتاً من الخراريت. لأنك تساءل نفسك وتقول: لعل صاحب المقال تكلم بالتركية أو الكردية أو بالفارسية أو بالهندية أو بالعربية العامية. . . . <pb change="#d2e228" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P206.xhtml" ed="print" n="n1-p193" xml:id="pb_9.d2e631"/> والأصح أنه تكلم بكل هذه اللغات معاً. وأما من جهة اللحن في الإعراب فهذا من مزايا جرائد العراق بأسرها من الموصل إلى البصرة بل ومن مميزاتها الخاصة بها أكثر من غيرها. وأما من جهة الأفكار فهي لا تزال في الطلق والمخاض. فإن شاء الله تولد وتنشأ فصيح أن يقال فيها أحياها الذي أنشأها أو أنشأناها خلقاً آخر، أو الأولى إنا أنشأناهن إنشاء.</tei:p>
+<byline change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e634" xml:lang="ar">- بغداد <persName>ساتسنا</persName></byline><note change="#d2e73 #d2e223 #d2e228" place="inline" xml:id="p_2.d2e637" xml:lang="ar">(<title level="j">الزهور</title>) نشكر حضرة الأديب الفاضل المتستر تحت هذا الاسم شكراً وافراً ونثني على أده ونرحب بكل ما يتحفنا به عن تلك الربوع التي تجلت فيها لغتنا بأجمل مجاليها.</note>
+</tei:div>
          <tei:div change="#d2e64 #d2e223 #d2e228" type="item" subtype="article" xml:lang="ar" xml:id="div_1.d2e641">
             <head change="#d2e223 #d2e228" xml:lang="ar" xml:id="head_3.d2e643">أيها الفن</head>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e646">مرفوعة إلى</tei:p>
@@ -712,7 +626,7 @@
                </tei:l>
             </lg>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1660">البرازيل</tei:p>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1663">فائز السمعاني اللبناني</tei:p>
+            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1663"><persName>فائز السمعاني اللبناني</persName></tei:p>
          </tei:div>
          <tei:div change="#d2e64 #d2e223 #d2e228" type="item" subtype="article" xml:lang="ar" xml:id="div_1.d2e1667">
             <head change="#d2e223 #d2e228" xml:lang="ar" xml:id="head_8.d2e1669">الكلمات الأجنبية</head>
@@ -773,7 +687,7 @@
 
 ومن الدروس المفيدة التي تلقى في دار الجامعة دروس علم الطبيعة، يلقيها حضرة الرياضي البارع إسماعيل حسنين بك ناظر مدرسة المعلمين الخديوية. وقد جمعت إدارة الجامعة أيضاً محاضرات الأستاذ العلامة في كتاب على حدة لتعميم الفائدة. وهذا الجزء الأول يبحث في خواص المادة وأولها التحرك وهو يتناول الحركة المنتظمة والحركة المتغيرة وتحليل الحركات ثم القوة وقياسها وتحليلها إلخ. . . ولاشك في أن المحاضرات التالية ستتناول البحث في التمدد والانضغاط والمسامية والتجزؤ وعدم التدخل وكلها من خواص المادة العمومية. ونحن في الشرق في أشد الحاجة إلى نشر العلوم الرياضية والوقوف على أسرار الطبيعة المحدقة بنا. ويرجى من إدارة الجامعة أن توسع نطاق هذه الدروس الوضعية. فضلاً عن أن إلقاءها باللغة العربية لمما يزيد لغتنا مرونة ويساعدنا على استعمالها في تدريس العلوم. وقد اظهر حضرة إسماعيل حسنين بك من هذا القبيل براعة فائقة يستحق عليها ثناء كل أديب.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1792">* * *</tei:p>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1795">وطنيات أحمد نسيم: هذا هو الجزء الثاني من ديوان <persName change="#d2e223 #d2e228" xml:lang="ar" xml:id="persName_8.d2e1797">أحمد أفندي نسيم</persName>. و<persName change="#d2e223 #d2e228" xml:lang="ar" xml:id="persName_9.d2e1800">أحمد أفندي نسيم</persName> من الشعراء العصريين المعدودين في وادي
+            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1795">وطنيات <persName>أحمد نسيم</persName>: هذا هو الجزء الثاني من ديوان <persName change="#d2e223 #d2e228" xml:lang="ar" xml:id="persName_8.d2e1797">أحمد أفندي نسيم</persName>. و<persName change="#d2e223 #d2e228" xml:lang="ar" xml:id="persName_9.d2e1800">أحمد أفندي نسيم</persName> من الشعراء العصريين المعدودين في وادي
 <pb n="n1-p223" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P235.xhtml" change="#d2e228" xml:id="pb_38.d2e1803"/>
 
 
@@ -805,7 +719,7 @@
                             <roleName type="title" xml:lang="ar" change="#d2e228" xml:id="roleName_3.d2e1870">افندي</roleName>
                             <surname xml:lang="ar" change="#d2e228" xml:id="surname_6.d2e1873">مطران</surname>
                         </persName>: في هذا الشعر ما في اسم صاحبه: من عرف أبي الطيب ونفحات النسيم</tei:p>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1878">وقال الشيخ محمود العطار:</tei:p>
+            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1878">وقال <persName>الشيخ محمود العطار</persName>:</tei:p>
             <lg change="#d2e82 #d2e223 #d2e228" xml:lang="ar" xml:id="lg_24.d2e1881">
                <tei:l type="bayt" change="#d2e82 #d2e223 #d2e228" xml:lang="ar" xml:id="l_1.d2e1883">
                   <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e1885">قد هدت قالة القريض نجوم</tei:seg> 

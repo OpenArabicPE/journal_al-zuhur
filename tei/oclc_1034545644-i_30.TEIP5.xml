@@ -59,7 +59,7 @@
          <change when="2019-10-17" who="#pers_TG" change="d2e82 #d2e228" xml:lang="en" xml:id="change_4.d2e187">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes" change="#d2e228" xml:id="foreign_1.d2e189">qaṣīda</foreign>s from <gi change="#d2e223 #d2e228" xml:lang="en" xml:id="gi_1.d2e192">p</gi>s divided by a <gi change="#d2e223 #d2e228" xml:lang="en" xml:id="gi_2.d2e195">gap</gi> to <gi change="#d2e223 #d2e228" xml:lang="en" xml:id="gi_3.d2e198">l</gi> of <att change="#d2e223 #d2e228" xml:lang="en" xml:id="att_1.d2e201">type</att>="bayt" comprising two <gi change="#d2e223 #d2e228" xml:lang="en" xml:id="gi_4.d2e205">seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en" change="#d2e228" xml:id="gi_5.d2e212">tei:lb</tei:gi> into <tei:gi xml:lang="en" change="#d2e228" xml:id="gi_5.d2e215">xml:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <tei:gi xml:lang="en" change="#d2e228" xml:id="gi_5.d2e221">tei:head</tei:gi> into <tei:gi xml:lang="en" change="#d2e228" xml:id="gi_5.d2e224">xml:div</tei:gi>s.</change>
-         <change when="2019-10-17" who="#pers_TG" xml:id="" xml:lang="en">Created this TEI P5 file by automatic conversion from ePub.</change>
+         <change when="2019-10-17" who="#pers_TG" xml:lang="en">Created this TEI P5 file by automatic conversion from ePub.</change>
       </revisionDesc>
    </teiHeader>
    <tei:text xml:lang="ar" change="#d2e228" xml:id="text_1.d2e233">
@@ -612,7 +612,7 @@
                   <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e1259">هذا هو العيشُ إلاّ أنهُ حُلمُ</tei:seg>
                </tei:l>
             </lg>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1264">محمد توفيق علي
+            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1264"><persName>محمد توفيق علي</persName>
 <pb n="n3-p471" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1580.xhtml" change="#d2e228" xml:id="pb_15.d2e1266"/>
 
 
@@ -731,7 +731,7 @@
 المجرمين الذين ماتوا بسيف الأحكام. ولو أن عدل البشر قضى على الكل لما بقي مجالٌ للحرب ولكنها لا تطول إلاَّ عدداً نزراً لعلّها تهمله في أكثر الأحايين وهي لا تدري أن إنسانيتها الفظيعة تدعو إلى لزومية الحرب. الأرض لا تصرخ عبثاً. هذه الحرب قد أنقذت نارها وتطاير شرارها فإذا بالإنسان قد تناوله غضبٌ إلهي بعيدٌ عن الحقد والغضب البشري فمشى إلى ساحة القتال لا يدري ماذا يفعل ولا ماذا يريد. وهنا اللغزُ المعقَّد. إذ أن الذي يفعله الآن مباين لطبيعته ولكنهُ يفعله مستلذاً مطيعاً. ألا ترون أن الإنسان في ساحة الوغى لا يعصى لكبيره أمراً. هل حدَّثنا التاريخ أن جنوداً شقوا على قائدهم عصا الطاعة ولو كان ذلك القائد من أكبر شرَّاب الدماء والقوم الظالمين. لا شيء يقف في سبيل تلك القوة التي تدفع الإنسان إلى الحرب فيصبح قائلاً وهو بريء لأنهُ آلة تسيّرُها يدٌ رهيبة فيقع في المهواة التي احتفرها لنفسه قائلاً مقتولا وهو لا يشكّ أنه هو الذي صنع الموت. . . وهكذا تنفذ تلك الشريعة الهائلة في الحشرات وفي الإنسان وتبقى الأرض هيكلاً عظيماً لا تفتر إراقة الدماء على مذبحهِ بلا رحمة ولا شفقة منذ البدء إلى انقضاء العالم وموت الموت. . .</tei:p>
             <byline change="#d2e223 #d2e228" xml:lang="ar" xml:id="byline_3.d2e1469"><persName change="#d3e209 #d2e223 #d2e228" ref="oape:pers:1655" xml:lang="ar" xml:id="persName_7.d2e1470">خليل شيبوب</persName></byline>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1473">المغفرة دليلُ عدم الاهتمام والاكتراث. إذا وُجد الحب الحقيقي يجب أن لا توجد المغفرة.</tei:p>
-            <byline change="#d2e198 #d2e223 #d2e228" xml:lang="ar" xml:id="byline_4.d2e1476">كارمن سيلفا
+            <byline change="#d2e198 #d2e223 #d2e228" xml:lang="ar" xml:id="byline_4.d2e1476"><persName>كارمن سيلفا</persName>
 <pb n="n3-p475" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1584.xhtml" change="#d2e228" xml:id="pb_19.d2e1478"/>
 
 
@@ -739,7 +739,7 @@
          </tei:div>
          <tei:div change="#d2e64 #d2e223 #d2e228" type="item" subtype="article" xml:lang="ar" xml:id="div_1.d2e1482">
             <head change="#d2e223 #d2e228" xml:lang="ar" xml:id="head_8.d2e1484">عيد الميلاد</head>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1487">للكاتب الأميركي الشهير وشنطون أرفنغ</tei:p>
+            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1487">للكاتب الأميركي الشهير <persName>وشنطون أرفنغ</persName></tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1490">لست أشعر بيقظة العواطف الشجية في فؤادي , وثورة الذكرى بين جوانحي عندما نحتفلُ بالأعياد مثلما أشعر بها حينما تبدو طوالع عيد الميلاد. إخال أن في هذا العيد جاذباً علويّاً يجتذب الايئدة إلى هياكل الشعور والتأمل , ويطير بالنفوس إلى فراديس المسرّات حيث تحلّق في أجواء الملذات الروحية وتتمتع باستكانتها إلى العقائد الدينية. أي شيء أعظم تأثيراً ووقعاً في النفوس , وأسرع نفوذاً إلى أوتار القلوب , واستيلاءَ على الأفكار من ترنيم تلك الأنشودة الملكية المنبعثة من أرجاء الهيكل يتوهم الكثيرون مجرد تمتيع الجثمان بلذيذ الأطعمة وجديد الثياب ونفيس الحلي. إن للعيد غاية أسمى من هذه. للعيد معنى نبيل رمى به واضعوه إلى تجديد المودة وربط قلوب الشعوب بأسباب المحبة وتوثيق عرى الفرابة بين الأسر , والصداقة بين الأصحاب التي فصمتها يد المصائب وعبثت بها عواصف الحياة , فيجتمع البنون حول موقد والديهم , ويلتئم شمل الأصحاب حول موائد بعضهم بعض ويصطبغ الجميع بصبغة العيد. ومما جعل لعيد الميلاد مزيةً وميزةً خصوصيةً على غيره هو أن
 <pb n="n3-p476" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1585.xhtml" change="#d2e228" xml:id="pb_20.d2e1492"/>
 
@@ -848,7 +848,7 @@
          <tei:div change="#d2e64 #d2e223 #d2e228" type="item" subtype="article" xml:lang="ar" xml:id="div_1.d2e1689">
             <head change="#d2e223 #d2e228" xml:lang="ar" xml:id="head_14.d2e1691">رواية</head>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1694">يوليوس قيصر</tei:p>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1697">لشكسبير</tei:p>
+            <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1697">ل<persName>شكسبير</persName></tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1700">تعريب <persName change="#d2e223 #d2e228" xml:lang="ar" xml:id="persName_13.d2e1702">سامي أفندي الجريديني</persName></tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1705">أضفنا إلى هذا الجزء من الزهور  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="16" xml:lang="ar" xml:id="num_1.d2e1707">١٦</tei:num>  صفحة زيادة عن الصفحات المقررة لكل جزء , حتى نتمكن من الاتيان على تتمة رواية يوليوس قيصر؛ وذلك إجابة إلى رغبة جمهور كبيرٍ من قرَّائنا - ولا سيما طلبة البكالوريا منهم - لأن الترجمة التي نشرها الزهور جاءت أكبر معوانٍ لهم على تفهُّم الأصل الانكليزي المقرَّر لامتحان هذا العام , فلم نشأ أن نؤخرها عنهم , وقصدنا الأول خدمة ناشئنا الراقية المتعلمة. وقد لاقت هذه الرواية رضى القرَّاء التام؛ ولا عجب فهي من تأليف نابغة واضعي الروايات التمثيلية. أما ترجمتها العربي فهي من خير ما أخرجتهُ الأقلام من حيث الانطباق التام على الأصل مع متانة في التركيب , وانسجام في الأسلوب؛ وبلاغة في التعبير. ولقد جاء الثناء العام على هذه الترجمة وتقدير الأدباء لها خير تقريظ لحضرة الكاتب المجيد <persName change="#d2e223 #d2e228" xml:lang="ar" xml:id="persName_14.d2e1710">سامي أفندي الجريديني</persName> المحامي. وبهذه المناسبة نعلن أننا قد جمعنا هذه الرواية على حدة وهي تطلب من إدارة ( <tei:num type="auto-markup" change="#d2e181 #d2e228" value="0" xml:lang="ar" xml:id="num_1.d2e1713">٠</tei:num> الزهور أو من مترجمها الفاضل في مصر وثمن النسخة خمسة غروش صاغ.
 <pb n="n3-p486" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1595.xhtml" change="#d2e228" xml:id="pb_30.d2e1716"/>

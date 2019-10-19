@@ -59,7 +59,7 @@
          <change when="2019-10-17" who="#pers_TG" change="d2e82 #d2e228" xml:lang="en" xml:id="change_4.d2e187">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes" change="#d2e228" xml:id="foreign_1.d2e189">qaṣīda</foreign>s from <gi change="#d2e223 #d2e228" xml:lang="en" xml:id="gi_1.d2e192">p</gi>s divided by a <gi change="#d2e223 #d2e228" xml:lang="en" xml:id="gi_2.d2e195">gap</gi> to <gi change="#d2e223 #d2e228" xml:lang="en" xml:id="gi_3.d2e198">l</gi> of <att change="#d2e223 #d2e228" xml:lang="en" xml:id="att_1.d2e201">type</att>="bayt" comprising two <gi change="#d2e223 #d2e228" xml:lang="en" xml:id="gi_4.d2e205">seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en" change="#d2e228" xml:id="gi_5.d2e212">tei:lb</tei:gi> into <tei:gi xml:lang="en" change="#d2e228" xml:id="gi_5.d2e215">xml:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of <tei:gi xml:lang="en" change="#d2e228" xml:id="gi_5.d2e221">tei:head</tei:gi> into <tei:gi xml:lang="en" change="#d2e228" xml:id="gi_5.d2e224">xml:div</tei:gi>s.</change>
-         <change when="2019-10-17" who="#pers_TG" xml:id="" xml:lang="en">Created this TEI P5 file by automatic conversion from ePub.</change>
+         <change when="2019-10-17" who="#pers_TG" xml:lang="en">Created this TEI P5 file by automatic conversion from ePub.</change>
       </revisionDesc>
    </teiHeader>
    <tei:text xml:lang="ar" change="#d2e228" xml:id="text_1.d2e233">
@@ -11833,7 +11833,7 @@
             </lg>
          </tei:div>
          <tei:div change="#d2e64 #d2e223 #d2e228" type="item" subtype="article" xml:lang="ar" xml:id="div_1.d2e22428">
-            <head change="#d2e223 #d2e228" xml:lang="ar" xml:id="head_118.d2e22430">محمد توفيق علي</head>
+            <head change="#d2e223 #d2e228" xml:lang="ar" xml:id="head_118.d2e22430"><persName>محمد توفيق علي</persName></head>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e22433">شاعر أديب أنيق الديباجة , واضح الأسلوب , شريف الغاية , سامي المرمى. وهو أحد شعراء مصر الذين تغنوا بالشعر تحت ظلال السيوف وخفق البنود. كان ضابطاً في الجيش فإذا خلا لنفسه من مهام الجندية , استيقظ الشاعر الرقيق في صدره , وحل القلم في يمينه محل الشيف. ففي السودان آثار جنديته وفي مصر وطنه الذي أحبه ملء جوارحه آثار شاعريته. وقد استعفي من الجيش وانقطع إلى مزرعة له مؤثراً صحبة المحراث على صحبة الشيف والقلم.</tei:p>
          </tei:div>
          <tei:div change="#d2e64 #d2e223 #d2e228" type="item" subtype="article" xml:lang="ar" xml:id="div_1.d2e22437">
