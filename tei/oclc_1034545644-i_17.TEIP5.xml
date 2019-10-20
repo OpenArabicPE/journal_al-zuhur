@@ -54,7 +54,7 @@
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2019-10-20" who="#pers_TG" xml:id="d3e261" xml:lang="en">Automatically added computed Gregorian dates to the <att>when</att> attributes of all non-Gregorian <gi>date</gi> elements.</change><tei:change xmlns:oape="https://openarabicpe.github.io/ns" when="2019-10-20" who="#pers_TG" xml:id="d3e237" xml:lang="en">Marked up dates by automatically wrapping all <tei:list><tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item><tei:item><tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item><tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item></tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change><change when="2019-10-20" who="#pers_TG" xml:id="d2e228" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change><tei:change when="2019-10-19" who="#pers_TG" change="d2e223 #d2e228" xml:lang="en" xml:id="change_1.d2e132">Added the <tei:att xml:lang="en" change="#d2e228" xml:id="att_1.d2e134">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change><tei:change when="2019-10-19" who="#pers_TG" xml:id="d3e209" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml" change="#d2e223 #d2e228" xml:lang="en" xml:id="ref_1.d2e139">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi change="#d2e223 #d2e228" xml:lang="en" xml:id="gi_1.d2e142">persName</tei:gi>s without such references based on <tei:gi change="#d2e223 #d2e228" xml:lang="en" xml:id="gi_1.d2e145">person</tei:gi>s in the local authority file. If the source <tei:gi change="#d2e223 #d2e228" xml:lang="en" xml:id="gi_1.d2e148">persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi change="#d2e223 #d2e228" xml:lang="en" xml:id="gi_1.d2e153">p</tei:gi>s inside <tei:gi change="#d2e223 #d2e228" xml:lang="en" xml:id="gi_1.d2e156">div</tei:gi>s as bylines (<tei:gi change="#d2e223 #d2e228" xml:lang="en" xml:id="gi_1.d2e159">byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en" change="#d2e228" xml:id="change_2.d2e162">Automatically marked up references to periodicals with <tei:tag change="#d2e223 #d2e228" xml:lang="en" xml:id="tag_1.d2e164">title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi change="#d2e223 #d2e228" xml:lang="en" xml:id="gi_1.d2e171">num</tei:gi> with <tei:att change="#d2e223 #d2e228" xml:lang="en" xml:id="att_1.d2e174">value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+      <revisionDesc><change when="2019-10-20" who="#pers_TG" xml:id="d2e269">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-10-20" who="#pers_TG" xml:id="d3e261" xml:lang="en">Automatically added computed Gregorian dates to the <att>when</att> attributes of all non-Gregorian <gi>date</gi> elements.</change><tei:change xmlns:oape="https://openarabicpe.github.io/ns" when="2019-10-20" who="#pers_TG" xml:id="d3e237" xml:lang="en">Marked up dates by automatically wrapping all <tei:list><tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item><tei:item><tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item><tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item></tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change><change when="2019-10-20" who="#pers_TG" xml:id="d2e228" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change><tei:change when="2019-10-19" who="#pers_TG" change="d2e223 #d2e228" xml:lang="en" xml:id="change_1.d2e132">Added the <tei:att xml:lang="en" change="#d2e228" xml:id="att_1.d2e134">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change><tei:change when="2019-10-19" who="#pers_TG" xml:id="d3e209" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml" change="#d2e223 #d2e228" xml:lang="en" xml:id="ref_1.d2e139">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi change="#d2e223 #d2e228" xml:lang="en" xml:id="gi_1.d2e142">persName</tei:gi>s without such references based on <tei:gi change="#d2e223 #d2e228" xml:lang="en" xml:id="gi_1.d2e145">person</tei:gi>s in the local authority file. If the source <tei:gi change="#d2e223 #d2e228" xml:lang="en" xml:id="gi_1.d2e148">persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><change when="2019-10-18" who="#pers_TG" xml:id="d2e198" xml:lang="en">Marked final <tei:gi change="#d2e223 #d2e228" xml:lang="en" xml:id="gi_1.d2e153">p</tei:gi>s inside <tei:gi change="#d2e223 #d2e228" xml:lang="en" xml:id="gi_1.d2e156">div</tei:gi>s as bylines (<tei:gi change="#d2e223 #d2e228" xml:lang="en" xml:id="gi_1.d2e159">byline</tei:gi>) if they did not exceed a string length of 60.</change><tei:change when="2019-10-18" who="#pers_TG" xml:lang="en" change="#d2e228" xml:id="change_2.d2e162">Automatically marked up references to periodicals with <tei:tag change="#d2e223 #d2e228" xml:lang="en" xml:id="tag_1.d2e164">title level="j"</tei:tag>.</tei:change><change when="2019-10-17" who="#pers_TG" xml:id="d3e189">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi change="#d2e223 #d2e228" xml:lang="en" xml:id="gi_1.d2e171">num</tei:gi> with <tei:att change="#d2e223 #d2e228" xml:lang="en" xml:id="att_1.d2e174">value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en" change="#d2e228" xml:id="gi_1.d2e180">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en" change="#d2e228" xml:id="gi_1.d2e183">tei:p</tei:gi>s.</change>
          <change when="2019-10-17" who="#pers_TG" change="d2e82 #d2e228" xml:lang="en" xml:id="change_4.d2e187">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes" change="#d2e228" xml:id="foreign_1.d2e189">qaṣīda</foreign>s from <gi change="#d2e223 #d2e228" xml:lang="en" xml:id="gi_1.d2e192">p</gi>s divided by a <gi change="#d2e223 #d2e228" xml:lang="en" xml:id="gi_2.d2e195">gap</gi> to <gi change="#d2e223 #d2e228" xml:lang="en" xml:id="gi_3.d2e198">l</gi> of <att change="#d2e223 #d2e228" xml:lang="en" xml:id="att_1.d2e201">type</att>="bayt" comprising two <gi change="#d2e223 #d2e228" xml:lang="en" xml:id="gi_4.d2e205">seg</gi> nodes.</change>
          <change when="2019-10-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of <tei:gi xml:lang="en" change="#d2e228" xml:id="gi_5.d2e212">tei:lb</tei:gi> into <tei:gi xml:lang="en" change="#d2e228" xml:id="gi_5.d2e215">xml:p</tei:gi>s.</change>
@@ -63,7 +63,7 @@
       </revisionDesc>
    </teiHeader>
    <tei:text xml:lang="ar" change="#d2e228" xml:id="text_1.d2e233">
-      <pb n="n2-p281" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P841.xhtml" change="#d2e228" xml:id="pb_1.d2e235"/>
+      <pb n="n2-p281" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P841.xhtml" change="#d2e228" xml:id="pb_1.d2e235"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="281"/>
       <tei:body change="#d2e223 #d2e228" xml:lang="ar" xml:id="body_1.d2e237">
          <tei:div change="#d2e64 #d2e223 #d2e228" type="item" subtype="article" xml:lang="ar" xml:id="div_1.d2e239">
             <head change="#d2e223 #d2e228" xml:lang="ar" xml:id="head_1.d2e241">العدد  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="17" xml:lang="ar" xml:id="num_1.d2e243">١٧</tei:num> </head>
@@ -76,7 +76,7 @@
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e265">وقد عادت الزهور إلى قرائها وعاد قراؤها إليها، والشوق ملء جوانح الفريقين، بعد فراق شهرين. فهي ترحب اليوم بالجميع وتسأل للجميع كل صفاء وهناء.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e268">* * *</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e272">نهنئ الجميع بسلامة العودة، ويلذ لنا اليوم أن نخصك بالتهنئة، أيها
-<pb n="n2-p282" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P842.xhtml" change="#d2e228" xml:id="pb_2.d2e274"/>
+<pb n="n2-p282" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P842.xhtml" change="#d2e228" xml:id="pb_2.d2e274"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="282"/>
 
 
 التلميذ العزيز العائد إلى رياض المدرسة لتجني من زهر الآداب والعلوم عسلاً شهياً لك ولأهلك وبلادك. نخصك بالتهاني، وجميع القراء يشاركوننا في ذلك، لأن فيهم أباك وأمك، وأخاك وأختك.</tei:p>
@@ -84,21 +84,21 @@
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e280">من يصف لنا ما دار في خلدك عند أو بتك إلى أهلك ظافراً غانماً أو خاسراً صفر اليدين؟ أو أي قلم يصور لنا ما كان في تقبيلك لأهلك وتقبيل أهلك لك من العواطف والمعاني؟</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e283">بهذه القبلة قلت لهم أنك فهمت ما يتكبدونه من الضحايا في سبيلك وسبيل تهذيبك إذا كان قد عدت ويداك مثقلتان بشهادات جدك، وإكليل الغار والظفر يعلو جبينك الوضاح المتلألئ بنور الغبطة والأمل. وكم كان إذ ذاك بقبلتهم لك من الفخر والابتهاج، لأنك شرفت اسمهم</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e286">الذي ستعرف به في المجتمع الإنساني، فأنسيتهم عرق الجبين وكد اليمين والنفقات الباهظة.
-<pb n="n2-p283" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P843.xhtml" change="#d2e228" xml:id="pb_3.d2e288"/>
+<pb n="n2-p283" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P843.xhtml" change="#d2e228" xml:id="pb_3.d2e288"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="283"/>
 
 
 بهذه القبلة عبرت لهم عن شديد أسفك على ما فات وعزمك الأكيد على الدرس والاجتهاد إذا كنت قد رجعت إليهم ولم تفلح وكم كان بقبلتهم له من اللوم والتأنيب على خمولك وأنت لم تكسب شيئاً في الجهاد الأول من هذه الحياة. . . .</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e291">كل هذه الأفكار والعواطف خالجت صدرك وصدر ذويك، فشعرت بفرح أو حزن، وشهروا بذاك الفرح أو هذا الحزن. فعزمت على مواصلة السير في خطتك الحميدة كما في الماضي، أو على التعويض بالدرس والتكفير بالجد عن ذلك الماضي.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e295">مضى الآن أكثر من شهرين على تولد هذه العواطف في صدرك. وقد قضيت هذا الردح من الزمن بين القمم الخضرة والمناظر النضرة، إذا كان أهلك من ذوي اليسار، فتنقلت بين ربى لبنان أو سويسرا، وزرت آثار الحضارة الجليلة في عواصم أوروبا، فانفتحت نفسك لشعر الطبيعة وسجدت مخيلتك لذكاء الأمم الراقية، أو أنك بقيت في بلدك تطالع وتدرس حركة الزراعة والأسواق تحت إدارة أبيك أو ولي أمرك فطبع فيك حب العمل والسعي وراء الرزق. وعلى كل فقد قضيت هذه الأيام بين ذويك، فجددت نشاطك وقواك وادخرت في المعيشة العائلية حزماً جديداً وعزماً أكيداً.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e298">ما أعظم ما كان تأثيرك أيها التلميذ العزيز عندما نزعت ورقة التقويم اليومي فوجدت مسطراً على الورقة التي تليها بحرف ضخم أول أكتوبر وهو تاريخ العودة إلى المدرسة.
-<pb n="n2-p284" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P844.xhtml" change="#d2e228" xml:id="pb_4.d2e300"/>
+<pb n="n2-p284" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P844.xhtml" change="#d2e228" xml:id="pb_4.d2e300"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="284"/>
 
 
 منذ شهرين استقبلك أهلك بقبلة اللقاء، واليوم يستودعونك الله بقبلة الوداع. وليست هذه القبلة بأقل من الأولى معنى ورمزاً. فتحوا ذراعيهم لضمك إلى صدرهم بعد عشرة أشهر قضيتها بين المحابر والأوراق، وهم يفتحونهما الآن لوداعك بعد شهرين قضيتهما بالقرب منهم. يودعونك ولسان حالهم يقول.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e303">سر يا ولدي بالله الله مسراك، واقض سنتك المدرسية جاداً منعكفاً على دروسك مطيعاً لرؤسائك محباً لرفقائك، فترد منهل المعارف وترتشف كأس العلوم وتعود إلينا أكمل عقلاً وأوسع فكراً وأغزر أدباً وأكثر علماً. ضع نصب عينيك مستقبلك فهو سيكون غداً ما تريده اليوم فتحصد آتياً ما تزرعه حاضراً. أنت عماد بيتك وعصا شيخوخة أهلك، أنت محط</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e306">آمالنا ووارث شرفنا واسمنا وكل ما لنا. . . وعليك أن لا تنسى أنه لا منفذ للإنسان ولا معين في هذا الإعصار الهائل الذي ثارت رياحه وعصفت عواصفه على المجتمع الإنساني إلا الفضيلة والعلم فاجعل الكتاب أليفك والجد حليفك لتكون رجلاً نافعاً لبلادك وعضواً عاملاً على ترقية أبناء جنسك.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e309">هذا بعض ما تقوله لك ساعة الوداع قبلة أبيك الحنون يا منتهى أمله وقبلة امك المحبوبة يا نور عينها ولن نزيد عليها شيئاً لأن فيها أحسن فصاحة وأبلغ بيان بل نقول لك: لا تنس هذه النصائح التي أملاها عليك قلب أعز الناس إليك، بل اتخذها دليلاً ومرشداً لك فهي تشدد عزيمتك حين التهاون والخمول، وتجدد أملك ساعة اليأس والقنوط. . .
-<pb n="n2-p285" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P845.xhtml" change="#d2e228" xml:id="pb_5.d2e311"/>
+<pb n="n2-p285" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P845.xhtml" change="#d2e228" xml:id="pb_5.d2e311"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="285"/>
 
 
             </tei:p>
@@ -114,7 +114,7 @@
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e339">* * *</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e342">أسأل: أين هي؟ فلا أعلم. . . ومن هي؟ فلا أدري. . . وكيف هي؟ فلا أعرف. . . لساني قاصر عن وصفها، وقلمي عاجز عن تصويرها.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e345">لا يعرفها غيري ليهديني إليها، أو يهديها إلي. لأني أنا أيضاً أجهلها وتكاد نفسي أيضاً تجهلها، فأفتش عنها ولا أجدها.
-<pb n="n2-p286" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P846.xhtml" change="#d2e228" xml:id="pb_6.d2e347"/>
+<pb n="n2-p286" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P846.xhtml" change="#d2e228" xml:id="pb_6.d2e347"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="286"/>
 
 
 أغمض عيني عما أرى، وأصم أذني عما أسمع، فأضيع في عالم الخيال فيتراءى لناظري شخصها بني خيالات الأوهام، وينساب إلى مسمعي صوتها بين حفيف الأحلام. فأتوهم أني عرفتها أو عرفت بعض الشيء عنها. فإذا ما عدت إلى عالم الحقيقة أراني عاجزاً عن إعادة بعض ما رأيت وسمعت أو ما توهمت أني راءٍ وسامع.</tei:p>
@@ -125,7 +125,7 @@
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e363">فهل أجد من تكون غصن شبابي لأزهر، وزهرة ربيعي لأثمر، وندى أيامي لأحيا، ودرة عيشتي لأتحلى، وقصيدة أيامي لأتغنى. . .؟</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e366">فتشت عنها وإلى الآن لم أجدها. ولقد تكون فتشت عني فلم تجدني. ولعلها هناك وأنا أبحث هنا، وقد تكون هنا وأنا أفتش هناك فهل تلتقي نفسانا؟ ومتى تلتقيان. .؟</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e369">سأبحث عنها حتى أجدها، لأنها موجودة. ولن أزال أنشدها حتى التقي بها تلك الضالة المنشودة.
-<pb n="n2-p287" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P847.xhtml" change="#d2e228" xml:id="pb_7.d2e371"/>
+<pb n="n2-p287" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P847.xhtml" change="#d2e228" xml:id="pb_7.d2e371"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="287"/>
 
 
             </tei:p>
@@ -136,7 +136,7 @@
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e383">أرسل إلينا حضرة مراسلنا البغدادي الفاضل <persName change="#d3e209 #d2e223 #d2e228" ref="oape:pers:227 viaf:39370998" xml:lang="ar" xml:id="persName_2.d2e385">ساتسنا</persName> تابع البحث عن بلاد العرب الذي نشرنا منه قسماً في الزهور هذه السنة (ج  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="4" xml:lang="ar" xml:id="num_1.d2e388">٤</tei:num>  ص  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="176" xml:lang="ar" xml:id="num_1.d2e391">١٧٦</tei:num>  وج  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="5" xml:lang="ar" xml:id="num_1.d2e394">٥</tei:num>  ص  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="233" xml:lang="ar" xml:id="num_1.d2e397">٢٣٣</tei:num> ) وهو البحث الذي وضعه خصيصاً لقراء مجلتنا بمساعدة حضرة الألمعي سليمان أفندي الدخيل <persName change="#d2e223 #d2e228" xml:lang="ar" xml:id="persName_3.d2e401">صاحب جريدة <tei:title level="j" change="#d2e193 #d2e223 #d2e228" xml:lang="ar" xml:id="title_7.d2e403">الرياض</tei:title></persName> الزاهرة. وما جاء في المقالة بين قوسين هو لمراسلنا والباقي للصحافي البغدادي الأديب.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e407">رأيت من مقالتنا الأولى أن ديار نجد واقعة في إقليم تحيط به النفود إحاطة الهالة بالقمر، بحيث أن الطبيعة قد عزلتها عن سائر البلاد وجعلت العلوم والآداب لا تصل إليها إلا بعد تجشم المشاق التي لا تطاق. هذا فضلاً عن أن هناك سبباً آخر أوقف سير نجد في سبيل التقدم ومجاراة أهل سائر الأقطار في رقي سلم المعارف وهو أنها أصبحت منذ الإعصار المتوغلة في ظلمات القدم طريقاً للحاج ينتابه العرب منسلين إليه من كل حدب سحيق وشعب عميق. على أن الاختلاف إلى تلك الديار أصبح أعظم من سابق منذ استحكام قدم الإسلام في الأرض، فغدت نجد من الديار ولهذا ازدادت رغبة النجديين في الترحيب بالحاج واستقبالهم وحسن ضيافتهم، ولم تعد الحال تمكنهم من أن يتفرغوا لغير القرى وما ضارعه من الأمور التي تنشأ منه أو تستند إليه.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e410">ولهذا السبب لما ظهر الإسلام ودان أهل نجد به خفت أتعابهم
-<pb n="n2-p288" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P848.xhtml" change="#d2e228" xml:id="pb_8.d2e412"/>
+<pb n="n2-p288" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P848.xhtml" change="#d2e228" xml:id="pb_8.d2e412"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="288"/>
 
 
 لقلة مؤونة ما يطلبه الإيمان منهم وعلى هذا المبدأ قلنا في مقالتنا الأولى: إن أهل نجد يعتمدون في ديانتهم واعتقادهم على الكتاب والسنة.</tei:p>
@@ -144,7 +144,7 @@
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e419">نجد في سالف العهد</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e422">إذا هبطت ديار نجد وتجولت في أنحائها تجول مفكر متدبر تعثر فيها على آثار تدلك دلالة</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e425">واضحة على أنها كانت في العهد القديم معهد حضارة ومنتجع علم مرتاد عمران راق وأن لم تكن على نحو غيرها التي كشف لنا تاريخها عن أحوالها وما كانت عليه من العروق في المدنية والشموخ في العز والأصالة في العلم والحضارة؛ ترى اليوم في المغاور والكهوف المنقورة في الأودية والجبال البعيدة عن السكنى ما يدهشك من الآثار؛ ترى رسوم كتابة ورقماً لا تشبه كتابتها الكتابة الإفرنجية ولا العربية بل هي كتابة خصوصية لعلها كلدانية قديمة أو نبطية أو مسند أو ما ضاهى هذه الكتابات القديمة؛ ترى عاديات وآثاراً وهياكل كالتي تشاهد مثلاً في سدوس قرب بلدة ملهم إذ هناك تمثال دفعت بدلاً عنه دولة أوروبية مبلغاً طائلاً من المال فأبى أصحابه بيعه؛ ترى أبنية فخمة ضخمة وآثاراً جليلة تشهد بأن بناتها كانوا أهل جد وجهد وجلد،
-<pb n="n2-p289" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P849.xhtml" change="#d2e228" xml:id="pb_9.d2e427"/>
+<pb n="n2-p289" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P849.xhtml" change="#d2e228" xml:id="pb_9.d2e427"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="289"/>
 
 
 وأن لهم مهارة عجيبة بأعمال الهندسة والبناء لارتفاعها في الهواء وحسن نظام أجزائها، وتناسبها وبديع مجاورتها بعضها لبعض.</tei:p>
@@ -152,13 +152,13 @@
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e433">ومن بعد أن بعث الحكيم (- صلى الله عليه وسلم -) بالهدى والحق وانتشر الدين الإسلامية في هاتيك الربوع، عم بلاد نجد من جملة ما عم. فسار أهلها على هذه الطريقة المثلى، وبيد أن الحوادث التي طرأت على قادة الأمة من بعد أبي بكر وعمر رضه شغلتهم عن مشارفة تلك البلاد فأهملوها؛ هذا من جهة، ومن الجهة الأخرى أن الحروب والمنازعات والاختلافات شغلت أهالي نجد عن الإمعان في حقائق دينهم فمرت عليهم السنون الطويلة وهم يحبون في الإيمان والاعتقاد إلى أن وصل الحال بهم إلى درجة أصبحوا فيها وقد تعددت فيهم الأوهام والخرافات ولاعتقادات الباطلة بالشجر والمطر والبحر والنجم وعبادات القبور والعكوف عليها والاعتقاد بأهلها النفع والضرر إلى غير ذلك مما للعراق فيه اليوم النصيب الأوفر والحظ الأكبر رغماً عن انتشار العلم فيه. وبقي أهل نجد في هذه الحالة وليس لهم سوى الحرب والضرب ولاعتقاد الضار بالإنسان ديناً ودنيا وأخرى وليس لهم من الدين الحق إلا الاسم وذلك إلى زمن الشيخ محمد عبد الوهاب.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e437">نجد في عهد الشيخ محمد عبد الوهاب</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e440">نشأ الشيخ محمد رحمه الله في بلدة العُيَيْنَة في حضن والده عبد الوهاب
-<pb n="n2-p290" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P850.xhtml" change="#d2e228" xml:id="pb_10.d2e442"/>
+<pb n="n2-p290" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P850.xhtml" change="#d2e228" xml:id="pb_10.d2e442"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="290"/>
 
 
 بن سليمان فرباه أحسن تربية ولقنه العلم هو بنفسه، وكان والده حينئذ قاضياً في بلدة العيينة من قبل حاكمها</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e445">الأمير عبد الله بن محمد بن حمد المعمر، ولما كان الشيخ محمد بن عبد الوهاب كثي المطالعة والتدبر والتفكر شديد الشوق إلى العلم وطلبه، حدثته نفسه بأن يسير في طلب العلم إلى بلاد أخرى فحج ثم سار إلى المدينة فاتصل بالشيخين: عبد الله بن إبراهيم مؤلف كتاب العذب الفائض في علم الفرائض، والشيخ محمد حياة السنوي المدني، فأقام عندهما مدة ثم رجع إلى نجد ومن هناك سار إلى البصرة فبغداد وهو في هذه الأثناء يتزود الكفاية من علم التوحيد والفقه وسائر العلوم. ثم حاول المسير إلى الشام فمصر ولكن صده عارض في الطريق فرجع أدراجه إلى بلاده حاملاً من زاد العلم ما لم يتسن لأحد غيره في وقته. ثم ذهب لرؤية والده وكان يومئذ في حرَيْملا وسبب تحول الوالد إلى هذه البلدة هو أنه في غياب الشيخ محمد توفى الله الأمير عبد الله وخلفه في الإمارة ابنه محمد فعزل والد الشيخ عبد الوهاب بن سليمان عن القضاء وأقام مكانه أحمد بن عبد الله بن عبد الوهاب ورحل عبد الوهاب القاضي إلى حريملا</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e448">ولما ثبتت قدمه عند والده باشر الشيخ تزييف الخرافات والبدع والأضاليل وشمر عن ساعده لإبادة الأوهام المضرة بالدين وأخذ بنشر الاعتقاد الصحيح الذي لا يأتيه الباطل من بين يديه ولا من خلفه.
-<pb n="n2-p291" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P851.xhtml" change="#d2e228" xml:id="pb_11.d2e450"/>
+<pb n="n2-p291" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P851.xhtml" change="#d2e228" xml:id="pb_11.d2e450"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="291"/>
 
 
 هرب الشيخ محمد بن عبد الوهاب من بلدة حريملا</tei:p>
@@ -166,14 +166,14 @@
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e456">ولما أسفر الصباح رحل إلى بلدة العيينة وكان محمد الأمير قد توفاه الله وقبض على زمام الإمارة من بعده عثمان بن حمد بن معمر، فتلقاه الأمير عثمان بالتجلة والترحاب والإكرام التام، وهناك أخذ يبث حقائق التوحيد، والأمير عثمان يتعهده بحفظ حياته ونصره على أعدائه.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e460">حكاية الشجرة والقبة</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e463">وقد طلب الشيخ إلى الأمير أن يقطع شجرة كانت تعبد في البلدة وأن يهدم قبة زيد بن الخطاب رضه فتمنع الأمير، وبعد ذلك ألح الشيخ عليه وأقنعه فأذن له في الآخر. ثم طلب إليه أن يسير هو أيضاً معه فسار الأمير مع الشيخ ومعهما ستمائة فارس ولما وصلوا إلى المحل المطلوب قطعت الشجرة وهدمت القبة، وكانت قرب بلدة الجبيلة. فكان ذلك العمل من أخطر الأعمال التي أتاها الشيخ.
-<pb n="n2-p292" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P852.xhtml" change="#d2e228" xml:id="pb_12.d2e465"/>
+<pb n="n2-p292" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P852.xhtml" change="#d2e228" xml:id="pb_12.d2e465"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="292"/>
 
 
 أمير الإحساء</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e468">ما فعل الشيخ هذا الفعل إلا واشتهر أمره ونبه ذكره، فبلغ خبره أمير الإحساء سليمان بن محمد، وكان ذا قوة وبأس شديد، فبعث إلى عثمان بن محمد بن معمر يتهدده بقطع رواتبه عنه والسير إليه إن لم يطرد الشيخ من بلاده. فأذن حينئذ الشيخ عثمان للشيح محمد بن عبد الوهاب أن يسافر إلى حيث يريد.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e471">الدرعية</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e474">فاختار الشيخ الذهاب إلى بلدة الدرعية فسار وسير الشيخ عثمان معه جماعة تحافظ عليه من أعدائه حتى وصل إلى الدرعية، فحل ضيفاً عند عبد الله بن عبد الرحمن بن سويلم أحد أعيانها. ثم علم به بعض كبار الدرعية فزاروه، ولما اطلعوا على مبدأه استحسنوه وأحبوه. ثم أرادوا أن يسعوا عند أميرها محمد بن سعود لينزله ضيفاً عنده فتخوفوا. ففاوضوا بذلك أخاه ثنيان الأعمى وزوجته وأخاه شاري، فاتفق الجميع على تحقيق ما في الأمنية، فتم الأمر وذلك أن الأمير لما دخل قصره وقابل زوجته اجتمع به أخوه وعرضا عليه الأمر مع زوجة الأمير وأشاروا عليه بإكرامه واحترامه. فسار إليه برجله ثم أخذه من عند عبد الله السالف الذكر وجاء به إلى قصره فاحتفى به أحسن الاحتفاء وأعزه وقام مؤيداً لدعوته بكل قوته. فأخذ الناس يفدون إلى الدرعية أفواجاً أفواجاً فازدادت بذلك قوة الأمير بل تضاعفت وشرع يكاتب بلدان نجد وقراها ويدعوها
-<pb n="n2-p293" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P853.xhtml" change="#d2e228" xml:id="pb_13.d2e476"/>
+<pb n="n2-p293" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P853.xhtml" change="#d2e228" xml:id="pb_13.d2e476"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="293"/>
 
 
 إلى طريق الحق، وما لبث أياماً قلائل إلا وخضعت له القبائل ودانت له أغلب البلدان. ومازالت الإمارة في امتداد واتساع حتى أصبحت دولة آل سعود في درجة لو وفق أمراؤها الذين تسلموا قيادة زمامها في آخر أيامها إلى ثروة ومد نظر في السياسة لغدت اليوم من أعظم الدول الإسلامية قوة وسطوة ورهبة</tei:p>
@@ -188,7 +188,7 @@
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e499">للكاتب الاجتماعي لامينه</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e502"> <tei:num type="auto-markup" change="#d2e181 #d2e228" value="1" xml:lang="ar" xml:id="num_1.d2e504">١</tei:num> </tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e508">أعيروا السمع وقولا لنا من أين يأتي ذاك الدوي المصم الغريب
-<pb n="n2-p294" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P854.xhtml" change="#d2e228" xml:id="pb_14.d2e510"/>
+<pb n="n2-p294" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P854.xhtml" change="#d2e228" xml:id="pb_14.d2e510"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="294"/>
 
 
 الذي يسمع في الجوانب كافة؟</tei:p>
@@ -202,7 +202,7 @@
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e536">- وماذا ترى أيضاً يا ابن الإنسان؟</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e539">أرى الغبار يتصاعد فينعقد سحباً في الفضاء البعيد، فتنتشر في الأرجاء وهي تختلط وتتصادم مارة فوق المدن فتبدو كالسهول.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e542">وأرى الشعوب تهب أفواجاً والملوك يضطربون فوق عروشهم. فهناك إذن حرب قائمة.
-<pb n="n2-p295" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P855.xhtml" change="#d2e228" xml:id="pb_15.d2e544"/>
+<pb n="n2-p295" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P855.xhtml" change="#d2e228" xml:id="pb_15.d2e544"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="295"/>
 
 
 وأرى عرشاً بل عرشين قد تحطما وبددت الشعوب بقاياهما.</tei:p>
@@ -214,7 +214,7 @@
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e563">وأرى ساحة شاسعة قد أقيم فيها بنيان شاهق توارى بين الستائر السوداء.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e566">وأرى الشرق يضطرب ناظراً مذهولاً إلى انهيار آثاره الشاهقة وتحول معابده الصوانية إلى رماد، باحثاً في طيات الوجود عن عظمة زاهرة يستعيض بها عظمة زالت، ومجد جديد يقام على أطلال مجد قد اندثر.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e569">وأرى حسناء في الغرب حادة العينين عالية الجبين وضاحة الوجه ممسكة مرقماً لا تحركه أناملها مسطرة كلمة حتى تهتف لها الشعوب وتحييها الناشئات وتمجدها الأفئدة.
-<pb n="n2-p296" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P856.xhtml" change="#d2e228" xml:id="pb_16.d2e571"/>
+<pb n="n2-p296" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P856.xhtml" change="#d2e228" xml:id="pb_16.d2e571"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="296"/>
 
 
 وأرى في الشمال رجالاً يكتنفهم برد أبدي فاستعانوا عليه بحرارة الإيمان.</tei:p>
@@ -227,7 +227,7 @@
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e596">فرأينا الثعبان قد أخذ يزحف بينهم موجهاً عينيه النافذتين إلى الكثيرين فاستهواهم فاضطربت منهم النفوس، ودنا بعضهم من بعض فهمس الثعبان في آذانهم بضع كلمات أصغوا إليها لاهثين ثم أنهم قالوا إننا ملوك.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e600">وللحال امتقعت الشمس واصطبغت الأرض بصبغة الحداد ثم سمعت ضوضاء شديدة عقبتها أنة طويلة تلتها رعدة استولت على النفوس.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e603">فقل إذن إن الساعة كانت كساعة الطوفان. وساد الرعب على
-<pb n="n2-p297" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P857.xhtml" change="#d2e228" xml:id="pb_17.d2e605"/>
+<pb n="n2-p297" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P857.xhtml" change="#d2e228" xml:id="pb_17.d2e605"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="297"/>
 
 
 الأكواخ - حيث لم يكن هناك قصور - واستسلم القاطنون بها إلى مفزعات الأوهام والوساوس وتولتهم رجفة.</tei:p>
@@ -239,7 +239,7 @@
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e624">ولم يصل إلى آذاننا بعد ذلك سوى خليط أصوات مبهمة رامزة إلى الضحك والزفير والسب.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e627">ففهمنا أن الشر سائد فبكينا بكاء مراً تلاه انتعاش في النفس بدا لأمل تولد، ألا وهو أن ذاك الشر الواقع إنما هو مقدمة للخير المقبل.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e630">لاح لنا هذا كله كما وقع في حينه ولاح لنا ذاك الخير، فقل إذن أن الإنسانية ستتحرر فتنطلق من عقالها ويهوي أولئك الذين قالوا إننا ملوك إلى الكهف نفسه فيجدون الثعبان يتلظى.
-<pb n="n2-p298" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P858.xhtml" change="#d2e228" xml:id="pb_18.d2e632"/>
+<pb n="n2-p298" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P858.xhtml" change="#d2e228" xml:id="pb_18.d2e632"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="298"/>
 
 
  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="3" xml:lang="ar" xml:id="num_1.d2e634">٣</tei:num> </tei:p>
@@ -251,7 +251,7 @@
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e654">تفضي إصابة العضو بأذى إلى تألم الجسم كله، وأنتم هذا الجسم، فتحاشوا وقوع الأذى بالعضو ولا تدعوه يسقط تحت نير، فإن في ذلك سقوط المجموع، ولا تكونوا كذاك القطيع الذي ينقض عليه الذئب فيفترس منه كبشاً حتى إذا عاوده الجوع عاود الافتراس. نعم لا تكونوا كذلك ميلاً منكم إلى الظن بأن افتراس الكبش الأول يعود عليكم بما كان له من النصيب في المرعى، فإنه لظن يؤدي بصاحبه إلى ان يكون الفريسة السائغة لذاك الوحش الذي يروي ظمأه بالدماء ويسد سبغه باللحم.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e657"> <tei:num type="auto-markup" change="#d2e181 #d2e228" value="4" xml:lang="ar" xml:id="num_1.d2e659">٤</tei:num> </tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e663">إن صادفتم رجلاً يقاد إلى الإعدام أو السجن، فلا تتسرعوا في
-<pb n="n2-p299" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P859.xhtml" change="#d2e228" xml:id="pb_19.d2e665"/>
+<pb n="n2-p299" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P859.xhtml" change="#d2e228" xml:id="pb_19.d2e665"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="299"/>
 
 
 القول بأنه رجل شر يجب أن يبتر، إذ أنه يجوز أن يكون رجل خير قد رغب في خدمة الإنسان فعاقبه مضطهدو الإنسان بالقتل أو بالسجن.</tei:p>
@@ -263,19 +263,19 @@
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e683">عواصم البلاد ومتحفها ومعابدها وآثارها - المكتبة العمومية - سراي الملك والاصطبلات - زيارة الشاعر روستان في جبال كامبو - مصارعة الثيران - لعبة بلوت باسك</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e686">وعدتكم ووعد الحر دين، أن أوافيكم ببعض الأخبار عن سياحتي في البلاد الإسبانية، وكنت أود كثيراً ان أقوم بالوعد أحسن قيام، لولا شواغل كثيرة تحول دون بلوغ المرام، وما أكثر شواغل الأيام! خصوصاً لمن كان معها في جهاد وخصام. . . ولكني بحمد الله قد فزت الآن بما أرجو بالرغم من العقبات التي حاول أن يضعها في سبيلي ذوو الغايات فأزالتها يد الحقيقة ومهدت لي السبيل.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e689">إذا اعتاد الفتى خوض المنايا <gap resp="#org_MS" change="#d2e228" xml:id="gap_1.d2e691"/> فأسهل ما يمر به الوحول
-<pb n="n2-p300" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P860.xhtml" change="#d2e228" xml:id="pb_20.d2e693"/>
+<pb n="n2-p300" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P860.xhtml" change="#d2e228" xml:id="pb_20.d2e693"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="300"/>
 
 
 أختلس هذه الفرصة من وقتي لأحرر لكم ما يجول بالخاطر مما شاهدته النواظر فعسى أن يكون به تفكهة لقراء الزهور وأني أعدكم بتفصيلات أهم وأخبار أتم، عند إنهاء سياحتي في هذه البلاد.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e696">إسبانيا بلاد جميلة تشبه كثيراً جبال لبنان بحسن مناظرها وعذوبة مائها وأخلاق رجالها وخلق وعادات نسائها. ولكنها أكثر منه عمراناً، وجبالها أقل منه وهاداً، وبعضها قاحل وأغلبها تكسوه الخضرة الجميلة والأشجار الباسقة وأكثرها من صنف الحور والسنديان والزيتون والصنوبر. وقد يستخرجون من هذا الشجر الأخير المادة الصمغية الموجودة فيه، ويبيعونها بأسعار غالية. أما في بلادنا فلا يستفيد الأهالي شيئاً تقريباً من شجر الصنوبر مع كثرة وجوده.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e700">برشلونة: مدينة جميلة جداً وفيها كثير من البنايات البديعة، وشوارعها في غاية الإتقان والانتظام، ومركزها الطبيعي أشبه شيء بمركز مدينة بيروت، تبتدي بناياتها من المرفأ وتنتهي بعلو متتابع إلى جبل عال يحيط بها عن قرب. وفي أعلى ذلك الجبل أقامت شركة إنكليزية بنايات بغاية الإتقان وفنادق وقهوات وتياترات وكنائس ومحلات ألعاب مختلفة وقد سموا تلك القمة إشارة إلى ذلك الجبل العالي الذي صعد إليه الشيطان وقال للسيد المسيح: انظر إلى هذه الممالك التي تحت سلطتي. . . إلخ حينما أراد استغواءه كما جاء في الإنجيل. وفي الحقيقة إن المنظر من ذلك العلو الشاهق من أبدع ما يمكن أن تتصوره الأفكار ومنه تشاهد شوارع البلدة في غاية التنسيق والإبداع تكتنفها الأشجار
-<pb n="n2-p301" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P861.xhtml" change="#d2e228" xml:id="pb_21.d2e702"/>
+<pb n="n2-p301" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P861.xhtml" change="#d2e228" xml:id="pb_21.d2e702"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="301"/>
 
 
 من الجانبين بكمال الترتيب. وطريقة الوصول إلى ذلك الجبل بواسطة سكة حديد فينيكيلير كهربائي جليل الفائدة لأنه يسر بواسطة تكافؤ القوى، فعند صعود القطر يوجد قطر آخر ينزل والواحد متصل بالثاني بواسطة شريط واحد. وحين الوصول إلى منتصف الطريق يفترقان بواسطة شريط خصوصي وهكذا يأخذ كل منهما طريق الآخر، فيصل الصاعد والنازل في آن واحد والمسافة التي يقطعها ذلك الفينيكيلير هي  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="1180" xml:lang="ar" xml:id="num_1.d2e704">١١٨٠</tei:num>  متراً.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e708">وبرشلونة هذه بلدة تجارية كثيرة المصانع والمعامل وأهلها أكثر شدة وحماسة من أهالي العاصمة. ولذلك ترى عدد الثورويين في برشلونة أكثر بكثير منه في مدريد. ويوجد فيها كما في كل إسبانيا تقريباً عدد كبير من الكنائس الضخمة الكثيرة الإتقان الدالة على ما وصلت إليه عظمة الدين في الأيام السالفة في هذه البلاد. وأهم الكنائس التي شاهدتها هي في برشلونة وساجوسا (سرقسطة) وبرجس ودير الاسكوريال الشهير بضواحي مدريد الذي فيه بانتيون ملوك إسبانيا وعظماء رجالها وسوف يأتي الكلام عن ذلك. وأما عموم هذه الكنائس فهي أشبه بقلاع متينة ومعارض ومتاحف عظيمة لكثرة ما تحويه من التماثيل والصور البديعة وعواميد الذهب الضخمة والآنية الفاخرة والآثار التاريخية الجليلة. وأما الأندلس ففيها من الجوامع والآثار العربية العظيمة ما سوف نأتي على ذكره بعد.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e711">مدريد: عاصمة الإسبان مدينة جميلة أيضاً تمتاز خصوصاً بمعرض
-<pb n="n2-p302" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P862.xhtml" change="#d2e228" xml:id="pb_22.d2e713"/>
+<pb n="n2-p302" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P862.xhtml" change="#d2e228" xml:id="pb_22.d2e713"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="302"/>
 
 
 التصوير العظيم الموجود فيها، ويحتوي على أبدع ما خطته ورسمته أيدي البارعين في هذا الفن الجميل. وأكبر البنايات التي شاهدتها بعد قصر جلالة الملك هي البنك الإسباني الملوكي والمتحف ودار الكتب الوطنية. وهما بناية واحدة وقد زرتها وسررت كثيراً بما شاهدته في الكتبخانة الوطنية من الكتب العربية القديمة. وأما مكتبة دير الاسكوريال فهي أهم من مكتبة مدريد وقد عثرت أثناء مطالعتي فيها على الأبيات الآتية التي انقلها لقراء الزهور من باب التفكهة:</tei:p>
@@ -343,7 +343,7 @@
                   <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e838">وتسبي قلوب العالمين بلحظها</tei:seg>
                </tei:l>
             </lg>
-            <pb n="n2-p303" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P863.xhtml" change="#d2e228" xml:id="pb_23.d2e844"/>
+            <pb n="n2-p303" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P863.xhtml" change="#d2e228" xml:id="pb_23.d2e844"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="303"/>
             <lg change="#d2e82 #d2e223 #d2e228" xml:lang="ar" xml:id="lg_6.d2e846">
                <tei:l type="bayt" change="#d2e82 #d2e223 #d2e228" xml:lang="ar" xml:id="l_1.d2e848">
                   <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e850">تصاممت قصداً كي يطول حديثها</tei:seg> 
@@ -387,7 +387,7 @@
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e925">وكثير من هذا القبيل مما لا محل لذكره الآن.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e928">وأما القصر الملوكي فهو أكثر جمالاً وعظمةً داخلاً وخارجاً من سراي عابدين بمصر. وقد زرت ذلك القصر الجميل بتصريح خصوصي في صحبة نجل الجنرال ميلانس دلبوش قائد فرقة الخيالة والصديق الحميم لجلالة الملك. وهو قائم على رأس رابية في الحد الغربي من المدينة. وعلى الجانب القبلي توجد الاصطبلات والعربخانات الملوكية، وقد زرتها</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e931">أيضاً ودهشت كثيراً لما فيها من العظمة والغنى. فإن في الاصطبل الملكي  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="154" xml:lang="ar" xml:id="num_1.d2e933">١٥٤</tei:num>  حصاناً من جياد الخيل بعضها للحفلات الرسمية وبعضها للأيام العادية والبعض الآخر للحاشية الخاصة، وقسمٌ كبير من الخيل مهدى إلى جلالة الملك من الجمهورية الفضية وملك إنكلترا وبعض الأمراء. وأما العربات فهي على جانب كبير من العظمة، أغلبها محلى بالذهب ومكسو بالحرير الغالي والبرونز الثمين، والعربات الليلية مصفحة داخلاً بالحديد
-<pb n="n2-p304" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P864.xhtml" change="#d2e228" xml:id="pb_24.d2e936"/>
+<pb n="n2-p304" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P864.xhtml" change="#d2e228" xml:id="pb_24.d2e936"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="304"/>
 
 
 حذراً من طوارئ الفوضويين حتى أن الديناميت لا يكاد يؤثر فيها.</tei:p>
@@ -396,28 +396,28 @@
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e945">وفي آخر المدينة من الجهة القبلية أنشأت الحكومة حديثاً حديقة كبيرة مترامية الأطراف جميلة التنسيق شوارعها أشبه شيء بملتوياتها بشوارع التي حلت محل القصر العالي بمصر الآن وهو ما يسمونه</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e949">وهذه الحديقة الغناء كثيرة المرتفعات والمنخفضات تكسوها الخضرة الجميلة وتعلوها الأشجار الباسقة وتتخللها جداول كثيرة من الماء في غاية التنسيق والإبداع.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e952">والمقاعد كثيرة لأنها محل نزهة مشهور يقصدها أغلب العائلات
-<pb n="n2-p305" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P865.xhtml" change="#d2e228" xml:id="pb_25.d2e954"/>
+<pb n="n2-p305" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P865.xhtml" change="#d2e228" xml:id="pb_25.d2e954"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="305"/>
 
 
 وخصوصاً الأولاد. وعلى جانبي هذه الحديقة شارعان كبيران تسير فيهما المركبات والسيارات. وفي أغلب المواقف ترى تماثيل لطيفة لبعض مشاهير رجال الإسبان. وفي الآخر تقريباً قامت قبة جميلة الصنع تحيط بها من الجهات الأربع عواميد الرخام العظيمة، وفي أعلاها الكرة الأرضية وفوقها غادة حسناء حاملةً إكليلاً من الغار ولوحةً منقوشة مكتوباً عليها الوطن بأحرف</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e957">ذهبية كبيرة.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e960">ويتراءى في هذه الحديقة الغناء وما هي عليه من الكبر مع كثرة منخفضاتها ومرتفعاتها وتكاثف أشجارها وكثرة جداولها واخضرار أرضها أنه في جبال كامبو اللطيفة الشهيرة في فرنسا وهي موطن الشاعر الشهير ادمون روستان. وقد زرته أخيراً في قصره الجميل فقابلني بمزيد الإكرام وأهدى إلي بعض مؤلفاته وكتب عليها تذكاراً جميلاً. وقصر ذلك الشاعر الطائر الصيت قائم على رأس جبل عالٍ تحيط به أشجار كثيفة في حديقة غناء بديعة الإتقان كثيرة الأزهار، وفي وسطها بحيرة كبيرة تحيط بها التماثيل الجميلة، وعلى الجانبين مساكن الطيور المختلفة الأجناس والطاووس بريشه الجميل يسرح بين تلك الأزاهر. ولا بدع إن خطت يد ذلك النابغة أبدع الأشعار وجادت قريحته بأحسن الأفكار لأن الجالس في مكتبة الفاخر يشاهد من جمال المناظر الطبيعية ما يعجز عن وصفه أبلغ الأقلام.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e963">ويظهر أن لمدام روستان فضلاً عظيماً في مساعدة زوجها في مؤلفاته الجميلة ولها أيضاً عدة مؤلفات شخصية تشهد لها بطول الباع وعظم
-<pb n="n2-p306" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P866.xhtml" change="#d2e228" xml:id="pb_26.d2e965"/>
+<pb n="n2-p306" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P866.xhtml" change="#d2e228" xml:id="pb_26.d2e965"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="306"/>
 
 
 الاقتدار في النظم والكتابة.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e968">ويوجد تشابه كبير أيضاً بين أخلاق أهالي تلك الجبال المعروفة بجبال الباسك وأخلاق أهالي إسبانيا عموماً. فإن لكلا الشعبين ورعاً شديداً في الدين وشغفاً عظيماً بكل ما فيه إجهاد القوى البدنية وفنون الفروسية. وأعظم ما يشتهيه الرجل والمرأة والفتى والفتاة هو أن لا يفوتهم مشهد من مشاهد مصارعة الثيران التي يحتفل بها في كل مدن إسبانيا تقريباً وجبال الباسك أيضاً مرة أو مرتين في الأسبوع.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e972">ولهذه الحفلات بنايات خاصة من أفخم البنايات الموجودة في هذه البلاد. ففي سان سبستيان مثلاً بناية أنشئت حديثاً لمصارعة الثيران من أبدع البنايات وهي تفوق بكثير كل التياترات ومحلات اللهو الموجودة وتعد بعد الكازينو الكبير وقصر ميرامار الشهير أحسن بناية هناك. وقد حضرت تلك الحفلة مراراً ولا أبالغ إذا قلت أنه في كل مرة لم يكن هناك أقل من عشرة آلاف نفس أو أكثر بالرغم من علو أسعار الدخول التي تتفاوت بين  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="3" xml:lang="ar" xml:id="num_1.d2e974">٣</tei:num>  و <tei:num type="auto-markup" change="#d2e181 #d2e228" value="25" xml:lang="ar" xml:id="num_1.d2e977">٢٥</tei:num>  فرنكاً للشخص الواحد ومئتي فرنك اللوجات، ما عدا الجند فإن له محلات مخصوصة بسعر فرنك ونصف فقط.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e981">وقد شاهدت بعيني في حفلة واحدة قتلة ستة من فحول الثيران بعد عراك عظيم ومحاولات مؤثرة مع المصارعين. وقد شقت بطون اثني عشر حصاناً بقرون الثيران، ووقعت أشلاؤها على الأرض وكان الفارس يضرب الثور برمحه ويغرسه في ظهره والدماء تسيل منه بكثرة، والصياح والابتهاج، والتصفيق من الرجال والنساء يتصاعد كل مرة كان الثور يرفع
-<pb n="n2-p307" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P867.xhtml" change="#d2e228" xml:id="pb_27.d2e983"/>
+<pb n="n2-p307" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P867.xhtml" change="#d2e228" xml:id="pb_27.d2e983"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="307"/>
 
 
 بقرنه الحصان وفارسه فيقع الحصان صريعاً والفارس منجلاً على الأرض. وكذلك حينما يتمكن أحد المصارعين من أن يغرس في ظهر الثور أو في رأسه حربته فيجندله قتيلاً كان الشعب يحيي ذلك المصارع الشجاع بالتهليل ويرميه بالقبعات والمناديل. وهناك خدمة مخصوصون لإرجاع كل ذلك لأصحابه. وحينما كان الثور يهاجم المصارعين فيهربون ويقفزون من فوق أسوار الخشب كان الشعب يقابلهم بالصفير وأصوات الخزي والعار.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e986">ولقد سبق واعترض كثيرون على هذه الألعاب شفقة على الخيل كي لا يعرضوها للقتل بمثل تلك الطريقة الشنعاء، ولكن يظهر أنه لا بد من هذه التضحية لأن المصارعين لا يقدرون أن يكون نطح بقرنه الحصان مرتين أو ثلاث ورفعه بفارسه عن الأرض، فعند ذلك تخور عزيمته وتضعف قوى رأسه خصوصاً ويسهل على الفارس صرعه من غير خوف تقريباً.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e989">وأما لعبة البلوت باسك التي يعرفها المصريون فهي في إسبانيا وخصوصاً في برشلونة مثل بورصة الإسكندرية وبورصة مصر أيام عزها القديم. فإنهم يعتنون كثيراً بالمراهنات فيها وبطريقة رسمية كأنهم في بورصة تجارية قانونية ورسم الدخول إليها ثلاثة أو أربعة فرنكات.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e992">ومن غريب ما سمعته عن هذه البلاد هو أنه يوجد بعض أديرة للرهبان تتعهد بأن تضع تلميذاً في إحدى المدارس الداخلية أو شيخاً في أحد ملاجئ العجزة مقابل مليون ورقة من ورقات الترامواي المستعملة
-<pb n="n2-p308" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P868.xhtml" change="#d2e228" xml:id="pb_28.d2e994"/>
+<pb n="n2-p308" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P868.xhtml" change="#d2e228" xml:id="pb_28.d2e994"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="308"/>
 
 
 أو خمسمائة ألف ورقة من ورقات الإعلانات المنتشرة وأربعمائة ألف عود كبريت من العيدان المستعملة وهلم جراً على حسب أهمية الأشياء التي يقدمونها لها. ولذلك ترى كثيراً من النساء والبنات والأولاد يجمعون مثل هذه الأشياء لتقديمها لتلك الأديرة طمعاً بعمل الإحسان أو للاسفتادة شخصياً.</tei:p>
@@ -429,7 +429,7 @@
             <head change="#d2e223 #d2e228" xml:lang="ar" xml:id="head_8.d2e1017">أين أريد بيتي</head>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1020">أريد بيتي هناك عند منحر الرابية، تحت الأشجار المخضلة، مثل عش العصفور المبني في وسط غيضة من الزعرور الملتف فلا أحوطه بالفنادق الكبيرة ولا بالبساتين الواسعة بل بالزهور، تلك العطية السماوية الجميلة تكون منشورة في كل جوانبه، والكرمة البتول تبسط عليه في الربيع ستاراً أخضر واسعاً لترد عنه حرارة الشمس.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1023">أما بيتي هذا فلا أريده يتراءى في مياه نهر كبير، بل يكفيني غدير صغير صاف ينساب فوق سرير لؤلؤ من الحصى، ويمر تحت نوافذي، فأقعد ساعات طويلة أسمع أنينه اللطيف وأصغي إلى الأصوات الخفيفة المسلية التي تصعد من المياه غير خائف أن تنقطع سلسلة تأملاتي أو أن
-<pb n="n2-p309" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P869.xhtml" change="#d2e228" xml:id="pb_29.d2e1025"/>
+<pb n="n2-p309" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P869.xhtml" change="#d2e228" xml:id="pb_29.d2e1025"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="309"/>
 
 
 ألهو بحركة غريبة. وأما أفقي فأرضاه عليقة تأتي الأولاد فتقطف ثمارها.</tei:p>
@@ -457,11 +457,11 @@
                </tei:l>
             </lg>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1078">حنفي ناصف
-<pb n="n2-p310" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P870.xhtml" change="#d2e228" xml:id="pb_30.d2e1080"/>
+<pb n="n2-p310" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P870.xhtml" change="#d2e228" xml:id="pb_30.d2e1080"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="310"/>
 
 
 قومندان فسم أورطة السكة الحديدية في حلفا (السودان)
-<pb n="n2-p311" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P871.xhtml" change="#d2e228" xml:id="pb_31.d2e1082"/>
+<pb n="n2-p311" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P871.xhtml" change="#d2e228" xml:id="pb_31.d2e1082"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="311"/>
 
 
 نبغ في الجيش المصري أدباء أعلام خدموا في آن واحد دولتي السيف والقلم فأعادوا لنا عهد الفرسان الشعراء نذكر منهم الآن <persName change="#d3e209 #d2e223 #d2e228" ref="oape:pers:245 viaf:32410755" xml:lang="ar" xml:id="persName_7.d2e1084">
@@ -545,7 +545,7 @@
                   <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e1239">ملئت دماً من مهجة السكران</tei:seg>
                </tei:l>
             </lg>
-            <pb n="n2-p312" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P872.xhtml" change="#d2e228" xml:id="pb_32.d2e1244"/>
+            <pb n="n2-p312" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P872.xhtml" change="#d2e228" xml:id="pb_32.d2e1244"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="312"/>
             <lg change="#d2e82 #d2e223 #d2e228" xml:lang="ar" xml:id="lg_11.d2e1246">
                <tei:l type="bayt" change="#d2e82 #d2e223 #d2e228" xml:lang="ar" xml:id="l_1.d2e1248">
                   <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e1250">وأقول والساقي يدور بكأسها</tei:seg> 
@@ -630,7 +630,7 @@
                </tei:l>
             </lg>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1407">* * *
-<pb n="n2-p313" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P873.xhtml" change="#d2e228" xml:id="pb_33.d2e1409"/>
+<pb n="n2-p313" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P873.xhtml" change="#d2e228" xml:id="pb_33.d2e1409"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="313"/>
 
 
 وحيّت غادة حضرت زهيراً <gap resp="#org_MS" change="#d2e228" xml:id="gap_2.d2e1411"/> وحيا هند ذو غيدٍ تبدّى</tei:p>
@@ -706,7 +706,7 @@
                   <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e1549">إلا وأسكرني شذاك</tei:seg>
                </tei:l>
             </lg>
-            <pb n="n2-p314" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P874.xhtml" change="#d2e228" xml:id="pb_34.d2e1555"/>
+            <pb n="n2-p314" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P874.xhtml" change="#d2e228" xml:id="pb_34.d2e1555"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="314"/>
             <lg change="#d2e82 #d2e223 #d2e228" xml:lang="ar" xml:id="lg_17.d2e1557">
                <tei:l type="bayt" change="#d2e82 #d2e223 #d2e228" xml:lang="ar" xml:id="l_1.d2e1559">
                   <tei:seg change="#d2e223 #d2e228" xml:lang="ar" xml:id="seg_1.d2e1561">والقلب مخفوض الجنا</tei:seg> 
@@ -781,7 +781,7 @@
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1693">بين صاحب اليتيمة والعازار والمطران</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1696">جاء في اليتيمة قوله:</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1699">في صدرها حقان خلتهما <gap resp="#org_MS" change="#d2e228" xml:id="gap_3.d2e1701"/> كافورتين علاهما ند
-<pb n="n2-p315" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P875.xhtml" change="#d2e228" xml:id="pb_35.d2e1703"/>
+<pb n="n2-p315" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P875.xhtml" change="#d2e228" xml:id="pb_35.d2e1703"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="315"/>
 
 
 وقال <persName change="#d2e223 #d2e228" xml:lang="ar" xml:id="persName_10.d2e1705">الشيخ <title level="j">إسكندر العازار</title></persName>:</tei:p>
@@ -840,7 +840,7 @@
          <tei:div change="#d2e64 #d2e223 #d2e228" type="item" subtype="article" xml:lang="ar" xml:id="div_1.d2e1811">
             <head change="#d2e223 #d2e228" xml:lang="ar" xml:id="head_10.d2e1813">مدارس البنات</head>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1816">قد لفتت حالة فتيات مصر وما هن عليه بالنسبة إلى أخواتهن في البلاد الأوروبية انتباه المفكرين إلى ضرورة إنشاء المدارس لهن، وانتشرت جذوة هذه الفكرة بين طبقات الأمة، فبادر الجميع إلى تحقيقها، وأنشئ في وقت قصير بعض المدارس لهذه الغاية. ولذلك
-<pb n="n2-p316" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P876.xhtml" change="#d2e228" xml:id="pb_36.d2e1818"/>
+<pb n="n2-p316" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P876.xhtml" change="#d2e228" xml:id="pb_36.d2e1818"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="316"/>
 
 
 أحببت أن أجيء بهذه الأسطر مبينة بها حالة مدارسنا الحاضرة ليعمل مؤسسو المدارس على ملاقاة هذا الخلل، فيفوز بالغاية التي يرمون إليها من وراء إنشاء هذه المعاهد.</tei:p>
@@ -848,14 +848,14 @@
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1824">وجدت المدارس لتربية الأخلاق، وتثقيف العقول منذ الصغر إذ يسهل في ذلك العهد تكييفها بالكيفية التي يريدها من يتولون أمرها. فلذلك ليس الحمل الملقى على عاتق مديرات المدارس ومعلماتها بالحمل الخفيف بل هو عبء ثقيل كما لا يخفى على بصير.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1827">تأتي الابنة للمدرسة تصحبها والدتها أو ولية أمرها، فتقابلها الرئيسة بوجهٍ باش مرحبة، مطنبة بوصف ما تبذله لتعليم تلميذاتها وتهذبهن، وهو وصف نظري جميل لو حققه العمل، تقول: مدرستي ليست كسائر المدارس، أنا أعلم تلميذاتي قبل كل شيء علم ترتيب المنزل والخياطة وباقي الأشغال اليدوية والقراءة والكتابة إلخ إلخ، وإن شاء الله في نهاية هذه السنة المدرسية سترين ابنتك قد اكتسبت الشيء الكثير وأمكنها في عطلة الصيف القادم أن تساعدك في تدبير أمور البيت.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1831">فتخرج الأم والأمل ملء صدرها وقد طربت لهذا الوصف، وتدخل الابنة إلى المدرسة فتقضي فيها سنتها، ومتى جاءت عطلة الصيف
-<pb n="n2-p317" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P877.xhtml" change="#d2e228" xml:id="pb_37.d2e1833"/>
+<pb n="n2-p317" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P877.xhtml" change="#d2e228" xml:id="pb_37.d2e1833"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="317"/>
 
 
 ورجعت الابنة إلى منزل والديها، تكون قد نسيت ما اكتسبته من أمها أو إذا كان قد خصها الله بمواهب الذكاء النادر ترجع إلى البيت كما كانت.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1836">البروجرام الذي تلته الرئيسة جميل ولطيف وقد أفعم قلب الأم فرحاً. فما سبب عدم تقدم التلميذة؟ قد يجوز أن تكون السنة الأولى سنة إعدادية لا يعول عليها فعسى أن تجيء السنة الثانية بنتيجة أحسن.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1839">تجيء السنة الثانية كالأولى والثالثة كالثانية، وتخرج الفتاة من المدرسة وهي لم تستفد إلا الشيء القليل الذي لا يكاد يذكر. فأين هي من ذلك البروجرام البديع! هل كان يا ترى حبراً على ورق أو علالة تعلل بها الأمهات؟ لم ننكر أن البروجرام كان جميلاً ولكن لم توفر المدرسة أسباب تنفيذه بإيجاد المعلمات ذوات الكفاءة لأن هم الرئيسة الأول كان إيجاد معلمة براتب طفيف. فلذلك نستنكر إنشاء المدارس للربح لأن المتاجرة بمعاهد التربية حرام، والغبن واقع على الفتاة أم المستقبل، فتخرج من المدرسة حيث قضت السنين الطوال ترتقي من صف إلى صف وقد اكتفت من العلوم بالقشور، فتعرف من النحو والصرف صعوبتهما، ومن الفلك والكيمياء اسمهما، ومن الطبيعيات غرابتها وقس على ذلك، هذه حالة معظم فتياتنا المتعلمات، وإن كان هناك فئة منها تنبغ في الدرس وتشرف المدرسة التي ربتها، على أن القليل لا يقاس عليه. وهذه حالة أكثر مدارسنا وإن كان هناك مدارس قد بلغت من التقدم شأواً بعيداً كبعض مدارس الراهبات والإنكليز.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1842">هذه هي المسألة الخطيرة التي يجب على المفكرين وقادة الرأي العام
-<pb n="n2-p318" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P878.xhtml" change="#d2e228" xml:id="pb_38.d2e1844"/>
+<pb n="n2-p318" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P878.xhtml" change="#d2e228" xml:id="pb_38.d2e1844"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="318"/>
 
 
 أن يحلوها محل النظر، فيولوا مدارس البنات شطراً من الاهتمام الذي يوجهونه إلى مدارس البنين، فتسعد البلاد برجالها الصالحين ونسائها الفاضلات.</tei:p>
@@ -865,35 +865,35 @@
          <tei:div change="#d2e64 #d2e223 #d2e228" type="item" subtype="article" xml:lang="ar" xml:id="div_1.d2e1855">
             <head change="#d2e223 #d2e228" xml:lang="ar" xml:id="head_11.d2e1857">أحمد عرابي</head>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1860">
-               <pb n="n2-p319" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P879.xhtml" change="#d2e228" xml:id="pb_39.d2e1862"/>
+               <pb n="n2-p319" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P879.xhtml" change="#d2e228" xml:id="pb_39.d2e1862"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="319"/>
 
 
 ثار عرابي ثورته سنة  <tei:date calendar="#cal_gregorian" when="1882" change="#d3e237"><tei:num type="auto-markup" change="#d2e181 #d2e228" value="1882" xml:lang="ar" xml:id="num_1.d2e1864">١٨٨٢</tei:num></tei:date> . فكانت من أهم الحوادث شأناً في تاريخ مصر الحديث، بل من أعظمها تأثيراً في السياسة الأفريقية. وقد مر عليها ما يناهز الثلاثين سنة وهي لا تزال تبدي لنا نتائجها المختلفة. أما شهرتها في الشرق وخصوصاً في القطرين المصري والسوري فهي تفوق كل شهرة سواها، وقد اتخذها العامة للتأريخ فيقولون مات فلان أو ولد فلان أو حدث ذلك سنة عرابي.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1868">في  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="21" xml:lang="ar" xml:id="num_1.d2e1870">٢١</tei:num>  من سبتمبر الماضي غادر هذه الحياة موقد نار تلك الثورة الذي يرى القارئ رسمه في هذه الصحيفة، وكان قد غادر حياة السياسة منذ بضع عشرة سنة. . . ولد أحمد عرابي في قرية هرية رزنة في مديرية الشرقية حوالي سنة  <tei:date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1248" change="#d3e237 #d3e261" notBefore="1832-05-31" notAfter="1833-05-19"><tei:num type="auto-markup" change="#d2e181 #d2e228" value="1248" xml:lang="ar" xml:id="num_1.d2e1873">١٢٤٨</tei:num></tei:date>  هجرية من أبوين عربيين ودرس القراءة والكتابة على المعلم ميخائيل غطاس صراف تلك الناحية مدة خمس سنوات، ثم دخل المدرسة العسكرية وطرد منها بعد سنتين فالتحق بالأزهر حيث قضى أربع سنوات. وكان سعيد باشا والي مصر يبحث عن أولاد الفلاحين ليعلمهم ويوليهم الوظائف فدخل عرابي العسكرية ثانية وأظهر من الصفات ما مكنه من الوصول إلى رتبة بكباشي في سنين قلائل. وكان في هذه الرتبة على أول عهد إسماعيل باشا ولكنه اختلف مع رئيسه خسرو باشا فحكم عليه بالتوقيف  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="8" xml:lang="ar" xml:id="num_1.d2e1876">٨</tei:num>  أيام، فلم يمتثل لأن الضباط الوطنيين كانوا قد تشعبوا بالكره للجراكسة والترك بحجة أنه ما كان واحد منهم يرقى إلى أكثر من رتبة أميرلاي. فانضم عرابي إلى جمعية سرية ألفها علي الروبي لمعاكسة الجراكسة. ولما أرسل إسماعيل باشا
-<pb n="n2-p320" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P880.xhtml" change="#d2e228" xml:id="pb_40.d2e1879"/>
+<pb n="n2-p320" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P880.xhtml" change="#d2e228" xml:id="pb_40.d2e1879"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="320"/>
 
 
 الحملة إلى الحبشة، عين عرابي مديراً للنقل في مصوّع. فنقص المال الذي بعهدته  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="400" xml:lang="ar" xml:id="num_1.d2e1881">٤٠٠</tei:num>  جنيه فعد الضباط المصريون اتهامه وشاية من الجركس، فعزله إسماعيل باشا من الجيش. فانصرف إلى خدمة الجمعية السرية بين العساكر وفي الأزهر فخشي علي مبارك باشا العاقبة فأشار إلى إسماعيل باشا بأن يستميل عرابي ورفاقه باللين ففعل ورقى  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="70" xml:lang="ar" xml:id="num_1.d2e1885">٧٠</tei:num>  ضابطاً إلى رتبة قائمقام ومنهم عرابي.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1889">ولما تولى توفيق باشا أنعم عليه برتبة أميرلاي. وبعد قليل اختصم مع ناظر الجهادية عثمان باشا رفقي على قانون القرعة بحجة أنه يحول دون تقدم الوطنيين وأخذ مع علي فهمي وعبد العال حلمي بالسعي ضد الجركس والترك حتى استمالوا إليهم الجيش. ولما وثقوا من ذلك قدموا عريضتهم المشهورة إلى رياض باشا رئيس النظار فطردهم. ثم ارتأى</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1892">أن يحاكموا في قصير النيل فأبلغهم محمد سامي البارودي الخبر فاتفقوا مع الآلاي المعسكر بعابدي على أن يسرع لنجدتهم. أما دعوتهم إلى قصر النيل فكانت بحجة الاحتفال بعرس إحدى الأميرات وما كاد يصدر عليهم الحكم بالحبس حتى وصلا الآلاي وضرب أمام قصر النيل نفير الحريق فخرج عساكر قصير النيل لإطفاء الحريقة ودخل عساكر قشلان عابدين قصر النيل وخلصوا عرابي ورفيقيه وفر ناظر الجهادية.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1896">وعاد عرابي إلى عابدين فائزاً وطلب من الخديوي عزل ناظر الجهادية والعفو عنه وعن زميليه وتعيين محمود سامي البارودي ناظراً للجهادية، فأجاب مطالبهم. وكان ذلك فاتحة كل الشرور لأن الحزب تهور كثيراً
-<pb n="n2-p321" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P881.xhtml" change="#d2e228" xml:id="pb_41.d2e1898"/>
+<pb n="n2-p321" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P881.xhtml" change="#d2e228" xml:id="pb_41.d2e1898"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="321"/>
 
 
 حتى أن عربة نقل داست عسكرياً في الإسكندرية فحملوا العسكرية إلى رأس التين وأخذوا يطالبون الخديوي بدمه فعزل الخديوي ناظر الجهادية وعين داود باشا لهذا المنصب، فأمر داود باشا بنقل آلاي القلعة وآلاي الإسكندرية، فزاد هياج العرابيين وأعدوا العرائض يطلبون فيها الإصلاح وقدموها للخديوي وهو مع القناصل في عابدين. فوعد بالنظر فيها. ثم زار ثكنات العساكر ولما وصل إلى ثكنة عرابي بالعباسية لم يجده فيها. وعاد إلى عابدين فإذا بعرابي قد صف الجيش في الساحة وهو مستل سيفه يهدد السراي، فأطل عليه الخديوي وطلب منه أن يتقدم فوصل إلى باب السراي على جواده وسيف مسلول والضباط محيطون به فأمره الخديوي بإغماد سيفه ففعل ونزل عن جواده فسأله الخديوي: لماذا تفعل ذلك؟ فأجابه: لأنال خمسة أمور، الأول إسقاط الوزارة والثاني تأليف مجلس نواب والثالث زيادة عدد الجيش والرابع إنفاذ قانون العسكرية الجديد والخامس عزل شيخ الأزهر. فطلب القناصل من الخديوي أن يعود إلى قصره وقال قنصل الإنكليز لعرابي إن إسقاط الوزارة من خصائص الخديوي، وزيادة الجيش لا تسمح بها الميزانية، وعزل شيخ الأزهر لا يمكن أن يكون بلا سبب، وإنفاذ قانون العسكرية ينظر فيه مجلس النظار، وتأليف مجلس النواب من خصائص الأمة لا الجيش. فرد عرابي أنه يطلب ذلك كله بالنيابة عن الأمة وهذا الجيش أولادها وأنه لا يبرح مكانه حتى ينال مطالبه. فقال له القنصل ماذا تفعل إذا لم تجب مطالبك. فقال: عندي مليون شاب وليس لأحد أن
-<pb n="n2-p322" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P882.xhtml" change="#d2e228" xml:id="pb_42.d2e1900"/>
+<pb n="n2-p322" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P882.xhtml" change="#d2e228" xml:id="pb_42.d2e1900"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="322"/>
 
 
 يتداخل بشؤوننا الداخلية. فعاد القنصل وتقرر بعد ثلاث ساعات من التباحث إجابة المطالب تدريجاً إلا مجلس النواب فإنه يؤخذ رأي الباب العالي بشأنه،</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1903">فأصر عرابي على إسقاط الوزارة فسقطت وألف شريف باشا وزارة جديدة، ونقل آلاي عرابي إلى رأس الوادي وآلاي عبد العالي إلى دمياط. ولما رأت الحكومة أن عرابي يبث روحه في الشرقية نقلته وكيلاً للجهادية فاشتغل حتى عزل الشيخ العباسي من مشيخة الأزهر وعين الشيخ الإمبابي بدلاً منه. ونفذت كل المطالب وتألف مجلس النواب. ولكن المراقبين على الميزانية وهما الفرنساوي والإنكليزي أبيا على مجلس النواب النظر في الميزانية، وسقطت الوزارة لهذا السبب، فألف محمود سامي الوزارة الجديدة واختار عرابي ناظراً للجهادية. فنفذ قانون الضمائم والمعاشات وعزل  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="600" xml:lang="ar" xml:id="num_1.d2e1905">٦٠٠</tei:num>  ضابط شركسي وتركي، وأرسل الآخرين إلى السودان وسجن  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="40" xml:lang="ar" xml:id="num_1.d2e1908">٤٠</tei:num>  ضابطاً كبيراً وفي مقدمتهم عثمان باشا رفقي بتهمة المؤامرة فحكم عليهم بالتجريد من رتبهم وبإبعادهم إلى السودان فأبى الخديوي التصديق على هذا الحكم.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1912">ثم تفاقم الأمر وعرضت رئاسة النظار على مصطفى فهمي باشا فأبى قبولها. وأرسلت إنكلترا وفرنسا مراكبهما الحربية. فطلب الأسطولان عزل الوزارة وإبعاد عرابي وعبد العال وعلي فهمي، فاحتجت الوزارة على ذلك، ثم سقطت في  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="26" xml:lang="ar" xml:id="num_1.d2e1914">٢٦</tei:num>  مايو  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="1882" xml:lang="ar" xml:id="num_1.d2e1917">١٨٨٢</tei:num>  وقبل شريف باشا تأليف وزارة جديدة. وورد تلغراف من آلاي الإسكندرية بأنهم لا يقبلون ناظراً للجهادية غير عرابي فأبقي في وزارته ريثما يصل الوفد الذي أرسله السلطان.
-<pb n="n2-p323" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P883.xhtml" change="#d2e228" xml:id="pb_43.d2e1920"/>
+<pb n="n2-p323" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P883.xhtml" change="#d2e228" xml:id="pb_43.d2e1920"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="323"/>
 
 
 وأرسل إلى القناصل يتعهد بحفظ الأمن بشرط إبعاد الأسطولين من المياه المصرية. وأخذ عرابي يسعى لخلع توفيق باشا وتولية حليم باشا وتحصين المرابط المصرية. ووصل الوفد المرسل من الأستانة فشجع عرابي.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1923">وفي  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="11" xml:lang="ar" xml:id="num_1.d2e1925">١١</tei:num>  يونيو  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="1882" xml:lang="ar" xml:id="num_1.d2e1928">١٨٨٢</tei:num>  اختصم حمار ومالطي في الشارع الإبراهيمي بالإسكندرية فنجمت عن ذلك فتنة شديدة عقبتها مذبحة وتمارض قومندان الضابطة السيد قنديل وطلب المحافظ عمر باشا لطفي من أميرلاي الجند سليمان داود إرسال العساكر لإخماد الفتنة فأجاب أنه لا يفعل إلا إذا تلقى أمراً من عرابي. وبلغ عدد الجثث التي التقطت من شوارع الإسكندرية  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="600" xml:lang="ar" xml:id="num_1.d2e1931">٦٠٠</tei:num>  جنيه وهاجر في ذلك الأسبوع نحو  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="200" xml:lang="ar" xml:id="num_1.d2e1934">٢٠٠</tei:num>  ألف. وفي  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="13" xml:lang="ar" xml:id="num_1.d2e1937">١٣</tei:num>  يونيو سافر الخديوي إلى الإسكندرية، وأسقط وزارة شريف وألف وزارة راغب باشا، فظل عرابي فيها وطلبت هذه الوزارة العفو عن المجرمين، وأنعم السلطان على عرابي، فازدادت حماسة الحزب. وتخلل</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1941">ذلك مساعي الدول لعقد مؤتمر في الأستانة فسوّف الباب العالي وماطل. أما عرابي فإنه تولى قيادة  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="9" xml:lang="ar" xml:id="num_1.d2e1943">٩</tei:num>  آلاف جندي في الإسكندرية وأخذ بإقامة الحصون فاتخذت إنكلترا ذلك حجة وضربت الثغر فجأة فبدأ ضربها في الساعة  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="7" xml:lang="ar" xml:id="num_1.d2e1946">٧</tei:num>  صباحاً وظل حتى الواحدة والنصف بعد الظهر ( <tei:num type="auto-markup" change="#d2e181 #d2e228" value="11" xml:lang="ar" xml:id="num_1.d2e1949">١١</tei:num>  يوليو  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="1882" xml:lang="ar" xml:id="num_1.d2e1952">١٨٨٢</tei:num> ) وتولى الرعاع أمر المدينة فأحرقوها وأحاط  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="400" xml:lang="ar" xml:id="num_1.d2e1955">٤٠٠</tei:num>  جندي بسراي الخديوي بالرمل ليحرقوها، ولكن عرابي منعهم، ومكث أحد البكباشية مع  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="250" xml:lang="ar" xml:id="num_1.d2e1959">٢٥٠</tei:num>  عسكرياً على ولاء الخديوي وأرسل الأميرال سيمور ثلاث سفن لحماية السراي وارتد عرابي وعساكره إلى كفر الدوار وأعلن راغب
-<pb n="n2-p324" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P884.xhtml" change="#d2e228" xml:id="pb_44.d2e1962"/>
+<pb n="n2-p324" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P884.xhtml" change="#d2e228" xml:id="pb_44.d2e1962"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="324"/>
 
 
 باشا عصيانه وطلبه الخديوي إلى رأس التين فأجاب أنه لا يطيع إلا إذا سافر الأسطول الإنكليزي. وقرر أعيان القاهرة استمرار الحرب وصدر أمر الخديوي بعزل عرابي ولكن مجلس الأعيان في العاصمة قرر إبقاءه.</tei:p>
@@ -904,7 +904,7 @@
             <head change="#d2e223 #d2e228" xml:lang="ar" xml:id="head_12.d2e2010">أزهار وأشواك</head>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e2013">فلسفة العيد</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e2016">كان في الشهر الماضي ختام صوم رمضان وحلول عيد الفطر المبارك فأقيمت الأفراح والزينات وأقفلت المصارف والدوائر والمحلات التجارية
-<pb n="n2-p325" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P885.xhtml" change="#d2e228" xml:id="pb_45.d2e2018"/>
+<pb n="n2-p325" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P885.xhtml" change="#d2e228" xml:id="pb_45.d2e2018"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="325"/>
 
 
 فاشتركت الأمة بأسرها في هذا العيد لا فرق بين المسلم والنصراني ولا النزيل والوطني، فكان ذلك مما تسر له خواطر محبي السلام، لاسيما في هذه الأيام حيث كثرت مشاغبات دعاة التفريق والخصام. وكان منظر الأولاد، وقد اشتركوا في العيد، من أبهج المناظر لأن روح التحزبات والغايات لم تنفث سمها في صدورهم الطاهرة. فرددنا قول شوقي:</tei:p>
@@ -957,17 +957,17 @@
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e2106">لا والله لم يضل الصغار، فليقتد بهم الكبار.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e2110">الجوق العربي</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e2113">مديره عبد الله عكاشة، وقد جمع وإخوته إلى رخامة الصوت حسن الاستعداد. وواضع رواياته <persName>إلياس فياض</persName>، الشاعر والكاتب المعروف بالرقة والطلاوة. ومسرح تمثله التياترو المصري، وقد أُلبس حلة جديدة من الرواء بإدارة صاحبه إسكندر فرح وأخيه توفيق وأعضاؤه أفراد
-<pb n="n2-p326" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P886.xhtml" change="#d2e228" xml:id="pb_46.d2e2115"/>
+<pb n="n2-p326" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P886.xhtml" change="#d2e228" xml:id="pb_46.d2e2115"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="326"/>
 
 
 جوق الشيخ سلامة، وهو أحسن جوق عرفناه. ومتعهد ملابسه كيريني، متعهد ملابس الأوربرا الخديوية. فكل أسباب النجاح متوفرة، كما ترى، لهذا الجوق العربي الذي بدأ بإحياء لياليه في منتصف الشهر الماضي. . . . نحن لا نقول إن الجوق قد بلغ</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e2118">آخر مراحل الكمال، فهذا ما لا يراضه منا مديره الأديب. ولكننا نشهد أنه باذل همة تشكر في سبيل إرضاء الفن وحق القيام بشروطه ولا جدال في أنه قد خطا خطوة واسعة في ترقية التمثيل العربي. ولذلك نحن نصفق له كما صفق له الذين حضروا لياليه في مدن القطرين المصري والسوري. ضفرت باقة من أزهاري للقائمين بهذا المشروع. ولابد من تسديد بعض الأشواك إلى مرتادي مسارحنا العربية. يذهب الواحد منا إلى التياترو الإفرنجي، كالأوبرا او برنتانيسا مثلاً، فلا يجيز لنفسه الحضور بغير ملابسه الرسمية السوداء، فيجلس كما يشاء الأدب، ولا يدخن إلا في المجل المعد للتدخي. حتى ترى فيه الجنتلمن الكامل. وأما إذا رأيت هذا الشخص ذاته في تياترو الشيخ سلامة أو التيارو المصري، وهما لا يبعدان عن الأوبرا وبرنتانيا إلا بضع مئات من الخطوات، فإنك لا تكاد تعرفه، وقد جلس ومد رجليه على كرسي جاره، وأولع سيجارته، بالرغم من الحروف المرقومة على الجدران ممنوع التدخين أو اشتغل بقزقزة اللب بل تسمعه يقهقه ضحكاً في أشد المشاهد تأثيراً حتى يضايق الممثلين أيما مضايقة. . . فإلى متى نحن نحتقر أنفسنا؟ وما دمنا كذلك، فكيف نطلب من الأجانب أن يحترمونا. . .
-<pb n="n2-p327" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P887.xhtml" change="#d2e228" xml:id="pb_47.d2e2120"/>
+<pb n="n2-p327" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P887.xhtml" change="#d2e228" xml:id="pb_47.d2e2120"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="327"/>
 
 
 كتشنر والفأر</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e2123">تهمني السياسة بقدر ما تهم أسعار البورصة فراشة الحقل، أو بقدر ما تهم أزهاري وأشواكي إمبراطور الصين. ولذلك لست بمحدّث
-<pb n="n2-p328" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P888.xhtml" change="#d2e228" xml:id="pb_48.d2e2125"/>
+<pb n="n2-p328" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P888.xhtml" change="#d2e228" xml:id="pb_48.d2e2125"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="328"/>
 
 
 قرائي عن المعتمد الإنكليزي الجديد إلا على سبيل الفكاهة. . . روي، والله أعلم، أن لورد كتشنر أوف خرطوم، لما كان قائداً للحملة السودانية، دخل إلى مضربه في أحد الأيام وقد اشتد عليه التعب والحر، وأوصى الجندي السوداني القائم على خفارته أن لا يدع أحداً يصل إليه لأنه في حاجة إلى قليل من الراحة. انطرح القائد بملابسه على مضجعه العسكري ونام، وبينما هو كذلك إذا بطلقين ناريين قد دويا في جانبه، فأفاق مذعوراً وهرول إلى خارج الخيمة وهو يظن أن العدو قد هاجم المعسكر على حين غفلة. فرأى الخفير والبندقية في يده، والابتسامة على شفتيه، فسأله عما هناك فأجاب: الرصاصة الثانية كانت القاضية عليه. . . . هو فأركان يحاول الدخول إلى الخيمة فخفت أن يزعج مولاي في رقاده.</tei:p>
@@ -978,12 +978,12 @@
          <tei:div change="#d2e64 #d2e223 #d2e228" type="section" xml:lang="ar" xml:id="div_1.d2e2139">
             <head change="#d2e223 #d2e228" xml:lang="ar" xml:id="head_13.d2e2141">ثمرات المطابع</head>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e2144">التشخيص الجراحي - لما تكلمنا عن رسالة الحمل خارج الرحم (زهور سنة أولى ص  <tei:num type="auto-markup" change="#d2e181 #d2e228" value="549" xml:lang="ar" xml:id="num_1.d2e2146">٥٤٩</tei:num> ) التي وضعها حضرة العالم الدكتور محمد أفندي عبد الحميد <persName change="#d2e223 #d2e228" xml:lang="ar" xml:id="persName_13.d2e2149">طبيب مستشفى قليوب</persName>، أثينا على همة المؤلف لنشره مثل هذه الأبحاث العلمية في اللغة العربية ورجونا من حضرته متابعة طبع
-<pb n="n2-p329" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P889.xhtml" change="#d2e228" xml:id="pb_49.d2e2152"/>
+<pb n="n2-p329" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P889.xhtml" change="#d2e228" xml:id="pb_49.d2e2152"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="329"/>
 
 
 مثل هذه الكتب المفيدة. ولم يمض على ذلك بضعة أشهر حتى تحف الدكتور عبد الحميد العالم الطبي بمؤلف نفيس هو الذي نحن الآن بصدده، وقد استخلصه من أربع مؤلفات إنكليزية تعد من خير ما كتب في هذا الموضوع فجاء كافياً وافياً، وتناول تشخيص الإصابات كافة وما يطرأ عليها من المضاعفات كإصابات الرأس والعمود الفقري والمسالك الهوائية والحنجرة والصدر والبطن والحوض والمفاصل وأعضاء التناسل إلخ مع أبحاث مستوفاة في كل أنواع الخلوع والكسور والأورام والقروح. ومن يتصفح هذا الكتاب الضخم يدرك ما بذله صاحبه من العناية والتدقيق وتكبده من النفقات ليقدم لقراء العربية هذا السفر الثمين الذي كانوا بحاجةٍ قصوى إليه. فإذا هم أقبلوا على اقتنائه فإنهم لاشك واجدون فيه من الفوائد والمنافع ما لا يعد ثمنه شيئاً بجانبه. فلا يسعنا إلا إسداء الشكر الحميم للدكتور عبد الحميد الذي عرف كيف يخدم أمته وبلاده الخدمة الحقيقية، وهذا ما سمعناه من الكثيرين.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e2155">وقاية الشبان من المرض الإفرنجي والسيلان - وجاءنا كتاب طبي آخر ورد علينا من الديار الأمريكية لمؤلفه حضرة النطاسي الدكتور سعيد أفندي أبي جمره <persName change="#d2e223 #d2e228" xml:lang="ar" xml:id="persName_14.d2e2157">صاحب جريدة <tei:title level="j" change="#d2e193 #d2e223 #d2e228" xml:lang="ar" xml:id="title_7.d2e2159">الأفكار</tei:title></persName> البرازيلية، وقد بحث فيه بحثاً دقيقاً عن الأمراض الزهرية - المشتق اسمها من الزهرة آلهة الحب والجمال - وأورد تاريخها في العالم عموماً وفي الشرق خصوصاً ودخولها إلى بلادنا مع حملة بونابرت إلى القطر المصري
-<pb n="n2-p330" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P890.xhtml" change="#d2e228" xml:id="pb_50.d2e2162"/>
+<pb n="n2-p330" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P890.xhtml" change="#d2e228" xml:id="pb_50.d2e2162"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="330"/>
 
 
 سنة  <tei:date calendar="#cal_gregorian" when="1789" change="#d3e237"><tei:num type="auto-markup" change="#d2e181 #d2e228" value="1789" xml:lang="ar" xml:id="num_1.d2e2164">١٧٨٩</tei:num></tei:date>  وامتدادها إلى القطر السوري لكثرة المعاملات بين القطرين وتسميتها بالمرض أو الحب الإفرنجي لأن مصدرها الإفرنج. ثم وصف كل أنواع هذه الأمراض وصفاً طبياً مع طرق معالجتها والوقاية منها، وسهل فهم كل ذلك بالصور والرسوم فخدم بذلك الشبان خدمة كبيرة عساهم أن يجدوا فيه ما يكفيهم شر هذا المرض الفتاك.</tei:p>
@@ -992,7 +992,7 @@
                             <forename xml:lang="ar" change="#d2e228" xml:id="forename_4.d2e2175">فارس</forename>
                             <surname xml:lang="ar" change="#d2e228" xml:id="surname_4.d2e2178">الشدياق</surname>
                         </persName>، وإن كان بين إنشاء الكاتبين بون عظيم. وهو يشبه
-<pb n="n2-p331" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P891.xhtml" change="#d2e228" xml:id="pb_51.d2e2182"/>
+<pb n="n2-p331" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P891.xhtml" change="#d2e228" xml:id="pb_51.d2e2182"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="331"/>
 
 
 تيودور بوترل وفردريك مسترال من حيث وصف عادات البلاد والتغني بجمالها، والحث على الاحتفاظ بتقاليدها.</tei:p>
@@ -1002,13 +1002,13 @@
             <head change="#d2e223 #d2e228" xml:lang="ar" xml:id="head_14.d2e2192">رواية الشهر</head>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e2195">أوله لهو وآخره قتل</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e2198">كان في فلورنسا تاجر واسع الثروة تزوج بإحدى مثريات المدينة ورزق منها ولداً ذكراً دعاه ألفرد. ولم تكد تقر بالمولود عينه حتى دعاه خالقه إليه فترك وحيده يتيماً بعد أن أوصى به أرملته وذويه.
-<pb n="n2-p332" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P892.xhtml" change="#d2e228" xml:id="pb_52.d2e2200"/>
+<pb n="n2-p332" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P892.xhtml" change="#d2e228" xml:id="pb_52.d2e2200"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="332"/>
 
 
 ترعرع الولد وأخذ يخرج في البلدة ويلعب مع أقرانه وما عتم أن شعر بميل خصوص إلى صبية كانت تلعب معهم اسمها ماري، فكان يخرج الولدان من منزلهما في ساعة واحدة ليلتقيا في مكان متفق عليه من قبل. وهناك يصرفان الساعات الطوال منهمكين في ألعاب لا لذة فيها ولا سلوى إلا أنها تجمع الولدين المتحابين وهما شاعران بفرح لا يدركان له سبباً حتى إذا دنت الشمس من المغيب واضطرا إلى الافتراق أحس كل منهما بوحشة زائدة وبحزن ما كان يخففه غير أمل اللقاء في اليوم التالي.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e2203">وقد كرت الأيام والأعوام والولدان يعيشان عيشة واحدة لا يلذ لهما شيء إذا افترقا ولا يحزنهما شيء إذا اجتمعا. . . ولما شبا عن الطوق فبرز نهدا الفتاة وانفتل ساعد الغلام تبدل ذلك الشعور الرقيق الكامن بحب ووجد وغرام. فأوجس أهلهم خيفة لاسيما أم الفتى، هي تحسب أن حب ابنها لتلك الفتاة يحمله على التهور والتفريط حتى وصل بها الخوف إلى أنها فاوضت عم الغلام بالأمر وقالت له: إذا دامت حال ألفرد وحال ماري على ما هي عليه فلا أعجب إذا أفقت يوماً وأنا جدة وهناك الفضيحة فأنى لنا تلافي الخطب قبل استفحاله؟. . . فأطرق العم يفكر كأن مسألة الغلام معضلة ولا كالمعضلات ولما أعياه التفكير ولم يوفق إلى حل للمشكلة أشار عل الأم بأن تعقد مجلساً عائلياً تطرح عليه المسألة فيتدبرها ويبت فيها رأياً يكون فيه خير الفتى وراحة الأم. . .</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e2206">عقد المجلس العائلي وشرحت له الأم أسباب قلقها وجزعها ولم يكن في المجلس غير شيوخ ماتت قلوبهم فباتوا يحسدون الشباب ويضيقون عليه الخناق كلما وجدوا إلى ذلك سبيلاً. وبعد البحث والتفكير والمداولة قر رأيهم على إبعاد الفتى آملين بذلك بلوغ المرام فيفعل البعاد ما لم تفعله النصائح فتتزوج الفتاة من جهة ويسلوها الفتى من جهة أخرى. . . . .
-<pb n="n2-p333" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P893.xhtml" change="#d2e228" xml:id="pb_53.d2e2208"/>
+<pb n="n2-p333" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P893.xhtml" change="#d2e228" xml:id="pb_53.d2e2208"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="333"/>
 
 
 ثم كلف المجلس عم ألفرد بإبلاغه ذلك القرار بالطرق التي يراها مناسبة طبقاً لحاسات</tei:p>
@@ -1025,7 +1025,7 @@
                </tei:l>
             </lg>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e2243">ثم سار إلى حيث يلتقي عادةً بحبيبة قلبه فوجدها بانتظاره فراعه اصفرارها - وقد خبرها ذووه بعزمهم على تسفير ألفرد ورجوا إليها مساعدتهم حباً بخير الفتى، فوافقتهم مكرهة - وما وصل إليها حتى عرته هزة يعرفها من وقف تلك
-<pb n="n2-p334" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P894.xhtml" change="#d2e228" xml:id="pb_54.d2e2245"/>
+<pb n="n2-p334" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P894.xhtml" change="#d2e228" xml:id="pb_54.d2e2245"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="334"/>
 
 
 المواقف فتقدم إليها واجلاً مضطرب الجوارح خفاق الفؤاد ومد إليها يداً مرتجفة باردة، فشدت عليها بيد مرتجفة باردة، وتناظر الحبيبان فتفاهما وعلما أن لابد من الفراق فتجسم بنظرهما كل ما في قلوب العاشقين من وجد وجزع وطوقا بعضهما بعضاً بدافع غير منظور وشهقا بالدمع، حتى إذا هدت حيلهما تلك الدقيقة بما فيها من هول الوداع ضم الفتى شفتيه إلى شفتي الفتاة وجمع كل ما في نفسه</tei:p>
@@ -1044,14 +1044,14 @@
                </tei:l>
             </lg>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e2279">مضت السنتان - وهما مدة أسر الفتى - وقد كانت كل ساعة منهما دهر. فعاد ألفرد إلى فلورنسا وهو يتساءل: ترى ما حل بماري؟. . . حتى إذا وصلها وقلبه
-<pb n="n2-p335" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P895.xhtml" change="#d2e228" xml:id="pb_55.d2e2281"/>
+<pb n="n2-p335" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P895.xhtml" change="#d2e228" xml:id="pb_55.d2e2281"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="335"/>
 
 
 خافق ونفسه جازعة علم أن حبيبته قد زفت إلى سواه فاسودت الدنيا بعينه ويئس من الحياة وعزم على الانتحار - وهو خاتمة الغرام - إلا أنه خطر على باله أن يرى حبيبته قبل الموت للمرة الأخيرة. انتظر ألفرد حتى أسدل الليل على المدينة سدوله وانسل تحت جنحه إلى منزل حبيبته وتوصل إلى غرفة نومها فاختبأ تحت السرير حتى خلت إليه فنزعت ثيابها ونامت وهي لا تشعر أن في الغرفة روحاً جاءت تودعها قبيل احتجابها في الأثير. . .</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e2284">نامت فحلمت كأنها بالقرب من حبيبها ألفرد فطاب لها الحلم فكشف در ثناياها ابتسام خفيف. . . وكان ألفرد قد انساب في تلك الأثناء إلى سريرها فشعرت بحر أنفاسه فأفاقت وهي تحسب نفسها حالمة فإذا بها تضاجع رجلاً ليس بزوجها فهمت بأن تصرخ فضغط الفتى على يدها متمتماً: لا لا تجزعي. . . أنا ألفرد. . .</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e2287">دهشت ماري وغسلها العرق البارد وهي لا تدري إذا كانت لا تزال حالمة حلمها اللطيف أو هي في الحقيقة تلمس حبيبها القديم. . . وما عتمت أن عادت إلى هداها فتحققت أن رفيق الصبا في جنبها فخافت كثيراً وقالت له: بالله عليه قم واذهب فزوجي في الغرفة معي وأنت تكاد تفضحني. . . فقال لها: لا تخافي. . . ما أتيت أفعل منكراً. أنت زففت إلى غيري فلتكن حياتك سعيدة، أما أنا فلم يبق لي مطمع في الحياة. . . دعيني أنام بقربك كما ينام الملك قرب الملك أو الأخ قرب الأخت فأحيا دقيقة وبعدها أموت غير آسف على الدنيا. . .</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e2290">فحنت عليه ورق له قلبها وقالت: لك ما طلبت. . . فنام الفتى بقربها وقد تجسمت له السعادة فغاب فيها. . . أما هي فقد استغربت من حبيبها هذا الهدوء وما عهدها بالحب يبقي على العقل فأخذت يده يدها فوجدتها مجلدة فحسبت أن الغرام جلدها. . فنادته همساً: ألفرد! ألفرد!. . . فخافت وخامرتها الشكوك. . . فحاولت إنهاض رأسه فوجدته بارداً فحركت جسمه فانقلب كالعود، ففهمت وبهتت
-<pb n="n2-p336" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P896.xhtml" change="#d2e228" xml:id="pb_56.d2e2292"/>
+<pb n="n2-p336" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P896.xhtml" change="#d2e228" xml:id="pb_56.d2e2292"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="336"/>
 
 
 وقد صعقتها الحقيقة: إن ألفرد قد مات. . . سكبت دمعة محرقة وشعرت أن عروق قلبها قد تقطعت ثم أفاقت ونظرت إلى ما حوليها فراعها ذلك الموقف وما فيه من أسباب القيل والقال فاستجمعت رشدها وصممت على رأي وقامت إلى زوجها فنادته فأفاق فقصت عليه كل ما حدث كأنها تروي حادثة وقعت لسواهم بعيدة عنهم ثم قالت: حينئذ ما كان يجب على أهل البيت أن يفعلوا وأمامهم تلك الجثة؟ فقال: كان يجب عليهم أن يقوموا إلى الجثة وينقلوها بكل هدوء إلى بيتها ويتركوها على الباب فيظن القوم في الصباح أن فقيدهم مات قضاء وقدراً. . .</tei:p>
@@ -1064,7 +1064,7 @@
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e2314">وهكذا اتحد هذان العاشقان في اللحد بعد أن افترقا على الأرض وقد فعل الموت ما لم يفعل الحب. . .</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e2317">(عن الإفرنسية)</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e2321">حسون
-<pb n="n2-p337" ed="print" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P897.xhtml" change="#d2e228" xml:id="pb_57.d2e2323"/>
+<pb n="n2-p337" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P897.xhtml" change="#d2e228" xml:id="pb_57.d2e2323"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="337"/>
 
 
             </tei:p>
