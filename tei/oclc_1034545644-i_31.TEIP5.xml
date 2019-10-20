@@ -48,9 +48,9 @@
                                 
                                 <tei:date calendar="#cal_gregorian" xml:lang="ar" when="1913-02-01" change="#d2e228" xml:id="date_1.d2e118">١ شباط سنة ١٩١٣</tei:date>
                             </imprint>
-                            <biblScope from="4" to="4" unit="volume" xml:lang="ar" change="#d2e228" xml:id="biblScope_1.d2e122"/>
-                            <biblScope change="#d3e189 #d2e223 #d2e228" unit="issue" from="31" to="31" xml:lang="ar" xml:id="biblScope_2.d2e124">31</biblScope>
-                        <tei:biblScope unit="page" change="#d2e271" from="529" to="3">529-3</tei:biblScope></monogr>
+                            <biblScope from="3" to="3" unit="volume" xml:lang="ar" change="#d2e228" xml:id="biblScope_1.d2e122"/>
+                            <biblScope change="#d3e189 #d2e223 #d2e228" unit="issue" from="10" to="10" xml:lang="ar" xml:id="biblScope_2.d2e124">31</biblScope>
+                        <tei:biblScope unit="page" change="#d2e271" from="529" to="577">529-577</tei:biblScope></monogr>
                     </biblStruct>
          </sourceDesc>
       </fileDesc>
@@ -798,9 +798,6 @@
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1803">إنَّ القول بأن هذه فصيحة , وهذه مولّدة قد مضى زمنه. فإنما كان الباعث عليهِ قرب عهد الرُواة من فصحاء الأعراب في الصدر الأول , ثم تقليد علماء اللغة من المتأخرين لأولئك الرواة تحقيقاً بشروط هذا العلم الذي يحملونهُ وبآدابه التاريخية إذا كنَّا في كلّ نقول: نصَّ الجوهري وابن مكرم والمجد وفلان وفلان , ونغفل عما وراءَ ذلك مما تنصُّ عليهِ طيعة اللغة من أوزانها وقواعدها وطُرُق الوضع والاستعمال فيها , فما نحن بأهل هذه اللغة ولا بالقائمين عليها , ولا هي لغة عصرنا , إنما هي لفة الجوهري وابن مكرم والمجد وفلان وفلان.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1806">لستُ أتردّد في القول بأن سبب الضعف الذي طرأ على هذا اللسان إنما هو في هذه العقول الضعيف الذي طرأ هذا اللسان إنما هو في هذه العقول الضعيفة التي تقوم عليهِ أسوأ القيام , لا بالنظر ولكن بالتقليد الأعمى , فلا نزال نرجع بكل لفظة إلى حدود البادية , كأنَّ هذه البادية العربية هي جغرافية اللغة , وإنما يستقيم مثل هذا إذا كانت اللغة , وإنما يستقيم مثل هذا إذا كانت اللغة ميتة ليس فيها قوة النموّ كهذه العقول التي يغني عنها كلها كتابٌ واحد كلسان العرب.</tei:p>
             <byline change="#d2e198 #d2e223 #d2e228" xml:lang="ar" xml:id="byline_6.d2e1809"><persName change="#d2e223 #d2e228" xml:lang="ar" xml:id="persName_10.d2e1810">أبو السامي الرافعي</persName>
-<pb n="n4-p3" ed="shamela" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P1686.xhtml" change="#d2e228" xml:id="pb_50.d2e1813"/><pb change="#d2e269" ed="print" edRef="#edition_1" n="3"/>
-
-
             </byline>
          </tei:div>
       </tei:body>
