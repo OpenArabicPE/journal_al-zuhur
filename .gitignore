@@ -1,0 +1,14 @@
+# ignore image files
+images/
+images.symlink
+images
+.jpg
+.jpeg
+*.tif
+*.tiff
+
+.DS_Store
+_site/
+.sass-cache/
+_output/
+metadata/issues/
