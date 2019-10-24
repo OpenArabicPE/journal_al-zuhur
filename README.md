@@ -21,8 +21,8 @@ If you just want to browse the edition in a more human-readable view, start [her
 ## to do
 
 1. mark up articles in sections: there some sections which only have a single article per issue
-    - في حدائق العرب
-    - في جنائن الغرب
+    - **done** في حدائق العرب
+    - **done** في جنائن الغرب
 
 
 [sakhrit]: http://archive.alsharekh.org/newmagazineYears.aspx?MID=40
