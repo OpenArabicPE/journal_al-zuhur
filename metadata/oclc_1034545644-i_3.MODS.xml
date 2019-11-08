@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<modsCollection xmlns:tei="http://www.tei-c.org/ns/1.0"
+<modsCollection xmlns="http://www.loc.gov/mods/v3"
                 xmlns:mods="http://www.loc.gov/mods/v3"
-                xmlns="http://www.loc.gov/mods/v3"
+                xmlns:tei="http://www.tei-c.org/ns/1.0"
                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                 xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/mods-3-7.xsd">
    <mods ID="oclc_1034545644-i_3-div_1.d2e239-mods">
@@ -43,14 +43,19 @@
                <number>3</number>
             </detail>
             <extent unit="pages">
-               <start/>
-               <end/>
+               <start>89</start>
+               <end>89</end>
             </extent>
          </part>
+         <identifier type="oape">3</identifier>
+         <identifier type="jid">40</identifier>
+         <identifier type="OCLC">1034545644</identifier>
+         <identifier type="URI">http://waqfeya.com/book.php?bid=6507</identifier>
+         <identifier type="URI">http://shamela.ws/index.php/book/36534</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url dateLastAccessed="2019-10-20" usage="primary display">#div_1.d2e239</url>
+         <url dateLastAccessed="2019-11-08" usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_3.TEIP5.xml#div_1.d2e239</url>
       </location>
       <language>
          <languageTerm type="code"
@@ -96,14 +101,19 @@
                <number>3</number>
             </detail>
             <extent unit="pages">
-               <start/>
-               <end/>
+               <start>89</start>
+               <end>95</end>
             </extent>
          </part>
+         <identifier type="oape">3</identifier>
+         <identifier type="jid">40</identifier>
+         <identifier type="OCLC">1034545644</identifier>
+         <identifier type="URI">http://waqfeya.com/book.php?bid=6507</identifier>
+         <identifier type="URI">http://shamela.ws/index.php/book/36534</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url dateLastAccessed="2019-10-20" usage="primary display">#div_1.d2e254</url>
+         <url dateLastAccessed="2019-11-08" usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_3.TEIP5.xml#div_1.d2e254</url>
       </location>
       <language>
          <languageTerm type="code"
@@ -159,14 +169,19 @@
                <number>3</number>
             </detail>
             <extent unit="pages">
-               <start/>
-               <end/>
+               <start>95</start>
+               <end>99</end>
             </extent>
          </part>
+         <identifier type="oape">3</identifier>
+         <identifier type="jid">40</identifier>
+         <identifier type="OCLC">1034545644</identifier>
+         <identifier type="URI">http://waqfeya.com/book.php?bid=6507</identifier>
+         <identifier type="URI">http://shamela.ws/index.php/book/36534</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url dateLastAccessed="2019-10-20" usage="primary display">#div_1.d2e414</url>
+         <url dateLastAccessed="2019-11-08" usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_3.TEIP5.xml#div_1.d2e414</url>
       </location>
       <language>
          <languageTerm type="code"
@@ -184,7 +199,9 @@
             xml:lang="ar"
             authority="oape"
             valueURI="oape:pers:1610">
-         <namePart type="family" xml:lang="ar">حليم إبراهيم دموس</namePart>
+         <namePart type="family" xml:lang="">دموس</namePart>
+         <namePart type="given" xml:lang="">حليم</namePart>
+         <namePart type="given" xml:lang="">إبراهيم</namePart>
          <role>
             <roleTerm authority="marcrelator" type="code">aut</roleTerm>
          </role>
@@ -221,14 +238,19 @@
                <number>3</number>
             </detail>
             <extent unit="pages">
-               <start/>
-               <end/>
+               <start>99</start>
+               <end>101</end>
             </extent>
          </part>
+         <identifier type="oape">3</identifier>
+         <identifier type="jid">40</identifier>
+         <identifier type="OCLC">1034545644</identifier>
+         <identifier type="URI">http://waqfeya.com/book.php?bid=6507</identifier>
+         <identifier type="URI">http://shamela.ws/index.php/book/36534</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url dateLastAccessed="2019-10-20" usage="primary display">#div_1.d2e631</url>
+         <url dateLastAccessed="2019-11-08" usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_3.TEIP5.xml#div_1.d2e631</url>
       </location>
       <language>
          <languageTerm type="code"
@@ -274,14 +296,19 @@
                <number>3</number>
             </detail>
             <extent unit="pages">
-               <start/>
-               <end/>
+               <start>101</start>
+               <end>103</end>
             </extent>
          </part>
+         <identifier type="oape">3</identifier>
+         <identifier type="jid">40</identifier>
+         <identifier type="OCLC">1034545644</identifier>
+         <identifier type="URI">http://waqfeya.com/book.php?bid=6507</identifier>
+         <identifier type="URI">http://shamela.ws/index.php/book/36534</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url dateLastAccessed="2019-10-20" usage="primary display">#div_1.d2e814</url>
+         <url dateLastAccessed="2019-11-08" usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_3.TEIP5.xml#div_1.d2e814</url>
       </location>
       <language>
          <languageTerm type="code"
@@ -295,64 +322,21 @@
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
-      <relatedItem type="host">
-         <titleInfo>
-            <title xml:lang="ar">الزهور مجلة أدبية فنية علمية</title>
-         </titleInfo>
-         <genre authority="marcgt">journal</genre>
-         <name type="personal"
-               xml:lang="ar"
-               authority="viaf"
-               valueURI="https://viaf.org/viaf/305214858">
-            <namePart type="family" xml:lang="ar">الجميل</namePart>
-            <namePart type="given" xml:lang="ar">أنطوان</namePart>
-            <role>
-               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
-            </role>
-         </name>
-         <originInfo>
-            <edition xml:lang="en">digital TEI edition, 2019</edition>
-            <place>
-               <placeTerm type="text" xml:lang="ar">القاهرة</placeTerm>
-            </place>
-            <publisher xml:lang="ar">مطبعة المعارف</publisher>
-            <dateIssued encoding="w3cdtf">1910-05-01</dateIssued>
-            <issuance>continuing</issuance>
-         </originInfo>
-         <part>
-            <detail type="volume">
-               <number>1</number>
-            </detail>
-            <detail type="issue">
-               <number>3</number>
-            </detail>
-            <extent unit="pages">
-               <start/>
-               <end/>
-            </extent>
-         </part>
-      </relatedItem>
-      <accessCondition/>
-      <location>
-         <url dateLastAccessed="2019-10-20" usage="primary display">#div_1.d2e844</url>
-      </location>
-      <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
-      </language>
-   </mods>
-   <mods ID="oclc_1034545644-i_3-div_1.d2e1545-mods">
-      <titleInfo>
-         <title xml:lang="ar">بين شعراء مصر والشام</title>
-      </titleInfo>
-      <typeOfResource>text</typeOfResource>
-      <genre authority="local" xml:lang="en">journalArticle</genre>
-      <genre authority="marcgt" xml:lang="en">article</genre>
+      <name type="personal"
+            xml:lang="ar"
+            authority="viaf"
+            valueURI="https://viaf.org/viaf/300091608">
+         <namePart type="family" xml:lang="ar">الخطيب</namePart>
+         <namePart type="given" xml:lang="ar">فؤاد</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+         </role>
+      </name>
       <name type="personal"
             xml:lang="ar"
             authority="oape"
-            valueURI="oape:pers:2096">
-         <namePart type="family" xml:lang="ar">عيسى اسكندر المعلوف</namePart>
+            valueURI="oape:pers:1142">
+         <namePart type="family" xml:lang="">أمين تقي الدين</namePart>
          <role>
             <roleTerm authority="marcrelator" type="code">aut</roleTerm>
          </role>
@@ -389,14 +373,97 @@
                <number>3</number>
             </detail>
             <extent unit="pages">
-               <start/>
-               <end/>
+               <start>103</start>
+               <end>107</end>
             </extent>
          </part>
+         <identifier type="oape">3</identifier>
+         <identifier type="jid">40</identifier>
+         <identifier type="OCLC">1034545644</identifier>
+         <identifier type="URI">http://waqfeya.com/book.php?bid=6507</identifier>
+         <identifier type="URI">http://shamela.ws/index.php/book/36534</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url dateLastAccessed="2019-10-20" usage="primary display">#div_1.d2e1545</url>
+         <url dateLastAccessed="2019-11-08" usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_3.TEIP5.xml#div_1.d2e844</url>
+      </location>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods ID="oclc_1034545644-i_3-div_1.d2e1545-mods">
+      <titleInfo>
+         <title xml:lang="ar">بين شعراء مصر والشام</title>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local" xml:lang="en">journalArticle</genre>
+      <genre authority="marcgt" xml:lang="en">article</genre>
+      <name type="personal"
+            xml:lang="ar"
+            authority="oape"
+            valueURI="oape:pers:2611">
+         <namePart type="family" xml:lang="">نسيب أرسلان</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+         </role>
+      </name>
+      <name type="personal"
+            xml:lang="ar"
+            authority="viaf"
+            valueURI="https://viaf.org/viaf/40250618">
+         <namePart type="family" xml:lang="">المعلوف</namePart>
+         <namePart type="given" xml:lang="">عيسى</namePart>
+         <namePart type="given" xml:lang="">اسكندر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+         </role>
+      </name>
+      <relatedItem type="host">
+         <titleInfo>
+            <title xml:lang="ar">الزهور مجلة أدبية فنية علمية</title>
+         </titleInfo>
+         <genre authority="marcgt">journal</genre>
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/305214858">
+            <namePart type="family" xml:lang="ar">الجميل</namePart>
+            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <role>
+               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+            </role>
+         </name>
+         <originInfo>
+            <edition xml:lang="en">digital TEI edition, 2019</edition>
+            <place>
+               <placeTerm type="text" xml:lang="ar">القاهرة</placeTerm>
+            </place>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <dateIssued encoding="w3cdtf">1910-05-01</dateIssued>
+            <issuance>continuing</issuance>
+         </originInfo>
+         <part>
+            <detail type="volume">
+               <number>1</number>
+            </detail>
+            <detail type="issue">
+               <number>3</number>
+            </detail>
+            <extent unit="pages">
+               <start>107</start>
+               <end>108</end>
+            </extent>
+         </part>
+         <identifier type="oape">3</identifier>
+         <identifier type="jid">40</identifier>
+         <identifier type="OCLC">1034545644</identifier>
+         <identifier type="URI">http://waqfeya.com/book.php?bid=6507</identifier>
+         <identifier type="URI">http://shamela.ws/index.php/book/36534</identifier>
+      </relatedItem>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
+      <location>
+         <url dateLastAccessed="2019-11-08" usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_3.TEIP5.xml#div_1.d2e1545</url>
       </location>
       <language>
          <languageTerm type="code"
@@ -442,14 +509,77 @@
                <number>3</number>
             </detail>
             <extent unit="pages">
-               <start/>
-               <end/>
+               <start>109</start>
+               <end>114</end>
             </extent>
          </part>
+         <identifier type="oape">3</identifier>
+         <identifier type="jid">40</identifier>
+         <identifier type="OCLC">1034545644</identifier>
+         <identifier type="URI">http://waqfeya.com/book.php?bid=6507</identifier>
+         <identifier type="URI">http://shamela.ws/index.php/book/36534</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url dateLastAccessed="2019-10-20" usage="primary display">#div_1.d2e1830</url>
+         <url dateLastAccessed="2019-11-08" usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_3.TEIP5.xml#div_1.d2e1830</url>
+      </location>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods ID="oclc_1034545644-i_3-div_1.d2e2111-mods">
+      <titleInfo>
+         <title xml:lang="ar">في حدائق العرب: أجبن الناس وأحيل الناس وأشجع الناس</title>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local" xml:lang="en">journalArticle</genre>
+      <genre authority="marcgt" xml:lang="en">article</genre>
+      <relatedItem type="host">
+         <titleInfo>
+            <title xml:lang="ar">الزهور مجلة أدبية فنية علمية</title>
+         </titleInfo>
+         <genre authority="marcgt">journal</genre>
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/305214858">
+            <namePart type="family" xml:lang="ar">الجميل</namePart>
+            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <role>
+               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+            </role>
+         </name>
+         <originInfo>
+            <edition xml:lang="en">digital TEI edition, 2019</edition>
+            <place>
+               <placeTerm type="text" xml:lang="ar">القاهرة</placeTerm>
+            </place>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <dateIssued encoding="w3cdtf">1910-05-01</dateIssued>
+            <issuance>continuing</issuance>
+         </originInfo>
+         <part>
+            <detail type="volume">
+               <number>1</number>
+            </detail>
+            <detail type="issue">
+               <number>3</number>
+            </detail>
+            <extent unit="pages">
+               <start>109</start>
+               <end>114</end>
+            </extent>
+         </part>
+         <identifier type="oape">3</identifier>
+         <identifier type="jid">40</identifier>
+         <identifier type="OCLC">1034545644</identifier>
+         <identifier type="URI">http://waqfeya.com/book.php?bid=6507</identifier>
+         <identifier type="URI">http://shamela.ws/index.php/book/36534</identifier>
+      </relatedItem>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
+      <location>
+         <url dateLastAccessed="2019-11-08" usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_3.TEIP5.xml#div_1.d2e2111</url>
       </location>
       <language>
          <languageTerm type="code"
@@ -463,6 +593,74 @@
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
+      <relatedItem type="host">
+         <titleInfo>
+            <title xml:lang="ar">الزهور مجلة أدبية فنية علمية</title>
+         </titleInfo>
+         <genre authority="marcgt">journal</genre>
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/305214858">
+            <namePart type="family" xml:lang="ar">الجميل</namePart>
+            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <role>
+               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+            </role>
+         </name>
+         <originInfo>
+            <edition xml:lang="en">digital TEI edition, 2019</edition>
+            <place>
+               <placeTerm type="text" xml:lang="ar">القاهرة</placeTerm>
+            </place>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <dateIssued encoding="w3cdtf">1910-05-01</dateIssued>
+            <issuance>continuing</issuance>
+         </originInfo>
+         <part>
+            <detail type="volume">
+               <number>1</number>
+            </detail>
+            <detail type="issue">
+               <number>3</number>
+            </detail>
+            <extent unit="pages">
+               <start>115</start>
+               <end>120</end>
+            </extent>
+         </part>
+         <identifier type="oape">3</identifier>
+         <identifier type="jid">40</identifier>
+         <identifier type="OCLC">1034545644</identifier>
+         <identifier type="URI">http://waqfeya.com/book.php?bid=6507</identifier>
+         <identifier type="URI">http://shamela.ws/index.php/book/36534</identifier>
+      </relatedItem>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
+      <location>
+         <url dateLastAccessed="2019-11-08" usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_3.TEIP5.xml#div_1.d2e2041</url>
+      </location>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods ID="oclc_1034545644-i_3-div_1.d2e2327-mods">
+      <titleInfo>
+         <title xml:lang="ar">في جنائن الغرب: ننشر تباعاً تحت هذا العنوان خير ما يؤخذ عن آداب الغربيين قديماً وحديثاً، لأن ذلك يكسب لغتنا ثروة طائلة من المعاني والأفكار الجديدة فيطلعنا على مجرى الحركة الأدبية عند الأمم. وقد كان لما عربناه في العدد الماضي (راجع ص ٦٨ ) من رواية شانتكلير وقع حسن عند جمهور القراء وتناقلت الترجمة جرائد عديدة. وقد أحببنا اليوم أن نأخذ شيئاً من قصة أندروماك بمناسبة تمثيل روايتها الفرنسوية على مرسح الأوبرا الخديوية أثناء وجود جوق جورج أفندي أبيض في مصر.</title>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local" xml:lang="en">journalArticle</genre>
+      <genre authority="marcgt" xml:lang="en">article</genre>
+      <name type="personal"
+            xml:lang="ar"
+            authority="viaf"
+            valueURI="https://viaf.org/viaf/24592715">
+         <namePart type="family" xml:lang="ar">البستاني</namePart>
+         <namePart type="given" xml:lang="ar">سليمان</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+         </role>
+      </name>
       <name type="personal"
             xml:lang="ar"
             authority="viaf"
@@ -505,14 +703,19 @@
                <number>3</number>
             </detail>
             <extent unit="pages">
-               <start/>
-               <end/>
+               <start>115</start>
+               <end>120</end>
             </extent>
          </part>
+         <identifier type="oape">3</identifier>
+         <identifier type="jid">40</identifier>
+         <identifier type="OCLC">1034545644</identifier>
+         <identifier type="URI">http://waqfeya.com/book.php?bid=6507</identifier>
+         <identifier type="URI">http://shamela.ws/index.php/book/36534</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url dateLastAccessed="2019-10-20" usage="primary display">#div_1.d2e2041</url>
+         <url dateLastAccessed="2019-11-08" usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_3.TEIP5.xml#div_1.d2e2327</url>
       </location>
       <language>
          <languageTerm type="code"
@@ -558,14 +761,19 @@
                <number>3</number>
             </detail>
             <extent unit="pages">
-               <start/>
-               <end/>
+               <start>121</start>
+               <end>125</end>
             </extent>
          </part>
+         <identifier type="oape">3</identifier>
+         <identifier type="jid">40</identifier>
+         <identifier type="OCLC">1034545644</identifier>
+         <identifier type="URI">http://waqfeya.com/book.php?bid=6507</identifier>
+         <identifier type="URI">http://shamela.ws/index.php/book/36534</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url dateLastAccessed="2019-10-20" usage="primary display">#div_1.d2e2498</url>
+         <url dateLastAccessed="2019-11-08" usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_3.TEIP5.xml#div_1.d2e2498</url>
       </location>
       <language>
          <languageTerm type="code"
@@ -611,14 +819,19 @@
                <number>3</number>
             </detail>
             <extent unit="pages">
-               <start/>
-               <end/>
+               <start>125</start>
+               <end>129</end>
             </extent>
          </part>
+         <identifier type="oape">3</identifier>
+         <identifier type="jid">40</identifier>
+         <identifier type="OCLC">1034545644</identifier>
+         <identifier type="URI">http://waqfeya.com/book.php?bid=6507</identifier>
+         <identifier type="URI">http://shamela.ws/index.php/book/36534</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url dateLastAccessed="2019-10-20" usage="primary display">#div_1.d2e2650</url>
+         <url dateLastAccessed="2019-11-08" usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_3.TEIP5.xml#div_1.d2e2650</url>
       </location>
       <language>
          <languageTerm type="code"
@@ -670,14 +883,19 @@
                <number>3</number>
             </detail>
             <extent unit="pages">
-               <start/>
-               <end/>
+               <start>129</start>
+               <end>132</end>
             </extent>
          </part>
+         <identifier type="oape">3</identifier>
+         <identifier type="jid">40</identifier>
+         <identifier type="OCLC">1034545644</identifier>
+         <identifier type="URI">http://waqfeya.com/book.php?bid=6507</identifier>
+         <identifier type="URI">http://shamela.ws/index.php/book/36534</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url dateLastAccessed="2019-10-20" usage="primary display">#div_1.d2e2699</url>
+         <url dateLastAccessed="2019-11-08" usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_3.TEIP5.xml#div_1.d2e2699</url>
       </location>
       <language>
          <languageTerm type="code"
@@ -723,14 +941,19 @@
                <number>3</number>
             </detail>
             <extent unit="pages">
-               <start/>
-               <end/>
+               <start>132</start>
+               <end>135</end>
             </extent>
          </part>
+         <identifier type="oape">3</identifier>
+         <identifier type="jid">40</identifier>
+         <identifier type="OCLC">1034545644</identifier>
+         <identifier type="URI">http://waqfeya.com/book.php?bid=6507</identifier>
+         <identifier type="URI">http://shamela.ws/index.php/book/36534</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url dateLastAccessed="2019-10-20" usage="primary display">#div_1.d2e2781</url>
+         <url dateLastAccessed="2019-11-08" usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_3.TEIP5.xml#div_1.d2e2781</url>
       </location>
       <language>
          <languageTerm type="code"
@@ -776,14 +999,19 @@
                <number>3</number>
             </detail>
             <extent unit="pages">
-               <start/>
-               <end/>
+               <start>135</start>
+               <end>137</end>
             </extent>
          </part>
+         <identifier type="oape">3</identifier>
+         <identifier type="jid">40</identifier>
+         <identifier type="OCLC">1034545644</identifier>
+         <identifier type="URI">http://waqfeya.com/book.php?bid=6507</identifier>
+         <identifier type="URI">http://shamela.ws/index.php/book/36534</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url dateLastAccessed="2019-10-20" usage="primary display">#div_1.d2e2865</url>
+         <url dateLastAccessed="2019-11-08" usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_3.TEIP5.xml#div_1.d2e2865</url>
       </location>
       <language>
          <languageTerm type="code"

@@ -11,6 +11,15 @@
       <genre authority="marcgt" xml:lang="en">article</genre>
       <name type="personal"
             xml:lang="ar"
+            authority="oape"
+            valueURI="oape:pers:1956">
+         <namePart type="family" xml:lang="ar">عباس محمود العقاد</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+         </role>
+      </name>
+      <name type="personal"
+            xml:lang="ar"
             authority="viaf"
             valueURI="https://viaf.org/viaf/102460074">
          <namePart type="family" xml:lang="ar">مطران</namePart>
@@ -23,7 +32,9 @@
             xml:lang="ar"
             authority="oape"
             valueURI="oape:pers:1610">
-         <namePart type="family" xml:lang="ar">حليم إبراهيم دموس</namePart>
+         <namePart type="family" xml:lang="">دموس</namePart>
+         <namePart type="given" xml:lang="">حليم</namePart>
+         <namePart type="given" xml:lang="">إبراهيم</namePart>
          <role>
             <roleTerm authority="marcrelator" type="code">aut</roleTerm>
          </role>
@@ -54,20 +65,25 @@
          </originInfo>
          <part>
             <detail type="volume">
-               <number>1</number>
+               <number>3</number>
             </detail>
             <detail type="issue">
-               <number>28</number>
+               <number>7</number>
             </detail>
             <extent unit="pages">
-               <start/>
-               <end/>
+               <start>365</start>
+               <end>368</end>
             </extent>
          </part>
+         <identifier type="oape">3</identifier>
+         <identifier type="jid">40</identifier>
+         <identifier type="OCLC">1034545644</identifier>
+         <identifier type="URI">http://waqfeya.com/book.php?bid=6507</identifier>
+         <identifier type="URI">http://shamela.ws/index.php/book/36534</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url dateLastAccessed="2019-10-20" usage="primary display">#div_1.d2e957</url>
+         <url dateLastAccessed="2019-11-08" usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_28.TEIP5.xml#div_1.d2e957</url>
       </location>
       <language>
          <languageTerm type="code"
