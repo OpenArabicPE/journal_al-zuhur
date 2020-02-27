@@ -352,7 +352,7 @@
          </tei:div>
          <tei:div change="#d2e64 #d2e223 #d2e228" subtype="article" type="item" xml:id="div_1.d2e328" xml:lang="ar">
             <head change="#d2e223 #d2e228" xml:id="head_3.d2e330" xml:lang="ar">إيماءة زائر</head>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e333" xml:lang="ar">إلى بعض ما باورشليم من المآثر تابع</tei:p>
+            <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e333" xml:lang="ar">إلى بعض ما باورشليم من المآثر <ref rend="brackets">تابع</ref></tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e336" xml:lang="ar"
                >المسجد الأقصى نعم قلت إني لا أتعرض لوصف تلك الآثار، غير أن قلبي لا يسمح لي أن أذكر أورشليم وأعرض عن ذكر الحرم فإنه أبدع ما رأيت حتى اليوم وقد عثرت في تاريخ <persName
                change="#d3e209 #d2e223 #d2e228" ref="oape:pers:53 viaf:41841661" xml:id="persName_2.d2e338" xml:lang="ar"
@@ -390,17 +390,20 @@
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e378" xml:lang="ar"
                >ثم أن تلك المدرسة مجانية تبذل لذلك العدد العديد من اليتامى كل ما يعوزهم من طعام وكسوة وكتب وأدوات صنائع ولا تطلب من تلك النفقة الباهظة عوضاً إلا وجه الله الكريم. فأولئك اليتامى وكل من اتصل به خبر هذا الأثر الجليل يقولون: رحم الله (الأب انطون بلوني) الذي أعلى للجميل معالمه وحمى مكارمهُ فلقد كانت أيامه أيام المبار والمحامد وأزمان المكارم والمآثر.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e381" xml:lang="ar"
-               >ومن حسن نظر هذا الغيور في عواقب الأمور أنه لما طعن في السن ووصل إلى عصر يوم الحياة خشي على هذا الميتم الكبير وسائر المدارس التي أنشأها في الناصرة وفي بيت جمال وفي كرم الزان أن تغلق أبوابها وتنضب ينابيعها فسلمها إلى من لا يألون جهداً في المحافظة عليها بل إلى من لا يصرفهم عن إنمائها وتوسيعها غرضٌ من الأغراض فهم جماعة من الآباء الساليسيان متجردون لخدمة الله بتعليم الأحداث والسعي لتخفيف شقاء الحياة (بيروت)</tei:p>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e384" xml:lang="ar">سعيد الخوري الشرتوني.</tei:p>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e387" xml:lang="ar">السنة الأولى للزهور</tei:p>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e390" xml:lang="ar"
-               >في الإدارة مجموعة الزهور للسنة الأولى مجلدة تجليداً متقناً وثمنها خمسون قرشاً صاغاً. ويضاف إلى ذلك أجرة البريد للخارج. <pb change="#d2e228"
+               >ومن حسن نظر هذا الغيور في عواقب الأمور أنه لما طعن في السن ووصل إلى عصر يوم الحياة خشي على هذا الميتم الكبير وسائر المدارس التي أنشأها في الناصرة وفي بيت جمال وفي كرم الزان أن تغلق أبوابها وتنضب ينابيعها فسلمها إلى من لا يألون جهداً في المحافظة عليها بل إلى من لا يصرفهم عن إنمائها وتوسيعها غرضٌ من الأغراض فهم جماعة من الآباء الساليسيان متجردون لخدمة الله بتعليم الأحداث والسعي لتخفيف شقاء الحياة </tei:p>
+            <byline>(<placeName>بيروت</placeName>) <persName>سعيد الخوري الشرتوني</persName></byline>
+         </tei:div>
+         <tei:div change="#d2e64 #d2e223 #d2e228" subtype="advert" type="item" xml:lang="ar">
+            <head>السنة الأولى للزهور</head>
+            <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e390" xml:lang="ar">في الإدارة مجموعة <title level="j"
+               >الزهور</title> للسنة الأولى مجلدة تجليداً متقناً وثمنها خمسون قرشاً صاغاً. ويضاف إلى ذلك أجرة البريد للخارج. <pb change="#d2e228"
                corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P628.xhtml" ed="shamela" n="n2-p67" xml:id="pb_11.d2e392"/><pb
                change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_67" n="67" xml:id="pb_22.d2e631"/> </tei:p>
          </tei:div>
          <tei:div change="#d2e64 #d2e223 #d2e228" subtype="article" type="item" xml:id="div_1.d2e396" xml:lang="ar">
             <head change="#d2e223 #d2e228" xml:id="head_4.d2e398" xml:lang="ar">بين هدى وأدما</head>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e401" xml:lang="ar">عود إلى تمدن المرأة العصرية</tei:p>
+            <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e401" xml:lang="ar">عود إلى<ref target="oclc_1034545644-i_12.TEIP5.xml#div_1.d2e2039"><title level="a"
+               > تمدن المرأة العصرية</title></ref></tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e404" xml:lang="ar"
                >قرأت أدبية بيروت كلمتي بين هدى وأدما فأغضبتها وهي على ما هي عليه من لين العبارة ونعومة المعنى وقرأت ردها علي فأخذتُه بحلم وسعة صدر على ما فيه من القوارص والمغامز فكان غضبها وحلمي دليلين على نقيضين: ضعف النساء ورصانة الرجال.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e407" xml:lang="ar">قبل الموضوع لي ملاحظة:</tei:p>
@@ -600,9 +603,8 @@
                change="#d2e228" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P642.xhtml" ed="shamela" n="n2-p81" xml:id="pb_25.d2e836"/><pb
                change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_81" n="81" xml:id="pb_50.d2e1104"
                /> أسد الله الغالب علي بن أبي طالب أمير المؤمنين ورابع الخلفاء الراشدين عن سيد المرسلين وأفضل العالمين ابن عمه محمد المصطفى - صلى الله عليه وسلم - فلله الحمد على هذا النسب العالي ولا ترى نسباً كنسب الحيدرية في أخذ كل عن أبيه وهو من عجيب الاتفاق وذلك فضل الله يؤتيه من يشاء.</tei:p>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e839" xml:lang="ar">بغداد</tei:p>
-            <byline change="#d2e198 #d2e223 #d2e228" xml:id="byline_1.d2e842" xml:lang="ar"><persName change="#d3e209 #d2e223 #d2e228" ref="oape:pers:227 viaf:39370998" xml:id="persName_3.d2e843"
-               xml:lang="ar">ساتسنا</persName></byline>
+            <byline change="#d2e198 #d2e223 #d2e228" xml:id="byline_1.d2e842" xml:lang="ar"><placeName>بغداد</placeName> <persName change="#d3e209 #d2e223 #d2e228" ref="oape:pers:227 viaf:39370998"
+               xml:id="persName_3.d2e843" xml:lang="ar">ساتسنا</persName></byline>
          </tei:div>
          <tei:div change="#d2e64 #d2e223 #d2e228" subtype="article" type="item" xml:id="div_1.d2e848" xml:lang="ar">
             <head change="#d2e223 #d2e228" xml:id="head_6.d2e850" xml:lang="ar">الجرائد والمجلات في مصر</head>
@@ -627,10 +629,9 @@
          </tei:div>
          <tei:div change="#d2e64 #d2e223 #d2e228" type="section" xml:id="div_1.d2e912" xml:lang="ar">
             <head change="#d2e223 #d2e228" xml:id="head_7.d2e914" xml:lang="ar">في جنائن الغرب</head>
+            <p>نشرنا حتى الآن تحت هذا العنوان بعض مختارات من كتابات مشاهير أدباء الغرب، وقد أحببنا اليوم أن نأخذ صفحة عن اللغة التركية وهي مرصعة بالمعاني النفيسة:</p>
             <tei:div change="#d2e310 #d2e145" subtype="article" type="item" xml:id="div_1.d2e1185" xml:lang="ar">
-               <tei:head change="#d2e73 #d2e223 #d2e228 #d2e310" xml:id="p_2.d2e917" xml:lang="ar"
-                  >نشرنا حتى الآن تحت هذا العنوان بعض مختارات من كتابات مشاهير أدباء الغرب، وقد أحببنا اليوم أن نأخذ صفحة عن اللغة التركية وهي مرصعة بالمعاني النفيسة:</tei:head>
-               <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e920" xml:lang="ar">الابتسامة</tei:p>
+               <tei:head change="#d2e73 #d2e223 #d2e228 #d2e310" xml:id="p_2.d2e917" xml:lang="ar">الابتسامة</tei:head>
                <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e923" xml:lang="ar">الابتسامة هي علامة الابتهاج، وبشيرة الأرواح الحساسة.</tei:p>
                <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e926" xml:lang="ar">الابتسامة عدوة لجيوش الهموم تهاجمها فتمزق شملها شذر مذر</tei:p>
                <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e930" xml:lang="ar">الابتسامة مرآة الباطن، الابتسامة لسان القلب</tei:p>
@@ -654,6 +655,7 @@
                <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e970" xml:lang="ar">فالعالم هو الذي يجعل حياته ابتساماً وضحكاً ويبتعد عن أراقه دمعة في زمانه الضحوك المبتسم.</tei:p>
                <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e973" xml:lang="ar"
                   >فيسكن في البيت الضحوك، ويشارك في حياته من تضحك وتبتسم، ويتخذ أحباء يضحكون، ويمضي سحابة حياته في الضحك والابتسام.</tei:p>
+               <note place="inline" type="bibliographic"><title level="j">العرفان</title></note>
             </tei:div>
          </tei:div>
          <tei:div change="#d2e64 #d2e223 #d2e228" subtype="article" type="item" xml:id="div_1.d2e977" xml:lang="ar">
@@ -688,10 +690,8 @@
                   >يا إمام القريض بالشعر تُرثى</tei:seg> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e1031" xml:lang="ar">وقليلٌ على الإمام الرثاءُ</tei:seg> </tei:l>
                <tei:l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e1035" xml:lang="ar"> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e1037" xml:lang="ar"
                   >ما وفى بالوفاء فيك خليلاً</tei:seg> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e1040" xml:lang="ar">أين مني ومن حليل وفاءُ</tei:seg> </tei:l>
-            </lg>
-            <pb change="#d2e228" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P647.xhtml" ed="shamela" n="n2-p86" xml:id="pb_30.d2e1045"/>
-            <pb change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_86" n="86" xml:id="pb_60.d2e1319"/>
-            <lg change="#d2e82 #d2e223 #d2e228" xml:id="lg_2.d2e1047" xml:lang="ar">
+               <pb change="#d2e228" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P647.xhtml" ed="shamela" n="n2-p86" xml:id="pb_30.d2e1045"/>
+               <pb change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_86" n="86" xml:id="pb_60.d2e1319"/>
                <tei:l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e1049" xml:lang="ar"> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e1051" xml:lang="ar"
                   >ليتني عندما أحببت نداء الله</tei:seg> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e1054" xml:lang="ar">أخبرتُ حين جاء النداءُ</tei:seg> </tei:l>
                <tei:l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e1058" xml:lang="ar"> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e1060" xml:lang="ar"
@@ -719,7 +719,7 @@
                <tei:l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e1159" xml:lang="ar"> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e1161" xml:lang="ar"
                   >فحياةُ الأديب داءٌ عضال</tei:seg> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e1164" xml:lang="ar">وممات الأديب نعم الدواءُ</tei:seg> </tei:l>
             </lg>
-            <byline change="#d2e198 #d2e223 #d2e228" xml:id="byline_3.d2e1170" xml:lang="ar">العرب</byline>
+            <byline change="#d2e198 #d2e223 #d2e228" xml:id="byline_3.d2e1170" xml:lang="ar"><persName><addName type="nickname">العرب</addName></persName></byline>
          </tei:div>
          <tei:div change="#d2e64 #d2e223 #d2e228" subtype="article" type="item" xml:id="div_1.d2e1174" xml:lang="ar">
             <head change="#d2e223 #d2e228" xml:id="head_10.d2e1176" xml:lang="ar">أنا قاتل عصفوري</head>
