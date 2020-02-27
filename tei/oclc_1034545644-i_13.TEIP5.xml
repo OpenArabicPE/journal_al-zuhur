@@ -59,6 +59,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <tei:change when="2020-02-27" who="#pers_TG" xml:id="d2e383">Linked all <tei:tag>pb ed="print"</tei:tag> to the corresponding facsimile</tei:change>
          <change when="2019-11-08" who="#pers_TG" xml:id="d2e145" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en"
             >tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
          <change when="2019-10-25" who="#pers_TG" xml:id="d2e318" xml:lang="en">Added <tei:gi change="#d2e145" xml:id="gi_1.d2e147">publicationStmt</tei:gi>.</change>
@@ -1283,12 +1284,12 @@
             <div subtype="article" type="item">
                <head>سمكة أبريل</head>
                <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e3000" xml:lang="ar"
-                  >رويت لقرائي السنة الماضية حكاية هذه السمكة أو الكذبة فاكتفي اليوم برواية إحدى الكذبات المشهورة في هذا الصدد: أعلن أحد الظرفاء في جريدة باريسية عن رغبته في الزواج وطلب من الراغبات في الاقتران به أن يكتبن إليه عن عنوانهنّ إلى نمرة عينها لهن. وأردف هذا الإعلان بإعلان آخر عن لسان فتاة غنية جميلة تطلب من الشبان الراغبين في الزواج مثل ما طلب في إعلانه الأول من الشابات. فاجتمع لديه في مدة وجيزة ما يناهز المئتين من الأجوبة الواردة من الفتيات ومثلها من أجوبة الفتيان، فأجاب كلاً بمفرده ضارباً له موعداً في إحدى ساحات باريس العمومية للمقابلة وطلب من الفتى - أو الفتاة - أن يزين صدره بوردة بيضاء لسهولة التعارف ثم كتب - دائماً باسم مستعار - إلى مدير البوليس ينبئه بوجود مؤامرة من الحزب الملكي ضد الجمهورية وعزم الأعضاء على مباغتة الحكومة بمظاهرة كبيرة وأفهمه أن شارة المتآمرين وردة بيضاء. فلما أزف الموعد اجتمع في الساحة المعينة أربعمئة فتى وفتاة تقريباً وعلى صدورهم الورد الأبيض. وإذا بالبوليس مقبلٌ بخيله ورجله للقبض على أعضاء المؤامرة الموهومة. ولم يلبث أن جاءت إشارة تلفونية من المحافظة أن قد أتاها أن المسألة من قبيل كذبة أول أبريل. . . فضحك البوليس وضحك المتآمرون وضحك خصوصاً مدبر هذه الحيلة. . .  </tei:p>
+                  >رويت لقرائي السنة الماضية حكاية هذه السمكة أو الكذبة فاكتفي اليوم برواية إحدى الكذبات المشهورة في هذا الصدد: أعلن أحد الظرفاء في جريدة باريسية عن رغبته في الزواج وطلب من الراغبات في الاقتران به أن يكتبن إليه عن عنوانهنّ إلى نمرة عينها لهن. وأردف هذا الإعلان بإعلان آخر عن لسان فتاة غنية جميلة تطلب من الشبان الراغبين في الزواج مثل ما طلب في إعلانه الأول من الشابات. فاجتمع لديه في مدة وجيزة ما يناهز المئتين من الأجوبة الواردة من الفتيات ومثلها من أجوبة الفتيان، فأجاب كلاً بمفرده ضارباً له موعداً في إحدى ساحات باريس العمومية للمقابلة وطلب من الفتى - أو الفتاة - أن يزين صدره بوردة بيضاء لسهولة التعارف ثم كتب - دائماً باسم مستعار - إلى مدير البوليس ينبئه بوجود مؤامرة من الحزب الملكي ضد الجمهورية وعزم الأعضاء على مباغتة الحكومة بمظاهرة كبيرة وأفهمه أن شارة المتآمرين وردة بيضاء. فلما أزف الموعد اجتمع في الساحة المعينة أربعمئة فتى وفتاة تقريباً وعلى صدورهم الورد الأبيض. وإذا بالبوليس مقبلٌ بخيله ورجله للقبض على أعضاء المؤامرة الموهومة. ولم يلبث أن جاءت إشارة تلفونية من المحافظة أن قد أتاها أن المسألة من قبيل كذبة أول أبريل. . . فضحك البوليس وضحك المتآمرون وضحك خصوصاً مدبر هذه الحيلة. . . </tei:p>
             </div>
-            <pb ed="print" n="106"/>
+            <pb change="#d2e383" ed="print" facs="#facs_106" n="106"/>
             <gap resp="#org_MS"/>
             <pb change="#d2e228" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P667.xhtml" ed="shamela" n="n2-p107" xml:id="pb_50.d2e3002"/>
-            <pb change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_106" n="107" xml:id="pb_100.d2e3301"/>
+            <pb change="#d2e269 #d2e279 #d2e145 #d2e383" ed="print" edRef="#edition_1" facs="#facs_107" n="107" xml:id="pb_100.d2e3301"/>
             <div subtype="article" type="item">
                <head>زيٌّ جديد</head>
                <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e3005" xml:lang="ar"
@@ -1302,7 +1303,7 @@
                   change="#d2e228" xml:id="surname_3.d2e3022" xml:lang="ar">إبراهيم</surname>
                   </persName> شاعر النيل، فاختطفته من بين الرياض التي كان يغازلها، والنجوم التي كان يناجيها، وجماعة البؤساء التي كان يسليها، ووضعته في المكتب الخديوية لينسقها ويحليها، ومن عرف ما في دماغ حافظ من بديع المحفوظ أيقن أن الحكومة قد ضمّت إلى مكتبتها الجامدة مكتبة حية. وإذا كان <pb
                   change="#d2e228" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P668.xhtml" ed="shamela" n="n2-p108" xml:id="pb_51.d2e3026"
-                  /><pb change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_107" n="108" xml:id="pb_102.d2e3326"
+                  /><pb change="#d2e269 #d2e279 #d2e145 #d2e383" ed="print" edRef="#edition_1" facs="#facs_108" n="108" xml:id="pb_102.d2e3326"
                   /> قد شق على الكثيرين أن يروا حافظاً منصرفاً عن خدمة دولة الشعر إلى دولة الإدارة فإنهم يتعزون متى عرفوا أنه ضمن حياته عن غير طريق القصبة المشقوفة. وقد خاطبه <persName
                   change="#d3e296 #d2e145" ref="oape:pers:1089" xml:id="persName_16.d2e3328">أحمد نسيم</persName> بهذه الأبيات:</tei:p>
                <lg change="#d2e82 #d2e223 #d2e228" xml:id="lg_51.d2e3029" xml:lang="ar">
@@ -1339,10 +1340,10 @@
                </lg>
                <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e3169" xml:lang="ar">فليحذر حافظ اليوم هجاء زملائهِ المعجبين بهِ بالأمس، وليكن لحالهم ذاكراً، ولعهدهم حافظاً.</tei:p>
             </div>
-            <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e3172" xml:lang="ar">حاصد  </tei:p>
+            <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e3172" xml:lang="ar">حاصد </tei:p>
          </tei:div>
          <pb change="#d2e228" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P669.xhtml" ed="shamela" n="n2-p109" xml:id="pb_52.d2e3174"/>
-         <pb change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_108" n="109" xml:id="pb_104.d2e3478"/>
+         <pb change="#d2e269 #d2e279 #d2e145 #d2e383" ed="print" edRef="#edition_1" facs="#facs_109" n="109" xml:id="pb_104.d2e3478"/>
          <tei:div change="#d2e64 #d2e223 #d2e228" type="section" xml:id="div_1.d2e3178" xml:lang="ar">
             <head change="#d2e223 #d2e228" xml:id="head_14.d2e3180" xml:lang="ar">رواية الشهر</head>
             <div subtype="article" type="item">
@@ -1352,14 +1353,14 @@
                <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e3189" xml:lang="ar"
                   >وآهاً لك أيها القلم تكسر على صخور عجزك وتمزق يا قرطاس بين أنياب ضعفك فإنكما لا تستطيعان أن تعربا عما خامر قلبي ذينك الشابين من السرور والجذل لما أنبأهما والد لوتيك برضاه عن زفافها إليه. فلا خير في يراعٍ يخون الفكر ولا ينقاد للقلب <pb
                   change="#d2e228" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P670.xhtml" ed="shamela" n="n2-p110" xml:id="pb_53.d2e3191"
-                  /><pb change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_109" n="110" xml:id="pb_106.d2e3496"
+                  /><pb change="#d2e269 #d2e279 #d2e145 #d2e383" ed="print" edRef="#edition_1" facs="#facs_110" n="110" xml:id="pb_106.d2e3496"
                   /> ولا جناح إذا مزق طرس ينوء بوقر حديث الابتهاج. فانطرح لوتيك بين ذراعي والديه ودموعهُ تهمي. أما إيفون فإنها ضمن يديها إلى صدرها ورفعت عينيها إلى السماء شاكرة لرحمان. غير أنه لم يكن لها من يقاسمها أفراحها فالموت القاسي كان قد مزق بمخالبه المفترسة حياة والديها وزج بهما في أعماق القبور.</tei:p>
                <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e3194" xml:lang="ar"
                   >بزغت غزالة النهار مائسة تبدد عن الأفق غيوم الظلماء كما كانت شمس الحب تمزق بأضوائها المتلألئة حنادس الحزن والأسى عن قلب لوتيك وعشيقته إيفون. قرع الناقوس واحتشد القوم في الساحة العمومية ينتظرون بذاهب الصبر قدوم العروسين ليسرحوا الأنظار في حسن محيا إيفون الفتاة. وما كنت ترى إلا عيوناً شاخصة ولا تسمع إلا أفواهاً تقول ما أجمل وأبهى سنا طلعتها. فرفع الكاهن يديه وقال: ليبارككما رب السماء وليسكب عليكما غيث رضوانه ما أحسن مثلكما فعلى الأغنياء أن يمدوا يد المصافحة إلى البؤساء لنهم كلهم أبناء أسرة واحد، اذهبا وعيشا بسلام آمنين.</tei:p>
                <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e3198" xml:lang="ar"
                   >بالقرب من تلك القرية جزيرة صغيرة تتحطم على صخورها أمواج البحر المتلاطمة وتأوي الطيور إليها فتؤنس وحشتها بشجي ألحانها حتى أن القادم إليها يكاد يحسب نفسه قد هبط في جنة عدن أو صعد إلى عالم الأبرار وكان يسكنها ناسك قوَّست الأيام ظهره وأضعفت السنون بصره وكان على كل من يتزوج من سكان هذه القرية أن يقدم له شيئاً من العسل واللبن. فركب العروسان القارب ترافقهما أصوات الغناء وعزف آلات الطرب حتى إذا قاما بالعادة المرعية وقدما للناسك الهدايا المعدة ركبا البحر فشاهدا من أهواله ما لا يعبر عنه إذ سمعا للجبال صفيراً وللرياح دوياً عظيماً وزفيراً والأمواج تطرب لسماع أصوات الرياح فكانت طوراً تبتعد وتضطرب وتارة تلتطم وتصطفق فلما أيقنا أنهما لا يجدان إلا فضل الله واقياً ومجيراً قالت إيفون: رب نجنا من وهدة العطب ولك منا أن نزور مذبح هامة رسلك. فاستجاب الله الدعاء. فهدأ البحر وسكن وحصل بعد الشدة الفرج وشما من السلامة أطيب الأرج. <pb
                   change="#d2e228" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P671.xhtml" ed="shamela" n="n2-p111" xml:id="pb_54.d2e3200"
-                  /><pb change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_110" n="111" xml:id="pb_108.d2e3506"
+                  /><pb change="#d2e269 #d2e279 #d2e145 #d2e383" ed="print" edRef="#edition_1" facs="#facs_111" n="111" xml:id="pb_108.d2e3506"
                   /> وآهاً لك يا أيام الفرج والسرور ما لك تمضين كوميض البرق ما لك تمرين مر السحاب ولا تعودين.</tei:p>
                <lg change="#d2e82 #d2e223 #d2e228" xml:id="lg_52.d2e3203" xml:lang="ar">
                   <tei:l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e3205" xml:lang="ar"> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e3207" xml:lang="ar"
@@ -1376,7 +1377,7 @@
                <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e3233" xml:lang="ar"
                   >تحمل يا قلب تحمل ولا تتفطر حزناً وكمداً. وضع جثتها في التابوت بعد أن زودها بقبلاته الحارة وأنشده لها بصوته الرخيم غناء الوداع الأخير وحفر لها جدثاً تحت ظل <pb change="#d2e228"
                   corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P672.xhtml" ed="shamela" n="n2-p112" xml:id="pb_55.d2e3235"/><pb
-                  change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_111" n="112" xml:id="pb_110.d2e3542"
+                  change="#d2e269 #d2e279 #d2e145 #d2e383" ed="print" edRef="#edition_1" facs="#facs_112" n="112" xml:id="pb_110.d2e3542"
                   /> دوحة وزينهُ بالأزهار وسقاه بالدموع ثم مضى ولم يدع الحزن في قلبه ولم يذر. قضى النذر وعاد ووقف على قبر الحبيبة وقال:</tei:p>
                <lg change="#d2e82 #d2e223 #d2e228" xml:id="lg_54.d2e3239" xml:lang="ar">
                   <tei:l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e3241" xml:lang="ar"> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e3243" xml:lang="ar"
@@ -1407,9 +1408,6 @@
                   >فدهش الناس مما رأوا ونصبوا لهما قبراً منيفاً يركع بجنبه للصلاة من يريد أن يفتح قلبهُ للحب الزواجي الطاهر.</tei:p>
                <note place="inline" type="bibliographic">(عن <persName>فيكتور هوغو</persName>) <placeName>حلب</placeName>، <persName change="#d3e209 #d2e223 #d2e228" ref="oape:pers:2788"
                   xml:id="persName_15.d2e3336" xml:lang="ar"><forename change="#d2e223 #d2e228" xml:id="forename_4.d2e3338" xml:lang="ar">لويس</forename> <surname>أسود</surname></persName> </note>
-               <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e3331" xml:lang="ar"><pb change="#d2e228"
-                  corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P673.xhtml" ed="shamela" n="n2-p113" xml:id="pb_56.d2e3342"/><pb
-                  change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_112" n="113" xml:id="pb_112.d2e3650"/> </tei:p>
             </div>
          </tei:div>
       </tei:body>
