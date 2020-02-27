@@ -59,6 +59,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2020-02-27" who="#pers_TG" xml:lang="en">Validated and added structural and semantic mark-up on the basis of the facsimiles.</change>
          <tei:change when="2020-02-27" who="#pers_TG" xml:id="d2e383">Linked all <tei:tag>pb ed="print"</tei:tag> to the corresponding facsimile</tei:change>
          <change when="2019-11-08" who="#pers_TG" xml:id="d2e145" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en"
             >tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
