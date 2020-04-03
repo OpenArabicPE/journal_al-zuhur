@@ -12,22 +12,14 @@
             <author change="#d2e228" xml:id="author_1.d2e19">أنطون الجميل</author>
             <tei:respStmt change="#d2e228" xml:id="respStmt_1.d2e22" xml:lang="en">
                <tei:resp change="#d2e223 #d2e228" xml:id="resp_1.d2e24" xml:lang="en">TEI edition</tei:resp>
-               <tei:persName change="#d2e223" xml:id="pers_TG" xml:lang="en">
-                  <tei:forename change="#d2e223 #d2e228" xml:id="forename_1.d2e29" xml:lang="en">Till</tei:forename>
-                  <tei:surname change="#d2e223 #d2e228" xml:id="surname_1.d2e32" xml:lang="en">Grallert</tei:surname>
-               </tei:persName>
+               <tei:persName change="#d2e223" xml:id="pers_TG" xml:lang="en"> <tei:forename change="#d2e223 #d2e228" xml:id="forename_1.d2e29" xml:lang="en">Till</tei:forename> <tei:surname
+                  change="#d2e223 #d2e228" xml:id="surname_1.d2e32" xml:lang="en">Grallert</tei:surname> </tei:persName>
             </tei:respStmt>
          </titleStmt>
          <publicationStmt change="#d2e228 #d2e318" xml:id="publicationStmt_1.d2e38" xml:lang="en">
-            <authority change="#d2e145" xml:id="authority_1.d2e38">
-               <tei:persName change="#d2e414" xml:id="persName_1.d2e41">
-                  <tei:forename change="#d2e145" xml:id="forename_1.d2e40">Till</tei:forename>
-                  <tei:surname change="#d2e145" xml:id="surname_1.d2e42">Grallert</tei:surname>
-               </tei:persName>
-            </authority>
-            <pubPlace change="#d2e145" xml:id="pubPlace_1.d2e44">
-               <placeName change="#d2e145 #d5e387" ref="oape:place:26 geon:276781" xml:id="placeName_1.d2e45">Beirut</placeName>
-            </pubPlace>
+            <authority change="#d2e145" xml:id="authority_1.d2e38"> <tei:persName change="#d2e414" xml:id="persName_1.d2e41"> <tei:forename change="#d2e145" xml:id="forename_1.d2e40"
+               >Till</tei:forename> <tei:surname change="#d2e145" xml:id="surname_1.d2e42">Grallert</tei:surname> </tei:persName> </authority>
+            <pubPlace change="#d2e145" xml:id="pubPlace_1.d2e44"> <placeName change="#d2e145 #d5e387" ref="oape:place:26 geon:276781" xml:id="placeName_1.d2e45">Beirut</placeName> </pubPlace>
             <date change="#d2e145" when="2019" xml:id="date_1.d2e47">2019</date>
             <availability change="#d2e145" status="restricted" xml:id="availability_1.d2e49">
                <licence change="#d2e145" target="http://creativecommons.org/licenses/by-sa/4.0/" xml:id="licence_1.d2e50"
@@ -49,22 +41,14 @@
                   <idno change="#d2e223 #d2e228" type="URI" xml:id="idno_4.d2e72" xml:lang="ar">http://waqfeya.com/book.php?bid=6507</idno>
                   <idno change="#d2e223 #d2e228" type="URI" xml:id="idno_5.d2e75" xml:lang="ar">http://shamela.ws/index.php/book/36534</idno>
                   <textLang change="#d2e228" mainLang="ar" xml:id="textLang_1.d2e78"/>
-                  <editor change="#d2e228" xml:id="editor_1.d2e80" xml:lang="ar">
-                     <persName change="#d2e228" ref="oape:pers:2804 viaf:305214858" xml:id="persName_1.d2e82" xml:lang="ar">
-                        <forename change="#d2e228" xml:id="forename_1.d2e84" xml:lang="ar">أنطوان</forename>
-                        <surname change="#d2e228" xml:id="surname_1.d2e87" xml:lang="ar">الجميل</surname>
-                     </persName>
-                  </editor>
+                  <editor change="#d2e228" xml:id="editor_1.d2e80" xml:lang="ar"> <persName change="#d2e228" ref="oape:pers:2804 viaf:305214858" xml:id="persName_1.d2e82" xml:lang="ar"> <forename
+                     change="#d2e228" xml:id="forename_1.d2e84" xml:lang="ar">أنطوان</forename> <surname change="#d2e228" xml:id="surname_1.d2e87" xml:lang="ar">الجميل</surname> </persName> </editor>
                   <imprint change="#d2e228" xml:id="imprint_1.d2e93" xml:lang="ar">
-                     <publisher change="#d2e223 #d2e228" xml:id="publisher_1.d2e95" xml:lang="ar">
-                        <orgName change="#d2e228" xml:id="orgName_1.d2e97" xml:lang="ar">مطبعة المعارف</orgName>
-                        <orgName change="#d2e228" xml:id="orgName_2.d2e100" xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</orgName>
-                     </publisher>
-                     <pubPlace change="#d2e223 #d2e228" xml:id="pubPlace_1.d2e104" xml:lang="ar">
-                        <placeName change="#d5e42 #d2e228" ref="oape:place:226 geon:360630" xml:id="placeName_1.d2e106" xml:lang="ar">القاهرة</placeName>
-                        <placeName change="#d5e42 #d2e228" ref="oape:place:226 geon:360630" xml:id="placeName_2.d2e109" xml:lang="ar-Latn-x-ijmes">al-Qāhira</placeName>
-                        <placeName change="#d5e42 #d2e228" ref="oape:place:226 geon:360630" xml:id="placeName_3.d2e112" xml:lang="en">Cairo</placeName>
-                     </pubPlace>
+                     <publisher change="#d2e223 #d2e228" xml:id="publisher_1.d2e95" xml:lang="ar"> <orgName change="#d2e228" xml:id="orgName_1.d2e97" xml:lang="ar">مطبعة المعارف</orgName> <orgName
+                        change="#d2e228" xml:id="orgName_2.d2e100" xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</orgName> </publisher>
+                     <pubPlace change="#d2e223 #d2e228" xml:id="pubPlace_1.d2e104" xml:lang="ar"> <placeName change="#d5e42 #d2e228" ref="oape:place:226 geon:360630" xml:id="placeName_1.d2e106"
+                        xml:lang="ar">القاهرة</placeName> <placeName change="#d5e42 #d2e228" ref="oape:place:226 geon:360630" xml:id="placeName_2.d2e109" xml:lang="ar-Latn-x-ijmes"
+                        >al-Qāhira</placeName> <placeName change="#d5e42 #d2e228" ref="oape:place:226 geon:360630" xml:id="placeName_3.d2e112" xml:lang="en">Cairo</placeName> </pubPlace>
                      <tei:date calendar="#cal_gregorian" change="#d2e228" when="1911-03-01" xml:id="date_1.d2e118" xml:lang="ar">١ آذار سنة ١٩١١</tei:date>
                   </imprint>
                   <biblScope change="#d2e228" from="2" to="2" unit="volume" xml:id="biblScope_1.d2e122" xml:lang="ar"/>
@@ -93,9 +77,9 @@
             >div type="section"</tei:tag> into subsections of <tei:tag change="#d2e145" xml:id="tag_1.d2e155"
             >div type="article"</tei:tag>, using paragraphs with a length of 30 or less as indicator of a heading.</tei:change>
          <tei:change when="2019-10-22" who="#pers_TG" xml:id="d3e296" xml:lang="en">Added references to local authority file (<tei:ref change="#d2e145"
-            target="../data/tei/personography_OpenArabicPE.TEIP5.xml" xml:id="ref_1.d2e160">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi change="#d2e145"
-            xml:id="gi_1.d2e163">persName</tei:gi>s without such references based on <tei:gi change="#d2e145" xml:id="gi_1.d2e166">person</tei:gi>s in the local authority file. If the source <tei:gi
-            change="#d2e145" xml:id="gi_1.d2e169">persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change>
+            target="../data/tei/personography_OpenArabicPE.TEIP5.xml" xml:id="ref_1.d2e161">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi change="#d2e145"
+            xml:id="gi_1.d2e161">persName</tei:gi>s without such references based on <tei:gi change="#d2e145" xml:id="gi_1.d2e167">person</tei:gi>s in the local authority file. If the source <tei:gi
+            change="#d2e145" xml:id="gi_1.d2e168">persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change>
          <tei:change when="2019-10-22" who="#pers_TG" xml:id="d5e285" xml:lang="en">Added references to local authority file (<tei:ref change="#d2e145"
             target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" xml:id="ref_1.d2e174"
             >../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi change="#d2e145" xml:id="gi_1.d2e177"
@@ -107,11 +91,12 @@
          <change when="2019-10-20" who="#pers_TG" xml:id="d3e261" xml:lang="en">Automatically added computed Gregorian dates to the <att change="#d2e145" xml:id="att_1.d2e199"
             >when</att> attributes of all non-Gregorian <gi change="#d2e145" xml:id="gi_1.d2e202">date</gi> elements.</change>
          <tei:change when="2019-10-20" who="#pers_TG" xml:id="d3e237" xml:lang="en" xmlns:oape="https://openarabicpe.github.io/ns">Marked up dates by automatically wrapping all <tei:list
-            change="#d2e145" xml:id="list_1.d2e207"> <tei:item change="#d2e145" xml:id="item_1.d2e208">occurrences of "سنة" and "عام" followed by a <tei:gi change="#d2e145" xml:id="gi_2.d2e210"
-            >num</tei:gi> node </tei:item> <tei:item change="#d2e145" xml:id="item_1.d2e213"><tei:gi change="#d2e145" xml:id="gi_2.d2e214"
-            >num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item> <tei:item change="#d2e145" xml:id="item_1.d2e217"
-            >\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item> </tei:list> in a <tei:gi change="#d2e145" xml:id="gi_2.d2e220">date</tei:gi> with the appropriate <tei:att
-            change="#d2e145" xml:id="att_2.d2e223">calendar</tei:att> and <tei:att change="#d2e145" xml:id="att_2.d2e226">datingMethod</tei:att> attributes</tei:change>
+            change="#d2e145" xml:id="list_1.d2e207">
+            <tei:item change="#d2e145" xml:id="item_1.d2e208">occurrences of "سنة" and "عام" followed by a <tei:gi change="#d2e145" xml:id="gi_2.d2e210">num</tei:gi> node </tei:item>
+            <tei:item change="#d2e145" xml:id="item_1.d2e213"><tei:gi change="#d2e145" xml:id="gi_2.d2e214">num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item>
+            <tei:item change="#d2e145" xml:id="item_1.d2e217">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item>
+            </tei:list> in a <tei:gi change="#d2e145" xml:id="gi_2.d2e220">date</tei:gi> with the appropriate <tei:att change="#d2e145" xml:id="att_2.d2e223">calendar</tei:att> and <tei:att
+            change="#d2e145" xml:id="att_2.d2e226">datingMethod</tei:att> attributes</tei:change>
          <change when="2019-10-20" who="#pers_TG" xml:id="d2e228" xml:lang="en">Added automated <tei:att change="#d2e145" xml:id="att_2.d2e231" xml:lang="en"
             >xml:id</tei:att>s for every element that is a descendant of <tei:gi change="#d2e145" xml:id="gi_2.d2e234" xml:lang="en">tei:text</tei:gi> and had no existing <tei:att change="#d2e145"
             xml:id="att_2.d2e237" xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
@@ -131,7 +116,7 @@
          <tei:change when="2019-10-17" who="#pers_TG" xml:id="d2e181" xml:lang="en">Wrapped all numerals in <tei:gi change="#d2e223 #d2e228" xml:id="gi_1.d2e171" xml:lang="en"
             >num</tei:gi> with <tei:att change="#d2e223 #d2e228" xml:id="att_1.d2e174" xml:lang="en"
             >value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
-         <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi change="#d2e228" xml:id="gi_1.d2e181" xml:lang="en"
+         <change when="2019-10-17" who="#pers_TG" xml:id="d2e172" xml:lang="en">Grouped divs along the presence of <tei:gi change="#d2e228" xml:id="gi_1.d2e182" xml:lang="en"
             xmlns:xs="http://www.w3.org/2001/XMLSchema">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi change="#d2e228" xml:id="gi_1.d2e183"
             xml:lang="en" xmlns:xs="http://www.w3.org/2001/XMLSchema">tei:p</tei:gi>s.</change>
          <change change="d2e82 #d2e228" when="2019-10-17" who="#pers_TG" xml:id="change_4.d2e187" xml:lang="en">Converted the mark-up of <foreign change="#d2e228" xml:id="foreign_1.d2e189"
@@ -489,10 +474,8 @@
                change="#d2e228" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P579.xhtml" ed="shamela" n="n2-p18" xml:id="pb_16.d2e514"/><pb
                change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_18" n="18" xml:id="pb_32.d2e760"
                /> هذه هي مبادئهم ذكرتها باختصار على أمل أن أرى في بلادي كثيرين كالأب كابون يبذلون كل مرتخص وغال في سبيل إنهاض هذا الوطن المحبوب من وهاد المذلة والخمول إلى أوج السعادة والرقي، فنعيش آمنين وننشق نسمات الحرية اللطيفة والسلام</tei:p>
-            <byline change="#d2e198 #d2e223 #d2e228" xml:id="byline_1.d2e520" xml:lang="ar">
-               <placeName change="#d5e387 #d2e414" ref="oape:place:176 geon:169577" xml:id="placeName_7.d2e1039">حمص</placeName>
-               <persName change="#d2e223 #d2e228" xml:id="persName_3.d2e521" xml:lang="ar">شكري عافل</persName>
-            </byline>
+            <byline change="#d2e198 #d2e223 #d2e228" xml:id="byline_1.d2e520" xml:lang="ar"> <placeName change="#d5e387 #d2e414" ref="oape:place:176 geon:169577" xml:id="placeName_7.d2e1039"
+               >حمص</placeName> <persName change="#d2e223 #d2e228" xml:id="persName_3.d2e521" xml:lang="ar">شكري عافل</persName> </byline>
          </tei:div>
          <tei:div change="#d2e64 #d2e223 #d2e228" subtype="article" type="item" xml:id="div_1.d2e526" xml:lang="ar">
             <head change="#d2e223 #d2e228" xml:id="head_6.d2e528" xml:lang="ar">نحن وهم</head>
@@ -573,18 +556,15 @@
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e783" xml:lang="ar"> <hi change="#d2e223 #d2e228" style="color:red;" xml:id="hi_27.d2e785" xml:lang="ar"> <tei:num
                change="#d2e181 #d2e228" type="auto-markup" value="27" xml:id="num_1.d2e787" xml:lang="ar"
                >٢٧</tei:num> - </hi>هم ينظرون إلى مستقبلهم. ونحن ننظر إلى ماضينا. لهذا هم تقدموا ونحن تأخرنا.</tei:p>
-            <byline change="#d2e198 #d2e223 #d2e228" xml:id="byline_2.d2e792" xml:lang="ar">
-               <persName change="#d3e209 #d2e223 #d2e228" ref="oape:pers:1923" xml:id="persName_4.d2e793" xml:lang="ar">صالح جودت</persName>
-            </byline>
+            <byline change="#d2e198 #d2e223 #d2e228" xml:id="byline_2.d2e792" xml:lang="ar"> <persName change="#d3e209 #d2e223 #d2e228" ref="oape:pers:1923" xml:id="persName_4.d2e793" xml:lang="ar"
+               >صالح جودت</persName> </byline>
          </tei:div>
          <pb change="#d2e228" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P582.xhtml" ed="shamela" n="n2-p21" xml:id="pb_19.d2e796"/>
          <pb change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_21" n="21" xml:id="pb_38.d2e1045"/>
          <div change="#d2e145" type="section" xml:id="div_1.d2e1049">
             <head change="#d2e223 #d2e228" xml:id="head_7.d2e802" xml:lang="ar">في رياض الشعر</head>
             <div change="#d2e145" subtype="article" type="item" xml:id="div_1.d2e1054">
-               <head change="#d2e145" xml:id="head_9.d2e1056">
-                  <persName change="#d2e145" xml:id="persName_5.d2e1057">محمود باشا سامي البارودي</persName>
-               </head>
+               <head change="#d2e145" xml:id="head_9.d2e1056"> <persName change="#d2e145" xml:id="persName_5.d2e1057">محمود باشا سامي البارودي</persName> </head>
                <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e808" xml:lang="ar">ولد سنة <tei:date calendar="#cal_gregorian" change="#d3e237 #d2e145" when="1840" xml:id="date_3.d2e1062"
                   ><tei:num change="#d2e181 #d2e228" type="auto-markup" value="1840" xml:id="num_1.d2e810" xml:lang="ar">١٨٤٠</tei:num></tei:date> وتوفي سنة <tei:date calendar="#cal_gregorian"
                   change="#d3e237 #d2e145" when="1904" xml:id="date_3.d2e1066"><tei:num change="#d2e181 #d2e228" type="auto-markup" value="1904" xml:id="num_1.d2e813" xml:lang="ar"
@@ -612,10 +592,9 @@
                <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e848" xml:lang="ar"
                   >جزيرة سيلان. وقد نشرنا رسم الأمير الأرسلاني، وهاذ نحن ناشرون الآن رسم البارودي مع بقية المراسلات التي دارت بين الشاعرين</tei:p>
                <div change="#d2e145" subtype="verse" type="item" xml:id="div_3.d2e1116">
-                  <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e851" xml:lang="ar">
-                     <note change="#d2e145" place="inline" type="bibliographic" xml:id="note_1.d2e1119">ثم <bibl change="#d2e145" xml:id="bibl_1.d2e1121">كتب <author change="#d2e145"
-                        xml:id="author_2.d2e1123"><persName change="#d2e414" xml:id="persName_7.d2e1398">محمود سامي باشا</persName></author> إلى لأمير شكيب بهذه القصيدة</bibl></note>
-                  </tei:p>
+                  <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e851" xml:lang="ar"> <note change="#d2e145" place="inline" type="bibliographic" xml:id="note_1.d2e1119">ثم <bibl change="#d2e145"
+                     xml:id="bibl_1.d2e1121">كتب <author change="#d2e145" xml:id="author_2.d2e1123"><persName change="#d2e414" xml:id="persName_7.d2e1398"
+                     >محمود سامي باشا</persName></author> إلى لأمير شكيب بهذه القصيدة</bibl></note> </tei:p>
                   <lg change="#d2e82 #d2e223 #d2e228" xml:id="lg_1.d2e854" xml:lang="ar">
                      <tei:l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e856" xml:lang="ar"> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e858" xml:lang="ar"
                         >أدّي الرسالةَ يا عصفورة الوادي</tei:seg> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e861" xml:lang="ar">وباكري الحي من قولي بإنشادي</tei:seg> </tei:l>
@@ -647,10 +626,9 @@
                   </lg>
                </div>
                <div change="#d2e145" subtype="verse" type="item" xml:id="div_4.d2e1243">
-                  <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e972" xml:lang="ar">
-                     <note change="#d2e145" place="inline" type="bibliographic" xml:id="note_2.d2e1246">فأجابه <bibl change="#d2e145" xml:id="bibl_2.d2e1248"><author change="#d2e145"
-                        xml:id="author_3.d2e1249"><persName change="#d2e414" xml:id="persName_8.d2e1527">الأمير شكيب</persName></author> بالقصيدة</bibl> التالية:</note>
-                  </tei:p>
+                  <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e972" xml:lang="ar"> <note change="#d2e145" place="inline" type="bibliographic" xml:id="note_2.d2e1246">فأجابه <bibl
+                     change="#d2e145" xml:id="bibl_2.d2e1248"><author change="#d2e145" xml:id="author_3.d2e1249"><persName change="#d2e414" xml:id="persName_8.d2e1527"
+                     >الأمير شكيب</persName></author> بالقصيدة</bibl> التالية:</note> </tei:p>
                   <lg change="#d2e82 #d2e223 #d2e228" xml:id="lg_3.d2e975" xml:lang="ar">
                      <tei:l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e977" xml:lang="ar"> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e979" xml:lang="ar"
                         >هل تعلم العيس إذ يحدو بها الحادي</tei:seg> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e982" xml:lang="ar">أنَّ السرى فوق أضلاع وأكبادِ</tei:seg> </tei:l>
@@ -873,10 +851,8 @@
                   <tei:l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e1885" xml:lang="ar"> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e1887" xml:lang="ar"
                      >فجثا قرب طفلها آخذاً عنها</tei:seg> <tei:seg change="#d2e223 #d2e228" xml:id="seg_1.d2e1890" xml:lang="ar">يهزُّ السرير كالغلمانِ</tei:seg> </tei:l>
                </lg>
-               <byline change="#d2e414" xml:id="byline_3.d2e2468">
-                  <placeName change="#d5e387 #d2e414" ref="oape:place:26 geon:276781" xml:id="placeName_9.d2e2469">بيروت</placeName>
-                  <persName change="#d3e296 #d2e145" ref="oape:pers:1273" xml:id="persName_8.d2e2183">إلياس فياض</persName>
-               </byline>
+               <byline change="#d2e414" xml:id="byline_3.d2e2468"> <placeName change="#d5e387 #d2e414" ref="oape:place:26 geon:276781" xml:id="placeName_9.d2e2469">بيروت</placeName> <persName
+                  change="#d3e296 #d2e145" ref="oape:pers:1273" xml:id="persName_8.d2e2183">إلياس فياض</persName> </byline>
             </div>
          </div>
          <tei:div change="#d2e64 #d2e223 #d2e228" subtype="article" type="item" xml:id="div_1.d2e1902" xml:lang="ar">
@@ -945,10 +921,8 @@
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e2024" xml:lang="ar">فتحنُّ إليها الإلهة وتباركها السماوات!</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e2028" xml:lang="ar"
                >وهناك يتجلى شبح الإنسانية! فيقيم الصلاة، ويقدم القربان بين تصاعد بخور الذكرى. وحنان الألحان السماوية، حتى إذا ما حل الروح، بارك الأم وابنتها، وتوارى. وفي ثغره ابتسامة الأبدية. . .</tei:p>
-            <byline change="#d2e198 #d2e223 #d2e228" xml:id="byline_4.d2e2034" xml:lang="ar">
-               <placeName change="#d2e414" xml:id="placeName_12.d2e2615">انطاكية</placeName>
-               <persName change="#d2e223 #d2e228" xml:id="persName_7.d2e2035" xml:lang="ar">سمعان بطرس اللاذقاني</persName>
-            </byline>
+            <byline change="#d2e198 #d2e223 #d2e228" xml:id="byline_4.d2e2034" xml:lang="ar"> <placeName change="#d2e414" xml:id="placeName_12.d2e2615">انطاكية</placeName> <persName
+               change="#d2e223 #d2e228" xml:id="persName_7.d2e2035" xml:lang="ar">سمعان بطرس اللاذقاني</persName> </byline>
          </tei:div>
          <tei:div change="#d2e64 #d2e223 #d2e228" subtype="article" type="item" xml:id="div_1.d2e2039" xml:lang="ar">
             <head change="#d2e223 #d2e228" xml:id="head_10.d2e2041" xml:lang="ar">تمدن المرأة العصرية</head>
@@ -975,10 +949,8 @@
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e2076" xml:lang="ar">والإصلاح في أول أمره لا يكون إلاّ من أفراد قليلة ولكنه من طبيعته ينمو ويقوى إلى أن يبلغ الكمال.</tei:p>
             <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e2079" xml:lang="ar"
                >هذا ويحق لي أن أردّ حكم حسون أفندي واستأنف القضية إلى محكمة ترأسها أحدى السيدات لأنه ليس من العدل أن يكون الرجل في موضوعنا خصماً وحكماً في آن واحد. فضلاً عن أني وحضرة مناظرتي الكريمة لم نحكم بيننا حسوناً. . ولا غراباً. لأن نعيق هذا وتغريد ذاك عندنا سيّان والسلام</tei:p>
-            <byline change="#d2e198 #d2e223 #d2e228" xml:id="byline_5.d2e2085" xml:lang="ar">
-               <placeName change="#d5e387 #d2e414" ref="oape:place:26 geon:276781" xml:id="placeName_13.d2e2676">بيروت</placeName>
-               <persName change="#d2e223 #d2e228" xml:id="persName_9.d2e2086" xml:lang="ar">أدما كيرلس</persName>
-            </byline>
+            <byline change="#d2e198 #d2e223 #d2e228" xml:id="byline_5.d2e2085" xml:lang="ar"> <placeName change="#d5e387 #d2e414" ref="oape:place:26 geon:276781" xml:id="placeName_13.d2e2676"
+               >بيروت</placeName> <persName change="#d2e223 #d2e228" xml:id="persName_9.d2e2086" xml:lang="ar">أدما كيرلس</persName> </byline>
          </tei:div>
          <tei:div change="#d2e64 #d2e223 #d2e228" subtype="article" type="item" xml:id="div_1.d2e2090" xml:lang="ar">
             <head change="#d2e223 #d2e228" xml:id="head_11.d2e2092" xml:lang="ar">أحسن مقالة وأحسن قصيدة</head>
@@ -1042,20 +1014,13 @@
                   >هناك الآن صخور قاحلة جرداء لا يكاد ينبت فيها عشب حتى يصفر ويذبل ويموت، فإن الهواء الذي يهب في تلك الأرجاء يلهب ويحرق.</tei:p>
                <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e2194" xml:lang="ar"
                   >لم يبق للمدينتين من أثر. ولم يدع الماضي لعبرة الحاضر والمستقبل سوى بحيرة مرة تغلي كمرجل لذكرى نار السماء</tei:p>
-               <note change="#d2e414" place="inline" type="bibliographic" xml:id="note_4.d2e2796">
-                  <bibl change="#d2e414" xml:id="bibl_3.d2e2797">
-                     <respStmt change="#d2e414" xml:id="respStmt_1.d2e2798">
-                        <resp change="#d2e414" xml:id="resp_1.d2e2800">تعريب</resp>
-                        <persName change="#d3e399 #d2e414" ref="oape:pers:1621" xml:id="persName_16.d2e2803">حنا صاوه</persName>
-                     </respStmt>
-                     <author change="#d2e414" xml:id="author_4.d2e2807">
-                        <persName change="#d3e209 #d2e223 #d2e228 #d3e296" ref="oape:pers:979 viaf:9847974" xml:id="persName_10.d2e2201" xml:lang="ar">
-                           <forename change="#d2e145" xml:id="forename_3.d2e2505">فيكتور</forename>
-                           <surname change="#d2e145" xml:id="surname_3.d2e2508">هوجو</surname>
-                        </persName>
-                     </author>
-                  </bibl>
-               </note>
+               <note change="#d2e414" place="inline" type="bibliographic" xml:id="note_4.d2e2796"> <bibl change="#d2e414" xml:id="bibl_3.d2e2797"> <respStmt change="#d2e414"
+                  xml:id="respStmt_1.d2e2798">
+                  <resp change="#d2e414" xml:id="resp_1.d2e2800">تعريب</resp>
+                  <persName change="#d3e399 #d2e414" ref="oape:pers:1621" xml:id="persName_16.d2e2803">حنا صاوه</persName>
+                  </respStmt> <author change="#d2e414" xml:id="author_4.d2e2807"> <persName change="#d3e209 #d2e223 #d2e228 #d3e296" ref="oape:pers:979 viaf:9847974" xml:id="persName_10.d2e2201"
+                  xml:lang="ar"> <forename change="#d2e145" xml:id="forename_3.d2e2505">فيكتور</forename> <surname change="#d2e145" xml:id="surname_3.d2e2508">هوجو</surname> </persName> </author>
+                  </bibl> </note>
             </tei:div>
          </tei:div>
          <pb change="#d2e228" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P602.xhtml" ed="shamela" n="n2-p41" xml:id="pb_39.d2e2204"/>
@@ -1079,8 +1044,8 @@
                   <item change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e2241" xml:lang="ar"> <tei:num change="#d2e181 #d2e228" type="auto-markup" value="1" xml:id="num_1.d2e2243" xml:lang="ar"
                      >١</tei:num> ً: <bibl change="#d2e414" xml:id="bibl_4.d2e2866"><title change="#d2e414" level="j" xml:id="title_16.d2e2867">الأحوال</title> <pubPlace change="#d2e414"
                      xml:id="pubPlace_3.d2e2870"><placeName change="#d5e387 #d2e414" ref="oape:place:26 geon:276781" xml:id="placeName_16.d2e2871">بيروت</placeName></pubPlace>: صاحبها سابقاً <editor
-                     change="#d2e414" xml:id="editor_2.d2e2874"><persName change="#d3e399 #d2e414" ref="oape:pers:299 viaf:305214691" xml:id="persName_18.d2e2875"> <forename change="#d2e414"
-                     xml:id="forename_4.d2e2877" xml:lang="ar">خليل</forename> <surname change="#d2e414" xml:id="surname_4.d2e2880" xml:lang="ar">البدوي</surname>
+                     change="#d2e414" type="owner" xml:id="editor_2.d2e2874"><persName change="#d3e399 #d2e414" ref="oape:pers:299 viaf:305214691" xml:id="persName_18.d2e2875"> <forename
+                     change="#d2e414" xml:id="forename_4.d2e2877" xml:lang="ar">خليل</forename> <surname change="#d2e414" xml:id="surname_4.d2e2880" xml:lang="ar">البدوي</surname>
                      </persName></editor> وأصحابها حالا رعد وبوبز. هي الجريدة الوحيدة التي تصدر في كل البلاد العربية مرتين في النهار. كاتبها <editor change="#d2e414" xml:id="editor_3.d2e2884"
                      ><persName change="#d2e414" xml:id="persName_19.d2e2885">سليم العقاد</persName></editor>. هو أعرف المحررين بأسرار الصحافة. <pb change="#d2e228"
                      corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P603.xhtml" ed="shamela" n="n2-p42" xml:id="pb_40.d2e2246"/><pb
@@ -1089,8 +1054,8 @@
                   <item change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e2249" xml:lang="ar"> <tei:num change="#d2e181 #d2e228" type="auto-markup" value="2" xml:id="num_1.d2e2251" xml:lang="ar"
                      >٢</tei:num> ً: <bibl change="#d2e414" xml:id="bibl_5.d2e2897"><title change="#d2e414" level="j" xml:id="title_17.d2e2898">لسان الحال</title> <pubPlace change="#d2e414"
                      xml:id="pubPlace_4.d2e2901"><placeName change="#d5e387 #d2e414" ref="oape:place:26 geon:276781" xml:id="placeName_17.d2e2902">بيروت</placeName></pubPlace>: صاحبها <editor
-                     change="#d2e414" xml:id="editor_4.d2e2905"><persName change="#d3e399 #d2e414" ref="oape:pers:720 viaf:73737825" xml:id="persName_20.d2e2906"> <forename change="#d2e414"
-                     xml:id="forename_5.d2e2908" xml:lang="ar">خليل</forename> <surname change="#d2e414" xml:id="surname_5.d2e2911" xml:lang="ar">سركيس</surname>
+                     change="#d2e414" type="owner" xml:id="editor_4.d2e2905"><persName change="#d3e399 #d2e414" ref="oape:pers:720 viaf:73737825" xml:id="persName_20.d2e2906"> <forename
+                     change="#d2e414" xml:id="forename_5.d2e2908" xml:lang="ar">خليل</forename> <surname change="#d2e414" xml:id="surname_5.d2e2911" xml:lang="ar">سركيس</surname>
                      </persName></editor>. هي جريدة المعتدلين. كاتبها <editor change="#d2e414" xml:id="editor_5.d2e2915"><persName change="#d3e399 #d2e414" ref="oape:pers:819"
                      xml:id="persName_21.d2e2916"> <forename change="#d2e414" xml:id="forename_6.d2e2918" xml:lang="ar">رشيد</forename> <surname change="#d2e414" xml:id="surname_6.d2e2921"
                      xml:lang="ar">عطية</surname> </persName></editor> اللغوي المدقق. قراؤها التجار والكهول</bibl>. آراؤها السياسية على خطة واحدة فهي نسخةٌ من <title change="#d2e414" level="j"
@@ -1099,10 +1064,10 @@
                   <item change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e2258" xml:lang="ar"> <tei:num change="#d2e181 #d2e228" type="auto-markup" value="3" xml:id="num_1.d2e2260" xml:lang="ar"
                      >٣</tei:num> ً: <bibl change="#d2e414" xml:id="bibl_6.d2e2938"><title change="#d2e414" level="j" xml:id="title_20.d2e2939">المفيد</title> <pubPlace change="#d2e414"
                      xml:id="pubPlace_5.d2e2942"><placeName change="#d5e387 #d2e414" ref="oape:place:26 geon:276781" xml:id="placeName_18.d2e2943">بيروت</placeName></pubPlace>: صاحباها <editor
-                     change="#d2e414" xml:id="editor_6.d2e2946"><persName change="#d3e399 #d2e414" ref="oape:pers:459 viaf:37216757" xml:id="persName_22.d2e2947"> <forename change="#d2e414"
-                     xml:id="forename_7.d2e2949" xml:lang="ar">عبد الغني</forename> <surname change="#d2e414" xml:id="surname_7.d2e2952" xml:lang="ar">العريسي</surname> </persName></editor> و<editor
-                     change="#d2e414" xml:id="editor_7.d2e2956"><persName change="#d2e414" xml:id="persName_23.d2e2957">فؤاد حنتس</persName></editor>. يساعدهما في الكتابة <editor change="#d2e414"
-                     xml:id="editor_8.d2e2960"><persName change="#d2e414" xml:id="persName_24.d2e2961"
+                     change="#d2e414" type="owner" xml:id="editor_6.d2e2946"><persName change="#d3e399 #d2e414" ref="oape:pers:459 viaf:37216757" xml:id="persName_22.d2e2947"> <forename
+                     change="#d2e414" xml:id="forename_7.d2e2949" xml:lang="ar">عبد الغني</forename> <surname change="#d2e414" xml:id="surname_7.d2e2952" xml:lang="ar">العريسي</surname>
+                     </persName></editor> و<editor change="#d2e414" type="owner" xml:id="editor_7.d2e2956"><persName change="#d2e414" xml:id="persName_23.d2e2957"
+                     >فؤاد حنتس</persName></editor>. يساعدهما في الكتابة <editor change="#d2e414" xml:id="editor_8.d2e2960"><persName change="#d2e414" xml:id="persName_24.d2e2961"
                      >أحمد صلاح الدين</persName></editor>. هم ثلاثة أشخاص في روحٍ واحدة.</bibl> جريدتهم جريئة. ولها مواقف تشهد لها بحبها للعرب. وهي الجريدة البروتية الوحيدة التي تقرأ في <placeName
                      change="#d5e387 #d2e414" ref="oape:place:3 geon:745044" xml:id="placeName_19.d2e2965">الاستانة</placeName> بروية واهتمام. فمنزلتها في <placeName change="#d5e387 #d2e414"
                      ref="oape:place:26 geon:276781" xml:id="placeName_20.d2e2968">بيروت</placeName> منزلة <title change="#d2e414" level="j" xml:id="title_21.d2e2971">طنين</title> في <placeName
@@ -1182,13 +1147,9 @@
                </list>
                <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e2351" xml:lang="ar">هذه هي أهم الجرائد اليومية ومن وصفها ترى أن فيها المتطرفة والمعتدلة والمحافظة.</tei:p>
             </div>
-            <byline change="#d2e223 #d2e228" xml:id="byline_7.d2e2355" xml:lang="ar">
-               <persName change="#d3e209 #d2e223 #d2e228 #d3e296 #d3e399" ref="oape:pers:1610 viaf:6405035" xml:id="persName_13.d2e2356" xml:lang="ar">
-                  <forename change="#d2e145" xml:id="forename_7.d2e2675">حليم</forename>
-                  <forename change="#d2e145" xml:id="forename_8.d2e2678">إبراهيم</forename>
-                  <surname change="#d2e145" xml:id="surname_6.d2e2681">دموس</surname>
-               </persName>
-            </byline>
+            <byline change="#d2e223 #d2e228" xml:id="byline_7.d2e2355" xml:lang="ar"> <persName change="#d3e209 #d2e223 #d2e228 #d3e296 #d3e399" ref="oape:pers:1610 viaf:6405035"
+               xml:id="persName_13.d2e2356" xml:lang="ar"> <forename change="#d2e145" xml:id="forename_7.d2e2675">حليم</forename> <forename change="#d2e145" xml:id="forename_8.d2e2678"
+               >إبراهيم</forename> <surname change="#d2e145" xml:id="surname_6.d2e2681">دموس</surname> </persName> </byline>
             <closer change="#d2e414" xml:id="closer_1.d2e3279">وسيأتي الكلام عن <ref change="#d2e414" target="oclc_1034545644-i_13.TEIP5.xml#div_1.d2e2766" xml:id="ref_1.d2e3281"
                >الجرائد الأسبوعية</ref> و<ref change="#d2e414" target="oclc_1034545644-i_15.TEIP5.xml#div_1.d2e634" xml:id="ref_2.d2e3284">المجلات</ref></closer>
          </tei:div>
@@ -1284,9 +1245,7 @@
             <div change="#d2e414" subtype="article" type="item" xml:id="div_8.d2e3480">
                <head change="#d2e414" xml:id="head_23.d2e3482">مغارة العظام</head>
                <div change="#d2e414" type="section" xml:id="div_8.d2e3485">
-                  <head change="#d2e414" xml:id="head_24.d2e3487">
-                     <tei:num change="#d2e181 #d2e228" type="auto-markup" value="1" xml:id="num_1.d2e2537" xml:lang="ar">١</tei:num>
-                  </head>
+                  <head change="#d2e414" xml:id="head_24.d2e3487"> <tei:num change="#d2e181 #d2e228" type="auto-markup" value="1" xml:id="num_1.d2e2537" xml:lang="ar">١</tei:num> </head>
                   <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e2541" xml:lang="ar">أمسيكم بالخير يا جدعان</tei:p>
                   <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e2544" xml:lang="ar">أسعد الله مساك يا سليم! أهلاً وسهلاً</tei:p>
                   <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e2548" xml:lang="ar">كل عام وأنتم بخير</tei:p>
@@ -1320,9 +1279,7 @@
                      >ولذلك أحدث جواب سليم دهشة في الحاضرين، فنسبوا كلامه في بداية الأمر إلى المزاج أو الإدعاء. لكنه اتبع القول بالفعل وقام للحال فالتفع بعباءته وتلثم بكوفيته وقال: على الله الاتكال وخرج والجميع في حيرة من أمره.</tei:p>
                </div>
                <div change="#d2e414" type="section" xml:id="div_9.d2e3550">
-                  <head change="#d2e414" xml:id="head_25.d2e3552">
-                     <tei:num change="#d2e181 #d2e228" type="auto-markup" value="2" xml:id="num_1.d2e2598" xml:lang="ar">٢</tei:num>
-                  </head>
+                  <head change="#d2e414" xml:id="head_25.d2e3552"> <tei:num change="#d2e181 #d2e228" type="auto-markup" value="2" xml:id="num_1.d2e2598" xml:lang="ar">٢</tei:num> </head>
                   <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e2602" xml:lang="ar"
                      >في بيت منفرد عن بيوت القرية فتاة يتيمة اسمها تعيش وحدها مع جدتها العجوز وتكتسب قوتهما بعرق جبينها من غزل القطن وتسليك الحرير.</tei:p>
                   <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e2605" xml:lang="ar"
@@ -1349,9 +1306,7 @@
                      /> فلم تر إلا أن تستجمع قواها وتتكل على شجاعتها فتقوم وحدها بستر أمرها. فعمدت إلى الجثة ووضعتها في كيس وحملتها على ظهرها وقد ضاعف الرعب قواها وسارت قاصدة مغارة العظام لتواريها هناك.</tei:p>
                </div>
                <div change="#d2e414" type="section" xml:id="div_10.d2e3600">
-                  <head change="#d2e414" xml:id="head_26.d2e3602">
-                     <tei:num change="#d2e181 #d2e228" type="auto-markup" value="3" xml:id="num_1.d2e2643" xml:lang="ar">٣</tei:num>
-                  </head>
+                  <head change="#d2e414" xml:id="head_26.d2e3602"> <tei:num change="#d2e181 #d2e228" type="auto-markup" value="3" xml:id="num_1.d2e2643" xml:lang="ar">٣</tei:num> </head>
                   <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e2647" xml:lang="ar"
                      >وصلت المغارة وقد أنهكها التعب فتقدمت وهي ترتعد خوفاً ورعباً، وكان لأقدامها وقع مروع يرن في أذنيها كصوت قضاء رهيب. وقد حجبت الغيوم المتلبدة في كبد السماء وجه القمر الساري فساد على تلك الأطلال ظلامٌ مدلهم ترتعش من هوله الأبدان. تقدمت الفتاة وهي تعثر تارةً بجمجمة وتارة ببعض العظام المتراكمة فيزداد اضطرابها ورعبها. ولما وصلت إلى الداخل أخذت تعمل على مواراة الجثة تحت كومة من العظام إذ طرق مسامعها وقع أقدام على باب المغارة.</tei:p>
                   <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e2650" xml:lang="ar"
@@ -1360,9 +1315,7 @@
                      >ثم ما لبثت أن عاد إليها الجلد بعد أن استعانت بالله، فعمدت إلى العظام والجماجم المحيطة بها وأخذت تقلبها بعضها على بعض، فأحدثت قرقعة مخيفة رددتها جدران المغارة، وتواتر بها رجع الصدى. وكانت سلمى ترمي من وراء ذلك إخافة الطارق في مثل هذه الساعة. فلم يخطئ ظنها لأن الخيال وقف برهة كمن داخله الخوف. لكنه عاد فأخذ يتقدم إلى الأمام شيئاً فشيئاً، وسلمى واجفة لكنها تزيد في قرقعة العظام.</tei:p>
                </div>
                <div change="#d2e414" type="section" xml:id="div_11.d2e3618">
-                  <head change="#d2e414" xml:id="head_27.d2e3620">
-                     <tei:num change="#d2e181 #d2e228" type="auto-markup" value="4" xml:id="num_1.d2e2659" xml:lang="ar">٤</tei:num>
-                  </head>
+                  <head change="#d2e414" xml:id="head_27.d2e3620"> <tei:num change="#d2e181 #d2e228" type="auto-markup" value="4" xml:id="num_1.d2e2659" xml:lang="ar">٤</tei:num> </head>
                   <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e2663" xml:lang="ar">ولم يكن الداخل إلا سليم، فإنه جاء قاصداً مغارة العظام ليأتي بالجمجمة التي راهن <pb change="#d2e228"
                      corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P617.xhtml" ed="shamela" n="n2-p56" xml:id="pb_54.d2e2665"/><pb
                      change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_56" n="56" xml:id="pb_108.d2e3014"
