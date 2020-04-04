@@ -1123,8 +1123,8 @@
                   <item change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e2331" xml:lang="ar"> <tei:num change="#d2e181 #d2e228" type="auto-markup" value="10" xml:id="num_1.d2e2333" xml:lang="ar"
                      >١٠</tei:num> ً: <bibl change="#d2e414" xml:id="bibl_13.d2e3162"><title change="#d2e414" level="j" xml:id="title_33.d2e3163">العصر الجديد</title> <pubPlace change="#d2e414"
                      xml:id="pubPlace_12.d2e3166"><placeName change="#d5e387 #d2e414" ref="oape:place:61 geon:170654" xml:id="placeName_29.d2e3167">دمشق</placeName></pubPlace>: صاحبها المحامي <editor
-                     change="#d2e414" xml:id="editor_18.d2e3170"><persName change="#d3e399 #d2e414" ref="oape:pers:2858 viaf:305214784" xml:id="persName_34.d2e3171"> <forename change="#d2e414"
-                     xml:id="forename_11.d2e3173">ناصيف</forename> <surname change="#d2e414" xml:id="surname_11.d2e3176">ابو زيد</surname>
+                     change="#d2e414" type="owner" xml:id="editor_18.d2e3170"><persName change="#d3e399 #d2e414" ref="oape:pers:2858 viaf:305214784" xml:id="persName_34.d2e3171"> <forename
+                     change="#d2e414" xml:id="forename_11.d2e3173">ناصيف</forename> <surname change="#d2e414" xml:id="surname_11.d2e3176">ابو زيد</surname>
                      </persName></editor>. تختلف جريدته ارتقاءً وترتيباً باختلاف كتاب العصر فيها فقد تولى <pb change="#d2e228"
                      corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P605.xhtml" ed="shamela" n="n2-p44" xml:id="pb_42.d2e2336"/><pb
                      change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_44" n="44" xml:id="pb_84.d2e2647"/> إدارتها <persName change="#d3e209 #d2e223 #d2e228 #d3e296"
@@ -1136,11 +1136,12 @@
                      xml:id="forename_15.d2e3207" xml:lang="ar">سليم</forename> <surname change="#d2e414" xml:id="surname_14.d2e3210" xml:lang="ar">العنحوري</surname> </persName></editor> ف<editor
                      change="#d2e414" xml:id="editor_21.d2e3214"><persName change="#d2e414" xml:id="persName_38.d2e3215">اسكندر المرحالا</persName></editor></bibl>. فالعصر في <placeName
                      change="#d2e414" xml:id="placeName_30.d2e3218">دمشق الشام</placeName> ك<bibl change="#d2e414" xml:id="bibl_14.d2e3221"><title change="#d2e414" level="j" xml:id="title_34.d2e3222"
-                     >الصدق المحتجب</title> في <placeName change="#d5e387 #d2e414" ref="oape:place:362 geon:3435910" xml:id="placeName_31.d2e3225">بونس إيرس</placeName></bibl>.</item>
+                     >الصدق المحتجب</title> في <pubPlace><placeName change="#d5e387 #d2e414" ref="oape:place:362 geon:3435910" xml:id="placeName_31.d2e3225"
+                     >بونس إيرس</placeName></pubPlace></bibl>.</item>
                   <item change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e2345" xml:lang="ar"> <tei:num change="#d2e181 #d2e228" type="auto-markup" value="11" xml:id="num_1.d2e2347" xml:lang="ar"
                      >١١</tei:num> : <bibl change="#d2e414" xml:id="bibl_15.d2e3234"><title change="#d2e414" level="j" xml:id="title_35.d2e3235">الكائنات</title> <pubPlace change="#d2e414"
                      xml:id="pubPlace_13.d2e3238"><placeName change="#d5e387 #d2e414" ref="oape:place:61 geon:170654" xml:id="placeName_32.d2e3239">دمشق</placeName></pubPlace>: صاحبها <editor
-                     change="#d2e414" xml:id="editor_22.d2e3242"><persName change="#d3e399 #d2e414" ref="oape:pers:963" xml:id="persName_39.d2e3243"> <forename change="#d2e414"
+                     change="#d2e414" type="owner" xml:id="editor_22.d2e3242"><persName change="#d3e399 #d2e414" ref="oape:pers:963" xml:id="persName_39.d2e3243"> <forename change="#d2e414"
                      xml:id="forename_16.d2e3245" xml:lang="ar">أديب</forename> <surname change="#d2e414" xml:id="surname_15.d2e3248" xml:lang="ar">نظمي</surname>
                      </persName></editor>. كاتب كبير. في إنشائه رقة وسلاسة.</bibl> وفي نفحةٌ من مفحات الأديب ولو لم يكن. في <placeName change="#d5e387 #d2e414" ref="oape:place:61 geon:170654"
                      xml:id="placeName_33.d2e3253">دمشق</placeName> <title change="#d2e414" level="j" xml:id="title_36.d2e3256">العصر الجديد</title> المسيحي و<title change="#d2e414" level="j"

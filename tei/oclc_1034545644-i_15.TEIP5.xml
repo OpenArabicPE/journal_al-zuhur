@@ -517,80 +517,87 @@
                <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e660" xml:lang="ar">وقد اجتهدت، في هذا القسم، أن أذكر تاريخ صدور لهذه المجلات متخيراً أوثق المصادر في ذلك فأقول:</tei:p>
                <list>
                   <item change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e664" xml:lang="ar"> <tei:num change="#d2e181 #d2e228" type="auto-markup" value="1" xml:id="num_1.d2e668" xml:lang="ar"
-                     >١</tei:num> - <title level="j">المشرق</title> (<placeName>بيروت</placeName>): نشأت في أول كانون الثاني سنة <tei:date calendar="#cal_gregorian" change="#d3e237 #d2e145"
-                     when="1898" xml:id="date_3.d2e923"><tei:num change="#d2e181 #d2e228" type="auto-markup" value="1898" xml:id="num_1.d2e672" xml:lang="ar"
-                     >١٨٩٨</tei:num></tei:date> . صاحبها الأب لويس شيخو اليسوعي. كاتب باحث. كثير التنقيب. كثير الاطلاع. مجلة شهرية يسوعية محضة. هي وجريدة <tei:title change="#d2e193 #d2e223 #d2e228"
+                     >١</tei:num> - <bibl><title level="j">المشرق</title> (<pubPlace><placeName>بيروت</placeName></pubPlace>): نشأت في <date calendar="#cal_gregorian" when="1898-01-01"
+                     >أول كانون الثاني سنة ١٨٩٨</date> . صاحبها <editor type="owner"
+                     ><persName>الأب لويس شيخو اليسوعي</persName></editor>. كاتب باحث. كثير التنقيب. كثير الاطلاع. مجلة شهرية يسوعية محضة</bibl>. هي وجريدة <tei:title change="#d2e193 #d2e223 #d2e228"
                      level="j" xml:id="title_7.d2e675" xml:lang="ar">البشير</tei:title> فرسا رهان في مضمار المدافعة عن الدين. لهجتها شديدة، وعبارتها بين بين.</item>
                   <item change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e679" xml:lang="ar"> <tei:num change="#d2e181 #d2e228" type="auto-markup" value="2" xml:id="num_1.d2e683" xml:lang="ar"
-                     >٢</tei:num> - <title level="j">المنتقد</title> (<placeName>بيروت</placeName>): هي شهرية. نشأت في <tei:num change="#d2e181 #d2e228" type="auto-markup" value="15"
-                     xml:id="num_1.d2e687" xml:lang="ar">١٥</tei:num> أيلول سنة <tei:date calendar="#cal_gregorian" change="#d3e237 #d2e145" when="1908" xml:id="date_3.d2e942"><tei:num
-                     change="#d2e181 #d2e228" type="auto-markup" value="1908" xml:id="num_1.d2e690" xml:lang="ar"
-                     >١٩٠٨</tei:num></tei:date> صاحبها محمد باقر، كاتب رقيق، له ذوق سليم في ترتيب مجلته وتبويبها. متساهل في آرائه.</item>
+                     >٢</tei:num> - <bibl><title level="j">المنتقد</title> (<pubPlace><placeName>بيروت</placeName></pubPlace>): هي شهرية. نشأت في <date calendar="#cal_gregorian" when="1908-09-10"
+                     ><tei:num change="#d2e181 #d2e228" type="auto-markup" value="15" xml:id="num_1.d2e687" xml:lang="ar">١٥</tei:num> أيلول سنة <tei:num change="#d2e181 #d2e228" type="auto-markup"
+                     value="1908" xml:id="num_1.d2e690" xml:lang="ar">١٩٠٨</tei:num></date> صاحبها <editor type="owner"
+                     ><persName>محمد باقر</persName></editor>، كاتب رقيق، له ذوق سليم في ترتيب مجلته وتبويبها</bibl>. متساهل في آرائه.</item>
                   <item change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e694" xml:lang="ar"> <tei:num change="#d2e181 #d2e228" type="auto-markup" value="3" xml:id="num_1.d2e698" xml:lang="ar"
-                     >٣</tei:num> - <title level="j">النبراس</title> (<placeName>بيروت</placeName>): نشأت في <tei:num change="#d2e181 #d2e228" type="auto-markup" value="22" xml:id="num_1.d2e702"
-                     xml:lang="ar">٢٢</tei:num> كانون الثاني. صاحبها الشيخ <pb change="#d2e228"
-                     corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P745.xhtml" ed="shamela" n="n2-p185" xml:id="pb_17.d2e705"/><pb
-                     change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_185" n="185" xml:id="pb_34.d2e959"
-                     /> مصطفى الغلاييني، كاتب وشاعر مجيد. أصح أصحاب المجلات السورية عبارة. وقد احتجبت النبراس والمنتقد لأسباب قاهرة.</item>
+                     >٣</tei:num> - <bibl><title level="j">النبراس</title> (<pubPlace><placeName>بيروت</placeName></pubPlace>): نشأت في <date calendar="#cal_gregorian" when="1909-01-22"><tei:num
+                     change="#d2e181 #d2e228" type="auto-markup" value="22" xml:id="num_1.d2e702" xml:lang="ar">٢٢</tei:num> كانون الثاني</date>. صاحبها <editor type="owner"><persName>الشيخ <pb
+                     change="#d2e228" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P745.xhtml" ed="shamela" n="n2-p185"
+                     xml:id="pb_17.d2e705"/><pb change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_185" n="185" xml:id="pb_34.d2e959"
+                     /> مصطفى الغلاييني</persName></editor>، كاتب وشاعر مجيد. أصح أصحاب المجلات السورية عبارة</bibl>. وقد احتجبت <title level="j">النبراس</title> و<title level="j"
+                     >المنتقد</title> لأسباب قاهرة.</item>
                   <item change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e708" xml:lang="ar"> <tei:num change="#d2e181 #d2e228" type="auto-markup" value="4" xml:id="num_1.d2e712" xml:lang="ar"
-                     >٤</tei:num> - <title level="j">الحسناء</title> (<placeName>بيروت</placeName>): شهرية نشأت في <tei:num change="#d2e181 #d2e228" type="auto-markup" value="20" xml:id="num_1.d2e716"
-                     xml:lang="ar">٢٠</tei:num> حزيران سنة <tei:date calendar="#cal_gregorian" change="#d3e237 #d2e145" when="1909" xml:id="date_3.d2e973"><tei:num change="#d2e181 #d2e228"
-                     type="auto-markup" value="1909" xml:id="num_1.d2e719" xml:lang="ar"
-                     >١٩٠٩</tei:num></tei:date> . صاحبها جرجي نقولا باز، كاتب عصري مجيد. أستاذه الاجتهاد، ومدرسته المطالعة. هو نصير السيدات الخاص. أكثر مباحث مجلته ترقية الفتاة. قارئات المجلة أكثر من قرائها. لجرجي أفندي أسلوب خاص في كتابته.</item>
+                     >٤</tei:num> - <bibl><title level="j">الحسناء</title> (<pubPlace><placeName>بيروت</placeName></pubPlace>): شهرية نشأت في <date calendar="#cal_gregorian" when="1909-06-20"><tei:num
+                     change="#d2e181 #d2e228" type="auto-markup" value="20" xml:id="num_1.d2e716" xml:lang="ar">٢٠</tei:num> حزيران سنة <tei:num change="#d2e181 #d2e228" type="auto-markup"
+                     value="1909" xml:id="num_1.d2e719" xml:lang="ar">١٩٠٩</tei:num></date> . صاحبها <editor type="owner"
+                     ><persName>جرجي نقولا باز</persName></editor>، كاتب عصري مجيد. أستاذه الاجتهاد، ومدرسته المطالعة. هو نصير السيدات الخاص. أكثر مباحث مجلته ترقية الفتاة. قارئات المجلة أكثر من قرائها</bibl>. لجرجي أفندي أسلوب خاص في كتابته.</item>
                   <item change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e723" xml:lang="ar"> <tei:num change="#d2e181 #d2e228" type="auto-markup" value="5" xml:id="num_1.d2e727" xml:lang="ar"
-                     >٥</tei:num> - <title level="j">الكوثر</title> (<placeName>بيروت</placeName>): شهرية. نشأت في <tei:num change="#d2e181 #d2e228" type="auto-markup" value="18" xml:id="num_1.d2e731"
-                     xml:lang="ar">١٨</tei:num> تموز سنة <tei:date calendar="#cal_gregorian" change="#d3e237 #d2e145" when="1909" xml:id="date_3.d2e989"><tei:num change="#d2e181 #d2e228"
-                     type="auto-markup" value="1909" xml:id="num_1.d2e734" xml:lang="ar"
-                     >١٩٠٩</tei:num></tei:date> . صاحبها بشير رمضان، كاتب مجتهد له اعتناء خاص في ترتيب المجلة. لا يضع فيها رسالة أو قصيدة نشرت في إحدى الجرائد. عبارته جزلة، ومجلته منتشرة جداً بين الشبيبة الإسلامية الراقية.</item>
+                     >٥</tei:num> - <bibl><title level="j">الكوثر</title> (<pubPlace><placeName>بيروت</placeName></pubPlace>): شهرية. نشأت في <date calendar="#cal_gregorian" when="1909-07-18"><tei:num
+                     change="#d2e181 #d2e228" type="auto-markup" value="18" xml:id="num_1.d2e731" xml:lang="ar">١٨</tei:num> تموز سنة <tei:num change="#d2e181 #d2e228" type="auto-markup" value="1909"
+                     xml:id="num_1.d2e734" xml:lang="ar">١٩٠٩</tei:num></date> . صاحبها <editor type="owner"
+                     ><persName>بشير رمضان</persName></editor>، كاتب مجتهد له اعتناء خاص في ترتيب المجلة. لا يضع فيها رسالة أو قصيدة نشرت في إحدى الجرائد</bibl>. عبارته جزلة، ومجلته منتشرة جداً بين الشبيبة الإسلامية الراقية.</item>
                   <item change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e738" xml:lang="ar"> <tei:num change="#d2e181 #d2e228" type="auto-markup" value="6" xml:id="num_1.d2e742" xml:lang="ar"
-                     >٦</tei:num> - <title level="j">الكلية</title> (<placeName>بيروت</placeName>): شهرية. نشأت في أول شباط سنة <tei:date calendar="#cal_gregorian" change="#d3e237 #d2e145" when="1910"
-                     xml:id="date_3.d2e1002"><tei:num change="#d2e181 #d2e228" type="auto-markup" value="1910" xml:id="num_1.d2e746" xml:lang="ar"
-                     >١٩١٠</tei:num></tei:date> . تصدر في <orgName>الكلية الأمريكانية</orgName>، في اللغتين العربية والإنكليزية. الأولى بقلم الأستاذ بولس الخولي العالم المتفنن، والثانية بقلم رئيس الكلية هورد بلس الخطيب الشهير. أكثر مباحثها في شؤون المدرسة والأساتذة والتلامذة.</item>
+                     >٦</tei:num> - <bibl><title level="j">الكلية</title> (<pubPlace><placeName>بيروت</placeName></pubPlace>): شهرية. نشأت في <date calendar="#cal_gregorian" when="1910-02-01"
+                     >أول شباط سنة <tei:num change="#d2e181 #d2e228" type="auto-markup" value="1910" xml:id="num_1.d2e746" xml:lang="ar"
+                     >١٩١٠</tei:num></date> . تصدر في <publisher><orgName>الكلية الأمريكانية</orgName></publisher>، في اللغتين <textLang mainLang="ar" otherLangs="en"
+                     >العربية والإنكليزية</textLang>. الأولى بقلم <editor><persName>الأستاذ بولس الخولي</persName></editor> العالم المتفنن، والثانية بقلم رئيس الكلية <editor><persName>هورد بلس</persName></editor> الخطيب الشهير. أكثر مباحثها في شؤون المدرسة والأساتذة والتلامذة</bibl>.</item>
                   <item change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e754" xml:lang="ar"> <tei:num change="#d2e181 #d2e228" type="auto-markup" value="7" xml:id="num_1.d2e758" xml:lang="ar"
-                     >٧</tei:num> - <title level="j">النفائس</title> (<placeName>بيروت</placeName>) نصف شهرية. نشأت في <tei:num change="#d2e181 #d2e228" type="auto-markup" value="1"
-                     xml:id="num_1.d2e762" xml:lang="ar">١</tei:num> آذار سنة <tei:date calendar="#cal_gregorian" change="#d3e237 #d2e145" when="1910" xml:id="date_3.d2e1022"><tei:num
-                     change="#d2e181 #d2e228" type="auto-markup" value="1910" xml:id="num_1.d2e765" xml:lang="ar"
-                     >١٩١٠</tei:num></tei:date> . صاحبها <orgName>أنيس الخوري</orgName>. يكتبها كامل حمية، الكاتب الرقيق والشاعر المجيد. مباحث المجلة طلية. ولمحررها أسلوب داخله هزل يدلي إلى انتقاد.</item>
+                     >٧</tei:num> - <bibl><title level="j">النفائس</title> (<pubPlace><placeName>بيروت</placeName></pubPlace>) نصف شهرية. نشأت في <date calendar="#cal_gregorian" when="1910-03-01"
+                     ><tei:num change="#d2e181 #d2e228" type="auto-markup" value="1" xml:id="num_1.d2e762" xml:lang="ar">١</tei:num> آذار سنة <tei:num change="#d2e181 #d2e228" type="auto-markup"
+                     value="1910" xml:id="num_1.d2e765" xml:lang="ar">١٩١٠</tei:num></date> . صاحبها <editor type="owner"
+                     ><persName>أنيس الخوري</persName></editor>. يكتبها كامل حمية، الكاتب الرقيق والشاعر المجيد. مباحث المجلة طلية. ولمحررها أسلوب داخله هزل يدلي إلى انتقاد</bibl>.</item>
                   <item change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e769" xml:lang="ar"> <tei:num change="#d2e181 #d2e228" type="auto-markup" value="8" xml:id="num_1.d2e773" xml:lang="ar"
-                     >٨</tei:num> - <title level="j">الرابطة</title> (<placeName>بيروت</placeName>): مجلة جامعة. نشأت في أول كانون الثاني <pb change="#d2e228"
-                     corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P746.xhtml" ed="shamela" n="n2-p186" xml:id="pb_18.d2e777"/><pb
-                     change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_186" n="186" xml:id="pb_36.d2e1036"/> سنة <tei:date calendar="#cal_gregorian" change="#d3e237 #d2e145"
-                     when="1911" xml:id="date_3.d2e1038"><tei:num change="#d2e181 #d2e228" type="auto-markup" value="1911" xml:id="num_1.d2e779" xml:lang="ar"
-                     >١٩١١</tei:num></tei:date> . تصدر في <orgName>المدرسة العلمانية الفرنسوية </orgName>بثلاث لغات (العربية والتركية والإفرنسية) بعناية رئيس المدرسة المسيو ديشان، والأستاذ عساف بك الكفوري الكاتب العربي الصميم، والمجلة كاسمها رابطة ولاء وصلة إخاء بين التلامذة.</item>
+                     >٨</tei:num> - <bibl><title level="j">الرابطة</title> (<pubPlace><placeName>بيروت</placeName></pubPlace>): مجلة جامعة. نشأت في <date when="1911-01-01">أول كانون الثاني <pb
+                     change="#d2e228" corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P746.xhtml" ed="shamela" n="n2-p186"
+                     xml:id="pb_18.d2e777"/><pb change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_186" n="186" xml:id="pb_36.d2e1036"/> سنة <tei:num change="#d2e181 #d2e228"
+                     type="auto-markup" value="1911" xml:id="num_1.d2e779" xml:lang="ar"
+                     >١٩١١</tei:num></date> . تصدر في <publisher><orgName>المدرسة العلمانية الفرنسوية </orgName></publisher>بثلاث لغات (<textLang mainLang="ar" otherLangs="ota fr"
+                     >العربية والتركية والإفرنسية</textLang>) بعناية رئيس المدرسة <editor type="publisher"
+                     ><persName>المسيو ديشان</persName></editor>، و<editor><persName>الأستاذ عساف بك الكفوري</persName></editor> الكاتب العربي الصميم، والمجلة كاسمها رابطة ولاء وصلة إخاء بين التلامذة.</bibl></item>
                   <item change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e783" xml:lang="ar"> <tei:num change="#d2e181 #d2e228" type="auto-markup" value="9" xml:id="num_1.d2e787" xml:lang="ar"
-                     >٩</tei:num> - <title level="j">المسرة</title> (<placeName>حريصا</placeName> - <placeName>لبنان</placeName>): نشأت في أول حزيران سنة <tei:date calendar="#cal_gregorian"
-                     change="#d3e237 #d2e145" when="1910" xml:id="date_3.d2e1051"><tei:num change="#d2e181 #d2e228" type="auto-markup" value="1910" xml:id="num_1.d2e791" xml:lang="ar"
-                     >١٩١٠</tei:num></tei:date> . أصحابها <orgName>المرسلون البولسيون</orgName>. يحررها السيد جرمانوس معقد أبلغ مطران عربي، له أسلوب خاص في إنشائه.</item>
+                     >٩</tei:num> - <bibl><title level="j">المسرة</title> (<pubPlace><placeName>حريصا</placeName></pubPlace> - <placeName>لبنان</placeName>): نشأت في <date calendar="#cal_gregorian"
+                     when="1910-06-01">أول حزيران سنة <tei:num change="#d2e181 #d2e228" type="auto-markup" value="1910" xml:id="num_1.d2e791" xml:lang="ar"
+                     >١٩١٠</tei:num></date> . أصحابها <publisher><orgName>المرسلون البولسيون</orgName></publisher>. يحررها <editor><persName>السيد جرمانوس</persName></editor> معقد أبلغ مطران عربي، له أسلوب خاص في إنشائه</bibl>.</item>
                   <item change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e795" xml:lang="ar"> <tei:num change="#d2e181 #d2e228" type="auto-markup" value="10" xml:id="num_1.d2e799" xml:lang="ar"
-                     >١٠</tei:num> - <title level="j">النديم</title> (<placeName>جسر نهر</placeName> <placeName>بيروت</placeName>): نشأت في <tei:num change="#d2e181 #d2e228" type="auto-markup"
-                     value="15" xml:id="num_1.d2e803" xml:lang="ar">١٥</tei:num> أيلول سنة <tei:date calendar="#cal_gregorian" change="#d3e237 #d2e145" when="1910" xml:id="date_3.d2e1067"><tei:num
-                     change="#d2e181 #d2e228" type="auto-markup" value="1910" xml:id="num_1.d2e806" xml:lang="ar">١٩١٠</tei:num></tei:date> صاحبها <persName>شاكر عون</persName>، عالم غير كاتب. و<title
-                     level="j">النديم</title> أقرب إلى جريدة منه إلى مجلة.</item>
+                     >١٠</tei:num> - <bibl><title level="j">النديم</title> (<pubPlace><placeName>جسر نهر</placeName></pubPlace> <pubPlace><placeName>بيروت</placeName></pubPlace>): نشأت في <date
+                     when="1910-09-15"><tei:num change="#d2e181 #d2e228" type="auto-markup" value="15" xml:id="num_1.d2e803" xml:lang="ar">١٥</tei:num> أيلول سنة <tei:num change="#d2e181 #d2e228"
+                     type="auto-markup" value="1910" xml:id="num_1.d2e806" xml:lang="ar">١٩١٠</tei:num></date> صاحبها <editor type="owner"
+                     ><persName>شاكر عون</persName></editor>، عالم غير كاتب</bibl>. و<title level="j">النديم</title> أقرب إلى جريدة منه إلى مجلة.</item>
                   <item change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e810" xml:lang="ar"> <tei:num change="#d2e181 #d2e228" type="auto-markup" value="11" xml:id="num_1.d2e814" xml:lang="ar"
-                     >١١</tei:num> - <title level="j">النفائس العصرية</title> (<placeName>القدس</placeName>): نشأت سنة <tei:date calendar="#cal_gregorian" change="#d3e237 #d2e145" when="1908"
-                     xml:id="date_3.d2e1080"><tei:num change="#d2e181 #d2e228" type="auto-markup" value="1908" xml:id="num_1.d2e818" xml:lang="ar"
-                     >١٩٠٨</tei:num></tei:date> وهي مجلة شهرية. صاحبها <persName>خليل بيدس</persName>، كاتب اجتماعي رقيق. لمجلته اعتناء خاص في ترجمة الروايات المفيدة المسلية. قراء المجلة كثيرون. وأكثرهم من الأرثوذكس.</item>
+                     >١١</tei:num> - <bibl><title level="j">النفائس العصرية</title> (<pubPlace><placeName>القدس</placeName></pubPlace>): نشأت سنة <tei:date calendar="#cal_gregorian"
+                     change="#d3e237 #d2e145" when="1908" xml:id="date_3.d2e1080"><tei:num change="#d2e181 #d2e228" type="auto-markup" value="1908" xml:id="num_1.d2e818" xml:lang="ar"
+                     >١٩٠٨</tei:num></tei:date> وهي مجلة شهرية. صاحبها <editor type="owner"
+                     ><persName>خليل بيدس</persName></editor>، كاتب اجتماعي رقيق. لمجلته اعتناء خاص في ترجمة الروايات المفيدة المسلية. قراء المجلة كثيرون. وأكثرهم من الأرثوذكس</bibl>.</item>
                   <item change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e823" xml:lang="ar"> <tei:num change="#d2e181 #d2e228" type="auto-markup" value="12" xml:id="num_1.d2e827" xml:lang="ar"
-                     >١٢</tei:num> - <title level="j">الإنسانية</title> (<placeName>حماه</placeName>): نشأت في حماه سنة <tei:date calendar="#cal_gregorian" change="#d3e237 #d2e145" when="1910"
-                     xml:id="date_3.d2e1094"><tei:num change="#d2e181 #d2e228" type="auto-markup" value="1910" xml:id="num_1.d2e831" xml:lang="ar"
-                     >١٩١٠</tei:num></tei:date> . صاحبها <persName>حسن رزق</persName>، كاتب متساهل، وشاعر بليغ. لمجلته اعتناء خاص في ترقية المرأة.</item>
+                     >١٢</tei:num> - <bibl><title level="j">الإنسانية</title> (<pubPlace><placeName>حماه</placeName></pubPlace>): نشأت في <placeName>حماه</placeName> سنة <tei:date
+                     calendar="#cal_gregorian" change="#d3e237 #d2e145" when="1910" xml:id="date_3.d2e1094"><tei:num change="#d2e181 #d2e228" type="auto-markup" value="1910" xml:id="num_1.d2e831"
+                     xml:lang="ar">١٩١٠</tei:num></tei:date> . صاحبها <editor type="owner"
+                     ><persName>حسن رزق</persName></editor>، كاتب متساهل، وشاعر بليغ. لمجلته اعتناء خاص في ترقية المرأة</bibl>.</item>
                   <item change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e835" xml:lang="ar"> <tei:num change="#d2e181 #d2e228" type="auto-markup" value="13" xml:id="num_1.d2e839" xml:lang="ar"
-                     >١٣</tei:num> - <title level="j">المقتبس</title> (<placeName>دمشق الشام</placeName>): نشأت أولاً في <placeName>مصر</placeName> سنة <tei:date calendar="#cal_gregorian"
-                     change="#d3e237 #d2e145" when="1905" xml:id="date_3.d2e1107"><tei:num change="#d2e181 #d2e228" type="auto-markup" value="1905" xml:id="num_1.d2e843" xml:lang="ar"
-                     >١٩٠٥</tei:num></tei:date> . صاحبها <persName>محمد كرد علي</persName>، كاتب مؤرخ. مجلته ثقة في سرد المسائل التاريخية. ولو كان حظه بقدر اجتهاده لكان لمجلته شأن عظيم في الشرق.</item>
+                     >١٣</tei:num> - <bibl><title level="j">المقتبس</title> (<pubPlace><placeName>دمشق الشام</placeName></pubPlace>): نشأت أولاً في <placeName>مصر</placeName> سنة <tei:date
+                     calendar="#cal_gregorian" change="#d3e237 #d2e145" when="1905" xml:id="date_3.d2e1107"><tei:num change="#d2e181 #d2e228" type="auto-markup" value="1905" xml:id="num_1.d2e843"
+                     xml:lang="ar">١٩٠٥</tei:num></tei:date> . صاحبها <editor type="owner"
+                     ><persName>محمد كرد علي</persName></editor>، كاتب مؤرخ. مجلته ثقة في سرد المسائل التاريخية</bibl>. ولو كان حظه بقدر اجتهاده لكان لمجلته شأن عظيم في الشرق.</item>
                   <item change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e847" xml:lang="ar"> <tei:num change="#d2e181 #d2e228" type="auto-markup" value="14" xml:id="num_1.d2e851" xml:lang="ar"
-                     >١٤</tei:num> - <title level="j">العرفان</title> (<placeName>صيدا</placeName>): نشأت سنة <tei:date calendar="#cal_gregorian" change="#d3e237 #d2e145" when="1909"
-                     xml:id="date_3.d2e1120"><tei:num change="#d2e181 #d2e228" type="auto-markup" value="1909" xml:id="num_1.d2e855" xml:lang="ar"
-                     >١٩٠٩</tei:num></tei:date> . صاحبها <persName>الشيخ أحمد <pb change="#d2e228"
+                     >١٤</tei:num> - <bibl><title level="j">العرفان</title> (<pubPlace><placeName>صيدا</placeName></pubPlace>): نشأت سنة <tei:date calendar="#cal_gregorian" change="#d3e237 #d2e145"
+                     when="1909" xml:id="date_3.d2e1120"><tei:num change="#d2e181 #d2e228" type="auto-markup" value="1909" xml:id="num_1.d2e855" xml:lang="ar"
+                     >١٩٠٩</tei:num></tei:date> . صاحبها <editor type="owner"><persName>الشيخ أحمد <pb change="#d2e228"
                      corresp="file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/journal_al-zuhur/epub/shamela_36534/OEBPS/xhtml/P747.xhtml" ed="shamela" n="n2-p187" xml:id="pb_19.d2e858"/><pb
                      change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_187" n="187" xml:id="pb_38.d2e1125"
-                     /> عارف الزين</persName>. مجلته جامعة. فيها من كل فن خبر. منشئها مثال التساهل الديني.</item>
+                     /> عارف الزين</persName></editor>. مجلته جامعة. فيها من كل فن خبر. منشئها مثال التساهل الديني</bibl>.</item>
                </list>
                <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e861" xml:lang="ar">* * *</tei:p>
                <tei:p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e864" xml:lang="ar"
-                  >وهناك مجلات أخرى لم أذكرها لعدم قراءتي إياها طويلاً كالطبيب للدكتور إسكندر بارودي، والجسمانية للأب يوسف علوان، واللطائف الأهلية لمحمد جمل، والتلميذ للمدرسة العثمانية، والمجلة السورية لفيليب يوسف تيان، ومجلة <tei:title
+                  >وهناك مجلات أخرى لم أذكرها لعدم قراءتي إياها طويلاً ك<bibl><title>الطبيب</title> لل<editor>دكتور <persName>إسكندر بارودي</persName></editor></bibl>، و<bibl><title>الجسمانية</title> لل<editor>أب <persName>يوسف علوان</persName></editor></bibl>، و<bibl><title>اللطائف الأهلية</title> ل<editor><persName>محمد جمل</persName></editor></bibl>، و<bibl><title>التلميذ</title> للمدرسة العثمانية</bibl>، و<bibl><title>المجلة السورية</title> ل<editor><persName>فيليب يوسف تيان</persName></editor></bibl>، و<bibl>مجلة <tei:title
                   change="#d2e193 #d2e223 #d2e228" level="j" xml:id="title_7.d2e866" xml:lang="ar"
-                  >الاقتصاد</tei:title> لأنيبال إبيلا، والحقوق لمعوشي وخلف، والعري، والعروس، والشبيبة وغيرها من المجلات التي لم تعش كثيراً لضعف مادتها العلمية من جهة. وفقر أصحابها من جهة أخرى.</tei:p>
+                  >الاقتصاد</tei:title> ل<editor><persName>أنيبال إبيلا</persName></editor></bibl>، و<bibl><title>الحقوق</title> ل<editor><persName><surname>معوشي</surname></persName></editor> و<editor><persName><surname>خلف</surname></persName></editor></bibl>، و<title>العري</title>، و<title>العروس</title>، و<title>الشبيبة</title> وغيرها من المجلات التي لم تعش كثيراً لضعف مادتها العلمية من جهة. وفقر أصحابها من جهة أخرى.</tei:p>
             </div>
             <byline change="#d2e198 #d2e223 #d2e228" xml:id="byline_3.d2e870" xml:lang="ar"><persName change="#d3e209 #d2e223 #d2e228 #d3e296" ref="oape:pers:1610" xml:id="persName_7.d2e871"
                xml:lang="ar"><forename change="#d2e145" xml:id="forename_2.d2e1139">حليم</forename> <forename change="#d2e145" xml:id="forename_3.d2e1142">إبراهيم</forename> <surname change="#d2e145"
