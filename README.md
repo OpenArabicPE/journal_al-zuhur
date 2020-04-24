@@ -25,4 +25,4 @@ If you just want to browse the edition in a more human-readable view, start [her
     - **done** في جنائن الغرب
 
 
-[sakhrit]: http://archive.alsharekh.org/newmagazineYears.aspx?MID=40
+[sakhrit]: http://archive.alsharekh.org/newmagazineYears/40
