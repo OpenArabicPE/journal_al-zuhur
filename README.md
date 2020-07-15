@@ -13,13 +13,20 @@ date: 2019-10-22
 This digital edition of Anṭūn al-Jumayyil's monthly journal *al-Zuhūr* (Cairo, 1910--1913) is part of and follows the principles of [Open Arabic Periodical Editions (OpenArabicPE)](https://openarabicpe.github.io) that were originally developped in the context of [Digital Muqtabas](https://github.com/tillgrallert/digital-muqtabas). The full text of this edition has been transcribed by the anonymous transcribers at [*al-maktaba al-shamela*](http://shamela.ws/index.php/book/36534). Digital facsimiles are available from:
 
 - [*arshīf al-majallāt ...*][sakhrit]<!--  (formerly archive.sakhrit.co) --> and
-- in high-resolution from the [University of Bonn](http://digitale-sammlungen.ulb.uni-bonn.de/urn/urn:nbn:de:hbz:5:1-90222), which also serves through IIIF.
+- in high-resolution from the [University of Bonn](http://nbn-resolving.de/urn:nbn:de:hbz:5:1-90222), which also serves through IIIF.
+    + vol.s 1--4 from the University of Tübingen
+    + The problem with Bonn's implementation is that images are consecutively numbered. One has to look up the link to each image in the IIIF manifest and cannot compute them.
+    + The second problem is that page numbers are not part of the IIIF manifest.
+        * vol. 1: <https://digitale-sammlungen.ulb.uni-bonn.de/i3f/v20/4900431/manifest>
+        * vol. 2: <https://digitale-sammlungen.ulb.uni-bonn.de/i3f/v20/4900432/manifest>
+        * vol. 3: <https://digitale-sammlungen.ulb.uni-bonn.de/i3f/v20/4900433/manifest>
+        * vol. 4: <https://digitale-sammlungen.ulb.uni-bonn.de/i3f/v20/4900434/manifest>
 - Hathitrust: [Reprint! catalogued as published by al-Hayʾah al-Miṣrīyah al-ʻĀmmah lil-Kitāb, 1997-2000](https://catalog.hathitrust.org/Record/100162849)
     + [Harvard](https://catalog.hathitrust.org/Record/100162849): complete
     + [Ohio State University](https://catalog.hathitrust.org/Record/100162849): complete
     + [Cornell University](https://catalog.hathitrust.org/Record/100162849): complete
     + [University of California](https://catalog.hathitrust.org/Record/102460641): complete
-- Hathitrust: origina
+- Hathitrust: original
     + [Princeton](https://catalog.hathitrust.org/Record/009012438): vol. 3
 
 It appeared that the page breaks from *al-maktaba al-shamela* correspond to the printed copy. We have therefore added the relevant mark-up for page beginnings (`<pb ed="print" n="123"/>`) and an `<facsimile>` element containing links to the digital facsimiles at [*arshīf al-majallāt*][sakhrit]. The boilerplate view, therefore, displays both facsimiles and the digital text.
