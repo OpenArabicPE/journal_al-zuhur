@@ -39,7 +39,7 @@ If you just want to browse the edition in a more human-readable view, start [her
 
 1. mark up articles in sections:[^1]
     - **done** في حدائق العرب
-        + note: this did not work reliably (e.g. 2(5)), or I did assume that there was only a single article in this section
+        + note: this did not work reliably (e.g. 2(5), 2(1)), or I did assume that there was only a single article in this section
     - **done** في جنائن الغرب
     - أزهار وأشواك
     - في رياض الشعر
