@@ -4,7 +4,24 @@
          <titleStmt change="#d2e195">
             <title change="#d2e195">مجلة «الزهور» المصرية</title>
             <title type="sub" change="#d2e195">TEI edition</title>
-            <author change="#d2e195">أنطون الجميل</author>
+            <respStmt>
+	<resp xml:lang="ar">منشئ المجلة</resp>
+	<persName ref="oape:pers:2804 viaf:305214858" xml:lang="ar">
+		<forename xml:lang="ar">أنطوان</forename>
+		<surname xml:lang="ar">الجميل</surname>
+	</persName>
+</respStmt>
+<respStmt>
+	<resp xml:lang="ar">المدير المسؤول</resp>
+	<persName xml:lang="ar">
+		<forename>امين</forename>
+		<surname>تقي الدين</surname>
+	</persName>
+</respStmt>
+<respStmt>
+	<resp xml:lang="en">Transcription</resp>
+	<orgName xml:lang="ar">المكتبة الشاملة</orgName>
+</respStmt>
             <tei:respStmt xml:lang="en">
                <tei:resp change="#d2e195" xml:lang="en">TEI edition</tei:resp>
                <tei:persName xml:id="pers_TG" change="#d2e195" xml:lang="en">

@@ -3,7 +3,24 @@
          <titleStmt change="#d2e218 #d2e223" xml:id="titleStmt_1.d2e11">
             <title change="#d2e218 #d2e223" xml:id="title_1.d2e13">مجلة «الزهور» المصرية</title>
             <title type="sub" change="#d2e218 #d2e223" xml:id="title_2.d2e16">TEI edition</title>
-            <author change="#d2e218 #d2e223" xml:id="author_1.d2e19">أنطون الجميل</author>
+            <respStmt>
+	<resp xml:lang="ar">منشئ المجلة</resp>
+	<persName ref="oape:pers:2804 viaf:305214858" xml:lang="ar">
+		<forename xml:lang="ar">أنطوان</forename>
+		<surname xml:lang="ar">الجميل</surname>
+	</persName>
+</respStmt>
+<respStmt>
+	<resp xml:lang="ar">المدير المسؤول</resp>
+	<persName xml:lang="ar">
+		<forename>امين</forename>
+		<surname>تقي الدين</surname>
+	</persName>
+</respStmt>
+<respStmt>
+	<resp xml:lang="en">Transcription</resp>
+	<orgName xml:lang="ar">المكتبة الشاملة</orgName>
+</respStmt>
             <tei:respStmt xml:lang="en" change="#d2e223" xml:id="respStmt_1.d2e22">
                <tei:resp change="#d2e218 #d2e223" xml:lang="en" xml:id="resp_1.d2e24">TEI edition</tei:resp>
                <tei:persName xml:id="pers_TG" change="#d2e218" xml:lang="en">
