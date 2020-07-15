@@ -1,7 +1,7 @@
 ---
 title: "Readme: Journal *al-Zuhūr"
 author: Till Grallert
-date: 2019-10-22
+date: 2020-07-15
 ---
 
 # An open, collaborative, and scholarly digital edition of Anṭūn al-Jumayyil's monthly journal *al-Zuhūr* (Cairo, 1910--1913)
@@ -10,10 +10,10 @@ date: 2019-10-22
 <!-- DOI needs updating once released -->
 <!-- [![DOI](https://zenodo.org/badge/52619834.svg)](https://zenodo.org/badge/latestdoi/52619834) -->
 
-This digital edition of Anṭūn al-Jumayyil's monthly journal *al-Zuhūr* (Cairo, 1910--1913) is part of and follows the principles of [Open Arabic Periodical Editions (OpenArabicPE)](https://openarabicpe.github.io) that were originally developped in the context of [Digital Muqtabas](https://github.com/tillgrallert/digital-muqtabas). The full text of this edition has been transcribed by the anonymous transcribers at [*al-maktaba al-shamela*](http://shamela.ws/index.php/book/36534). Digital facsimiles are available from:
+This digital edition of Anṭūn al-Jumayyil's monthly journal *al-Zuhūr* (Cairo, 1910--1913) is part of and follows the principles of [Open Arabic Periodical Editions (OpenArabicPE)](https://openarabicpe.github.io) that were originally developped in the context of [Digital Muqtabas](https://github.com/tillgrallert/digital-muqtabas). The full text of this edition has been transcribed by the anonymous transcribers at [*al-maktaba al-shamela*](http://shamela.ws/index.php/book/36534). Digital facsimiles are available from the following sources:
 
 - [*arshīf al-majallāt ...*][sakhrit]<!--  (formerly archive.sakhrit.co) --> and
-- in high-resolution from the [University of Bonn](http://nbn-resolving.de/urn:nbn:de:hbz:5:1-90222), which also serves through IIIF.
+- in high-resolution from the [University of Bonn][bonn], which also serves through IIIF.
     + vol.s 1--4 from the University of Tübingen
     + The problem with Bonn's implementation is that images are consecutively numbered. One has to look up the link to each image in the IIIF manifest and cannot compute them.
     + The second problem is that page numbers are not part of the IIIF manifest.
@@ -29,9 +29,9 @@ This digital edition of Anṭūn al-Jumayyil's monthly journal *al-Zuhūr* (Cair
 - Hathitrust: original
     + [Princeton](https://catalog.hathitrust.org/Record/009012438): vol. 3
 
-It appeared that the page breaks from *al-maktaba al-shamela* correspond to the printed copy. We have therefore added the relevant mark-up for page beginnings (`<pb ed="print" n="123"/>`) and an `<facsimile>` element containing links to the digital facsimiles at [*arshīf al-majallāt*][sakhrit]. The boilerplate view, therefore, displays both facsimiles and the digital text.
+It appeared that the page breaks from *al-maktaba al-shamela* correspond to the printed copy. We have therefore added the relevant mark-up for page beginnings (`<pb ed="print" n="123"/>`) and an `<facsimile>` element containing links to the digital facsimiles at [*arshīf al-majallāt*][sakhrit] and [Translatio Bonn][bonn]. The boilerplate view, therefore, displays facsimiles and the digital text.
 
-If you just want to browse the edition in a more human-readable view, start [here](https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_1.TEIP5.xml). All bibliographic metadata will soon be available as part of [OpenArabicPE's public Zotero group](https://www.zotero.org/groups/904125/openarabicpe/items/).
+If you just want to browse the edition in a more human-readable view, start [here](https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_1.TEIP5.xml). All bibliographic metadata is available as part of [OpenArabicPE's public Zotero group](https://www.zotero.org/groups/904125/openarabicpe/items/).
 
 
 # notes
@@ -47,7 +47,10 @@ If you just want to browse the edition in a more human-readable view, start [her
         + articles commence with a short string followed by a hyphen in the first paragraph
 2. mark-up toponyms in bylines
 3. heads: multi-line heads are currently commonly only catching the first line
+4. mastheads
 
 
 [sakhrit]: http://archive.alsharekh.org/newmagazineYears/40
+[bonn]: http://nbn-resolving.de/urn:nbn:de:hbz:5:1-90222
+
 [^1]: there are some sections which only have a single article per issue
