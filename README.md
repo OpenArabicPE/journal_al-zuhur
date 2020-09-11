@@ -1,21 +1,22 @@
 ---
-title: "Readme: Journal *al-Zuhūr"
+title: "Readme: Journal *al-Zuhūr*"
 author: Till Grallert
-date: 2020-07-15
+date: 2020-07-25
+ORCID: orcid.org/0000-0002-5739-8094
 ---
 
 # An open, collaborative, and scholarly digital edition of Anṭūn al-Jumayyil's monthly journal *al-Zuhūr* (Cairo, 1910--1913)
 
 [![GitHub release](https://img.shields.io/github/release/openarabicpe/journal_al-zuhur.svg)](https://github.com/openarabicpe/journal_al-zuhur/releases)
 <!-- DOI needs updating once released -->
-<!-- [![DOI](https://zenodo.org/badge/52619834.svg)](https://zenodo.org/badge/latestdoi/52619834) -->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3580606.svg)](https://doi.org/10.5281/zenodo.3580606)
 
 This digital edition of Anṭūn al-Jumayyil's monthly journal *al-Zuhūr* (Cairo, 1910--1913) is part of and follows the principles of [Open Arabic Periodical Editions (OpenArabicPE)](https://openarabicpe.github.io) that were originally developped in the context of [Digital Muqtabas](https://github.com/tillgrallert/digital-muqtabas). The full text of this edition has been transcribed by the anonymous transcribers at [*al-maktaba al-shamela*](http://shamela.ws/index.php/book/36534). Digital facsimiles are available from the following sources:
 
 - [*arshīf al-majallāt ...*][sakhrit]<!--  (formerly archive.sakhrit.co) --> and
 - in high-resolution from the [University of Bonn][bonn], which also serves through IIIF.
     + vol.s 1--4 from the University of Tübingen
-    + The problem with Bonn's implementation is that images are consecutively numbered. One has to look up the link to each image in the IIIF manifest and cannot compute them.
+    + The problem with Bonn's implementation is that images are not consecutively numbered. One has to look up the link to each image in the IIIF manifest and cannot compute them.
     + The second problem is that page numbers are not part of the IIIF manifest.
         * vol. 1: <https://digitale-sammlungen.ulb.uni-bonn.de/i3f/v20/4900431/manifest>
         * vol. 2: <https://digitale-sammlungen.ulb.uni-bonn.de/i3f/v20/4900432/manifest>
