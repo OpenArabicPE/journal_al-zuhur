@@ -57,7 +57,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change xmlns="" when="2020-07-21" who="#pers_TG" xml:id="d4e425" xml:lang="en">Added links to local facsimile files for each <tei:gi>surface</tei:gi> element.</change><change when="2020-07-15" who="#pers_TG" xml:id="d3e417" xml:lang="en">Generated a new <tei:gi xml:lang="en">front</tei:gi>based on the <tei:gi xml:lang="en">sourceDesc</tei:gi>that matches the information found in the masthead of the actual issues.</change>
+      <revisionDesc><change when="2020-07-21" who="#pers_TG" xml:id="d4e425" xml:lang="en">Added links to local facsimile files for each <tei:gi>surface</tei:gi> element.</change><change when="2020-07-15" who="#pers_TG" xml:id="d3e417" xml:lang="en">Generated a new <tei:gi xml:lang="en">front</tei:gi>based on the <tei:gi xml:lang="en">sourceDesc</tei:gi>that matches the information found in the masthead of the actual issues.</change>
          <tei:change when="2020-07-15" who="#pers_TG" xml:id="d2e340" xml:lang="en">Added <tei:gi>graphic</tei:gi> for all pages linking to Translatio Bonn.</tei:change>
          <change when="2019-11-08" who="#pers_TG" xml:id="d2e145" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
          <change when="2019-10-25" who="#pers_TG" xml:id="d2e310" xml:lang="en">Added <tei:gi change="#d2e145" xml:id="gi_1.d2e147">publicationStmt</tei:gi>.</change>
