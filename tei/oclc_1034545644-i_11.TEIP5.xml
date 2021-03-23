@@ -57,7 +57,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><tei:change when="2021-03-23" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tag xmlns:oape="https://openarabicpe.github.io/ns">bibl type="periodical"</tag> and <tag xmlns:oape="https://openarabicpe.github.io/ns">title level="j"</tag>.</tei:change>
          <change when="2020-07-21" who="#pers_TG" xml:lang="en">Began validating and correcting the mark-up against the facsimiles.</change>
          <change when="2020-07-21" who="#pers_TG" xml:id="d4e390" xml:lang="en">Added links to local facsimile files for each <gi>surface</gi> element.</change>
          <change when="2020-07-15" who="#pers_TG" xml:id="d3e382" xml:lang="en">Generated a new <gi xml:lang="en">front</gi>based on the <gi xml:lang="en">sourceDesc</gi>that matches the information found in the masthead of the actual issues.</change>
@@ -416,7 +416,7 @@
          <div change="#d2e64 #d2e223 #d2e228" subtype="article" type="item" xml:lang="ar">
             <note change="#d2e73 #d2e223 #d2e228" place="inline" type="bibliographic" xml:id="p_2.d2e862" xml:lang="ar">وقد جاءنا في هذا الموضوع رد من صاحب الإمضاء، وقف فيه موقف الحكم بين الكاتبتين قال:</note>
             <head change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e865" xml:lang="ar">بين هدى وأدما</head>
-            <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e868" xml:lang="ar">أمامي الآن على منضدة الكتابة مجلة <title change="#d2e193 #d2e223 #d2e228 #d5e285" level="j" ref="oape:bibl:3 oclc:1034545644" xml:id="title_7.d2e870" xml:lang="ar">الزهور</title> حيث مناظرة الآنستين الأديبتين ص ٣٣٠ ، و ٤٣٥ ، و ٤٨٣ . أتسمحان يا سيدتي لهذا القمل الضعيف بأن يجول مع رتبي يراع قوي من الجنس اللطيف، غير متعمد نصرة واحدة على أخرى، فأنتما متفقتان في الموضوع مختلفتان في الشكل. وها أنا أسعى إلى التوفيق بينكما.</p>
+            <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e868" xml:lang="ar">أمامي الآن على منضدة الكتابة <bibl resp="#xslt" type="periodical" subtype="journal" change="#d9e436">مجلة <title level="j" change="#d9e436">الزهور</title></bibl>  حيث مناظرة الآنستين الأديبتين ص ٣٣٠ ، و ٤٣٥ ، و ٤٨٣ . أتسمحان يا سيدتي لهذا القمل الضعيف بأن يجول مع رتبي يراع قوي من الجنس اللطيف، غير متعمد نصرة واحدة على أخرى، فأنتما متفقتان في الموضوع مختلفتان في الشكل. وها أنا أسعى إلى التوفيق بينكما.</p>
             <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e883" xml:lang="ar">ملاحظة قبل الموضوع: مقالة الكتابة الأولى أحدثت تأثيراً كبيراً بين شقيقاتها. وسمعتهن مراراً يتحدثن بما كتبت، واسمحي يا سيدتي أن أقول لك: إن أكثرهن كان ناقماً عليك. وهذا برهان يثبت مبدئياً إن ما قلته حق لأنه جرح - ولا يجرح غير الحقيقة.</p>
             <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e886" xml:lang="ar">ورد الكاتبة الثانية أرقص بنات جنسها طرباً وعجباً، وتمنين <pb change="#d2e228" corresp="../epub/shamela_36534/OEBPS/xhtml/P540.xhtml" ed="shamela" n="n1-p529" xml:id="pb_17.d2e888"/><pb change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_529" n="529" xml:id="pb_34.d2e1101"/> قطع البحار فعلاً، كما قطعنها شعوراً لمصافحتها أو لتقبيلها - بحسب درجة التأثير - شكراً وامتناناً، لدفاعها عنهن.</p>
             <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e892" xml:lang="ar">واسمحي لي يا سيدتي أن أقول لك: إن هذا أيضاً يثبت مبدئياً ضعف بنات الجنس اللطيف فهن يغضبن لأقل ملاحظة تبدى لهن، ولو عن حسن قصد، ومن إحداهن، ويطربن إذا ما ردت واحدة منهن على مغضبتهن - ولو كان الرد لم ينف حقيقة. فهن عشيقات المدح والإطراء طبعاً، مجفلات من أقل نقد وتأنيب.</p>
