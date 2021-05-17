@@ -7,85 +7,31 @@
                 xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/mods-3-7.xsd">
    <mods>
       <titleInfo>
-         <title xml:lang="ar">العدد ١٥</title>
-      </titleInfo>
-      <typeOfResource>text</typeOfResource>
-      <genre authority="local" xml:lang="en">journalArticle</genre>
-      <genre authority="marcgt" xml:lang="en">article</genre>
-      <relatedItem type="host">
-         <titleInfo>
-            <title xml:lang="ar">الزهور</title>
-            <title xml:lang="ar">مجلة أدبية فنية علمية</title>
-         </titleInfo>
-         <genre authority="marcgt">journal</genre>
-         <name type="personal"
-               xml:lang="ar"
-               authority="viaf"
-               valueURI="https://viaf.org/viaf/305214858">
-            <namePart type="family" xml:lang="ar">الجميل</namePart>
-            <namePart type="given" xml:lang="ar">أنطوان</namePart>
-            <role>
-               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
-            </role>
-         </name>
-         <originInfo>
-            <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
-            </place>
-                                    <publisher xml:lang="ar">مطبعة المعارف</publisher>
-                                    <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
-                                <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
-            <issuance>continuing</issuance>
-         </originInfo>
-         <part>
-            <detail type="volume">
-               <number>2</number>
-            </detail>
-            <detail type="issue">
-               <number>4</number>
-            </detail>
-            <extent unit="pages">
-               <start>169</start>
-               <end>169</end>
-            </extent>
-         </part>
-         <identifier type="BibTeX">oclc_1034545644-i_15-div_1.d2e239</identifier>
-         <identifier type="oape">3</identifier>
-         <identifier type="jid">40</identifier>
-         <identifier type="OCLC">1034545644</identifier>
-         <identifier type="URI">http://waqfeya.com/book.php?bid=6507</identifier>
-         <identifier type="URI">http://shamela.ws/index.php/book/36534</identifier>
-         <identifier type="URI">oclc_1034545644-i_15</identifier>
-      </relatedItem>
-      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
-      <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_15.TEIP5.xml#div_1.d2e239</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_15.TEIP5.xml#div_1.d2e239</url>
-      </location>
-      <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
-      </language>
-   </mods>
-   <mods>
-      <titleInfo>
          <title xml:lang="ar">الزهور في عهدها الجديد</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="ar">الجميل</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+         </role>
+      </name>
+      <name type="personal" xml:lang="ar" valueURI="oape:pers:3555">
+         <namePart type="family" xml:lang="ar">تقي الدين</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+         </role>
+      </name>
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">الزهور</title>
-            <title xml:lang="ar">مجلة أدبية فنية علمية</title>
+            <subTitle xml:lang="ar">مجلة أدبية فنية علمية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
             <namePart type="given" xml:lang="ar">أنطوان</namePart>
@@ -97,12 +43,11 @@
             <place>
                <placeTerm type="text"
                           xml:lang="ar"
-                          authority="geonames"
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
-                                    <publisher xml:lang="ar">مطبعة المعارف</publisher>
-                                    <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
-                                <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
+            <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -114,7 +59,7 @@
             </detail>
             <extent unit="pages">
                <start>169</start>
-               <end>169</end>
+               <end>171</end>
             </extent>
          </part>
          <identifier type="BibTeX">oclc_1034545644-i_15-div_1.d2e254</identifier>
@@ -137,7 +82,7 @@
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="ar">لو</title>
+         <title xml:lang="ar">السنة الأولى للزهور</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -145,12 +90,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">الزهور</title>
-            <title xml:lang="ar">مجلة أدبية فنية علمية</title>
+            <subTitle xml:lang="ar">مجلة أدبية فنية علمية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
             <namePart type="given" xml:lang="ar">أنطوان</namePart>
@@ -162,12 +106,11 @@
             <place>
                <placeTerm type="text"
                           xml:lang="ar"
-                          authority="geonames"
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
-                                    <publisher xml:lang="ar">مطبعة المعارف</publisher>
-                                    <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
-                                <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
+            <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -178,11 +121,11 @@
                <number>4</number>
             </detail>
             <extent unit="pages">
-               <start>169</start>
-               <end>172</end>
+               <start>171</start>
+               <end>171</end>
             </extent>
          </part>
-         <identifier type="BibTeX">oclc_1034545644-i_15-div_1.d2e266</identifier>
+         <identifier type="BibTeX">oclc_1034545644-i_15-div_2.d2e846</identifier>
          <identifier type="oape">3</identifier>
          <identifier type="jid">40</identifier>
          <identifier type="OCLC">1034545644</identifier>
@@ -192,8 +135,8 @@
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_15.TEIP5.xml#div_1.d2e266</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_15.TEIP5.xml#div_1.d2e266</url>
+         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_15.TEIP5.xml#div_2.d2e846</url>
+         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_15.TEIP5.xml#div_2.d2e846</url>
       </location>
       <language>
          <languageTerm type="code"
@@ -210,12 +153,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">الزهور</title>
-            <title xml:lang="ar">مجلة أدبية فنية علمية</title>
+            <subTitle xml:lang="ar">مجلة أدبية فنية علمية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
             <namePart type="given" xml:lang="ar">أنطوان</namePart>
@@ -227,12 +169,11 @@
             <place>
                <placeTerm type="text"
                           xml:lang="ar"
-                          authority="geonames"
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
-                                    <publisher xml:lang="ar">مطبعة المعارف</publisher>
-                                    <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
-                                <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
+            <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -272,10 +213,7 @@
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
-      <name type="personal"
-            xml:lang="ar"
-            authority="oape"
-            valueURI="oape:pers:1527">
+      <name type="personal" xml:lang="ar" valueURI="oape:pers:1527">
          <namePart>جميل مدور</namePart>
          <role>
             <roleTerm authority="marcrelator" type="code">aut</roleTerm>
@@ -284,12 +222,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">الزهور</title>
-            <title xml:lang="ar">مجلة أدبية فنية علمية</title>
+            <subTitle xml:lang="ar">مجلة أدبية فنية علمية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
             <namePart type="given" xml:lang="ar">أنطوان</namePart>
@@ -301,12 +238,11 @@
             <place>
                <placeTerm type="text"
                           xml:lang="ar"
-                          authority="geonames"
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
-                                    <publisher xml:lang="ar">مطبعة المعارف</publisher>
-                                    <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
-                                <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
+            <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -348,7 +284,6 @@
       <genre authority="marcgt" xml:lang="en">article</genre>
       <name type="personal"
             xml:lang="ar"
-            authority="viaf"
             valueURI="https://viaf.org/viaf/39370998">
          <namePart>ساتسنا</namePart>
          <role>
@@ -358,12 +293,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">الزهور</title>
-            <title xml:lang="ar">مجلة أدبية فنية علمية</title>
+            <subTitle xml:lang="ar">مجلة أدبية فنية علمية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
             <namePart type="given" xml:lang="ar">أنطوان</namePart>
@@ -375,12 +309,11 @@
             <place>
                <placeTerm type="text"
                           xml:lang="ar"
-                          authority="geonames"
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
-                                    <publisher xml:lang="ar">مطبعة المعارف</publisher>
-                                    <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
-                                <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
+            <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -415,15 +348,14 @@
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="ar">صحافة سورية ولبنان</title>
+         <title xml:lang="ar">صحافة سورية و لبنان</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
       <name type="personal"
             xml:lang="ar"
-            authority="oape"
-            valueURI="oape:pers:1610">
+            valueURI="https://viaf.org/viaf/6405035">
          <namePart type="family" xml:lang="ar">دموس</namePart>
          <namePart type="given" xml:lang="ar">حليم</namePart>
          <namePart type="given" xml:lang="ar">إبراهيم</namePart>
@@ -434,12 +366,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">الزهور</title>
-            <title xml:lang="ar">مجلة أدبية فنية علمية</title>
+            <subTitle xml:lang="ar">مجلة أدبية فنية علمية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
             <namePart type="given" xml:lang="ar">أنطوان</namePart>
@@ -451,12 +382,11 @@
             <place>
                <placeTerm type="text"
                           xml:lang="ar"
-                          authority="geonames"
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
-                                    <publisher xml:lang="ar">مطبعة المعارف</publisher>
-                                    <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
-                                <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
+            <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -491,20 +421,25 @@
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="ar">في جنائن الغرب</title>
+         <title xml:lang="ar">في جنائن الغرب عفريت المنزل</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
+      <name type="personal" xml:lang="ar" valueURI="oape:pers:2788">
+         <namePart>لويس أسود</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+         </role>
+      </name>
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">الزهور</title>
-            <title xml:lang="ar">مجلة أدبية فنية علمية</title>
+            <subTitle xml:lang="ar">مجلة أدبية فنية علمية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
             <namePart type="given" xml:lang="ar">أنطوان</namePart>
@@ -516,12 +451,11 @@
             <place>
                <placeTerm type="text"
                           xml:lang="ar"
-                          authority="geonames"
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
-                                    <publisher xml:lang="ar">مطبعة المعارف</publisher>
-                                    <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
-                                <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
+            <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -556,16 +490,31 @@
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="ar">في جنائن الغرب: عفريت المنزل</title>
+         <title xml:lang="ar">في رياض الشعر</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
       <name type="personal"
             xml:lang="ar"
-            authority="oape"
-            valueURI="oape:pers:2788">
-         <namePart>لويسأسود</namePart>
+            valueURI="https://viaf.org/viaf/45752632">
+         <namePart type="family" xml:lang="ar">صبري</namePart>
+         <namePart type="given" xml:lang="ar">إسماعيل</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+         </role>
+      </name>
+      <name type="personal"
+            xml:lang="ar"
+            valueURI="https://viaf.org/viaf/36771043">
+         <namePart type="family" xml:lang="ar">يكن</namePart>
+         <namePart type="given" xml:lang="ar">ولي الدين</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+         </role>
+      </name>
+      <name type="personal" xml:lang="ar" valueURI="oape:pers:1089">
+         <namePart>أحمد نسيم</namePart>
          <role>
             <roleTerm authority="marcrelator" type="code">aut</roleTerm>
          </role>
@@ -573,12 +522,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">الزهور</title>
-            <title xml:lang="ar">مجلة أدبية فنية علمية</title>
+            <subTitle xml:lang="ar">مجلة أدبية فنية علمية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
             <namePart type="given" xml:lang="ar">أنطوان</namePart>
@@ -590,77 +538,11 @@
             <place>
                <placeTerm type="text"
                           xml:lang="ar"
-                          authority="geonames"
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
-                                    <publisher xml:lang="ar">مطبعة المعارف</publisher>
-                                    <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
-                                <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
-            <issuance>continuing</issuance>
-         </originInfo>
-         <part>
-            <detail type="volume">
-               <number>2</number>
-            </detail>
-            <detail type="issue">
-               <number>4</number>
-            </detail>
-            <extent unit="pages">
-               <start>187</start>
-               <end>189</end>
-            </extent>
-         </part>
-         <identifier type="BibTeX">oclc_1034545644-i_15-div_1.d2e1152</identifier>
-         <identifier type="oape">3</identifier>
-         <identifier type="jid">40</identifier>
-         <identifier type="OCLC">1034545644</identifier>
-         <identifier type="URI">http://waqfeya.com/book.php?bid=6507</identifier>
-         <identifier type="URI">http://shamela.ws/index.php/book/36534</identifier>
-         <identifier type="URI">oclc_1034545644-i_15</identifier>
-      </relatedItem>
-      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
-      <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_15.TEIP5.xml#div_1.d2e1152</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_15.TEIP5.xml#div_1.d2e1152</url>
-      </location>
-      <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
-      </language>
-   </mods>
-   <mods>
-      <titleInfo>
-         <title xml:lang="ar">في رياض الشعر</title>
-      </titleInfo>
-      <typeOfResource>text</typeOfResource>
-      <genre authority="local" xml:lang="en">journalArticle</genre>
-      <genre authority="marcgt" xml:lang="en">article</genre>
-      <relatedItem type="host">
-         <titleInfo>
-            <title xml:lang="ar">الزهور</title>
-            <title xml:lang="ar">مجلة أدبية فنية علمية</title>
-         </titleInfo>
-         <genre authority="marcgt">journal</genre>
-         <name type="personal"
-               xml:lang="ar"
-               authority="viaf"
-               valueURI="https://viaf.org/viaf/305214858">
-            <namePart type="family" xml:lang="ar">الجميل</namePart>
-            <namePart type="given" xml:lang="ar">أنطوان</namePart>
-            <role>
-               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
-            </role>
-         </name>
-         <originInfo>
-            <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
-            </place>
-                                    <publisher xml:lang="ar">مطبعة المعارف</publisher>
-                                    <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
-                                <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
+            <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -695,286 +577,6 @@
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">في رياض الشعر: فؤادي</title>
-      </titleInfo>
-      <typeOfResource>text</typeOfResource>
-      <genre authority="local" xml:lang="en">journalArticle</genre>
-      <genre authority="marcgt" xml:lang="en">article</genre>
-      <name type="personal"
-            xml:lang="ar"
-            authority="viaf"
-            valueURI="https://viaf.org/viaf/45752632">
-         <namePart type="family" xml:lang="ar">صبري</namePart>
-         <namePart type="given" xml:lang="ar">إسماعيل</namePart>
-         <role>
-            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
-         </role>
-      </name>
-      <relatedItem type="host">
-         <titleInfo>
-            <title xml:lang="ar">الزهور</title>
-            <title xml:lang="ar">مجلة أدبية فنية علمية</title>
-         </titleInfo>
-         <genre authority="marcgt">journal</genre>
-         <name type="personal"
-               xml:lang="ar"
-               authority="viaf"
-               valueURI="https://viaf.org/viaf/305214858">
-            <namePart type="family" xml:lang="ar">الجميل</namePart>
-            <namePart type="given" xml:lang="ar">أنطوان</namePart>
-            <role>
-               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
-            </role>
-         </name>
-         <originInfo>
-            <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
-            </place>
-                                    <publisher xml:lang="ar">مطبعة المعارف</publisher>
-                                    <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
-                                <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
-            <issuance>continuing</issuance>
-         </originInfo>
-         <part>
-            <detail type="volume">
-               <number>2</number>
-            </detail>
-            <detail type="issue">
-               <number>4</number>
-            </detail>
-            <extent unit="pages">
-               <start>190</start>
-               <end>190</end>
-            </extent>
-         </part>
-         <identifier type="BibTeX">oclc_1034545644-i_15-div_1.d2e1202</identifier>
-         <identifier type="oape">3</identifier>
-         <identifier type="jid">40</identifier>
-         <identifier type="OCLC">1034545644</identifier>
-         <identifier type="URI">http://waqfeya.com/book.php?bid=6507</identifier>
-         <identifier type="URI">http://shamela.ws/index.php/book/36534</identifier>
-         <identifier type="URI">oclc_1034545644-i_15</identifier>
-      </relatedItem>
-      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
-      <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_15.TEIP5.xml#div_1.d2e1202</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_15.TEIP5.xml#div_1.d2e1202</url>
-      </location>
-      <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
-      </language>
-   </mods>
-   <mods>
-      <titleInfo>
-         <title xml:lang="">في رياض الشعر: ما كان</title>
-      </titleInfo>
-      <typeOfResource>text</typeOfResource>
-      <genre authority="local" xml:lang="en">journalArticle</genre>
-      <genre authority="marcgt" xml:lang="en">article</genre>
-      <name type="personal"
-            xml:lang="ar"
-            authority="viaf"
-            valueURI="https://viaf.org/viaf/36771043">
-         <namePart type="family" xml:lang="ar">يكن</namePart>
-         <namePart type="given" xml:lang="ar">ولي الدين</namePart>
-         <role>
-            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
-         </role>
-      </name>
-      <relatedItem type="host">
-         <titleInfo>
-            <title xml:lang="ar">الزهور</title>
-            <title xml:lang="ar">مجلة أدبية فنية علمية</title>
-         </titleInfo>
-         <genre authority="marcgt">journal</genre>
-         <name type="personal"
-               xml:lang="ar"
-               authority="viaf"
-               valueURI="https://viaf.org/viaf/305214858">
-            <namePart type="family" xml:lang="ar">الجميل</namePart>
-            <namePart type="given" xml:lang="ar">أنطوان</namePart>
-            <role>
-               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
-            </role>
-         </name>
-         <originInfo>
-            <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
-            </place>
-                                    <publisher xml:lang="ar">مطبعة المعارف</publisher>
-                                    <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
-                                <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
-            <issuance>continuing</issuance>
-         </originInfo>
-         <part>
-            <detail type="volume">
-               <number>2</number>
-            </detail>
-            <detail type="issue">
-               <number>4</number>
-            </detail>
-            <extent unit="pages">
-               <start>190</start>
-               <end>190</end>
-            </extent>
-         </part>
-         <identifier type="BibTeX">oclc_1034545644-i_15-div_1.d2e1255</identifier>
-         <identifier type="oape">3</identifier>
-         <identifier type="jid">40</identifier>
-         <identifier type="OCLC">1034545644</identifier>
-         <identifier type="URI">http://waqfeya.com/book.php?bid=6507</identifier>
-         <identifier type="URI">http://shamela.ws/index.php/book/36534</identifier>
-         <identifier type="URI">oclc_1034545644-i_15</identifier>
-      </relatedItem>
-      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
-      <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_15.TEIP5.xml#div_1.d2e1255</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_15.TEIP5.xml#div_1.d2e1255</url>
-      </location>
-      <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
-      </language>
-   </mods>
-   <mods>
-      <titleInfo>
-         <title xml:lang="">في رياض الشعر: الحب المكتوم</title>
-      </titleInfo>
-      <typeOfResource>text</typeOfResource>
-      <genre authority="local" xml:lang="en">journalArticle</genre>
-      <genre authority="marcgt" xml:lang="en">article</genre>
-      <relatedItem type="host">
-         <titleInfo>
-            <title xml:lang="ar">الزهور</title>
-            <title xml:lang="ar">مجلة أدبية فنية علمية</title>
-         </titleInfo>
-         <genre authority="marcgt">journal</genre>
-         <name type="personal"
-               xml:lang="ar"
-               authority="viaf"
-               valueURI="https://viaf.org/viaf/305214858">
-            <namePart type="family" xml:lang="ar">الجميل</namePart>
-            <namePart type="given" xml:lang="ar">أنطوان</namePart>
-            <role>
-               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
-            </role>
-         </name>
-         <originInfo>
-            <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
-            </place>
-                                    <publisher xml:lang="ar">مطبعة المعارف</publisher>
-                                    <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
-                                <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
-            <issuance>continuing</issuance>
-         </originInfo>
-         <part>
-            <detail type="volume">
-               <number>2</number>
-            </detail>
-            <detail type="issue">
-               <number>4</number>
-            </detail>
-            <extent unit="pages">
-               <start>190</start>
-               <end>190</end>
-            </extent>
-         </part>
-         <identifier type="BibTeX">oclc_1034545644-i_15-div_1.d2e1293</identifier>
-         <identifier type="oape">3</identifier>
-         <identifier type="jid">40</identifier>
-         <identifier type="OCLC">1034545644</identifier>
-         <identifier type="URI">http://waqfeya.com/book.php?bid=6507</identifier>
-         <identifier type="URI">http://shamela.ws/index.php/book/36534</identifier>
-         <identifier type="URI">oclc_1034545644-i_15</identifier>
-      </relatedItem>
-      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
-      <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_15.TEIP5.xml#div_1.d2e1293</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_15.TEIP5.xml#div_1.d2e1293</url>
-      </location>
-      <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
-      </language>
-   </mods>
-   <mods>
-      <titleInfo>
-         <title xml:lang="">في رياض الشعر: أحمد نسيم المراسلات السامية</title>
-      </titleInfo>
-      <typeOfResource>text</typeOfResource>
-      <genre authority="local" xml:lang="en">journalArticle</genre>
-      <genre authority="marcgt" xml:lang="en">article</genre>
-      <relatedItem type="host">
-         <titleInfo>
-            <title xml:lang="ar">الزهور</title>
-            <title xml:lang="ar">مجلة أدبية فنية علمية</title>
-         </titleInfo>
-         <genre authority="marcgt">journal</genre>
-         <name type="personal"
-               xml:lang="ar"
-               authority="viaf"
-               valueURI="https://viaf.org/viaf/305214858">
-            <namePart type="family" xml:lang="ar">الجميل</namePart>
-            <namePart type="given" xml:lang="ar">أنطوان</namePart>
-            <role>
-               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
-            </role>
-         </name>
-         <originInfo>
-            <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          authority="geonames"
-                          valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
-            </place>
-                                    <publisher xml:lang="ar">مطبعة المعارف</publisher>
-                                    <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
-                                <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
-            <issuance>continuing</issuance>
-         </originInfo>
-         <part>
-            <detail type="volume">
-               <number>2</number>
-            </detail>
-            <detail type="issue">
-               <number>4</number>
-            </detail>
-            <extent unit="pages">
-               <start>190</start>
-               <end>194</end>
-            </extent>
-         </part>
-         <identifier type="BibTeX">oclc_1034545644-i_15-div_1.d2e1358</identifier>
-         <identifier type="oape">3</identifier>
-         <identifier type="jid">40</identifier>
-         <identifier type="OCLC">1034545644</identifier>
-         <identifier type="URI">http://waqfeya.com/book.php?bid=6507</identifier>
-         <identifier type="URI">http://shamela.ws/index.php/book/36534</identifier>
-         <identifier type="URI">oclc_1034545644-i_15</identifier>
-      </relatedItem>
-      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
-      <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_15.TEIP5.xml#div_1.d2e1358</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_15.TEIP5.xml#div_1.d2e1358</url>
-      </location>
-      <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
-      </language>
-   </mods>
-   <mods>
-      <titleInfo>
          <title xml:lang="ar">رسائل غرام بين نساء شهيرات ورجال عظام</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
@@ -983,12 +585,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">الزهور</title>
-            <title xml:lang="ar">مجلة أدبية فنية علمية</title>
+            <subTitle xml:lang="ar">مجلة أدبية فنية علمية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
             <namePart type="given" xml:lang="ar">أنطوان</namePart>
@@ -1000,12 +601,11 @@
             <place>
                <placeTerm type="text"
                           xml:lang="ar"
-                          authority="geonames"
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
-                                    <publisher xml:lang="ar">مطبعة المعارف</publisher>
-                                    <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
-                                <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
+            <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -1045,10 +645,7 @@
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
-      <name type="personal"
-            xml:lang="ar"
-            authority="oape"
-            valueURI="oape:pers:1136">
+      <name type="personal" xml:lang="ar" valueURI="oape:pers:1136">
          <namePart>أمين</namePart>
          <role>
             <roleTerm authority="marcrelator" type="code">aut</roleTerm>
@@ -1057,12 +654,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">الزهور</title>
-            <title xml:lang="ar">مجلة أدبية فنية علمية</title>
+            <subTitle xml:lang="ar">مجلة أدبية فنية علمية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
             <namePart type="given" xml:lang="ar">أنطوان</namePart>
@@ -1074,12 +670,11 @@
             <place>
                <placeTerm type="text"
                           xml:lang="ar"
-                          authority="geonames"
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
-                                    <publisher xml:lang="ar">مطبعة المعارف</publisher>
-                                    <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
-                                <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
+            <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -1119,10 +714,7 @@
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
-      <name type="personal"
-            xml:lang="ar"
-            authority="oape"
-            valueURI="oape:pers:1734">
+      <name type="personal" xml:lang="ar" valueURI="oape:pers:1734">
          <namePart>رشيد نخلة</namePart>
          <role>
             <roleTerm authority="marcrelator" type="code">aut</roleTerm>
@@ -1131,12 +723,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">الزهور</title>
-            <title xml:lang="ar">مجلة أدبية فنية علمية</title>
+            <subTitle xml:lang="ar">مجلة أدبية فنية علمية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
             <namePart type="given" xml:lang="ar">أنطوان</namePart>
@@ -1148,12 +739,11 @@
             <place>
                <placeTerm type="text"
                           xml:lang="ar"
-                          authority="geonames"
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
-                                    <publisher xml:lang="ar">مطبعة المعارف</publisher>
-                                    <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
-                                <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
+            <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -1193,10 +783,7 @@
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
-      <name type="personal"
-            xml:lang="ar"
-            authority="oape"
-            valueURI="oape:pers:1787">
+      <name type="personal" xml:lang="ar" valueURI="oape:pers:1787">
          <namePart>سامي الراسي</namePart>
          <role>
             <roleTerm authority="marcrelator" type="code">aut</roleTerm>
@@ -1205,12 +792,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">الزهور</title>
-            <title xml:lang="ar">مجلة أدبية فنية علمية</title>
+            <subTitle xml:lang="ar">مجلة أدبية فنية علمية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
             <namePart type="given" xml:lang="ar">أنطوان</namePart>
@@ -1222,12 +808,11 @@
             <place>
                <placeTerm type="text"
                           xml:lang="ar"
-                          authority="geonames"
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
-                                    <publisher xml:lang="ar">مطبعة المعارف</publisher>
-                                    <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
-                                <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
+            <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -1270,12 +855,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">الزهور</title>
-            <title xml:lang="ar">مجلة أدبية فنية علمية</title>
+            <subTitle xml:lang="ar">مجلة أدبية فنية علمية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
             <namePart type="given" xml:lang="ar">أنطوان</namePart>
@@ -1287,12 +871,11 @@
             <place>
                <placeTerm type="text"
                           xml:lang="ar"
-                          authority="geonames"
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
-                                    <publisher xml:lang="ar">مطبعة المعارف</publisher>
-                                    <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
-                                <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
+            <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -1335,12 +918,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">الزهور</title>
-            <title xml:lang="ar">مجلة أدبية فنية علمية</title>
+            <subTitle xml:lang="ar">مجلة أدبية فنية علمية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
             <namePart type="given" xml:lang="ar">أنطوان</namePart>
@@ -1352,12 +934,11 @@
             <place>
                <placeTerm type="text"
                           xml:lang="ar"
-                          authority="geonames"
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
-                                    <publisher xml:lang="ar">مطبعة المعارف</publisher>
-                                    <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
-                                <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
+            <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -1400,12 +981,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">الزهور</title>
-            <title xml:lang="ar">مجلة أدبية فنية علمية</title>
+            <subTitle xml:lang="ar">مجلة أدبية فنية علمية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
             <namePart type="given" xml:lang="ar">أنطوان</namePart>
@@ -1417,12 +997,11 @@
             <place>
                <placeTerm type="text"
                           xml:lang="ar"
-                          authority="geonames"
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
-                                    <publisher xml:lang="ar">مطبعة المعارف</publisher>
-                                    <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
-                                <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
+            <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -1465,12 +1044,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">الزهور</title>
-            <title xml:lang="ar">مجلة أدبية فنية علمية</title>
+            <subTitle xml:lang="ar">مجلة أدبية فنية علمية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
             <namePart type="given" xml:lang="ar">أنطوان</namePart>
@@ -1482,12 +1060,11 @@
             <place>
                <placeTerm type="text"
                           xml:lang="ar"
-                          authority="geonames"
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
-                                    <publisher xml:lang="ar">مطبعة المعارف</publisher>
-                                    <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
-                                <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
+            <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -1530,12 +1107,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">الزهور</title>
-            <title xml:lang="ar">مجلة أدبية فنية علمية</title>
+            <subTitle xml:lang="ar">مجلة أدبية فنية علمية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
             <namePart type="given" xml:lang="ar">أنطوان</namePart>
@@ -1547,12 +1123,11 @@
             <place>
                <placeTerm type="text"
                           xml:lang="ar"
-                          authority="geonames"
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
-                                    <publisher xml:lang="ar">مطبعة المعارف</publisher>
-                                    <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
-                                <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
+            <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -1595,12 +1170,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">الزهور</title>
-            <title xml:lang="ar">مجلة أدبية فنية علمية</title>
+            <subTitle xml:lang="ar">مجلة أدبية فنية علمية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
             <namePart type="given" xml:lang="ar">أنطوان</namePart>
@@ -1612,12 +1186,11 @@
             <place>
                <placeTerm type="text"
                           xml:lang="ar"
-                          authority="geonames"
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
-                                    <publisher xml:lang="ar">مطبعة المعارف</publisher>
-                                    <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
-                                <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
+            <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -1660,12 +1233,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">الزهور</title>
-            <title xml:lang="ar">مجلة أدبية فنية علمية</title>
+            <subTitle xml:lang="ar">مجلة أدبية فنية علمية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
             <namePart type="given" xml:lang="ar">أنطوان</namePart>
@@ -1677,12 +1249,11 @@
             <place>
                <placeTerm type="text"
                           xml:lang="ar"
-                          authority="geonames"
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
-                                    <publisher xml:lang="ar">مطبعة المعارف</publisher>
-                                    <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
-                                <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
+            <dateIssued encoding="w3cdtf">1911-06-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>

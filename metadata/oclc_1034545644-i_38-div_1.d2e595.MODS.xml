@@ -18,12 +18,11 @@
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">الزهور</title>
-            <title xml:lang="ar">مجلة أدبية فنية علمية</title>
+            <subTitle xml:lang="ar">مجلة أدبية فنية علمية</subTitle>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
             <namePart type="given" xml:lang="ar">أنطوان</namePart>
@@ -35,12 +34,11 @@
             <place>
                <placeTerm type="text"
                           xml:lang="ar"
-                          authority="geonames"
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
-                                    <publisher xml:lang="ar">مطبعة المعارف</publisher>
-                                    <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
-                                <dateIssued encoding="w3cdtf">1913-11-01</dateIssued>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
+            <dateIssued encoding="w3cdtf">1913-11-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
