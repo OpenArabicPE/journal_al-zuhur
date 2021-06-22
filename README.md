@@ -48,7 +48,8 @@ If you just want to browse the edition in a more human-readable view, start [her
         + articles commence with a short string followed by a hyphen in the first paragraph
 2. mark-up toponyms in bylines
 3. heads: multi-line heads are currently commonly only catching the first line
-4. mastheads
+4. **done** mastheads
+5. mark-up bibliographic references in the section "ثمرات المطابع"
 
 
 [sakhrit]: http://archive.alsharekh.org/newmagazineYears/40
