@@ -540,6 +540,12 @@
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart>نقولاكي عبد المسيح شكري</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+         </role>
+      </name>
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">الزهور</title>
@@ -575,7 +581,7 @@
             </detail>
             <extent unit="pages">
                <start>370</start>
-               <end>374</end>
+               <end>373</end>
             </extent>
          </part>
          <identifier type="BibTeX">oclc_1034545644-i_38-div_1.d2e1663</identifier>
@@ -598,7 +604,7 @@
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="ar">في حدائق العرب ظهر في الشهر الغابر كتابٌ عنوانه حديقة الزهر وضعهُ باللغة الفرنسية حضرة الأديب واصف بك بطرس غالي , ضمنهُ بحثاً شائقاً في الشعر العربي وأنواعهِ وأساليبهِ , مع ترجمة مقطوعاتٍ شعرية منهُ. فقابل الفرنجُ هذا الكتاب بالارتياح لأنَّهُ عرَّفهم بشاعرية قومٍ لهم في عالم الخيال المقام الأرفع. ومن جملة ما ترجمهُ واصف بك الحادثة الآتية نرويها لقرّائنا في أصلها العربي , لما فيها من بلاغة الوصف وجمال الأسلوب:</title>
+         <title xml:lang="ar">في حدائق العرب</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
