@@ -22,7 +22,7 @@
                xml:lang="ar"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
-            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <namePart type="given" xml:lang="ar">انطوان</namePart>
             <role>
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
@@ -75,8 +75,9 @@
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
-      <name type="personal" xml:lang="ar">
-         <namePart>إلياس الحويك</namePart>
+      <name type="personal" xml:lang="ar" valueURI="oape:pers:5019">
+         <namePart type="family" xml:lang="ar">الحويك</namePart>
+         <namePart type="given" xml:lang="ar">الياس</namePart>
          <role>
             <roleTerm authority="marcrelator" type="code">aut</roleTerm>
          </role>
@@ -91,7 +92,7 @@
                xml:lang="ar"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
-            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <namePart type="given" xml:lang="ar">انطوان</namePart>
             <role>
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
@@ -160,7 +161,7 @@
                xml:lang="ar"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
-            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <namePart type="given" xml:lang="ar">انطوان</namePart>
             <role>
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
@@ -223,7 +224,7 @@
                xml:lang="ar"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
-            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <namePart type="given" xml:lang="ar">انطوان</namePart>
             <role>
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
@@ -286,7 +287,7 @@
                xml:lang="ar"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
-            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <namePart type="given" xml:lang="ar">انطوان</namePart>
             <role>
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
@@ -340,7 +341,7 @@
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
       <name type="personal" xml:lang="ar" valueURI="oape:pers:1831">
-         <namePart>سليم عبد الأحد</namePart>
+         <namePart>سليمعبد الاحد</namePart>
          <role>
             <roleTerm authority="marcrelator" type="code">aut</roleTerm>
          </role>
@@ -355,7 +356,7 @@
                xml:lang="ar"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
-            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <namePart type="given" xml:lang="ar">انطوان</namePart>
             <role>
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
@@ -409,7 +410,7 @@
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
       <name type="personal" xml:lang="ar" valueURI="oape:pers:1608">
-         <namePart>حلمي المصري</namePart>
+         <namePart>حلميالمصري</namePart>
          <role>
             <roleTerm authority="marcrelator" type="code">aut</roleTerm>
          </role>
@@ -424,7 +425,7 @@
                xml:lang="ar"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
-            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <namePart type="given" xml:lang="ar">انطوان</namePart>
             <role>
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
@@ -486,32 +487,38 @@
             <roleTerm authority="marcrelator" type="code">aut</roleTerm>
          </role>
       </name>
-      <name type="personal" xml:lang="ar" valueURI="oape:pers:1885">
-         <namePart>شبلي ملاط</namePart>
+      <name type="personal"
+            xml:lang="ar"
+            valueURI="https://viaf.org/viaf/60135237">
+         <namePart type="family" xml:lang="ar">ملاط</namePart>
+         <namePart type="given" xml:lang="ar">شبلي</namePart>
          <role>
             <roleTerm authority="marcrelator" type="code">aut</roleTerm>
          </role>
       </name>
-      <name type="personal" xml:lang="ar">
+      <name type="personal" xml:lang="ar" valueURI="oape:pers:2704">
          <namePart>وليم غرزوزي</namePart>
          <role>
             <roleTerm authority="marcrelator" type="code">aut</roleTerm>
          </role>
       </name>
-      <name type="personal" xml:lang="ar">
-         <namePart>أمين ناصر الدين</namePart>
+      <name type="personal"
+            xml:lang="ar"
+            valueURI="https://viaf.org/viaf/8827545">
+         <namePart>امينناصر الدين</namePart>
          <role>
             <roleTerm authority="marcrelator" type="code">aut</roleTerm>
          </role>
       </name>
-      <name type="personal" xml:lang="ar">
-         <namePart>إبراهيم العرب</namePart>
+      <name type="personal" xml:lang="ar" valueURI="oape:pers:1186">
+         <namePart type="family" xml:lang="ar">العرب</namePart>
+         <namePart type="given" xml:lang="ar">ابراهيم</namePart>
          <role>
             <roleTerm authority="marcrelator" type="code">aut</roleTerm>
          </role>
       </name>
       <name type="personal" xml:lang="ar" valueURI="oape:pers:1971">
-         <namePart>عبد الحليم المصري</namePart>
+         <namePart>عبد الحليمالمصري</namePart>
          <role>
             <roleTerm authority="marcrelator" type="code">aut</roleTerm>
          </role>
@@ -526,7 +533,7 @@
                xml:lang="ar"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
-            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <namePart type="given" xml:lang="ar">انطوان</namePart>
             <role>
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
@@ -595,7 +602,7 @@
                xml:lang="ar"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
-            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <namePart type="given" xml:lang="ar">انطوان</namePart>
             <role>
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
@@ -648,7 +655,7 @@
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
-      <name type="personal" xml:lang="ar">
+      <name type="personal" xml:lang="ar" valueURI="oape:pers:6714">
          <namePart>توفيق جريديني</namePart>
          <role>
             <roleTerm authority="marcrelator" type="code">aut</roleTerm>
@@ -664,7 +671,7 @@
                xml:lang="ar"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
-            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <namePart type="given" xml:lang="ar">انطوان</namePart>
             <role>
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
@@ -727,7 +734,7 @@
                xml:lang="ar"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
-            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <namePart type="given" xml:lang="ar">انطوان</namePart>
             <role>
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
@@ -790,7 +797,7 @@
                xml:lang="ar"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
-            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <namePart type="given" xml:lang="ar">انطوان</namePart>
             <role>
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
@@ -853,7 +860,7 @@
                xml:lang="ar"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
-            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <namePart type="given" xml:lang="ar">انطوان</namePart>
             <role>
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
@@ -916,7 +923,7 @@
                xml:lang="ar"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
-            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <namePart type="given" xml:lang="ar">انطوان</namePart>
             <role>
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
