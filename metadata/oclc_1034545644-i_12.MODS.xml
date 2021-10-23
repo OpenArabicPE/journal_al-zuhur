@@ -70,13 +70,17 @@
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="ar">إيماءة زائر</title>
+         <title xml:lang="ar">إيماءة زائر إلى بعض ما بأورشليم وبيت لحم من الصدقات الجاريان والمآثر الباقيات</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
-      <name type="personal" xml:lang="ar" valueURI="oape:pers:1801">
-         <namePart>سعيد الخوري الشرنوني</namePart>
+      <name type="personal"
+            xml:lang="ar"
+            valueURI="https://viaf.org/viaf/96962923">
+         <namePart type="family" xml:lang="ar">الخوري</namePart>
+         <namePart type="family" xml:lang="ar">الشرتوني</namePart>
+         <namePart type="given" xml:lang="ar">سعيد</namePart>
          <role>
             <roleTerm authority="marcrelator" type="code">aut</roleTerm>
          </role>
@@ -116,7 +120,7 @@
             </detail>
             <extent unit="pages">
                <start>7</start>
-               <end>12</end>
+               <end>11</end>
             </extent>
          </part>
          <identifier type="BibTeX">oclc_1034545644-i_12-div_1.d2e346</identifier>
@@ -946,7 +950,8 @@
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
       <name type="personal" xml:lang="ar" valueURI="oape:pers:6708">
-         <namePart>أدما كيرلس</namePart>
+         <namePart type="family" xml:lang="ar">كيرلس</namePart>
+         <namePart type="given" xml:lang="ar">ادما</namePart>
          <role>
             <roleTerm authority="marcrelator" type="code">aut</roleTerm>
          </role>

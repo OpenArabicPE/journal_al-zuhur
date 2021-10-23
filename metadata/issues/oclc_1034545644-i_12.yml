@@ -18,18 +18,21 @@
   type: 
   issued: '1911-03-01'
 - id: 'oclc_1034545644-i_12-div_1.d2e346'
-  title: ' إيماءة زائر'
+  title: ' إيماءة زائر إلى بعض ما بأورشليم وبيت لحم من الصدقات الجاريان والمآثر الباقيات'
   container-title: 'الزهور: مجلة أدبية فنية علمية'
   volume: '2'
   issue: '1'
-  page: '7-12'
+  page: '7-11'
   URL: 
   - 'https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_12.TEIP5.xml#div_1.d2e346'
   - 'https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_12.TEIP5.xml#div_1.d2e346'
   OCLC: 
   - '1034545644'
   author: 
-  - 'سعيدالخوريالشرنوني'
+  - family: 'الخوري'
+family: 'الشرتوني'
+    given: 'سعيد'
+
   editor: 
   - family: 'الجميل'
     given: 'انطوان'
@@ -286,7 +289,9 @@
   OCLC: 
   - '1034545644'
   author: 
-  - 'أدما كيرلس'
+  - family: 'كيرلس'
+    given: 'ادما'
+
   editor: 
   - family: 'الجميل'
     given: 'انطوان'
