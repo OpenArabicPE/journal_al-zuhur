@@ -13,55 +13,6 @@
          xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
          xmlns:link="http://purl.org/rss/1.0/modules/link/"
          xmlns:oape="https://openarabicpe.github.io/ns">
-   <bib:Article rdf:about="#TEI_1.d2e5-div_1.d2e243">
-      <z:itemType>magazineArticle</z:itemType>
-      <dcterms:isPartOf>
-         <bib:Periodical>
-            <prism:volume>1</prism:volume>
-            <prism:number>1</prism:number>
-            <dc:title>الزهور</dc:title>
-            <dc:title>مجلة أدبية فنية علمية</dc:title>
-         </bib:Periodical>
-      </dcterms:isPartOf>
-      <dc:title/>
-      <z:shortTitle/>
-      <bib:authors>
-         <rdf:Seq/>
-      </bib:authors>
-      <bib:editors>
-         <rdf:Seq>
-            <rdf:li>
-               <foaf:Person>
-                  <foaf:surname>الجميل</foaf:surname>
-                  <foaf:givenName>أنطوان</foaf:givenName>
-               </foaf:Person>
-            </rdf:li>
-         </rdf:Seq>
-      </bib:editors>
-      <dc:publisher>
-         <foaf:Organization>
-            <vcard:adr>
-               <vcard:Address>
-                  <vcard:locality>القاهرة</vcard:locality>
-               </vcard:Address>
-            </vcard:adr>
-            <foaf:name>مطبعة المعارف</foaf:name>
-         </foaf:Organization>
-      </dc:publisher>
-      <dc:identifier>
-         <dcterms:URI>
-            <rdf:value>#div_1.d2e243</rdf:value>
-         </dcterms:URI>
-      </dc:identifier>
-      <bib:pages/>
-      <dc:date>1910-03-01</dc:date>
-      <dc:description>Citation Key: TEI_1.d2e5-div_1.d2e243
-oclc: 1034545644
-place: القاهرة
-publisher: مطبعة المعارف
-</dc:description>
-      <z:language>ar</z:language>
-   </bib:Article>
    <bib:Article rdf:about="#TEI_1.d2e5-div_2.d2e248">
       <z:itemType>magazineArticle</z:itemType>
       <dcterms:isPartOf>
@@ -105,13 +56,14 @@ publisher: مطبعة المعارف
       <bib:pages/>
       <dc:date>1910-03-01</dc:date>
       <dc:description>Citation Key: TEI_1.d2e5-div_2.d2e248
+BibTeX Cite Key: TEI_1.d2e5-div_2.d2e248
 oclc: 1034545644
 place: القاهرة
 publisher: مطبعة المعارف
 </dc:description>
       <z:language>ar</z:language>
    </bib:Article>
-   <bib:Article rdf:about="#TEI_1.d2e5-div_3.d2e279">
+   <bib:Article rdf:about="#TEI_1.d2e5-div_2.d2e282">
       <z:itemType>magazineArticle</z:itemType>
       <dcterms:isPartOf>
          <bib:Periodical>
@@ -121,8 +73,8 @@ publisher: مطبعة المعارف
             <dc:title>مجلة أدبية فنية علمية</dc:title>
          </bib:Periodical>
       </dcterms:isPartOf>
-      <dc:title>أنطون الجميل</dc:title>
-      <z:shortTitle>أنطون الجميل</z:shortTitle>
+      <dc:title>أَنْطُون الْجُمَيِّل (1887 ـ 1948)</dc:title>
+      <z:shortTitle>أَنْطُون الْجُمَيِّل (1887 ـ 1948)</z:shortTitle>
       <bib:authors>
          <rdf:Seq/>
       </bib:authors>
@@ -148,61 +100,13 @@ publisher: مطبعة المعارف
       </dc:publisher>
       <dc:identifier>
          <dcterms:URI>
-            <rdf:value>#div_3.d2e279</rdf:value>
+            <rdf:value>#div_2.d2e282</rdf:value>
          </dcterms:URI>
       </dc:identifier>
       <bib:pages/>
       <dc:date>1910-03-01</dc:date>
-      <dc:description>Citation Key: TEI_1.d2e5-div_3.d2e279
-oclc: 1034545644
-place: القاهرة
-publisher: مطبعة المعارف
-</dc:description>
-      <z:language>ar</z:language>
-   </bib:Article>
-   <bib:Article rdf:about="#TEI_1.d2e5-div_4.d2e285">
-      <z:itemType>magazineArticle</z:itemType>
-      <dcterms:isPartOf>
-         <bib:Periodical>
-            <prism:volume>1</prism:volume>
-            <prism:number>1</prism:number>
-            <dc:title>الزهور</dc:title>
-            <dc:title>مجلة أدبية فنية علمية</dc:title>
-         </bib:Periodical>
-      </dcterms:isPartOf>
-      <dc:title>أمين تقي الدين</dc:title>
-      <z:shortTitle>أمين تقي الدين</z:shortTitle>
-      <bib:authors>
-         <rdf:Seq/>
-      </bib:authors>
-      <bib:editors>
-         <rdf:Seq>
-            <rdf:li>
-               <foaf:Person>
-                  <foaf:surname>الجميل</foaf:surname>
-                  <foaf:givenName>أنطوان</foaf:givenName>
-               </foaf:Person>
-            </rdf:li>
-         </rdf:Seq>
-      </bib:editors>
-      <dc:publisher>
-         <foaf:Organization>
-            <vcard:adr>
-               <vcard:Address>
-                  <vcard:locality>القاهرة</vcard:locality>
-               </vcard:Address>
-            </vcard:adr>
-            <foaf:name>مطبعة المعارف</foaf:name>
-         </foaf:Organization>
-      </dc:publisher>
-      <dc:identifier>
-         <dcterms:URI>
-            <rdf:value>#div_4.d2e285</rdf:value>
-         </dcterms:URI>
-      </dc:identifier>
-      <bib:pages/>
-      <dc:date>1910-03-01</dc:date>
-      <dc:description>Citation Key: TEI_1.d2e5-div_4.d2e285
+      <dc:description>Citation Key: TEI_1.d2e5-div_2.d2e282
+BibTeX Cite Key: TEI_1.d2e5-div_2.d2e282
 oclc: 1034545644
 place: القاهرة
 publisher: مطبعة المعارف
@@ -219,10 +123,16 @@ publisher: مطبعة المعارف
             <dc:title>مجلة أدبية فنية علمية</dc:title>
          </bib:Periodical>
       </dcterms:isPartOf>
-      <dc:title>أمين تقي الدين</dc:title>
-      <z:shortTitle>أمين تقي الدين</z:shortTitle>
+      <dc:title>أمين تقي الدين الشاعر الكبير والناثر المبدع</dc:title>
+      <z:shortTitle>أمين تقي الدين الشاعر الكبير</z:shortTitle>
       <bib:authors>
-         <rdf:Seq/>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>وفيق غريزي</foaf:surname>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
       </bib:authors>
       <bib:editors>
          <rdf:Seq>
@@ -252,251 +162,7 @@ publisher: مطبعة المعارف
       <bib:pages/>
       <dc:date>1910-03-01</dc:date>
       <dc:description>Citation Key: TEI_1.d2e5-div_5.d2e386
-oclc: 1034545644
-place: القاهرة
-publisher: مطبعة المعارف
-</dc:description>
-      <z:language>ar</z:language>
-   </bib:Article>
-   <bib:Article rdf:about="#TEI_1.d2e5-div_6.d2e404">
-      <z:itemType>magazineArticle</z:itemType>
-      <dcterms:isPartOf>
-         <bib:Periodical>
-            <prism:volume>1</prism:volume>
-            <prism:number>1</prism:number>
-            <dc:title>الزهور</dc:title>
-            <dc:title>مجلة أدبية فنية علمية</dc:title>
-         </bib:Periodical>
-      </dcterms:isPartOf>
-      <dc:title>نشأته وحياته</dc:title>
-      <z:shortTitle>نشأته وحياته</z:shortTitle>
-      <bib:authors>
-         <rdf:Seq/>
-      </bib:authors>
-      <bib:editors>
-         <rdf:Seq>
-            <rdf:li>
-               <foaf:Person>
-                  <foaf:surname>الجميل</foaf:surname>
-                  <foaf:givenName>أنطوان</foaf:givenName>
-               </foaf:Person>
-            </rdf:li>
-         </rdf:Seq>
-      </bib:editors>
-      <dc:publisher>
-         <foaf:Organization>
-            <vcard:adr>
-               <vcard:Address>
-                  <vcard:locality>القاهرة</vcard:locality>
-               </vcard:Address>
-            </vcard:adr>
-            <foaf:name>مطبعة المعارف</foaf:name>
-         </foaf:Organization>
-      </dc:publisher>
-      <dc:identifier>
-         <dcterms:URI>
-            <rdf:value>#div_6.d2e404</rdf:value>
-         </dcterms:URI>
-      </dc:identifier>
-      <bib:pages/>
-      <dc:date>1910-03-01</dc:date>
-      <dc:description>Citation Key: TEI_1.d2e5-div_6.d2e404
-oclc: 1034545644
-place: القاهرة
-publisher: مطبعة المعارف
-</dc:description>
-      <z:language>ar</z:language>
-   </bib:Article>
-   <bib:Article rdf:about="#TEI_1.d2e5-div_7.d2e420">
-      <z:itemType>magazineArticle</z:itemType>
-      <dcterms:isPartOf>
-         <bib:Periodical>
-            <prism:volume>1</prism:volume>
-            <prism:number>1</prism:number>
-            <dc:title>الزهور</dc:title>
-            <dc:title>مجلة أدبية فنية علمية</dc:title>
-         </bib:Periodical>
-      </dcterms:isPartOf>
-      <dc:title>مجلة «الزهور»</dc:title>
-      <z:shortTitle>مجلة «الزهور»</z:shortTitle>
-      <bib:authors>
-         <rdf:Seq/>
-      </bib:authors>
-      <bib:editors>
-         <rdf:Seq>
-            <rdf:li>
-               <foaf:Person>
-                  <foaf:surname>الجميل</foaf:surname>
-                  <foaf:givenName>أنطوان</foaf:givenName>
-               </foaf:Person>
-            </rdf:li>
-         </rdf:Seq>
-      </bib:editors>
-      <dc:publisher>
-         <foaf:Organization>
-            <vcard:adr>
-               <vcard:Address>
-                  <vcard:locality>القاهرة</vcard:locality>
-               </vcard:Address>
-            </vcard:adr>
-            <foaf:name>مطبعة المعارف</foaf:name>
-         </foaf:Organization>
-      </dc:publisher>
-      <dc:identifier>
-         <dcterms:URI>
-            <rdf:value>#div_7.d2e420</rdf:value>
-         </dcterms:URI>
-      </dc:identifier>
-      <bib:pages/>
-      <dc:date>1910-03-01</dc:date>
-      <dc:description>Citation Key: TEI_1.d2e5-div_7.d2e420
-oclc: 1034545644
-place: القاهرة
-publisher: مطبعة المعارف
-</dc:description>
-      <z:language>ar</z:language>
-   </bib:Article>
-   <bib:Article rdf:about="#TEI_1.d2e5-div_8.d2e491">
-      <z:itemType>magazineArticle</z:itemType>
-      <dcterms:isPartOf>
-         <bib:Periodical>
-            <prism:volume>1</prism:volume>
-            <prism:number>1</prism:number>
-            <dc:title>الزهور</dc:title>
-            <dc:title>مجلة أدبية فنية علمية</dc:title>
-         </bib:Periodical>
-      </dcterms:isPartOf>
-      <dc:title>صفاته ومميزاته الشعرية</dc:title>
-      <z:shortTitle>صفاته ومميزاته الشعرية</z:shortTitle>
-      <bib:authors>
-         <rdf:Seq/>
-      </bib:authors>
-      <bib:editors>
-         <rdf:Seq>
-            <rdf:li>
-               <foaf:Person>
-                  <foaf:surname>الجميل</foaf:surname>
-                  <foaf:givenName>أنطوان</foaf:givenName>
-               </foaf:Person>
-            </rdf:li>
-         </rdf:Seq>
-      </bib:editors>
-      <dc:publisher>
-         <foaf:Organization>
-            <vcard:adr>
-               <vcard:Address>
-                  <vcard:locality>القاهرة</vcard:locality>
-               </vcard:Address>
-            </vcard:adr>
-            <foaf:name>مطبعة المعارف</foaf:name>
-         </foaf:Organization>
-      </dc:publisher>
-      <dc:identifier>
-         <dcterms:URI>
-            <rdf:value>#div_8.d2e491</rdf:value>
-         </dcterms:URI>
-      </dc:identifier>
-      <bib:pages/>
-      <dc:date>1910-03-01</dc:date>
-      <dc:description>Citation Key: TEI_1.d2e5-div_8.d2e491
-oclc: 1034545644
-place: القاهرة
-publisher: مطبعة المعارف
-</dc:description>
-      <z:language>ar</z:language>
-   </bib:Article>
-   <bib:Article rdf:about="#TEI_1.d2e5-div_9.d2e521">
-      <z:itemType>magazineArticle</z:itemType>
-      <dcterms:isPartOf>
-         <bib:Periodical>
-            <prism:volume>1</prism:volume>
-            <prism:number>1</prism:number>
-            <dc:title>الزهور</dc:title>
-            <dc:title>مجلة أدبية فنية علمية</dc:title>
-         </bib:Periodical>
-      </dcterms:isPartOf>
-      <dc:title>بين الوجدان .. والوطن</dc:title>
-      <z:shortTitle>بين الوجدان</z:shortTitle>
-      <bib:authors>
-         <rdf:Seq/>
-      </bib:authors>
-      <bib:editors>
-         <rdf:Seq>
-            <rdf:li>
-               <foaf:Person>
-                  <foaf:surname>الجميل</foaf:surname>
-                  <foaf:givenName>أنطوان</foaf:givenName>
-               </foaf:Person>
-            </rdf:li>
-         </rdf:Seq>
-      </bib:editors>
-      <dc:publisher>
-         <foaf:Organization>
-            <vcard:adr>
-               <vcard:Address>
-                  <vcard:locality>القاهرة</vcard:locality>
-               </vcard:Address>
-            </vcard:adr>
-            <foaf:name>مطبعة المعارف</foaf:name>
-         </foaf:Organization>
-      </dc:publisher>
-      <dc:identifier>
-         <dcterms:URI>
-            <rdf:value>#div_9.d2e521</rdf:value>
-         </dcterms:URI>
-      </dc:identifier>
-      <bib:pages/>
-      <dc:date>1910-03-01</dc:date>
-      <dc:description>Citation Key: TEI_1.d2e5-div_9.d2e521
-oclc: 1034545644
-place: القاهرة
-publisher: مطبعة المعارف
-</dc:description>
-      <z:language>ar</z:language>
-   </bib:Article>
-   <bib:Article rdf:about="#TEI_1.d2e5-div_10.d2e636">
-      <z:itemType>magazineArticle</z:itemType>
-      <dcterms:isPartOf>
-         <bib:Periodical>
-            <prism:volume>1</prism:volume>
-            <prism:number>1</prism:number>
-            <dc:title>الزهور</dc:title>
-            <dc:title>مجلة أدبية فنية علمية</dc:title>
-         </bib:Periodical>
-      </dcterms:isPartOf>
-      <dc:title>الشاعر في أقلام الآخرين</dc:title>
-      <z:shortTitle>الشاعر في أقلام الآخرين</z:shortTitle>
-      <bib:authors>
-         <rdf:Seq/>
-      </bib:authors>
-      <bib:editors>
-         <rdf:Seq>
-            <rdf:li>
-               <foaf:Person>
-                  <foaf:surname>الجميل</foaf:surname>
-                  <foaf:givenName>أنطوان</foaf:givenName>
-               </foaf:Person>
-            </rdf:li>
-         </rdf:Seq>
-      </bib:editors>
-      <dc:publisher>
-         <foaf:Organization>
-            <vcard:adr>
-               <vcard:Address>
-                  <vcard:locality>القاهرة</vcard:locality>
-               </vcard:Address>
-            </vcard:adr>
-            <foaf:name>مطبعة المعارف</foaf:name>
-         </foaf:Organization>
-      </dc:publisher>
-      <dc:identifier>
-         <dcterms:URI>
-            <rdf:value>#div_10.d2e636</rdf:value>
-         </dcterms:URI>
-      </dc:identifier>
-      <bib:pages/>
-      <dc:date>1910-03-01</dc:date>
-      <dc:description>Citation Key: TEI_1.d2e5-div_10.d2e636
+BibTeX Cite Key: TEI_1.d2e5-div_5.d2e386
 oclc: 1034545644
 place: القاهرة
 publisher: مطبعة المعارف
@@ -513,8 +179,8 @@ publisher: مطبعة المعارف
             <dc:title>مجلة أدبية فنية علمية</dc:title>
          </bib:Periodical>
       </dcterms:isPartOf>
-      <dc:title>مجلة الزهور</dc:title>
-      <z:shortTitle>مجلة الزهور</z:shortTitle>
+      <dc:title>مجلة الزهور (*)</dc:title>
+      <z:shortTitle>مجلة الزهور (*)</z:shortTitle>
       <bib:authors>
          <rdf:Seq/>
       </bib:authors>
@@ -546,153 +212,7 @@ publisher: مطبعة المعارف
       <bib:pages/>
       <dc:date>1910-03-01</dc:date>
       <dc:description>Citation Key: TEI_1.d2e5-div_11.d2e681
-oclc: 1034545644
-place: القاهرة
-publisher: مطبعة المعارف
-</dc:description>
-      <z:language>ar</z:language>
-   </bib:Article>
-   <bib:Article rdf:about="#TEI_1.d2e5-div_12.d2e795">
-      <z:itemType>magazineArticle</z:itemType>
-      <dcterms:isPartOf>
-         <bib:Periodical>
-            <prism:volume>1</prism:volume>
-            <prism:number>1</prism:number>
-            <dc:title>الزهور</dc:title>
-            <dc:title>مجلة أدبية فنية علمية</dc:title>
-         </bib:Periodical>
-      </dcterms:isPartOf>
-      <dc:title>أمين تقي الدين</dc:title>
-      <z:shortTitle>أمين تقي الدين</z:shortTitle>
-      <bib:authors>
-         <rdf:Seq/>
-      </bib:authors>
-      <bib:editors>
-         <rdf:Seq>
-            <rdf:li>
-               <foaf:Person>
-                  <foaf:surname>الجميل</foaf:surname>
-                  <foaf:givenName>أنطوان</foaf:givenName>
-               </foaf:Person>
-            </rdf:li>
-         </rdf:Seq>
-      </bib:editors>
-      <dc:publisher>
-         <foaf:Organization>
-            <vcard:adr>
-               <vcard:Address>
-                  <vcard:locality>القاهرة</vcard:locality>
-               </vcard:Address>
-            </vcard:adr>
-            <foaf:name>مطبعة المعارف</foaf:name>
-         </foaf:Organization>
-      </dc:publisher>
-      <dc:identifier>
-         <dcterms:URI>
-            <rdf:value>#div_12.d2e795</rdf:value>
-         </dcterms:URI>
-      </dc:identifier>
-      <bib:pages/>
-      <dc:date>1910-03-01</dc:date>
-      <dc:description>Citation Key: TEI_1.d2e5-div_12.d2e795
-oclc: 1034545644
-place: القاهرة
-publisher: مطبعة المعارف
-</dc:description>
-      <z:language>ar</z:language>
-   </bib:Article>
-   <bib:Article rdf:about="#TEI_1.d2e5-div_13.d2e806">
-      <z:itemType>magazineArticle</z:itemType>
-      <dcterms:isPartOf>
-         <bib:Periodical>
-            <prism:volume>1</prism:volume>
-            <prism:number>1</prism:number>
-            <dc:title>الزهور</dc:title>
-            <dc:title>مجلة أدبية فنية علمية</dc:title>
-         </bib:Periodical>
-      </dcterms:isPartOf>
-      <dc:title>أمين تقي الدين</dc:title>
-      <z:shortTitle>أمين تقي الدين</z:shortTitle>
-      <bib:authors>
-         <rdf:Seq/>
-      </bib:authors>
-      <bib:editors>
-         <rdf:Seq>
-            <rdf:li>
-               <foaf:Person>
-                  <foaf:surname>الجميل</foaf:surname>
-                  <foaf:givenName>أنطوان</foaf:givenName>
-               </foaf:Person>
-            </rdf:li>
-         </rdf:Seq>
-      </bib:editors>
-      <dc:publisher>
-         <foaf:Organization>
-            <vcard:adr>
-               <vcard:Address>
-                  <vcard:locality>القاهرة</vcard:locality>
-               </vcard:Address>
-            </vcard:adr>
-            <foaf:name>مطبعة المعارف</foaf:name>
-         </foaf:Organization>
-      </dc:publisher>
-      <dc:identifier>
-         <dcterms:URI>
-            <rdf:value>#div_13.d2e806</rdf:value>
-         </dcterms:URI>
-      </dc:identifier>
-      <bib:pages/>
-      <dc:date>1910-03-01</dc:date>
-      <dc:description>Citation Key: TEI_1.d2e5-div_13.d2e806
-oclc: 1034545644
-place: القاهرة
-publisher: مطبعة المعارف
-</dc:description>
-      <z:language>ar</z:language>
-   </bib:Article>
-   <bib:Article rdf:about="#TEI_1.d2e5-div_14.d2e815">
-      <z:itemType>magazineArticle</z:itemType>
-      <dcterms:isPartOf>
-         <bib:Periodical>
-            <prism:volume>1</prism:volume>
-            <prism:number>1</prism:number>
-            <dc:title>الزهور</dc:title>
-            <dc:title>مجلة أدبية فنية علمية</dc:title>
-         </bib:Periodical>
-      </dcterms:isPartOf>
-      <dc:title>أنطون الجميل</dc:title>
-      <z:shortTitle>أنطون الجميل</z:shortTitle>
-      <bib:authors>
-         <rdf:Seq/>
-      </bib:authors>
-      <bib:editors>
-         <rdf:Seq>
-            <rdf:li>
-               <foaf:Person>
-                  <foaf:surname>الجميل</foaf:surname>
-                  <foaf:givenName>أنطوان</foaf:givenName>
-               </foaf:Person>
-            </rdf:li>
-         </rdf:Seq>
-      </bib:editors>
-      <dc:publisher>
-         <foaf:Organization>
-            <vcard:adr>
-               <vcard:Address>
-                  <vcard:locality>القاهرة</vcard:locality>
-               </vcard:Address>
-            </vcard:adr>
-            <foaf:name>مطبعة المعارف</foaf:name>
-         </foaf:Organization>
-      </dc:publisher>
-      <dc:identifier>
-         <dcterms:URI>
-            <rdf:value>#div_14.d2e815</rdf:value>
-         </dcterms:URI>
-      </dc:identifier>
-      <bib:pages/>
-      <dc:date>1910-03-01</dc:date>
-      <dc:description>Citation Key: TEI_1.d2e5-div_14.d2e815
+BibTeX Cite Key: TEI_1.d2e5-div_11.d2e681
 oclc: 1034545644
 place: القاهرة
 publisher: مطبعة المعارف
@@ -742,6 +262,7 @@ publisher: مطبعة المعارف
       <bib:pages/>
       <dc:date>1910-03-01</dc:date>
       <dc:description>Citation Key: TEI_1.d2e5-div_15.d2e838
+BibTeX Cite Key: TEI_1.d2e5-div_15.d2e838
 oclc: 1034545644
 place: القاهرة
 publisher: مطبعة المعارف
@@ -791,6 +312,7 @@ publisher: مطبعة المعارف
       <bib:pages/>
       <dc:date>1910-03-01</dc:date>
       <dc:description>Citation Key: TEI_1.d2e5-div_16.d2e863
+BibTeX Cite Key: TEI_1.d2e5-div_16.d2e863
 oclc: 1034545644
 place: القاهرة
 publisher: مطبعة المعارف
@@ -840,6 +362,7 @@ publisher: مطبعة المعارف
       <bib:pages/>
       <dc:date>1910-03-01</dc:date>
       <dc:description>Citation Key: TEI_1.d2e5-div_17.d2e943
+BibTeX Cite Key: TEI_1.d2e5-div_17.d2e943
 oclc: 1034545644
 place: القاهرة
 publisher: مطبعة المعارف
@@ -889,6 +412,7 @@ publisher: مطبعة المعارف
       <bib:pages/>
       <dc:date>1910-03-01</dc:date>
       <dc:description>Citation Key: TEI_1.d2e5-div_18.d2e1085
+BibTeX Cite Key: TEI_1.d2e5-div_18.d2e1085
 oclc: 1034545644
 place: القاهرة
 publisher: مطبعة المعارف
@@ -938,6 +462,7 @@ publisher: مطبعة المعارف
       <bib:pages/>
       <dc:date>1910-03-01</dc:date>
       <dc:description>Citation Key: TEI_1.d2e5-div_19.d2e1448
+BibTeX Cite Key: TEI_1.d2e5-div_19.d2e1448
 oclc: 1034545644
 place: القاهرة
 publisher: مطبعة المعارف
@@ -987,6 +512,7 @@ publisher: مطبعة المعارف
       <bib:pages/>
       <dc:date>1910-03-01</dc:date>
       <dc:description>Citation Key: TEI_1.d2e5-div_20.d2e1527
+BibTeX Cite Key: TEI_1.d2e5-div_20.d2e1527
 oclc: 1034545644
 place: القاهرة
 publisher: مطبعة المعارف
@@ -1036,6 +562,7 @@ publisher: مطبعة المعارف
       <bib:pages/>
       <dc:date>1910-03-01</dc:date>
       <dc:description>Citation Key: TEI_1.d2e5-div_21.d2e1598
+BibTeX Cite Key: TEI_1.d2e5-div_21.d2e1598
 oclc: 1034545644
 place: القاهرة
 publisher: مطبعة المعارف
@@ -1085,6 +612,7 @@ publisher: مطبعة المعارف
       <bib:pages/>
       <dc:date>1910-03-01</dc:date>
       <dc:description>Citation Key: TEI_1.d2e5-div_22.d2e1610
+BibTeX Cite Key: TEI_1.d2e5-div_22.d2e1610
 oclc: 1034545644
 place: القاهرة
 publisher: مطبعة المعارف
@@ -1134,6 +662,7 @@ publisher: مطبعة المعارف
       <bib:pages/>
       <dc:date>1910-03-01</dc:date>
       <dc:description>Citation Key: TEI_1.d2e5-div_23.d2e1624
+BibTeX Cite Key: TEI_1.d2e5-div_23.d2e1624
 oclc: 1034545644
 place: القاهرة
 publisher: مطبعة المعارف

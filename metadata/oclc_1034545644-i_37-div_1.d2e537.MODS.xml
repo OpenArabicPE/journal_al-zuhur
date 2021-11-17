@@ -9,6 +9,12 @@
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart>مراد أبي نادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+         </role>
+      </name>
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">الزهور</title>
@@ -30,9 +36,9 @@
                           xml:lang="ar"
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
-                                    <publisher xml:lang="ar">مطبعة المعارف</publisher>
-                                    <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
-                                <dateIssued encoding="w3cdtf">1913-10-01</dateIssued>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
+            <dateIssued encoding="w3cdtf">1913-10-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
@@ -44,7 +50,7 @@
             </detail>
             <extent unit="pages">
                <start>300</start>
-               <end>303</end>
+               <end>302</end>
             </extent>
          </part>
          <identifier type="BibTeX">oclc_1034545644-i_37-div_1.d2e537</identifier>

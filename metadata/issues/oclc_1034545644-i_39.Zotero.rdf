@@ -370,26 +370,7 @@ publisher: مطبعة المعارف
       <dc:title>في رياض الشعر</dc:title>
       <z:shortTitle>في رياض الشعر</z:shortTitle>
       <bib:authors>
-         <rdf:Seq>
-            <rdf:li>
-               <foaf:Person>
-                  <foaf:surname>البستاني</foaf:surname>
-                  <foaf:givenName>عبد الله</foaf:givenName>
-               </foaf:Person>
-            </rdf:li>
-            <rdf:li>
-               <foaf:Person>
-                  <foaf:surname>مطران</foaf:surname>
-                  <foaf:givenName>خليل</foaf:givenName>
-               </foaf:Person>
-            </rdf:li>
-            <rdf:li>
-               <foaf:Person>
-                  <foaf:surname>يكن</foaf:surname>
-                  <foaf:givenName>ولي الدين</foaf:givenName>
-               </foaf:Person>
-            </rdf:li>
-         </rdf:Seq>
+         <rdf:Seq/>
       </bib:authors>
       <bib:editors>
          <rdf:Seq>
@@ -421,10 +402,361 @@ publisher: مطبعة المعارف
             <rdf:value>https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_39.TEIP5.xml#div_1.d2e916</rdf:value>
          </dcterms:URI>
       </dc:identifier>
-      <bib:pages>420-425</bib:pages>
+      <bib:pages>420-424</bib:pages>
       <dc:date>1913-12-01</dc:date>
       <dc:description>Citation Key: oclc_1034545644-i_39-div_1.d2e916
 BibTeX Cite Key: oclc_1034545644-i_39-div_1.d2e916
+oclc: 1034545644
+place: القاهرة
+publisher: مطبعة المعارف
+</dc:description>
+      <z:language>ar</z:language>
+   </bib:Article>
+   <bib:Article rdf:about="#oclc_1034545644-i_39-div_8.d2e1599">
+      <z:itemType>magazineArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:volume>4</prism:volume>
+            <prism:number>8</prism:number>
+            <dc:title>الزهور: مجلة أدبية فنية علمية</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>في رياض الشعر: البستاني الشاعر والبستاني الوزير</dc:title>
+      <z:shortTitle>في رياض الشعر</z:shortTitle>
+      <bib:authors>
+         <rdf:Seq/>
+      </bib:authors>
+      <bib:editors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>الجميل</foaf:surname>
+                  <foaf:givenName>انطوان</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:editors>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>القاهرة</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name>مطبعة المعارف</foaf:name>
+         </foaf:Organization>
+      </dc:publisher>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_39.TEIP5.xml#div_8.d2e1599</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_39.TEIP5.xml#div_8.d2e1599</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <bib:pages>420-422</bib:pages>
+      <dc:date>1913-12-01</dc:date>
+      <dc:description>Citation Key: oclc_1034545644-i_39-div_8.d2e1599
+BibTeX Cite Key: oclc_1034545644-i_39-div_8.d2e1599
+oclc: 1034545644
+place: القاهرة
+publisher: مطبعة المعارف
+</dc:description>
+      <z:language>ar</z:language>
+   </bib:Article>
+   <bib:Article rdf:about="#oclc_1034545644-i_39-div_10.d2e1979">
+      <z:itemType>magazineArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:volume>4</prism:volume>
+            <prism:number>8</prism:number>
+            <dc:title>الزهور: مجلة أدبية فنية علمية</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>في رياض الشعر: المشيب</dc:title>
+      <z:shortTitle>في رياض الشعر</z:shortTitle>
+      <bib:authors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>عبد الحميد الرافعي</foaf:surname>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:authors>
+      <bib:editors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>الجميل</foaf:surname>
+                  <foaf:givenName>انطوان</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:editors>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>القاهرة</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name>مطبعة المعارف</foaf:name>
+         </foaf:Organization>
+      </dc:publisher>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_39.TEIP5.xml#div_10.d2e1979</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_39.TEIP5.xml#div_10.d2e1979</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <bib:pages>422-423</bib:pages>
+      <dc:date>1913-12-01</dc:date>
+      <dc:description>Citation Key: oclc_1034545644-i_39-div_10.d2e1979
+BibTeX Cite Key: oclc_1034545644-i_39-div_10.d2e1979
+oclc: 1034545644
+place: القاهرة
+publisher: مطبعة المعارف
+</dc:description>
+      <z:language>ar</z:language>
+   </bib:Article>
+   <bib:Article rdf:about="#oclc_1034545644-i_39-div_11.d2e2228">
+      <z:itemType>magazineArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:volume>4</prism:volume>
+            <prism:number>8</prism:number>
+            <dc:title>الزهور: مجلة أدبية فنية علمية</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>في رياض الشعر: هل أنت في مصر</dc:title>
+      <z:shortTitle>في رياض الشعر</z:shortTitle>
+      <bib:authors>
+         <rdf:Seq/>
+      </bib:authors>
+      <bib:editors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>الجميل</foaf:surname>
+                  <foaf:givenName>انطوان</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:editors>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>القاهرة</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name>مطبعة المعارف</foaf:name>
+         </foaf:Organization>
+      </dc:publisher>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_39.TEIP5.xml#div_11.d2e2228</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_39.TEIP5.xml#div_11.d2e2228</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <bib:pages>423</bib:pages>
+      <dc:date>1913-12-01</dc:date>
+      <dc:description>Citation Key: oclc_1034545644-i_39-div_11.d2e2228
+BibTeX Cite Key: oclc_1034545644-i_39-div_11.d2e2228
+oclc: 1034545644
+place: القاهرة
+publisher: مطبعة المعارف
+</dc:description>
+      <z:language>ar</z:language>
+   </bib:Article>
+   <bib:Article rdf:about="#oclc_1034545644-i_39-div_12.d2e2283">
+      <z:itemType>magazineArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:volume>4</prism:volume>
+            <prism:number>8</prism:number>
+            <dc:title>الزهور: مجلة أدبية فنية علمية</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>في رياض الشعر: في قينة تُنشد</dc:title>
+      <z:shortTitle>في رياض الشعر</z:shortTitle>
+      <bib:authors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>مطران</foaf:surname>
+                  <foaf:givenName>خليل</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:authors>
+      <bib:editors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>الجميل</foaf:surname>
+                  <foaf:givenName>انطوان</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:editors>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>القاهرة</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name>مطبعة المعارف</foaf:name>
+         </foaf:Organization>
+      </dc:publisher>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_39.TEIP5.xml#div_12.d2e2283</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_39.TEIP5.xml#div_12.d2e2283</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <bib:pages>424</bib:pages>
+      <dc:date>1913-12-01</dc:date>
+      <dc:description>Citation Key: oclc_1034545644-i_39-div_12.d2e2283
+BibTeX Cite Key: oclc_1034545644-i_39-div_12.d2e2283
+oclc: 1034545644
+place: القاهرة
+publisher: مطبعة المعارف
+</dc:description>
+      <z:language>ar</z:language>
+   </bib:Article>
+   <bib:Article rdf:about="#oclc_1034545644-i_39-div_13.d2e2317">
+      <z:itemType>magazineArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:volume>4</prism:volume>
+            <prism:number>8</prism:number>
+            <dc:title>الزهور: مجلة أدبية فنية علمية</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>في رياض الشعر: أنتِ والدَّهرُ</dc:title>
+      <z:shortTitle>في رياض الشعر</z:shortTitle>
+      <bib:authors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>يكن</foaf:surname>
+                  <foaf:givenName>ولي الدين</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:authors>
+      <bib:editors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>الجميل</foaf:surname>
+                  <foaf:givenName>انطوان</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:editors>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>القاهرة</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name>مطبعة المعارف</foaf:name>
+         </foaf:Organization>
+      </dc:publisher>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_39.TEIP5.xml#div_13.d2e2317</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_39.TEIP5.xml#div_13.d2e2317</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <bib:pages>424</bib:pages>
+      <dc:date>1913-12-01</dc:date>
+      <dc:description>Citation Key: oclc_1034545644-i_39-div_13.d2e2317
+BibTeX Cite Key: oclc_1034545644-i_39-div_13.d2e2317
+oclc: 1034545644
+place: القاهرة
+publisher: مطبعة المعارف
+</dc:description>
+      <z:language>ar</z:language>
+   </bib:Article>
+   <bib:Article rdf:about="#oclc_1034545644-i_39-div_14.d2e2398">
+      <z:itemType>magazineArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:volume>4</prism:volume>
+            <prism:number>8</prism:number>
+            <dc:title>الزهور: مجلة أدبية فنية علمية</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>في رياض الشعر: يا آسيَ الحيّ</dc:title>
+      <z:shortTitle>في رياض الشعر</z:shortTitle>
+      <bib:authors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>صبري</foaf:surname>
+                  <foaf:givenName>اسماعيل</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:authors>
+      <bib:editors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>الجميل</foaf:surname>
+                  <foaf:givenName>انطوان</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:editors>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>القاهرة</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name>مطبعة المعارف</foaf:name>
+         </foaf:Organization>
+      </dc:publisher>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_39.TEIP5.xml#div_14.d2e2398</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_39.TEIP5.xml#div_14.d2e2398</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <bib:pages>424</bib:pages>
+      <dc:date>1913-12-01</dc:date>
+      <dc:description>Citation Key: oclc_1034545644-i_39-div_14.d2e2398
+BibTeX Cite Key: oclc_1034545644-i_39-div_14.d2e2398
 oclc: 1034545644
 place: القاهرة
 publisher: مطبعة المعارف
@@ -768,6 +1100,330 @@ publisher: مطبعة المعارف
       <dc:date>1913-12-01</dc:date>
       <dc:description>Citation Key: oclc_1034545644-i_39-div_1.d2e2062
 BibTeX Cite Key: oclc_1034545644-i_39-div_1.d2e2062
+oclc: 1034545644
+place: القاهرة
+publisher: مطبعة المعارف
+</dc:description>
+      <z:language>ar</z:language>
+   </bib:Article>
+   <bib:Article rdf:about="#oclc_1034545644-i_39-div_23.d2e3005">
+      <z:itemType>magazineArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:volume>4</prism:volume>
+            <prism:number>8</prism:number>
+            <dc:title>الزهور: مجلة أدبية فنية علمية</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>ثمرات المطابع: ديوان المازني</dc:title>
+      <z:shortTitle>ثمرات المطابع</z:shortTitle>
+      <bib:authors>
+         <rdf:Seq/>
+      </bib:authors>
+      <bib:editors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>الجميل</foaf:surname>
+                  <foaf:givenName>انطوان</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:editors>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>القاهرة</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name>مطبعة المعارف</foaf:name>
+         </foaf:Organization>
+      </dc:publisher>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_39.TEIP5.xml#div_23.d2e3005</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_39.TEIP5.xml#div_23.d2e3005</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <bib:pages>444-447</bib:pages>
+      <dc:date>1913-12-01</dc:date>
+      <dc:description>Citation Key: oclc_1034545644-i_39-div_23.d2e3005
+BibTeX Cite Key: oclc_1034545644-i_39-div_23.d2e3005
+oclc: 1034545644
+place: القاهرة
+publisher: مطبعة المعارف
+</dc:description>
+      <z:language>ar</z:language>
+   </bib:Article>
+   <bib:Article rdf:about="#oclc_1034545644-i_39-div_24.d2e3258">
+      <z:itemType>magazineArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:volume>4</prism:volume>
+            <prism:number>8</prism:number>
+            <dc:title>الزهور: مجلة أدبية فنية علمية</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>ثمرات المطابع: تاريخ الحرب البلقانية المصوَّر</dc:title>
+      <z:shortTitle>ثمرات المطابع</z:shortTitle>
+      <bib:authors>
+         <rdf:Seq/>
+      </bib:authors>
+      <bib:editors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>الجميل</foaf:surname>
+                  <foaf:givenName>انطوان</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:editors>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>القاهرة</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name>مطبعة المعارف</foaf:name>
+         </foaf:Organization>
+      </dc:publisher>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_39.TEIP5.xml#div_24.d2e3258</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_39.TEIP5.xml#div_24.d2e3258</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <bib:pages>447</bib:pages>
+      <dc:date>1913-12-01</dc:date>
+      <dc:description>Citation Key: oclc_1034545644-i_39-div_24.d2e3258
+BibTeX Cite Key: oclc_1034545644-i_39-div_24.d2e3258
+oclc: 1034545644
+place: القاهرة
+publisher: مطبعة المعارف
+</dc:description>
+      <z:language>ar</z:language>
+   </bib:Article>
+   <bib:Article rdf:about="#oclc_1034545644-i_39-div_25.d2e3268">
+      <z:itemType>magazineArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:volume>4</prism:volume>
+            <prism:number>8</prism:number>
+            <dc:title>الزهور: مجلة أدبية فنية علمية</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>ثمرات المطابع: السلوى</dc:title>
+      <z:shortTitle>ثمرات المطابع</z:shortTitle>
+      <bib:authors>
+         <rdf:Seq/>
+      </bib:authors>
+      <bib:editors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>الجميل</foaf:surname>
+                  <foaf:givenName>انطوان</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:editors>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>القاهرة</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name>مطبعة المعارف</foaf:name>
+         </foaf:Organization>
+      </dc:publisher>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_39.TEIP5.xml#div_25.d2e3268</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_39.TEIP5.xml#div_25.d2e3268</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <bib:pages>447</bib:pages>
+      <dc:date>1913-12-01</dc:date>
+      <dc:description>Citation Key: oclc_1034545644-i_39-div_25.d2e3268
+BibTeX Cite Key: oclc_1034545644-i_39-div_25.d2e3268
+oclc: 1034545644
+place: القاهرة
+publisher: مطبعة المعارف
+</dc:description>
+      <z:language>ar</z:language>
+   </bib:Article>
+   <bib:Article rdf:about="#oclc_1034545644-i_39-div_26.d2e3276">
+      <z:itemType>magazineArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:volume>4</prism:volume>
+            <prism:number>8</prism:number>
+            <dc:title>الزهور: مجلة أدبية فنية علمية</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>ثمرات المطابع: فتاة لبنان والرزنامة السليمة</dc:title>
+      <z:shortTitle>ثمرات المطابع</z:shortTitle>
+      <bib:authors>
+         <rdf:Seq/>
+      </bib:authors>
+      <bib:editors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>الجميل</foaf:surname>
+                  <foaf:givenName>انطوان</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:editors>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>القاهرة</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name>مطبعة المعارف</foaf:name>
+         </foaf:Organization>
+      </dc:publisher>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_39.TEIP5.xml#div_26.d2e3276</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_39.TEIP5.xml#div_26.d2e3276</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <bib:pages>447-448</bib:pages>
+      <dc:date>1913-12-01</dc:date>
+      <dc:description>Citation Key: oclc_1034545644-i_39-div_26.d2e3276
+BibTeX Cite Key: oclc_1034545644-i_39-div_26.d2e3276
+oclc: 1034545644
+place: القاهرة
+publisher: مطبعة المعارف
+</dc:description>
+      <z:language>ar</z:language>
+   </bib:Article>
+   <bib:Article rdf:about="#oclc_1034545644-i_39-div_27.d2e3288">
+      <z:itemType>magazineArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:volume>4</prism:volume>
+            <prism:number>8</prism:number>
+            <dc:title>الزهور: مجلة أدبية فنية علمية</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>ثمرات المطابع: دفع الهجنة</dc:title>
+      <z:shortTitle>ثمرات المطابع</z:shortTitle>
+      <bib:authors>
+         <rdf:Seq/>
+      </bib:authors>
+      <bib:editors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>الجميل</foaf:surname>
+                  <foaf:givenName>انطوان</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:editors>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>القاهرة</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name>مطبعة المعارف</foaf:name>
+         </foaf:Organization>
+      </dc:publisher>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_39.TEIP5.xml#div_27.d2e3288</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_39.TEIP5.xml#div_27.d2e3288</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <bib:pages>448</bib:pages>
+      <dc:date>1913-12-01</dc:date>
+      <dc:description>Citation Key: oclc_1034545644-i_39-div_27.d2e3288
+BibTeX Cite Key: oclc_1034545644-i_39-div_27.d2e3288
+oclc: 1034545644
+place: القاهرة
+publisher: مطبعة المعارف
+</dc:description>
+      <z:language>ar</z:language>
+   </bib:Article>
+   <bib:Article rdf:about="#oclc_1034545644-i_39-div_28.d2e3319">
+      <z:itemType>magazineArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:volume>4</prism:volume>
+            <prism:number>8</prism:number>
+            <dc:title>الزهور: مجلة أدبية فنية علمية</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>ثمرات المطابع: الزمان</dc:title>
+      <z:shortTitle>ثمرات المطابع</z:shortTitle>
+      <bib:authors>
+         <rdf:Seq/>
+      </bib:authors>
+      <bib:editors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>الجميل</foaf:surname>
+                  <foaf:givenName>انطوان</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:editors>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>القاهرة</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name>مطبعة المعارف</foaf:name>
+         </foaf:Organization>
+      </dc:publisher>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_39.TEIP5.xml#div_28.d2e3319</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_39.TEIP5.xml#div_28.d2e3319</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <bib:pages>448</bib:pages>
+      <dc:date>1913-12-01</dc:date>
+      <dc:description>Citation Key: oclc_1034545644-i_39-div_28.d2e3319
+BibTeX Cite Key: oclc_1034545644-i_39-div_28.d2e3319
 oclc: 1034545644
 place: القاهرة
 publisher: مطبعة المعارف
