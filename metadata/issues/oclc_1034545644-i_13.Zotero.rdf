@@ -360,12 +360,10 @@ publisher: مطبعة المعارف
             <dc:title>الزهور: مجلة أدبية فنية علمية</dc:title>
          </bib:Periodical>
       </dcterms:isPartOf>
-      <dc:title>في جنائن الغرب الابتسامة</dc:title>
-      <z:shortTitle>في جنائن الغرب الابتسامة</z:shortTitle>
+      <dc:title>في جنائن الغرب</dc:title>
+      <z:shortTitle>في جنائن الغرب</z:shortTitle>
       <bib:authors>
-         <rdf:Seq>
-            <foaf:surname>العرفان</foaf:surname>
-         </rdf:Seq>
+         <rdf:Seq/>
       </bib:authors>
       <bib:editors>
          <rdf:Seq>
@@ -401,6 +399,62 @@ publisher: مطبعة المعارف
       <dc:date>1911-04-01</dc:date>
       <dc:description>Citation Key: oclc_1034545644-i_13-div_1.d2e912
 BibTeX Cite Key: oclc_1034545644-i_13-div_1.d2e912
+oclc: 1034545644
+place: القاهرة
+publisher: مطبعة المعارف
+</dc:description>
+      <z:language>ar</z:language>
+   </bib:Article>
+   <bib:Article rdf:about="#oclc_1034545644-i_13-div_8.d2e1661">
+      <z:itemType>magazineArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:volume>2</prism:volume>
+            <prism:number>2</prism:number>
+            <dc:title>الزهور: مجلة أدبية فنية علمية</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>في جنائن الغرب: الابتسامة</dc:title>
+      <z:shortTitle>في جنائن الغرب</z:shortTitle>
+      <bib:authors>
+         <rdf:Seq>
+            <foaf:surname>العرفان</foaf:surname>
+         </rdf:Seq>
+      </bib:authors>
+      <bib:editors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>الجميل</foaf:surname>
+                  <foaf:givenName>انطوان</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:editors>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>القاهرة</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name>مطبعة المعارف</foaf:name>
+         </foaf:Organization>
+      </dc:publisher>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_13.TEIP5.xml#div_8.d2e1661</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_13.TEIP5.xml#div_8.d2e1661</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <bib:pages>82-83</bib:pages>
+      <dc:date>1911-04-01</dc:date>
+      <dc:description>Citation Key: oclc_1034545644-i_13-div_8.d2e1661
+BibTeX Cite Key: oclc_1034545644-i_13-div_8.d2e1661
 oclc: 1034545644
 place: القاهرة
 publisher: مطبعة المعارف

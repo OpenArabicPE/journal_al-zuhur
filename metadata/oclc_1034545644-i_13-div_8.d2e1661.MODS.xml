@@ -4,13 +4,14 @@
                 xsi:schemaLocation="http://www.loc.gov/standards/mods/mods-3-7.xsd">
    <mods>
       <titleInfo>
-         <title xml:lang="ar">ثمرات المطابع</title>
+         <title xml:lang="ar">في جنائن الغرب: الابتسامة</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
       <relatedItem type="host">
          <titleInfo>
+            <title xml:lang="ar">العرفان</title>
             <title xml:lang="ar">الزهور</title>
             <subTitle xml:lang="ar">مجلة أدبية فنية علمية</subTitle>
          </titleInfo>
@@ -32,33 +33,33 @@
             </place>
             <publisher xml:lang="ar">مطبعة المعارف</publisher>
             <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
-            <dateIssued encoding="w3cdtf">1912-10-01</dateIssued>
+            <dateIssued encoding="w3cdtf">1911-04-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
          <part>
             <detail type="volume">
-               <number>3</number>
+               <number>2</number>
             </detail>
             <detail type="issue">
-               <number>6</number>
+               <number>2</number>
             </detail>
             <extent unit="pages">
-               <start>324</start>
-               <end>327</end>
+               <start>82</start>
+               <end>83</end>
             </extent>
          </part>
-         <identifier type="BibTeX">oclc_1034545644-i_27-div_1.d2e1750</identifier>
+         <identifier type="BibTeX">oclc_1034545644-i_13-div_8.d2e1661</identifier>
          <identifier type="oape">3</identifier>
          <identifier type="jid">40</identifier>
          <identifier type="OCLC">1034545644</identifier>
          <identifier type="URI">http://waqfeya.com/book.php?bid=6507</identifier>
          <identifier type="URI">http://shamela.ws/index.php/book/36534</identifier>
-         <identifier type="URI">oclc_1034545644-i_27</identifier>
+         <identifier type="URI">oclc_1034545644-i_13</identifier>
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_27.TEIP5.xml#div_1.d2e1750</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_27.TEIP5.xml#div_1.d2e1750</url>
+         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_13.TEIP5.xml#div_8.d2e1661</url>
+         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_13.TEIP5.xml#div_8.d2e1661</url>
       </location>
       <language>
          <languageTerm type="code"

@@ -22,8 +22,8 @@
             <dc:title>الزهور: مجلة أدبية فنية علمية</dc:title>
          </bib:Periodical>
       </dcterms:isPartOf>
-      <dc:title>القنصل الروماني والوالي العثماني</dc:title>
-      <z:shortTitle>القنصل الروماني والوالي العثماني</z:shortTitle>
+      <dc:title>القنصل الروماني والوالي العثماني أتيليوس ريجلوس و صبحي بك</dc:title>
+      <z:shortTitle>القنصل الروماني والوالي العثماني أتيليوس</z:shortTitle>
       <bib:authors>
          <rdf:Seq/>
       </bib:authors>
@@ -141,19 +141,7 @@ publisher: مطبعة المعارف
       <dc:title>في رياض الشعر</dc:title>
       <z:shortTitle>في رياض الشعر</z:shortTitle>
       <bib:authors>
-         <rdf:Seq>
-            <rdf:li>
-               <foaf:Person>
-                  <foaf:surname>مطران</foaf:surname>
-                  <foaf:givenName>خليل</foaf:givenName>
-               </foaf:Person>
-            </rdf:li>
-            <rdf:li>
-               <foaf:Person>
-                  <foaf:surname>محمد توفيق علي</foaf:surname>
-               </foaf:Person>
-            </rdf:li>
-         </rdf:Seq>
+         <rdf:Seq/>
       </bib:authors>
       <bib:editors>
          <rdf:Seq>
@@ -185,10 +173,191 @@ publisher: مطبعة المعارف
             <rdf:value>https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_27.TEIP5.xml#div_1.d2e407</rdf:value>
          </dcterms:URI>
       </dc:identifier>
-      <bib:pages>300-305</bib:pages>
+      <bib:pages>300-304</bib:pages>
       <dc:date>1912-10-01</dc:date>
       <dc:description>Citation Key: oclc_1034545644-i_27-div_1.d2e407
 BibTeX Cite Key: oclc_1034545644-i_27-div_1.d2e407
+oclc: 1034545644
+place: القاهرة
+publisher: مطبعة المعارف
+</dc:description>
+      <z:language>ar</z:language>
+   </bib:Article>
+   <bib:Article rdf:about="#oclc_1034545644-i_27-div_6.d2e1284">
+      <z:itemType>magazineArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:volume>3</prism:volume>
+            <prism:number>6</prism:number>
+            <dc:title>الزهور: مجلة أدبية فنية علمية</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>في رياض الشعر:</dc:title>
+      <z:shortTitle>في رياض الشعر:</z:shortTitle>
+      <bib:authors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>تامر ملاط</foaf:surname>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:authors>
+      <bib:editors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>الجميل</foaf:surname>
+                  <foaf:givenName>انطوان</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:editors>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>القاهرة</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name>مطبعة المعارف</foaf:name>
+         </foaf:Organization>
+      </dc:publisher>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_27.TEIP5.xml#div_6.d2e1284</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_27.TEIP5.xml#div_6.d2e1284</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <bib:pages>300-301</bib:pages>
+      <dc:date>1912-10-01</dc:date>
+      <dc:description>Citation Key: oclc_1034545644-i_27-div_6.d2e1284
+BibTeX Cite Key: oclc_1034545644-i_27-div_6.d2e1284
+oclc: 1034545644
+place: القاهرة
+publisher: مطبعة المعارف
+</dc:description>
+      <z:language>ar</z:language>
+   </bib:Article>
+   <bib:Article rdf:about="#oclc_1034545644-i_27-div_7.d2e1510">
+      <z:itemType>magazineArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:volume>3</prism:volume>
+            <prism:number>6</prism:number>
+            <dc:title>الزهور: مجلة أدبية فنية علمية</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>في رياض الشعر: الأسد الباكي</dc:title>
+      <z:shortTitle>في رياض الشعر</z:shortTitle>
+      <bib:authors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>مطران</foaf:surname>
+                  <foaf:givenName>خليل</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:authors>
+      <bib:editors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>الجميل</foaf:surname>
+                  <foaf:givenName>انطوان</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:editors>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>القاهرة</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name>مطبعة المعارف</foaf:name>
+         </foaf:Organization>
+      </dc:publisher>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_27.TEIP5.xml#div_7.d2e1510</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_27.TEIP5.xml#div_7.d2e1510</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <bib:pages>301-303</bib:pages>
+      <dc:date>1912-10-01</dc:date>
+      <dc:description>Citation Key: oclc_1034545644-i_27-div_7.d2e1510
+BibTeX Cite Key: oclc_1034545644-i_27-div_7.d2e1510
+oclc: 1034545644
+place: القاهرة
+publisher: مطبعة المعارف
+</dc:description>
+      <z:language>ar</z:language>
+   </bib:Article>
+   <bib:Article rdf:about="#oclc_1034545644-i_27-div_8.d2e1818">
+      <z:itemType>magazineArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:volume>3</prism:volume>
+            <prism:number>6</prism:number>
+            <dc:title>الزهور: مجلة أدبية فنية علمية</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>في رياض الشعر: النيل السعيد</dc:title>
+      <z:shortTitle>في رياض الشعر</z:shortTitle>
+      <bib:authors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>محمد توفيق علي</foaf:surname>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:authors>
+      <bib:editors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>الجميل</foaf:surname>
+                  <foaf:givenName>انطوان</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:editors>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>القاهرة</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name>مطبعة المعارف</foaf:name>
+         </foaf:Organization>
+      </dc:publisher>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_27.TEIP5.xml#div_8.d2e1818</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_27.TEIP5.xml#div_8.d2e1818</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <bib:pages>303-304</bib:pages>
+      <dc:date>1912-10-01</dc:date>
+      <dc:description>Citation Key: oclc_1034545644-i_27-div_8.d2e1818
+BibTeX Cite Key: oclc_1034545644-i_27-div_8.d2e1818
 oclc: 1034545644
 place: القاهرة
 publisher: مطبعة المعارف
@@ -268,7 +437,13 @@ publisher: مطبعة المعارف
       <dc:title>حياة الأخوين</dc:title>
       <z:shortTitle>حياة الأخوين</z:shortTitle>
       <bib:authors>
-         <rdf:Seq/>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>محبوب الخوري الشرنوني</foaf:surname>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
       </bib:authors>
       <bib:editors>
          <rdf:Seq>
@@ -300,7 +475,7 @@ publisher: مطبعة المعارف
             <rdf:value>https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_27.TEIP5.xml#div_1.d2e1366</rdf:value>
          </dcterms:URI>
       </dc:identifier>
-      <bib:pages>310-319</bib:pages>
+      <bib:pages>310-318</bib:pages>
       <dc:date>1912-10-01</dc:date>
       <dc:description>Citation Key: oclc_1034545644-i_27-div_1.d2e1366
 BibTeX Cite Key: oclc_1034545644-i_27-div_1.d2e1366
@@ -462,7 +637,7 @@ publisher: مطبعة المعارف
             <rdf:value>https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_27.TEIP5.xml#div_1.d2e1750</rdf:value>
          </dcterms:URI>
       </dc:identifier>
-      <bib:pages>324-328</bib:pages>
+      <bib:pages>324-327</bib:pages>
       <dc:date>1912-10-01</dc:date>
       <dc:description>Citation Key: oclc_1034545644-i_27-div_1.d2e1750
 BibTeX Cite Key: oclc_1034545644-i_27-div_1.d2e1750
@@ -481,10 +656,17 @@ publisher: مطبعة المعارف
             <dc:title>الزهور: مجلة أدبية فنية علمية</dc:title>
          </bib:Periodical>
       </dcterms:isPartOf>
-      <dc:title>بوليوس قيصر</dc:title>
-      <z:shortTitle>بوليوس قيصر</z:shortTitle>
+      <dc:title>يوليوس قيصر</dc:title>
+      <z:shortTitle>يوليوس قيصر</z:shortTitle>
       <bib:authors>
-         <rdf:Seq/>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>شكسبير</foaf:surname>
+                  <foaf:givenName/>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
       </bib:authors>
       <bib:editors>
          <rdf:Seq>

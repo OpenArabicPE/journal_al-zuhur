@@ -4,11 +4,17 @@
                 xsi:schemaLocation="http://www.loc.gov/standards/mods/mods-3-7.xsd">
    <mods>
       <titleInfo>
-         <title xml:lang="ar">ثمرات المطابع</title>
+         <title xml:lang="ar">في رياض الشعر: النيل السعيد</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
+      <name type="personal" xml:lang="ar" valueURI="oape:pers:2335">
+         <namePart>محمد توفيق علي</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+         </role>
+      </name>
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">الزهور</title>
@@ -43,11 +49,11 @@
                <number>6</number>
             </detail>
             <extent unit="pages">
-               <start>324</start>
-               <end>327</end>
+               <start>303</start>
+               <end>304</end>
             </extent>
          </part>
-         <identifier type="BibTeX">oclc_1034545644-i_27-div_1.d2e1750</identifier>
+         <identifier type="BibTeX">oclc_1034545644-i_27-div_8.d2e1818</identifier>
          <identifier type="oape">3</identifier>
          <identifier type="jid">40</identifier>
          <identifier type="OCLC">1034545644</identifier>
@@ -57,8 +63,8 @@
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_27.TEIP5.xml#div_1.d2e1750</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_27.TEIP5.xml#div_1.d2e1750</url>
+         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_27.TEIP5.xml#div_8.d2e1818</url>
+         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_27.TEIP5.xml#div_8.d2e1818</url>
       </location>
       <language>
          <languageTerm type="code"
