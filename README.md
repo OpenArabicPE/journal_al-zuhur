@@ -1,17 +1,24 @@
 ---
 title: "Readme: Journal *al-Zuhūr*"
 author: Till Grallert
-date: 2020-07-25
+date: 2022-02-05
 ORCID: orcid.org/0000-0002-5739-8094
 ---
 
-# An open, collaborative, and scholarly digital edition of Anṭūn al-Jumayyil's monthly journal *al-Zuhūr* (Cairo, 1910--1913)
-
-[![GitHub release](https://img.shields.io/github/release/openarabicpe/journal_al-zuhur.svg)](https://github.com/openarabicpe/journal_al-zuhur/releases)
 <!-- DOI needs updating once released -->
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3580606.svg)](https://doi.org/10.5281/zenodo.3580606)
+[![GitHub release](https://img.shields.io/github/release/openarabicpe/journal_al-zuhur.svg)](https://github.com/openarabicpe/journal_al-zuhur/releases)
+[![License: CC BY 4.0](https://img.shields.io/badge/license-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Maintenance](https://img.shields.io/badge/maintained%3F-yes-green.svg)](https://github.com/openarabicpe/journal_al-zuhur/graphs/commit-activity)
+![Commit activity](https://img.shields.io/github/commit-activity/m/openarabicpe/journal_al-zuhur)
+![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/openarabicpe/journal_al-zuhur/latest)
+![GitHub last commit](https://img.shields.io/github/last-commit/openarabicpe/journal_al-zuhur)
+![GitHub contributors](https://img.shields.io/github/contributors/openarabicpe/journal_al-zuhur)
 
-This digital edition of Anṭūn al-Jumayyil's monthly journal *al-Zuhūr* (Cairo, 1910--1913) is part of and follows the principles of [Open Arabic Periodical Editions (OpenArabicPE)](https://openarabicpe.github.io) that were originally developped in the context of [Digital Muqtabas](https://github.com/tillgrallert/digital-muqtabas). The full text of this edition has been transcribed by the anonymous transcribers at [*al-maktaba al-shamela*](http://shamela.ws/index.php/book/36534). The transcription and our edition comprises 40 issues but only 39 issues from vol.1(1) until vol.4(8) could be found in material copies and digital facsimiles. The introduction from the Dār Ṣādir reprint, upon which this transcription is most likely based, does not comment on this discrepancy.
+# An open, collaborative, and scholarly digital edition of Anṭūn al-Jumayyil's monthly journal *al-Zuhūr* (Cairo, 1910--1913)
+
+
+This digital edition of Anṭūn al-Jumayyil's monthly journal *al-Zuhūr* (Cairo, 1910--1913) is part of and follows the principles of [Open Arabic Periodical Editions (OpenArabicPE)](https://openarabicpe.github.io) that were originally developped in the context of [Digital Muqtabas](https://github.com/openarabicpe/journal_al-muqtabas). The full text of this edition has been transcribed by the anonymous transcribers at [*al-maktaba al-shamela*](http://shamela.ws/index.php/book/36534). The transcription and our edition comprises 40 issues but only 39 issues from vol.1(1) until vol.4(8) could be found in material copies and digital facsimiles. The introduction from the Dār Ṣādir reprint, upon which this transcription is most likely based, does not comment on this discrepancy.
 Digital facsimiles are available from the following sources:
 
 - [*arshīf al-majallāt ...*][sakhrit]<!--  (formerly archive.sakhrit.co) --> and
