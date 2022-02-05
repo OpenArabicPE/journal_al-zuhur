@@ -899,7 +899,13 @@ publisher: مطبعة المعارف
       <dc:title>أزهار وأشواك</dc:title>
       <z:shortTitle>أزهار وأشواك</z:shortTitle>
       <bib:authors>
-         <rdf:Seq/>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>حاصد</foaf:surname>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
       </bib:authors>
       <bib:editors>
          <rdf:Seq>
@@ -931,7 +937,7 @@ publisher: مطبعة المعارف
             <rdf:value>https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_26.TEIP5.xml#div_1.d2e2073</rdf:value>
          </dcterms:URI>
       </dc:identifier>
-      <bib:pages>286-289</bib:pages>
+      <bib:pages>286-288</bib:pages>
       <dc:date>1912-07-01</dc:date>
       <dc:description>Citation Key: oclc_1034545644-i_26-div_1.d2e2073
 BibTeX Cite Key: oclc_1034545644-i_26-div_1.d2e2073

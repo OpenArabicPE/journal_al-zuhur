@@ -546,8 +546,8 @@ publisher: مطبعة المعارف
             <dc:title>الزهور: مجلة أدبية فنية علمية</dc:title>
          </bib:Periodical>
       </dcterms:isPartOf>
-      <dc:title>في جنائن الغرب ننشر تباعاً تحت هذا العنوان خير ما يؤخذ عن آداب الغربيين قديماً وحديثاً. لأن ذلك يكسب لغتنا ثروة طائلة من المعاني والأفكار الجديدة، ويطلعنا على مجرى الحركة الأدبية عند الأمم.</dc:title>
-      <z:shortTitle>في جنائن الغرب ننشر تباعاً تحت هذا العنوان خير ما يؤخذ عن آداب الغربيين قديماً وحديثاً</z:shortTitle>
+      <dc:title>في جنائن الغرب</dc:title>
+      <z:shortTitle>في جنائن الغرب</z:shortTitle>
       <bib:authors>
          <rdf:Seq/>
       </bib:authors>
@@ -581,10 +581,64 @@ publisher: مطبعة المعارف
             <rdf:value>https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_2.TEIP5.xml#div_1.d2e1391</rdf:value>
          </dcterms:URI>
       </dc:identifier>
-      <bib:pages>68-77</bib:pages>
+      <bib:pages>68-80</bib:pages>
       <dc:date>1910-04-01</dc:date>
       <dc:description>Citation Key: oclc_1034545644-i_2-div_1.d2e1391
 BibTeX Cite Key: oclc_1034545644-i_2-div_1.d2e1391
+oclc: 1034545644
+place: القاهرة
+publisher: مطبعة المعارف
+</dc:description>
+      <z:language>ar</z:language>
+   </bib:Article>
+   <bib:Article rdf:about="#oclc_1034545644-i_2-div_11.d2e1918">
+      <z:itemType>magazineArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:volume>1</prism:volume>
+            <prism:number>2</prism:number>
+            <dc:title>الزهور: مجلة أدبية فنية علمية</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>في جنائن الغرب: رواية شانتكلير</dc:title>
+      <z:shortTitle>في جنائن الغرب</z:shortTitle>
+      <bib:authors>
+         <rdf:Seq/>
+      </bib:authors>
+      <bib:editors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>الجميل</foaf:surname>
+                  <foaf:givenName>انطوان</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:editors>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>القاهرة</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name>مطبعة المعارف</foaf:name>
+         </foaf:Organization>
+      </dc:publisher>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_2.TEIP5.xml#div_11.d2e1918</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_2.TEIP5.xml#div_11.d2e1918</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <bib:pages>68-77</bib:pages>
+      <dc:date>1910-04-01</dc:date>
+      <dc:description>Citation Key: oclc_1034545644-i_2-div_11.d2e1918
+BibTeX Cite Key: oclc_1034545644-i_2-div_11.d2e1918
 oclc: 1034545644
 place: القاهرة
 publisher: مطبعة المعارف
@@ -600,8 +654,8 @@ publisher: مطبعة المعارف
             <dc:title>الزهور: مجلة أدبية فنية علمية</dc:title>
          </bib:Periodical>
       </dcterms:isPartOf>
-      <dc:title>روزفلت في وادي النيل</dc:title>
-      <z:shortTitle>روزفلت في وادي النيل</z:shortTitle>
+      <dc:title>في جنائن الغرب: روزفلت في وادي النيل</dc:title>
+      <z:shortTitle>في جنائن الغرب</z:shortTitle>
       <bib:authors>
          <rdf:Seq/>
       </bib:authors>
@@ -747,6 +801,168 @@ publisher: مطبعة المعارف
       <dc:date>1910-04-01</dc:date>
       <dc:description>Citation Key: oclc_1034545644-i_2-div_1.d2e1958
 BibTeX Cite Key: oclc_1034545644-i_2-div_1.d2e1958
+oclc: 1034545644
+place: القاهرة
+publisher: مطبعة المعارف
+</dc:description>
+      <z:language>ar</z:language>
+   </bib:Article>
+   <bib:Article rdf:about="#oclc_1034545644-i_2-div_14.d2e2479">
+      <z:itemType>magazineArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:volume>1</prism:volume>
+            <prism:number>2</prism:number>
+            <dc:title>الزهور: مجلة أدبية فنية علمية</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>أشواك وأزهار: العرَج والفرَج</dc:title>
+      <z:shortTitle>أشواك وأزهار</z:shortTitle>
+      <bib:authors>
+         <rdf:Seq/>
+      </bib:authors>
+      <bib:editors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>الجميل</foaf:surname>
+                  <foaf:givenName>انطوان</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:editors>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>القاهرة</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name>مطبعة المعارف</foaf:name>
+         </foaf:Organization>
+      </dc:publisher>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_2.TEIP5.xml#div_14.d2e2479</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_2.TEIP5.xml#div_14.d2e2479</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <bib:pages>86</bib:pages>
+      <dc:date>1910-04-01</dc:date>
+      <dc:description>Citation Key: oclc_1034545644-i_2-div_14.d2e2479
+BibTeX Cite Key: oclc_1034545644-i_2-div_14.d2e2479
+oclc: 1034545644
+place: القاهرة
+publisher: مطبعة المعارف
+</dc:description>
+      <z:language>ar</z:language>
+   </bib:Article>
+   <bib:Article rdf:about="#oclc_1034545644-i_2-div_14.d2e2498">
+      <z:itemType>magazineArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:volume>1</prism:volume>
+            <prism:number>2</prism:number>
+            <dc:title>الزهور: مجلة أدبية فنية علمية</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>أشواك وأزهار: نيشان الافتخار</dc:title>
+      <z:shortTitle>أشواك وأزهار</z:shortTitle>
+      <bib:authors>
+         <rdf:Seq/>
+      </bib:authors>
+      <bib:editors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>الجميل</foaf:surname>
+                  <foaf:givenName>انطوان</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:editors>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>القاهرة</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name>مطبعة المعارف</foaf:name>
+         </foaf:Organization>
+      </dc:publisher>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_2.TEIP5.xml#div_14.d2e2498</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_2.TEIP5.xml#div_14.d2e2498</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <bib:pages>86-87</bib:pages>
+      <dc:date>1910-04-01</dc:date>
+      <dc:description>Citation Key: oclc_1034545644-i_2-div_14.d2e2498
+BibTeX Cite Key: oclc_1034545644-i_2-div_14.d2e2498
+oclc: 1034545644
+place: القاهرة
+publisher: مطبعة المعارف
+</dc:description>
+      <z:language>ar</z:language>
+   </bib:Article>
+   <bib:Article rdf:about="#oclc_1034545644-i_2-div_14.d2e2529">
+      <z:itemType>magazineArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:volume>1</prism:volume>
+            <prism:number>2</prism:number>
+            <dc:title>الزهور: مجلة أدبية فنية علمية</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>أشواك وأزهار: أول أفريل أو كذبة نيسان:</dc:title>
+      <z:shortTitle>أشواك وأزهار</z:shortTitle>
+      <bib:authors>
+         <rdf:Seq/>
+      </bib:authors>
+      <bib:editors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>الجميل</foaf:surname>
+                  <foaf:givenName>انطوان</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:editors>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>القاهرة</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name>مطبعة المعارف</foaf:name>
+         </foaf:Organization>
+      </dc:publisher>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_2.TEIP5.xml#div_14.d2e2529</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_2.TEIP5.xml#div_14.d2e2529</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <bib:pages>87-88</bib:pages>
+      <dc:date>1910-04-01</dc:date>
+      <dc:description>Citation Key: oclc_1034545644-i_2-div_14.d2e2529
+BibTeX Cite Key: oclc_1034545644-i_2-div_14.d2e2529
 oclc: 1034545644
 place: القاهرة
 publisher: مطبعة المعارف
