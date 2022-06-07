@@ -620,7 +620,7 @@
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="ar">الغناء العربي</title>
+         <title xml:lang="ar">الغناء العربي في مصر</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -746,7 +746,259 @@
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="ar">إلى قراء الزهور</title>
+         <title xml:lang="ar">ثمرات المطابع: تاريخ آداب اللغة العربية</title>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local" xml:lang="en">journalArticle</genre>
+      <genre authority="marcgt" xml:lang="en">article</genre>
+      <relatedItem type="host">
+         <titleInfo>
+            <title xml:lang="ar">الزهور</title>
+            <subTitle xml:lang="ar">مجلة أدبية فنية علمية</subTitle>
+         </titleInfo>
+         <genre authority="marcgt">journal</genre>
+         <name type="personal"
+               xml:lang="ar"
+               valueURI="https://viaf.org/viaf/305214858">
+            <namePart type="family" xml:lang="ar">الجميل</namePart>
+            <namePart type="given" xml:lang="ar">انطوان</namePart>
+            <role>
+               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+            </role>
+         </name>
+         <originInfo>
+            <place>
+               <placeTerm type="text"
+                          xml:lang="ar"
+                          valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
+            </place>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
+            <dateIssued encoding="w3cdtf">1911-07-01</dateIssued>
+            <issuance>continuing</issuance>
+         </originInfo>
+         <part>
+            <detail type="volume">
+               <number>2</number>
+            </detail>
+            <detail type="issue">
+               <number>5</number>
+            </detail>
+            <extent unit="pages">
+               <start>273</start>
+               <end>276</end>
+            </extent>
+         </part>
+         <identifier type="BibTeX">oclc_1034545644-i_16-div_12.d2e3061</identifier>
+         <identifier type="oape">3</identifier>
+         <identifier type="jid">40</identifier>
+         <identifier type="OCLC">1034545644</identifier>
+         <identifier type="URI">http://waqfeya.com/book.php?bid=6507</identifier>
+         <identifier type="URI">http://shamela.ws/index.php/book/36534</identifier>
+         <identifier type="URI">oclc_1034545644-i_16</identifier>
+      </relatedItem>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
+      <location>
+         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_16.TEIP5.xml#div_12.d2e3061</url>
+         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_16.TEIP5.xml#div_12.d2e3061</url>
+      </location>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title xml:lang="ar">ثمرات المطابع: أزهار أحلام</title>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local" xml:lang="en">journalArticle</genre>
+      <genre authority="marcgt" xml:lang="en">article</genre>
+      <relatedItem type="host">
+         <titleInfo>
+            <title xml:lang="ar">الزهور</title>
+            <subTitle xml:lang="ar">مجلة أدبية فنية علمية</subTitle>
+         </titleInfo>
+         <genre authority="marcgt">journal</genre>
+         <name type="personal"
+               xml:lang="ar"
+               valueURI="https://viaf.org/viaf/305214858">
+            <namePart type="family" xml:lang="ar">الجميل</namePart>
+            <namePart type="given" xml:lang="ar">انطوان</namePart>
+            <role>
+               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+            </role>
+         </name>
+         <originInfo>
+            <place>
+               <placeTerm type="text"
+                          xml:lang="ar"
+                          valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
+            </place>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
+            <dateIssued encoding="w3cdtf">1911-07-01</dateIssued>
+            <issuance>continuing</issuance>
+         </originInfo>
+         <part>
+            <detail type="volume">
+               <number>2</number>
+            </detail>
+            <detail type="issue">
+               <number>5</number>
+            </detail>
+            <extent unit="pages">
+               <start>276</start>
+               <end>278</end>
+            </extent>
+         </part>
+         <identifier type="BibTeX">oclc_1034545644-i_16-div_13.d2e3085</identifier>
+         <identifier type="oape">3</identifier>
+         <identifier type="jid">40</identifier>
+         <identifier type="OCLC">1034545644</identifier>
+         <identifier type="URI">http://waqfeya.com/book.php?bid=6507</identifier>
+         <identifier type="URI">http://shamela.ws/index.php/book/36534</identifier>
+         <identifier type="URI">oclc_1034545644-i_16</identifier>
+      </relatedItem>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
+      <location>
+         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_16.TEIP5.xml#div_13.d2e3085</url>
+         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_16.TEIP5.xml#div_13.d2e3085</url>
+      </location>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title xml:lang="ar">ثمرات المطابع: منتهى الإفادة</title>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local" xml:lang="en">journalArticle</genre>
+      <genre authority="marcgt" xml:lang="en">article</genre>
+      <relatedItem type="host">
+         <titleInfo>
+            <title xml:lang="ar">الزهور</title>
+            <subTitle xml:lang="ar">مجلة أدبية فنية علمية</subTitle>
+         </titleInfo>
+         <genre authority="marcgt">journal</genre>
+         <name type="personal"
+               xml:lang="ar"
+               valueURI="https://viaf.org/viaf/305214858">
+            <namePart type="family" xml:lang="ar">الجميل</namePart>
+            <namePart type="given" xml:lang="ar">انطوان</namePart>
+            <role>
+               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+            </role>
+         </name>
+         <originInfo>
+            <place>
+               <placeTerm type="text"
+                          xml:lang="ar"
+                          valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
+            </place>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
+            <dateIssued encoding="w3cdtf">1911-07-01</dateIssued>
+            <issuance>continuing</issuance>
+         </originInfo>
+         <part>
+            <detail type="volume">
+               <number>2</number>
+            </detail>
+            <detail type="issue">
+               <number>5</number>
+            </detail>
+            <extent unit="pages">
+               <start>278</start>
+               <end>279</end>
+            </extent>
+         </part>
+         <identifier type="BibTeX">oclc_1034545644-i_16-div_14.d2e3110</identifier>
+         <identifier type="oape">3</identifier>
+         <identifier type="jid">40</identifier>
+         <identifier type="OCLC">1034545644</identifier>
+         <identifier type="URI">http://waqfeya.com/book.php?bid=6507</identifier>
+         <identifier type="URI">http://shamela.ws/index.php/book/36534</identifier>
+         <identifier type="URI">oclc_1034545644-i_16</identifier>
+      </relatedItem>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
+      <location>
+         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_16.TEIP5.xml#div_14.d2e3110</url>
+         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_16.TEIP5.xml#div_14.d2e3110</url>
+      </location>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title xml:lang="ar">ثمرات المطابع: لغة العرب</title>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local" xml:lang="en">journalArticle</genre>
+      <genre authority="marcgt" xml:lang="en">article</genre>
+      <relatedItem type="host">
+         <titleInfo>
+            <title xml:lang="ar">الزهور</title>
+            <subTitle xml:lang="ar">مجلة أدبية فنية علمية</subTitle>
+         </titleInfo>
+         <genre authority="marcgt">journal</genre>
+         <name type="personal"
+               xml:lang="ar"
+               valueURI="https://viaf.org/viaf/305214858">
+            <namePart type="family" xml:lang="ar">الجميل</namePart>
+            <namePart type="given" xml:lang="ar">انطوان</namePart>
+            <role>
+               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+            </role>
+         </name>
+         <originInfo>
+            <place>
+               <placeTerm type="text"
+                          xml:lang="ar"
+                          valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
+            </place>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
+            <dateIssued encoding="w3cdtf">1911-07-01</dateIssued>
+            <issuance>continuing</issuance>
+         </originInfo>
+         <part>
+            <detail type="volume">
+               <number>2</number>
+            </detail>
+            <detail type="issue">
+               <number>5</number>
+            </detail>
+            <extent unit="pages">
+               <start>279</start>
+               <end>280</end>
+            </extent>
+         </part>
+         <identifier type="BibTeX">oclc_1034545644-i_16-div_15.d2e3199</identifier>
+         <identifier type="oape">3</identifier>
+         <identifier type="jid">40</identifier>
+         <identifier type="OCLC">1034545644</identifier>
+         <identifier type="URI">http://waqfeya.com/book.php?bid=6507</identifier>
+         <identifier type="URI">http://shamela.ws/index.php/book/36534</identifier>
+         <identifier type="URI">oclc_1034545644-i_16</identifier>
+      </relatedItem>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
+      <location>
+         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_16.TEIP5.xml#div_15.d2e3199</url>
+         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_16.TEIP5.xml#div_15.d2e3199</url>
+      </location>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title xml:lang="ar">إلى قراء الزهور عطلة الصيف</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -801,69 +1053,6 @@
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_16.TEIP5.xml#div_1.d2e2270</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_16.TEIP5.xml#div_1.d2e2270</url>
-      </location>
-      <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
-      </language>
-   </mods>
-   <mods>
-      <titleInfo>
-         <title xml:lang="ar">العدد</title>
-      </titleInfo>
-      <typeOfResource>text</typeOfResource>
-      <genre authority="local" xml:lang="en">journalArticle</genre>
-      <genre authority="marcgt" xml:lang="en">article</genre>
-      <relatedItem type="host">
-         <titleInfo>
-            <title xml:lang="ar">الزهور</title>
-            <subTitle xml:lang="ar">مجلة أدبية فنية علمية</subTitle>
-         </titleInfo>
-         <genre authority="marcgt">journal</genre>
-         <name type="personal"
-               xml:lang="ar"
-               valueURI="https://viaf.org/viaf/305214858">
-            <namePart type="family" xml:lang="ar">الجميل</namePart>
-            <namePart type="given" xml:lang="ar">انطوان</namePart>
-            <role>
-               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
-            </role>
-         </name>
-         <originInfo>
-            <place>
-               <placeTerm type="text"
-                          xml:lang="ar"
-                          valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
-            </place>
-            <publisher xml:lang="ar">مطبعة المعارف</publisher>
-            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
-            <dateIssued encoding="w3cdtf">1911-07-01</dateIssued>
-            <issuance>continuing</issuance>
-         </originInfo>
-         <part>
-            <detail type="volume">
-               <number>2</number>
-            </detail>
-            <detail type="issue">
-               <number>5</number>
-            </detail>
-            <extent unit="pages">
-               <start>280</start>
-               <end>281</end>
-            </extent>
-         </part>
-         <identifier type="BibTeX">oclc_1034545644-i_16-div_1.d2e2282</identifier>
-         <identifier type="oape">3</identifier>
-         <identifier type="jid">40</identifier>
-         <identifier type="OCLC">1034545644</identifier>
-         <identifier type="URI">http://waqfeya.com/book.php?bid=6507</identifier>
-         <identifier type="URI">http://shamela.ws/index.php/book/36534</identifier>
-         <identifier type="URI">oclc_1034545644-i_16</identifier>
-      </relatedItem>
-      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
-      <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_16.TEIP5.xml#div_1.d2e2282</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_16.TEIP5.xml#div_1.d2e2282</url>
       </location>
       <language>
          <languageTerm type="code"
