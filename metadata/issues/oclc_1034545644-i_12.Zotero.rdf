@@ -57,7 +57,7 @@
             <rdf:value>https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_12.TEIP5.xml#div_1.d2e254</rdf:value>
          </dcterms:URI>
       </dc:identifier>
-      <bib:pages>3-7</bib:pages>
+      <bib:pages>3-6</bib:pages>
       <dc:date>1911-03-01</dc:date>
       <dc:description>Citation Key: oclc_1034545644-i_12-div_1.d2e254
 BibTeX Cite Key: oclc_1034545644-i_12-div_1.d2e254
@@ -76,7 +76,7 @@ publisher: مطبعة المعارف
             <dc:title>الزهور: مجلة أدبية فنية علمية</dc:title>
          </bib:Periodical>
       </dcterms:isPartOf>
-      <dc:title>إيماءة زائر إلى بعض ما بأورشليم وبيت لحم من الصدقات الجاريان والمآثر الباقيات</dc:title>
+      <dc:title>إيماءة زائر إلى بعض ما ب أورشليم و بيت لحم من الصدقات الجاريان والمآثر الباقيات</dc:title>
       <z:shortTitle>إيماءة زائر إلى بعض ما</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
@@ -944,8 +944,62 @@ publisher: مطبعة المعارف
             <dc:title>الزهور: مجلة أدبية فنية علمية</dc:title>
          </bib:Periodical>
       </dcterms:isPartOf>
-      <dc:title>في جنائن الغرب نار السماء</dc:title>
-      <z:shortTitle>في جنائن الغرب نار السماء</z:shortTitle>
+      <dc:title>في جنائن الغرب</dc:title>
+      <z:shortTitle>في جنائن الغرب</z:shortTitle>
+      <bib:authors>
+         <rdf:Seq/>
+      </bib:authors>
+      <bib:editors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>الجميل</foaf:surname>
+                  <foaf:givenName>انطوان</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:editors>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>القاهرة</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name>مطبعة المعارف</foaf:name>
+         </foaf:Organization>
+      </dc:publisher>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_12.TEIP5.xml#div_1.d2e2102</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_12.TEIP5.xml#div_1.d2e2102</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <bib:pages>36-40</bib:pages>
+      <dc:date>1911-03-01</dc:date>
+      <dc:description>Citation Key: oclc_1034545644-i_12-div_1.d2e2102
+BibTeX Cite Key: oclc_1034545644-i_12-div_1.d2e2102
+oclc: 1034545644
+place: القاهرة
+publisher: مطبعة المعارف
+</dc:description>
+      <z:language>ar</z:language>
+   </bib:Article>
+   <bib:Article rdf:about="#oclc_1034545644-i_12-div_28.d2e3140">
+      <z:itemType>magazineArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:volume>2</prism:volume>
+            <prism:number>1</prism:number>
+            <dc:title>الزهور: مجلة أدبية فنية علمية</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>في جنائن الغرب: نار السماء</dc:title>
+      <z:shortTitle>في جنائن الغرب</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -987,18 +1041,18 @@ publisher: مطبعة المعارف
       </dc:publisher>
       <dc:identifier>
          <dcterms:URI>
-            <rdf:value>https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_12.TEIP5.xml#div_1.d2e2102</rdf:value>
+            <rdf:value>https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_12.TEIP5.xml#div_28.d2e3140</rdf:value>
          </dcterms:URI>
       </dc:identifier>
       <dc:identifier>
          <dcterms:URI>
-            <rdf:value>https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_12.TEIP5.xml#div_1.d2e2102</rdf:value>
+            <rdf:value>https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_12.TEIP5.xml#div_28.d2e3140</rdf:value>
          </dcterms:URI>
       </dc:identifier>
       <bib:pages>36-40</bib:pages>
       <dc:date>1911-03-01</dc:date>
-      <dc:description>Citation Key: oclc_1034545644-i_12-div_1.d2e2102
-BibTeX Cite Key: oclc_1034545644-i_12-div_1.d2e2102
+      <dc:description>Citation Key: oclc_1034545644-i_12-div_28.d2e3140
+BibTeX Cite Key: oclc_1034545644-i_12-div_28.d2e3140
 oclc: 1034545644
 place: القاهرة
 publisher: مطبعة المعارف

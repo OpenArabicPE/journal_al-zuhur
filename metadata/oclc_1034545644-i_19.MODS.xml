@@ -34,7 +34,6 @@
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <publisher xml:lang="ar">مطبعة المعارف</publisher>
-            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
             <dateIssued encoding="w3cdtf">1911-12-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
@@ -60,12 +59,12 @@
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e254</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e254</url>
+         <identifier type="url">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e254</identifier>
+         <identifier type="url">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e254</identifier>
       </location>
       <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+         <languageTerm authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"
+                       type="code">ar</languageTerm>
       </language>
    </mods>
    <mods>
@@ -103,7 +102,6 @@
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <publisher xml:lang="ar">مطبعة المعارف</publisher>
-            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
             <dateIssued encoding="w3cdtf">1911-12-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
@@ -129,12 +127,12 @@
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e330</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e330</url>
+         <identifier type="url">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e330</identifier>
+         <identifier type="url">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e330</identifier>
       </location>
       <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+         <languageTerm authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"
+                       type="code">ar</languageTerm>
       </language>
    </mods>
    <mods>
@@ -166,7 +164,6 @@
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <publisher xml:lang="ar">مطبعة المعارف</publisher>
-            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
             <dateIssued encoding="w3cdtf">1911-12-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
@@ -192,12 +189,74 @@
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e408</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e408</url>
+         <identifier type="url">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e408</identifier>
+         <identifier type="url">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e408</identifier>
       </location>
       <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+         <languageTerm authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"
+                       type="code">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title xml:lang="ar">رسائل غرام بين نساء شهيرات ورجال عظام: الرسالة الرابعة</title>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local" xml:lang="en">journalArticle</genre>
+      <genre authority="marcgt" xml:lang="en">article</genre>
+      <relatedItem type="host">
+         <titleInfo>
+            <title xml:lang="ar">الزهور</title>
+            <subTitle xml:lang="ar">مجلة أدبية فنية علمية</subTitle>
+         </titleInfo>
+         <genre authority="marcgt">journal</genre>
+         <name type="personal"
+               xml:lang="ar"
+               valueURI="https://viaf.org/viaf/305214858">
+            <namePart type="family" xml:lang="ar">الجميل</namePart>
+            <namePart type="given" xml:lang="ar">انطوان</namePart>
+            <role>
+               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+            </role>
+         </name>
+         <originInfo>
+            <place>
+               <placeTerm type="text"
+                          xml:lang="ar"
+                          valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
+            </place>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <dateIssued encoding="w3cdtf">1911-12-01</dateIssued>
+            <issuance>continuing</issuance>
+         </originInfo>
+         <part>
+            <detail type="volume">
+               <number>2</number>
+            </detail>
+            <detail type="issue">
+               <number>8</number>
+            </detail>
+            <extent unit="pages">
+               <start>402</start>
+               <end>406</end>
+            </extent>
+         </part>
+         <identifier type="BibTeX">oclc_1034545644-i_19-div_4.d2e982</identifier>
+         <identifier type="oape">3</identifier>
+         <identifier type="jid">40</identifier>
+         <identifier type="OCLC">1034545644</identifier>
+         <identifier type="URI">http://waqfeya.com/book.php?bid=6507</identifier>
+         <identifier type="URI">http://shamela.ws/index.php/book/36534</identifier>
+         <identifier type="URI">oclc_1034545644-i_19</identifier>
+      </relatedItem>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
+      <location>
+         <identifier type="url">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_19.TEIP5.xml#div_4.d2e982</identifier>
+         <identifier type="url">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_19.TEIP5.xml#div_4.d2e982</identifier>
+      </location>
+      <language>
+         <languageTerm authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"
+                       type="code">ar</languageTerm>
       </language>
    </mods>
    <mods>
@@ -229,7 +288,6 @@
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <publisher xml:lang="ar">مطبعة المعارف</publisher>
-            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
             <dateIssued encoding="w3cdtf">1911-12-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
@@ -255,12 +313,12 @@
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e504</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e504</url>
+         <identifier type="url">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e504</identifier>
+         <identifier type="url">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e504</identifier>
       </location>
       <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+         <languageTerm authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"
+                       type="code">ar</languageTerm>
       </language>
    </mods>
    <mods>
@@ -305,7 +363,6 @@
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <publisher xml:lang="ar">مطبعة المعارف</publisher>
-            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
             <dateIssued encoding="w3cdtf">1911-12-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
@@ -331,12 +388,12 @@
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e708</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e708</url>
+         <identifier type="url">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e708</identifier>
+         <identifier type="url">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e708</identifier>
       </location>
       <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+         <languageTerm authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"
+                       type="code">ar</languageTerm>
       </language>
    </mods>
    <mods>
@@ -368,7 +425,6 @@
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <publisher xml:lang="ar">مطبعة المعارف</publisher>
-            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
             <dateIssued encoding="w3cdtf">1911-12-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
@@ -394,12 +450,12 @@
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e781</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e781</url>
+         <identifier type="url">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e781</identifier>
+         <identifier type="url">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e781</identifier>
       </location>
       <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+         <languageTerm authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"
+                       type="code">ar</languageTerm>
       </language>
    </mods>
    <mods>
@@ -460,7 +516,6 @@
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <publisher xml:lang="ar">مطبعة المعارف</publisher>
-            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
             <dateIssued encoding="w3cdtf">1911-12-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
@@ -486,12 +541,12 @@
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e899</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e899</url>
+         <identifier type="url">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e899</identifier>
+         <identifier type="url">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e899</identifier>
       </location>
       <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+         <languageTerm authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"
+                       type="code">ar</languageTerm>
       </language>
    </mods>
    <mods>
@@ -529,7 +584,6 @@
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <publisher xml:lang="ar">مطبعة المعارف</publisher>
-            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
             <dateIssued encoding="w3cdtf">1911-12-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
@@ -555,12 +609,12 @@
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e1921</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e1921</url>
+         <identifier type="url">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e1921</identifier>
+         <identifier type="url">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e1921</identifier>
       </location>
       <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+         <languageTerm authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"
+                       type="code">ar</languageTerm>
       </language>
    </mods>
    <mods>
@@ -601,7 +655,6 @@
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <publisher xml:lang="ar">مطبعة المعارف</publisher>
-            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
             <dateIssued encoding="w3cdtf">1911-12-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
@@ -627,12 +680,12 @@
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e2034</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e2034</url>
+         <identifier type="url">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e2034</identifier>
+         <identifier type="url">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e2034</identifier>
       </location>
       <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+         <languageTerm authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"
+                       type="code">ar</languageTerm>
       </language>
    </mods>
    <mods>
@@ -664,7 +717,6 @@
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <publisher xml:lang="ar">مطبعة المعارف</publisher>
-            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
             <dateIssued encoding="w3cdtf">1911-12-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
@@ -690,12 +742,12 @@
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e2082</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e2082</url>
+         <identifier type="url">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e2082</identifier>
+         <identifier type="url">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e2082</identifier>
       </location>
       <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+         <languageTerm authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"
+                       type="code">ar</languageTerm>
       </language>
    </mods>
    <mods>
@@ -727,7 +779,6 @@
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <publisher xml:lang="ar">مطبعة المعارف</publisher>
-            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
             <dateIssued encoding="w3cdtf">1911-12-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
@@ -753,12 +804,12 @@
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e2734</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e2734</url>
+         <identifier type="url">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e2734</identifier>
+         <identifier type="url">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_19.TEIP5.xml#div_1.d2e2734</identifier>
       </location>
       <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+         <languageTerm authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"
+                       type="code">ar</languageTerm>
       </language>
    </mods>
 </modsCollection>

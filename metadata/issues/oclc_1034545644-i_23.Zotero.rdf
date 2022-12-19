@@ -249,6 +249,60 @@ publisher: مطبعة المعارف
 </dc:description>
       <z:language>ar</z:language>
    </bib:Article>
+   <bib:Article rdf:about="#oclc_1034545644-i_23-div_5.d2e1846">
+      <z:itemType>magazineArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:volume>3</prism:volume>
+            <prism:number>2</prism:number>
+            <dc:title>الزهور: مجلة أدبية فنية علمية</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>رسائل غرام بين نساء شهيرات ورجال عظام: الرسالة الثامنة</dc:title>
+      <z:shortTitle>رسائل غرام بين نساء شهيرات ورجال عظام</z:shortTitle>
+      <bib:authors>
+         <rdf:Seq/>
+      </bib:authors>
+      <bib:editors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>الجميل</foaf:surname>
+                  <foaf:givenName>انطوان</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:editors>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>القاهرة</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name>مطبعة المعارف</foaf:name>
+         </foaf:Organization>
+      </dc:publisher>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_23.TEIP5.xml#div_5.d2e1846</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_23.TEIP5.xml#div_5.d2e1846</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <bib:pages>79-82</bib:pages>
+      <dc:date>1912-04-01</dc:date>
+      <dc:description>Citation Key: oclc_1034545644-i_23-div_5.d2e1846
+BibTeX Cite Key: oclc_1034545644-i_23-div_5.d2e1846
+oclc: 1034545644
+place: القاهرة
+publisher: مطبعة المعارف
+</dc:description>
+      <z:language>ar</z:language>
+   </bib:Article>
    <bib:Article rdf:about="#oclc_1034545644-i_23-div_1.d2e1304">
       <z:itemType>magazineArticle</z:itemType>
       <dcterms:isPartOf>
