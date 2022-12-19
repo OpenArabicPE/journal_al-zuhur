@@ -654,9 +654,10 @@
 
             </p>
          </div>
-         <div change="#d2e64 #d2e223 #d2e228" type="item" subtype="article" xml:lang="ar" xml:id="div_1.d2e1242">
+         <div change="#d2e64 #d2e223 #d2e228" type="section" xml:lang="ar" xml:id="div_1.d2e1242">
             <head change="#d2e223 #d2e228" xml:lang="ar" xml:id="head_5.d2e1244">رسائل غرام <lb change="#d2e145" xml:id="lb_1.d2e1492"/>بين نساء شهيرات ورجال عظام</head>
-            <p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1250">الرسالة الثامنة</p>
+            <div type="item" subtype="article">
+            <head change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1250">الرسالة الثامنة</head>
             <p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1253">من توماس هود إلى روح مس كليمانسي</p>
             <p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1256">(توماس هود شاعر من أبلغ شعراء الانكليز عاش في النصف الأول من المئة التاسعة عشرة. توفيت أنه وتركته طفلاً لعناية رابّته فنشأ رقيق الإحساس شديد التأثر حتى بلغت به رقة الشعر حد الجنون. وكان يهوى فتاة جميلة تدعى مس كليمانسي عاهدها على الاقتران ولكن فرط الديون التي كان يُطالب بها ألجأته إلى الفرار من انكلترا فلم يرجع إليها إلاَّ بسبب موت حبيبته. وقد كتب إليها الرسالة الآتية على أثر موتها ونظم فيها قصيدة هي أرق ما تصوره شاعر في هذا الموضوع)</p>
             <p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1260">أيتها الروح الطاهرة:</p>
@@ -683,6 +684,7 @@
             <p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1294">بقلم <persName change="#d3e209 #d2e223 #d2e228 #d9e448" ref="jaraid:pers:1927 oape:pers:1831" xml:lang="ar" xml:id="persName_8.d2e1296">سليم<addName type="theophoric" xml:lang="ar" change="#d2e469" xml:id="addName_4.d2e1867">عبد الاحد</addName></persName></p>
             <byline change="#d2e198 #d2e223 #d2e228" xml:lang="ar" xml:id="byline_4.d2e1299">توماس هود</byline>
          </div>
+     </div>
          <div change="#d2e64 #d2e223 #d2e228" type="item" subtype="article" xml:lang="ar" xml:id="div_1.d2e1304">
             <head change="#d2e223 #d2e228" xml:lang="ar" xml:id="head_6.d2e1306">شيء عن الفن</head>
             <p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e1309">كتبتُ في <bibl resp="#xslt" type="periodical" subtype="journal" change="#d9e381 #d2e403 #d2e415" xml:id="bibl_2.d2e1749" xml:lang="ar">مجلة <title level="j" change="#d9e381 #d2e403 #d2e415 #d9e417" xml:id="title_8.d2e1751" xml:lang="ar" ref="oclc:1034545644 jaraid:bibl:t1r1668 oape:bibl:3" resp="#xslt">الزهور</title></bibl>  مقالً تحت هذا العنوان , فتفضلت السيدة <persName change="#d3e209 #d2e223 #d2e228 #d9e448" ref="jaraid:pers:365 oape:pers:2247" xml:lang="ar" xml:id="persName_9.d2e1314">لبيبة هاشم</persName> بالردّ عليَّ مبديةً رأياً غير رأيي. فلم يذهلني ذلك لعلمي أن قيمة الفنون الجميلة في نظر السيدة لبيبة توازي قيمة خرافات العجائز وقصص الغول وعنقاء بنت الريم في نظر الفيلسوف الباحث , فضلاً عن أن حضرتها تسيء الظن في الجماعة الفّنيين وربما تحسبهم أعضاء عليلة في جسم المجموع الإنساني. فلذا أظنها مستحسنة في سرّها أن يمرَّ الطبيب آلته الكهربائية على جسم كل واحدٍ من أفراد هذه الزمرة الخبيثة: زمرة الموسيقيين والمصوّرين والنقاشين والشعراء , لعلهم يعودون

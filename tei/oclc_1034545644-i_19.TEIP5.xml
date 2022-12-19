@@ -197,9 +197,10 @@
             <byline change="#d2e198 #d2e223 #d2e228" xml:lang="ar" xml:id="byline_1.d2e400"><persName change="#d2e223 #d2e228 #d9e470" xml:lang="ar" xml:id="persName_2.d2e401" ref="oape:pers:6714">توفيق جريديني</persName>
 </byline>
          </div><pb n="n2-p402" ed="shamela" corresp="../epub/shamela_36534/OEBPS/xhtml/P962.xhtml" change="#d2e228" xml:id="pb_10.d2e404"/><pb change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" n="402" facs="#facs_402" xml:id="pb_20.d2e645"/>
-         <div change="#d2e64 #d2e223 #d2e228" type="item" subtype="article" xml:lang="ar" xml:id="div_1.d2e408">
+         <div change="#d2e64 #d2e223 #d2e228" type="section" xml:lang="ar" xml:id="div_1.d2e408">
             <head change="#d2e223 #d2e228" xml:lang="ar" xml:id="head_4.d2e410">رسائل غرام <lb change="#d2e145" xml:id="lb_1.d2e651"/>بين نساء شهيرات ورجال عظام</head>
-            <p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e416">الرسالة الرابعة</p>
+            <div type="item" subtype="article">
+            <head change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e416">الرسالة الرابعة</head>
             <p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e419">من مدام ركاميه إلى السير رالف انزورث</p>
             <p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e422">(في القرن الثامن عشر ولدت فرنسا للعالم نبوليون ابن المريخ ومدام ركاميه ابنة الزهرة. فأخضع الأول العالم بسيفه وأخضعته الثانية بجمالها. واشتد النضال بين الاثنين. فبينما كان العالم يركع عند قدمي باريس كانت باريس تركع عند قدمي مدام ركاميه. وأراد ذلك الجبار أن يتزوجها فرفضته لأن مفتاح قلبها كان بيد شاب من أشراف الإنكليز.</p>
             <p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e426">ولم يكن نبوليون الرجل الوحيد الذي رفضته. فقد ذكر التاريخ من الذين تزاحموا عليها عدداً غير قليل منهم البرنس أوغسطوس البروسياني والدوق ولنتون الإنكليزي وغرندوق آخر عظيم وجمهور من الحكام والأشراف والعظماء ورجال السيف والقلم. فكانت ترفض الجميع على حد سواء لأنها وهبت قلبها للشاب المذكور وقد كان سابقاً رئيس جمعية تألفت يومئذ من أشراف الإنكليز لإنقاذ الأشراف الفرنسويين من مخالب الثورة الفرنسوية.</p>
@@ -239,6 +240,7 @@
             <p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e491">وسادتها كأنها تقول: أنا أخبر بنفسي من الطبيب حقاً لو تراها اليوم لأدهشك كم قد غيرها الزمان. ليتك تحضر وتشاهدها فلعل رؤيتك تعيد إليها شيئاً من الحياة. . .</p>
             <p change="#d2e73 #d2e223 #d2e228" xml:lang="ar" xml:id="p_2.d2e494">(بقلم <persName change="#d3e209 #d2e223 #d2e228 #d9e470" ref="jaraid:pers:1927 oape:pers:1831" xml:lang="ar" xml:id="persName_3.d2e496">سليم<addName type="theophoric" xml:lang="ar" change="#d2e492" xml:id="addName_2.d2e1048">عبد الاحد</addName></persName>)</p>
             <byline change="#d2e198 #d2e223 #d2e228" xml:lang="ar" xml:id="byline_2.d2e500">مدام ستايل</byline>
+        </div>
          </div>
          <div change="#d2e64 #d2e223 #d2e228" type="item" subtype="article" xml:lang="ar" xml:id="div_1.d2e504">
             <head change="#d2e223 #d2e228" xml:lang="ar" xml:id="head_5.d2e506">الحرب اليونانية العثمانية</head>

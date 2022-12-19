@@ -47,12 +47,13 @@ If you just want to browse the edition in a more human-readable view, start [her
 ## to do
 
 1. mark up articles in sections:[^1]
-    - **done** في حدائق العرب
-        + note: this did not work reliably (e.g. 2(5), 2(1)), or I did assume that there was only a single article in this section
-    - **done** في جنائن الغرب
-    - أزهار وأشواك
-    - في رياض الشعر
-    - ثمرات المطابع
+    - [x] في حدائق العرب
+        + note: this did not work reliably (e.g. 2(5), 2(1)), or I did assume that there was only a single article in this section. Manually fixed this issue
+    - [x] في جنائن الغرب
+    - [x] رسائل غرام بين نساء شهيرات ورجال عظام
+    - [ ] أزهار وأشواك
+    - [ ] في رياض الشعر
+    - [ ] ثمرات المطابع
         + articles commence with a short string followed by a hyphen in the first paragraph
 2. mark-up toponyms in bylines
 3. heads: multi-line heads are currently commonly only catching the first line
