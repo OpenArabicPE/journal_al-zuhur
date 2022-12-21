@@ -57,8 +57,8 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc change="#d2e401" xml:id="revisionDesc_1.d2e179" xml:lang="en"><tei:change when="2022-12-20" who="#pers_TG" xml:id="d10e552" xml:lang="en">Added references to local authority file (<tei:ref target="/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change>
-         <tei:change when="2022-12-19" who="#pers_TG" xml:id="d2e545" xml:lang="en">Automatically split all <tei:tag>div type="section"</tei:tag> into subsections of <tei:tag>div type="article"</tei:tag>, using paragraphs with a length of 30 or less as indicator of a heading.</tei:change>
+      <revisionDesc change="#d2e401" xml:id="revisionDesc_1.d2e179" xml:lang="en"><change when="2022-12-21" who="#github" xml:id="d2e567" xml:lang="en">Added the @xml:lang attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</change><change when="2022-12-21" who="#github" xml:id="d2e561" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><tei:change when="2022-12-20" who="#pers_TG" xml:id="d10e552" xml:lang="en">Added references to local authority file (<tei:ref target="/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml" change="#d2e561 #d2e567" xml:id="ref_1.d2e188" xml:lang="en">/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi change="#d2e561 #d2e567" xml:id="gi_1.d2e191" xml:lang="en">placeName</tei:gi>s without such references based on  <tei:gi change="#d2e561 #d2e567" xml:id="gi_1.d2e193" xml:lang="en">place</tei:gi>s mentioned in the authority file.</tei:change>
+         <tei:change when="2022-12-19" who="#pers_TG" xml:id="d2e545" xml:lang="en">Automatically split all <tei:tag change="#d2e561 #d2e567" xml:id="tag_1.d2e198" xml:lang="en">div type="section"</tei:tag> into subsections of <tei:tag change="#d2e561 #d2e567" xml:id="tag_1.d2e200" xml:lang="en">div type="article"</tei:tag>, using paragraphs with a length of 30 or less as indicator of a heading.</tei:change>
          <change when="2022-02-05" who="#github" xml:id="d2e535" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change>
          <tei:change when="2022-02-05" who="#pers_TG" xml:id="d10e524" xml:lang="en">Added references to local authority file (<tei:ref change="#d2e535" target="/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" xml:id="ref_1.d2e188" xml:lang="en">/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi change="#d2e535" xml:id="gi_1.d2e191" xml:lang="en">titles</tei:gi>s without such references based on <tei:gi change="#d2e535" xml:id="gi_1.d2e194" xml:lang="en">biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change>
          <change when="2021-11-17" who="#github" xml:id="d2e522" xml:lang="en">Added the @xml:lang attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</change>
@@ -823,8 +823,8 @@
          </div>
          <div change="#d2e64 #d2e223 #d2e228" type="section" xml:id="div_1.d2e1763" xml:lang="ar">
             <head change="#d2e223 #d2e228" xml:id="head_15.d2e1765" xml:lang="ar">أزهار وأشواك</head>
-            <tei:div change="#d2e545" subtype="article" type="item">
-               <tei:head change="#d2e545">شم النسيم</tei:head>
+            <tei:div change="#d2e545 #d2e561 #d2e567" subtype="article" type="item" xml:id="div_26.d2e2701" xml:lang="ar">
+               <tei:head change="#d2e545 #d2e561 #d2e567" xml:id="head_26.d2e2703" xml:lang="ar">شم النسيم</tei:head>
                <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e1771" xml:lang="ar">كان يوم العيد وكان بعده يوم شم النسيم، احتفلت به مصر كبيرها وصغيرها، وغنيها وفقيرها، ساد السرور، وعم الابتهاج والحبور. جميلة الأعياد التي تشترك فيها أمة بأسرها، وخصوصاً متى كانت هذه الأمة - كأكثر أمم الشرق - مؤلفة من عناصر مختلفة، وإذا كان لا شيء يقرّب القلوب مثل الاشتراك في الأحزان فكذلك قل عن الاشتراك في الأفراح. فالعاطفة المتبادلة المشتركة مدعاة إلى التآلف والتسالم. كل ذلك تجلى بأجمل مظاهره في العاصمة وضواحيها - وفي سائر مدن القطر بالطبع - حيث كانت المسرة رائد الجميع والغبطة مرفرفة على كل الرؤوس، ولسان القوم ينشد مع صديقي الشاعر المصري:</p>
                <lg change="#d2e82 #d2e223 #d2e228" xml:id="lg_17.d2e1774" xml:lang="ar">
                   <l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e1776" xml:lang="ar"> <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e1778" xml:lang="ar">العمر يومٌ للسرو</seg> <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e1781" xml:lang="ar">ر وألف يومٍ للهموم</seg> </l>
@@ -840,24 +840,24 @@
                </lg>
                <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e1837" xml:lang="ar">أما في بيروت فقد غنى الرصاص بين القوم، وأبرقت الخناجر، وسالت الدماء، فما اغرب ما يفهمون من الحرية والمساواة والإخاء. . . .!</p>
             </tei:div>
-            <tei:div change="#d2e545" subtype="article" type="item">
-               <tei:head change="#d2e545">القبلة</tei:head>
+            <tei:div change="#d2e545 #d2e561 #d2e567" subtype="article" type="item" xml:id="div_26.d2e2778" xml:lang="ar">
+               <tei:head change="#d2e545 #d2e561 #d2e567" xml:id="head_26.d2e2780" xml:lang="ar">القبلة</tei:head>
                <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e1843" xml:lang="ar">تلك الحركة اللطيفة التي تغنى بها الشعراء قديماً وحديثاً، تلك الإشارة البليغة إلى ما تكنّه - أو لا تكنه - الضمائر أصبحت الآن في خطر عظيم. والقتال شديد حولها بين جماعة الأطباء وأهل الشعر والشعور: الأولون مهاجمون يريدون استئصالها من العادات والآخرون مدافعون يريدون الذود عنها. قرأت أن أطباء المجلس الصحي في ولاية إنديانا الأمريكية وزعوا منشوراً جاء فيه: بأمر من مجلس الصحة العمومية نحظّر التقبيل ولاسيما التقبيل في الفم فأصبحت القبلة الآن - على ما يقال - تختلس اختلاساً في تلك الولاية بعد أن كانت مباحة. على أن فريقاً من الشبان اجتمعوا وعلقوا على منشور المجلس الصحي</p>
                <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e1846" xml:lang="ar">الملاحظة الآتية نحن لا تقبل فم أحد ولكننا لا نملك النفس عن تقبيل نرجس العيون وورد الخدود، فالقبلة ممنوعة في ولايتنا ولكنها مباحة في صفحة الوجه الصبوح. كن ما شئت إلا عضواً في مجلس الصحة. . . . <pb change="#d2e228" corresp="../epub/shamela_36534/OEBPS/xhtml/P716.xhtml" ed="shamela" n="n2-p156" xml:id="pb_44.d2e1848"/><pb change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_156" n="156" xml:id="pb_88.d2e2123"/> فما رأي قرائي وقارئاتي هل هم ينتصرون للأطباء للقضاء على القبلة، أم هم يقفون في جنب الحزب الثاني ويدافعون عنها. . .؟</p>
             </tei:div>
-            <tei:div change="#d2e545" subtype="article" type="item">
-               <tei:head change="#d2e545">هم وهن.</tei:head>
+            <tei:div change="#d2e545 #d2e561 #d2e567" subtype="article" type="item" xml:id="div_26.d2e2793" xml:lang="ar">
+               <tei:head change="#d2e545 #d2e561 #d2e567" xml:id="head_26.d2e2795" xml:lang="ar">هم وهن.</tei:head>
                <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e1855" xml:lang="ar">الله ما أشد الحرب التي أصلت نارها كاتبات الزهور الأديبات حول مسألة المرأة! هذه الحرب قديمة العهد - منذ آدم وحواء - ولكن أديباتنا قد جلن فيها جولات مشهودة على صفحات هذه المجلة. أنا اليوم لست كامل العدة لأنزل إلى الميدان، بل أقف بعيداً عن هذه المعمعة. وليسمح لي المتخاصمون أن أقص عليهم حادثتين من قبيل الرواية فقط:</p>
                <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e1858" xml:lang="ar">الأولى: حاصر كونراد الثالث إمبراطور ألمانيا مدينة وينسبرج فلم يتمكن من فتحها وإخضاع سكانها إلا بعد حصار طويل، ولذلك أحب الانتقام وأباح لعسكره السلب والنهب لكنه شفق على النساء فأذن لهن بالخروج من المدينة سالماتٍ وبأخذ أثمن ما لديهن. وما أعظم ما كانت دهشته عندما رأى كل امرأة قد حملت زوجها على ظهرها. فسأل عن معنى ذلك فأجبن بصوتٍ واحد ألم تسمح لنا بأخذ أثمن ما لدينا؟ وهل أثمن من رجالنا؟ فأعجب الإمبراطور بسمو عواطفهن وعفا عن المدينة.</p>
                <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e1861" xml:lang="ar">القصة الثانية: اشتدت العاصفة على إحدى السفن وهاجت عليها الأمواج وماجت حتى كادت تغرقها ومن عليها، فأمر القبطان أن يطرح إلى البحر كل ما هو ثقيل يستغنى عنه، فعمد أحد الركاب إلى امرأته وطرحها في لجج المياه قائلاً: هذا أثقل شيء لدي.</p>
-               <byline change="#d2e545">- حاصد  </byline>
+               <byline change="#d2e545 #d2e561 #d2e567" xml:id="byline_11.d2e2807" xml:lang="ar">- حاصد  </byline>
             </tei:div>
          </div>
          <pb change="#d2e228" corresp="../epub/shamela_36534/OEBPS/xhtml/P717.xhtml" ed="shamela" n="n2-p157" xml:id="pb_45.d2e1866"/>
          <pb change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_157" n="157" xml:id="pb_90.d2e2142"/>
          <div change="#d2e64 #d2e223 #d2e228" type="section" xml:id="div_1.d2e1870" xml:lang="ar">
             <head change="#d2e223 #d2e228" xml:id="head_16.d2e1872" xml:lang="ar">رواية الشهر</head>
-            <div subtype="article" type="item">
+            <div subtype="article" type="item" change="#d2e561 #d2e567" xml:id="div_27.d2e2822" xml:lang="ar">
                <head change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e1875" xml:lang="ar">الملك المسروق</head>
                <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e1878" xml:lang="ar">حكى الكاتب قال:</p>
                <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e1881" xml:lang="ar">جلست إلى السفير بعد طعام العشاء وقد ملأ كأسي ثم ملأ كأسه من الكونياك اللذين الذي كان قد اعتاده، واتكأ في مقعده مسنداً رأسه على شماله، ومشعلاً في يمناه سيكاراً طيب النكهة كان يرسل دخانه دفعةً إثر دفعة فتفوح منه رائحة ذكية. وكنت صامتاً أنظر إليه محترماً سكوته فلم أشأ أن أبادئه الحديث حتى رأيته قد مد يده إلى الكأس فتجرعها ثم ملأها والتفت إلي وقال:</p>

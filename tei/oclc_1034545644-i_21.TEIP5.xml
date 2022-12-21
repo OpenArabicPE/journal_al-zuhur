@@ -57,8 +57,8 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc change="#d2e477" xml:id="revisionDesc_1.d2e193" xml:lang="en"><tei:change when="2022-12-20" who="#pers_TG" xml:id="d10e584" xml:lang="en">Added references to local authority file (<tei:ref target="/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml">/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change>
-         <tei:change when="2022-12-20" who="#pers_TG" xml:id="d2e577" xml:lang="en">Automatically split all <tei:tag>div type="section"</tei:tag> into subsections of <tei:tag>div type="article"</tei:tag>, using paragraphs with a length of 30 or less as indicator of a heading.</tei:change>
+      <revisionDesc change="#d2e477" xml:id="revisionDesc_1.d2e193" xml:lang="en"><change when="2022-12-21" who="#github" xml:id="d2e599" xml:lang="en">Added the @xml:lang attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</change><change when="2022-12-21" who="#github" xml:id="d2e593" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><tei:change when="2022-12-20" who="#pers_TG" xml:id="d10e584" xml:lang="en">Added references to local authority file (<tei:ref target="/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml" change="#d2e593 #d2e599" xml:id="ref_1.d2e188" xml:lang="en">/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi change="#d2e593 #d2e599" xml:id="gi_1.d2e191" xml:lang="en">placeName</tei:gi>s without such references based on  <tei:gi change="#d2e593 #d2e599" xml:id="gi_1.d2e193" xml:lang="en">place</tei:gi>s mentioned in the authority file.</tei:change>
+         <tei:change when="2022-12-20" who="#pers_TG" xml:id="d2e577" xml:lang="en">Automatically split all <tei:tag change="#d2e593 #d2e599" xml:id="tag_1.d2e198" xml:lang="en">div type="section"</tei:tag> into subsections of <tei:tag change="#d2e593 #d2e599" xml:id="tag_1.d2e200" xml:lang="en">div type="article"</tei:tag>, using paragraphs with a length of 30 or less as indicator of a heading.</tei:change>
          <change when="2022-12-19" who="#github" xml:id="d2e549" xml:lang="en">Added the @xml:lang attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</change>
          <change when="2022-12-19" who="#github" xml:id="d2e547" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change>
          <change when="2021-11-17" who="#github" xml:id="d2e545" xml:lang="en">Added the @xml:lang attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</change>
@@ -389,10 +389,10 @@
             <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e291" xml:lang="ar">ألا يخيل إلى القارئ عند تلاوة هذه الصفحة من تاريخ مصر القديم أنه يطالع تاريخها في هذه المدة. رأت مصر سني الشبع العظيم في جميع أرضها، ثم زحفت عليها سنو الجوع فأنستها رخاء وغناها. قام من أنذرها بمجيء العسر بعد اليسر، وإدبار الأيام بعد الإقبال، لكن صوت المرشد لم يقع في آذان مصغية، بل كان بعض القوم من اكبر العاملين على جر سني الجوع، بل هم الذين غلوا البقرات الحسان وكبلوها ووضعوها بين فكي البقرات القباح لتفتك بها. هم جعلوا مخدراً قوياً في الكأس التي رشفتها البلاد فزادوا في سكرتها، ولما أفاقت من سباتها العميق كانت <pb change="#d2e228" corresp="../epub/shamela_36534/OEBPS/xhtml/P1068.xhtml" ed="shamela" n="n2-p508" xml:id="pb_4.d2e293"/><pb change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_508" n="508" xml:id="pb_8.d2e510"/> يقظتها هائلة مروعة. وكان هذا البعض أول من ذهب ضحية هذا الحلم فعسى أن تكون هذه آخر صاعقة تنقض على البلاد فيعقبها شروق الشمس وتعود مصر إلى الرخاء والصفاء.</p>
          </div>
          <div change="#d2e64 #d2e223 #d2e228" subtype="article" type="item" xml:id="div_1.d2e297" xml:lang="ar">
-            <head change="#d2e223 #d2e228" xml:id="head_3.d2e299" xml:lang="ar">محادثة شبح<note place="bottom" type="bibliographic"><bibl>من وضع <author><persName>اناطول فرانس</persName></author> الكاتب المشهور و<respStmt>
-               <resp>تعريب</resp>
-               <persName>الياس افندي طنوس الحويك</persName>
-               </respStmt> الكاتب المجيد</bibl></note> <lb ed="print"/>عن أصل الحروف الهجائية</head>
+            <head change="#d2e223 #d2e228" xml:id="head_3.d2e299" xml:lang="ar">محادثة شبح<note place="bottom" type="bibliographic" change="#d2e593 #d2e599" xml:id="note_1.d2e1136" xml:lang="ar"><bibl change="#d2e593 #d2e599" xml:id="bibl_2.d2e1137" xml:lang="ar">من وضع <author change="#d2e593 #d2e599" xml:id="author_1.d2e1139" xml:lang="ar"><persName change="#d2e593 #d2e599" xml:id="persName_6.d2e1140" xml:lang="ar">اناطول فرانس</persName></author> الكاتب المشهور و<respStmt change="#d2e593 #d2e599" xml:id="respStmt_5.d2e1142" xml:lang="ar">
+               <resp change="#d2e593 #d2e599" xml:id="resp_5.d2e1144" xml:lang="ar">تعريب</resp>
+               <persName change="#d2e593 #d2e599" xml:id="persName_7.d2e1146" xml:lang="ar">الياس افندي طنوس الحويك</persName>
+               </respStmt> الكاتب المجيد</bibl></note> <lb ed="print" change="#d2e593" xml:id="lb_2.d2e1150"/>عن أصل الحروف الهجائية</head>
             <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e305" xml:lang="ar">كنت أكتب منذ زمانٍ طويل في سكون الليل وكان المنور (غطاء القنديل) يرسل على المنضدة ضوء القنديل ويبقي الظلام منتشراً على الكتب الموضوعة على طبقات تعلو الواحدة منها الأخرى في جهات الغرفة الأربع. وكانت النار الموشكة أن تنطفئ تبدو خلال الرماد كأنها شذرات من الياقوت. وكان دخان التبغ المهيج يمتزج بهواء الغرفة ويزيده تكثفاً وأمام لفافة من التبغ في قدح على كومة من الرماد يرتفع دخانها اللطيف الأزرق ارتفاعاً عمودياً. وكان شكل الظلمة في تلك الغرفة سرياً لأن الجالس فيها يشعر شعوراً مبهماً بروح تلك الكتب الملقاة في موضعها وقد سكن قلمي بين أناملي كأن النعاس قد عبث بأعطافه فجعلت أعمل الروية في أمور قديمة العهد وإذا بشخص غريب برز من دخان لفافتي كما يبرز من دخان العشب السحري. وكان شعره متجعداً، وعيناه <pb change="#d2e228" corresp="../epub/shamela_36534/OEBPS/xhtml/P1069.xhtml" ed="shamela" n="n2-p509" xml:id="pb_5.d2e307"/><pb change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_509" n="509" xml:id="pb_10.d2e525"/> نحلاوين براقتين وأنفه أقنى، وشفتاه غليظيين، ولحيته سوداء متجعدة على الزي الآشوري، ولونه نحاسياً فاتحاً، وقد طبعت على محياه علائم الدهاء والميل مع الهوى ميلاً عنيفاً، ودل شكل جسمه الربعة القامة ولباسه الفاخر على أنه من أولئك الآسيويين الذين كان الإغريقيون يطلقون عليهم اسم بربر. وكان لابساً على رأسه قبعة زرقاء مصنوعة على شكل سمكة ترصعها النجوم، ومرتدياً ثوباً أرجوانياً موشىً بصور الحيوانات وحاملاً بإحدى يديه مجذافاً وبالأخرى أدراجاً. فلم اضطرب عند رؤيته لاعتقادي أن ظهور الأشباح العديدة في المكاتب أمر طبيعي. ألا تظهر أشباح الموتى في العلامات التي تحفظ ذكرها؟ ودعوت الغريب إلى القعود فنبذ دعوتي وقال:</p>
             <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e310" xml:lang="ar">أرجو منك أن تدعني وشأني ولا تعتبرني حاضراً في هذا المكان فلقد أتيتك لأنظر ما تكتبه على هذا الورق العاطل لني أسر بذلك واعلم أن الأفكار التي تعبر عنها عليه لا تهمني البتة وإنما يهمني جداً منظر الحروف التي ترقمها عليه فأنا أعرفها وإن يكن قد درج على استعمالها ثمانية وعشرون قرناً وطرأ عليها تغيير ذو بال. وأنا اعرف هذه الباء التي كانت في أيامي تدعى بيت ومعناها بيت أو منزل وهذه اللام التي كنا نسميها لامد لمشابهة شكلها لشكل الجمة. وهذه الجيم مشتقة من الحرف الذي كان يقال له جمل في حروفنا الهجائية</p>
             <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e313" xml:lang="ar">ومعناه عنق البعير. وهذه الألف مشتقة من الفنا وهي على شكل رأس الثور. وأما الدال التي أشاهدها أمامي فإنها على مثال دالث المأخوذة عنها تمثل تماماً <pb change="#d2e228" corresp="../epub/shamela_36534/OEBPS/xhtml/P1070.xhtml" ed="shamela" n="n2-p510" xml:id="pb_6.d2e315"/><pb change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_510" n="510" xml:id="pb_12.d2e534"/> شكل مدخل مثلث الزوايا لخيمة مضروبة في رمال الصحراء إن أنت لم تجعل محيط تلك العلامة الدالة على عيشة البدو القديمة مستديراً برسمك خطاً منحنيا. ً لقد غيرتم الدالث وسائر حروفي الهجائية ولكنني لا أنحي عليكم باللائمة على ذلك لأنكم لم تفعلوه إلا حباً بالإيجاز والإسراع لاعتباركم قيمة الوقت فليس الوقت سوى التبر والعاج وريش النعام. إن الحياة قصيرة ولذلك يقضى على المرء أن يزاول التجارة ويركب مركب الأسفار دون أن يضيع دقيقة واحدة ليتسنى له أن يصيب الثروة ويصل إلى حد الشيخوخة وهو رائع في بحبوحة الهناء ونائل نصيبه من الاحترام.</p>
@@ -433,7 +433,7 @@
          </div>
          <div change="#d2e64 #d2e223 #d2e228" type="section" xml:id="div_1.d2e449" xml:lang="ar">
             <head change="#d2e223 #d2e228" xml:id="head_5.d2e451" xml:lang="ar">في جنائن الغرب</head>
-            <div subtype="article" type="item">
+            <div subtype="article" type="item" change="#d2e593 #d2e599" xml:id="div_5.d2e1319" xml:lang="ar">
                <head change="#d2e73 #d2e223 #d2e228 #d2e310" xml:id="p_2.d2e454" xml:lang="ar">حلابة جميلة</head>
                <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e457" xml:lang="ar">هي فتاة الريف البعيدة عن عالم الجمال الاصطناعي، نظرة من عينيها البراقتين تغير وجه الناظر إليها، هي تعرف أن نظرة الجميل خطيب صامت ينطق بمدح الفضيلة إلا أنها لا تبالي به، فضائلها تؤثر السكينة على الضوضاء، كأنها تجهل ما هي عليه من الجمال، وما أودع فيها الرحمن من كمال.</p>
                <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e460" xml:lang="ar">بطانة ثوبها - أي جسمها - أجمل كثيراً من ظاهرها. لأنها وإن كانت لا تلبس البز والأرجوان فهي مزدانة بالطهر والعفاف - أنعم به من حلة جميلة حاكتها يد الصانع العظيم لا يد الإنسان اللئيم. <pb change="#d2e228" corresp="../epub/shamela_36534/OEBPS/xhtml/P1083.xhtml" ed="shamela" n="n2-p523" xml:id="pb_19.d2e462"/><pb change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_523" n="523" xml:id="pb_38.d2e694"/> هي لا تفسد جمالها ولا تبلي ثوب صحتها بالنوم الكثير. لأنها تلقنت عن أمها الطبيعة أن عدم الاعتدال في النوم هو صدأ النفس، والنفس إذا علق بها الصدأ أفناها كما يفني الحديد. فلذا هي تبكر في الصباح بكور الطائر ولا تأوي إلى سريرها إلا إذا حان وقت النوم.</p>
@@ -448,7 +448,7 @@
                <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e493" xml:lang="ar">إذا اعتراها داء كان طبيبها هواء حديقتها البليل ودواءها من جني النحلة الحكيمة.</p>
                <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e496" xml:lang="ar">هي لا تخشى نازلة تداهمها إذا خرجت دون رفيق لأنها لا تقصد أذية أحد بل تريد أن ترد الشر خيراً الصاع صاعين. والحق هي ليس منفردة إنما تصحبها حاشية كبيرة من ترانيم مطربة وأناشيد منعشة.</p>
                <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e499" xml:lang="ar">هذه هي حياتها. ولا أمنية لها إلا أن تموت في زمن الربيع فتوضع الأزهار والرياحين فوق نعشها.</p>
-               <byline change="#d2e198 #d2e223 #d2e228" xml:id="byline_3.d2e505" xml:lang="ar">(عن <persName>السر توماس أوفبري</persName>) ببادى غالى - <placeName ref="oape:place:785" resp="#xslt" change="#d10e584">الخرجوم</placeName> </byline>
+               <byline change="#d2e198 #d2e223 #d2e228" xml:id="byline_3.d2e505" xml:lang="ar">(عن <persName change="#d2e593 #d2e599" xml:id="persName_10.d2e1373" xml:lang="ar">السر توماس أوفبري</persName>) ببادى غالى - <placeName ref="oape:place:785" resp="#xslt" change="#d10e584 #d2e593 #d2e599" xml:id="placeName_5.d2e1375" xml:lang="ar">الخرجوم</placeName> </byline>
             </div>
          </div>
          <pb change="#d2e228" corresp="../epub/shamela_36534/OEBPS/xhtml/P1085.xhtml" ed="shamela" n="n2-p525" xml:id="pb_21.d2e507"/>
@@ -459,7 +459,7 @@
                <head change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e520" xml:lang="ar">الرسالة السادسة</head>
                <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e523" xml:lang="ar">من الأميرة إميليا غوستاف إلى الأمير هنري أولدنزال</p>
                <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e526" xml:lang="ar">(كان الأمير رودلف غوستاف ملك إحدى المقاطعات الألمانية قد تزوج في أثناء إحدى سياحاته بفرنسا فتاة فرنسوية وضيعة الأصل وكتم زواجه عن الناس ثم هجر زوجته وعاد إلى ألمانيا. وبعد زمن بلغه أن امرأته قد رزقت منه ابنة هي طريدة شريدة في أزقة باريس. فعاد إلى فرنسا وأخذ يبحث عنها إلى أن وجدها بعد عناء كبير ورجع بها إلى ألمانيا. وكان كل من يرها يقف حائراً مبهوتاً لجمالها الساحر فلم يمر على قدومها بضعة أيام حتى كان جمالها الرائع حديث القوم وموضوع تغزل الشعراء. ولم تكن محاسن آدابها تقل عن محاسن جمالها فقد كانت على جانب عظيم من الشمم وعزة النفس. واتفق أنها رأت ابن عمها البرنس هنري أولدنزال فأحبته وأحبها حباً مبرحاً. ولكن تاريخها الماضي كان في نظرها لطخة سوداء فلم تشأ أن تصم بها حياة ابن عمها. ففضلت الترهب حباً به. وهكذا فعلت على رغم إلحاح أهلها وجميع أهل البلاط. وماتت في دير جيرولستين شبعانة من متاعب الحياة وآلام التذكارات. وقد كتبت الرسالة الآتية إلى حبيبها عند أوائل دخولها إلى ذلك الدير).</p>
-               <div subtype="letter" type="item">
+               <div subtype="letter" type="item" change="#d2e593 #d2e599" xml:id="div_7.d2e1404" xml:lang="ar">
                   <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e538" xml:lang="ar">أيها الحبيب</p>
                   <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e541" xml:lang="ar">أمامي رسالتك الأخيرة، كلما قرأتها شعرت بشوق إليك وحنين إلى مخاطبتك. أراك رازحاً تحت ثقل من اليأس فيزيد بي حزني وأتمنى لو أننا لم ير بعضنا بعضاً قط، إذ لولا الحب ما كنت حزيناً منكسر القلب. <pb change="#d2e228" corresp="../epub/shamela_36534/OEBPS/xhtml/P1086.xhtml" ed="shamela" n="n2-p526" xml:id="pb_22.d2e543"/><pb change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_526" n="526" xml:id="pb_44.d2e777"/> ولو لم تعرفني ما شغلت بي عن العالم أجمع. فإن كان ذنبي إليك أنني أذكيت في قلبك جذوة الحب فإني مستعدة أن أطفئ تلك الجذوة وأكفر عن ذلك الذنب بأن أضع حداً لنبضات قلبي المثقل بأعباء الهموم وإلا فلماذا أنت حزين يا هنري؟ ولماذا يجعلك حبي شقياً عوضاً عن أن يمتعك بالسعادة والحبور؟ هل يسوءك أنني دخلت الدير وأنت تعلم لأجل من دخلته؟ أليس ذلك أسطع برهان على أن حبي لك صحيح ثابت ليس له بداءة ولا نهاية؟ فإن كنت تحبني كما احبك فلا تكتب إلي بلهجة اليائس، بل كن</p>
                   <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e546" xml:lang="ar">فرحاً مسروراً لأنني أحب أن أراك كذلك أيها الحبيب وينقبض صدري كلما تمثلتك حزيناً مثقلاً بالهموم.</p>
@@ -483,7 +483,7 @@
          <pb change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_529" n="529" xml:id="pb_50.d2e835"/>
          <div change="#d2e64 #d2e223 #d2e228" prev="oclc_1034545644-i_18.TEIP5.xml#div_1.d2e488" subtype="article" type="item" xml:id="div_1.d2e601" xml:lang="ar">
             <head change="#d2e223 #d2e228" xml:id="head_8.d2e603" xml:lang="ar">الشعر</head>
-            <div type="section">
+            <div type="section" change="#d2e593 #d2e599" xml:id="div_10.d2e1482" xml:lang="ar">
                <head change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e606" xml:lang="ar">( ٢ )</head>
                <head change="#d2e73 #d2e223 #d2e228" type="sub" xml:id="p_2.d2e612" xml:lang="ar">الوجه اللفظي والوجه المعنوي</head>
                <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e615" xml:lang="ar">إن حقيقة الشعر لا تتوقف على الوجه اللفظي الذي مراده الوزن، فإن للوجه المعنوي فعلاً كبيراً في ماهية الشعر لا بل هو الروح، وقد قال أرسو وهو أول من كتب في فلسفة الشعر: إن حقيقة الأشياء هي التي تميز القول العشري عن ماهية غيره وتجعل الشاعر شاعراً وليس هيئة الشعر.</p>
@@ -510,8 +510,8 @@
          </div>
          <div change="#d2e64 #d2e223 #d2e228" type="section" xml:id="div_1.d2e691" xml:lang="ar">
             <head change="#d2e223 #d2e228" xml:id="head_9.d2e693" xml:lang="ar">في رياض الشعر</head>
-            <tei:div change="#d2e577" subtype="article" type="item">
-               <tei:head change="#d2e577">إلى سابا باش</tei:head>
+            <tei:div change="#d2e577 #d2e593 #d2e599" subtype="article" type="item" xml:id="div_12.d2e1578" xml:lang="ar">
+               <tei:head change="#d2e577 #d2e593 #d2e599" xml:id="head_13.d2e1580" xml:lang="ar">إلى سابا باش</tei:head>
                <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e699" xml:lang="ar">كتب سعادة <persName change="#d2e223 #d2e228" ref="viaf:45752632 jaraid:pers:1029 oape:pers:777" xml:id="persName_6.d2e701" xml:lang="ar">اسماعيل صبري <roleName cert="high" change="#d9e519 #d2e533 #d2e538" resp="#xslt" type="title" xml:id="roleName_1.d2e1455" xml:lang="ar">باشا</roleName> </persName> وكيل نظارة الحقانية السابق إلى سعادة السر يوسف سابا باشا ناظ المالية يعزيه على فقد نجله فريد وقد قصف الموت غصنه الرطب في خلال الشهر الفائت:</p>
                <lg change="#d2e82 #d2e223 #d2e228" xml:id="lg_2.d2e705" xml:lang="ar">
                   <l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e707" xml:lang="ar"> <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e709" xml:lang="ar">سابا اتق الله وخل الأسى</seg> <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e712" xml:lang="ar">لجاهلٍ يعذر في جهله</seg> </l>
@@ -526,12 +526,12 @@
                   <l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e771" xml:lang="ar"> <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e773" xml:lang="ar">واصبر فكم من جزع آكل</seg> <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e776" xml:lang="ar">من صحة المرء ومن فضله</seg> </l>
                   <l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e780" xml:lang="ar"> <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e782" xml:lang="ar">فالليث لا تنسيه أحزانه</seg> <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e785" xml:lang="ar">مقامه أن ضيم في شبله</seg> </l>
                </lg>
-               <byline><persName change="#d3e209 #d2e223 #d2e228 #d9e519" ref="viaf:45752632 jaraid:pers:1029 oape:pers:777" xml:id="persName_7.d2e792" xml:lang="ar"><forename change="#d2e540" xml:id="forename_7.d2e1554" xml:lang="ar">اسماعيل</forename><surname change="#d2e540" xml:id="surname_7.d2e1556" xml:lang="ar">صبري</surname></persName></byline>
+               <byline change="#d2e593 #d2e599" xml:id="byline_7.d2e1677" xml:lang="ar"><persName change="#d3e209 #d2e223 #d2e228 #d9e519" ref="viaf:45752632 jaraid:pers:1029 oape:pers:777" xml:id="persName_7.d2e792" xml:lang="ar"><forename change="#d2e540" xml:id="forename_7.d2e1554" xml:lang="ar">اسماعيل</forename><surname change="#d2e540" xml:id="surname_7.d2e1556" xml:lang="ar">صبري</surname></persName></byline>
             </tei:div>
             <pb change="#d2e228" corresp="../epub/shamela_36534/OEBPS/xhtml/P1094.xhtml" ed="shamela" n="n2-p534" xml:id="pb_30.d2e801"/>
             <pb change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_534" n="534" xml:id="pb_60.d2e1042"/>
-            <tei:div change="#d2e577" subtype="article" type="item">
-               <tei:head change="#d2e577"> قطرة دم</tei:head>
+            <tei:div change="#d2e577 #d2e593 #d2e599" subtype="article" type="item" xml:id="div_12.d2e1689" xml:lang="ar">
+               <tei:head change="#d2e577 #d2e593 #d2e599" xml:id="head_13.d2e1691" xml:lang="ar"> قطرة دم</tei:head>
                <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e805" xml:lang="ar">لقي <persName change="#d3e209 #d2e223 #d2e228 #d9e519" ref="viaf:102460074 jaraid:pers:641 oape:pers:931 wiki:Q1059713" xml:id="persName_8.d2e807" xml:lang="ar"><forename change="#d2e540" xml:id="forename_8.d2e1567" xml:lang="ar">خليل</forename><roleName change="#d2e540" type="title" xml:id="roleName_2.d2e1569" xml:lang="ar">افندي</roleName><surname change="#d2e540" xml:id="surname_8.d2e1571" xml:lang="ar">مطران</surname></persName> منذ أيام سيدة في إصبعها خاتم فصه من الياقوت فقال لصاحب كان معه:</p>
                <lg change="#d2e82 #d2e223 #d2e228" xml:id="lg_3.d2e820" xml:lang="ar">
                   <l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e822" xml:lang="ar"> <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e824" xml:lang="ar">حذار لقلبك من لحظها</seg> <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e827" xml:lang="ar">فما فيه من رحمة للمحب</seg> </l>
@@ -539,8 +539,8 @@
                </lg>
                <byline change="#d2e223 #d2e228" xml:id="byline_6.d2e841" xml:lang="ar"><persName change="#d3e209 #d2e223 #d2e228 #d9e519" ref="viaf:102460074 jaraid:pers:641 oape:pers:931 wiki:Q1059713" xml:id="persName_9.d2e842" xml:lang="ar"><forename change="#d2e540" xml:id="forename_9.d2e1598" xml:lang="ar">خليل</forename><surname change="#d2e540" xml:id="surname_9.d2e1600" xml:lang="ar">مطران</surname></persName></byline>
             </tei:div>
-            <tei:div change="#d2e577" subtype="article" type="item">
-               <tei:head change="#d2e577">عطفاً على الفقراء</tei:head>
+            <tei:div change="#d2e577 #d2e593 #d2e599" subtype="article" type="item" xml:id="div_12.d2e1735" xml:lang="ar">
+               <tei:head change="#d2e577 #d2e593 #d2e599" xml:id="head_13.d2e1737" xml:lang="ar">عطفاً على الفقراء</tei:head>
                <lg change="#d2e82 #d2e223 #d2e228" xml:id="lg_4.d2e854" xml:lang="ar">
                   <l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e856" xml:lang="ar"> <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e858" xml:lang="ar">ابني القصور بني الأطالس والغنى</seg> <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e861" xml:lang="ar">عطفاً على فقراء هذي الدار</seg> </l>
                   <l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e865" xml:lang="ar"> <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e867" xml:lang="ar">هم في الكهوف على الحضيض وأنتم</seg> <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e870" xml:lang="ar">بين الرياض وباذخ الأسوار</seg> </l>
@@ -561,8 +561,8 @@
                </lg>
                <byline change="#d2e223 #d2e228" xml:id="byline_7.d2e939" xml:lang="ar"><persName change="#d3e209 #d2e223 #d2e228 #d9e519" ref="viaf:60135237 jaraid:pers:1974 oape:pers:936 wiki:Q12218375" xml:id="persName_10.d2e940" xml:lang="ar"><forename change="#d2e540" xml:id="forename_10.d2e1693" xml:lang="ar">شبلي</forename><surname change="#d2e540" xml:id="surname_10.d2e1695" xml:lang="ar">ملاط</surname></persName></byline>
             </tei:div>
-            <tei:div change="#d2e577" subtype="article" type="item">
-               <tei:head change="#d2e577">أنا والبدر</tei:head>
+            <tei:div change="#d2e577 #d2e593 #d2e599" subtype="article" type="item" xml:id="div_12.d2e1833" xml:lang="ar">
+               <tei:head change="#d2e577 #d2e593 #d2e599" xml:id="head_13.d2e1835" xml:lang="ar">أنا والبدر</tei:head>
                <lg change="#d2e82 #d2e223 #d2e228" xml:id="lg_5.d2e947" xml:lang="ar">
                   <l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e949" xml:lang="ar"> <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e951" xml:lang="ar">أنا كالبدر عاشق وكلانا</seg> <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e954" xml:lang="ar">ساهر الجفن خاشع الطرف صابر</seg> </l>
                   <l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e958" xml:lang="ar"> <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e960" xml:lang="ar">نقتل الليل صامتين لئلا</seg> <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e963" xml:lang="ar">يعلم الليل ما تجن الضمائر</seg> </l>
@@ -584,8 +584,8 @@
                </lg>
                <byline change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e1028" xml:lang="ar"><persName change="#d2e427 #d2e486 #d9e519" ref="oape:pers:2704" xml:id="persName_13.d2e1628" xml:lang="ar">وليم غرزوزي</persName></byline>
             </tei:div>
-            <tei:div change="#d2e577" subtype="article" type="item">
-               <tei:head change="#d2e577">النحو في الشعر</tei:head>
+            <tei:div change="#d2e577 #d2e593 #d2e599" subtype="article" type="item" xml:id="div_12.d2e1927" xml:lang="ar">
+               <tei:head change="#d2e577 #d2e593 #d2e599" xml:id="head_13.d2e1929" xml:lang="ar">النحو في الشعر</tei:head>
                <lg change="#d2e82 #d2e223 #d2e228" xml:id="lg_7.d2e1035" xml:lang="ar">
                   <l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e1037" xml:lang="ar"> <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e1039" xml:lang="ar">سألتني عن التنازع يوماً</seg>
                      <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e1042" xml:lang="ar">غادة بالجمال تسبي وتصبي</seg> </l>
@@ -594,8 +594,8 @@
                </lg>
                <byline change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e1056" xml:lang="ar"><persName change="#d2e427 #d2e486 #d9e519" ref="viaf:8827545 oape:pers:1153 wiki:Q16122883" xml:id="persName_14.d2e1657" xml:lang="ar">امين<addName change="#d2e540" type="khitab" xml:id="addName_4.d2e1817" xml:lang="ar">ناصر الدين</addName></persName></byline>
             </tei:div>
-            <tei:div change="#d2e577" subtype="article" type="item">
-               <tei:head change="#d2e577">خلقت جميلاً</tei:head>
+            <tei:div change="#d2e577 #d2e593 #d2e599" subtype="article" type="item" xml:id="div_12.d2e1960" xml:lang="ar">
+               <tei:head change="#d2e577 #d2e593 #d2e599" xml:id="head_13.d2e1962" xml:lang="ar">خلقت جميلاً</tei:head>
                <lg change="#d2e82 #d2e223 #d2e228" xml:id="lg_8.d2e1062" xml:lang="ar">
                   <l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e1064" xml:lang="ar"> <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e1066" xml:lang="ar">خلقت جميلاً ولم تعطف</seg> <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e1069" xml:lang="ar">وفيك الحنان ولم ترأف</seg> </l>
                   <l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e1073" xml:lang="ar"> <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e1075" xml:lang="ar">وتقتلني سهام اللحاظ</seg> <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e1078" xml:lang="ar">وتوهم أنك لم تعرف</seg> </l>
@@ -613,8 +613,8 @@
             </tei:div>
             <pb change="#d2e228" corresp="../epub/shamela_36534/OEBPS/xhtml/P1096.xhtml" ed="shamela" n="n2-p536" xml:id="pb_32.d2e1131"/>
             <pb change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_536" n="536" xml:id="pb_64.d2e1374"/>
-            <tei:div change="#d2e577" subtype="article" type="item">
-               <tei:head change="#d2e577">عهد الطفولة</tei:head>
+            <tei:div change="#d2e577 #d2e593 #d2e599" subtype="article" type="item" xml:id="div_12.d2e2045" xml:lang="ar">
+               <tei:head change="#d2e577 #d2e593 #d2e599" xml:id="head_13.d2e2047" xml:lang="ar">عهد الطفولة</tei:head>
                <lg change="#d2e82 #d2e223 #d2e228" xml:id="lg_9.d2e1134" xml:lang="ar">
                   <l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e1136" xml:lang="ar"> <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e1138" xml:lang="ar">طوت عهود الصبى يد القصر</seg>
                      <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e1141" xml:lang="ar">وشوبت صفوهن بالكدر</seg> </l>
@@ -634,7 +634,7 @@
                      <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e1223" xml:lang="ar">ض خفوق الحيا على الشجر</seg> </l>
                   <l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e1227" xml:lang="ar"> <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e1229" xml:lang="ar">وحولنا صبية مجمعة</seg> <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e1232" xml:lang="ar">كأنهم باقة من الزهر</seg> </l>
                </lg>
-               <p change="#d2e577">* * *</p>
+               <p change="#d2e577 #d2e593 #d2e599" xml:id="p_89.d2e2153" xml:lang="ar">* * *</p>
                <lg change="#d2e82 #d2e223 #d2e228" xml:id="lg_10.d2e1241" xml:lang="ar">
                   <l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e1243" xml:lang="ar"> <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e1245" xml:lang="ar">أين نداء البنات (يا ولد)</seg>
                      <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e1248" xml:lang="ar">يمزجن جد المقال بالهذر</seg> </l>
@@ -662,7 +662,7 @@
                   <l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e1339" xml:lang="ar"> <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e1341" xml:lang="ar">وقل لمن يعذل المحب أفق</seg>
                      <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e1344" xml:lang="ar">لهذه عبرة لمعتبر</seg> </l>
                </lg>
-               <p change="#d2e577">* * *</p>
+               <p change="#d2e577 #d2e593 #d2e599" xml:id="p_90.d2e2267" xml:lang="ar">* * *</p>
                <lg change="#d2e82 #d2e223 #d2e228" xml:id="lg_12.d2e1352" xml:lang="ar">
                   <l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e1354" xml:lang="ar"> <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e1356" xml:lang="ar">آه من الحب لا رماك به الل</seg>
                      <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e1359" xml:lang="ar">هـ فإن المحب في سقر</seg> </l>
@@ -678,8 +678,8 @@
                </lg>
                <byline change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e1429" xml:lang="ar"><persName change="#d2e228 #d3e296 #d2e486" ref="oape:pers:1971" xml:id="persName_11.d2e1430" xml:lang="ar"><addName change="#d2e540" type="theophoric" xml:id="addName_5.d2e2202" xml:lang="ar">عبد الحليم</addName><addName change="#d2e540" type="nisbah" xml:id="addName_6.d2e2204" xml:lang="ar">المصري</addName></persName></byline>
             </tei:div>
-            <tei:div change="#d2e577" subtype="article" type="item">
-               <tei:head change="#d2e577">البنفسجة</tei:head>
+            <tei:div change="#d2e577 #d2e593 #d2e599" subtype="article" type="item" xml:id="div_12.d2e2354" xml:lang="ar">
+               <tei:head change="#d2e577 #d2e593 #d2e599" xml:id="head_13.d2e2356" xml:lang="ar">البنفسجة</tei:head>
                <lg change="#d2e82 #d2e223 #d2e228" xml:id="lg_13.d2e1436" xml:lang="ar">
                   <l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e1438" xml:lang="ar"> <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e1440" xml:lang="ar">لما أرادت ربة الأزهار أن</seg>
                      <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e1443" xml:lang="ar">تأتي الطبيعة بالأرق الألطف</seg> </l>
@@ -691,7 +691,7 @@
                   <l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e1474" xml:lang="ar"> <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e1476" xml:lang="ar">قالت إذا شئت المزيد فغطني</seg>
                      <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e1479" xml:lang="ar">يا أم بالوراق حتى اختفي</seg> </l>
                </lg>
-               <byline change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e1484" xml:lang="ar"><persName>طانيوس عبده</persName> </byline>
+               <byline change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e1484" xml:lang="ar"><persName change="#d2e593 #d2e599" xml:id="persName_22.d2e2408" xml:lang="ar">طانيوس عبده</persName> </byline>
             </tei:div>
          </div>
          <pb change="#d2e228" corresp="../epub/shamela_36534/OEBPS/xhtml/P1098.xhtml" ed="shamela" n="n2-p538" xml:id="pb_34.d2e1486"/>
@@ -708,7 +708,7 @@
             </lg>
             <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e1525" xml:lang="ar">ماسكاً بعنق رجل آخر وهو يقوده إلى دار القضاء ليفي الفلس الأخير، انظر هناك شخصين في مقتبل العمر متشابهي الملامح وأظنهما شقيقين. ولكن تفرس ففي يد الأكبر مدية يتعمد بها طعن أخيه. هناك رجلان يتخاصمان على بعض دريهمات لم يتفقا عليها، وهنا كهل جالس مع بغي ينظر إليها نظرة الظفر بعد أن قتل مزاحمه المضرج أمامه بدمائه. <pb change="#d2e228" corresp="../epub/shamela_36534/OEBPS/xhtml/P1100.xhtml" ed="shamela" n="n2-p540" xml:id="pb_36.d2e1527"/><pb change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_540" n="540" xml:id="pb_72.d2e1775"/> هيا إلى تلك البقعة السوداء تر جماعة كالأبالسة شكلاً يتآمرون على السرقة والفتك. هناك في تلك البناية الباسقة المتلألئة بالأنوار جماعة من الشبان يتناولون بأقداح بلورية سائلاً يقتل الشعور، ويميت الفضيلة. هذا ربح مال رفيقه حراماً بالميسر، وهذا خسر ما تملكه يده فانتحر. وهناك وراء البحار دخان متصاعد في الفضاء ورعود قاصفة وبروع لامعة وأشلاء متطايرة هناك نار الحرب شبها الطمع فذهبت بالأرواح والأموال ولم تبق ولم تذر. . .</p>
             <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e1530" xml:lang="ar">يا أهل سادوم وعامورة! إن السماء أزمعت أن تصب عليكم جام غضبها، فاقلعوا عن هذا الغرور فليس من إبراهيم يشفع بكم إلى الله. أو هل بينكم عشرة أبرار تتذرعون بهم لديه فتنجوا من عذاب اليم؟ أين نجد هؤلاء الصالحين؟ لا أدري، فتش معي أيها القارئ، فقد أعياني البحث والتنقيب، ولم أظفر بضالتي المنشودة.</p>
-            <byline change="#d2e198 #d2e223 #d2e228" xml:id="byline_8.d2e1536" xml:lang="ar"><placeName ref="geon:169577 oape:place:176" resp="#xslt" change="#d10e584">حمص</placeName> <persName change="#d3e209 #d2e223 #d2e228" ref="oape:pers:1354" xml:id="persName_12.d2e1537" xml:lang="ar">بدري فركوح</persName></byline>
+            <byline change="#d2e198 #d2e223 #d2e228" xml:id="byline_8.d2e1536" xml:lang="ar"><placeName ref="geon:169577 oape:place:176" resp="#xslt" change="#d10e584 #d2e593 #d2e599" xml:id="placeName_6.d2e2464" xml:lang="ar">حمص</placeName> <persName change="#d3e209 #d2e223 #d2e228" ref="oape:pers:1354" xml:id="persName_12.d2e1537" xml:lang="ar">بدري فركوح</persName></byline>
          </div>
          <div change="#d2e64 #d2e223 #d2e228" prev="oclc_1034545644-i_20.TEIP5.xml#div_1.d2e1852" subtype="article" type="item" xml:id="div_1.d2e1541" xml:lang="ar">
             <head change="#d2e223 #d2e228" xml:id="head_11.d2e1543" xml:lang="ar">محاكم الأحداث</head>
@@ -727,7 +727,7 @@
             <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e1595" xml:lang="ar">هذا وقد يبقى الواحد مع كل هذه الوسائط ميالاً إلى الشر لا يحيد عنه فيعسر طريق إصلاحه وهذا نادر شاذ ولا يقاس على الشواذ.</p>
             <byline change="#d2e223 #d2e228" xml:id="byline_9.d2e1598" xml:lang="ar"><persName change="#d2e223 #d2e228 #d9e519" ref="oape:pers:6714" xml:id="persName_13.d2e1599" xml:lang="ar">توفيق جريديني</persName></byline>
          </div>
-         <div change="#d2e64 #d2e223 #d2e228" subtype="article" type="item" xml:lang="ar">
+         <div change="#d2e64 #d2e223 #d2e228 #d2e593" subtype="article" type="item" xml:lang="ar" xml:id="div_15.d2e2537">
             <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e1602" xml:lang="ar">قالن <persName change="#d3e209 #d2e223 #d2e228 #d9e519" ref="viaf:89743196 oape:pers:185 wiki:Q1060637" xml:id="persName_14.d2e1604" xml:lang="ar"><addName change="#d2e540" type="nasab" xml:id="addName_7.d2e2388" xml:lang="ar"><nameLink change="#d2e540" xml:id="nameLink_1.d2e2389" xml:lang="ar">ابن</nameLink>المقفع</addName></persName>:</p>
             <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e1608" xml:lang="ar">ليس من خلة هي للغني مدح إلا هي للفقير عيب: فإن كان شجاعاً، سمي أهوج؛ وإن كان جوّاداً، سمي مفسداً، وإن كان حليماً، سمي ضعيفاً؛ وإن كان وقوراً، سمي بليداً، وإن كان لسناً، سمي مهذاراً؛ وإن كان صموتاً، سمي عيياً. </p>
          </div>
@@ -735,8 +735,8 @@
          <pb change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_545" n="545" xml:id="pb_82.d2e1864"/>
          <div change="#d2e64 #d2e223 #d2e228" type="section" xml:id="div_1.d2e1615" xml:lang="ar">
             <head change="#d2e223 #d2e228" xml:id="head_12.d2e1617" xml:lang="ar">ثمرات المطابع</head>
-            <tei:div change="#d2e577" subtype="article" type="item">
-               <tei:head change="#d2e577">المعلوم والمجهول</tei:head>
+            <tei:div change="#d2e577 #d2e593 #d2e599" subtype="article" type="item" xml:id="div_16.d2e2562" xml:lang="ar">
+               <tei:head change="#d2e577 #d2e593 #d2e599" xml:id="head_16.d2e2564" xml:lang="ar">المعلوم والمجهول</tei:head>
                <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e1623" xml:lang="ar">أصدر <persName change="#d3e209 #d2e223 #d2e228 #d9e519" ref="viaf:36771043 oape:pers:2834" xml:id="persName_15.d2e1625" xml:lang="ar"><forename change="#d2e540" xml:id="forename_12.d2e2412" xml:lang="ar"><addName change="#d2e540" type="khitab" xml:id="addName_8.d2e2413" xml:lang="ar">ولي الدين</addName></forename><roleName change="#d2e540" type="title" xml:id="roleName_3.d2e2415" xml:lang="ar">بك</roleName><surname change="#d2e540" xml:id="surname_12.d2e2417" xml:lang="ar">يكن</surname></persName> الجزء الثاني من كتابه المعلوم والمجهول في نحو ١٦٠ صفحة مطبوعة طبعاً جميلاً في مطبعة المعارف المشهورة ومزينة بصور بعض الذين ورد ذكرهم في الكتاب، وبرسوم الأماكن التي عرفها المؤلف إبان وجوده في المنفى. ولو كان <persName change="#d3e209 #d2e223 #d2e228 #d9e519" ref="viaf:36771043 oape:pers:2834" xml:id="persName_16.d2e1640" xml:lang="ar"><forename change="#d2e540" xml:id="forename_13.d2e2421" xml:lang="ar"><addName change="#d2e540" type="khitab" xml:id="addName_9.d2e2422" xml:lang="ar">ولي الدين</addName></forename><surname change="#d2e540" xml:id="surname_13.d2e2424" xml:lang="ar">يكن</surname></persName> من الأدباء الذين لا يكترث لهم، أو لو كان كتابه هذا من الكتب التي تهمل في زاويات المكاتب، لزدنا على ما قلناه الآن كلمة الثناء ثم وقفنا عند هذا الحد. ولكن الزهور لا تنظر إلى ما يهدى إليها من المبوعات نظرة التقريظ المبتذل فقط، ولا تكتفي بذكرها لمجرد الإعلان عنها ولاسيما متى كان الكتاب كتاب المعلوم والمجهول، والكتاب <persName change="#d3e209 #d2e223 #d2e228 #d9e519" ref="viaf:36771043 oape:pers:2834" xml:id="persName_17.d2e1652" xml:lang="ar"><forename change="#d2e540" xml:id="forename_14.d2e2428" xml:lang="ar"><addName change="#d2e540" type="khitab" xml:id="addName_10.d2e2429" xml:lang="ar">ولي الدين</addName></forename><surname change="#d2e540" xml:id="surname_14.d2e2431" xml:lang="ar">يكن</surname></persName>.</p>
                <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e1665" xml:lang="ar">طالعنا هذا الكتاب بما يستحقه من الإمعان والتدقيق فرأينا فيه أنموذجاً من السياسة العثمانية تجاه الأفراد العثمانيين في خلال ثلاثة وثلاثين عاماً من سلطنة السلطان عبد الحميد الثاني. بل هو تاريخ في شخص وليا لدين بك يكن لحياة الأحرار الذين اضطهدهم العهد العثماني الماضي. وفي رأينا لو أن كل واحد من أولئك الذين تمكن منهم عبد الحميد وحكومته، قرأ هذا الكتاب، لتوسم أنه يقرأ فيه تاريخ حياته الخاصة فما <pb change="#d2e228" corresp="../epub/shamela_36534/OEBPS/xhtml/P1106.xhtml" ed="shamela" n="n2-p546" xml:id="pb_42.d2e1667"/><pb change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_546" n="546" xml:id="pb_84.d2e1921"/> يختلف عليه سوى الأسماء والتواريخ. أما الوقائع والظروف فمتشابهة متماثلة، وأما الفظائع والمظالم فهي هي. فإذا كان ولي الدين قد كتب في المعلوم والمجهول تاريخ اضطهاد ونفيه فإنما وصف في شخصه شقاء <pb change="#d2e228" corresp="../epub/shamela_36534/OEBPS/xhtml/P1107.xhtml" ed="shamela" n="n2-p547" xml:id="pb_43.d2e1669"/><pb change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_547" n="547" xml:id="pb_86.d2e1924"/> إخوانه الذين ابتلوا بمثل بلواه، وقاسوا من الشدائد ما قاساه. ولولا أنه قد رأى هذا الرأي من قبل ما أقدم على كتابة المعلوم والمجهول فإن في أخلاقه من الدعة والتواضع ما يربأ به عن نشر هذا التاريخ لمجرد التباهي اليوم بما لقيه بالأمس، والافتخار بما نزل به من مظالم العهد الحميدي ولعله أشار إلى ذلك حيث قال:</p>
                <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e1672" xml:lang="ar">لا أبالي الثناء ولا أبالي الهجاء، وإنما أبالي أن يصدق فيّ أحدهما</p>
@@ -745,20 +745,20 @@
                <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e1682" xml:lang="ar">ولقد يقول قائل إن ولي الدين في شعره أسمى منه في نثره، فأرده حينئذ إلى المعلوم والمجهول فأريه ذلك الشاعر الرقيق الحساس، ناثراً ملء قلمه الفصاحة والبيان، وملء تعابيره البلاغة والإيجاز السليم، وملء وصفه للأشياء وللحوادث سلامة الذوق، ونزاهة الفن حتى لكأنه يكتب <pb change="#d2e228" corresp="../epub/shamela_36534/OEBPS/xhtml/P1108.xhtml" ed="shamela" n="n2-p549" xml:id="pb_44.d2e1684"/><pb change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_548" n="549" xml:id="pb_88.d2e1940"/> بريشة رافائيل فيصور العواطف تصويراً، ورسم المعاني رسماُ، وما الكاتب القدير إلا من استرق إليه النفوس، وملك قيادها فتلاعب بها ما شاء وما شاء له التفنن والإبداع، فصير قارئه أسيره وطوع إرادته يضحك لضحكه، ويغضب لغضبه. كذلك رأيت ولي الدين. فهو يرضيك ساعة الرضى ويستبكيك حين يبكي حتى تكاد تلمس دموعه لمس اليد، وتحس بناره تتأجج من خلال ألفاظه وهي تأكلها أكلاً. ولقد وقفت أنظر إليه وأتأمله في وداعه للأستانة يوم اكره على مغادرتها في الليل أسيراً منفياً، تاركاً أهله وولده، غير عالم إلى أين مصيره، وسمعته يتحسر على فروق ويتأوه على البوسفور، فخلت أني أسمع أنينه بأذني، وأرى شقاءه بعيني، وألمس جراحه بيدي. ورأيته وهو يكتب نثراً كأنه ينظم شعراً، بل رأيت في تفجعه الشعر الحقيقي مجرداً عن الوزن، طليقاً من القافية، فقلت في نفسي إنما هذا أرمياء آخر يبكي على أورشليم جديدة.</p>
                <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e1687" xml:lang="ar">فإلى الأدباء كتاب المعلوم والمجهول فهو من خير ما تحتويه المكاتب، ومن أنفس ما يخلد فيها من نفائس المطبوعات في هذه الأيام. وجزى الله كاتبه خير الجزاء وعفا عنه.</p>
             </tei:div>
-            <tei:div change="#d2e577" subtype="article" type="item">
-               <tei:head change="#d2e577">نعمان خوري قنصل فرنسا</tei:head>
+            <tei:div change="#d2e577 #d2e593 #d2e599" subtype="article" type="item" xml:id="div_16.d2e2622" xml:lang="ar">
+               <tei:head change="#d2e577 #d2e593 #d2e599" xml:id="head_16.d2e2624" xml:lang="ar">نعمان خوري قنصل فرنسا</tei:head>
                <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e1693" xml:lang="ar">هو اسم رجل عرفه وعرف مآثره الطيبة أبناء الشرق والغرب فقد ولد في بكاسين من أعمال لبنان ودرس اللغات العربية والتركية والفرنسوية والإنكليزية في بيروت فنبغ فيها ولم يلبث أن سافر إلى عاصمة الفرنسيس <pb change="#d2e228" corresp="../epub/shamela_36534/OEBPS/xhtml/P1109.xhtml" ed="shamela" n="n2-p550" xml:id="pb_45.d2e1695"/><pb change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_549" n="550" xml:id="pb_90.d2e1952"/> حيث ساعد في تحرير مجلة سياسية كان يديرها</p>
                <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e1699" xml:lang="ar">السياسي الكبير مسيو ليون غامبتا فتمكن من إظهار صفاته الممتازة فعينه الحكومة الفرنسوية موظفاً في البلاد التونسية فكان ذلك بداية عهده في السلك السياسي. وظل صاعداً في معارج الترقي حتى عين <date calendar="#cal_gregorian" cert="low" change="#d3e460 #d2e477" resp="#xslt" when="1894" xml:id="date_5.d2e2411" xml:lang="ar">سنة ١٨٩٤</date> ترجماناً وقنشلياراً لقنصلية فرنسا في القاهرة ورقي بعد سنتين إلى درجة فيس قنصل وبعد أن عهدت إليه حكومته بمهمة خصوصية في بلاد الحبشة سمي قنصلاً في سيواس فعدن فجدة فحرر (في الحبشة) فالصويرة (مغادور). وفي <date calendar="#cal_gregorian" cert="low" change="#d3e460 #d2e477" resp="#xslt" when="1910" xml:id="date_6.d2e2414" xml:lang="ar">سنة ١٩١٠</date> رأت الحكومة الفرنسوية أن ترقيه إلى رتبة قنصل من الدرجة الأولى. وكان في جميع هذه الوظائف التي تقلدها موضوع ثقة حكومته وإعجاب رؤسائها. وفي <date calendar="#cal_gregorian" cert="low" change="#d3e460 #d2e477" resp="#xslt" when="0191-08-15" xml:id="date_7.d2e2417" xml:lang="ar">١٥ أغسطس سنة ١٩١</date> عاجلته المنية في ميدان عمله فراح شهيد الواجب. وقد رأى حضرة المسيو جان ريفول أن ينشر مآثار هذا الفقيد الكريم فطبع ترجمة حياته المملوءة بالأعمال المجيدة. وكأنه أبى أن يكيل له المدح جزافاً فشفع هذه الترجمة بخطابات التعيين التي كان يتلقاها الفقيد في وظائفه من أساطين السياسة - كفليكس فور وهانوتو ودلكاسه - وبمكاتيب وتلغرافات التعازي التي وردت بعد وفاته. يلي ذلك تآبين رجال السياسة له وخصوصاً تأبين مسيو بيشون وزير خارجية فرنسا الأسبق، وأقوال <pb change="#d2e228" corresp="../epub/shamela_36534/OEBPS/xhtml/P1110.xhtml" ed="shamela" n="n2-p551" xml:id="pb_46.d2e1713"/><pb change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_550" n="551" xml:id="pb_92.d2e1974"/> أمهات الجرائد الفرنسوية. وكلها تشهد للفقيد بحرية الفكر وأصالة الرأي وطيب السريرة والثبات في العمل. طالعنا كل ذلك في كتاب مسيو ريفول فرأينا كيف يقدر الرجالُ الرجال، وكيف يكون الناس بالأعمال. فنشكر الكاتب على كتابه ونكرر تعزية آل الفقيد ولاسيما حضرة شقيقه مسيو نجيب خوري الموظف بالحكومة التونسية وابن عمه سليم أفندي الخوري الموظف في نظارة الداخلية المصرية. وننشر رسماً للفقيد أخذناه عن <bibl change="#d9e452 #d2e477 #d2e486" resp="#xslt" subtype="journal" type="periodical" xml:id="bibl_2.d2e2423" xml:lang="ar">مجلة <title change="#d9e452 #d2e477 #d2e486 #d9e488" level="j" ref="oape:bibl:107" resp="#xslt" xml:id="title_8.d2e2425" xml:lang="ar">الالوستراسيون</title></bibl> وهو يمثله بملابس المكتب.</p>
             </tei:div>
          </div>
          <div change="#d2e64 #d2e223 #d2e228" type="section" xml:id="div_1.d2e1721" xml:lang="ar">
             <head change="#d2e223 #d2e228" xml:id="head_13.d2e1723" xml:lang="ar">أزهار وأشواك</head>
-            <tei:div change="#d2e577" subtype="article" type="item">
-               <tei:head change="#d2e577">باب للرزق</tei:head>
+            <tei:div change="#d2e577 #d2e593 #d2e599" subtype="article" type="item" xml:id="div_17.d2e2660" xml:lang="ar">
+               <tei:head change="#d2e577 #d2e593 #d2e599" xml:id="head_17.d2e2662" xml:lang="ar">باب للرزق</tei:head>
                <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e1729" xml:lang="ar">أصبح غلاء المعيشة فاحشاً وصارت أبواب الرزق أضيق من سم الإبرة. والناس عاملون جادون لاستنباط حيلة أو لإيجاد وسيلة تفتح بوجههم باب الفرج وهم لا يجدون. مرة واحدة في حياتي أريد أن أكون اقتصادياً لعلي أصيب بعض النجاح فينجح معي من يقبل على مشترى أسهم مشروعي. ولا تزيدني التفاليس المالية الكثيرة في هذه الأيام إلا إقداماً. وإليك هذا المشروع الغريب الذي تنازل لي عن امتيازه أحد الأمريكان: نهتم بتربية القطط فنجمع منها مليوناً. وكل قطة تلد في السنة ١٢ وجلد القطعة البيضاء يساوي ٥ بنسات وجلد السوداء ٣ شلنات فيمكنا أن نقدر ثمناً متوسطاً لكل جلد شلناً و ٣ بنسات. وهكذا يتوفر <pb change="#d2e228" corresp="../epub/shamela_36534/OEBPS/xhtml/P1111.xhtml" ed="shamela" n="n2-p552" xml:id="pb_47.d2e1743"/><pb change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_551" n="552" xml:id="pb_94.d2e2006"/> لدينا في السنة ١٢ مليون جلد يبلغ معدل الدخل من بيعها ألفي جنيه إنجليزي في اليوم. هذا من حيث الإيراد أما من حيث النفقات فإن العامل الذي يتقاضى أجرة يومية ٨ شلنات يقدر أن يسلخ ٥٠ قطة في اليوم. وهذا المشروع يحتاج إلى ألف عامل فيكون صافي الإيراد اليومي بعد دفع أجرة العمال ألف جنيه. بقيت مسألة تغذية هذه الحيوانات. وسنحلها بتربية الجرذان قرب القطط. ومن المعروف أن الجرذان تتناسل أربع مرات أكثر من القطط، فيكون عندنا أربعة جرذان لكل قطة وفي ذلك كفاية. أما الجرذان فنغذيها من جثث القطط بعد سلخها. وهكذا تأكل الجرذان القطط وتأكل القطط الجرذان ونأكل نحن الجلود - أعني الأرباح الناتجة من بيعها - وقدرها ألف جنيه في اليوم. فما قول أصحاب الرأسمال في هذا المشروع؟ هم يضحكون مني ومن مشروعي وأنا أضحك معهم. ولكن قد مرت أيام على القطر المصري كان يكفي فيها أن تتصور المخيلة مثل هذه الألاعيب المالية لتتسرب الأموال الطائلة إلى جيوب مخترعيها. وما العهد ببعيد. وما تفاليس اليوم إلا معلولات تلك العلل. .</p>
             </tei:div>
-            <tei:div change="#d2e577" subtype="article" type="item">
-               <tei:head change="#d2e577">قلب من ذهب</tei:head>
+            <tei:div change="#d2e577 #d2e593 #d2e599" subtype="article" type="item" xml:id="div_17.d2e2672" xml:lang="ar">
+               <tei:head change="#d2e577 #d2e593 #d2e599" xml:id="head_17.d2e2674" xml:lang="ar">قلب من ذهب</tei:head>
                <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e1759" xml:lang="ar">أهدى صديقي حسون الذي يعرفه قراء الزهور قلباً من ذهب إلى إحدى السيدات، وأرفق القلب بأبيات جميلة أطلعني عليها. هديته الذهبية كانت للسيدة؛ أما هديته الشعرية فإنها لها وللقراء، وهي: <pb change="#d2e228" corresp="../epub/shamela_36534/OEBPS/xhtml/P1112.xhtml" ed="shamela" n="n2-p553" xml:id="pb_48.d2e1761"/><pb change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_552" n="553" xml:id="pb_96.d2e2026"/> يا ليت قلبي معدن مثل الذي <gap change="#d2e228" resp="#org_MS" xml:id="gap_1.d2e1763"/> أهديته لا يعرف الخفقانا</p>
                <lg change="#d2e82 #d2e223 #d2e228" xml:id="lg_15.d2e1767" xml:lang="ar">
                   <l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e1769" xml:lang="ar"> <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e1771" xml:lang="ar">لصبرت فيك وأنت أظلم ظالم</seg>
@@ -772,7 +772,7 @@
                   <l change="#d2e82 #d2e223 #d2e228" type="bayt" xml:id="l_1.d2e1805" xml:lang="ar"> <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e1807" xml:lang="ar">أو كان لا يرضيك إلا دامياً</seg>
                      <seg change="#d2e223 #d2e228" xml:id="seg_1.d2e1810" xml:lang="ar">ليت الذي ما بيننا ما كانا</seg> </l>
                </lg>
-               <byline change="#d2e577">حاصد</byline>
+               <byline change="#d2e577 #d2e593 #d2e599" xml:id="byline_17.d2e2733" xml:lang="ar">حاصد</byline>
             </tei:div>
          </div>
          <div change="#d2e64 #d2e223 #d2e228" subtype="article" type="item" xml:id="div_1.d2e1819" xml:lang="ar">
@@ -790,7 +790,7 @@
          <pb change="#d2e269 #d2e279 #d2e145" ed="print" edRef="#edition_1" facs="#facs_553" n="554" xml:id="pb_98.d2e2119"/>
          <div change="#d2e64 #d2e223 #d2e228" subtype="article" type="item" xml:id="div_1.d2e1857" xml:lang="ar">
             <head change="#d2e223 #d2e228" xml:id="head_15.d2e1859" xml:lang="ar">ختام السنة الثانية</head>
-            <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e1862" xml:lang="ar">تختتم <bibl type="periodical"><title level="j">الزهور</title></bibl> بهذا الجزء سنتها الثانية شاكرةً للقراء إقبالهم عليها ولأدباء اللغة العربية تعضيدهم لها بنفثات أقلامهم، حتى لقد جاءت مجموعتها الثانية، كمجموعتها الأولى، معرضاً لخير ما جادت به قرائح المشاهير من كتاب العصر، فقد بلغ عدد الذين راسلوها في هذه السنة وحدها سبعين كاتباً وشاعراً. على أننا نرغب إلى قرائنا في أن يوافونا بما يرونه من عوامل التحسين، فالزهور إنما هي لهم ومنهم. <pb change="#d2e228" corresp="../epub/shamela_36534/OEBPS/xhtml/P1114.xhtml" ed="shamela" n="n3-p3" xml:id="pb_50.d2e1864"/></p>
+            <p change="#d2e73 #d2e223 #d2e228" xml:id="p_2.d2e1862" xml:lang="ar">تختتم <bibl type="periodical" change="#d2e593 #d2e599" xml:id="bibl_9.d2e2878" xml:lang="ar"><title level="j" change="#d2e593 #d2e599" xml:id="title_16.d2e2879" xml:lang="ar">الزهور</title></bibl> بهذا الجزء سنتها الثانية شاكرةً للقراء إقبالهم عليها ولأدباء اللغة العربية تعضيدهم لها بنفثات أقلامهم، حتى لقد جاءت مجموعتها الثانية، كمجموعتها الأولى، معرضاً لخير ما جادت به قرائح المشاهير من كتاب العصر، فقد بلغ عدد الذين راسلوها في هذه السنة وحدها سبعين كاتباً وشاعراً. على أننا نرغب إلى قرائنا في أن يوافونا بما يرونه من عوامل التحسين، فالزهور إنما هي لهم ومنهم. <pb change="#d2e228" corresp="../epub/shamela_36534/OEBPS/xhtml/P1114.xhtml" ed="shamela" n="n3-p3" xml:id="pb_50.d2e1864"/></p>
          </div>
       </body>
    </text>
