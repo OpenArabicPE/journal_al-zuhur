@@ -22,7 +22,7 @@
                xml:lang="ar"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
-            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <namePart type="given" xml:lang="ar">انطوان</namePart>
             <role>
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
@@ -34,7 +34,6 @@
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <publisher xml:lang="ar">مطبعة المعارف</publisher>
-            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
             <dateIssued encoding="w3cdtf">1912-05-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
@@ -60,12 +59,12 @@
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e254</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e254</url>
+         <identifier type="url">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e254</identifier>
+         <identifier type="url">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e254</identifier>
       </location>
       <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+         <languageTerm authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"
+                       type="code">ar</languageTerm>
       </language>
    </mods>
    <mods>
@@ -75,7 +74,7 @@
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
-      <name type="personal" xml:lang="ar">
+      <name type="personal" xml:lang="ar" valueURI="oape:pers:5045">
          <namePart>اسكندر عمون</namePart>
          <role>
             <roleTerm authority="marcrelator" type="code">aut</roleTerm>
@@ -91,7 +90,7 @@
                xml:lang="ar"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
-            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <namePart type="given" xml:lang="ar">انطوان</namePart>
             <role>
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
@@ -103,7 +102,6 @@
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <publisher xml:lang="ar">مطبعة المعارف</publisher>
-            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
             <dateIssued encoding="w3cdtf">1912-05-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
@@ -129,17 +127,17 @@
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e373</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e373</url>
+         <identifier type="url">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e373</identifier>
+         <identifier type="url">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e373</identifier>
       </location>
       <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+         <languageTerm authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"
+                       type="code">ar</languageTerm>
       </language>
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="ar">رسائل غرام</title>
+         <title xml:lang="ar">رسائل غرام بين شهيرات ورجال عظام</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -154,7 +152,7 @@
                xml:lang="ar"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
-            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <namePart type="given" xml:lang="ar">انطوان</namePart>
             <role>
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
@@ -166,7 +164,6 @@
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <publisher xml:lang="ar">مطبعة المعارف</publisher>
-            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
             <dateIssued encoding="w3cdtf">1912-05-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
@@ -192,12 +189,74 @@
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e693</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e693</url>
+         <identifier type="url">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e693</identifier>
+         <identifier type="url">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e693</identifier>
       </location>
       <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+         <languageTerm authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"
+                       type="code">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title xml:lang="ar">رسائل غرام بين شهيرات ورجال عظام:</title>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local" xml:lang="en">journalArticle</genre>
+      <genre authority="marcgt" xml:lang="en">article</genre>
+      <relatedItem type="host">
+         <titleInfo>
+            <title xml:lang="ar">الزهور</title>
+            <subTitle xml:lang="ar">مجلة أدبية فنية علمية</subTitle>
+         </titleInfo>
+         <genre authority="marcgt">journal</genre>
+         <name type="personal"
+               xml:lang="ar"
+               valueURI="https://viaf.org/viaf/305214858">
+            <namePart type="family" xml:lang="ar">الجميل</namePart>
+            <namePart type="given" xml:lang="ar">انطوان</namePart>
+            <role>
+               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+            </role>
+         </name>
+         <originInfo>
+            <place>
+               <placeTerm type="text"
+                          xml:lang="ar"
+                          valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
+            </place>
+            <publisher xml:lang="ar">مطبعة المعارف</publisher>
+            <dateIssued encoding="w3cdtf">1912-05-01</dateIssued>
+            <issuance>continuing</issuance>
+         </originInfo>
+         <part>
+            <detail type="volume">
+               <number>3</number>
+            </detail>
+            <detail type="issue">
+               <number>3</number>
+            </detail>
+            <extent unit="pages">
+               <start>137</start>
+               <end>140</end>
+            </extent>
+         </part>
+         <identifier type="BibTeX">oclc_1034545644-i_24-div_4.d2e1258</identifier>
+         <identifier type="oape">3</identifier>
+         <identifier type="jid">40</identifier>
+         <identifier type="OCLC">1034545644</identifier>
+         <identifier type="URI">http://waqfeya.com/book.php?bid=6507</identifier>
+         <identifier type="URI">http://shamela.ws/index.php/book/36534</identifier>
+         <identifier type="URI">oclc_1034545644-i_24</identifier>
+      </relatedItem>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
+      <location>
+         <identifier type="url">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_24.TEIP5.xml#div_4.d2e1258</identifier>
+         <identifier type="url">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_24.TEIP5.xml#div_4.d2e1258</identifier>
+      </location>
+      <language>
+         <languageTerm authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"
+                       type="code">ar</languageTerm>
       </language>
    </mods>
    <mods>
@@ -207,8 +266,9 @@
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
-      <name type="personal" xml:lang="ar">
-         <namePart>إلياس الحويّك</namePart>
+      <name type="personal" xml:lang="ar" valueURI="oape:pers:5019">
+         <namePart type="family" xml:lang="ar">الحويك</namePart>
+         <namePart type="given" xml:lang="ar">الياس</namePart>
          <role>
             <roleTerm authority="marcrelator" type="code">aut</roleTerm>
          </role>
@@ -223,7 +283,7 @@
                xml:lang="ar"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
-            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <namePart type="given" xml:lang="ar">انطوان</namePart>
             <role>
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
@@ -235,7 +295,6 @@
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <publisher xml:lang="ar">مطبعة المعارف</publisher>
-            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
             <dateIssued encoding="w3cdtf">1912-05-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
@@ -261,12 +320,12 @@
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e741</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e741</url>
+         <identifier type="url">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e741</identifier>
+         <identifier type="url">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e741</identifier>
       </location>
       <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+         <languageTerm authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"
+                       type="code">ar</languageTerm>
       </language>
    </mods>
    <mods>
@@ -320,7 +379,7 @@
                xml:lang="ar"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
-            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <namePart type="given" xml:lang="ar">انطوان</namePart>
             <role>
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
@@ -332,7 +391,6 @@
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <publisher xml:lang="ar">مطبعة المعارف</publisher>
-            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
             <dateIssued encoding="w3cdtf">1912-05-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
@@ -358,12 +416,12 @@
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e797</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e797</url>
+         <identifier type="url">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e797</identifier>
+         <identifier type="url">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e797</identifier>
       </location>
       <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+         <languageTerm authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"
+                       type="code">ar</languageTerm>
       </language>
    </mods>
    <mods>
@@ -392,7 +450,7 @@
                xml:lang="ar"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
-            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <namePart type="given" xml:lang="ar">انطوان</namePart>
             <role>
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
@@ -404,7 +462,6 @@
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <publisher xml:lang="ar">مطبعة المعارف</publisher>
-            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
             <dateIssued encoding="w3cdtf">1912-05-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
@@ -430,12 +487,12 @@
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e1752</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e1752</url>
+         <identifier type="url">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e1752</identifier>
+         <identifier type="url">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e1752</identifier>
       </location>
       <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+         <languageTerm authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"
+                       type="code">ar</languageTerm>
       </language>
    </mods>
    <mods>
@@ -455,7 +512,7 @@
                xml:lang="ar"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
-            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <namePart type="given" xml:lang="ar">انطوان</namePart>
             <role>
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
@@ -467,7 +524,6 @@
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <publisher xml:lang="ar">مطبعة المعارف</publisher>
-            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
             <dateIssued encoding="w3cdtf">1912-05-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
@@ -493,12 +549,12 @@
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e1810</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e1810</url>
+         <identifier type="url">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e1810</identifier>
+         <identifier type="url">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e1810</identifier>
       </location>
       <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+         <languageTerm authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"
+                       type="code">ar</languageTerm>
       </language>
    </mods>
    <mods>
@@ -508,7 +564,7 @@
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
-      <name type="personal" xml:lang="ar">
+      <name type="personal" xml:lang="ar" valueURI="oape:pers:6705">
          <namePart>الدكتور محمد عبد الحميد</namePart>
          <role>
             <roleTerm authority="marcrelator" type="code">aut</roleTerm>
@@ -524,7 +580,7 @@
                xml:lang="ar"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
-            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <namePart type="given" xml:lang="ar">انطوان</namePart>
             <role>
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
@@ -536,7 +592,6 @@
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <publisher xml:lang="ar">مطبعة المعارف</publisher>
-            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
             <dateIssued encoding="w3cdtf">1912-05-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
@@ -562,12 +617,12 @@
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e1821</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e1821</url>
+         <identifier type="url">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e1821</identifier>
+         <identifier type="url">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e1821</identifier>
       </location>
       <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+         <languageTerm authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"
+                       type="code">ar</languageTerm>
       </language>
    </mods>
    <mods>
@@ -587,7 +642,7 @@
                xml:lang="ar"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
-            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <namePart type="given" xml:lang="ar">انطوان</namePart>
             <role>
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
@@ -599,7 +654,6 @@
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <publisher xml:lang="ar">مطبعة المعارف</publisher>
-            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
             <dateIssued encoding="w3cdtf">1912-05-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
@@ -625,12 +679,12 @@
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e1871</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e1871</url>
+         <identifier type="url">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e1871</identifier>
+         <identifier type="url">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e1871</identifier>
       </location>
       <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+         <languageTerm authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"
+                       type="code">ar</languageTerm>
       </language>
    </mods>
    <mods>
@@ -659,7 +713,7 @@
                xml:lang="ar"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
-            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <namePart type="given" xml:lang="ar">انطوان</namePart>
             <role>
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
@@ -671,7 +725,6 @@
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <publisher xml:lang="ar">مطبعة المعارف</publisher>
-            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
             <dateIssued encoding="w3cdtf">1912-05-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
@@ -697,12 +750,12 @@
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e1882</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e1882</url>
+         <identifier type="url">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e1882</identifier>
+         <identifier type="url">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e1882</identifier>
       </location>
       <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+         <languageTerm authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"
+                       type="code">ar</languageTerm>
       </language>
    </mods>
    <mods>
@@ -722,7 +775,7 @@
                xml:lang="ar"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
-            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <namePart type="given" xml:lang="ar">انطوان</namePart>
             <role>
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
@@ -734,7 +787,6 @@
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <publisher xml:lang="ar">مطبعة المعارف</publisher>
-            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
             <dateIssued encoding="w3cdtf">1912-05-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
@@ -760,12 +812,12 @@
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e1910</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e1910</url>
+         <identifier type="url">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e1910</identifier>
+         <identifier type="url">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e1910</identifier>
       </location>
       <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+         <languageTerm authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"
+                       type="code">ar</languageTerm>
       </language>
    </mods>
    <mods>
@@ -775,8 +827,8 @@
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
-      <name type="personal" xml:lang="ar">
-         <namePart>عباس المصفى</namePart>
+      <name type="personal" xml:lang="ar" valueURI="oape:pers:6733">
+         <namePart type="family" xml:lang="ar">المصفى</namePart>
          <role>
             <roleTerm authority="marcrelator" type="code">aut</roleTerm>
          </role>
@@ -791,7 +843,7 @@
                xml:lang="ar"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
-            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <namePart type="given" xml:lang="ar">انطوان</namePart>
             <role>
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
@@ -803,7 +855,6 @@
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <publisher xml:lang="ar">مطبعة المعارف</publisher>
-            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
             <dateIssued encoding="w3cdtf">1912-05-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
@@ -829,12 +880,12 @@
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e1955</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e1955</url>
+         <identifier type="url">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e1955</identifier>
+         <identifier type="url">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e1955</identifier>
       </location>
       <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+         <languageTerm authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"
+                       type="code">ar</languageTerm>
       </language>
    </mods>
    <mods>
@@ -854,7 +905,7 @@
                xml:lang="ar"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
-            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <namePart type="given" xml:lang="ar">انطوان</namePart>
             <role>
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
@@ -866,7 +917,6 @@
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <publisher xml:lang="ar">مطبعة المعارف</publisher>
-            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
             <dateIssued encoding="w3cdtf">1912-05-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
@@ -892,12 +942,12 @@
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e2086</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e2086</url>
+         <identifier type="url">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e2086</identifier>
+         <identifier type="url">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e2086</identifier>
       </location>
       <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+         <languageTerm authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"
+                       type="code">ar</languageTerm>
       </language>
    </mods>
    <mods>
@@ -917,7 +967,7 @@
                xml:lang="ar"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
-            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <namePart type="given" xml:lang="ar">انطوان</namePart>
             <role>
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
@@ -929,7 +979,6 @@
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <publisher xml:lang="ar">مطبعة المعارف</publisher>
-            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
             <dateIssued encoding="w3cdtf">1912-05-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
@@ -955,12 +1004,12 @@
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e2129</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e2129</url>
+         <identifier type="url">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e2129</identifier>
+         <identifier type="url">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e2129</identifier>
       </location>
       <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+         <languageTerm authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"
+                       type="code">ar</languageTerm>
       </language>
    </mods>
    <mods>
@@ -980,7 +1029,7 @@
                xml:lang="ar"
                valueURI="https://viaf.org/viaf/305214858">
             <namePart type="family" xml:lang="ar">الجميل</namePart>
-            <namePart type="given" xml:lang="ar">أنطوان</namePart>
+            <namePart type="given" xml:lang="ar">انطوان</namePart>
             <role>
                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
             </role>
@@ -992,7 +1041,6 @@
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <publisher xml:lang="ar">مطبعة المعارف</publisher>
-            <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿat al-Maʿārif</publisher>
             <dateIssued encoding="w3cdtf">1912-05-01</dateIssued>
             <issuance>continuing</issuance>
          </originInfo>
@@ -1018,12 +1066,12 @@
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e2141</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e2141</url>
+         <identifier type="url">https://github.com/openarabicpe/journal_al-zuhur/blob/master/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e2141</identifier>
+         <identifier type="url">https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_24.TEIP5.xml#div_1.d2e2141</identifier>
       </location>
       <language>
-         <languageTerm type="code"
-                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+         <languageTerm authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"
+                       type="code">ar</languageTerm>
       </language>
    </mods>
 </modsCollection>
