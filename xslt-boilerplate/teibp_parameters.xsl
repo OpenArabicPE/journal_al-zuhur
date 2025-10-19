@@ -46,12 +46,14 @@
     <!-- toggle the width of the columns. If set to true(), the facsimiles will take up most of the available space -->
     <xsl:param name="p_facsimile-only" select="false()"/>
 
-    <!-- link authority files -->
+    <!-- link authority files: relative links are fine as long as they are valid on the server -->
     <!-- <xsl:param name="p_bibliography" select="document('https://openarabicpe.github.io/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml')"/> -->
     <xsl:param name="p_bibliography" select="document('../../../authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml')"/>
-<!--     <xsl:param name="p_gazetteer" select="document('https://openarabicpe.github.io/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml')"/> -->
+    <!-- <xsl:param name="p_gazetteer" select="document('https://openarabicpe.github.io/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml')"/> -->
     <xsl:param name="p_gazetteer" select="document('../../../authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml')"/>
+    <!-- <xsl:param name="p_personography" select="document('https://openarabicpe.github.io/authority-files/data/tei/personography_OpenArabicPE.TEIP5.xml')"/> -->
     <xsl:param name="p_personography" select="document('../../../authority-files/data/tei/personography_OpenArabicPE.TEIP5.xml')"/>
+    <!-- <xsl:param name="p_organizationography" select="document('https://openarabicpe.github.io/authority-files/data/tei/organizationography_OpenArabicPE.TEIP5.xml')"/> -->
     <xsl:param name="p_organizationography" select="document('../../../authority-files/data/tei/organizationography_OpenArabicPE.TEIP5.xml')"/>
 
     <!-- original TEI Boilerplate stuff -->
